@@ -1,0 +1,1764 @@
+[
+  {
+    "De Baca": {
+      "COUNTYFP": "011",
+      "name": "De Baca",
+      "bbox": {
+        "minLon": -104.893377,
+        "minLat": 33.995413,
+        "maxLon": -103.945327,
+        "maxLat": 34.779516
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91110",
+          "name": "East De Baca",
+          "bbox": {
+            "minLon": -104.567387,
+            "minLat": 33.995413,
+            "maxLon": -103.945327,
+            "maxLat": 34.779516
+          }
+        },
+        {
+          "COUSUBFP": "93750",
+          "name": "West De Baca",
+          "bbox": {
+            "minLon": -104.893377,
+            "minLat": 33.997566,
+            "maxLon": -104.247937,
+            "maxLat": 34.692154
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Otero": {
+      "COUNTYFP": "035",
+      "name": "Otero",
+      "bbox": {
+        "minLon": -106.377492,
+        "minLat": 32.000191,
+        "maxLon": -104.847637,
+        "maxLat": 33.390719
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93120",
+          "name": "Southeast Otero",
+          "bbox": {
+            "minLon": -106.377492,
+            "minLat": 32.000191,
+            "maxLon": -104.847637,
+            "maxLat": 33.034329
+          }
+        },
+        {
+          "COUSUBFP": "90030",
+          "name": "Alamogordo",
+          "bbox": {
+            "minLon": -106.376946,
+            "minLat": 32.364471,
+            "maxLon": -105.820163,
+            "maxLat": 33.026066
+          }
+        },
+        {
+          "COUSUBFP": "92040",
+          "name": "Mescalero",
+          "bbox": {
+            "minLon": -105.931778,
+            "minLat": 32.992327,
+            "maxLon": -105.316224,
+            "maxLat": 33.390719
+          }
+        },
+        {
+          "COUSUBFP": "93570",
+          "name": "Tularosa",
+          "bbox": {
+            "minLon": -106.376585,
+            "minLat": 32.880716,
+            "maxLon": -105.825095,
+            "maxLat": 33.390595
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Catron": {
+      "COUNTYFP": "003",
+      "name": "Catron",
+      "bbox": {
+        "minLon": -109.047578,
+        "minLat": 33.200873,
+        "maxLon": -107.711401,
+        "maxLat": 34.58027
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92580",
+          "name": "Reserve",
+          "bbox": {
+            "minLon": -109.047578,
+            "minLat": 33.200873,
+            "maxLon": -108.208388,
+            "maxLat": 34.090053
+          }
+        },
+        {
+          "COUSUBFP": "92460",
+          "name": "Quemado",
+          "bbox": {
+            "minLon": -109.047006,
+            "minLat": 33.200967,
+            "maxLon": -107.711401,
+            "maxLat": 34.58027
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Union": {
+      "COUNTYFP": "059",
+      "name": "Union",
+      "bbox": {
+        "minLon": -104.009342,
+        "minLat": 35.739433,
+        "maxLon": -103.002043,
+        "maxLat": 37.000196
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90660",
+          "name": "Clayton North",
+          "bbox": {
+            "minLon": -104.009342,
+            "minLat": 36.301092,
+            "maxLon": -103.002043,
+            "maxLat": 37.000196
+          }
+        },
+        {
+          "COUSUBFP": "90690",
+          "name": "Clayton South",
+          "bbox": {
+            "minLon": -104.008894,
+            "minLat": 35.739433,
+            "maxLon": -103.040863,
+            "maxLat": 36.50036
+          }
+        }
+      ]
+    }
+  },
+  {
+    "San Miguel": {
+      "COUNTYFP": "047",
+      "name": "San Miguel",
+      "bbox": {
+        "minLon": -105.722205,
+        "minLat": 35.041605,
+        "maxLon": -103.637026,
+        "maxLat": 35.871194
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92310",
+          "name": "Pecos",
+          "bbox": {
+            "minLon": -105.722205,
+            "minLat": 35.39215,
+            "maxLon": -105.22502,
+            "maxLat": 35.871194
+          }
+        },
+        {
+          "COUSUBFP": "91770",
+          "name": "Las Vegas",
+          "bbox": {
+            "minLon": -105.548277,
+            "minLat": 35.216291,
+            "maxLon": -104.630775,
+            "maxLat": 35.870721
+          }
+        },
+        {
+          "COUSUBFP": "93690",
+          "name": "Villanueva",
+          "bbox": {
+            "minLon": -105.718151,
+            "minLat": 35.041605,
+            "maxLon": -105.273169,
+            "maxLat": 35.553264
+          }
+        },
+        {
+          "COUSUBFP": "90750",
+          "name": "Conchas Dam",
+          "bbox": {
+            "minLon": -104.427938,
+            "minLat": 35.142058,
+            "maxLon": -103.637026,
+            "maxLat": 35.801747
+          }
+        },
+        {
+          "COUSUBFP": "93420",
+          "name": "Trementina",
+          "bbox": {
+            "minLon": -104.91197,
+            "minLat": 35.216042,
+            "maxLon": -104.1937,
+            "maxLat": 35.78371
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Taos": {
+      "COUNTYFP": "055",
+      "name": "Taos",
+      "bbox": {
+        "minLon": -106.058364,
+        "minLat": 36.013014,
+        "maxLon": -105.200117,
+        "maxLat": 36.99592
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92340",
+          "name": "Pe\u00c3\u00b1asco",
+          "bbox": {
+            "minLon": -105.856124,
+            "minLat": 36.013014,
+            "maxLon": -105.419992,
+            "maxLat": 36.32069
+          }
+        },
+        {
+          "COUSUBFP": "92490",
+          "name": "Questa",
+          "bbox": {
+            "minLon": -105.738081,
+            "minLat": 36.529115,
+            "maxLon": -105.200117,
+            "maxLat": 36.99592
+          }
+        },
+        {
+          "COUSUBFP": "90120",
+          "name": "Arroyo Hondo",
+          "bbox": {
+            "minLon": -105.710698,
+            "minLat": 36.45497,
+            "maxLon": -105.414122,
+            "maxLat": 36.693158
+          }
+        },
+        {
+          "COUSUBFP": "92370",
+          "name": "Picuris",
+          "bbox": {
+            "minLon": -105.756427,
+            "minLat": 36.161931,
+            "maxLon": -105.662565,
+            "maxLat": 36.238605
+          }
+        },
+        {
+          "COUSUBFP": "93450",
+          "name": "Tres Piedras",
+          "bbox": {
+            "minLon": -106.058364,
+            "minLat": 36.229571,
+            "maxLon": -105.670372,
+            "maxLat": 36.995841
+          }
+        },
+        {
+          "COUSUBFP": "93330",
+          "name": "Taos Pueblo",
+          "bbox": {
+            "minLon": -105.612522,
+            "minLat": 36.399231,
+            "maxLon": -105.318718,
+            "maxLat": 36.552295
+          }
+        },
+        {
+          "COUSUBFP": "93300",
+          "name": "Taos",
+          "bbox": {
+            "minLon": -105.753401,
+            "minLat": 36.138072,
+            "maxLon": -105.325115,
+            "maxLat": 36.533356
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Grant": {
+      "COUNTYFP": "017",
+      "name": "Grant",
+      "bbox": {
+        "minLon": -109.047843,
+        "minLat": 31.863614,
+        "maxLon": -107.608485,
+        "maxLat": 33.209346
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91560",
+          "name": "Hurley",
+          "bbox": {
+            "minLon": -108.537933,
+            "minLat": 31.863614,
+            "maxLon": -108.000927,
+            "maxLat": 32.761467
+          }
+        },
+        {
+          "COUSUBFP": "92782",
+          "name": "Santa Clara",
+          "bbox": {
+            "minLon": -108.21206,
+            "minLat": 32.723852,
+            "maxLon": -108.098712,
+            "maxLat": 32.838182
+          }
+        },
+        {
+          "COUSUBFP": "93000",
+          "name": "Silver City",
+          "bbox": {
+            "minLon": -108.358391,
+            "minLat": 32.653606,
+            "maxLon": -108.17786,
+            "maxLat": 32.865155
+          }
+        },
+        {
+          "COUSUBFP": "93600",
+          "name": "Tyrone",
+          "bbox": {
+            "minLon": -109.047843,
+            "minLat": 32.491017,
+            "maxLon": -108.296535,
+            "maxLat": 33.209293
+          }
+        },
+        {
+          "COUSUBFP": "92070",
+          "name": "Mimbres",
+          "bbox": {
+            "minLon": -108.192448,
+            "minLat": 32.790621,
+            "maxLon": -107.765114,
+            "maxLat": 33.106567
+          }
+        },
+        {
+          "COUSUBFP": "90210",
+          "name": "Bayard-Santa Rita",
+          "bbox": {
+            "minLon": -108.149086,
+            "minLat": 32.517066,
+            "maxLon": -107.608485,
+            "maxLat": 32.916643
+          }
+        },
+        {
+          "COUSUBFP": "92400",
+          "name": "Pinos Altos",
+          "bbox": {
+            "minLon": -108.670848,
+            "minLat": 32.750715,
+            "maxLon": -107.839536,
+            "maxLat": 33.209346
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Colfax": {
+      "COUNTYFP": "007",
+      "name": "Colfax",
+      "bbox": {
+        "minLon": -105.377745,
+        "minLat": 36.217857,
+        "maxLon": -104.007453,
+        "maxLat": 36.996134
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90600",
+          "name": "Cimarron",
+          "bbox": {
+            "minLon": -105.377745,
+            "minLat": 36.260788,
+            "maxLon": -104.736026,
+            "maxLat": 36.995294
+          }
+        },
+        {
+          "COUSUBFP": "93270",
+          "name": "Springer",
+          "bbox": {
+            "minLon": -104.927693,
+            "minLat": 36.217857,
+            "maxLon": -104.008013,
+            "maxLat": 36.716774
+          }
+        },
+        {
+          "COUSUBFP": "92520",
+          "name": "Raton",
+          "bbox": {
+            "minLon": -105.136455,
+            "minLat": 36.479936,
+            "maxLon": -104.007453,
+            "maxLat": 36.996134
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Sandoval": {
+      "COUNTYFP": "043",
+      "name": "Sandoval",
+      "bbox": {
+        "minLon": -107.626511,
+        "minLat": 35.197762,
+        "maxLon": -106.244216,
+        "maxLat": 36.219896
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90870",
+          "name": "Cuba",
+          "bbox": {
+            "minLon": -107.626511,
+            "minLat": 35.217954,
+            "maxLon": -106.763062,
+            "maxLat": 36.219896
+          }
+        },
+        {
+          "COUSUBFP": "92944",
+          "name": "Santo Domingo-San Felipe",
+          "bbox": {
+            "minLon": -106.679311,
+            "minLat": 35.322052,
+            "maxLon": -106.248591,
+            "maxLat": 35.853815
+          }
+        },
+        {
+          "COUSUBFP": "92655",
+          "name": "Rio Rancho",
+          "bbox": {
+            "minLon": -106.906279,
+            "minLat": 35.197762,
+            "maxLon": -106.244216,
+            "maxLat": 35.467594
+          }
+        },
+        {
+          "COUSUBFP": "91654",
+          "name": "Jemez-Zia",
+          "bbox": {
+            "minLon": -107.001199,
+            "minLat": 35.392105,
+            "maxLon": -106.246633,
+            "maxLat": 36.001434
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Cibola": {
+      "COUNTYFP": "006",
+      "name": "Cibola",
+      "bbox": {
+        "minLon": -109.046136,
+        "minLat": 34.57782,
+        "maxLon": -107.066562,
+        "maxLat": 35.348314
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93900",
+          "name": "Zuni-Ramah Navajo",
+          "bbox": {
+            "minLon": -109.046136,
+            "minLat": 34.69676,
+            "maxLon": -108.241933,
+            "maxLat": 35.133603
+          }
+        },
+        {
+          "COUSUBFP": "91320",
+          "name": "Fence Lake",
+          "bbox": {
+            "minLon": -109.046122,
+            "minLat": 34.578672,
+            "maxLon": -108.353791,
+            "maxLat": 34.925204
+          }
+        },
+        {
+          "COUSUBFP": "91380",
+          "name": "Grants",
+          "bbox": {
+            "minLon": -108.469694,
+            "minLat": 34.577822,
+            "maxLon": -107.4897,
+            "maxLat": 35.348314
+          }
+        },
+        {
+          "COUSUBFP": "91710",
+          "name": "Laguna",
+          "bbox": {
+            "minLon": -107.729715,
+            "minLat": 34.57782,
+            "maxLon": -107.066562,
+            "maxLat": 35.305687
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Do\u00c3\u00b1a Ana": {
+      "COUNTYFP": "013",
+      "name": "Do\u00c3\u00b1a Ana",
+      "bbox": {
+        "minLon": -107.299673,
+        "minLat": 31.783638,
+        "maxLon": -106.340515,
+        "maxLat": 33.052777
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91050",
+          "name": "Do\u00c3\u00b1a Ana-Hill",
+          "bbox": {
+            "minLon": -106.96755,
+            "minLat": 32.337469,
+            "maxLon": -106.581273,
+            "maxLat": 32.880041
+          }
+        },
+        {
+          "COUSUBFP": "91440",
+          "name": "Hatch",
+          "bbox": {
+            "minLon": -107.299673,
+            "minLat": 32.468461,
+            "maxLon": -106.87676,
+            "maxLat": 32.78503
+          }
+        },
+        {
+          "COUSUBFP": "93840",
+          "name": "White Sands",
+          "bbox": {
+            "minLon": -106.751707,
+            "minLat": 32.081588,
+            "maxLon": -106.340515,
+            "maxLat": 33.052777
+          }
+        },
+        {
+          "COUSUBFP": "91260",
+          "name": "Fairacres",
+          "bbox": {
+            "minLon": -107.298621,
+            "minLat": 32.072089,
+            "maxLon": -106.79832,
+            "maxLat": 32.535685
+          }
+        },
+        {
+          "COUSUBFP": "93060",
+          "name": "South Do\u00c3\u00b1a Ana",
+          "bbox": {
+            "minLon": -107.298743,
+            "minLat": 31.783638,
+            "maxLon": -106.52703,
+            "maxLat": 32.227618
+          }
+        },
+        {
+          "COUSUBFP": "90090",
+          "name": "Anthony",
+          "bbox": {
+            "minLon": -106.759543,
+            "minLat": 31.99013,
+            "maxLon": -106.377137,
+            "maxLat": 32.22907
+          }
+        },
+        {
+          "COUSUBFP": "91740",
+          "name": "Las Cruces",
+          "bbox": {
+            "minLon": -106.835697,
+            "minLat": 32.17267,
+            "maxLon": -106.513823,
+            "maxLat": 32.436148
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Harding": {
+      "COUNTYFP": "021",
+      "name": "Harding",
+      "bbox": {
+        "minLon": -104.439215,
+        "minLat": 35.389533,
+        "maxLon": -103.364903,
+        "maxLat": 36.218665
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93150",
+          "name": "South Harding",
+          "bbox": {
+            "minLon": -103.930977,
+            "minLat": 35.389533,
+            "maxLon": -103.374738,
+            "maxLat": 35.999158
+          }
+        },
+        {
+          "COUSUBFP": "92220",
+          "name": "North Harding",
+          "bbox": {
+            "minLon": -104.439215,
+            "minLat": 35.73278,
+            "maxLon": -103.364903,
+            "maxLat": 36.218665
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Hidalgo": {
+      "COUNTYFP": "023",
+      "name": "Hidalgo",
+      "bbox": {
+        "minLon": -109.050431,
+        "minLat": 31.33216,
+        "maxLon": -108.208468,
+        "maxLat": 32.777802
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92250",
+          "name": "North Hidalgo",
+          "bbox": {
+            "minLon": -109.049048,
+            "minLat": 31.920148,
+            "maxLon": -108.524624,
+            "maxLat": 32.777802
+          }
+        },
+        {
+          "COUSUBFP": "93180",
+          "name": "South Hidalgo",
+          "bbox": {
+            "minLon": -109.050431,
+            "minLat": 31.33216,
+            "maxLon": -108.208468,
+            "maxLat": 31.979796
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Socorro": {
+      "COUNTYFP": "053",
+      "name": "Socorro",
+      "bbox": {
+        "minLon": -107.726695,
+        "minLat": 33.475422,
+        "maxLon": -105.924685,
+        "maxLat": 34.580629
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90630",
+          "name": "Claunch",
+          "bbox": {
+            "minLon": -106.824328,
+            "minLat": 33.475448,
+            "maxLon": -105.924685,
+            "maxLat": 34.281697
+          }
+        },
+        {
+          "COUSUBFP": "93040",
+          "name": "Socorro",
+          "bbox": {
+            "minLon": -107.220476,
+            "minLat": 33.475422,
+            "maxLon": -106.416045,
+            "maxLat": 34.543802
+          }
+        },
+        {
+          "COUSUBFP": "91980",
+          "name": "Magdalena",
+          "bbox": {
+            "minLon": -107.726695,
+            "minLat": 33.475862,
+            "maxLon": -106.797826,
+            "maxLat": 34.580629
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Los Alamos": {
+      "COUNTYFP": "028",
+      "name": "Los Alamos",
+      "bbox": {
+        "minLon": -106.418855,
+        "minLat": 35.754274,
+        "maxLon": -106.171852,
+        "maxLat": 35.973389
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91860",
+          "name": "Los Alamos",
+          "bbox": {
+            "minLon": -106.399729,
+            "minLat": 35.78407,
+            "maxLon": -106.20567,
+            "maxLat": 35.973389
+          }
+        },
+        {
+          "COUSUBFP": "93810",
+          "name": "White Rock",
+          "bbox": {
+            "minLon": -106.418855,
+            "minLat": 35.754274,
+            "maxLon": -106.171852,
+            "maxLat": 35.837584
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Mora": {
+      "COUNTYFP": "033",
+      "name": "Mora",
+      "bbox": {
+        "minLon": -105.720529,
+        "minLat": 35.754197,
+        "maxLon": -104.327284,
+        "maxLat": 36.262266
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93720",
+          "name": "Wagon Mound",
+          "bbox": {
+            "minLon": -105.251292,
+            "minLat": 35.754197,
+            "maxLon": -104.327284,
+            "maxLat": 36.261659
+          }
+        },
+        {
+          "COUSUBFP": "92100",
+          "name": "Mora",
+          "bbox": {
+            "minLon": -105.720529,
+            "minLat": 35.838882,
+            "maxLon": -105.144699,
+            "maxLat": 36.262266
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Eddy": {
+      "COUNTYFP": "015",
+      "name": "Eddy",
+      "bbox": {
+        "minLon": -104.851739,
+        "minLat": 31.997486,
+        "maxLon": -103.72281,
+        "maxLat": 32.965429
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91800",
+          "name": "Loco Hills",
+          "bbox": {
+            "minLon": -104.392639,
+            "minLat": 32.480094,
+            "maxLon": -103.814175,
+            "maxLat": 32.965429
+          }
+        },
+        {
+          "COUSUBFP": "91920",
+          "name": "Loving",
+          "bbox": {
+            "minLon": -104.329688,
+            "minLat": 31.999972,
+            "maxLon": -103.722852,
+            "maxLat": 32.405876
+          }
+        },
+        {
+          "COUSUBFP": "90480",
+          "name": "Carlsbad",
+          "bbox": {
+            "minLon": -104.851739,
+            "minLat": 31.997486,
+            "maxLon": -103.72281,
+            "maxLat": 32.624291
+          }
+        },
+        {
+          "COUSUBFP": "90150",
+          "name": "Artesia",
+          "bbox": {
+            "minLon": -104.842447,
+            "minLat": 32.515538,
+            "maxLon": -104.29859,
+            "maxLat": 32.964608
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Curry": {
+      "COUNTYFP": "009",
+      "name": "Curry",
+      "bbox": {
+        "minLon": -103.740066,
+        "minLat": 34.302648,
+        "maxLon": -103.042661,
+        "maxLat": 34.954194
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92010",
+          "name": "Melrose",
+          "bbox": {
+            "minLon": -103.740066,
+            "minLat": 34.30305,
+            "maxLon": -103.319635,
+            "maxLat": 34.692464
+          }
+        },
+        {
+          "COUSUBFP": "90390",
+          "name": "Broadview",
+          "bbox": {
+            "minLon": -103.495678,
+            "minLat": 34.647455,
+            "maxLon": -103.042661,
+            "maxLat": 34.954194
+          }
+        },
+        {
+          "COUSUBFP": "90720",
+          "name": "Clovis",
+          "bbox": {
+            "minLon": -103.496023,
+            "minLat": 34.302648,
+            "maxLon": -103.043072,
+            "maxLat": 34.715667
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Roosevelt": {
+      "COUNTYFP": "041",
+      "name": "Roosevelt",
+      "bbox": {
+        "minLon": -103.949228,
+        "minLat": 33.570117,
+        "maxLon": -103.043651,
+        "maxLat": 34.605068
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91140",
+          "name": "Elida",
+          "bbox": {
+            "minLon": -103.949228,
+            "minLat": 33.656205,
+            "maxLon": -103.31789,
+            "maxLat": 34.605068
+          }
+        },
+        {
+          "COUSUBFP": "92430",
+          "name": "Portales",
+          "bbox": {
+            "minLon": -103.510974,
+            "minLat": 34.112783,
+            "maxLon": -103.043736,
+            "maxLat": 34.303341
+          }
+        },
+        {
+          "COUSUBFP": "91080",
+          "name": "Dora",
+          "bbox": {
+            "minLon": -103.510129,
+            "minLat": 33.570117,
+            "maxLon": -103.043651,
+            "maxLat": 34.164238
+          }
+        }
+      ]
+    }
+  },
+  {
+    "San Juan": {
+      "COUNTYFP": "045",
+      "name": "San Juan",
+      "bbox": {
+        "minLon": -109.046218,
+        "minLat": 36.000288,
+        "maxLon": -107.420915,
+        "maxLat": 37.000226
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92180",
+          "name": "Nenahnezad-Burnham",
+          "bbox": {
+            "minLon": -108.651414,
+            "minLat": 36.164735,
+            "maxLon": -108.252124,
+            "maxLat": 36.777924
+          }
+        },
+        {
+          "COUSUBFP": "90360",
+          "name": "Bloomfield",
+          "bbox": {
+            "minLon": -108.098858,
+            "minLat": 36.239626,
+            "maxLon": -107.420915,
+            "maxLat": 37.000226
+          }
+        },
+        {
+          "COUSUBFP": "92150",
+          "name": "Napi Headquarters",
+          "bbox": {
+            "minLon": -108.376498,
+            "minLat": 36.000288,
+            "maxLon": -107.62423,
+            "maxLat": 36.735577
+          }
+        },
+        {
+          "COUSUBFP": "92160",
+          "name": "Naschitti",
+          "bbox": {
+            "minLon": -109.046218,
+            "minLat": 36.002365,
+            "maxLon": -108.355594,
+            "maxLat": 36.314457
+          }
+        },
+        {
+          "COUSUBFP": "90180",
+          "name": "Aztec",
+          "bbox": {
+            "minLon": -108.170951,
+            "minLat": 36.6894,
+            "maxLon": -107.772876,
+            "maxLat": 37.000059
+          }
+        },
+        {
+          "COUSUBFP": "91290",
+          "name": "Farmington",
+          "bbox": {
+            "minLon": -108.53763,
+            "minLat": 36.70501,
+            "maxLon": -108.047368,
+            "maxLat": 36.999745
+          }
+        },
+        {
+          "COUSUBFP": "92970",
+          "name": "Shiprock-Sanostee",
+          "bbox": {
+            "minLon": -109.045877,
+            "minLat": 36.093874,
+            "maxLon": -108.249358,
+            "maxLat": 36.999744
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Lincoln": {
+      "COUNTYFP": "027",
+      "name": "Lincoln",
+      "bbox": {
+        "minLon": -106.373802,
+        "minLat": 33.131742,
+        "maxLon": -104.885088,
+        "maxLat": 34.347442
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90780",
+          "name": "Corona",
+          "bbox": {
+            "minLon": -105.925968,
+            "minLat": 33.786414,
+            "maxLon": -104.891745,
+            "maxLat": 34.347442
+          }
+        },
+        {
+          "COUSUBFP": "90510",
+          "name": "Carrizozo",
+          "bbox": {
+            "minLon": -106.373802,
+            "minLat": 33.389338,
+            "maxLon": -105.597571,
+            "maxLat": 33.943273
+          }
+        },
+        {
+          "COUSUBFP": "91500",
+          "name": "Hondo",
+          "bbox": {
+            "minLon": -105.496319,
+            "minLat": 33.131742,
+            "maxLon": -104.885088,
+            "maxLat": 33.51623
+          }
+        },
+        {
+          "COUSUBFP": "90450",
+          "name": "Capitan",
+          "bbox": {
+            "minLon": -105.847084,
+            "minLat": 33.39895,
+            "maxLon": -104.891088,
+            "maxLat": 34.056451
+          }
+        },
+        {
+          "COUSUBFP": "92700",
+          "name": "Ruidoso",
+          "bbox": {
+            "minLon": -105.818257,
+            "minLat": 33.304834,
+            "maxLon": -105.41931,
+            "maxLat": 33.462761
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Guadalupe": {
+      "COUNTYFP": "019",
+      "name": "Guadalupe",
+      "bbox": {
+        "minLon": -105.313072,
+        "minLat": 34.347043,
+        "maxLon": -104.125085,
+        "maxLat": 35.21649
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90990",
+          "name": "Dilia",
+          "bbox": {
+            "minLon": -105.291169,
+            "minLat": 34.9688,
+            "maxLon": -104.79169,
+            "maxLat": 35.21649
+          }
+        },
+        {
+          "COUSUBFP": "92910",
+          "name": "Santa Rosa",
+          "bbox": {
+            "minLon": -104.99119,
+            "minLat": 34.582968,
+            "maxLon": -104.125085,
+            "maxLat": 35.216376
+          }
+        },
+        {
+          "COUSUBFP": "93660",
+          "name": "Vaughn",
+          "bbox": {
+            "minLon": -105.313072,
+            "minLat": 34.347043,
+            "maxLon": -104.891578,
+            "maxLat": 34.991237
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Torrance": {
+      "COUNTYFP": "057",
+      "name": "Torrance",
+      "bbox": {
+        "minLon": -106.471182,
+        "minLat": 34.259772,
+        "maxLon": -105.290125,
+        "maxLat": 35.04203
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91200",
+          "name": "Estancia",
+          "bbox": {
+            "minLon": -106.466849,
+            "minLat": 34.57503,
+            "maxLon": -105.51849,
+            "maxLat": 35.041633
+          }
+        },
+        {
+          "COUSUBFP": "92135",
+          "name": "Mountainair-Encino",
+          "bbox": {
+            "minLon": -106.471182,
+            "minLat": 34.259772,
+            "maxLon": -105.290125,
+            "maxLat": 35.04203
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Luna": {
+      "COUNTYFP": "029",
+      "name": "Luna",
+      "bbox": {
+        "minLon": -108.229956,
+        "minLat": 31.783641,
+        "maxLon": -107.296413,
+        "maxLat": 32.605471
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90930",
+          "name": "Deming South",
+          "bbox": {
+            "minLon": -108.229956,
+            "minLat": 31.783641,
+            "maxLon": -107.296413,
+            "maxLat": 32.28724
+          }
+        },
+        {
+          "COUSUBFP": "90900",
+          "name": "Deming North",
+          "bbox": {
+            "minLon": -108.22982,
+            "minLat": 32.207159,
+            "maxLon": -107.297772,
+            "maxLat": 32.605471
+          }
+        }
+      ]
+    }
+  },
+  {
+    "McKinley": {
+      "COUNTYFP": "031",
+      "name": "McKinley",
+      "bbox": {
+        "minLon": -109.046954,
+        "minLat": 34.959081,
+        "maxLon": -107.306122,
+        "maxLat": 36.002839
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91350",
+          "name": "Gallup",
+          "bbox": {
+            "minLon": -108.924118,
+            "minLat": 35.449262,
+            "maxLon": -108.635136,
+            "maxLat": 35.566256
+          }
+        },
+        {
+          "COUSUBFP": "92170",
+          "name": "Navajo Nation",
+          "bbox": {
+            "minLon": -109.046879,
+            "minLat": 35.6565,
+            "maxLon": -108.269673,
+            "maxLat": 36.002766
+          }
+        },
+        {
+          "COUSUBFP": "93870",
+          "name": "Zuni",
+          "bbox": {
+            "minLon": -109.046024,
+            "minLat": 34.959118,
+            "maxLon": -108.504447,
+            "maxLat": 35.307134
+          }
+        },
+        {
+          "COUSUBFP": "90840",
+          "name": "Crownpoint",
+          "bbox": {
+            "minLon": -108.272219,
+            "minLat": 35.303376,
+            "maxLon": -107.306122,
+            "maxLat": 36.002839
+          }
+        },
+        {
+          "COUSUBFP": "92535",
+          "name": "Red Rock",
+          "bbox": {
+            "minLon": -109.046954,
+            "minLat": 34.959081,
+            "maxLon": -107.732357,
+            "maxLat": 35.669539
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Rio Arriba": {
+      "COUNTYFP": "039",
+      "name": "Rio Arriba",
+      "bbox": {
+        "minLon": -107.626537,
+        "minLat": 35.930636,
+        "maxLon": -105.5301,
+        "maxLat": 37.000233
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93390",
+          "name": "Tierra Amarilla",
+          "bbox": {
+            "minLon": -106.98561,
+            "minLat": 36.237902,
+            "maxLon": -106.185778,
+            "maxLat": 37.000109
+          }
+        },
+        {
+          "COUSUBFP": "91020",
+          "name": "Dixon",
+          "bbox": {
+            "minLon": -105.9805,
+            "minLat": 36.079448,
+            "maxLon": -105.761433,
+            "maxLat": 36.244354
+          }
+        },
+        {
+          "COUSUBFP": "92295",
+          "name": "Ohkay Owingeh",
+          "bbox": {
+            "minLon": -106.119055,
+            "minLat": 36.016207,
+            "maxLon": -106.024766,
+            "maxLat": 36.090618
+          }
+        },
+        {
+          "COUSUBFP": "92790",
+          "name": "Santa Clara Pueblo",
+          "bbox": {
+            "minLon": -106.329347,
+            "minLat": 35.930636,
+            "maxLon": -106.041705,
+            "maxLat": 36.023029
+          }
+        },
+        {
+          "COUSUBFP": "93630",
+          "name": "Vallecitos",
+          "bbox": {
+            "minLon": -106.414266,
+            "minLat": 36.327253,
+            "maxLon": -105.938384,
+            "maxLat": 36.995267
+          }
+        },
+        {
+          "COUSUBFP": "93795",
+          "name": "West Rio Arriba",
+          "bbox": {
+            "minLon": -107.626537,
+            "minLat": 36.217605,
+            "maxLon": -107.193996,
+            "maxLat": 37.000233
+          }
+        },
+        {
+          "COUSUBFP": "90570",
+          "name": "Chimayo",
+          "bbox": {
+            "minLon": -105.990041,
+            "minLat": 35.958524,
+            "maxLon": -105.5301,
+            "maxLat": 36.12982
+          }
+        },
+        {
+          "COUSUBFP": "90810",
+          "name": "Coyote",
+          "bbox": {
+            "minLon": -107.19984,
+            "minLat": 35.998599,
+            "maxLon": -106.303068,
+            "maxLat": 36.539837
+          }
+        },
+        {
+          "COUSUBFP": "91682",
+          "name": "Jicarilla Apache",
+          "bbox": {
+            "minLon": -107.411271,
+            "minLat": 36.21463,
+            "maxLon": -106.564526,
+            "maxLat": 37.000083
+          }
+        },
+        {
+          "COUSUBFP": "92610",
+          "name": "Rio Chama",
+          "bbox": {
+            "minLon": -106.454019,
+            "minLat": 36.037634,
+            "maxLon": -106.03096,
+            "maxLat": 36.530485
+          }
+        },
+        {
+          "COUSUBFP": "93210",
+          "name": "South Rio Arriba",
+          "bbox": {
+            "minLon": -106.38202,
+            "minLat": 35.994301,
+            "maxLon": -105.796409,
+            "maxLat": 36.294994
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Lea": {
+      "COUNTYFP": "025",
+      "name": "Lea",
+      "bbox": {
+        "minLon": -103.814573,
+        "minLat": 32.000206,
+        "maxLon": -103.052621,
+        "maxLat": 33.570589
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91470",
+          "name": "Hobbs",
+          "bbox": {
+            "minLon": -103.725956,
+            "minLat": 32.418671,
+            "maxLon": -103.064629,
+            "maxLat": 32.899884
+          }
+        },
+        {
+          "COUSUBFP": "91950",
+          "name": "Lovington",
+          "bbox": {
+            "minLon": -103.814573,
+            "minLat": 32.529194,
+            "maxLon": -103.061736,
+            "maxLat": 33.172513
+          }
+        },
+        {
+          "COUSUBFP": "91620",
+          "name": "Jal",
+          "bbox": {
+            "minLon": -103.814216,
+            "minLat": 32.000206,
+            "maxLon": -103.06438,
+            "maxLat": 32.554624
+          }
+        },
+        {
+          "COUSUBFP": "93360",
+          "name": "Tatum",
+          "bbox": {
+            "minLon": -103.76639,
+            "minLat": 33.140512,
+            "maxLon": -103.052621,
+            "maxLat": 33.570589
+          }
+        },
+        {
+          "COUSUBFP": "91230",
+          "name": "Eunice",
+          "bbox": {
+            "minLon": -103.442086,
+            "minLat": 32.326383,
+            "maxLon": -103.064676,
+            "maxLat": 32.601684
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Chaves": {
+      "COUNTYFP": "005",
+      "name": "Chaves",
+      "bbox": {
+        "minLon": -105.35401,
+        "minLat": 32.51877,
+        "maxLon": -103.509759,
+        "maxLat": 34.088751
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92670",
+          "name": "Roswell",
+          "bbox": {
+            "minLon": -104.595644,
+            "minLat": 33.335531,
+            "maxLon": -104.458832,
+            "maxLat": 33.453063
+          }
+        },
+        {
+          "COUSUBFP": "93090",
+          "name": "Southeast Chaves",
+          "bbox": {
+            "minLon": -104.488087,
+            "minLat": 33.10748,
+            "maxLon": -103.721399,
+            "maxLat": 33.421414
+          }
+        },
+        {
+          "COUSUBFP": "90960",
+          "name": "Dexter",
+          "bbox": {
+            "minLon": -104.603477,
+            "minLat": 33.08708,
+            "maxLon": -104.151257,
+            "maxLat": 33.259301
+          }
+        },
+        {
+          "COUSUBFP": "92190",
+          "name": "Northeast Chaves",
+          "bbox": {
+            "minLon": -104.400947,
+            "minLat": 33.395673,
+            "maxLon": -103.509759,
+            "maxLat": 34.083205
+          }
+        },
+        {
+          "COUSUBFP": "92280",
+          "name": "Northwest Chaves",
+          "bbox": {
+            "minLon": -104.89483,
+            "minLat": 33.368665,
+            "maxLon": -104.262937,
+            "maxLat": 34.088751
+          }
+        },
+        {
+          "COUSUBFP": "93240",
+          "name": "Southwest Chaves",
+          "bbox": {
+            "minLon": -105.35401,
+            "minLat": 32.51877,
+            "maxLon": -104.415245,
+            "maxLat": 33.394288
+          }
+        },
+        {
+          "COUSUBFP": "91410",
+          "name": "Hagerman",
+          "bbox": {
+            "minLon": -104.840741,
+            "minLat": 32.963214,
+            "maxLon": -103.766366,
+            "maxLat": 33.14521
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Santa Fe": {
+      "COUNTYFP": "049",
+      "name": "Santa Fe",
+      "bbox": {
+        "minLon": -106.250499,
+        "minLat": 35.040003,
+        "maxLon": -105.714419,
+        "maxLat": 36.00232
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92880",
+          "name": "Santa Fe South",
+          "bbox": {
+            "minLon": -106.250499,
+            "minLat": 35.040003,
+            "maxLon": -105.714419,
+            "maxLat": 35.836433
+          }
+        },
+        {
+          "COUSUBFP": "92820",
+          "name": "Santa Fe",
+          "bbox": {
+            "minLon": -106.071752,
+            "minLat": 35.590383,
+            "maxLon": -105.817644,
+            "maxLat": 35.755763
+          }
+        },
+        {
+          "COUSUBFP": "92850",
+          "name": "Santa Fe North",
+          "bbox": {
+            "minLon": -106.248484,
+            "minLat": 35.688109,
+            "maxLon": -105.716808,
+            "maxLat": 36.00232
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Quay": {
+      "COUNTYFP": "037",
+      "name": "Quay",
+      "bbox": {
+        "minLon": -104.129461,
+        "minLat": 34.60467,
+        "maxLon": -103.041349,
+        "maxLat": 35.739825
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91830",
+          "name": "Logan-Nara Visa",
+          "bbox": {
+            "minLon": -103.637243,
+            "minLat": 35.281749,
+            "maxLon": -103.041349,
+            "maxLat": 35.739825
+          }
+        },
+        {
+          "COUSUBFP": "92730",
+          "name": "San Jon",
+          "bbox": {
+            "minLon": -103.562099,
+            "minLat": 34.86499,
+            "maxLon": -103.042026,
+            "maxLat": 35.396021
+          }
+        },
+        {
+          "COUSUBFP": "91530",
+          "name": "House-Forrest",
+          "bbox": {
+            "minLon": -104.12923,
+            "minLat": 34.60467,
+            "maxLon": -103.389967,
+            "maxLat": 34.913909
+          }
+        },
+        {
+          "COUSUBFP": "93540",
+          "name": "Tucumcari",
+          "bbox": {
+            "minLon": -104.129461,
+            "minLat": 34.817413,
+            "maxLon": -103.319239,
+            "maxLat": 35.368364
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Bernalillo": {
+      "COUNTYFP": "001",
+      "name": "Bernalillo",
+      "bbox": {
+        "minLon": -107.197244,
+        "minLat": 34.869277,
+        "maxLon": -106.1497,
+        "maxLat": 35.219459
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90060",
+          "name": "Albuquerque",
+          "bbox": {
+            "minLon": -106.805425,
+            "minLat": 34.946786,
+            "maxLon": -106.413953,
+            "maxLat": 35.217995
+          }
+        },
+        {
+          "COUSUBFP": "91095",
+          "name": "East Bernalillo",
+          "bbox": {
+            "minLon": -106.485649,
+            "minLat": 34.869277,
+            "maxLon": -106.1497,
+            "maxLat": 35.217942
+          }
+        },
+        {
+          "COUSUBFP": "93735",
+          "name": "West Bernalillo",
+          "bbox": {
+            "minLon": -107.197244,
+            "minLat": 34.869953,
+            "maxLon": -106.696563,
+            "maxLat": 35.219459
+          }
+        },
+        {
+          "COUSUBFP": "91590",
+          "name": "Isleta Pueblo",
+          "bbox": {
+            "minLon": -107.034784,
+            "minLat": 34.86961,
+            "maxLon": -106.316486,
+            "maxLat": 34.957293
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Sierra": {
+      "COUNTYFP": "051",
+      "name": "Sierra",
+      "bbox": {
+        "minLon": -108.000619,
+        "minLat": 32.605304,
+        "maxLon": -106.340515,
+        "maxLat": 33.480369
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93510",
+          "name": "Truth or Consequences West",
+          "bbox": {
+            "minLon": -108.000619,
+            "minLat": 32.605304,
+            "maxLon": -107.220804,
+            "maxLat": 33.478094
+          }
+        },
+        {
+          "COUSUBFP": "93480",
+          "name": "Truth or Consequences East",
+          "bbox": {
+            "minLon": -107.443063,
+            "minLat": 32.778876,
+            "maxLon": -106.340515,
+            "maxLat": 33.480369
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Valencia": {
+      "COUNTYFP": "061",
+      "name": "Valencia",
+      "bbox": {
+        "minLon": -107.204381,
+        "minLat": 34.437054,
+        "maxLon": -106.411558,
+        "maxLat": 34.957578
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91890",
+          "name": "Los Lunas",
+          "bbox": {
+            "minLon": -107.022905,
+            "minLat": 34.652824,
+            "maxLon": -106.411558,
+            "maxLat": 34.906358
+          }
+        },
+        {
+          "COUSUBFP": "90240",
+          "name": "Belen",
+          "bbox": {
+            "minLon": -107.204381,
+            "minLat": 34.437054,
+            "maxLon": -106.416881,
+            "maxLat": 34.957578
+          }
+        }
+      ]
+    }
+  }
+]

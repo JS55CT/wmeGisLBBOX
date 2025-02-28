@@ -1,0 +1,178 @@
+[
+  {
+    "Rota": {
+      "COUNTYFP": "100",
+      "name": "Rota",
+      "bbox": {
+        "minLon": 145.058053,
+        "minLat": 14.036565,
+        "maxLon": 145.37448,
+        "maxLat": 14.266912
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "14290",
+          "name": "7",
+          "bbox": {
+            "minLon": 145.121345,
+            "minLat": 14.110374,
+            "maxLon": 145.290484,
+            "maxLat": 14.200359
+          }
+        },
+        {
+          "COUSUBFP": "00000",
+          "name": "Municipality subdivision not defined",
+          "bbox": {
+            "minLon": 145.058053,
+            "minLat": 14.036565,
+            "maxLon": 145.37448,
+            "maxLat": 14.266912
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Tinian": {
+      "COUNTYFP": "120",
+      "name": "Tinian",
+      "bbox": {
+        "minLon": 145.467848,
+        "minLat": 14.772689,
+        "maxLon": 145.747747,
+        "maxLat": 15.125018
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "14270",
+          "name": "6",
+          "bbox": {
+            "minLon": 145.532483,
+            "minLat": 14.833754,
+            "maxLon": 145.673797,
+            "maxLat": 15.10115
+          }
+        },
+        {
+          "COUSUBFP": "00000",
+          "name": "Municipality subdivision not defined",
+          "bbox": {
+            "minLon": 145.467848,
+            "minLat": 14.772689,
+            "maxLon": 145.747747,
+            "maxLat": 15.125018
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Northern Islands": {
+      "COUNTYFP": "085",
+      "name": "Northern Islands",
+      "bbox": {
+        "minLon": 144.813338,
+        "minLat": 15.947893,
+        "maxLon": 146.154418,
+        "maxLat": 20.616556
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "00000",
+          "name": "Municipality subdivision not defined",
+          "bbox": {
+            "minLon": 144.813338,
+            "minLat": 15.947893,
+            "maxLon": 146.154418,
+            "maxLat": 20.616556
+          }
+        },
+        {
+          "COUSUBFP": "14075",
+          "name": "4",
+          "bbox": {
+            "minLon": 144.88633,
+            "minLat": 16.005251,
+            "maxLon": 146.064819,
+            "maxLat": 20.553802
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Saipan": {
+      "COUNTYFP": "110",
+      "name": "Saipan",
+      "bbox": {
+        "minLon": 145.572603,
+        "minLat": 15.022906,
+        "maxLon": 145.909365,
+        "maxLat": 15.357834
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "13750",
+          "name": "1",
+          "bbox": {
+            "minLon": 145.689571,
+            "minLat": 15.091875,
+            "maxLon": 145.757018,
+            "maxLat": 15.158141
+          }
+        },
+        {
+          "COUSUBFP": "13900",
+          "name": "2",
+          "bbox": {
+            "minLon": 145.699085,
+            "minLat": 15.13025,
+            "maxLon": 145.72266,
+            "maxLat": 15.161335
+          }
+        },
+        {
+          "COUSUBFP": "14200",
+          "name": "5",
+          "bbox": {
+            "minLon": 145.720063,
+            "minLat": 15.149421,
+            "maxLon": 145.797638,
+            "maxLat": 15.19999
+          }
+        },
+        {
+          "COUSUBFP": "14050",
+          "name": "3",
+          "bbox": {
+            "minLon": 145.705295,
+            "minLat": 15.149777,
+            "maxLon": 145.7583,
+            "maxLat": 15.243174
+          }
+        },
+        {
+          "COUSUBFP": "00000",
+          "name": "Municipality subdivision not defined",
+          "bbox": {
+            "minLon": 145.572603,
+            "minLat": 15.022906,
+            "maxLon": 145.909365,
+            "maxLat": 15.357834
+          }
+        },
+        {
+          "COUSUBFP": "14150",
+          "name": "4",
+          "bbox": {
+            "minLon": 145.743993,
+            "minLat": 15.193589,
+            "maxLon": 145.830505,
+            "maxLat": 15.290081
+          }
+        }
+      ]
+    }
+  }
+]

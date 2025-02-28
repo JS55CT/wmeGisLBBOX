@@ -1,0 +1,472 @@
+[
+  {
+    "Washington": {
+      "COUNTYFP": "009",
+      "name": "Washington",
+      "bbox": {
+        "minLon": -71.907258,
+        "minLat": 41.095834,
+        "maxLon": -71.380542,
+        "maxLat": 41.654952
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "25300",
+          "name": "Exeter",
+          "bbox": {
+            "minLon": -71.791402,
+            "minLat": 41.50006,
+            "maxLon": -71.507886,
+            "maxLat": 41.602566
+          }
+        },
+        {
+          "COUSUBFP": "14500",
+          "name": "Charlestown",
+          "bbox": {
+            "minLon": -71.731252,
+            "minLat": 41.277891,
+            "maxLon": -71.595141,
+            "maxLat": 41.461246
+          }
+        },
+        {
+          "COUSUBFP": "77000",
+          "name": "Westerly",
+          "bbox": {
+            "minLon": -71.907258,
+            "minLat": 41.184101,
+            "maxLon": -71.729228,
+            "maxLat": 41.419927
+          }
+        },
+        {
+          "COUSUBFP": "67460",
+          "name": "South Kingstown",
+          "bbox": {
+            "minLon": -71.651523,
+            "minLat": 41.298362,
+            "maxLon": -71.446657,
+            "maxLat": 41.525121
+          }
+        },
+        {
+          "COUSUBFP": "48340",
+          "name": "Narragansett",
+          "bbox": {
+            "minLon": -71.575199,
+            "minLat": 41.307732,
+            "maxLon": -71.407748,
+            "maxLat": 41.504501
+          }
+        },
+        {
+          "COUSUBFP": "50500",
+          "name": "New Shoreham",
+          "bbox": {
+            "minLon": -71.678807,
+            "minLat": 41.095834,
+            "maxLon": -71.476877,
+            "maxLat": 41.294018
+          }
+        },
+        {
+          "COUSUBFP": "35380",
+          "name": "Hopkinton",
+          "bbox": {
+            "minLon": -71.803475,
+            "minLat": 41.386467,
+            "maxLon": -71.687109,
+            "maxLat": 41.554203
+          }
+        },
+        {
+          "COUSUBFP": "51580",
+          "name": "North Kingstown",
+          "bbox": {
+            "minLon": -71.522429,
+            "minLat": 41.497219,
+            "maxLon": -71.380542,
+            "maxLat": 41.654952
+          }
+        },
+        {
+          "COUSUBFP": "61160",
+          "name": "Richmond",
+          "bbox": {
+            "minLon": -71.722554,
+            "minLat": 41.428324,
+            "maxLon": -71.596814,
+            "maxLat": 41.564341
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Providence": {
+      "COUNTYFP": "007",
+      "name": "Providence",
+      "bbox": {
+        "minLon": -71.799195,
+        "minLat": 41.725198,
+        "maxLon": -71.317873,
+        "maxLat": 42.018799
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "54640",
+          "name": "Pawtucket",
+          "bbox": {
+            "minLon": -71.4219,
+            "minLat": 41.856601,
+            "maxLon": -71.33404,
+            "maxLat": 41.898593
+          }
+        },
+        {
+          "COUSUBFP": "59000",
+          "name": "Providence",
+          "bbox": {
+            "minLon": -71.472477,
+            "minLat": 41.772381,
+            "maxLon": -71.369694,
+            "maxLat": 41.861831
+          }
+        },
+        {
+          "COUSUBFP": "20080",
+          "name": "Cumberland",
+          "bbox": {
+            "minLon": -71.487364,
+            "minLat": 41.893546,
+            "maxLon": -71.381299,
+            "maxLat": 42.018799
+          }
+        },
+        {
+          "COUSUBFP": "37720",
+          "name": "Johnston",
+          "bbox": {
+            "minLon": -71.574642,
+            "minLat": 41.788417,
+            "maxLon": -71.461936,
+            "maxLat": 41.868983
+          }
+        },
+        {
+          "COUSUBFP": "52480",
+          "name": "North Smithfield",
+          "bbox": {
+            "minLon": -71.606731,
+            "minLat": 41.933665,
+            "maxLon": -71.48396,
+            "maxLat": 42.015066
+          }
+        },
+        {
+          "COUSUBFP": "64220",
+          "name": "Scituate",
+          "bbox": {
+            "minLon": -71.69101,
+            "minLat": 41.727432,
+            "maxLon": -71.547353,
+            "maxLat": 41.858748
+          }
+        },
+        {
+          "COUSUBFP": "80780",
+          "name": "Woonsocket",
+          "bbox": {
+            "minLon": -71.540116,
+            "minLat": 41.979085,
+            "maxLon": -71.458104,
+            "maxLat": 42.017798
+          }
+        },
+        {
+          "COUSUBFP": "19180",
+          "name": "Cranston",
+          "bbox": {
+            "minLon": -71.55929,
+            "minLat": 41.730066,
+            "maxLon": -71.376998,
+            "maxLat": 41.807203
+          }
+        },
+        {
+          "COUSUBFP": "41500",
+          "name": "Lincoln",
+          "bbox": {
+            "minLon": -71.490788,
+            "minLat": 41.872767,
+            "maxLon": -71.394296,
+            "maxLat": 41.979085
+          }
+        },
+        {
+          "COUSUBFP": "11800",
+          "name": "Burrillville",
+          "bbox": {
+            "minLon": -71.799195,
+            "minLat": 41.928645,
+            "maxLon": -71.590312,
+            "maxLat": 42.01328
+          }
+        },
+        {
+          "COUSUBFP": "14140",
+          "name": "Central Falls",
+          "bbox": {
+            "minLon": -71.407283,
+            "minLat": 41.881059,
+            "maxLon": -71.380219,
+            "maxLat": 41.899846
+          }
+        },
+        {
+          "COUSUBFP": "51760",
+          "name": "North Providence",
+          "bbox": {
+            "minLon": -71.495545,
+            "minLat": 41.836981,
+            "maxLon": -71.417418,
+            "maxLat": 41.878695
+          }
+        },
+        {
+          "COUSUBFP": "27460",
+          "name": "Foster",
+          "bbox": {
+            "minLon": -71.79468,
+            "minLat": 41.725198,
+            "maxLon": -71.668434,
+            "maxLat": 41.856457
+          }
+        },
+        {
+          "COUSUBFP": "30340",
+          "name": "Glocester",
+          "bbox": {
+            "minLon": -71.797778,
+            "minLat": 41.854409,
+            "maxLon": -71.574642,
+            "maxLat": 41.933665
+          }
+        },
+        {
+          "COUSUBFP": "66200",
+          "name": "Smithfield",
+          "bbox": {
+            "minLon": -71.590312,
+            "minLat": 41.858748,
+            "maxLon": -71.466759,
+            "maxLat": 41.943241
+          }
+        },
+        {
+          "COUSUBFP": "22960",
+          "name": "East Providence",
+          "bbox": {
+            "minLon": -71.395258,
+            "minLat": 41.735649,
+            "maxLon": -71.317873,
+            "maxLat": 41.861314
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Bristol": {
+      "COUNTYFP": "001",
+      "name": "Bristol",
+      "bbox": {
+        "minLon": -71.365207,
+        "minLat": 41.638137,
+        "maxLon": -71.208371,
+        "maxLat": 41.776199
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "05140",
+          "name": "Barrington",
+          "bbox": {
+            "minLon": -71.365207,
+            "minLat": 41.679936,
+            "maxLon": -71.284404,
+            "maxLat": 41.776199
+          }
+        },
+        {
+          "COUSUBFP": "09280",
+          "name": "Bristol",
+          "bbox": {
+            "minLon": -71.328976,
+            "minLat": 41.638137,
+            "maxLon": -71.210429,
+            "maxLat": 41.715408
+          }
+        },
+        {
+          "COUSUBFP": "73760",
+          "name": "Warren",
+          "bbox": {
+            "minLon": -71.294039,
+            "minLat": 41.688009,
+            "maxLon": -71.208371,
+            "maxLat": 41.762005
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Newport": {
+      "COUNTYFP": "005",
+      "name": "Newport",
+      "bbox": {
+        "minLon": -71.509442,
+        "minLat": 41.307355,
+        "maxLon": -71.088571,
+        "maxLat": 41.690598
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "70880",
+          "name": "Tiverton",
+          "bbox": {
+            "minLon": -71.225048,
+            "minLat": 41.543304,
+            "maxLon": -71.127837,
+            "maxLat": 41.690598
+          }
+        },
+        {
+          "COUSUBFP": "45460",
+          "name": "Middletown",
+          "bbox": {
+            "minLon": -71.325118,
+            "minLat": 41.471847,
+            "maxLon": -71.23339,
+            "maxLat": 41.568644
+          }
+        },
+        {
+          "COUSUBFP": "00000",
+          "name": "County subdivisions not defined",
+          "bbox": {
+            "minLon": -71.509442,
+            "minLat": 41.307355,
+            "maxLon": -71.088571,
+            "maxLat": 41.514941
+          }
+        },
+        {
+          "COUSUBFP": "42400",
+          "name": "Little Compton",
+          "bbox": {
+            "minLon": -71.221068,
+            "minLat": 41.451909,
+            "maxLon": -71.116404,
+            "maxLat": 41.563203
+          }
+        },
+        {
+          "COUSUBFP": "49960",
+          "name": "Newport",
+          "bbox": {
+            "minLon": -71.363448,
+            "minLat": 41.448967,
+            "maxLon": -71.285892,
+            "maxLat": 41.523208
+          }
+        },
+        {
+          "COUSUBFP": "57880",
+          "name": "Portsmouth",
+          "bbox": {
+            "minLon": -71.387442,
+            "minLat": 41.500177,
+            "maxLon": -71.208155,
+            "maxLat": 41.686962
+          }
+        },
+        {
+          "COUSUBFP": "36820",
+          "name": "Jamestown",
+          "bbox": {
+            "minLon": -71.421899,
+            "minLat": 41.441496,
+            "maxLon": -71.31264,
+            "maxLat": 41.603673
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Kent": {
+      "COUNTYFP": "003",
+      "name": "Kent",
+      "bbox": {
+        "minLon": -71.789704,
+        "minLat": 41.596847,
+        "maxLon": -71.325667,
+        "maxLat": 41.768333
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "18640",
+          "name": "Coventry",
+          "bbox": {
+            "minLon": -71.789704,
+            "minLat": 41.656111,
+            "maxLon": -71.532857,
+            "maxLat": 41.731242
+          }
+        },
+        {
+          "COUSUBFP": "22240",
+          "name": "East Greenwich",
+          "bbox": {
+            "minLon": -71.547113,
+            "minLat": 41.601993,
+            "maxLon": -71.4423,
+            "maxLat": 41.664092
+          }
+        },
+        {
+          "COUSUBFP": "74300",
+          "name": "Warwick",
+          "bbox": {
+            "minLon": -71.518913,
+            "minLat": 41.629397,
+            "maxLon": -71.325667,
+            "maxLat": 41.768333
+          }
+        },
+        {
+          "COUSUBFP": "78440",
+          "name": "West Warwick",
+          "bbox": {
+            "minLon": -71.534286,
+            "minLat": 41.662156,
+            "maxLon": -71.48391,
+            "maxLat": 41.731603
+          }
+        },
+        {
+          "COUSUBFP": "77720",
+          "name": "West Greenwich",
+          "bbox": {
+            "minLon": -71.789247,
+            "minLat": 41.596847,
+            "maxLon": -71.544807,
+            "maxLat": 41.661851
+          }
+        }
+      ]
+    }
+  }
+]

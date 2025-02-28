@@ -1,0 +1,618 @@
+{
+  "AL": {
+    "name": "Alabama",
+    "STUSPS": "AL",
+    "STATEFP": "01",
+    "bbox": {
+      "minLon": -88.473227,
+      "minLat": 30.144425,
+      "maxLon": -84.888246,
+      "maxLat": 35.008028
+    }
+  },
+  "AK": {
+    "name": "Alaska",
+    "STUSPS": "AK",
+    "STATEFP": "02",
+    "bbox": {
+      "minLon": -179.231086,
+      "minLat": 51.175092,
+      "maxLon": 179.859681,
+      "maxLat": 71.439786
+    }
+  },
+  "AZ": {
+    "name": "Arizona",
+    "STUSPS": "AZ",
+    "STATEFP": "04",
+    "bbox": {
+      "minLon": -114.8163,
+      "minLat": 31.332342,
+      "maxLon": -109.045172,
+      "maxLat": 37.003725
+    }
+  },
+  "AR": {
+    "name": "Arkansas",
+    "STUSPS": "AR",
+    "STATEFP": "05",
+    "bbox": {
+      "minLon": -94.617859,
+      "minLat": 33.004282,
+      "maxLon": -89.640997,
+      "maxLat": 36.499749
+    }
+  },
+  "CA": {
+    "name": "California",
+    "STUSPS": "CA",
+    "STATEFP": "06",
+    "bbox": {
+      "minLon": -124.482003,
+      "minLat": 32.529508,
+      "maxLon": -114.131211,
+      "maxLat": 42.009503
+    }
+  },
+  "CO": {
+    "name": "Colorado",
+    "STUSPS": "CO",
+    "STATEFP": "08",
+    "bbox": {
+      "minLon": -109.060204,
+      "minLat": 36.992449,
+      "maxLon": -102.041522,
+      "maxLat": 41.003444
+    }
+  },
+  "CT": {
+    "name": "Connecticut",
+    "STUSPS": "CT",
+    "STATEFP": "09",
+    "bbox": {
+      "minLon": -73.727775,
+      "minLat": 40.950943,
+      "maxLon": -71.787239,
+      "maxLat": 42.050511
+    }
+  },
+  "DE": {
+    "name": "Delaware",
+    "STUSPS": "DE",
+    "STATEFP": "10",
+    "bbox": {
+      "minLon": -75.789023,
+      "minLat": 38.451132,
+      "maxLon": -74.984165,
+      "maxLat": 39.839516
+    }
+  },
+  "DC": {
+    "name": "District of Columbia",
+    "STUSPS": "DC",
+    "STATEFP": "11",
+    "bbox": {
+      "minLon": -77.119759,
+      "minLat": 38.791645,
+      "maxLon": -76.909393,
+      "maxLat": 38.995845
+    }
+  },
+  "FL": {
+    "name": "Florida",
+    "STUSPS": "FL",
+    "STATEFP": "12",
+    "bbox": {
+      "minLon": -87.634896,
+      "minLat": 24.396308,
+      "maxLon": -79.974306,
+      "maxLat": 31.000968
+    }
+  },
+  "GA": {
+    "name": "Georgia",
+    "STUSPS": "GA",
+    "STATEFP": "13",
+    "bbox": {
+      "minLon": -85.605165,
+      "minLat": 30.355757,
+      "maxLon": -80.78296,
+      "maxLat": 35.001303
+    }
+  },
+  "HI": {
+    "name": "Hawaii",
+    "STUSPS": "HI",
+    "STATEFP": "15",
+    "bbox": {
+      "minLon": -178.443593,
+      "minLat": 18.86546,
+      "maxLon": -154.755792,
+      "maxLat": 28.517269
+    }
+  },
+  "ID": {
+    "name": "Idaho",
+    "STUSPS": "ID",
+    "STATEFP": "16",
+    "bbox": {
+      "minLon": -117.243027,
+      "minLat": 41.988182,
+      "maxLon": -111.043495,
+      "maxLat": 49.000846
+    }
+  },
+  "IL": {
+    "name": "Illinois",
+    "STUSPS": "IL",
+    "STATEFP": "17",
+    "bbox": {
+      "minLon": -91.513079,
+      "minLat": 36.970298,
+      "maxLon": -87.019935,
+      "maxLat": 42.508481
+    }
+  },
+  "IN": {
+    "name": "Indiana",
+    "STUSPS": "IN",
+    "STATEFP": "18",
+    "bbox": {
+      "minLon": -88.097892,
+      "minLat": 37.771672,
+      "maxLon": -84.784535,
+      "maxLat": 41.761368
+    }
+  },
+  "IA": {
+    "name": "Iowa",
+    "STUSPS": "IA",
+    "STATEFP": "19",
+    "bbox": {
+      "minLon": -96.639485,
+      "minLat": 40.37544,
+      "maxLon": -90.140061,
+      "maxLat": 43.501196
+    }
+  },
+  "KS": {
+    "name": "Kansas",
+    "STUSPS": "KS",
+    "STATEFP": "20",
+    "bbox": {
+      "minLon": -102.051769,
+      "minLat": 36.993016,
+      "maxLon": -94.588387,
+      "maxLat": 40.003166
+    }
+  },
+  "KY": {
+    "name": "Kentucky",
+    "STUSPS": "KY",
+    "STATEFP": "21",
+    "bbox": {
+      "minLon": -89.571203,
+      "minLat": 36.497058,
+      "maxLon": -81.964788,
+      "maxLat": 39.147732
+    }
+  },
+  "LA": {
+    "name": "Louisiana",
+    "STUSPS": "LA",
+    "STATEFP": "22",
+    "bbox": {
+      "minLon": -94.043352,
+      "minLat": 28.855127,
+      "maxLon": -88.758388,
+      "maxLat": 33.01962
+    }
+  },
+  "ME": {
+    "name": "Maine",
+    "STUSPS": "ME",
+    "STATEFP": "23",
+    "bbox": {
+      "minLon": -71.083928,
+      "minLat": 42.917126,
+      "maxLon": -66.885444,
+      "maxLat": 47.459833
+    }
+  },
+  "MD": {
+    "name": "Maryland",
+    "STUSPS": "MD",
+    "STATEFP": "24",
+    "bbox": {
+      "minLon": -79.487651,
+      "minLat": 37.886605,
+      "maxLon": -74.986282,
+      "maxLat": 39.723037
+    }
+  },
+  "MA": {
+    "name": "Massachusetts",
+    "STUSPS": "MA",
+    "STATEFP": "25",
+    "bbox": {
+      "minLon": -73.50821,
+      "minLat": 41.187053,
+      "maxLon": -69.858861,
+      "maxLat": 42.886778
+    }
+  },
+  "MI": {
+    "name": "Michigan",
+    "STUSPS": "MI",
+    "STATEFP": "26",
+    "bbox": {
+      "minLon": -90.418392,
+      "minLat": 41.696118,
+      "maxLon": -82.122971,
+      "maxLat": 48.306063
+    }
+  },
+  "MN": {
+    "name": "Minnesota",
+    "STUSPS": "MN",
+    "STATEFP": "27",
+    "bbox": {
+      "minLon": -97.239093,
+      "minLat": 43.499361,
+      "maxLon": -89.483385,
+      "maxLat": 49.384479
+    }
+  },
+  "MS": {
+    "name": "Mississippi",
+    "STUSPS": "MS",
+    "STATEFP": "28",
+    "bbox": {
+      "minLon": -91.655009,
+      "minLat": 30.139845,
+      "maxLon": -88.097888,
+      "maxLat": 34.996099
+    }
+  },
+  "MO": {
+    "name": "Missouri",
+    "STUSPS": "MO",
+    "STATEFP": "29",
+    "bbox": {
+      "minLon": -95.774704,
+      "minLat": 35.995685,
+      "maxLon": -89.098968,
+      "maxLat": 40.61364
+    }
+  },
+  "MT": {
+    "name": "Montana",
+    "STUSPS": "MT",
+    "STATEFP": "30",
+    "bbox": {
+      "minLon": -116.049153,
+      "minLat": 44.357915,
+      "maxLon": -104.039694,
+      "maxLat": 49.001109
+    }
+  },
+  "NE": {
+    "name": "Nebraska",
+    "STUSPS": "NE",
+    "STATEFP": "31",
+    "bbox": {
+      "minLon": -104.053514,
+      "minLat": 39.999932,
+      "maxLon": -95.30829,
+      "maxLat": 43.001707
+    }
+  },
+  "NV": {
+    "name": "Nevada",
+    "STUSPS": "NV",
+    "STATEFP": "32",
+    "bbox": {
+      "minLon": -120.006473,
+      "minLat": 35.001857,
+      "maxLon": -114.039461,
+      "maxLat": 42.001842
+    }
+  },
+  "NH": {
+    "name": "New Hampshire",
+    "STUSPS": "NH",
+    "STATEFP": "33",
+    "bbox": {
+      "minLon": -72.557124,
+      "minLat": 42.697042,
+      "maxLon": -70.575094,
+      "maxLat": 45.305778
+    }
+  },
+  "NJ": {
+    "name": "New Jersey",
+    "STUSPS": "NJ",
+    "STATEFP": "34",
+    "bbox": {
+      "minLon": -75.563586,
+      "minLat": 38.788657,
+      "maxLon": -73.88506,
+      "maxLat": 41.357607
+    }
+  },
+  "NM": {
+    "name": "New Mexico",
+    "STUSPS": "NM",
+    "STATEFP": "35",
+    "bbox": {
+      "minLon": -109.050431,
+      "minLat": 31.33216,
+      "maxLon": -103.002043,
+      "maxLat": 37.000233
+    }
+  },
+  "NY": {
+    "name": "New York",
+    "STUSPS": "NY",
+    "STATEFP": "36",
+    "bbox": {
+      "minLon": -79.76259,
+      "minLat": 40.476578,
+      "maxLon": -71.777491,
+      "maxLat": 45.015865
+    }
+  },
+  "NC": {
+    "name": "North Carolina",
+    "STUSPS": "NC",
+    "STATEFP": "37",
+    "bbox": {
+      "minLon": -84.321821,
+      "minLat": 33.752878,
+      "maxLon": -75.400119,
+      "maxLat": 36.588137
+    }
+  },
+  "ND": {
+    "name": "North Dakota",
+    "STUSPS": "ND",
+    "STATEFP": "38",
+    "bbox": {
+      "minLon": -104.049012,
+      "minLat": 45.935072,
+      "maxLon": -96.554411,
+      "maxLat": 49.000561
+    }
+  },
+  "OH": {
+    "name": "Ohio",
+    "STUSPS": "OH",
+    "STATEFP": "39",
+    "bbox": {
+      "minLon": -84.820305,
+      "minLat": 38.403423,
+      "maxLon": -80.518705,
+      "maxLat": 42.327132
+    }
+  },
+  "OK": {
+    "name": "Oklahoma",
+    "STUSPS": "OK",
+    "STATEFP": "40",
+    "bbox": {
+      "minLon": -103.002413,
+      "minLat": 33.615787,
+      "maxLon": -94.431014,
+      "maxLat": 37.002312
+    }
+  },
+  "OR": {
+    "name": "Oregon",
+    "STUSPS": "OR",
+    "STATEFP": "41",
+    "bbox": {
+      "minLon": -124.703541,
+      "minLat": 41.992082,
+      "maxLon": -116.463262,
+      "maxLat": 46.299099
+    }
+  },
+  "PA": {
+    "name": "Pennsylvania",
+    "STUSPS": "PA",
+    "STATEFP": "42",
+    "bbox": {
+      "minLon": -80.519851,
+      "minLat": 39.719799,
+      "maxLon": -74.689561,
+      "maxLat": 42.516072
+    }
+  },
+  "RI": {
+    "name": "Rhode Island",
+    "STUSPS": "RI",
+    "STATEFP": "44",
+    "bbox": {
+      "minLon": -71.907258,
+      "minLat": 41.095834,
+      "maxLon": -71.088571,
+      "maxLat": 42.018799
+    }
+  },
+  "SC": {
+    "name": "South Carolina",
+    "STUSPS": "SC",
+    "STATEFP": "45",
+    "bbox": {
+      "minLon": -83.353928,
+      "minLat": 31.995954,
+      "maxLon": -78.499301,
+      "maxLat": 35.215485
+    }
+  },
+  "SD": {
+    "name": "South Dakota",
+    "STUSPS": "SD",
+    "STATEFP": "46",
+    "bbox": {
+      "minLon": -104.057879,
+      "minLat": 42.479686,
+      "maxLon": -96.436472,
+      "maxLat": 45.945377
+    }
+  },
+  "TN": {
+    "name": "Tennessee",
+    "STUSPS": "TN",
+    "STATEFP": "47",
+    "bbox": {
+      "minLon": -90.310491,
+      "minLat": 34.982924,
+      "maxLon": -81.6469,
+      "maxLat": 36.678255
+    }
+  },
+  "TX": {
+    "name": "Texas",
+    "STUSPS": "TX",
+    "STATEFP": "48",
+    "bbox": {
+      "minLon": -106.645646,
+      "minLat": 25.837048,
+      "maxLon": -93.508039,
+      "maxLat": 36.500704
+    }
+  },
+  "UT": {
+    "name": "Utah",
+    "STUSPS": "UT",
+    "STATEFP": "49",
+    "bbox": {
+      "minLon": -114.052885,
+      "minLat": 36.997657,
+      "maxLon": -109.041572,
+      "maxLat": 42.001702
+    }
+  },
+  "VT": {
+    "name": "Vermont",
+    "STUSPS": "VT",
+    "STATEFP": "50",
+    "bbox": {
+      "minLon": -73.437905,
+      "minLat": 42.726933,
+      "maxLon": -71.465047,
+      "maxLat": 45.016658
+    }
+  },
+  "VA": {
+    "name": "Virginia",
+    "STUSPS": "VA",
+    "STATEFP": "51",
+    "bbox": {
+      "minLon": -83.675395,
+      "minLat": 36.540852,
+      "maxLon": -75.166435,
+      "maxLat": 39.466012
+    }
+  },
+  "WA": {
+    "name": "Washington",
+    "STUSPS": "WA",
+    "STATEFP": "53",
+    "bbox": {
+      "minLon": -124.848974,
+      "minLat": 45.543541,
+      "maxLon": -116.916071,
+      "maxLat": 49.002439
+    }
+  },
+  "WV": {
+    "name": "West Virginia",
+    "STUSPS": "WV",
+    "STATEFP": "54",
+    "bbox": {
+      "minLon": -82.644591,
+      "minLat": 37.20154,
+      "maxLon": -77.719519,
+      "maxLat": 40.638801
+    }
+  },
+  "WI": {
+    "name": "Wisconsin",
+    "STUSPS": "WI",
+    "STATEFP": "55",
+    "bbox": {
+      "minLon": -92.889433,
+      "minLat": 42.49172,
+      "maxLon": -86.249548,
+      "maxLat": 47.309822
+    }
+  },
+  "WY": {
+    "name": "Wyoming",
+    "STUSPS": "WY",
+    "STATEFP": "56",
+    "bbox": {
+      "minLon": -111.054558,
+      "minLat": 40.994772,
+      "maxLon": -104.052245,
+      "maxLat": 45.005815
+    }
+  },
+  "AS": {
+    "name": "American Samoa",
+    "STUSPS": "AS",
+    "STATEFP": "60",
+    "bbox": {
+      "minLon": -171.141907,
+      "minLat": -14.601813,
+      "maxLon": -168.101612,
+      "maxLat": -10.997203
+    }
+  },
+  "GU": {
+    "name": "Guam",
+    "STUSPS": "GU",
+    "STATEFP": "66",
+    "bbox": {
+      "minLon": 144.563426,
+      "minLat": 13.182335,
+      "maxLon": 145.009167,
+      "maxLat": 13.706179
+    }
+  },
+  "MP": {
+    "name": "Commonwealth of the Northern Mariana Islands",
+    "STUSPS": "MP",
+    "STATEFP": "69",
+    "bbox": {
+      "minLon": 144.813338,
+      "minLat": 14.036565,
+      "maxLon": 146.154418,
+      "maxLat": 20.616556
+    }
+  },
+  "PR": {
+    "name": "Puerto Rico",
+    "STUSPS": "PR",
+    "STATEFP": "72",
+    "bbox": {
+      "minLon": -67.998751,
+      "minLat": 17.831509,
+      "maxLon": -65.168503,
+      "maxLat": 18.568002
+    }
+  },
+  "VI": {
+    "name": "United States Virgin Islands",
+    "STUSPS": "VI",
+    "STATEFP": "78",
+    "bbox": {
+      "minLon": -65.154118,
+      "minLat": 17.623468,
+      "maxLon": -64.512674,
+      "maxLat": 18.464984
+    }
+  }
+}

@@ -1,0 +1,1034 @@
+[
+  {
+    "Lincoln": {
+      "COUNTYFP": "023",
+      "name": "Lincoln",
+      "bbox": {
+        "minLon": -111.047343,
+        "minLat": 41.577519,
+        "maxLon": -110.046403,
+        "maxLat": 43.316096
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91980",
+          "name": "Kemmerer West",
+          "bbox": {
+            "minLon": -111.047343,
+            "minLat": 41.578946,
+            "maxLon": -110.51863,
+            "maxLat": 42.58076
+          }
+        },
+        {
+          "COUSUBFP": "90055",
+          "name": "Afton",
+          "bbox": {
+            "minLon": -111.047234,
+            "minLat": 42.39988,
+            "maxLon": -110.578584,
+            "maxLat": 43.316096
+          }
+        },
+        {
+          "COUSUBFP": "91925",
+          "name": "Kemmerer East",
+          "bbox": {
+            "minLon": -110.626998,
+            "minLat": 41.577519,
+            "maxLon": -110.046403,
+            "maxLat": 42.28946
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Fremont": {
+      "COUNTYFP": "013",
+      "name": "Fremont",
+      "bbox": {
+        "minLon": -110.053637,
+        "minLat": 42.261356,
+        "maxLon": -107.501425,
+        "maxLat": 44.009157
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92035",
+          "name": "Lander",
+          "bbox": {
+            "minLon": -109.325773,
+            "minLat": 42.262875,
+            "maxLon": -108.179297,
+            "maxLat": 42.906218
+          }
+        },
+        {
+          "COUSUBFP": "93080",
+          "name": "Shoshoni",
+          "bbox": {
+            "minLon": -108.156763,
+            "minLat": 42.862782,
+            "maxLon": -107.501525,
+            "maxLat": 43.501419
+          }
+        },
+        {
+          "COUSUBFP": "91045",
+          "name": "Dubois",
+          "bbox": {
+            "minLon": -110.053637,
+            "minLat": 42.976801,
+            "maxLon": -109.233656,
+            "maxLat": 44.009157
+          }
+        },
+        {
+          "COUSUBFP": "93742",
+          "name": "Wind River Reservation",
+          "bbox": {
+            "minLon": -109.474296,
+            "minLat": 42.853889,
+            "maxLon": -108.153521,
+            "maxLat": 43.762364
+          }
+        },
+        {
+          "COUSUBFP": "91842",
+          "name": "Jeffrey City",
+          "bbox": {
+            "minLon": -108.368914,
+            "minLat": 42.261356,
+            "maxLon": -107.501425,
+            "maxLat": 43.172877
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Uinta": {
+      "COUNTYFP": "041",
+      "name": "Uinta",
+      "bbox": {
+        "minLon": -111.046819,
+        "minLat": 40.994772,
+        "maxLon": -110.048,
+        "maxLat": 41.579845
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90440",
+          "name": "Bridger Valley",
+          "bbox": {
+            "minLon": -110.743023,
+            "minLat": 40.994772,
+            "maxLon": -110.048,
+            "maxLat": 41.579198
+          }
+        },
+        {
+          "COUSUBFP": "91155",
+          "name": "Evanston",
+          "bbox": {
+            "minLon": -111.046819,
+            "minLat": 40.996183,
+            "maxLon": -110.478089,
+            "maxLat": 41.579845
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Big Horn": {
+      "COUNTYFP": "003",
+      "name": "Big Horn",
+      "bbox": {
+        "minLon": -108.622147,
+        "minLat": 44.165666,
+        "maxLon": -107.145001,
+        "maxLat": 45.000678
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90688",
+          "name": "Central Big Horn",
+          "bbox": {
+            "minLon": -108.592624,
+            "minLat": 44.377485,
+            "maxLon": -107.500879,
+            "maxLat": 44.822243
+          }
+        },
+        {
+          "COUSUBFP": "92393",
+          "name": "North Big Horn",
+          "bbox": {
+            "minLon": -108.622147,
+            "minLat": 44.613995,
+            "maxLon": -107.816278,
+            "maxLat": 45.000678
+          }
+        },
+        {
+          "COUSUBFP": "93142",
+          "name": "South Big Horn",
+          "bbox": {
+            "minLon": -108.573797,
+            "minLat": 44.165666,
+            "maxLon": -107.145001,
+            "maxLat": 44.642098
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Hot Springs": {
+      "COUNTYFP": "017",
+      "name": "Hot Springs",
+      "bbox": {
+        "minLon": -109.313129,
+        "minLat": 43.459535,
+        "maxLon": -107.595084,
+        "maxLat": 44.079985
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93355",
+          "name": "Thermopolis East",
+          "bbox": {
+            "minLon": -108.220662,
+            "minLat": 43.470628,
+            "maxLon": -107.595084,
+            "maxLat": 43.818968
+          }
+        },
+        {
+          "COUSUBFP": "93410",
+          "name": "Thermopolis West",
+          "bbox": {
+            "minLon": -109.313129,
+            "minLat": 43.579155,
+            "maxLon": -108.147326,
+            "maxLat": 44.079985
+          }
+        },
+        {
+          "COUSUBFP": "93744",
+          "name": "Wind River Reservation",
+          "bbox": {
+            "minLon": -109.171638,
+            "minLat": 43.459535,
+            "maxLon": -108.155762,
+            "maxLat": 43.731955
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Washakie": {
+      "COUNTYFP": "043",
+      "name": "Washakie",
+      "bbox": {
+        "minLon": -108.550815,
+        "minLat": 43.500219,
+        "maxLon": -107.110734,
+        "maxLat": 44.168475
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93300",
+          "name": "Ten Sleep",
+          "bbox": {
+            "minLon": -107.693775,
+            "minLat": 43.500219,
+            "maxLon": -107.110734,
+            "maxLat": 44.167882
+          }
+        },
+        {
+          "COUSUBFP": "93795",
+          "name": "Worland",
+          "bbox": {
+            "minLon": -108.550815,
+            "minLat": 43.645766,
+            "maxLon": -107.570978,
+            "maxLat": 44.168475
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Converse": {
+      "COUNTYFP": "009",
+      "name": "Converse",
+      "bbox": {
+        "minLon": -106.078238,
+        "minLat": 42.288859,
+        "maxLon": -104.892249,
+        "maxLat": 43.49964
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90990",
+          "name": "Douglas",
+          "bbox": {
+            "minLon": -105.92667,
+            "minLat": 42.288859,
+            "maxLon": -104.892249,
+            "maxLat": 43.49964
+          }
+        },
+        {
+          "COUSUBFP": "91375",
+          "name": "Glenrock",
+          "bbox": {
+            "minLon": -106.078238,
+            "minLat": 42.431056,
+            "maxLon": -105.55499,
+            "maxLat": 43.495046
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Sweetwater": {
+      "COUNTYFP": "037",
+      "name": "Sweetwater",
+      "bbox": {
+        "minLon": -110.054409,
+        "minLat": 40.997294,
+        "maxLon": -107.50382,
+        "maxLat": 42.270744
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93575",
+          "name": "Wamsutter",
+          "bbox": {
+            "minLon": -108.58201,
+            "minLat": 41.000069,
+            "maxLon": -107.50382,
+            "maxLat": 42.263672
+          }
+        },
+        {
+          "COUSUBFP": "91485",
+          "name": "Green River North",
+          "bbox": {
+            "minLon": -110.054409,
+            "minLat": 41.459425,
+            "maxLon": -109.27105,
+            "maxLat": 42.270744
+          }
+        },
+        {
+          "COUSUBFP": "92805",
+          "name": "Rock Springs South",
+          "bbox": {
+            "minLon": -109.589912,
+            "minLat": 40.99839,
+            "maxLon": -108.295637,
+            "maxLat": 41.69383
+          }
+        },
+        {
+          "COUSUBFP": "91540",
+          "name": "Green River South",
+          "bbox": {
+            "minLon": -110.049165,
+            "minLat": 40.997294,
+            "maxLon": -109.385583,
+            "maxLat": 41.56459
+          }
+        },
+        {
+          "COUSUBFP": "92750",
+          "name": "Rock Springs North",
+          "bbox": {
+            "minLon": -109.49666,
+            "minLat": 41.435998,
+            "maxLon": -108.37843,
+            "maxLat": 42.263861
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Crook": {
+      "COUNTYFP": "011",
+      "name": "Crook",
+      "bbox": {
+        "minLon": -105.086151,
+        "minLat": 44.17613,
+        "maxLon": -104.054487,
+        "maxLat": 45.000121
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93190",
+          "name": "Sundance",
+          "bbox": {
+            "minLon": -104.69676,
+            "minLat": 44.180381,
+            "maxLon": -104.054487,
+            "maxLat": 44.66782
+          }
+        },
+        {
+          "COUSUBFP": "92200",
+          "name": "Moorcroft",
+          "bbox": {
+            "minLon": -105.086151,
+            "minLat": 44.17613,
+            "maxLon": -104.45581,
+            "maxLat": 44.748873
+          }
+        },
+        {
+          "COUSUBFP": "91760",
+          "name": "Hulett",
+          "bbox": {
+            "minLon": -105.085619,
+            "minLat": 44.60077,
+            "maxLon": -104.05576,
+            "maxLat": 45.000121
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Carbon": {
+      "COUNTYFP": "007",
+      "name": "Carbon",
+      "bbox": {
+        "minLon": -107.929984,
+        "minLat": 40.999123,
+        "maxLon": -106.068406,
+        "maxLat": 42.434756
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91650",
+          "name": "Hanna",
+          "bbox": {
+            "minLon": -107.066119,
+            "minLat": 41.381257,
+            "maxLon": -106.068406,
+            "maxLat": 42.433445
+          }
+        },
+        {
+          "COUSUBFP": "92860",
+          "name": "Saratoga",
+          "bbox": {
+            "minLon": -107.316837,
+            "minLat": 40.999123,
+            "maxLon": -106.321165,
+            "maxLat": 41.740743
+          }
+        },
+        {
+          "COUSUBFP": "92640",
+          "name": "Rawlins",
+          "bbox": {
+            "minLon": -107.929984,
+            "minLat": 41.001926,
+            "maxLon": -106.836606,
+            "maxLat": 42.434756
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Campbell": {
+      "COUNTYFP": "005",
+      "name": "Campbell",
+      "bbox": {
+        "minLon": -106.02524,
+        "minLat": 43.4948,
+        "maxLon": -105.074791,
+        "maxLat": 45.000446
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91210",
+          "name": "Gillette North",
+          "bbox": {
+            "minLon": -106.02524,
+            "minLat": 44.24426,
+            "maxLon": -105.074791,
+            "maxLat": 45.000446
+          }
+        },
+        {
+          "COUSUBFP": "91265",
+          "name": "Gillette South",
+          "bbox": {
+            "minLon": -106.018862,
+            "minLat": 43.4948,
+            "maxLon": -105.078784,
+            "maxLat": 44.305062
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Natrona": {
+      "COUNTYFP": "025",
+      "name": "Natrona",
+      "bbox": {
+        "minLon": -107.543526,
+        "minLat": 42.430488,
+        "maxLon": -106.070569,
+        "maxLat": 43.501897
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90605",
+          "name": "Casper North",
+          "bbox": {
+            "minLon": -106.71474,
+            "minLat": 42.845499,
+            "maxLon": -106.072903,
+            "maxLat": 43.494471
+          }
+        },
+        {
+          "COUSUBFP": "90660",
+          "name": "Casper South",
+          "bbox": {
+            "minLon": -106.913401,
+            "minLat": 42.430488,
+            "maxLon": -106.070569,
+            "maxLat": 42.873295
+          }
+        },
+        {
+          "COUSUBFP": "90550",
+          "name": "Casper",
+          "bbox": {
+            "minLon": -106.418342,
+            "minLat": 42.80579,
+            "maxLon": -106.265269,
+            "maxLat": 42.867814
+          }
+        },
+        {
+          "COUSUBFP": "91705",
+          "name": "Hells Half Acre",
+          "bbox": {
+            "minLon": -107.543526,
+            "minLat": 42.433195,
+            "maxLon": -106.382131,
+            "maxLat": 43.501897
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Laramie": {
+      "COUNTYFP": "021",
+      "name": "Laramie",
+      "bbox": {
+        "minLon": -105.280675,
+        "minLat": 40.998048,
+        "maxLon": -104.052245,
+        "maxLat": 41.656655
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90825",
+          "name": "Cheyenne West",
+          "bbox": {
+            "minLon": -105.280675,
+            "minLat": 40.998048,
+            "maxLon": -104.773018,
+            "maxLat": 41.656655
+          }
+        },
+        {
+          "COUSUBFP": "92420",
+          "name": "Pine Bluffs",
+          "bbox": {
+            "minLon": -104.484121,
+            "minLat": 41.001406,
+            "maxLon": -104.052245,
+            "maxLat": 41.564453
+          }
+        },
+        {
+          "COUSUBFP": "90715",
+          "name": "Cheyenne",
+          "bbox": {
+            "minLon": -104.852679,
+            "minLat": 41.052956,
+            "maxLon": -104.715803,
+            "maxLat": 41.206703
+          }
+        },
+        {
+          "COUSUBFP": "90770",
+          "name": "Cheyenne East",
+          "bbox": {
+            "minLon": -104.899507,
+            "minLat": 40.999833,
+            "maxLon": -104.283248,
+            "maxLat": 41.653477
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Platte": {
+      "COUNTYFP": "031",
+      "name": "Platte",
+      "bbox": {
+        "minLon": -105.286511,
+        "minLat": 41.652672,
+        "maxLon": -104.653145,
+        "maxLat": 42.61024
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90880",
+          "name": "Chugwater",
+          "bbox": {
+            "minLon": -105.278973,
+            "minLat": 41.652672,
+            "maxLon": -104.653145,
+            "maxLat": 41.96279
+          }
+        },
+        {
+          "COUSUBFP": "91320",
+          "name": "Glendo",
+          "bbox": {
+            "minLon": -105.286511,
+            "minLat": 42.21894,
+            "maxLon": -104.871122,
+            "maxLat": 42.608511
+          }
+        },
+        {
+          "COUSUBFP": "91595",
+          "name": "Guernsey",
+          "bbox": {
+            "minLon": -105.079115,
+            "minLat": 42.112454,
+            "maxLon": -104.654222,
+            "maxLat": 42.61024
+          }
+        },
+        {
+          "COUSUBFP": "93630",
+          "name": "Wheatland",
+          "bbox": {
+            "minLon": -105.281454,
+            "minLat": 41.816565,
+            "maxLon": -104.653254,
+            "maxLat": 42.264588
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Weston": {
+      "COUNTYFP": "045",
+      "name": "Weston",
+      "bbox": {
+        "minLon": -105.081769,
+        "minLat": 43.498445,
+        "maxLon": -104.054487,
+        "maxLat": 44.181622
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93520",
+          "name": "Upton",
+          "bbox": {
+            "minLon": -105.081407,
+            "minLat": 43.798146,
+            "maxLon": -104.430448,
+            "maxLat": 44.180781
+          }
+        },
+        {
+          "COUSUBFP": "92255",
+          "name": "Newcastle",
+          "bbox": {
+            "minLon": -105.081769,
+            "minLat": 43.498445,
+            "maxLon": -104.054487,
+            "maxLat": 44.181622
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Albany": {
+      "COUNTYFP": "001",
+      "name": "Albany",
+      "bbox": {
+        "minLon": -106.323343,
+        "minLat": 40.996822,
+        "maxLon": -105.271433,
+        "maxLat": 42.433236
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91100",
+          "name": "East Albany",
+          "bbox": {
+            "minLon": -105.74781,
+            "minLat": 41.116397,
+            "maxLon": -105.271433,
+            "maxLat": 41.998833
+          }
+        },
+        {
+          "COUSUBFP": "92695",
+          "name": "Rock River",
+          "bbox": {
+            "minLon": -106.074922,
+            "minLat": 41.408088,
+            "maxLon": -105.272627,
+            "maxLat": 42.433236
+          }
+        },
+        {
+          "COUSUBFP": "92090",
+          "name": "Laramie",
+          "bbox": {
+            "minLon": -105.835619,
+            "minLat": 41.132123,
+            "maxLon": -105.426724,
+            "maxLat": 41.477765
+          }
+        },
+        {
+          "COUSUBFP": "93135",
+          "name": "South Albany",
+          "bbox": {
+            "minLon": -106.323343,
+            "minLat": 40.996822,
+            "maxLon": -105.276837,
+            "maxLat": 41.53072
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Park": {
+      "COUNTYFP": "029",
+      "name": "Park",
+      "bbox": {
+        "minLon": -111.054558,
+        "minLat": 43.801156,
+        "maxLon": -108.550562,
+        "maxLat": 45.005815
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93850",
+          "name": "Yellowstone National Park",
+          "bbox": {
+            "minLon": -111.054558,
+            "minLat": 44.132521,
+            "maxLon": -109.825487,
+            "maxLat": 45.003536
+          }
+        },
+        {
+          "COUSUBFP": "90935",
+          "name": "Cody",
+          "bbox": {
+            "minLon": -110.172593,
+            "minLat": 43.840932,
+            "maxLon": -108.88992,
+            "maxLat": 45.005815
+          }
+        },
+        {
+          "COUSUBFP": "92530",
+          "name": "Powell",
+          "bbox": {
+            "minLon": -109.062718,
+            "minLat": 44.45669,
+            "maxLon": -108.573319,
+            "maxLat": 45.000361
+          }
+        },
+        {
+          "COUSUBFP": "92145",
+          "name": "Meeteetse",
+          "bbox": {
+            "minLon": -109.856693,
+            "minLat": 43.801156,
+            "maxLon": -108.550562,
+            "maxLat": 44.508101
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Johnson": {
+      "COUNTYFP": "019",
+      "name": "Johnson",
+      "bbox": {
+        "minLon": -107.371447,
+        "minLat": 43.49147,
+        "maxLon": -106.008477,
+        "maxLat": 44.563981
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91870",
+          "name": "Kaycee",
+          "bbox": {
+            "minLon": -107.129009,
+            "minLat": 43.49147,
+            "maxLon": -106.009201,
+            "maxLat": 44.250249
+          }
+        },
+        {
+          "COUSUBFP": "90495",
+          "name": "Buffalo",
+          "bbox": {
+            "minLon": -107.371447,
+            "minLat": 44.045997,
+            "maxLon": -106.008477,
+            "maxLat": 44.563981
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Sheridan": {
+      "COUNTYFP": "033",
+      "name": "Sheridan",
+      "bbox": {
+        "minLon": -107.911523,
+        "minLat": 44.556713,
+        "maxLon": -106.009676,
+        "maxLat": 45.001426
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92970",
+          "name": "Sheridan South",
+          "bbox": {
+            "minLon": -107.302031,
+            "minLat": 44.557323,
+            "maxLon": -106.70655,
+            "maxLat": 44.77099
+          }
+        },
+        {
+          "COUSUBFP": "92915",
+          "name": "Sheridan",
+          "bbox": {
+            "minLon": -107.1452,
+            "minLat": 44.556713,
+            "maxLon": -106.009676,
+            "maxLat": 44.996007
+          }
+        },
+        {
+          "COUSUBFP": "93025",
+          "name": "Sheridan West",
+          "bbox": {
+            "minLon": -107.911523,
+            "minLat": 44.559101,
+            "maxLon": -106.90133,
+            "maxLat": 45.001426
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Niobrara": {
+      "COUNTYFP": "027",
+      "name": "Niobrara",
+      "bbox": {
+        "minLon": -104.899941,
+        "minLat": 42.608787,
+        "maxLon": -104.052585,
+        "maxLat": 43.503328
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91128",
+          "name": "East Niobrara",
+          "bbox": {
+            "minLon": -104.45237,
+            "minLat": 42.610008,
+            "maxLon": -104.052585,
+            "maxLat": 43.503328
+          }
+        },
+        {
+          "COUSUBFP": "93603",
+          "name": "West Niobrara",
+          "bbox": {
+            "minLon": -104.899941,
+            "minLat": 42.608787,
+            "maxLon": -104.19515,
+            "maxLat": 43.502743
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Teton": {
+      "COUNTYFP": "039",
+      "name": "Teton",
+      "bbox": {
+        "minLon": -111.053447,
+        "minLat": 43.23499,
+        "maxLon": -110.051031,
+        "maxLat": 44.666805
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91815",
+          "name": "Jackson Hole",
+          "bbox": {
+            "minLon": -111.039233,
+            "minLat": 43.23499,
+            "maxLon": -110.051031,
+            "maxLat": 44.133253
+          }
+        },
+        {
+          "COUSUBFP": "93905",
+          "name": "Yellowstone National Park",
+          "bbox": {
+            "minLon": -111.053447,
+            "minLat": 44.131291,
+            "maxLon": -110.105395,
+            "maxLat": 44.666805
+          }
+        },
+        {
+          "COUSUBFP": "90110",
+          "name": "Alta",
+          "bbox": {
+            "minLon": -111.049119,
+            "minLat": 43.315719,
+            "maxLon": -110.768407,
+            "maxLat": 44.132592
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Sublette": {
+      "COUNTYFP": "035",
+      "name": "Sublette",
+      "bbox": {
+        "minLon": -110.623792,
+        "minLat": 42.263318,
+        "maxLon": -109.043093,
+        "maxLat": 43.464783
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90330",
+          "name": "Big Piney",
+          "bbox": {
+            "minLon": -110.623792,
+            "minLat": 42.270641,
+            "maxLon": -109.94163,
+            "maxLat": 42.84389
+          }
+        },
+        {
+          "COUSUBFP": "92475",
+          "name": "Pinedale",
+          "bbox": {
+            "minLon": -110.589006,
+            "minLat": 42.54823,
+            "maxLon": -109.362012,
+            "maxLat": 43.464783
+          }
+        },
+        {
+          "COUSUBFP": "90385",
+          "name": "Boulder",
+          "bbox": {
+            "minLon": -110.193061,
+            "minLat": 42.263318,
+            "maxLon": -109.043093,
+            "maxLat": 42.945728
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Goshen": {
+      "COUNTYFP": "015",
+      "name": "Goshen",
+      "bbox": {
+        "minLon": -104.655639,
+        "minLat": 41.564147,
+        "maxLon": -104.052477,
+        "maxLat": 42.612007
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91430",
+          "name": "Goshen Hole",
+          "bbox": {
+            "minLon": -104.655027,
+            "minLat": 41.564147,
+            "maxLon": -104.05254,
+            "maxLat": 42.248618
+          }
+        },
+        {
+          "COUSUBFP": "92585",
+          "name": "Rawhide Creek",
+          "bbox": {
+            "minLon": -104.655639,
+            "minLat": 42.08733,
+            "maxLon": -104.052477,
+            "maxLat": 42.612007
+          }
+        },
+        {
+          "COUSUBFP": "93465",
+          "name": "Torrington",
+          "bbox": {
+            "minLon": -104.632423,
+            "minLat": 41.808748,
+            "maxLon": -104.052614,
+            "maxLat": 42.248113
+          }
+        }
+      ]
+    }
+  }
+]

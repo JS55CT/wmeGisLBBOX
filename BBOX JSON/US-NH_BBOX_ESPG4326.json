@@ -1,0 +1,2742 @@
+[
+  {
+    "Grafton": {
+      "COUNTYFP": "009",
+      "name": "Grafton",
+      "bbox": {
+        "minLon": -72.335148,
+        "minLat": 43.528857,
+        "maxLon": -71.346656,
+        "maxLat": 44.406351
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "34820",
+          "name": "Haverhill",
+          "bbox": {
+            "minLon": -72.079434,
+            "minLat": 43.998159,
+            "maxLon": -71.912773,
+            "maxLat": 44.15573
+          }
+        },
+        {
+          "COUSUBFP": "41860",
+          "name": "Lincoln",
+          "bbox": {
+            "minLon": -71.772358,
+            "minLat": 44.000753,
+            "maxLon": -71.40165,
+            "maxLat": 44.197498
+          }
+        },
+        {
+          "COUSUBFP": "07700",
+          "name": "Bristol",
+          "bbox": {
+            "minLon": -71.792378,
+            "minLat": 43.563411,
+            "maxLon": -71.651077,
+            "maxLat": 43.674829
+          }
+        },
+        {
+          "COUSUBFP": "74740",
+          "name": "Sugar Hill",
+          "bbox": {
+            "minLon": -71.848088,
+            "minLat": 44.175945,
+            "maxLon": -71.745959,
+            "maxLat": 44.271266
+          }
+        },
+        {
+          "COUSUBFP": "61060",
+          "name": "Piermont",
+          "bbox": {
+            "minLon": -72.117048,
+            "minLat": 43.915577,
+            "maxLon": -71.959205,
+            "maxLat": 44.029752
+          }
+        },
+        {
+          "COUSUBFP": "00580",
+          "name": "Alexandria",
+          "bbox": {
+            "minLon": -71.910545,
+            "minLat": 43.544208,
+            "maxLon": -71.75072,
+            "maxLat": 43.696069
+          }
+        },
+        {
+          "COUSUBFP": "07540",
+          "name": "Bridgewater",
+          "bbox": {
+            "minLon": -71.761783,
+            "minLat": 43.624605,
+            "maxLon": -71.646988,
+            "maxLat": 43.717545
+          }
+        },
+        {
+          "COUSUBFP": "02020",
+          "name": "Ashland",
+          "bbox": {
+            "minLon": -71.677872,
+            "minLat": 43.684511,
+            "maxLon": -71.581403,
+            "maxLat": 43.74907
+          }
+        },
+        {
+          "COUSUBFP": "05060",
+          "name": "Benton",
+          "bbox": {
+            "minLon": -71.963265,
+            "minLat": 43.983801,
+            "maxLon": -71.794468,
+            "maxLat": 44.112859
+          }
+        },
+        {
+          "COUSUBFP": "05460",
+          "name": "Bethlehem",
+          "bbox": {
+            "minLon": -71.794392,
+            "minLat": 44.167462,
+            "maxLon": -71.413171,
+            "maxLat": 44.336581
+          }
+        },
+        {
+          "COUSUBFP": "08980",
+          "name": "Canaan",
+          "bbox": {
+            "minLon": -72.160415,
+            "minLat": 43.611388,
+            "maxLon": -71.932091,
+            "maxLat": 43.741456
+          }
+        },
+        {
+          "COUSUBFP": "18740",
+          "name": "Dorchester",
+          "bbox": {
+            "minLon": -72.058132,
+            "minLat": 43.706063,
+            "maxLon": -71.907111,
+            "maxLat": 43.837944
+          }
+        },
+        {
+          "COUSUBFP": "23860",
+          "name": "Ellsworth",
+          "bbox": {
+            "minLon": -71.826024,
+            "minLat": 43.855568,
+            "maxLon": -71.722682,
+            "maxLat": 43.950934
+          }
+        },
+        {
+          "COUSUBFP": "24340",
+          "name": "Enfield",
+          "bbox": {
+            "minLon": -72.208313,
+            "minLat": 43.528857,
+            "maxLon": -72.020152,
+            "maxLat": 43.658518
+          }
+        },
+        {
+          "COUSUBFP": "27300",
+          "name": "Franconia",
+          "bbox": {
+            "minLon": -71.786869,
+            "minLat": 44.112065,
+            "maxLon": -71.537625,
+            "maxLat": 44.253085
+          }
+        },
+        {
+          "COUSUBFP": "30820",
+          "name": "Grafton",
+          "bbox": {
+            "minLon": -72.069516,
+            "minLat": 43.52888,
+            "maxLon": -71.864599,
+            "maxLat": 43.627436
+          }
+        },
+        {
+          "COUSUBFP": "32180",
+          "name": "Groton",
+          "bbox": {
+            "minLon": -71.932091,
+            "minLat": 43.687257,
+            "maxLon": -71.766726,
+            "maxLat": 43.80407
+          }
+        },
+        {
+          "COUSUBFP": "35220",
+          "name": "Hebron",
+          "bbox": {
+            "minLon": -71.853969,
+            "minLat": 43.655107,
+            "maxLon": -71.733706,
+            "maxLat": 43.738389
+          }
+        },
+        {
+          "COUSUBFP": "36900",
+          "name": "Holderness",
+          "bbox": {
+            "minLon": -71.68628,
+            "minLat": 43.691949,
+            "maxLon": -71.521389,
+            "maxLat": 43.796478
+          }
+        },
+        {
+          "COUSUBFP": "40660",
+          "name": "Landaff",
+          "bbox": {
+            "minLon": -71.933544,
+            "minLat": 44.092977,
+            "maxLon": -71.817708,
+            "maxLat": 44.207653
+          }
+        },
+        {
+          "COUSUBFP": "42820",
+          "name": "Livermore",
+          "bbox": {
+            "minLon": -71.628026,
+            "minLat": 43.973578,
+            "maxLon": -71.346656,
+            "maxLat": 44.170094
+          }
+        },
+        {
+          "COUSUBFP": "48980",
+          "name": "Monroe",
+          "bbox": {
+            "minLon": -72.068478,
+            "minLat": 44.212444,
+            "maxLon": -71.929466,
+            "maxLat": 44.336131
+          }
+        },
+        {
+          "COUSUBFP": "03940",
+          "name": "Bath",
+          "bbox": {
+            "minLon": -72.066158,
+            "minLat": 44.112859,
+            "maxLon": -71.912773,
+            "maxLat": 44.240756
+          }
+        },
+        {
+          "COUSUBFP": "08660",
+          "name": "Campton",
+          "bbox": {
+            "minLon": -71.749321,
+            "minLat": 43.782356,
+            "maxLon": -71.543805,
+            "maxLat": 43.882407
+          }
+        },
+        {
+          "COUSUBFP": "22020",
+          "name": "Easton",
+          "bbox": {
+            "minLon": -71.857503,
+            "minLat": 44.068952,
+            "maxLon": -71.727144,
+            "maxLat": 44.183399
+          }
+        },
+        {
+          "COUSUBFP": "33860",
+          "name": "Hanover",
+          "bbox": {
+            "minLon": -72.305133,
+            "minLat": 43.658518,
+            "maxLon": -72.075635,
+            "maxLat": 43.771118
+          }
+        },
+        {
+          "COUSUBFP": "41300",
+          "name": "Lebanon",
+          "bbox": {
+            "minLon": -72.335148,
+            "minLat": 43.585207,
+            "maxLon": -72.160415,
+            "maxLat": 43.692475
+          }
+        },
+        {
+          "COUSUBFP": "42580",
+          "name": "Littleton",
+          "bbox": {
+            "minLon": -71.984552,
+            "minLat": 44.271266,
+            "maxLon": -71.696885,
+            "maxLat": 44.406351
+          }
+        },
+        {
+          "COUSUBFP": "62660",
+          "name": "Plymouth",
+          "bbox": {
+            "minLon": -71.784489,
+            "minLat": 43.685418,
+            "maxLon": -71.658524,
+            "maxLat": 43.802437
+          }
+        },
+        {
+          "COUSUBFP": "78740",
+          "name": "Warren",
+          "bbox": {
+            "minLon": -71.963311,
+            "minLat": 43.885772,
+            "maxLon": -71.78986,
+            "maxLat": 43.998159
+          }
+        },
+        {
+          "COUSUBFP": "42020",
+          "name": "Lisbon",
+          "bbox": {
+            "minLon": -71.936006,
+            "minLat": 44.190571,
+            "maxLon": -71.794392,
+            "maxLat": 44.292895
+          }
+        },
+        {
+          "COUSUBFP": "44100",
+          "name": "Lyman",
+          "bbox": {
+            "minLon": -72.018229,
+            "minLat": 44.211791,
+            "maxLon": -71.862417,
+            "maxLat": 44.316287
+          }
+        },
+        {
+          "COUSUBFP": "44260",
+          "name": "Lyme",
+          "bbox": {
+            "minLon": -72.205704,
+            "minLat": 43.737244,
+            "maxLon": -72.026973,
+            "maxLat": 43.872672
+          }
+        },
+        {
+          "COUSUBFP": "58340",
+          "name": "Orange",
+          "bbox": {
+            "minLon": -72.005778,
+            "minLat": 43.605707,
+            "maxLon": -71.885398,
+            "maxLat": 43.706063
+          }
+        },
+        {
+          "COUSUBFP": "58500",
+          "name": "Orford",
+          "bbox": {
+            "minLon": -72.173584,
+            "minLat": 43.837944,
+            "maxLon": -71.963769,
+            "maxLat": 43.957381
+          }
+        },
+        {
+          "COUSUBFP": "65940",
+          "name": "Rumney",
+          "bbox": {
+            "minLon": -71.907111,
+            "minLat": 43.768401,
+            "maxLon": -71.722682,
+            "maxLat": 43.885772
+          }
+        },
+        {
+          "COUSUBFP": "76740",
+          "name": "Thornton",
+          "bbox": {
+            "minLon": -71.731661,
+            "minLat": 43.859786,
+            "maxLon": -71.560621,
+            "maxLat": 44.028652
+          }
+        },
+        {
+          "COUSUBFP": "79380",
+          "name": "Waterville Valley",
+          "bbox": {
+            "minLon": -71.603852,
+            "minLat": 43.892722,
+            "maxLon": -71.361965,
+            "maxLat": 44.001544
+          }
+        },
+        {
+          "COUSUBFP": "80500",
+          "name": "Wentworth",
+          "bbox": {
+            "minLon": -72.026973,
+            "minLat": 43.80407,
+            "maxLon": -71.826024,
+            "maxLat": 43.919459
+          }
+        },
+        {
+          "COUSUBFP": "87060",
+          "name": "Woodstock",
+          "bbox": {
+            "minLon": -71.823798,
+            "minLat": 43.919593,
+            "maxLon": -71.641145,
+            "maxLat": 44.078382
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Sullivan": {
+      "COUNTYFP": "019",
+      "name": "Sullivan",
+      "bbox": {
+        "minLon": -72.452949,
+        "minLat": 43.128807,
+        "maxLon": -71.93531,
+        "maxLat": 43.600214
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "41700",
+          "name": "Lempster",
+          "bbox": {
+            "minLon": -72.239671,
+            "minLat": 43.174797,
+            "maxLon": -72.123457,
+            "maxLat": 43.281604
+          }
+        },
+        {
+          "COUSUBFP": "52580",
+          "name": "Newport",
+          "bbox": {
+            "minLon": -72.269503,
+            "minLat": 43.307645,
+            "maxLon": -72.125852,
+            "maxLat": 43.423725
+          }
+        },
+        {
+          "COUSUBFP": "62340",
+          "name": "Plainfield",
+          "bbox": {
+            "minLon": -72.396647,
+            "minLat": 43.489032,
+            "maxLon": -72.171188,
+            "maxLat": 43.600214
+          }
+        },
+        {
+          "COUSUBFP": "72740",
+          "name": "Springfield",
+          "bbox": {
+            "minLon": -72.115507,
+            "minLat": 43.436871,
+            "maxLon": -71.93531,
+            "maxLat": 43.553172
+          }
+        },
+        {
+          "COUSUBFP": "75060",
+          "name": "Sunapee",
+          "bbox": {
+            "minLon": -72.12743,
+            "minLat": 43.329633,
+            "maxLon": -72.04681,
+            "maxLat": 43.446751
+          }
+        },
+        {
+          "COUSUBFP": "78980",
+          "name": "Washington",
+          "bbox": {
+            "minLon": -72.178497,
+            "minLat": 43.128807,
+            "maxLon": -72.009074,
+            "maxLat": 43.25508
+          }
+        },
+        {
+          "COUSUBFP": "77940",
+          "name": "Unity",
+          "bbox": {
+            "minLon": -72.361577,
+            "minLat": 43.259817,
+            "maxLon": -72.159728,
+            "maxLat": 43.332759
+          }
+        },
+        {
+          "COUSUBFP": "30500",
+          "name": "Goshen",
+          "bbox": {
+            "minLon": -72.165572,
+            "minLat": 43.249136,
+            "maxLon": -72.063351,
+            "maxLat": 43.340848
+          }
+        },
+        {
+          "COUSUBFP": "11380",
+          "name": "Charlestown",
+          "bbox": {
+            "minLon": -72.452949,
+            "minLat": 43.157859,
+            "maxLon": -72.338627,
+            "maxLat": 43.337553
+          }
+        },
+        {
+          "COUSUBFP": "31220",
+          "name": "Grantham",
+          "bbox": {
+            "minLon": -72.215027,
+            "minLat": 43.468853,
+            "maxLon": -72.090893,
+            "maxLat": 43.573985
+          }
+        },
+        {
+          "COUSUBFP": "00260",
+          "name": "Acworth",
+          "bbox": {
+            "minLon": -72.356282,
+            "minLat": 43.162842,
+            "maxLon": -72.219716,
+            "maxLat": 43.270681
+          }
+        },
+        {
+          "COUSUBFP": "12900",
+          "name": "Claremont",
+          "bbox": {
+            "minLon": -72.416037,
+            "minLat": 43.321989,
+            "maxLon": -72.267504,
+            "maxLat": 43.428835
+          }
+        },
+        {
+          "COUSUBFP": "15060",
+          "name": "Cornish",
+          "bbox": {
+            "minLon": -72.398871,
+            "minLat": 43.423725,
+            "maxLon": -72.225785,
+            "maxLat": 43.52515
+          }
+        },
+        {
+          "COUSUBFP": "16340",
+          "name": "Croydon",
+          "bbox": {
+            "minLon": -72.271883,
+            "minLat": 43.394352,
+            "maxLon": -72.111387,
+            "maxLat": 43.493351
+          }
+        },
+        {
+          "COUSUBFP": "40900",
+          "name": "Langdon",
+          "bbox": {
+            "minLon": -72.43209,
+            "minLat": 43.132118,
+            "maxLon": -72.330326,
+            "maxLat": 43.204459
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Cheshire": {
+      "COUNTYFP": "005",
+      "name": "Cheshire",
+      "bbox": {
+        "minLon": -72.557124,
+        "minLat": 42.712102,
+        "maxLon": -71.928993,
+        "maxLat": 43.181968
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "39300",
+          "name": "Keene",
+          "bbox": {
+            "minLon": -72.382909,
+            "minLat": 42.904261,
+            "maxLon": -72.217057,
+            "maxLat": 43.000032
+          }
+        },
+        {
+          "COUSUBFP": "75700",
+          "name": "Swanzey",
+          "bbox": {
+            "minLon": -72.389226,
+            "minLat": 42.805576,
+            "maxLon": -72.222565,
+            "maxLat": 42.911204
+          }
+        },
+        {
+          "COUSUBFP": "77380",
+          "name": "Troy",
+          "bbox": {
+            "minLon": -72.238145,
+            "minLat": 42.790432,
+            "maxLon": -72.132597,
+            "maxLat": 42.868503
+          }
+        },
+        {
+          "COUSUBFP": "85540",
+          "name": "Winchester",
+          "bbox": {
+            "minLon": -72.477275,
+            "minLat": 42.722867,
+            "maxLon": -72.320728,
+            "maxLat": 42.85307
+          }
+        },
+        {
+          "COUSUBFP": "36660",
+          "name": "Hinsdale",
+          "bbox": {
+            "minLon": -72.557124,
+            "minLat": 42.726689,
+            "maxLon": -72.451194,
+            "maxLat": 42.858119
+          }
+        },
+        {
+          "COUSUBFP": "75300",
+          "name": "Surry",
+          "bbox": {
+            "minLon": -72.36324,
+            "minLat": 42.976534,
+            "maxLon": -72.295007,
+            "maxLat": 43.065339
+          }
+        },
+        {
+          "COUSUBFP": "78420",
+          "name": "Walpole",
+          "bbox": {
+            "minLon": -72.467857,
+            "minLat": 43.014924,
+            "maxLon": -72.351841,
+            "maxLat": 43.161354
+          }
+        },
+        {
+          "COUSUBFP": "00820",
+          "name": "Alstead",
+          "bbox": {
+            "minLon": -72.376439,
+            "minLat": 43.061791,
+            "maxLon": -72.243089,
+            "maxLat": 43.169952
+          }
+        },
+        {
+          "COUSUBFP": "19140",
+          "name": "Dublin",
+          "bbox": {
+            "minLon": -72.156263,
+            "minLat": 42.865115,
+            "maxLon": -71.990686,
+            "maxLat": 42.922519
+          }
+        },
+        {
+          "COUSUBFP": "26500",
+          "name": "Fitzwilliam",
+          "bbox": {
+            "minLon": -72.218537,
+            "minLat": 42.71623,
+            "maxLon": -72.078625,
+            "maxLat": 42.810698
+          }
+        },
+        {
+          "COUSUBFP": "29220",
+          "name": "Gilsum",
+          "bbox": {
+            "minLon": -72.308399,
+            "minLat": 42.98991,
+            "maxLon": -72.194092,
+            "maxLat": 43.07618
+          }
+        },
+        {
+          "COUSUBFP": "34420",
+          "name": "Harrisville",
+          "bbox": {
+            "minLon": -72.167831,
+            "minLat": 42.919443,
+            "maxLon": -72.001215,
+            "maxLat": 42.968935
+          }
+        },
+        {
+          "COUSUBFP": "38500",
+          "name": "Jaffrey",
+          "bbox": {
+            "minLon": -72.144652,
+            "minLat": 42.789402,
+            "maxLon": -71.97471,
+            "maxLat": 42.868968
+          }
+        },
+        {
+          "COUSUBFP": "45460",
+          "name": "Marlborough",
+          "bbox": {
+            "minLon": -72.235841,
+            "minLat": 42.844966,
+            "maxLon": -72.137617,
+            "maxLat": 42.933702
+          }
+        },
+        {
+          "COUSUBFP": "45700",
+          "name": "Marlow",
+          "bbox": {
+            "minLon": -72.262483,
+            "minLat": 43.070817,
+            "maxLon": -72.156661,
+            "maxLat": 43.181968
+          }
+        },
+        {
+          "COUSUBFP": "64420",
+          "name": "Richmond",
+          "bbox": {
+            "minLon": -72.339688,
+            "minLat": 42.719579,
+            "maxLon": -72.203567,
+            "maxLat": 42.817005
+          }
+        },
+        {
+          "COUSUBFP": "64580",
+          "name": "Rindge",
+          "bbox": {
+            "minLon": -72.09126,
+            "minLat": 42.712102,
+            "maxLon": -71.928993,
+            "maxLat": 42.793308
+          }
+        },
+        {
+          "COUSUBFP": "65700",
+          "name": "Roxbury",
+          "bbox": {
+            "minLon": -72.242692,
+            "minLat": 42.922686,
+            "maxLon": -72.158597,
+            "maxLat": 42.985879
+          }
+        },
+        {
+          "COUSUBFP": "73700",
+          "name": "Stoddard",
+          "bbox": {
+            "minLon": -72.199539,
+            "minLat": 43.018922,
+            "maxLon": -72.034083,
+            "maxLat": 43.131866
+          }
+        },
+        {
+          "COUSUBFP": "74900",
+          "name": "Sullivan",
+          "bbox": {
+            "minLon": -72.259569,
+            "minLat": 42.971727,
+            "maxLon": -72.174316,
+            "maxLat": 43.053391
+          }
+        },
+        {
+          "COUSUBFP": "12260",
+          "name": "Chesterfield",
+          "bbox": {
+            "minLon": -72.555582,
+            "minLat": 42.848056,
+            "maxLon": -72.346592,
+            "maxLat": 42.934275
+          }
+        },
+        {
+          "COUSUBFP": "50580",
+          "name": "Nelson",
+          "bbox": {
+            "minLon": -72.179031,
+            "minLat": 42.961237,
+            "maxLon": -72.057949,
+            "maxLat": 43.030801
+          }
+        },
+        {
+          "COUSUBFP": "82660",
+          "name": "Westmoreland",
+          "bbox": {
+            "minLon": -72.534525,
+            "minLat": 42.926394,
+            "maxLon": -72.359883,
+            "maxLat": 43.020623
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Coos": {
+      "COUNTYFP": "007",
+      "name": "Coos",
+      "bbox": {
+        "minLon": -71.765684,
+        "minLat": 44.085752,
+        "maxLon": -71.009976,
+        "maxLat": 45.305778
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "68500",
+          "name": "Second College",
+          "bbox": {
+            "minLon": -71.175263,
+            "minLat": 44.857282,
+            "maxLon": -71.046743,
+            "maxLat": 44.97301
+          }
+        },
+        {
+          "COUSUBFP": "73060",
+          "name": "Stark",
+          "bbox": {
+            "minLon": -71.487193,
+            "minLat": 44.515557,
+            "maxLon": -71.316091,
+            "maxLat": 44.661735
+          }
+        },
+        {
+          "COUSUBFP": "74500",
+          "name": "Success",
+          "bbox": {
+            "minLon": -71.162034,
+            "minLat": 44.438178,
+            "maxLon": -71.01878,
+            "maxLat": 44.61128
+          }
+        },
+        {
+          "COUSUBFP": "80740",
+          "name": "Wentworth",
+          "bbox": {
+            "minLon": -71.217761,
+            "minLat": 44.825132,
+            "maxLon": -71.043299,
+            "maxLat": 44.863119
+          }
+        },
+        {
+          "COUSUBFP": "84420",
+          "name": "Whitefield",
+          "bbox": {
+            "minLon": -71.686921,
+            "minLat": 44.304759,
+            "maxLon": -71.524517,
+            "maxLat": 44.445207
+          }
+        },
+        {
+          "COUSUBFP": "11220",
+          "name": "Chandlers",
+          "bbox": {
+            "minLon": -71.372169,
+            "minLat": 44.222995,
+            "maxLon": -71.345939,
+            "maxLat": 44.296138
+          }
+        },
+        {
+          "COUSUBFP": "13220",
+          "name": "Clarksville",
+          "bbox": {
+            "minLon": -71.488475,
+            "minLat": 44.959454,
+            "maxLon": -71.170884,
+            "maxLat": 45.056057
+          }
+        },
+        {
+          "COUSUBFP": "13940",
+          "name": "Columbia",
+          "bbox": {
+            "minLon": -71.602026,
+            "minLat": 44.770875,
+            "maxLon": -71.344184,
+            "maxLat": 44.880322
+          }
+        },
+        {
+          "COUSUBFP": "16820",
+          "name": "Dalton",
+          "bbox": {
+            "minLon": -71.765684,
+            "minLat": 44.332118,
+            "maxLon": -71.607664,
+            "maxLat": 44.440867
+          }
+        },
+        {
+          "COUSUBFP": "25180",
+          "name": "Ervings",
+          "bbox": {
+            "minLon": -71.36309,
+            "minLat": 44.781729,
+            "maxLon": -71.327795,
+            "maxLat": 44.82192
+          }
+        },
+        {
+          "COUSUBFP": "56100",
+          "name": "Northumberland",
+          "bbox": {
+            "minLon": -71.598599,
+            "minLat": 44.504235,
+            "maxLon": -71.445502,
+            "maxLat": 44.648758
+          }
+        },
+        {
+          "COUSUBFP": "61780",
+          "name": "Pittsburg",
+          "bbox": {
+            "minLon": -71.506606,
+            "minLat": 45.013334,
+            "maxLon": -71.059501,
+            "maxLat": 45.305778
+          }
+        },
+        {
+          "COUSUBFP": "73380",
+          "name": "Stewartstown",
+          "bbox": {
+            "minLon": -71.541531,
+            "minLat": 44.914693,
+            "maxLon": -71.290105,
+            "maxLat": 45.008315
+          }
+        },
+        {
+          "COUSUBFP": "76580",
+          "name": "Thompson and Meserves",
+          "bbox": {
+            "minLon": -71.36338,
+            "minLat": 44.267229,
+            "maxLon": -71.230991,
+            "maxLat": 44.340159
+          }
+        },
+        {
+          "COUSUBFP": "68980",
+          "name": "Shelburne",
+          "bbox": {
+            "minLon": -71.161666,
+            "minLat": 44.339205,
+            "maxLon": -71.012882,
+            "maxLat": 44.44037
+          }
+        },
+        {
+          "COUSUBFP": "18420",
+          "name": "Dixville",
+          "bbox": {
+            "minLon": -71.353202,
+            "minLat": 44.818403,
+            "maxLon": -71.215136,
+            "maxLat": 44.973584
+          }
+        },
+        {
+          "COUSUBFP": "25140",
+          "name": "Errol",
+          "bbox": {
+            "minLon": -71.215136,
+            "minLat": 44.70832,
+            "maxLon": -71.034408,
+            "maxLat": 44.828682
+          }
+        },
+        {
+          "COUSUBFP": "30260",
+          "name": "Gorham",
+          "bbox": {
+            "minLon": -71.248783,
+            "minLat": 44.339965,
+            "maxLon": -71.157958,
+            "maxLat": 44.449846
+          }
+        },
+        {
+          "COUSUBFP": "31780",
+          "name": "Greens",
+          "bbox": {
+            "minLon": -71.240406,
+            "minLat": 44.283626,
+            "maxLon": -71.202838,
+            "maxLat": 44.313426
+          }
+        },
+        {
+          "COUSUBFP": "32420",
+          "name": "Hadleys",
+          "bbox": {
+            "minLon": -71.355781,
+            "minLat": 44.085752,
+            "maxLon": -71.307345,
+            "maxLat": 44.173542
+          }
+        },
+        {
+          "COUSUBFP": "38820",
+          "name": "Jefferson",
+          "bbox": {
+            "minLon": -71.543179,
+            "minLat": 44.333186,
+            "maxLon": -71.380272,
+            "maxLat": 44.460755
+          }
+        },
+        {
+          "COUSUBFP": "39940",
+          "name": "Kilkenny",
+          "bbox": {
+            "minLon": -71.437463,
+            "minLat": 44.407801,
+            "maxLon": -71.332526,
+            "maxLat": 44.570358
+          }
+        },
+        {
+          "COUSUBFP": "47860",
+          "name": "Milan",
+          "bbox": {
+            "minLon": -71.356681,
+            "minLat": 44.523568,
+            "maxLon": -71.070463,
+            "maxLat": 44.608756
+          }
+        },
+        {
+          "COUSUBFP": "48260",
+          "name": "Millsfield",
+          "bbox": {
+            "minLon": -71.329763,
+            "minLat": 44.705306,
+            "maxLon": -71.210635,
+            "maxLat": 44.825132
+          }
+        },
+        {
+          "COUSUBFP": "57860",
+          "name": "Odell",
+          "bbox": {
+            "minLon": -71.444421,
+            "minLat": 44.659973,
+            "maxLon": -71.323934,
+            "maxLat": 44.795294
+          }
+        },
+        {
+          "COUSUBFP": "61620",
+          "name": "Pinkhams",
+          "bbox": {
+            "minLon": -71.266575,
+            "minLat": 44.227703,
+            "maxLon": -71.220538,
+            "maxLat": 44.287158
+          }
+        },
+        {
+          "COUSUBFP": "63860",
+          "name": "Randolph",
+          "bbox": {
+            "minLon": -71.388879,
+            "minLat": 44.339518,
+            "maxLon": -71.245426,
+            "maxLat": 44.448533
+          }
+        },
+        {
+          "COUSUBFP": "04100",
+          "name": "Beans",
+          "bbox": {
+            "minLon": -71.411213,
+            "minLat": 44.173886,
+            "maxLon": -71.353019,
+            "maxLat": 44.276568
+          }
+        },
+        {
+          "COUSUBFP": "13780",
+          "name": "Colebrook",
+          "bbox": {
+            "minLon": -71.522838,
+            "minLat": 44.856428,
+            "maxLon": -71.308263,
+            "maxLat": 44.942668
+          }
+        },
+        {
+          "COUSUBFP": "43620",
+          "name": "Low and Burbanks",
+          "bbox": {
+            "minLon": -71.437659,
+            "minLat": 44.273532,
+            "maxLon": -71.245426,
+            "maxLat": 44.353121
+          }
+        },
+        {
+          "COUSUBFP": "74180",
+          "name": "Stratford",
+          "bbox": {
+            "minLon": -71.63216,
+            "minLat": 44.64196,
+            "maxLon": -71.413094,
+            "maxLat": 44.786856
+          }
+        },
+        {
+          "COUSUBFP": "19300",
+          "name": "Dummer",
+          "bbox": {
+            "minLon": -71.327017,
+            "minLat": 44.603542,
+            "maxLon": -71.179887,
+            "maxLat": 44.708556
+          }
+        },
+        {
+          "COUSUBFP": "67860",
+          "name": "Sargents",
+          "bbox": {
+            "minLon": -71.355658,
+            "minLat": 44.112027,
+            "maxLon": -71.241245,
+            "maxLat": 44.284221
+          }
+        },
+        {
+          "COUSUBFP": "02420",
+          "name": "Atkinson and Gilmanton Academy",
+          "bbox": {
+            "minLon": -71.188478,
+            "minLat": 44.95451,
+            "maxLon": -71.056637,
+            "maxLat": 45.014636
+          }
+        },
+        {
+          "COUSUBFP": "04260",
+          "name": "Beans",
+          "bbox": {
+            "minLon": -71.243503,
+            "minLat": 44.235439,
+            "maxLon": -71.009976,
+            "maxLat": 44.341044
+          }
+        },
+        {
+          "COUSUBFP": "05140",
+          "name": "Berlin",
+          "bbox": {
+            "minLon": -71.397622,
+            "minLat": 44.444963,
+            "maxLon": -71.123947,
+            "maxLat": 44.528054
+          }
+        },
+        {
+          "COUSUBFP": "08420",
+          "name": "Cambridge",
+          "bbox": {
+            "minLon": -71.183886,
+            "minLat": 44.60656,
+            "maxLon": -71.028522,
+            "maxLat": 44.70996
+          }
+        },
+        {
+          "COUSUBFP": "10100",
+          "name": "Carroll",
+          "bbox": {
+            "minLon": -71.596419,
+            "minLat": 44.212169,
+            "maxLon": -71.394874,
+            "maxLat": 44.355326
+          }
+        },
+        {
+          "COUSUBFP": "16100",
+          "name": "Crawfords",
+          "bbox": {
+            "minLon": -71.440683,
+            "minLat": 44.227882,
+            "maxLon": -71.367485,
+            "maxLat": 44.292987
+          }
+        },
+        {
+          "COUSUBFP": "16660",
+          "name": "Cutts",
+          "bbox": {
+            "minLon": -71.373618,
+            "minLat": 44.163639,
+            "maxLon": -71.290029,
+            "maxLat": 44.244045
+          }
+        },
+        {
+          "COUSUBFP": "18340",
+          "name": "Dixs",
+          "bbox": {
+            "minLon": -71.224475,
+            "minLat": 44.855833,
+            "maxLon": -71.152451,
+            "maxLat": 44.96439
+          }
+        },
+        {
+          "COUSUBFP": "46020",
+          "name": "Martins",
+          "bbox": {
+            "minLon": -71.237491,
+            "minLat": 44.31322,
+            "maxLon": -71.190095,
+            "maxLat": 44.340704
+          }
+        },
+        {
+          "COUSUBFP": "40420",
+          "name": "Lancaster",
+          "bbox": {
+            "minLon": -71.660167,
+            "minLat": 44.410234,
+            "maxLon": -71.429789,
+            "maxLat": 44.538743
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Merrimack": {
+      "COUNTYFP": "013",
+      "name": "Merrimack",
+      "bbox": {
+        "minLon": -72.090146,
+        "minLat": 43.009309,
+        "maxLon": -71.236011,
+        "maxLat": 43.6112
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "80020",
+          "name": "Webster",
+          "bbox": {
+            "minLon": -71.786096,
+            "minLat": 43.240476,
+            "maxLon": -71.649841,
+            "maxLat": 43.360455
+          }
+        },
+        {
+          "COUSUBFP": "84900",
+          "name": "Wilmot",
+          "bbox": {
+            "minLon": -71.990305,
+            "minLat": 43.364461,
+            "maxLon": -71.856237,
+            "maxLat": 43.533855
+          }
+        },
+        {
+          "COUSUBFP": "19460",
+          "name": "Dunbarton",
+          "bbox": {
+            "minLon": -71.667771,
+            "minLat": 43.054168,
+            "maxLon": -71.51115,
+            "maxLat": 43.160232
+          }
+        },
+        {
+          "COUSUBFP": "27380",
+          "name": "Franklin",
+          "bbox": {
+            "minLon": -71.73366,
+            "minLat": 43.377698,
+            "maxLon": -71.619979,
+            "maxLat": 43.517932
+          }
+        },
+        {
+          "COUSUBFP": "60020",
+          "name": "Pembroke",
+          "bbox": {
+            "minLon": -71.502864,
+            "minLat": 43.127495,
+            "maxLon": -71.39434,
+            "maxLat": 43.24893
+          }
+        },
+        {
+          "COUSUBFP": "00660",
+          "name": "Allenstown",
+          "bbox": {
+            "minLon": -71.466364,
+            "minLat": 43.102043,
+            "maxLon": -71.317709,
+            "maxLat": 43.175193
+          }
+        },
+        {
+          "COUSUBFP": "06260",
+          "name": "Boscawen",
+          "bbox": {
+            "minLon": -71.716493,
+            "minLat": 43.266249,
+            "maxLon": -71.585412,
+            "maxLat": 43.385358
+          }
+        },
+        {
+          "COUSUBFP": "06500",
+          "name": "Bow",
+          "bbox": {
+            "minLon": -71.628158,
+            "minLat": 43.075966,
+            "maxLon": -71.461786,
+            "maxLat": 43.178886
+          }
+        },
+        {
+          "COUSUBFP": "06980",
+          "name": "Bradford",
+          "bbox": {
+            "minLon": -72.065442,
+            "minLat": 43.187882,
+            "maxLon": -71.8814,
+            "maxLat": 43.282942
+          }
+        },
+        {
+          "COUSUBFP": "09860",
+          "name": "Canterbury",
+          "bbox": {
+            "minLon": -71.646408,
+            "minLat": 43.287135,
+            "maxLon": -71.45338,
+            "maxLat": 43.411298
+          }
+        },
+        {
+          "COUSUBFP": "12420",
+          "name": "Chichester",
+          "bbox": {
+            "minLon": -71.462274,
+            "minLat": 43.201046,
+            "maxLon": -71.334951,
+            "maxLat": 43.31336
+          }
+        },
+        {
+          "COUSUBFP": "24900",
+          "name": "Epsom",
+          "bbox": {
+            "minLon": -71.416497,
+            "minLat": 43.162048,
+            "maxLon": -71.262068,
+            "maxLat": 43.268034
+          }
+        },
+        {
+          "COUSUBFP": "35540",
+          "name": "Henniker",
+          "bbox": {
+            "minLon": -71.913215,
+            "minLat": 43.115135,
+            "maxLon": -71.73256,
+            "maxLat": 43.231856
+          }
+        },
+        {
+          "COUSUBFP": "37540",
+          "name": "Hopkinton",
+          "bbox": {
+            "minLon": -71.787815,
+            "minLat": 43.139786,
+            "maxLon": -71.602965,
+            "maxLat": 43.260138
+          }
+        },
+        {
+          "COUSUBFP": "01460",
+          "name": "Andover",
+          "bbox": {
+            "minLon": -71.894157,
+            "minLat": 43.389012,
+            "maxLon": -71.695639,
+            "maxLat": 43.503108
+          }
+        },
+        {
+          "COUSUBFP": "14200",
+          "name": "Concord",
+          "bbox": {
+            "minLon": -71.667999,
+            "minLat": 43.151847,
+            "maxLon": -71.456949,
+            "maxLat": 43.309469
+          }
+        },
+        {
+          "COUSUBFP": "16980",
+          "name": "Danbury",
+          "bbox": {
+            "minLon": -71.930992,
+            "minLat": 43.458019,
+            "maxLon": -71.810566,
+            "maxLat": 43.6112
+          }
+        },
+        {
+          "COUSUBFP": "35860",
+          "name": "Hill",
+          "bbox": {
+            "minLon": -71.829107,
+            "minLat": 43.474559,
+            "maxLon": -71.68718,
+            "maxLat": 43.569316
+          }
+        },
+        {
+          "COUSUBFP": "37300",
+          "name": "Hooksett",
+          "bbox": {
+            "minLon": -71.517467,
+            "minLat": 43.009309,
+            "maxLon": -71.356117,
+            "maxLat": 43.122261
+          }
+        },
+        {
+          "COUSUBFP": "54260",
+          "name": "Northfield",
+          "bbox": {
+            "minLon": -71.652053,
+            "minLat": 43.363492,
+            "maxLon": -71.471454,
+            "maxLat": 43.45554
+          }
+        },
+        {
+          "COUSUBFP": "43380",
+          "name": "Loudon",
+          "bbox": {
+            "minLon": -71.524899,
+            "minLat": 43.245184,
+            "maxLon": -71.349051,
+            "maxLat": 43.40265
+          }
+        },
+        {
+          "COUSUBFP": "50900",
+          "name": "Newbury",
+          "bbox": {
+            "minLon": -72.090146,
+            "minLat": 43.25508,
+            "maxLon": -71.952355,
+            "maxLat": 43.383351
+          }
+        },
+        {
+          "COUSUBFP": "52100",
+          "name": "New London",
+          "bbox": {
+            "minLon": -72.05804,
+            "minLat": 43.380261,
+            "maxLon": -71.90702,
+            "maxLat": 43.464923
+          }
+        },
+        {
+          "COUSUBFP": "61940",
+          "name": "Pittsfield",
+          "bbox": {
+            "minLon": -71.38195,
+            "minLat": 43.250937,
+            "maxLon": -71.236011,
+            "maxLat": 43.346578
+          }
+        },
+        {
+          "COUSUBFP": "66980",
+          "name": "Salisbury",
+          "bbox": {
+            "minLon": -71.838308,
+            "minLat": 43.317385,
+            "maxLon": -71.669678,
+            "maxLat": 43.444709
+          }
+        },
+        {
+          "COUSUBFP": "75460",
+          "name": "Sutton",
+          "bbox": {
+            "minLon": -72.014414,
+            "minLat": 43.278181,
+            "maxLon": -71.848226,
+            "maxLat": 43.402768
+          }
+        },
+        {
+          "COUSUBFP": "78580",
+          "name": "Warner",
+          "bbox": {
+            "minLon": -71.92408,
+            "minLat": 43.21334,
+            "maxLon": -71.72574,
+            "maxLat": 43.395253
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Carroll": {
+      "COUNTYFP": "003",
+      "name": "Carroll",
+      "bbox": {
+        "minLon": -71.564603,
+        "minLat": 43.482913,
+        "maxLon": -70.950632,
+        "maxLat": 44.284899
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "14660",
+          "name": "Conway",
+          "bbox": {
+            "minLon": -71.167009,
+            "minLat": 43.924414,
+            "maxLon": -70.993172,
+            "maxLat": 44.076817
+          }
+        },
+        {
+          "COUSUBFP": "23380",
+          "name": "Eaton",
+          "bbox": {
+            "minLon": -71.101364,
+            "minLat": 43.854873,
+            "maxLon": -70.991735,
+            "maxLat": 43.964155
+          }
+        },
+        {
+          "COUSUBFP": "23620",
+          "name": "Effingham",
+          "bbox": {
+            "minLon": -71.13135,
+            "minLat": 43.678735,
+            "maxLon": -70.980292,
+            "maxLat": 43.800919
+          }
+        },
+        {
+          "COUSUBFP": "49380",
+          "name": "Moultonborough",
+          "bbox": {
+            "minLon": -71.532332,
+            "minLat": 43.626772,
+            "maxLon": -71.245319,
+            "maxLat": 43.782776
+          }
+        },
+        {
+          "COUSUBFP": "58740",
+          "name": "Ossipee",
+          "bbox": {
+            "minLon": -71.279927,
+            "minLat": 43.636385,
+            "maxLon": -71.013852,
+            "maxLat": 43.833037
+          }
+        },
+        {
+          "COUSUBFP": "00420",
+          "name": "Albany",
+          "bbox": {
+            "minLon": -71.383613,
+            "minLat": 43.908369,
+            "maxLon": -71.140061,
+            "maxLat": 44.024842
+          }
+        },
+        {
+          "COUSUBFP": "03700",
+          "name": "Bartlett",
+          "bbox": {
+            "minLon": -71.383613,
+            "minLat": 44.022184,
+            "maxLon": -71.083693,
+            "maxLat": 44.13977
+          }
+        },
+        {
+          "COUSUBFP": "11780",
+          "name": "Chatham",
+          "bbox": {
+            "minLon": -71.098434,
+            "minLat": 44.068395,
+            "maxLon": -71.000175,
+            "maxLat": 44.284899
+          }
+        },
+        {
+          "COUSUBFP": "27700",
+          "name": "Freedom",
+          "bbox": {
+            "minLon": -71.183901,
+            "minLat": 43.784294,
+            "maxLon": -70.989122,
+            "maxLat": 43.877341
+          }
+        },
+        {
+          "COUSUBFP": "32500",
+          "name": "Hale's",
+          "bbox": {
+            "minLon": -71.186021,
+            "minLat": 44.022184,
+            "maxLon": -71.155519,
+            "maxLat": 44.055805
+          }
+        },
+        {
+          "COUSUBFP": "34500",
+          "name": "Hart's Location",
+          "bbox": {
+            "minLon": -71.426507,
+            "minLat": 44.064306,
+            "maxLon": -71.318258,
+            "maxLat": 44.214679
+          }
+        },
+        {
+          "COUSUBFP": "38260",
+          "name": "Jackson",
+          "bbox": {
+            "minLon": -71.306036,
+            "minLat": 44.12386,
+            "maxLon": -71.097662,
+            "maxLat": 44.244266
+          }
+        },
+        {
+          "COUSUBFP": "45060",
+          "name": "Madison",
+          "bbox": {
+            "minLon": -71.212466,
+            "minLat": 43.831176,
+            "maxLon": -71.08232,
+            "maxLat": 43.96372
+          }
+        },
+        {
+          "COUSUBFP": "67780",
+          "name": "Sandwich",
+          "bbox": {
+            "minLon": -71.564603,
+            "minLat": 43.764818,
+            "maxLon": -71.328833,
+            "maxLat": 43.915938
+          }
+        },
+        {
+          "COUSUBFP": "76100",
+          "name": "Tamworth",
+          "bbox": {
+            "minLon": -71.360088,
+            "minLat": 43.774895,
+            "maxLon": -71.189563,
+            "maxLat": 43.924445
+          }
+        },
+        {
+          "COUSUBFP": "77620",
+          "name": "Tuftonboro",
+          "bbox": {
+            "minLon": -71.340766,
+            "minLat": 43.588557,
+            "maxLon": -71.186296,
+            "maxLat": 43.770394
+          }
+        },
+        {
+          "COUSUBFP": "78180",
+          "name": "Wakefield",
+          "bbox": {
+            "minLon": -71.062715,
+            "minLat": 43.482913,
+            "maxLon": -70.950632,
+            "maxLat": 43.693696
+          }
+        },
+        {
+          "COUSUBFP": "86420",
+          "name": "Wolfeboro",
+          "bbox": {
+            "minLon": -71.283681,
+            "minLat": 43.538959,
+            "maxLon": -71.059156,
+            "maxLat": 43.679735
+          }
+        },
+        {
+          "COUSUBFP": "07940",
+          "name": "Brookfield",
+          "bbox": {
+            "minLon": -71.127808,
+            "minLat": 43.506686,
+            "maxLon": -71.037931,
+            "maxLat": 43.633153
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Rockingham": {
+      "COUNTYFP": "015",
+      "name": "Rockingham",
+      "bbox": {
+        "minLon": -71.451231,
+        "minLat": 42.737341,
+        "maxLon": -70.575094,
+        "maxLat": 43.275232
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "33460",
+          "name": "Hampton Falls",
+          "bbox": {
+            "minLon": -70.92599,
+            "minLat": 42.888552,
+            "maxLon": -70.822044,
+            "maxLat": 42.967195
+          }
+        },
+        {
+          "COUSUBFP": "43220",
+          "name": "Londonderry",
+          "bbox": {
+            "minLon": -71.451231,
+            "minLat": 42.798962,
+            "maxLon": -71.332694,
+            "maxLat": 42.947145
+          }
+        },
+        {
+          "COUSUBFP": "71140",
+          "name": "South Hampton",
+          "bbox": {
+            "minLon": -71.015698,
+            "minLat": 42.864442,
+            "maxLon": -70.914525,
+            "maxLat": 42.90092
+          }
+        },
+        {
+          "COUSUBFP": "33060",
+          "name": "Hampton",
+          "bbox": {
+            "minLon": -70.902033,
+            "minLat": 42.888583,
+            "maxLon": -70.777644,
+            "maxLat": 42.971018
+          }
+        },
+        {
+          "COUSUBFP": "17460",
+          "name": "Deerfield",
+          "bbox": {
+            "minLon": -71.356117,
+            "minLat": 43.076981,
+            "maxLon": -71.15674,
+            "maxLat": 43.218603
+          }
+        },
+        {
+          "COUSUBFP": "27940",
+          "name": "Fremont",
+          "bbox": {
+            "minLon": -71.179278,
+            "minLat": 42.959085,
+            "maxLon": -71.080276,
+            "maxLat": 43.021223
+          }
+        },
+        {
+          "COUSUBFP": "00000",
+          "name": "County subdivisions not defined",
+          "bbox": {
+            "minLon": -70.814101,
+            "minLat": 42.872298,
+            "maxLon": -70.575094,
+            "maxLat": 42.985055
+          }
+        },
+        {
+          "COUSUBFP": "02340",
+          "name": "Atkinson",
+          "bbox": {
+            "minLon": -71.208545,
+            "minLat": 42.808881,
+            "maxLon": -71.112183,
+            "maxLat": 42.866717
+          }
+        },
+        {
+          "COUSUBFP": "02820",
+          "name": "Auburn",
+          "bbox": {
+            "minLon": -71.402962,
+            "minLat": 42.935732,
+            "maxLon": -71.288167,
+            "maxLat": 43.041054
+          }
+        },
+        {
+          "COUSUBFP": "09300",
+          "name": "Candia",
+          "bbox": {
+            "minLon": -71.391228,
+            "minLat": 43.016031,
+            "maxLon": -71.230488,
+            "maxLat": 43.102043
+          }
+        },
+        {
+          "COUSUBFP": "12100",
+          "name": "Chester",
+          "bbox": {
+            "minLon": -71.310965,
+            "minLat": 42.919886,
+            "maxLon": -71.167894,
+            "maxLat": 43.021396
+          }
+        },
+        {
+          "COUSUBFP": "17140",
+          "name": "Danville",
+          "bbox": {
+            "minLon": -71.149501,
+            "minLat": 42.895442,
+            "maxLon": -71.092317,
+            "maxLat": 42.959841
+          }
+        },
+        {
+          "COUSUBFP": "17940",
+          "name": "Derry",
+          "bbox": {
+            "minLon": -71.346684,
+            "minLat": 42.840976,
+            "maxLon": -71.206912,
+            "maxLat": 42.941835
+          }
+        },
+        {
+          "COUSUBFP": "21380",
+          "name": "East Kingston",
+          "bbox": {
+            "minLon": -71.03459,
+            "minLat": 42.893924,
+            "maxLon": -70.976848,
+            "maxLat": 42.957743
+          }
+        },
+        {
+          "COUSUBFP": "24660",
+          "name": "Epping",
+          "bbox": {
+            "minLon": -71.150166,
+            "minLat": 43.020425,
+            "maxLon": -71.010983,
+            "maxLat": 43.082024
+          }
+        },
+        {
+          "COUSUBFP": "25380",
+          "name": "Exeter",
+          "bbox": {
+            "minLon": -71.013761,
+            "minLat": 42.956705,
+            "maxLon": -70.888025,
+            "maxLat": 43.033937
+          }
+        },
+        {
+          "COUSUBFP": "31700",
+          "name": "Greenland",
+          "bbox": {
+            "minLon": -70.907587,
+            "minLat": 43.00155,
+            "maxLon": -70.805801,
+            "maxLat": 43.077134
+          }
+        },
+        {
+          "COUSUBFP": "32900",
+          "name": "Hampstead",
+          "bbox": {
+            "minLon": -71.21944,
+            "minLat": 42.853465,
+            "maxLon": -71.106491,
+            "maxLat": 42.912257
+          }
+        },
+        {
+          "COUSUBFP": "40100",
+          "name": "Kingston",
+          "bbox": {
+            "minLon": -71.12523,
+            "minLat": 42.85757,
+            "maxLon": -70.997097,
+            "maxLat": 42.959246
+          }
+        },
+        {
+          "COUSUBFP": "50980",
+          "name": "New Castle",
+          "bbox": {
+            "minLon": -70.738393,
+            "minLat": 43.04524,
+            "maxLon": -70.701197,
+            "maxLat": 43.075339
+          }
+        },
+        {
+          "COUSUBFP": "39780",
+          "name": "Kensington",
+          "bbox": {
+            "minLon": -70.982693,
+            "minLat": 42.898364,
+            "maxLon": -70.916498,
+            "maxLat": 42.960581
+          }
+        },
+        {
+          "COUSUBFP": "64020",
+          "name": "Raymond",
+          "bbox": {
+            "minLon": -71.267689,
+            "minLat": 42.984483,
+            "maxLon": -71.130921,
+            "maxLat": 43.080132
+          }
+        },
+        {
+          "COUSUBFP": "68260",
+          "name": "Seabrook",
+          "bbox": {
+            "minLon": -70.917718,
+            "minLat": 42.860867,
+            "maxLon": -70.811399,
+            "maxLat": 42.906949
+          }
+        },
+        {
+          "COUSUBFP": "85780",
+          "name": "Windham",
+          "bbox": {
+            "minLon": -71.366203,
+            "minLat": 42.760113,
+            "maxLon": -71.237034,
+            "maxLat": 42.850703
+          }
+        },
+        {
+          "COUSUBFP": "51380",
+          "name": "Newfields",
+          "bbox": {
+            "minLon": -71.013807,
+            "minLat": 43.01922,
+            "maxLon": -70.912302,
+            "maxLat": 43.052949
+          }
+        },
+        {
+          "COUSUBFP": "57460",
+          "name": "Nottingham",
+          "bbox": {
+            "minLon": -71.212954,
+            "minLat": 43.062539,
+            "maxLon": -71.026686,
+            "maxLat": 43.200072
+          }
+        },
+        {
+          "COUSUBFP": "51620",
+          "name": "Newington",
+          "bbox": {
+            "minLon": -70.879983,
+            "minLat": 43.059022,
+            "maxLon": -70.782698,
+            "maxLat": 43.127119
+          }
+        },
+        {
+          "COUSUBFP": "52340",
+          "name": "Newmarket",
+          "bbox": {
+            "minLon": -71.013304,
+            "minLat": 43.047295,
+            "maxLon": -70.875436,
+            "maxLat": 43.090157
+          }
+        },
+        {
+          "COUSUBFP": "52900",
+          "name": "Newton",
+          "bbox": {
+            "minLon": -71.086807,
+            "minLat": 42.833369,
+            "maxLon": -70.99747,
+            "maxLat": 42.895854
+          }
+        },
+        {
+          "COUSUBFP": "54580",
+          "name": "North Hampton",
+          "bbox": {
+            "minLon": -70.888025,
+            "minLat": 42.950777,
+            "maxLon": -70.762839,
+            "maxLat": 43.006997
+          }
+        },
+        {
+          "COUSUBFP": "56820",
+          "name": "Northwood",
+          "bbox": {
+            "minLon": -71.280796,
+            "minLat": 43.166938,
+            "maxLon": -71.127948,
+            "maxLat": 43.275232
+          }
+        },
+        {
+          "COUSUBFP": "62500",
+          "name": "Plaistow",
+          "bbox": {
+            "minLon": -71.13646,
+            "minLat": 42.806275,
+            "maxLon": -71.053954,
+            "maxLat": 42.879855
+          }
+        },
+        {
+          "COUSUBFP": "62900",
+          "name": "Portsmouth",
+          "bbox": {
+            "minLon": -70.823097,
+            "minLat": 43.013505,
+            "maxLon": -70.727971,
+            "maxLat": 43.099634
+          }
+        },
+        {
+          "COUSUBFP": "66180",
+          "name": "Rye",
+          "bbox": {
+            "minLon": -70.815269,
+            "minLat": 42.956357,
+            "maxLon": -70.605621,
+            "maxLat": 43.059586
+          }
+        },
+        {
+          "COUSUBFP": "66660",
+          "name": "Salem",
+          "bbox": {
+            "minLon": -71.284261,
+            "minLat": 42.737341,
+            "maxLon": -71.166647,
+            "maxLat": 42.852222
+          }
+        },
+        {
+          "COUSUBFP": "67620",
+          "name": "Sandown",
+          "bbox": {
+            "minLon": -71.223713,
+            "minLat": 42.897647,
+            "maxLon": -71.146272,
+            "maxLat": 42.96512
+          }
+        },
+        {
+          "COUSUBFP": "74340",
+          "name": "Stratham",
+          "bbox": {
+            "minLon": -70.942509,
+            "minLat": 42.971018,
+            "maxLon": -70.858673,
+            "maxLat": 43.059899
+          }
+        },
+        {
+          "COUSUBFP": "07220",
+          "name": "Brentwood",
+          "bbox": {
+            "minLon": -71.088073,
+            "minLat": 42.958282,
+            "maxLon": -70.999906,
+            "maxLat": 43.020875
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Hillsborough": {
+      "COUNTYFP": "011",
+      "name": "Hillsborough",
+      "bbox": {
+        "minLon": -72.062222,
+        "minLat": 42.697042,
+        "maxLon": -71.245481,
+        "maxLat": 43.207099
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "01700",
+          "name": "Antrim",
+          "bbox": {
+            "minLon": -72.058801,
+            "minLat": 43.005106,
+            "maxLon": -71.908332,
+            "maxLat": 43.104614
+          }
+        },
+        {
+          "COUSUBFP": "31940",
+          "name": "Greenville",
+          "bbox": {
+            "minLon": -71.821416,
+            "minLat": 42.725377,
+            "maxLon": -71.777698,
+            "maxLat": 42.790028
+          }
+        },
+        {
+          "COUSUBFP": "44580",
+          "name": "Lyndeborough",
+          "bbox": {
+            "minLon": -71.855053,
+            "minLat": 42.850604,
+            "maxLon": -71.692811,
+            "maxLat": 42.958507
+          }
+        },
+        {
+          "COUSUBFP": "51940",
+          "name": "New Ipswich",
+          "bbox": {
+            "minLon": -71.944283,
+            "minLat": 42.708937,
+            "maxLon": -71.805344,
+            "maxLat": 42.78841
+          }
+        },
+        {
+          "COUSUBFP": "45140",
+          "name": "Manchester",
+          "bbox": {
+            "minLon": -71.512767,
+            "minLat": 42.890399,
+            "maxLon": -71.375435,
+            "maxLat": 43.051779
+          }
+        },
+        {
+          "COUSUBFP": "59940",
+          "name": "Pelham",
+          "bbox": {
+            "minLon": -71.386956,
+            "minLat": 42.697042,
+            "maxLon": -71.245481,
+            "maxLat": 42.785237
+          }
+        },
+        {
+          "COUSUBFP": "76260",
+          "name": "Temple",
+          "bbox": {
+            "minLon": -71.904013,
+            "minLat": 42.786259,
+            "maxLon": -71.810657,
+            "maxLat": 42.884158
+          }
+        },
+        {
+          "COUSUBFP": "01300",
+          "name": "Amherst",
+          "bbox": {
+            "minLon": -71.666718,
+            "minLat": 42.798214,
+            "maxLon": -71.55795,
+            "maxLat": 42.94346
+          }
+        },
+        {
+          "COUSUBFP": "04500",
+          "name": "Bedford",
+          "bbox": {
+            "minLon": -71.616455,
+            "minLat": 42.896266,
+            "maxLon": -71.45254,
+            "maxLat": 42.982881
+          }
+        },
+        {
+          "COUSUBFP": "04900",
+          "name": "Bennington",
+          "bbox": {
+            "minLon": -71.947389,
+            "minLat": 42.982927,
+            "maxLon": -71.87264,
+            "maxLat": 43.051324
+          }
+        },
+        {
+          "COUSUBFP": "08100",
+          "name": "Brookline",
+          "bbox": {
+            "minLon": -71.713381,
+            "minLat": 42.704435,
+            "maxLon": -71.630565,
+            "maxLat": 42.794956
+          }
+        },
+        {
+          "COUSUBFP": "17780",
+          "name": "Deering",
+          "bbox": {
+            "minLon": -71.915962,
+            "minLat": 43.032586,
+            "maxLon": -71.786045,
+            "maxLat": 43.124271
+          }
+        },
+        {
+          "COUSUBFP": "27140",
+          "name": "Francestown",
+          "bbox": {
+            "minLon": -71.885749,
+            "minLat": 42.950045,
+            "maxLon": -71.747563,
+            "maxLat": 43.038613
+          }
+        },
+        {
+          "COUSUBFP": "29860",
+          "name": "Goffstown",
+          "bbox": {
+            "minLon": -71.641291,
+            "minLat": 42.969347,
+            "maxLon": -71.496379,
+            "maxLat": 43.068909
+          }
+        },
+        {
+          "COUSUBFP": "31540",
+          "name": "Greenfield",
+          "bbox": {
+            "minLon": -71.948083,
+            "minLat": 42.878657,
+            "maxLon": -71.802556,
+            "maxLat": 42.988
+          }
+        },
+        {
+          "COUSUBFP": "33700",
+          "name": "Hancock",
+          "bbox": {
+            "minLon": -72.062222,
+            "minLat": 42.930224,
+            "maxLon": -71.930718,
+            "maxLat": 43.018731
+          }
+        },
+        {
+          "COUSUBFP": "36180",
+          "name": "Hillsborough",
+          "bbox": {
+            "minLon": -72.036845,
+            "minLat": 43.09169,
+            "maxLon": -71.8561,
+            "maxLat": 43.207099
+          }
+        },
+        {
+          "COUSUBFP": "37140",
+          "name": "Hollis",
+          "bbox": {
+            "minLon": -71.641662,
+            "minLat": 42.702666,
+            "maxLon": -71.524807,
+            "maxLat": 42.80357
+          }
+        },
+        {
+          "COUSUBFP": "37940",
+          "name": "Hudson",
+          "bbox": {
+            "minLon": -71.463313,
+            "minLat": 42.698939,
+            "maxLon": -71.360679,
+            "maxLat": 42.824843
+          }
+        },
+        {
+          "COUSUBFP": "42260",
+          "name": "Litchfield",
+          "bbox": {
+            "minLon": -71.486293,
+            "minLat": 42.796467,
+            "maxLon": -71.421838,
+            "maxLat": 42.904582
+          }
+        },
+        {
+          "COUSUBFP": "46260",
+          "name": "Mason",
+          "bbox": {
+            "minLon": -71.808674,
+            "minLat": 42.705881,
+            "maxLon": -71.70131,
+            "maxLat": 42.797001
+          }
+        },
+        {
+          "COUSUBFP": "47540",
+          "name": "Merrimack",
+          "bbox": {
+            "minLon": -71.577512,
+            "minLat": 42.790737,
+            "maxLon": -71.45257,
+            "maxLat": 42.911067
+          }
+        },
+        {
+          "COUSUBFP": "48020",
+          "name": "Milford",
+          "bbox": {
+            "minLon": -71.729662,
+            "minLat": 42.768666,
+            "maxLon": -71.60588,
+            "maxLat": 42.866527
+          }
+        },
+        {
+          "COUSUBFP": "49140",
+          "name": "Mont Vernon",
+          "bbox": {
+            "minLon": -71.737246,
+            "minLat": 42.86243,
+            "maxLon": -71.635009,
+            "maxLat": 42.93548
+          }
+        },
+        {
+          "COUSUBFP": "50260",
+          "name": "Nashua",
+          "bbox": {
+            "minLon": -71.561414,
+            "minLat": 42.700048,
+            "maxLon": -71.432336,
+            "maxLat": 42.805874
+          }
+        },
+        {
+          "COUSUBFP": "50740",
+          "name": "New Boston",
+          "bbox": {
+            "minLon": -71.762973,
+            "minLat": 42.92232,
+            "maxLon": -71.610351,
+            "maxLat": 43.032968
+          }
+        },
+        {
+          "COUSUBFP": "60580",
+          "name": "Peterborough",
+          "bbox": {
+            "minLon": -72.003473,
+            "minLat": 42.833805,
+            "maxLon": -71.875326,
+            "maxLat": 42.945665
+          }
+        },
+        {
+          "COUSUBFP": "68820",
+          "name": "Sharon",
+          "bbox": {
+            "minLon": -71.984216,
+            "minLat": 42.787869,
+            "maxLon": -71.885321,
+            "maxLat": 42.847026
+          }
+        },
+        {
+          "COUSUBFP": "79780",
+          "name": "Weare",
+          "bbox": {
+            "minLon": -71.810277,
+            "minLat": 43.014146,
+            "maxLon": -71.634902,
+            "maxLat": 43.152534
+          }
+        },
+        {
+          "COUSUBFP": "85220",
+          "name": "Wilton",
+          "bbox": {
+            "minLon": -71.827947,
+            "minLat": 42.787822,
+            "maxLon": -71.719011,
+            "maxLat": 42.875072
+          }
+        },
+        {
+          "COUSUBFP": "85940",
+          "name": "Windsor",
+          "bbox": {
+            "minLon": -72.043499,
+            "minLat": 43.081993,
+            "maxLon": -71.98356,
+            "maxLat": 43.160125
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Strafford": {
+      "COUNTYFP": "017",
+      "name": "Strafford",
+      "bbox": {
+        "minLon": -71.247336,
+        "minLat": 43.080422,
+        "maxLon": -70.809516,
+        "maxLat": 43.572787
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "73860",
+          "name": "Strafford",
+          "bbox": {
+            "minLon": -71.247336,
+            "minLat": 43.203598,
+            "maxLon": -71.054381,
+            "maxLat": 43.355123
+          }
+        },
+        {
+          "COUSUBFP": "65540",
+          "name": "Rollinsford",
+          "bbox": {
+            "minLon": -70.885828,
+            "minLat": 43.195708,
+            "maxLon": -70.809516,
+            "maxLat": 43.244493
+          }
+        },
+        {
+          "COUSUBFP": "69940",
+          "name": "Somersworth",
+          "bbox": {
+            "minLon": -70.927576,
+            "minLat": 43.223464,
+            "maxLon": -70.838127,
+            "maxLat": 43.287359
+          }
+        },
+        {
+          "COUSUBFP": "26020",
+          "name": "Farmington",
+          "bbox": {
+            "minLon": -71.159364,
+            "minLat": 43.299337,
+            "maxLon": -70.991222,
+            "maxLat": 43.424359
+          }
+        },
+        {
+          "COUSUBFP": "48660",
+          "name": "Milton",
+          "bbox": {
+            "minLon": -71.085326,
+            "minLat": 43.373868,
+            "maxLon": -70.953731,
+            "maxLat": 43.541301
+          }
+        },
+        {
+          "COUSUBFP": "03460",
+          "name": "Barrington",
+          "bbox": {
+            "minLon": -71.133614,
+            "minLat": 43.137947,
+            "maxLon": -70.952769,
+            "maxLat": 43.289686
+          }
+        },
+        {
+          "COUSUBFP": "18820",
+          "name": "Dover",
+          "bbox": {
+            "minLon": -70.961528,
+            "minLat": 43.117638,
+            "maxLon": -70.819022,
+            "maxLat": 43.25495
+          }
+        },
+        {
+          "COUSUBFP": "19700",
+          "name": "Durham",
+          "bbox": {
+            "minLon": -70.980801,
+            "minLat": 43.080422,
+            "maxLon": -70.846899,
+            "maxLat": 43.162925
+          }
+        },
+        {
+          "COUSUBFP": "41460",
+          "name": "Lee",
+          "bbox": {
+            "minLon": -71.072936,
+            "minLat": 43.081681,
+            "maxLon": -70.960521,
+            "maxLat": 43.172416
+          }
+        },
+        {
+          "COUSUBFP": "44820",
+          "name": "Madbury",
+          "bbox": {
+            "minLon": -70.997968,
+            "minLat": 43.129814,
+            "maxLon": -70.852532,
+            "maxLat": 43.215811
+          }
+        },
+        {
+          "COUSUBFP": "47700",
+          "name": "Middleton",
+          "bbox": {
+            "minLon": -71.111496,
+            "minLat": 43.421475,
+            "maxLon": -71.024244,
+            "maxLat": 43.529826
+          }
+        },
+        {
+          "COUSUBFP": "51220",
+          "name": "New Durham",
+          "bbox": {
+            "minLon": -71.190799,
+            "minLat": 43.355123,
+            "maxLon": -71.088454,
+            "maxLat": 43.572787
+          }
+        },
+        {
+          "COUSUBFP": "65140",
+          "name": "Rochester",
+          "bbox": {
+            "minLon": -71.070601,
+            "minLat": 43.225745,
+            "maxLon": -70.896311,
+            "maxLat": 43.37914
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Belknap": {
+      "COUNTYFP": "001",
+      "name": "Belknap",
+      "bbox": {
+        "minLon": -71.731707,
+        "minLat": 43.284994,
+        "maxLon": -71.159364,
+        "maxLat": 43.760979
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "47140",
+          "name": "Meredith",
+          "bbox": {
+            "minLon": -71.642791,
+            "minLat": 43.553073,
+            "maxLon": -71.344245,
+            "maxLat": 43.698662
+          }
+        },
+        {
+          "COUSUBFP": "67300",
+          "name": "Sanbornton",
+          "bbox": {
+            "minLon": -71.706346,
+            "minLat": 43.469852,
+            "maxLon": -71.499935,
+            "maxLat": 43.582011
+          }
+        },
+        {
+          "COUSUBFP": "77060",
+          "name": "Tilton",
+          "bbox": {
+            "minLon": -71.629019,
+            "minLat": 43.434887,
+            "maxLon": -71.510295,
+            "maxLat": 43.502597
+          }
+        },
+        {
+          "COUSUBFP": "10660",
+          "name": "Center Harbor",
+          "bbox": {
+            "minLon": -71.581403,
+            "minLat": 43.664315,
+            "maxLon": -71.43989,
+            "maxLat": 43.760979
+          }
+        },
+        {
+          "COUSUBFP": "01060",
+          "name": "Alton",
+          "bbox": {
+            "minLon": -71.34362,
+            "minLat": 43.355123,
+            "maxLon": -71.159364,
+            "maxLat": 43.628794
+          }
+        },
+        {
+          "COUSUBFP": "03220",
+          "name": "Barnstead",
+          "bbox": {
+            "minLon": -71.349051,
+            "minLat": 43.284994,
+            "maxLon": -71.159364,
+            "maxLat": 43.41837
+          }
+        },
+        {
+          "COUSUBFP": "04740",
+          "name": "Belmont",
+          "bbox": {
+            "minLon": -71.549423,
+            "minLat": 43.411298,
+            "maxLon": -71.396767,
+            "maxLat": 43.530894
+          }
+        },
+        {
+          "COUSUBFP": "28740",
+          "name": "Gilford",
+          "bbox": {
+            "minLon": -71.458417,
+            "minLat": 43.481281,
+            "maxLon": -71.311498,
+            "maxLat": 43.640573
+          }
+        },
+        {
+          "COUSUBFP": "28980",
+          "name": "Gilmanton",
+          "bbox": {
+            "minLon": -71.471454,
+            "minLat": 43.346578,
+            "maxLon": -71.265767,
+            "maxLat": 43.50938
+          }
+        },
+        {
+          "COUSUBFP": "40180",
+          "name": "Laconia",
+          "bbox": {
+            "minLon": -71.535534,
+            "minLat": 43.500903,
+            "maxLon": -71.428384,
+            "maxLat": 43.629541
+          }
+        },
+        {
+          "COUSUBFP": "51540",
+          "name": "New Hampton",
+          "bbox": {
+            "minLon": -71.731707,
+            "minLat": 43.537623,
+            "maxLon": -71.524197,
+            "maxLat": 43.691949
+          }
+        }
+      ]
+    }
+  }
+]
