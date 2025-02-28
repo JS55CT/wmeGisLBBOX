@@ -1,0 +1,26 @@
+{
+  "US": {
+    "2code": "US",
+    "3code": "USA",
+    "Ncode": "840",
+    "name": "United States of America",
+    "bbox": {
+      "minLon": -179.231086,
+      "minLat": -14.601813,
+      "maxLon": 179.859681,
+      "maxLat": 71.439786
+    }
+  },
+  "CA": {
+    "2code": "CA",
+    "3code": "CAN",
+    "Ncode": "124",
+    "name": "Canada",
+    "bbox": {
+      "minLon": -141.0,
+      "minLat": 41.675105,
+      "maxLon": -52.648099,
+      "maxLat": 83.23324
+    }
+  }
+}
