@@ -1,5 +1,5 @@
 [
-  {
+/*  {
     "Capitol":{
       "COUNTYFP":"110",
       "name":"Capitol",
@@ -1864,7 +1864,7 @@
         }
       ]
     }
-  },
+  }, */
   {
     "Middlesex":{
       "COUNTYFP":"007",
