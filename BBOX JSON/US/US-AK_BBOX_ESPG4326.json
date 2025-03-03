@@ -1,0 +1,792 @@
+[
+  {
+    "Ketchikan Gateway": {
+      "COUNTYFP": "130",
+      "name": "Ketchikan Gateway",
+      "bbox": {
+        "minLon": -132.277239,
+        "minLat": 54.648906,
+        "maxLon": -129.974167,
+        "maxLat": 56.406005
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "39010",
+          "name": "Ketchikan",
+          "bbox": {
+            "minLon": -132.277239,
+            "minLat": 54.648906,
+            "maxLon": -129.974167,
+            "maxLat": 56.406005
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Northwest Arctic": {
+      "COUNTYFP": "188",
+      "name": "Northwest Arctic",
+      "bbox": {
+        "minLon": -165.596046,
+        "minLat": 65.437152,
+        "maxLon": -154.146221,
+        "maxLat": 68.294564
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "56270",
+          "name": "Northwest Arctic",
+          "bbox": {
+            "minLon": -165.596046,
+            "minLat": 65.437152,
+            "maxLon": -154.146221,
+            "maxLat": 68.294564
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Sitka": {
+      "COUNTYFP": "220",
+      "name": "Sitka",
+      "bbox": {
+        "minLon": -136.454427,
+        "minLat": 56.147586,
+        "maxLon": -134.4277,
+        "maxLat": 58.001343
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "70590",
+          "name": "Sitka",
+          "bbox": {
+            "minLon": -136.454427,
+            "minLat": 56.147586,
+            "maxLon": -134.4277,
+            "maxLat": 58.001343
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Yukon-Koyukuk": {
+      "COUNTYFP": "290",
+      "name": "Yukon-Koyukuk",
+      "bbox": {
+        "minLon": -161.048176,
+        "minLat": 61.945933,
+        "maxLon": -141.000901,
+        "maxLat": 68.500021
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "86690",
+          "name": "Yukon Flats",
+          "bbox": {
+            "minLon": -149.326003,
+            "minLat": 64.647618,
+            "maxLon": -141.000901,
+            "maxLat": 68.500021
+          }
+        },
+        {
+          "COUSUBFP": "46060",
+          "name": "McGrath-Holy Cross",
+          "bbox": {
+            "minLon": -161.048176,
+            "minLat": 61.945933,
+            "maxLon": -152.047388,
+            "maxLat": 64.126565
+          }
+        },
+        {
+          "COUSUBFP": "42080",
+          "name": "Koyukuk-Middle Yukon",
+          "bbox": {
+            "minLon": -159.96229,
+            "minLat": 63.53663,
+            "maxLon": -146.032053,
+            "maxLat": 68.000032
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Anchorage": {
+      "COUNTYFP": "020",
+      "name": "Anchorage",
+      "bbox": {
+        "minLon": -150.424163,
+        "minLat": 60.732977,
+        "maxLon": -148.462396,
+        "maxLat": 61.484033
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "03050",
+          "name": "Anchorage",
+          "bbox": {
+            "minLon": -150.424163,
+            "minLat": 60.732977,
+            "maxLon": -148.462396,
+            "maxLat": 61.484033
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Prince of Wales-Hyder": {
+      "COUNTYFP": "198",
+      "name": "Prince of Wales-Hyder",
+      "bbox": {
+        "minLon": -134.666668,
+        "minLat": 54.632045,
+        "maxLon": -130.003484,
+        "maxLat": 57.166953
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "64310",
+          "name": "Prince of Wales",
+          "bbox": {
+            "minLon": -134.666668,
+            "minLat": 54.632045,
+            "maxLon": -131.600092,
+            "maxLat": 57.166953
+          }
+        },
+        {
+          "COUSUBFP": "34575",
+          "name": "Hyder",
+          "bbox": {
+            "minLon": -130.388606,
+            "minLat": 55.767437,
+            "maxLon": -130.003484,
+            "maxLat": 56.122798
+          }
+        },
+        {
+          "COUSUBFP": "48873",
+          "name": "Metlakatla Indian Community",
+          "bbox": {
+            "minLon": -131.713346,
+            "minLat": 54.980084,
+            "maxLon": -131.293887,
+            "maxLat": 55.293975
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Petersburg": {
+      "COUNTYFP": "195",
+      "name": "Petersburg",
+      "bbox": {
+        "minLon": -133.738611,
+        "minLat": 56.355093,
+        "maxLon": -132.04519,
+        "maxLat": 57.824726
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "60360",
+          "name": "Petersburg",
+          "bbox": {
+            "minLon": -133.738611,
+            "minLat": 56.355093,
+            "maxLon": -132.04519,
+            "maxLat": 57.824726
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Wrangell": {
+      "COUNTYFP": "275",
+      "name": "Wrangell",
+      "bbox": {
+        "minLon": -133.169079,
+        "minLat": 55.634282,
+        "maxLon": -130.997899,
+        "maxLat": 56.903305
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "86420",
+          "name": "Wrangell",
+          "bbox": {
+            "minLon": -133.169079,
+            "minLat": 55.634282,
+            "maxLon": -130.997899,
+            "maxLat": 56.903305
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Juneau": {
+      "COUNTYFP": "110",
+      "name": "Juneau",
+      "bbox": {
+        "minLon": -135.221825,
+        "minLat": 57.791331,
+        "maxLon": -133.172311,
+        "maxLat": 58.971337
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "36450",
+          "name": "Juneau",
+          "bbox": {
+            "minLon": -135.221825,
+            "minLat": 57.791331,
+            "maxLon": -133.172311,
+            "maxLat": 58.971337
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Kenai Peninsula": {
+      "COUNTYFP": "122",
+      "name": "Kenai Peninsula",
+      "bbox": {
+        "minLon": -154.748861,
+        "minLat": 58.65274,
+        "maxLon": -148.563026,
+        "maxLat": 61.426239
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "38460",
+          "name": "Kenai-Cook Inlet",
+          "bbox": {
+            "minLon": -154.748861,
+            "minLat": 58.65274,
+            "maxLon": -149.782754,
+            "maxLat": 61.426239
+          }
+        },
+        {
+          "COUSUBFP": "68610",
+          "name": "Seward-Hope",
+          "bbox": {
+            "minLon": -151.002241,
+            "minLat": 59.282299,
+            "maxLon": -148.563026,
+            "maxLat": 61.043124
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Denali": {
+      "COUNTYFP": "068",
+      "name": "Denali",
+      "bbox": {
+        "minLon": -152.999609,
+        "minLat": 62.725831,
+        "maxLon": -146.999886,
+        "maxLat": 64.358214
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "18765",
+          "name": "Denali",
+          "bbox": {
+            "minLon": -152.999609,
+            "minLat": 62.725831,
+            "maxLon": -146.999886,
+            "maxLat": 64.358214
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Southeast Fairbanks": {
+      "COUNTYFP": "240",
+      "name": "Southeast Fairbanks",
+      "bbox": {
+        "minLon": -147.000037,
+        "minLat": 61.904047,
+        "maxLon": -141.001311,
+        "maxLat": 65.839433
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "72030",
+          "name": "Southeast Fairbanks",
+          "bbox": {
+            "minLon": -147.000037,
+            "minLat": 61.904047,
+            "maxLon": -141.001311,
+            "maxLat": 65.839433
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Fairbanks North Star": {
+      "COUNTYFP": "090",
+      "name": "Fairbanks North Star",
+      "bbox": {
+        "minLon": -148.663265,
+        "minLat": 64.257176,
+        "maxLon": -143.88408,
+        "maxLat": 65.453523
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "24450",
+          "name": "Fairbanks North Star",
+          "bbox": {
+            "minLon": -148.663265,
+            "minLat": 64.257176,
+            "maxLon": -143.88408,
+            "maxLat": 65.453523
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Haines": {
+      "COUNTYFP": "100",
+      "name": "Haines",
+      "bbox": {
+        "minLon": -136.495756,
+        "minLat": 58.131328,
+        "maxLon": -134.313581,
+        "maxLat": 59.728397
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "31160",
+          "name": "Haines",
+          "bbox": {
+            "minLon": -136.495756,
+            "minLat": 58.131328,
+            "maxLon": -134.313581,
+            "maxLat": 59.728397
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Bethel": {
+      "COUNTYFP": "050",
+      "name": "Bethel",
+      "bbox": {
+        "minLon": -173.23683,
+        "minLat": 58.496019,
+        "maxLon": -153.001521,
+        "maxLat": 62.292644
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "03580",
+          "name": "Aniak",
+          "bbox": {
+            "minLon": -160.985378,
+            "minLat": 60.49432,
+            "maxLon": -153.001521,
+            "maxLat": 62.292644
+          }
+        },
+        {
+          "COUSUBFP": "45510",
+          "name": "Lower Kuskokwim",
+          "bbox": {
+            "minLon": -173.23683,
+            "minLat": 58.496019,
+            "maxLon": -159.366206,
+            "maxLat": 61.819517
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Lake and Peninsula": {
+      "COUNTYFP": "164",
+      "name": "Lake and Peninsula",
+      "bbox": {
+        "minLon": -159.900149,
+        "minLat": 55.638531,
+        "maxLon": -153.397261,
+        "maxLat": 60.906236
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "42780",
+          "name": "Lake and Peninsula",
+          "bbox": {
+            "minLon": -159.900149,
+            "minLat": 55.638531,
+            "maxLon": -153.397261,
+            "maxLat": 60.906236
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Bristol Bay": {
+      "COUNTYFP": "060",
+      "name": "Bristol Bay",
+      "bbox": {
+        "minLon": -158.002155,
+        "minLat": 58.615888,
+        "maxLon": -156.316013,
+        "maxLat": 58.885146
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "09050",
+          "name": "Bristol Bay",
+          "bbox": {
+            "minLon": -158.002155,
+            "minLat": 58.615888,
+            "maxLon": -156.316013,
+            "maxLat": 58.885146
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Dillingham": {
+      "COUNTYFP": "070",
+      "name": "Dillingham",
+      "bbox": {
+        "minLon": -161.365049,
+        "minLat": 58.33414,
+        "maxLon": -156.000086,
+        "maxLat": 60.992847
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "19000",
+          "name": "Dillingham",
+          "bbox": {
+            "minLon": -161.365049,
+            "minLat": 58.33414,
+            "maxLon": -156.000086,
+            "maxLat": 60.992847
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Matanuska-Susitna": {
+      "COUNTYFP": "170",
+      "name": "Matanuska-Susitna",
+      "bbox": {
+        "minLon": -153.001881,
+        "minLat": 61.079639,
+        "maxLon": -146.423984,
+        "maxLat": 63.477653
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "47440",
+          "name": "Matanuska-Susitna",
+          "bbox": {
+            "minLon": -153.001881,
+            "minLat": 61.079639,
+            "maxLon": -146.423984,
+            "maxLat": 63.477653
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Aleutians East": {
+      "COUNTYFP": "013",
+      "name": "Aleutians East",
+      "bbox": {
+        "minLon": -166.225647,
+        "minLat": 53.916217,
+        "maxLon": -158.893471,
+        "maxLat": 56.945059
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "01598",
+          "name": "Aleutians East",
+          "bbox": {
+            "minLon": -166.225647,
+            "minLat": 53.916217,
+            "maxLon": -158.893471,
+            "maxLat": 56.945059
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Kusilvak": {
+      "COUNTYFP": "158",
+      "name": "Kusilvak",
+      "bbox": {
+        "minLon": -166.288613,
+        "minLat": 60.917108,
+        "maxLon": -160.18666,
+        "maxLat": 63.317355
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "42185",
+          "name": "Kusilvak",
+          "bbox": {
+            "minLon": -166.288613,
+            "minLat": 60.917108,
+            "maxLon": -160.18666,
+            "maxLat": 63.317355
+          }
+        }
+      ]
+    }
+  },
+  {
+    "North Slope": {
+      "COUNTYFP": "185",
+      "name": "North Slope",
+      "bbox": {
+        "minLon": -166.972107,
+        "minLat": 67.999952,
+        "maxLon": -141.000591,
+        "maxLat": 71.439786
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "55970",
+          "name": "North Slope",
+          "bbox": {
+            "minLon": -166.972107,
+            "minLat": 67.999952,
+            "maxLon": -141.000591,
+            "maxLat": 71.439786
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Nome": {
+      "COUNTYFP": "180",
+      "name": "Nome",
+      "bbox": {
+        "minLon": -171.965319,
+        "minLat": 62.884908,
+        "maxLon": -159.377365,
+        "maxLat": 66.626509
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "54970",
+          "name": "Nome",
+          "bbox": {
+            "minLon": -171.965319,
+            "minLat": 62.884908,
+            "maxLon": -159.377365,
+            "maxLat": 66.626509
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Aleutians West": {
+      "COUNTYFP": "016",
+      "name": "Aleutians West",
+      "bbox": {
+        "minLon": -179.231086,
+        "minLat": 51.175092,
+        "maxLon": 179.859681,
+        "maxLat": 57.305269
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "01615",
+          "name": "Aleutians West",
+          "bbox": {
+            "minLon": -179.231086,
+            "minLat": 51.175092,
+            "maxLon": 179.859681,
+            "maxLat": 57.305269
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Kodiak Island": {
+      "COUNTYFP": "150",
+      "name": "Kodiak Island",
+      "bbox": {
+        "minLon": -156.903153,
+        "minLat": 55.699912,
+        "maxLon": -151.690505,
+        "maxLat": 59.017887
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "41200",
+          "name": "Kodiak Island",
+          "bbox": {
+            "minLon": -156.903153,
+            "minLat": 55.699912,
+            "maxLon": -151.690505,
+            "maxLat": 59.017887
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Yakutat": {
+      "COUNTYFP": "282",
+      "name": "Yakutat",
+      "bbox": {
+        "minLon": -143.893329,
+        "minLat": 58.808333,
+        "maxLon": -137.5,
+        "maxLat": 60.523036
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "86498",
+          "name": "Yakutat",
+          "bbox": {
+            "minLon": -143.893329,
+            "minLat": 58.808333,
+            "maxLon": -137.5,
+            "maxLat": 60.523036
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Copper River": {
+      "COUNTYFP": "066",
+      "name": "Copper River",
+      "bbox": {
+        "minLon": -147.744753,
+        "minLat": 60.391676,
+        "maxLon": -141.001603,
+        "maxLat": 63.217781
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "17350",
+          "name": "Copper River",
+          "bbox": {
+            "minLon": -147.744753,
+            "minLat": 60.391676,
+            "maxLon": -141.001603,
+            "maxLat": 63.217781
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Chugach": {
+      "COUNTYFP": "063",
+      "name": "Chugach",
+      "bbox": {
+        "minLon": -148.948762,
+        "minLat": 59.334006,
+        "maxLon": -141.965972,
+        "maxLat": 61.426276
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "14420",
+          "name": "Chugach",
+          "bbox": {
+            "minLon": -148.948762,
+            "minLat": 59.334006,
+            "maxLon": -141.965972,
+            "maxLat": 61.426276
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Skagway": {
+      "COUNTYFP": "230",
+      "name": "Skagway",
+      "bbox": {
+        "minLon": -135.723075,
+        "minLat": 59.34634,
+        "maxLon": -134.989746,
+        "maxLat": 59.798041
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "70810",
+          "name": "Skagway",
+          "bbox": {
+            "minLon": -135.723075,
+            "minLat": 59.34634,
+            "maxLon": -134.989746,
+            "maxLat": 59.798041
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Hoonah-Angoon": {
+      "COUNTYFP": "105",
+      "name": "Hoonah-Angoon",
+      "bbox": {
+        "minLon": -138.029297,
+        "minLat": 56.863052,
+        "maxLon": -132.649796,
+        "maxLat": 59.409556
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "33390",
+          "name": "Hoonah-Angoon",
+          "bbox": {
+            "minLon": -138.029297,
+            "minLat": 56.863052,
+            "maxLon": -132.649796,
+            "maxLat": 59.266245
+          }
+        },
+        {
+          "COUSUBFP": "40560",
+          "name": "Klukwan",
+          "bbox": {
+            "minLon": -135.920472,
+            "minLat": 59.387351,
+            "maxLon": -135.85201,
+            "maxLat": 59.409556
+          }
+        }
+      ]
+    }
+  }
+]

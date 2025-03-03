@@ -1,0 +1,4100 @@
+[
+  {
+    "Hernando": {
+      "COUNTYFP": "053",
+      "name": "Hernando",
+      "bbox": {
+        "minLon": -82.889544,
+        "minLat": 28.430786,
+        "maxLon": -82.054469,
+        "maxLat": 28.694908
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91475",
+          "name": "Hernando Beach",
+          "bbox": {
+            "minLon": -82.889544,
+            "minLat": 28.430786,
+            "maxLon": -82.551571,
+            "maxLat": 28.694673
+          }
+        },
+        {
+          "COUSUBFP": "90325",
+          "name": "Brooksville",
+          "bbox": {
+            "minLon": -82.507397,
+            "minLat": 28.433687,
+            "maxLon": -82.217253,
+            "maxLat": 28.694908
+          }
+        },
+        {
+          "COUSUBFP": "92964",
+          "name": "Ridge Manor",
+          "bbox": {
+            "minLon": -82.253352,
+            "minLat": 28.478397,
+            "maxLon": -82.054469,
+            "maxLat": 28.580305
+          }
+        },
+        {
+          "COUSUBFP": "93230",
+          "name": "Spring Hill",
+          "bbox": {
+            "minLon": -82.639965,
+            "minLat": 28.433683,
+            "maxLon": -82.407171,
+            "maxLat": 28.694686
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Wakulla": {
+      "COUNTYFP": "129",
+      "name": "Wakulla",
+      "bbox": {
+        "minLon": -84.737846,
+        "minLat": 29.74293,
+        "maxLon": -84.07553,
+        "maxLat": 30.303501
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93627",
+          "name": "West Wakulla",
+          "bbox": {
+            "minLon": -84.737846,
+            "minLat": 29.74293,
+            "maxLon": -84.160797,
+            "maxLat": 30.301864
+          }
+        },
+        {
+          "COUSUBFP": "90949",
+          "name": "East Wakulla",
+          "bbox": {
+            "minLon": -84.507201,
+            "minLat": 29.921266,
+            "maxLon": -84.07553,
+            "maxLat": 30.303501
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Walton": {
+      "COUNTYFP": "131",
+      "name": "Walton",
+      "bbox": {
+        "minLon": -86.39964,
+        "minLat": 30.1036,
+        "maxLon": -85.844421,
+        "maxLat": 30.994553
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93542",
+          "name": "Walton Beaches",
+          "bbox": {
+            "minLon": -86.39964,
+            "minLat": 30.1036,
+            "maxLon": -85.994624,
+            "maxLat": 30.446082
+          }
+        },
+        {
+          "COUSUBFP": "90819",
+          "name": "DeFuniak Springs",
+          "bbox": {
+            "minLon": -86.394291,
+            "minLat": 30.460698,
+            "maxLon": -86.037309,
+            "maxLat": 30.805748
+          }
+        },
+        {
+          "COUSUBFP": "92665",
+          "name": "Paxton-Darlington",
+          "bbox": {
+            "minLon": -86.392057,
+            "minLat": 30.721885,
+            "maxLon": -86.035039,
+            "maxLat": 30.994553
+          }
+        },
+        {
+          "COUSUBFP": "91196",
+          "name": "Freeport",
+          "bbox": {
+            "minLon": -86.395383,
+            "minLat": 30.311702,
+            "maxLon": -85.858001,
+            "maxLat": 30.603456
+          }
+        },
+        {
+          "COUSUBFP": "92938",
+          "name": "Redbay",
+          "bbox": {
+            "minLon": -86.122874,
+            "minLat": 30.530864,
+            "maxLon": -85.844421,
+            "maxLat": 30.71396
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Volusia": {
+      "COUNTYFP": "127",
+      "name": "Volusia",
+      "bbox": {
+        "minLon": -81.680903,
+        "minLat": 28.612662,
+        "maxLon": -80.663461,
+        "maxLat": 29.432462
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93159",
+          "name": "South Peninsula",
+          "bbox": {
+            "minLon": -81.007977,
+            "minLat": 29.0706,
+            "maxLon": -80.870645,
+            "maxLat": 29.227218
+          }
+        },
+        {
+          "COUSUBFP": "90845",
+          "name": "Deltona",
+          "bbox": {
+            "minLon": -81.319796,
+            "minLat": 28.781886,
+            "maxLon": -81.050294,
+            "maxLat": 29.052263
+          }
+        },
+        {
+          "COUSUBFP": "92730",
+          "name": "Pierson-Seville",
+          "bbox": {
+            "minLon": -81.680903,
+            "minLat": 29.104209,
+            "maxLon": -81.253709,
+            "maxLat": 29.400563
+          }
+        },
+        {
+          "COUSUBFP": "90494",
+          "name": "Central Volusia",
+          "bbox": {
+            "minLon": -81.329817,
+            "minLat": 28.612662,
+            "maxLon": -80.899304,
+            "maxLat": 29.351842
+          }
+        },
+        {
+          "COUSUBFP": "90793",
+          "name": "DeBary-Orange City",
+          "bbox": {
+            "minLon": -81.370895,
+            "minLat": 28.83453,
+            "maxLon": -81.257524,
+            "maxLat": 28.984396
+          }
+        },
+        {
+          "COUSUBFP": "90832",
+          "name": "DeLand",
+          "bbox": {
+            "minLon": -81.502797,
+            "minLat": 28.955253,
+            "maxLon": -81.198768,
+            "maxLat": 29.139649
+          }
+        },
+        {
+          "COUSUBFP": "90780",
+          "name": "Daytona Beach",
+          "bbox": {
+            "minLon": -81.103015,
+            "minLat": 29.155531,
+            "maxLon": -80.998596,
+            "maxLat": 29.238996
+          }
+        },
+        {
+          "COUSUBFP": "92418",
+          "name": "North Peninsula",
+          "bbox": {
+            "minLon": -81.107722,
+            "minLat": 29.205359,
+            "maxLon": -80.946448,
+            "maxLat": 29.432462
+          }
+        },
+        {
+          "COUSUBFP": "92535",
+          "name": "Ormond Beach",
+          "bbox": {
+            "minLon": -81.155881,
+            "minLat": 29.220062,
+            "maxLon": -81.02359,
+            "maxLat": 29.426998
+          }
+        },
+        {
+          "COUSUBFP": "92847",
+          "name": "Port Orange",
+          "bbox": {
+            "minLon": -81.075573,
+            "minLat": 29.07204,
+            "maxLon": -80.94845,
+            "maxLat": 29.187729
+          }
+        },
+        {
+          "COUSUBFP": "92340",
+          "name": "New Smyrna Beach",
+          "bbox": {
+            "minLon": -81.02174,
+            "minLat": 28.790588,
+            "maxLon": -80.663461,
+            "maxLat": 29.099829
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Hendry": {
+      "COUNTYFP": "051",
+      "name": "Hendry",
+      "bbox": {
+        "minLon": -81.56657,
+        "minLat": 26.253069,
+        "maxLon": -80.87971,
+        "maxLat": 26.958919
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91781",
+          "name": "LaBelle",
+          "bbox": {
+            "minLon": -81.56657,
+            "minLat": 26.422648,
+            "maxLon": -81.124147,
+            "maxLat": 26.78349
+          }
+        },
+        {
+          "COUSUBFP": "90598",
+          "name": "Clewiston",
+          "bbox": {
+            "minLon": -81.272002,
+            "minLat": 26.253069,
+            "maxLon": -80.87971,
+            "maxLat": 26.958919
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Orange": {
+      "COUNTYFP": "095",
+      "name": "Orange",
+      "bbox": {
+        "minLon": -81.658612,
+        "minLat": 28.346889,
+        "maxLon": -80.862908,
+        "maxLat": 28.78619
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93198",
+          "name": "Southwest Orange",
+          "bbox": {
+            "minLon": -81.657595,
+            "minLat": 28.346889,
+            "maxLon": -81.382969,
+            "maxLat": 28.553123
+          }
+        },
+        {
+          "COUSUBFP": "90052",
+          "name": "Apopka",
+          "bbox": {
+            "minLon": -81.658612,
+            "minLat": 28.563215,
+            "maxLon": -81.414412,
+            "maxLat": 28.78619
+          }
+        },
+        {
+          "COUSUBFP": "90910",
+          "name": "East Orange",
+          "bbox": {
+            "minLon": -81.264449,
+            "minLat": 28.347487,
+            "maxLon": -80.862908,
+            "maxLat": 28.613172
+          }
+        },
+        {
+          "COUSUBFP": "93705",
+          "name": "Winter Garden-Ocoee",
+          "bbox": {
+            "minLon": -81.657397,
+            "minLat": 28.502818,
+            "maxLon": -81.471033,
+            "maxLat": 28.612521
+          }
+        },
+        {
+          "COUSUBFP": "92522",
+          "name": "Orlando",
+          "bbox": {
+            "minLon": -81.498812,
+            "minLat": 28.347883,
+            "maxLon": -81.232159,
+            "maxLat": 28.640411
+          }
+        },
+        {
+          "COUSUBFP": "93458",
+          "name": "Union Park",
+          "bbox": {
+            "minLon": -81.289829,
+            "minLat": 28.448645,
+            "maxLon": -81.108195,
+            "maxLat": 28.612225
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Broward": {
+      "COUNTYFP": "011",
+      "name": "Broward",
+      "bbox": {
+        "minLon": -80.881285,
+        "minLat": 25.95675,
+        "maxLon": -80.015276,
+        "maxLat": 26.355547
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90806",
+          "name": "Deerfield Beach",
+          "bbox": {
+            "minLon": -80.297799,
+            "minLat": 26.253523,
+            "maxLon": -80.015276,
+            "maxLat": 26.355547
+          }
+        },
+        {
+          "COUSUBFP": "91508",
+          "name": "Hollywood",
+          "bbox": {
+            "minLon": -80.24884,
+            "minLat": 25.975402,
+            "maxLon": -80.04933,
+            "maxLat": 26.099133
+          }
+        },
+        {
+          "COUSUBFP": "92236",
+          "name": "Miramar-Pembroke Pines",
+          "bbox": {
+            "minLon": -80.441717,
+            "minLat": 25.95677,
+            "maxLon": -80.190839,
+            "maxLat": 26.035691
+          }
+        },
+        {
+          "COUSUBFP": "91098",
+          "name": "Fort Lauderdale",
+          "bbox": {
+            "minLon": -80.219879,
+            "minLat": 26.080276,
+            "maxLon": -80.036596,
+            "maxLat": 26.230761
+          }
+        },
+        {
+          "COUSUBFP": "90637",
+          "name": "Conservation",
+          "bbox": {
+            "minLon": -80.881285,
+            "minLat": 25.95675,
+            "maxLon": -80.296986,
+            "maxLat": 26.334698
+          }
+        },
+        {
+          "COUSUBFP": "90754",
+          "name": "Davie",
+          "bbox": {
+            "minLon": -80.449752,
+            "minLat": 26.029543,
+            "maxLon": -80.20204,
+            "maxLat": 26.149333
+          }
+        },
+        {
+          "COUSUBFP": "91417",
+          "name": "Hallandale Beach",
+          "bbox": {
+            "minLon": -80.2071,
+            "minLat": 25.973228,
+            "maxLon": -80.112705,
+            "maxLat": 25.997472
+          }
+        },
+        {
+          "COUSUBFP": "90644",
+          "name": "Coral Springs-Margate",
+          "bbox": {
+            "minLon": -80.298333,
+            "minLat": 26.200009,
+            "maxLon": -80.177921,
+            "maxLat": 26.287486
+          }
+        },
+        {
+          "COUSUBFP": "92756",
+          "name": "Plantation",
+          "bbox": {
+            "minLon": -80.3667,
+            "minLat": 26.088114,
+            "maxLon": -80.201178,
+            "maxLat": 26.208578
+          }
+        },
+        {
+          "COUSUBFP": "92782",
+          "name": "Pompano Beach",
+          "bbox": {
+            "minLon": -80.187438,
+            "minLat": 26.202881,
+            "maxLon": -80.024517,
+            "maxLat": 26.27554
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Palm Beach": {
+      "COUNTYFP": "099",
+      "name": "Palm Beach",
+      "bbox": {
+        "minLon": -80.886053,
+        "minLat": 26.320755,
+        "maxLon": -79.974306,
+        "maxLat": 26.970943
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91872",
+          "name": "Lake Worth",
+          "bbox": {
+            "minLon": -80.174173,
+            "minLat": 26.583994,
+            "maxLon": -79.980648,
+            "maxLat": 26.679187
+          }
+        },
+        {
+          "COUSUBFP": "93614",
+          "name": "West Palm Beach",
+          "bbox": {
+            "minLon": -80.16635,
+            "minLat": 26.614971,
+            "maxLon": -79.974728,
+            "maxLat": 26.773113
+          }
+        },
+        {
+          "COUSUBFP": "92990",
+          "name": "Royal Palm Beach-West Jupiter",
+          "bbox": {
+            "minLon": -80.374839,
+            "minLat": 26.679187,
+            "maxLon": -80.12864,
+            "maxLat": 26.958386
+          }
+        },
+        {
+          "COUSUBFP": "91690",
+          "name": "Jupiter",
+          "bbox": {
+            "minLon": -80.16711,
+            "minLat": 26.838234,
+            "maxLon": -79.996596,
+            "maxLat": 26.970943
+          }
+        },
+        {
+          "COUSUBFP": "90143",
+          "name": "Belle Glade-Pahokee",
+          "bbox": {
+            "minLon": -80.886053,
+            "minLat": 26.609242,
+            "maxLon": -80.563026,
+            "maxLat": 26.959033
+          }
+        },
+        {
+          "COUSUBFP": "93276",
+          "name": "Sunshine Parkway",
+          "bbox": {
+            "minLon": -80.364374,
+            "minLat": 26.32774,
+            "maxLon": -80.16635,
+            "maxLat": 26.685048
+          }
+        },
+        {
+          "COUSUBFP": "90208",
+          "name": "Boca Raton",
+          "bbox": {
+            "minLon": -80.171604,
+            "minLat": 26.320755,
+            "maxLon": -80.00253,
+            "maxLat": 26.454564
+          }
+        },
+        {
+          "COUSUBFP": "90260",
+          "name": "Boynton Beach-Delray Beach",
+          "bbox": {
+            "minLon": -80.174671,
+            "minLat": 26.42055,
+            "maxLon": -79.981681,
+            "maxLat": 26.595749
+          }
+        },
+        {
+          "COUSUBFP": "92977",
+          "name": "Riviera Beach",
+          "bbox": {
+            "minLon": -80.133876,
+            "minLat": 26.759021,
+            "maxLon": -79.974306,
+            "maxLat": 26.882856
+          }
+        },
+        {
+          "COUSUBFP": "91274",
+          "name": "Glades",
+          "bbox": {
+            "minLon": -80.885772,
+            "minLat": 26.3338,
+            "maxLon": -80.220765,
+            "maxLat": 26.958155
+          }
+        },
+        {
+          "COUSUBFP": "93594",
+          "name": "Western Community",
+          "bbox": {
+            "minLon": -80.48329,
+            "minLat": 26.741051,
+            "maxLon": -80.197384,
+            "maxLat": 26.958387
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Gilchrist": {
+      "COUNTYFP": "041",
+      "name": "Gilchrist",
+      "bbox": {
+        "minLon": -82.973054,
+        "minLat": 29.562467,
+        "maxLon": -82.656263,
+        "maxLat": 29.935479
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90130",
+          "name": "Bell",
+          "bbox": {
+            "minLon": -82.959409,
+            "minLat": 29.671125,
+            "maxLon": -82.74007,
+            "maxLat": 29.935479
+          }
+        },
+        {
+          "COUSUBFP": "93432",
+          "name": "Trenton",
+          "bbox": {
+            "minLon": -82.973054,
+            "minLat": 29.562467,
+            "maxLon": -82.656263,
+            "maxLat": 29.86531
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Miami-Dade": {
+      "COUNTYFP": "086",
+      "name": "Miami-Dade",
+      "bbox": {
+        "minLon": -80.8736,
+        "minLat": 25.13742,
+        "maxLon": -80.06279,
+        "maxLat": 25.979434
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91040",
+          "name": "Everglades",
+          "bbox": {
+            "minLon": -80.8736,
+            "minLat": 25.211138,
+            "maxLon": -80.440263,
+            "maxLat": 25.979434
+          }
+        },
+        {
+          "COUSUBFP": "91705",
+          "name": "Kendale Lakes-Tamiami",
+          "bbox": {
+            "minLon": -80.512137,
+            "minLat": 25.594279,
+            "maxLon": -80.344616,
+            "maxLat": 25.942854
+          }
+        },
+        {
+          "COUSUBFP": "92470",
+          "name": "North Westside",
+          "bbox": {
+            "minLon": -80.388074,
+            "minLat": 25.760998,
+            "maxLon": -80.304249,
+            "maxLat": 25.869875
+          }
+        },
+        {
+          "COUSUBFP": "91482",
+          "name": "Hialeah",
+          "bbox": {
+            "minLon": -80.440928,
+            "minLat": 25.805959,
+            "maxLon": -80.258426,
+            "maxLat": 25.957171
+          }
+        },
+        {
+          "COUSUBFP": "91534",
+          "name": "Homestead",
+          "bbox": {
+            "minLon": -80.85822,
+            "minLat": 25.13742,
+            "maxLon": -80.09396,
+            "maxLat": 25.65738
+          }
+        },
+        {
+          "COUSUBFP": "91714",
+          "name": "Kendall-Palmetto Bay",
+          "bbox": {
+            "minLon": -80.389221,
+            "minLat": 25.596058,
+            "maxLon": -80.19117,
+            "maxLat": 25.712705
+          }
+        },
+        {
+          "COUSUBFP": "91729",
+          "name": "Key Biscayne",
+          "bbox": {
+            "minLon": -80.205971,
+            "minLat": 25.65718,
+            "maxLon": -80.09178,
+            "maxLat": 25.769776
+          }
+        },
+        {
+          "COUSUBFP": "92158",
+          "name": "Miami",
+          "bbox": {
+            "minLon": -80.33582,
+            "minLat": 25.688869,
+            "maxLon": -80.123307,
+            "maxLat": 25.975103
+          }
+        },
+        {
+          "COUSUBFP": "92171",
+          "name": "Miami Beach",
+          "bbox": {
+            "minLon": -80.16905,
+            "minLat": 25.72111,
+            "maxLon": -80.06279,
+            "maxLat": 25.976809
+          }
+        },
+        {
+          "COUSUBFP": "93211",
+          "name": "South Westside",
+          "bbox": {
+            "minLon": -80.385485,
+            "minLat": 25.701142,
+            "maxLon": -80.318303,
+            "maxLat": 25.762415
+          }
+        },
+        {
+          "COUSUBFP": "92886",
+          "name": "Princeton-Goulds",
+          "bbox": {
+            "minLon": -80.511065,
+            "minLat": 25.462862,
+            "maxLon": -80.219341,
+            "maxLat": 25.60881
+          }
+        },
+        {
+          "COUSUBFP": "92175",
+          "name": "Miami Gardens",
+          "bbox": {
+            "minLon": -80.295187,
+            "minLat": 25.925024,
+            "maxLon": -80.204835,
+            "maxLat": 25.972647
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Highlands": {
+      "COUNTYFP": "055",
+      "name": "Highlands",
+      "bbox": {
+        "minLon": -81.564162,
+        "minLat": 27.032319,
+        "maxLon": -80.940676,
+        "maxLat": 27.646691
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90091",
+          "name": "Avon Park",
+          "bbox": {
+            "minLon": -81.563721,
+            "minLat": 27.491579,
+            "maxLon": -81.140044,
+            "maxLat": 27.646691
+          }
+        },
+        {
+          "COUSUBFP": "91846",
+          "name": "Lake Placid",
+          "bbox": {
+            "minLon": -81.564162,
+            "minLat": 27.032319,
+            "maxLon": -80.940676,
+            "maxLat": 27.41499
+          }
+        },
+        {
+          "COUSUBFP": "93120",
+          "name": "Sebring",
+          "bbox": {
+            "minLon": -81.564,
+            "minLat": 27.340666,
+            "maxLon": -81.030567,
+            "maxLat": 27.547184
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Citrus": {
+      "COUNTYFP": "017",
+      "name": "Citrus",
+      "bbox": {
+        "minLon": -83.187906,
+        "minLat": 28.665671,
+        "maxLon": -82.169141,
+        "maxLat": 29.052565
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90715",
+          "name": "Crystal River",
+          "bbox": {
+            "minLon": -83.187906,
+            "minLat": 28.693213,
+            "maxLon": -82.402935,
+            "maxLat": 29.052565
+          }
+        },
+        {
+          "COUSUBFP": "91625",
+          "name": "Inverness",
+          "bbox": {
+            "minLon": -82.490407,
+            "minLat": 28.665671,
+            "maxLon": -82.169141,
+            "maxLat": 29.047651
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Okeechobee": {
+      "COUNTYFP": "093",
+      "name": "Okeechobee",
+      "bbox": {
+        "minLon": -81.214284,
+        "minLat": 26.958919,
+        "maxLon": -80.677356,
+        "maxLat": 27.643238
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92496",
+          "name": "Okeechobee",
+          "bbox": {
+            "minLon": -80.985303,
+            "minLat": 26.958919,
+            "maxLon": -80.677356,
+            "maxLat": 27.349447
+          }
+        },
+        {
+          "COUSUBFP": "92405",
+          "name": "North Okeechobee",
+          "bbox": {
+            "minLon": -81.214284,
+            "minLat": 27.238892,
+            "maxLon": -80.677726,
+            "maxLat": 27.643238
+          }
+        }
+      ]
+    }
+  },
+  {
+    "St. Johns": {
+      "COUNTYFP": "109",
+      "name": "St. Johns",
+      "bbox": {
+        "minLon": -81.690469,
+        "minLat": 29.622432,
+        "maxLon": -81.150817,
+        "maxLat": 30.252941
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91443",
+          "name": "Hastings",
+          "bbox": {
+            "minLon": -81.583457,
+            "minLat": 29.622432,
+            "maxLon": -81.276916,
+            "maxLat": 29.887286
+          }
+        },
+        {
+          "COUSUBFP": "93016",
+          "name": "St. Augustine",
+          "bbox": {
+            "minLon": -81.633517,
+            "minLat": 29.768812,
+            "maxLon": -81.194404,
+            "maxLat": 30.18062
+          }
+        },
+        {
+          "COUSUBFP": "92795",
+          "name": "Ponte Vedra",
+          "bbox": {
+            "minLon": -81.436929,
+            "minLat": 30.114389,
+            "maxLon": -81.300479,
+            "maxLat": 30.252941
+          }
+        },
+        {
+          "COUSUBFP": "92080",
+          "name": "Matanzas",
+          "bbox": {
+            "minLon": -81.379261,
+            "minLat": 29.652441,
+            "maxLon": -81.150817,
+            "maxLat": 29.847442
+          }
+        },
+        {
+          "COUSUBFP": "91222",
+          "name": "Fruit Cove",
+          "bbox": {
+            "minLon": -81.690469,
+            "minLat": 29.986295,
+            "maxLon": -81.497836,
+            "maxLat": 30.133641
+          }
+        }
+      ]
+    }
+  },
+  {
+    "DeSoto": {
+      "COUNTYFP": "027",
+      "name": "DeSoto",
+      "bbox": {
+        "minLon": -82.057631,
+        "minLat": 27.0317,
+        "maxLon": -81.562306,
+        "maxLat": 27.340702
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90065",
+          "name": "Arcadia East",
+          "bbox": {
+            "minLon": -81.902638,
+            "minLat": 27.033443,
+            "maxLon": -81.562306,
+            "maxLat": 27.340702
+          }
+        },
+        {
+          "COUSUBFP": "90078",
+          "name": "Arcadia West",
+          "bbox": {
+            "minLon": -82.057631,
+            "minLat": 27.0317,
+            "maxLon": -81.771689,
+            "maxLat": 27.340262
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Glades": {
+      "COUNTYFP": "043",
+      "name": "Glades",
+      "bbox": {
+        "minLon": -81.565749,
+        "minLat": 26.768161,
+        "maxLon": -80.870236,
+        "maxLat": 27.210771
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93185",
+          "name": "Southwest Glades",
+          "bbox": {
+            "minLon": -81.565749,
+            "minLat": 26.768161,
+            "maxLon": -80.897675,
+            "maxLat": 27.067374
+          }
+        },
+        {
+          "COUSUBFP": "92379",
+          "name": "Northeast Glades",
+          "bbox": {
+            "minLon": -81.267677,
+            "minLat": 26.91955,
+            "maxLon": -80.870236,
+            "maxLat": 27.210771
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Manatee": {
+      "COUNTYFP": "081",
+      "name": "Manatee",
+      "bbox": {
+        "minLon": -82.92417,
+        "minLat": 27.207769,
+        "maxLon": -82.054349,
+        "maxLat": 27.64668
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92290",
+          "name": "Myakka City",
+          "bbox": {
+            "minLon": -82.505372,
+            "minLat": 27.207769,
+            "maxLon": -82.055419,
+            "maxLat": 27.528318
+          }
+        },
+        {
+          "COUSUBFP": "92600",
+          "name": "Palmetto",
+          "bbox": {
+            "minLon": -82.687876,
+            "minLat": 27.504317,
+            "maxLon": -82.52475,
+            "maxLat": 27.645557
+          }
+        },
+        {
+          "COUSUBFP": "90273",
+          "name": "Bradenton",
+          "bbox": {
+            "minLon": -82.92417,
+            "minLat": 27.388206,
+            "maxLon": -82.448609,
+            "maxLat": 27.586906
+          }
+        },
+        {
+          "COUSUBFP": "92652",
+          "name": "Parrish",
+          "bbox": {
+            "minLon": -82.539736,
+            "minLat": 27.459662,
+            "maxLon": -82.054349,
+            "maxLat": 27.64668
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Calhoun": {
+      "COUNTYFP": "013",
+      "name": "Calhoun",
+      "bbox": {
+        "minLon": -85.389755,
+        "minLat": 30.199889,
+        "maxLon": -84.932519,
+        "maxLat": 30.608079
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93592",
+          "name": "West Calhoun",
+          "bbox": {
+            "minLon": -85.389755,
+            "minLat": 30.200587,
+            "maxLon": -85.142172,
+            "maxLat": 30.566908
+          }
+        },
+        {
+          "COUSUBFP": "90026",
+          "name": "Altha",
+          "bbox": {
+            "minLon": -85.17647,
+            "minLat": 30.464535,
+            "maxLon": -84.932519,
+            "maxLat": 30.608079
+          }
+        },
+        {
+          "COUSUBFP": "90169",
+          "name": "Blountstown",
+          "bbox": {
+            "minLon": -85.194022,
+            "minLat": 30.199889,
+            "maxLon": -84.980835,
+            "maxLat": 30.529239
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Lake": {
+      "COUNTYFP": "069",
+      "name": "Lake",
+      "bbox": {
+        "minLon": -81.957641,
+        "minLat": 28.34518,
+        "maxLon": -81.349643,
+        "maxLat": 29.276766
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91365",
+          "name": "Groveland-Mascotte",
+          "bbox": {
+            "minLon": -81.957641,
+            "minLat": 28.34518,
+            "maxLon": -81.754146,
+            "maxLat": 28.684416
+          }
+        },
+        {
+          "COUSUBFP": "90585",
+          "name": "Clermont",
+          "bbox": {
+            "minLon": -81.839194,
+            "minLat": 28.346413,
+            "maxLon": -81.648104,
+            "maxLat": 28.698178
+          }
+        },
+        {
+          "COUSUBFP": "91911",
+          "name": "Leesburg",
+          "bbox": {
+            "minLon": -81.953685,
+            "minLat": 28.760926,
+            "maxLon": -81.846355,
+            "maxLat": 28.86356
+          }
+        },
+        {
+          "COUSUBFP": "92262",
+          "name": "Mount Dora",
+          "bbox": {
+            "minLon": -81.687397,
+            "minLat": 28.785564,
+            "maxLon": -81.374912,
+            "maxLat": 28.866796
+          }
+        },
+        {
+          "COUSUBFP": "91014",
+          "name": "Eustis",
+          "bbox": {
+            "minLon": -81.751319,
+            "minLat": 28.81518,
+            "maxLon": -81.609555,
+            "maxLat": 28.913854
+          }
+        },
+        {
+          "COUSUBFP": "91541",
+          "name": "Howey-in-the-Hills-Okahumpka",
+          "bbox": {
+            "minLon": -81.954496,
+            "minLat": 28.647991,
+            "maxLon": -81.754488,
+            "maxLat": 28.791247
+          }
+        },
+        {
+          "COUSUBFP": "93393",
+          "name": "Tavares",
+          "bbox": {
+            "minLon": -81.803376,
+            "minLat": 28.658919,
+            "maxLon": -81.644741,
+            "maxLat": 28.836158
+          }
+        },
+        {
+          "COUSUBFP": "91235",
+          "name": "Fruitland Park-Lady Lake",
+          "bbox": {
+            "minLon": -81.95419,
+            "minLat": 28.834601,
+            "maxLon": -81.831922,
+            "maxLat": 28.961024
+          }
+        },
+        {
+          "COUSUBFP": "91924",
+          "name": "Leesburg East",
+          "bbox": {
+            "minLon": -81.857292,
+            "minLat": 28.775812,
+            "maxLon": -81.739868,
+            "maxLat": 28.961024
+          }
+        },
+        {
+          "COUSUBFP": "93445",
+          "name": "Umatilla",
+          "bbox": {
+            "minLon": -81.761689,
+            "minLat": 28.829486,
+            "maxLon": -81.349643,
+            "maxLat": 29.276766
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Pinellas": {
+      "COUNTYFP": "103",
+      "name": "Pinellas",
+      "bbox": {
+        "minLon": -83.02054,
+        "minLat": 27.610437,
+        "maxLon": -82.540618,
+        "maxLat": 28.173352
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90182",
+          "name": "Boca Ciega",
+          "bbox": {
+            "minLon": -83.020159,
+            "minLat": 27.77848,
+            "maxLon": -82.763737,
+            "maxLat": 27.884906
+          }
+        },
+        {
+          "COUSUBFP": "93036",
+          "name": "St. Pete Beach",
+          "bbox": {
+            "minLon": -83.00054,
+            "minLat": 27.676562,
+            "maxLon": -82.723167,
+            "maxLat": 27.796038
+          }
+        },
+        {
+          "COUSUBFP": "90572",
+          "name": "Clearwater",
+          "bbox": {
+            "minLon": -83.02054,
+            "minLat": 27.86513,
+            "maxLon": -82.599519,
+            "maxLat": 28.092743
+          }
+        },
+        {
+          "COUSUBFP": "93042",
+          "name": "St. Petersburg",
+          "bbox": {
+            "minLon": -82.925034,
+            "minLat": 27.610437,
+            "maxLon": -82.540618,
+            "maxLat": 27.936908
+          }
+        },
+        {
+          "COUSUBFP": "93380",
+          "name": "Tarpon Springs",
+          "bbox": {
+            "minLon": -83.01875,
+            "minLat": 27.978998,
+            "maxLon": -82.64836,
+            "maxLat": 28.173352
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Franklin": {
+      "COUNTYFP": "037",
+      "name": "Franklin",
+      "bbox": {
+        "minLon": -85.225499,
+        "minLat": 29.43598,
+        "maxLon": -84.29688,
+        "maxLat": 30.013931
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90429",
+          "name": "Carrabelle",
+          "bbox": {
+            "minLon": -84.761479,
+            "minLat": 29.613273,
+            "maxLon": -84.29688,
+            "maxLat": 30.011845
+          }
+        },
+        {
+          "COUSUBFP": "90039",
+          "name": "Apalachicola",
+          "bbox": {
+            "minLon": -85.225499,
+            "minLat": 29.43598,
+            "maxLon": -84.620125,
+            "maxLat": 29.825355
+          }
+        },
+        {
+          "COUSUBFP": "90936",
+          "name": "Eastpoint",
+          "bbox": {
+            "minLon": -85.054359,
+            "minLat": 29.676081,
+            "maxLon": -84.659941,
+            "maxLat": 30.013931
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Pasco": {
+      "COUNTYFP": "101",
+      "name": "Pasco",
+      "bbox": {
+        "minLon": -83.02236,
+        "minLat": 28.17098,
+        "maxLon": -82.054694,
+        "maxLat": 28.478837
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92860",
+          "name": "Port Richey",
+          "bbox": {
+            "minLon": -83.00992,
+            "minLat": 28.265189,
+            "maxLon": -82.459181,
+            "maxLat": 28.43391
+          }
+        },
+        {
+          "COUSUBFP": "93770",
+          "name": "Zephyrhills",
+          "bbox": {
+            "minLon": -82.259741,
+            "minLat": 28.171459,
+            "maxLon": -82.055491,
+            "maxLat": 28.352493
+          }
+        },
+        {
+          "COUSUBFP": "90481",
+          "name": "Central Pasco",
+          "bbox": {
+            "minLon": -82.520358,
+            "minLat": 28.171044,
+            "maxLon": -82.220222,
+            "maxLat": 28.456827
+          }
+        },
+        {
+          "COUSUBFP": "92327",
+          "name": "New Port Richey",
+          "bbox": {
+            "minLon": -83.02236,
+            "minLat": 28.17098,
+            "maxLon": -82.461702,
+            "maxLat": 28.334681
+          }
+        },
+        {
+          "COUSUBFP": "90741",
+          "name": "Dade City",
+          "bbox": {
+            "minLon": -82.237162,
+            "minLat": 28.302816,
+            "maxLon": -82.127336,
+            "maxLat": 28.409026
+          }
+        },
+        {
+          "COUSUBFP": "91794",
+          "name": "Lacoochee",
+          "bbox": {
+            "minLon": -82.253333,
+            "minLat": 28.280719,
+            "maxLon": -82.054694,
+            "maxLat": 28.478837
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Sumter": {
+      "COUNTYFP": "119",
+      "name": "Sumter",
+      "bbox": {
+        "minLon": -82.311697,
+        "minLat": 28.305265,
+        "maxLon": -81.953291,
+        "maxLat": 28.96053
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90344",
+          "name": "Bushnell-Center Hill",
+          "bbox": {
+            "minLon": -82.274873,
+            "minLat": 28.305265,
+            "maxLon": -81.953661,
+            "maxLat": 28.807412
+          }
+        },
+        {
+          "COUSUBFP": "93666",
+          "name": "Wildwood",
+          "bbox": {
+            "minLon": -82.311697,
+            "minLat": 28.75533,
+            "maxLon": -81.953291,
+            "maxLat": 28.96053
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Seminole": {
+      "COUNTYFP": "117",
+      "name": "Seminole",
+      "bbox": {
+        "minLon": -81.459728,
+        "minLat": 28.610501,
+        "maxLon": -80.986868,
+        "maxLat": 28.879227
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92548",
+          "name": "Oviedo",
+          "bbox": {
+            "minLon": -81.277834,
+            "minLat": 28.611209,
+            "maxLon": -80.986868,
+            "maxLat": 28.828541
+          }
+        },
+        {
+          "COUSUBFP": "90455",
+          "name": "Casselberry-Altamonte Springs",
+          "bbox": {
+            "minLon": -81.459728,
+            "minLat": 28.610501,
+            "maxLon": -81.253407,
+            "maxLat": 28.755752
+          }
+        },
+        {
+          "COUSUBFP": "93081",
+          "name": "Sanford",
+          "bbox": {
+            "minLon": -81.419651,
+            "minLat": 28.71128,
+            "maxLon": -81.175255,
+            "maxLat": 28.879227
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Bradford": {
+      "COUNTYFP": "007",
+      "name": "Bradford",
+      "bbox": {
+        "minLon": -82.418728,
+        "minLat": 29.718232,
+        "maxLon": -82.046112,
+        "maxLat": 30.14324
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90312",
+          "name": "Brooker",
+          "bbox": {
+            "minLon": -82.418728,
+            "minLat": 29.842998,
+            "maxLon": -82.20662,
+            "maxLat": 29.998323
+          }
+        },
+        {
+          "COUSUBFP": "91430",
+          "name": "Hampton",
+          "bbox": {
+            "minLon": -82.241061,
+            "minLat": 29.718232,
+            "maxLon": -82.046112,
+            "maxLat": 29.923321
+          }
+        },
+        {
+          "COUSUBFP": "93237",
+          "name": "Starke",
+          "bbox": {
+            "minLon": -82.273999,
+            "minLat": 29.89676,
+            "maxLon": -82.04768,
+            "maxLat": 30.066846
+          }
+        },
+        {
+          "COUSUBFP": "91898",
+          "name": "Lawtey",
+          "bbox": {
+            "minLon": -82.184015,
+            "minLat": 29.98621,
+            "maxLon": -82.04772,
+            "maxLat": 30.14324
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Duval": {
+      "COUNTYFP": "031",
+      "name": "Duval",
+      "bbox": {
+        "minLon": -82.049502,
+        "minLat": 30.103748,
+        "maxLon": -81.316712,
+        "maxLat": 30.586232
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91644",
+          "name": "Jacksonville North",
+          "bbox": {
+            "minLon": -81.831212,
+            "minLat": 30.38094,
+            "maxLon": -81.316712,
+            "maxLat": 30.586232
+          }
+        },
+        {
+          "COUSUBFP": "90110",
+          "name": "Baldwin",
+          "bbox": {
+            "minLon": -82.049502,
+            "minLat": 30.186327,
+            "maxLon": -81.843952,
+            "maxLat": 30.373981
+          }
+        },
+        {
+          "COUSUBFP": "91640",
+          "name": "Jacksonville Beaches",
+          "bbox": {
+            "minLon": -81.459709,
+            "minLat": 30.252243,
+            "maxLon": -81.31726,
+            "maxLat": 30.403001
+          }
+        },
+        {
+          "COUSUBFP": "91642",
+          "name": "Jacksonville East",
+          "bbox": {
+            "minLon": -81.692116,
+            "minLat": 30.103748,
+            "maxLon": -81.420011,
+            "maxLat": 30.412711
+          }
+        },
+        {
+          "COUSUBFP": "91646",
+          "name": "Jacksonville West",
+          "bbox": {
+            "minLon": -81.935495,
+            "minLat": 30.188018,
+            "maxLon": -81.613216,
+            "maxLat": 30.467449
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Martin": {
+      "COUNTYFP": "085",
+      "name": "Martin",
+      "bbox": {
+        "minLon": -80.885639,
+        "minLat": 26.956623,
+        "maxLon": -80.022754,
+        "maxLat": 27.263831
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92873",
+          "name": "Port Salerno-Hobe Sound",
+          "bbox": {
+            "minLon": -80.274785,
+            "minLat": 26.956623,
+            "maxLon": -80.022754,
+            "maxLat": 27.173127
+          }
+        },
+        {
+          "COUSUBFP": "91586",
+          "name": "Indiantown",
+          "bbox": {
+            "minLon": -80.885639,
+            "minLat": 26.956627,
+            "maxLon": -80.16711,
+            "maxLat": 27.206399
+          }
+        },
+        {
+          "COUSUBFP": "93250",
+          "name": "Stuart",
+          "bbox": {
+            "minLon": -80.331821,
+            "minLat": 27.117635,
+            "maxLon": -80.094155,
+            "maxLat": 27.263831
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Dixie": {
+      "COUNTYFP": "029",
+      "name": "Dixie",
+      "bbox": {
+        "minLon": -83.575406,
+        "minLat": 29.241868,
+        "maxLon": -82.903956,
+        "maxLat": 29.825449
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90689",
+          "name": "Cross City North",
+          "bbox": {
+            "minLon": -83.32401,
+            "minLat": 29.58365,
+            "maxLon": -82.903956,
+            "maxLat": 29.825449
+          }
+        },
+        {
+          "COUSUBFP": "90702",
+          "name": "Cross City South",
+          "bbox": {
+            "minLon": -83.575406,
+            "minLat": 29.241868,
+            "maxLon": -82.937018,
+            "maxLat": 29.774598
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Escambia": {
+      "COUNTYFP": "033",
+      "name": "Escambia",
+      "bbox": {
+        "minLon": -87.634896,
+        "minLat": 30.12553,
+        "maxLon": -86.91833,
+        "maxLat": 30.999029
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90390",
+          "name": "Cantonment",
+          "bbox": {
+            "minLon": -87.450371,
+            "minLat": 30.449383,
+            "maxLon": -87.195302,
+            "maxLat": 30.697522
+          }
+        },
+        {
+          "COUSUBFP": "92691",
+          "name": "Pensacola",
+          "bbox": {
+            "minLon": -87.51846,
+            "minLat": 30.12553,
+            "maxLon": -86.91833,
+            "maxLat": 30.54891
+          }
+        },
+        {
+          "COUSUBFP": "90507",
+          "name": "Century",
+          "bbox": {
+            "minLon": -87.492136,
+            "minLat": 30.65034,
+            "maxLon": -87.162915,
+            "maxLat": 30.999029
+          }
+        },
+        {
+          "COUSUBFP": "92457",
+          "name": "Northwest Escambia",
+          "bbox": {
+            "minLon": -87.634896,
+            "minLat": 30.678154,
+            "maxLon": -87.31927,
+            "maxLat": 30.997997
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Monroe": {
+      "COUNTYFP": "087",
+      "name": "Monroe",
+      "bbox": {
+        "minLon": -83.108914,
+        "minLat": 24.396308,
+        "maxLon": -80.183871,
+        "maxLat": 25.805377
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90416",
+          "name": "Cape Sable",
+          "bbox": {
+            "minLon": -81.848206,
+            "minLat": 24.85155,
+            "maxLon": -80.388597,
+            "maxLat": 25.805377
+          }
+        },
+        {
+          "COUSUBFP": "91755",
+          "name": "Key West",
+          "bbox": {
+            "minLon": -83.108914,
+            "minLat": 24.396308,
+            "maxLon": -81.591304,
+            "maxLat": 24.833296
+          }
+        },
+        {
+          "COUSUBFP": "91976",
+          "name": "Lower Keys",
+          "bbox": {
+            "minLon": -81.753885,
+            "minLat": 24.465303,
+            "maxLon": -81.142713,
+            "maxLat": 24.9866
+          }
+        },
+        {
+          "COUSUBFP": "93471",
+          "name": "Upper Keys",
+          "bbox": {
+            "minLon": -80.772522,
+            "minLat": 24.765958,
+            "maxLon": -80.183871,
+            "maxLat": 25.354328
+          }
+        },
+        {
+          "COUSUBFP": "92210",
+          "name": "Middle Keys",
+          "bbox": {
+            "minLon": -81.19411,
+            "minLat": 24.632923,
+            "maxLon": -80.73485,
+            "maxLat": 24.9742
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Flagler": {
+      "COUNTYFP": "035",
+      "name": "Flagler",
+      "bbox": {
+        "minLon": -81.52366,
+        "minLat": 29.261133,
+        "maxLon": -81.041923,
+        "maxLat": 29.671087
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90338",
+          "name": "Bunnell",
+          "bbox": {
+            "minLon": -81.52366,
+            "minLat": 29.261133,
+            "maxLon": -81.150081,
+            "maxLat": 29.653478
+          }
+        },
+        {
+          "COUSUBFP": "91092",
+          "name": "Flagler Beach",
+          "bbox": {
+            "minLon": -81.276916,
+            "minLat": 29.403763,
+            "maxLon": -81.041923,
+            "maxLat": 29.671087
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Lee": {
+      "COUNTYFP": "071",
+      "name": "Lee",
+      "bbox": {
+        "minLon": -82.462012,
+        "minLat": 26.316242,
+        "maxLon": -81.56218,
+        "maxLat": 26.789551
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91131",
+          "name": "Fort Myers",
+          "bbox": {
+            "minLon": -82.031525,
+            "minLat": 26.432758,
+            "maxLon": -81.776238,
+            "maxLat": 26.698606
+          }
+        },
+        {
+          "COUSUBFP": "90234",
+          "name": "Bonita Springs",
+          "bbox": {
+            "minLon": -81.894834,
+            "minLat": 26.316242,
+            "maxLon": -81.56218,
+            "maxLat": 26.528012
+          }
+        },
+        {
+          "COUSUBFP": "91937",
+          "name": "Lehigh Acres",
+          "bbox": {
+            "minLon": -81.854859,
+            "minLat": 26.432353,
+            "maxLon": -81.562743,
+            "maxLat": 26.702727
+          }
+        },
+        {
+          "COUSUBFP": "92392",
+          "name": "North Fort Myers",
+          "bbox": {
+            "minLon": -81.931333,
+            "minLat": 26.635795,
+            "maxLon": -81.78994,
+            "maxLat": 26.770061
+          }
+        },
+        {
+          "COUSUBFP": "92743",
+          "name": "Pine Island",
+          "bbox": {
+            "minLon": -82.211717,
+            "minLat": 26.475333,
+            "maxLon": -82.028437,
+            "maxLat": 26.770861
+          }
+        },
+        {
+          "COUSUBFP": "93094",
+          "name": "Sanibel Island",
+          "bbox": {
+            "minLon": -82.43324,
+            "minLat": 26.341414,
+            "maxLon": -81.975555,
+            "maxLat": 26.729433
+          }
+        },
+        {
+          "COUSUBFP": "90195",
+          "name": "Boca Grande",
+          "bbox": {
+            "minLon": -82.462012,
+            "minLat": 26.69913,
+            "maxLon": -82.190388,
+            "maxLat": 26.789551
+          }
+        },
+        {
+          "COUSUBFP": "90403",
+          "name": "Cape Coral",
+          "bbox": {
+            "minLon": -82.127104,
+            "minLat": 26.480245,
+            "maxLon": -81.902192,
+            "maxLat": 26.770733
+          }
+        },
+        {
+          "COUSUBFP": "90988",
+          "name": "Estero Island",
+          "bbox": {
+            "minLon": -82.27223,
+            "minLat": 26.329831,
+            "maxLon": -81.84105,
+            "maxLat": 26.47226
+          }
+        },
+        {
+          "COUSUBFP": "91144",
+          "name": "Fort Myers Shores",
+          "bbox": {
+            "minLon": -81.805526,
+            "minLat": 26.674888,
+            "maxLon": -81.565748,
+            "maxLat": 26.769745
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Bay": {
+      "COUNTYFP": "005",
+      "name": "Bay",
+      "bbox": {
+        "minLon": -86.00077,
+        "minLat": 29.50701,
+        "maxLon": -85.37285,
+        "maxLat": 30.567682
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92145",
+          "name": "Mexico Beach",
+          "bbox": {
+            "minLon": -85.71567,
+            "minLat": 29.50701,
+            "maxLon": -85.37285,
+            "maxLat": 30.151285
+          }
+        },
+        {
+          "COUSUBFP": "93172",
+          "name": "Southport",
+          "bbox": {
+            "minLon": -85.995528,
+            "minLat": 30.20244,
+            "maxLon": -85.544708,
+            "maxLat": 30.44136
+          }
+        },
+        {
+          "COUSUBFP": "92626",
+          "name": "Panama City",
+          "bbox": {
+            "minLon": -85.741409,
+            "minLat": 30.023183,
+            "maxLon": -85.389544,
+            "maxLat": 30.257079
+          }
+        },
+        {
+          "COUSUBFP": "91989",
+          "name": "Lynn Haven",
+          "bbox": {
+            "minLon": -85.714824,
+            "minLat": 30.211338,
+            "maxLon": -85.455978,
+            "maxLat": 30.332397
+          }
+        },
+        {
+          "COUSUBFP": "92639",
+          "name": "Panama City Beaches",
+          "bbox": {
+            "minLon": -86.00077,
+            "minLat": 29.93802,
+            "maxLon": -85.628707,
+            "maxLat": 30.281311
+          }
+        },
+        {
+          "COUSUBFP": "93744",
+          "name": "Youngstown",
+          "bbox": {
+            "minLon": -85.566383,
+            "minLat": 30.240873,
+            "maxLon": -85.383743,
+            "maxLat": 30.567682
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Putnam": {
+      "COUNTYFP": "107",
+      "name": "Putnam",
+      "bbox": {
+        "minLon": -82.056151,
+        "minLat": 29.32443,
+        "maxLon": -81.433583,
+        "maxLat": 29.840176
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90663",
+          "name": "Crescent City",
+          "bbox": {
+            "minLon": -81.775945,
+            "minLat": 29.32443,
+            "maxLon": -81.433583,
+            "maxLat": 29.598781
+          }
+        },
+        {
+          "COUSUBFP": "92574",
+          "name": "Palatka",
+          "bbox": {
+            "minLon": -81.797218,
+            "minLat": 29.566749,
+            "maxLon": -81.541733,
+            "maxLat": 29.840176
+          }
+        },
+        {
+          "COUSUBFP": "90923",
+          "name": "East Palatka",
+          "bbox": {
+            "minLon": -81.641812,
+            "minLat": 29.486723,
+            "maxLon": -81.515228,
+            "maxLat": 29.771042
+          }
+        },
+        {
+          "COUSUBFP": "91612",
+          "name": "Interlachen-Florahome",
+          "bbox": {
+            "minLon": -82.056151,
+            "minLat": 29.466978,
+            "maxLon": -81.67639,
+            "maxLat": 29.83665
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Jefferson": {
+      "COUNTYFP": "065",
+      "name": "Jefferson",
+      "bbox": {
+        "minLon": -84.076328,
+        "minLat": 29.898948,
+        "maxLon": -83.604121,
+        "maxLat": 30.672127
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92249",
+          "name": "Monticello",
+          "bbox": {
+            "minLon": -84.041192,
+            "minLat": 30.44554,
+            "maxLon": -83.604121,
+            "maxLat": 30.672127
+          }
+        },
+        {
+          "COUSUBFP": "93523",
+          "name": "Wacissa",
+          "bbox": {
+            "minLon": -84.076328,
+            "minLat": 29.898948,
+            "maxLon": -83.721639,
+            "maxLat": 30.48969
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Lafayette": {
+      "COUNTYFP": "067",
+      "name": "Lafayette",
+      "bbox": {
+        "minLon": -83.37089,
+        "minLat": 29.822222,
+        "maxLon": -82.87522,
+        "maxLat": 30.260676
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92093",
+          "name": "Mayo",
+          "bbox": {
+            "minLon": -83.37089,
+            "minLat": 29.822222,
+            "maxLon": -82.87522,
+            "maxLat": 30.12943
+          }
+        },
+        {
+          "COUSUBFP": "90767",
+          "name": "Day",
+          "bbox": {
+            "minLon": -83.36889,
+            "minLat": 30.08573,
+            "maxLon": -83.171735,
+            "maxLat": 30.260676
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Hamilton": {
+      "COUNTYFP": "047",
+      "name": "Hamilton",
+      "bbox": {
+        "minLon": -83.309573,
+        "minLat": 30.317369,
+        "maxLon": -82.645478,
+        "maxLat": 30.634406
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91677",
+          "name": "Jennings",
+          "bbox": {
+            "minLon": -83.309573,
+            "minLat": 30.385225,
+            "maxLon": -83.018733,
+            "maxLat": 30.634406
+          }
+        },
+        {
+          "COUSUBFP": "93653",
+          "name": "White Springs",
+          "bbox": {
+            "minLon": -82.886588,
+            "minLat": 30.317369,
+            "maxLon": -82.645478,
+            "maxLat": 30.507378
+          }
+        },
+        {
+          "COUSUBFP": "91651",
+          "name": "Jasper",
+          "bbox": {
+            "minLon": -83.100625,
+            "minLat": 30.367454,
+            "maxLon": -82.689431,
+            "maxLat": 30.619472
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Levy": {
+      "COUNTYFP": "075",
+      "name": "Levy",
+      "bbox": {
+        "minLon": -83.346176,
+        "minLat": 28.986573,
+        "maxLon": -82.403237,
+        "maxLat": 29.591315
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90468",
+          "name": "Cedar Key-Yankeetown",
+          "bbox": {
+            "minLon": -83.346176,
+            "minLat": 28.986573,
+            "maxLon": -82.53459,
+            "maxLat": 29.40102
+          }
+        },
+        {
+          "COUSUBFP": "90533",
+          "name": "Chiefland",
+          "bbox": {
+            "minLon": -83.048634,
+            "minLat": 29.27186,
+            "maxLon": -82.705605,
+            "maxLat": 29.591315
+          }
+        },
+        {
+          "COUSUBFP": "93679",
+          "name": "Williston-Bronson",
+          "bbox": {
+            "minLon": -82.7926,
+            "minLat": 29.2085,
+            "maxLon": -82.403237,
+            "maxLat": 29.585026
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Polk": {
+      "COUNTYFP": "105",
+      "name": "Polk",
+      "bbox": {
+        "minLon": -82.106236,
+        "minLat": 27.643238,
+        "maxLon": -81.131044,
+        "maxLat": 28.361868
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90117",
+          "name": "Bartow",
+          "bbox": {
+            "minLon": -82.055307,
+            "minLat": 27.646118,
+            "maxLon": -81.635932,
+            "maxLat": 27.953869
+          }
+        },
+        {
+          "COUSUBFP": "91859",
+          "name": "Lake Wales",
+          "bbox": {
+            "minLon": -81.677131,
+            "minLat": 27.755379,
+            "maxLon": -81.201787,
+            "maxLat": 28.012476
+          }
+        },
+        {
+          "COUSUBFP": "91209",
+          "name": "Frostproof",
+          "bbox": {
+            "minLon": -81.695203,
+            "minLat": 27.643238,
+            "maxLon": -81.131044,
+            "maxLat": 27.808733
+          }
+        },
+        {
+          "COUSUBFP": "91404",
+          "name": "Haines City",
+          "bbox": {
+            "minLon": -81.836587,
+            "minLat": 27.955702,
+            "maxLon": -81.346336,
+            "maxLat": 28.361853
+          }
+        },
+        {
+          "COUSUBFP": "91833",
+          "name": "Lakeland",
+          "bbox": {
+            "minLon": -82.106236,
+            "minLat": 27.93469,
+            "maxLon": -81.813162,
+            "maxLat": 28.361868
+          }
+        },
+        {
+          "COUSUBFP": "93718",
+          "name": "Winter Haven-Auburndale",
+          "bbox": {
+            "minLon": -81.858983,
+            "minLat": 27.909248,
+            "maxLon": -81.643026,
+            "maxLat": 28.117475
+          }
+        }
+      ]
+    }
+  },
+  {
+    "St. Lucie": {
+      "COUNTYFP": "111",
+      "name": "St. Lucie",
+      "bbox": {
+        "minLon": -80.679974,
+        "minLat": 27.205584,
+        "maxLon": -80.138049,
+        "maxLat": 27.558736
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91157",
+          "name": "Fort Pierce",
+          "bbox": {
+            "minLon": -80.443284,
+            "minLat": 27.350205,
+            "maxLon": -80.229001,
+            "maxLat": 27.557763
+          }
+        },
+        {
+          "COUSUBFP": "93620",
+          "name": "West St. Lucie",
+          "bbox": {
+            "minLon": -80.679974,
+            "minLat": 27.205988,
+            "maxLon": -80.38656,
+            "maxLat": 27.558736
+          }
+        },
+        {
+          "COUSUBFP": "92866",
+          "name": "Port St. Lucie",
+          "bbox": {
+            "minLon": -80.48142,
+            "minLat": 27.205584,
+            "maxLon": -80.224028,
+            "maxLat": 27.38134
+          }
+        },
+        {
+          "COUSUBFP": "91547",
+          "name": "Hutchinson Island",
+          "bbox": {
+            "minLon": -80.321,
+            "minLat": 27.262781,
+            "maxLon": -80.138049,
+            "maxLat": 27.482789
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Okaloosa": {
+      "COUNTYFP": "091",
+      "name": "Okaloosa",
+      "bbox": {
+        "minLon": -86.803374,
+        "minLat": 30.226956,
+        "maxLon": -86.388515,
+        "maxLat": 30.99698
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90676",
+          "name": "Crestview",
+          "bbox": {
+            "minLon": -86.651119,
+            "minLat": 30.68209,
+            "maxLon": -86.390934,
+            "maxLat": 30.909968
+          }
+        },
+        {
+          "COUSUBFP": "91885",
+          "name": "Laurel Hill",
+          "bbox": {
+            "minLon": -86.579598,
+            "minLat": 30.800315,
+            "maxLon": -86.388515,
+            "maxLat": 30.994439
+          }
+        },
+        {
+          "COUSUBFP": "90104",
+          "name": "Baker",
+          "bbox": {
+            "minLon": -86.793582,
+            "minLat": 30.636622,
+            "maxLon": -86.542481,
+            "maxLat": 30.99698
+          }
+        },
+        {
+          "COUSUBFP": "90962",
+          "name": "Eglin AFB",
+          "bbox": {
+            "minLon": -86.799191,
+            "minLat": 30.404694,
+            "maxLon": -86.391483,
+            "maxLat": 30.707136
+          }
+        },
+        {
+          "COUSUBFP": "92353",
+          "name": "Niceville-Valparaiso",
+          "bbox": {
+            "minLon": -86.528307,
+            "minLat": 30.447618,
+            "maxLon": -86.394639,
+            "maxLat": 30.542084
+          }
+        },
+        {
+          "COUSUBFP": "91170",
+          "name": "Fort Walton Beach",
+          "bbox": {
+            "minLon": -86.803374,
+            "minLat": 30.226956,
+            "maxLon": -86.394783,
+            "maxLat": 30.490397
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Columbia": {
+      "COUNTYFP": "023",
+      "name": "Columbia",
+      "bbox": {
+        "minLon": -82.800477,
+        "minLat": 29.825587,
+        "maxLon": -82.452518,
+        "maxLat": 30.597734
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91183",
+          "name": "Fort White",
+          "bbox": {
+            "minLon": -82.800477,
+            "minLat": 29.825587,
+            "maxLon": -82.529239,
+            "maxLat": 30.074708
+          }
+        },
+        {
+          "COUSUBFP": "92366",
+          "name": "North Columbia",
+          "bbox": {
+            "minLon": -82.728624,
+            "minLat": 30.24111,
+            "maxLon": -82.457073,
+            "maxLat": 30.597734
+          }
+        },
+        {
+          "COUSUBFP": "91820",
+          "name": "Lake City",
+          "bbox": {
+            "minLon": -82.79496,
+            "minLat": 30.015646,
+            "maxLon": -82.452518,
+            "maxLat": 30.337024
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Holmes": {
+      "COUNTYFP": "059",
+      "name": "Holmes",
+      "bbox": {
+        "minLon": -86.037772,
+        "minLat": 30.702975,
+        "maxLon": -85.497992,
+        "maxLat": 30.996931
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93596",
+          "name": "West Holmes",
+          "bbox": {
+            "minLon": -86.037772,
+            "minLat": 30.702975,
+            "maxLon": -85.816361,
+            "maxLat": 30.99412
+          }
+        },
+        {
+          "COUSUBFP": "90221",
+          "name": "Bonifay",
+          "bbox": {
+            "minLon": -85.886238,
+            "minLat": 30.743868,
+            "maxLon": -85.555773,
+            "maxLat": 30.925765
+          }
+        },
+        {
+          "COUSUBFP": "91001",
+          "name": "Esto-Noma",
+          "bbox": {
+            "minLon": -85.860483,
+            "minLat": 30.88578,
+            "maxLon": -85.497992,
+            "maxLat": 30.996931
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Collier": {
+      "COUNTYFP": "021",
+      "name": "Collier",
+      "bbox": {
+        "minLon": -82.244953,
+        "minLat": 25.800785,
+        "maxLon": -80.872554,
+        "maxLat": 26.517069
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91027",
+          "name": "Everglades",
+          "bbox": {
+            "minLon": -81.709839,
+            "minLat": 25.802483,
+            "maxLon": -80.872554,
+            "maxLat": 26.172879
+          }
+        },
+        {
+          "COUSUBFP": "92301",
+          "name": "Naples",
+          "bbox": {
+            "minLon": -82.244953,
+            "minLat": 25.93561,
+            "maxLon": -81.504071,
+            "maxLat": 26.330433
+          }
+        },
+        {
+          "COUSUBFP": "91560",
+          "name": "Immokalee",
+          "bbox": {
+            "minLon": -81.755274,
+            "minLat": 26.153295,
+            "maxLon": -80.879166,
+            "maxLat": 26.517069
+          }
+        },
+        {
+          "COUSUBFP": "92048",
+          "name": "Marco Island",
+          "bbox": {
+            "minLon": -81.91715,
+            "minLat": 25.800785,
+            "maxLon": -81.624807,
+            "maxLat": 25.975386
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Baker": {
+      "COUNTYFP": "003",
+      "name": "Baker",
+      "bbox": {
+        "minLon": -82.459793,
+        "minLat": 30.136449,
+        "maxLon": -82.048816,
+        "maxLat": 30.584267
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92009",
+          "name": "Macclenny",
+          "bbox": {
+            "minLon": -82.287956,
+            "minLat": 30.141734,
+            "maxLon": -82.048816,
+            "maxLat": 30.3646
+          }
+        },
+        {
+          "COUSUBFP": "93068",
+          "name": "Sanderson",
+          "bbox": {
+            "minLon": -82.459793,
+            "minLat": 30.136449,
+            "maxLon": -82.100555,
+            "maxLat": 30.584267
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Sarasota": {
+      "COUNTYFP": "115",
+      "name": "Sarasota",
+      "bbox": {
+        "minLon": -82.85074,
+        "minLat": 26.945255,
+        "maxLon": -82.056497,
+        "maxLat": 27.391389
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90975",
+          "name": "Englewood",
+          "bbox": {
+            "minLon": -82.62721,
+            "minLat": 26.945255,
+            "maxLon": -82.255183,
+            "maxLat": 27.060717
+          }
+        },
+        {
+          "COUSUBFP": "93484",
+          "name": "Venice",
+          "bbox": {
+            "minLon": -82.518799,
+            "minLat": 27.011481,
+            "maxLon": -82.291353,
+            "maxLat": 27.137446
+          }
+        },
+        {
+          "COUSUBFP": "91599",
+          "name": "Interior County",
+          "bbox": {
+            "minLon": -82.449001,
+            "minLat": 27.053301,
+            "maxLon": -82.056497,
+            "maxLat": 27.388608
+          }
+        },
+        {
+          "COUSUBFP": "93107",
+          "name": "Sarasota",
+          "bbox": {
+            "minLon": -82.7217,
+            "minLat": 27.155214,
+            "maxLon": -82.382417,
+            "maxLat": 27.389547
+          }
+        },
+        {
+          "COUSUBFP": "91963",
+          "name": "Longboat Key",
+          "bbox": {
+            "minLon": -82.85074,
+            "minLat": 27.21185,
+            "maxLon": -82.579274,
+            "maxLat": 27.391389
+          }
+        },
+        {
+          "COUSUBFP": "92542",
+          "name": "Osprey-Laurel-Nokomis",
+          "bbox": {
+            "minLon": -82.71902,
+            "minLat": 27.060645,
+            "maxLon": -82.410465,
+            "maxLat": 27.218317
+          }
+        },
+        {
+          "COUSUBFP": "92431",
+          "name": "North Port",
+          "bbox": {
+            "minLon": -82.293708,
+            "minLat": 27.026081,
+            "maxLon": -82.057506,
+            "maxLat": 27.12187
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Suwannee": {
+      "COUNTYFP": "121",
+      "name": "Suwannee",
+      "bbox": {
+        "minLon": -83.253236,
+        "minLat": 29.882334,
+        "maxLon": -82.758583,
+        "maxLat": 30.442871
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91950",
+          "name": "Live Oak",
+          "bbox": {
+            "minLon": -83.175622,
+            "minLat": 30.18809,
+            "maxLon": -82.794594,
+            "maxLat": 30.442871
+          }
+        },
+        {
+          "COUSUBFP": "90299",
+          "name": "Branford",
+          "bbox": {
+            "minLon": -83.063031,
+            "minLat": 29.882334,
+            "maxLon": -82.758583,
+            "maxLat": 30.08816
+          }
+        },
+        {
+          "COUSUBFP": "92002",
+          "name": "McAlpin-Wellborn",
+          "bbox": {
+            "minLon": -83.06381,
+            "minLat": 30.07162,
+            "maxLon": -82.7944,
+            "maxLat": 30.3202
+          }
+        },
+        {
+          "COUSUBFP": "90858",
+          "name": "Dowling Park",
+          "bbox": {
+            "minLon": -83.253236,
+            "minLat": 30.063683,
+            "maxLon": -83.04702,
+            "maxLat": 30.384455
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Taylor": {
+      "COUNTYFP": "123",
+      "name": "Taylor",
+      "bbox": {
+        "minLon": -83.999955,
+        "minLat": 29.527003,
+        "maxLon": -83.318859,
+        "maxLat": 30.30439
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92704",
+          "name": "Perry North",
+          "bbox": {
+            "minLon": -83.999955,
+            "minLat": 29.82337,
+            "maxLon": -83.36676,
+            "maxLat": 30.30439
+          }
+        },
+        {
+          "COUSUBFP": "92717",
+          "name": "Perry South",
+          "bbox": {
+            "minLon": -83.86601,
+            "minLat": 29.527003,
+            "maxLon": -83.318859,
+            "maxLat": 30.131914
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Union": {
+      "COUNTYFP": "125",
+      "name": "Union",
+      "bbox": {
+        "minLon": -82.576143,
+        "minLat": 29.919923,
+        "maxLon": -82.137858,
+        "maxLat": 30.143117
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91807",
+          "name": "Lake Butler",
+          "bbox": {
+            "minLon": -82.539781,
+            "minLat": 29.933254,
+            "maxLon": -82.273999,
+            "maxLat": 30.141734
+          }
+        },
+        {
+          "COUSUBFP": "93731",
+          "name": "Worthington Springs",
+          "bbox": {
+            "minLon": -82.576143,
+            "minLat": 29.919923,
+            "maxLon": -82.361557,
+            "maxLat": 30.058003
+          }
+        },
+        {
+          "COUSUBFP": "92925",
+          "name": "Raiford",
+          "bbox": {
+            "minLon": -82.322809,
+            "minLat": 29.998323,
+            "maxLon": -82.137858,
+            "maxLat": 30.143117
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Clay": {
+      "COUNTYFP": "019",
+      "name": "Clay",
+      "bbox": {
+        "minLon": -82.049442,
+        "minLat": 29.71867,
+        "maxLon": -81.581207,
+        "maxLat": 30.193466
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91300",
+          "name": "Green Cove Springs",
+          "bbox": {
+            "minLon": -81.797232,
+            "minLat": 29.836649,
+            "maxLon": -81.581207,
+            "maxLat": 30.080898
+          }
+        },
+        {
+          "COUSUBFP": "92678",
+          "name": "Penney Farms",
+          "bbox": {
+            "minLon": -81.877162,
+            "minLat": 29.910879,
+            "maxLon": -81.724197,
+            "maxLat": 30.082659
+          }
+        },
+        {
+          "COUSUBFP": "91742",
+          "name": "Keystone Heights",
+          "bbox": {
+            "minLon": -82.049244,
+            "minLat": 29.71867,
+            "maxLon": -81.791392,
+            "maxLat": 30.055904
+          }
+        },
+        {
+          "COUSUBFP": "92197",
+          "name": "Middleburg-Clay Hill",
+          "bbox": {
+            "minLon": -82.049442,
+            "minLat": 30.027234,
+            "maxLon": -81.774165,
+            "maxLat": 30.189141
+          }
+        },
+        {
+          "COUSUBFP": "92509",
+          "name": "Orange Park",
+          "bbox": {
+            "minLon": -81.809709,
+            "minLat": 30.041363,
+            "maxLon": -81.679626,
+            "maxLat": 30.193466
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Madison": {
+      "COUNTYFP": "079",
+      "name": "Madison",
+      "bbox": {
+        "minLon": -83.821913,
+        "minLat": 30.26011,
+        "maxLon": -83.170969,
+        "maxLat": 30.651258
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91326",
+          "name": "Greenville",
+          "bbox": {
+            "minLon": -83.821913,
+            "minLat": 30.303476,
+            "maxLon": -83.43503,
+            "maxLat": 30.651258
+          }
+        },
+        {
+          "COUSUBFP": "92015",
+          "name": "Madison",
+          "bbox": {
+            "minLon": -83.586689,
+            "minLat": 30.26011,
+            "maxLon": -83.170969,
+            "maxLat": 30.647536
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Osceola": {
+      "COUNTYFP": "097",
+      "name": "Osceola",
+      "bbox": {
+        "minLon": -81.657268,
+        "minLat": 27.64199,
+        "maxLon": -80.861395,
+        "maxLat": 28.348584
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93146",
+          "name": "South and East Osceola",
+          "bbox": {
+            "minLon": -81.460171,
+            "minLat": 27.64199,
+            "maxLon": -80.861395,
+            "maxLat": 28.348584
+          }
+        },
+        {
+          "COUSUBFP": "93029",
+          "name": "St. Cloud",
+          "bbox": {
+            "minLon": -81.398563,
+            "minLat": 28.071458,
+            "maxLon": -81.154734,
+            "maxLat": 28.348182
+          }
+        },
+        {
+          "COUSUBFP": "91768",
+          "name": "Kissimmee",
+          "bbox": {
+            "minLon": -81.657268,
+            "minLat": 28.080857,
+            "maxLon": -81.341699,
+            "maxLat": 28.347977
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Marion": {
+      "COUNTYFP": "083",
+      "name": "Marion",
+      "bbox": {
+        "minLon": -82.535916,
+        "minLat": 28.959778,
+        "maxLon": -81.638696,
+        "maxLat": 29.521678
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90897",
+          "name": "East Marion",
+          "bbox": {
+            "minLon": -81.995223,
+            "minLat": 28.960068,
+            "maxLon": -81.638696,
+            "maxLat": 29.521678
+          }
+        },
+        {
+          "COUSUBFP": "92483",
+          "name": "Ocala",
+          "bbox": {
+            "minLon": -82.255211,
+            "minLat": 29.050071,
+            "maxLon": -81.885294,
+            "maxLat": 29.303579
+          }
+        },
+        {
+          "COUSUBFP": "90871",
+          "name": "Dunnellon",
+          "bbox": {
+            "minLon": -82.535916,
+            "minLat": 28.988672,
+            "maxLon": -82.283508,
+            "maxLat": 29.21523
+          }
+        },
+        {
+          "COUSUBFP": "91105",
+          "name": "Fort McCoy-Anthony",
+          "bbox": {
+            "minLon": -82.219137,
+            "minLat": 29.24151,
+            "maxLon": -81.884334,
+            "maxLat": 29.516473
+          }
+        },
+        {
+          "COUSUBFP": "92951",
+          "name": "Reddick-McIntosh",
+          "bbox": {
+            "minLon": -82.406944,
+            "minLat": 29.266901,
+            "maxLon": -82.102226,
+            "maxLat": 29.485048
+          }
+        },
+        {
+          "COUSUBFP": "90156",
+          "name": "Belleview",
+          "bbox": {
+            "minLon": -82.349612,
+            "minLat": 28.959778,
+            "maxLon": -81.835672,
+            "maxLat": 29.149869
+          }
+        },
+        {
+          "COUSUBFP": "91053",
+          "name": "Fellowship",
+          "bbox": {
+            "minLon": -82.448284,
+            "minLat": 29.053482,
+            "maxLon": -82.234965,
+            "maxLat": 29.283155
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Jackson": {
+      "COUNTYFP": "063",
+      "name": "Jackson",
+      "bbox": {
+        "minLon": -85.600291,
+        "minLat": 30.564336,
+        "maxLon": -84.857921,
+        "maxLat": 31.000968
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90650",
+          "name": "Cottondale",
+          "bbox": {
+            "minLon": -85.482718,
+            "minLat": 30.701138,
+            "maxLon": -85.2926,
+            "maxLat": 30.907066
+          }
+        },
+        {
+          "COUSUBFP": "91339",
+          "name": "Greenwood",
+          "bbox": {
+            "minLon": -85.296549,
+            "minLat": 30.791854,
+            "maxLon": -84.925665,
+            "maxLat": 30.977353
+          }
+        },
+        {
+          "COUSUBFP": "90377",
+          "name": "Campbellton",
+          "bbox": {
+            "minLon": -85.464674,
+            "minLat": 30.802951,
+            "maxLon": -85.250598,
+            "maxLat": 30.99934
+          }
+        },
+        {
+          "COUSUBFP": "92041",
+          "name": "Malone",
+          "bbox": {
+            "minLon": -85.328917,
+            "minLat": 30.89899,
+            "maxLon": -85.001819,
+            "maxLat": 31.000968
+          }
+        },
+        {
+          "COUSUBFP": "90013",
+          "name": "Alford",
+          "bbox": {
+            "minLon": -85.435189,
+            "minLat": 30.564336,
+            "maxLon": -85.164185,
+            "maxLat": 30.748655
+          }
+        },
+        {
+          "COUSUBFP": "90728",
+          "name": "Cypress",
+          "bbox": {
+            "minLon": -85.206566,
+            "minLat": 30.6061,
+            "maxLon": -84.972832,
+            "maxLat": 30.804564
+          }
+        },
+        {
+          "COUSUBFP": "91287",
+          "name": "Graceville",
+          "bbox": {
+            "minLon": -85.600291,
+            "minLat": 30.829415,
+            "maxLon": -85.381747,
+            "maxLat": 30.998656
+          }
+        },
+        {
+          "COUSUBFP": "92067",
+          "name": "Marianna",
+          "bbox": {
+            "minLon": -85.340105,
+            "minLat": 30.657575,
+            "maxLon": -85.106506,
+            "maxLat": 30.866422
+          }
+        },
+        {
+          "COUSUBFP": "93133",
+          "name": "Sneads",
+          "bbox": {
+            "minLon": -85.033833,
+            "minLat": 30.605693,
+            "maxLon": -84.857921,
+            "maxLat": 30.80438
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Alachua": {
+      "COUNTYFP": "001",
+      "name": "Alachua",
+      "bbox": {
+        "minLon": -82.658554,
+        "minLat": 29.417057,
+        "maxLon": -82.049052,
+        "maxLat": 29.945254
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91469",
+          "name": "Hawthorne",
+          "bbox": {
+            "minLon": -82.257751,
+            "minLat": 29.418664,
+            "maxLon": -82.050291,
+            "maxLat": 29.716923
+          }
+        },
+        {
+          "COUSUBFP": "92184",
+          "name": "Micanopy",
+          "bbox": {
+            "minLon": -82.412932,
+            "minLat": 29.417057,
+            "maxLon": -82.108232,
+            "maxLat": 29.629879
+          }
+        },
+        {
+          "COUSUBFP": "93536",
+          "name": "Waldo",
+          "bbox": {
+            "minLon": -82.384755,
+            "minLat": 29.68786,
+            "maxLon": -82.049052,
+            "maxLat": 29.881495
+          }
+        },
+        {
+          "COUSUBFP": "91248",
+          "name": "Gainesville",
+          "bbox": {
+            "minLon": -82.496069,
+            "minLat": 29.566307,
+            "maxLon": -82.22485,
+            "maxLat": 29.71832
+          }
+        },
+        {
+          "COUSUBFP": "92314",
+          "name": "Newberry-Archer",
+          "bbox": {
+            "minLon": -82.657043,
+            "minLat": 29.478371,
+            "maxLon": -82.390908,
+            "maxLat": 29.728658
+          }
+        },
+        {
+          "COUSUBFP": "91495",
+          "name": "High Springs-Alachua",
+          "bbox": {
+            "minLon": -82.658554,
+            "minLat": 29.688713,
+            "maxLon": -82.353433,
+            "maxLat": 29.945254
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Hardee": {
+      "COUNTYFP": "049",
+      "name": "Hardee",
+      "bbox": {
+        "minLon": -82.055753,
+        "minLat": 27.336709,
+        "maxLon": -81.56346,
+        "maxLat": 27.646645
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93783",
+          "name": "Zolfo Springs",
+          "bbox": {
+            "minLon": -81.853599,
+            "minLat": 27.340122,
+            "maxLon": -81.56346,
+            "maxLat": 27.646645
+          }
+        },
+        {
+          "COUSUBFP": "93549",
+          "name": "Wauchula",
+          "bbox": {
+            "minLon": -82.055753,
+            "minLat": 27.336709,
+            "maxLon": -81.789693,
+            "maxLat": 27.620496
+          }
+        },
+        {
+          "COUSUBFP": "90247",
+          "name": "Bowling Green",
+          "bbox": {
+            "minLon": -82.05451,
+            "minLat": 27.574034,
+            "maxLon": -81.727907,
+            "maxLat": 27.646521
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Nassau": {
+      "COUNTYFP": "089",
+      "name": "Nassau",
+      "bbox": {
+        "minLon": -82.050331,
+        "minLat": 30.273337,
+        "maxLon": -81.346358,
+        "maxLat": 30.829924
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93757",
+          "name": "Yulee",
+          "bbox": {
+            "minLon": -81.811742,
+            "minLat": 30.523889,
+            "maxLon": -81.458952,
+            "maxLat": 30.754402
+          }
+        },
+        {
+          "COUSUBFP": "90364",
+          "name": "Callahan-Hilliard",
+          "bbox": {
+            "minLon": -82.050331,
+            "minLat": 30.273337,
+            "maxLon": -81.655915,
+            "maxLat": 30.829924
+          }
+        },
+        {
+          "COUSUBFP": "91079",
+          "name": "Fernandina Beach",
+          "bbox": {
+            "minLon": -81.489398,
+            "minLat": 30.501504,
+            "maxLon": -81.346358,
+            "maxLat": 30.712444
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Washington": {
+      "COUNTYFP": "133",
+      "name": "Washington",
+      "bbox": {
+        "minLon": -85.99369,
+        "minLat": 30.38932,
+        "maxLon": -85.43226,
+        "maxLat": 30.830552
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90546",
+          "name": "Chipley",
+          "bbox": {
+            "minLon": -85.646698,
+            "minLat": 30.676748,
+            "maxLon": -85.43226,
+            "maxLat": 30.830552
+          }
+        },
+        {
+          "COUSUBFP": "93497",
+          "name": "Vernon",
+          "bbox": {
+            "minLon": -85.99369,
+            "minLat": 30.38932,
+            "maxLon": -85.432661,
+            "maxLat": 30.732527
+          }
+        },
+        {
+          "COUSUBFP": "90442",
+          "name": "Caryville",
+          "bbox": {
+            "minLon": -85.91598,
+            "minLat": 30.497312,
+            "maxLon": -85.617197,
+            "maxLat": 30.790775
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Santa Rosa": {
+      "COUNTYFP": "113",
+      "name": "Santa Rosa",
+      "bbox": {
+        "minLon": -87.313908,
+        "minLat": 30.217637,
+        "maxLon": -86.785692,
+        "maxLat": 30.999547
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92269",
+          "name": "Munson",
+          "bbox": {
+            "minLon": -87.024758,
+            "minLat": 30.67275,
+            "maxLon": -86.785692,
+            "maxLat": 30.997757
+          }
+        },
+        {
+          "COUSUBFP": "90085",
+          "name": "Avalon-Mulat",
+          "bbox": {
+            "minLon": -87.189888,
+            "minLat": 30.387046,
+            "maxLon": -87.058924,
+            "maxLat": 30.602465
+          }
+        },
+        {
+          "COUSUBFP": "90020",
+          "name": "Allentown",
+          "bbox": {
+            "minLon": -87.31282,
+            "minLat": 30.717487,
+            "maxLon": -86.980212,
+            "maxLat": 30.85764
+          }
+        },
+        {
+          "COUSUBFP": "90903",
+          "name": "East Milton",
+          "bbox": {
+            "minLon": -87.035511,
+            "minLat": 30.545376,
+            "maxLon": -86.861334,
+            "maxLat": 30.688644
+          }
+        },
+        {
+          "COUSUBFP": "93127",
+          "name": "Skyline",
+          "bbox": {
+            "minLon": -87.150464,
+            "minLat": 30.610341,
+            "maxLon": -86.960335,
+            "maxLat": 30.734096
+          }
+        },
+        {
+          "COUSUBFP": "92218",
+          "name": "Midway",
+          "bbox": {
+            "minLon": -87.138175,
+            "minLat": 30.351964,
+            "maxLon": -86.945359,
+            "maxLat": 30.468579
+          }
+        },
+        {
+          "COUSUBFP": "90097",
+          "name": "Bagdad",
+          "bbox": {
+            "minLon": -87.092789,
+            "minLat": 30.414731,
+            "maxLon": -87.000759,
+            "maxLat": 30.607429
+          }
+        },
+        {
+          "COUSUBFP": "90162",
+          "name": "Berrydale",
+          "bbox": {
+            "minLon": -87.110715,
+            "minLat": 30.780388,
+            "maxLon": -86.906258,
+            "maxLat": 30.999547
+          }
+        },
+        {
+          "COUSUBFP": "90964",
+          "name": "Eglin AFB",
+          "bbox": {
+            "minLon": -86.983025,
+            "minLat": 30.428254,
+            "maxLon": -86.793582,
+            "maxLat": 30.636738
+          }
+        },
+        {
+          "COUSUBFP": "91500",
+          "name": "Holley-Navarre",
+          "bbox": {
+            "minLon": -87.029176,
+            "minLat": 30.383222,
+            "maxLon": -86.798926,
+            "maxLat": 30.551368
+          }
+        },
+        {
+          "COUSUBFP": "92309",
+          "name": "Navarre Beach",
+          "bbox": {
+            "minLon": -86.918937,
+            "minLat": 30.217637,
+            "maxLon": -86.799162,
+            "maxLat": 30.406186
+          }
+        },
+        {
+          "COUSUBFP": "91436",
+          "name": "Harold",
+          "bbox": {
+            "minLon": -86.928005,
+            "minLat": 30.60867,
+            "maxLon": -86.791841,
+            "maxLat": 30.724484
+          }
+        },
+        {
+          "COUSUBFP": "92223",
+          "name": "Milton",
+          "bbox": {
+            "minLon": -87.077279,
+            "minLat": 30.602159,
+            "maxLon": -87.02558,
+            "maxLat": 30.656651
+          }
+        },
+        {
+          "COUSUBFP": "91664",
+          "name": "Jay",
+          "bbox": {
+            "minLon": -87.313908,
+            "minLat": 30.82735,
+            "maxLon": -87.05574,
+            "maxLat": 30.999532
+          }
+        },
+        {
+          "COUSUBFP": "92561",
+          "name": "Pace",
+          "bbox": {
+            "minLon": -87.28246,
+            "minLat": 30.5488,
+            "maxLon": -87.07182,
+            "maxLat": 30.731276
+          }
+        },
+        {
+          "COUSUBFP": "91376",
+          "name": "Gulf Breeze",
+          "bbox": {
+            "minLon": -87.233284,
+            "minLat": 30.33593,
+            "maxLon": -87.113927,
+            "maxLat": 30.418997
+          }
+        },
+        {
+          "COUSUBFP": "93659",
+          "name": "Whiting Field",
+          "bbox": {
+            "minLon": -87.043495,
+            "minLat": 30.678365,
+            "maxLon": -86.993273,
+            "maxLat": 30.744267
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Brevard": {
+      "COUNTYFP": "009",
+      "name": "Brevard",
+      "bbox": {
+        "minLon": -80.98725,
+        "minLat": 27.822058,
+        "maxLon": -80.385069,
+        "maxLat": 28.791396
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90624",
+          "name": "Cocoa-Rockledge",
+          "bbox": {
+            "minLon": -80.901272,
+            "minLat": 28.227673,
+            "maxLon": -80.663476,
+            "maxLat": 28.491179
+          }
+        },
+        {
+          "COUSUBFP": "92587",
+          "name": "Palm Bay",
+          "bbox": {
+            "minLon": -80.745485,
+            "minLat": 27.910146,
+            "maxLon": -80.55279,
+            "maxLat": 28.063832
+          }
+        },
+        {
+          "COUSUBFP": "93588",
+          "name": "West Brevard",
+          "bbox": {
+            "minLon": -80.870135,
+            "minLat": 27.82235,
+            "maxLon": -80.60711,
+            "maxLat": 28.246701
+          }
+        },
+        {
+          "COUSUBFP": "91573",
+          "name": "Indialantic-Melbourne Beach",
+          "bbox": {
+            "minLon": -80.648975,
+            "minLat": 28.041851,
+            "maxLon": -80.481577,
+            "maxLat": 28.271992
+          }
+        },
+        {
+          "COUSUBFP": "93419",
+          "name": "Titusville",
+          "bbox": {
+            "minLon": -80.98725,
+            "minLat": 28.452015,
+            "maxLon": -80.757576,
+            "maxLat": 28.791279
+          }
+        },
+        {
+          "COUSUBFP": "90611",
+          "name": "Cocoa Beach-Cape Canaveral",
+          "bbox": {
+            "minLon": -80.650575,
+            "minLat": 28.271787,
+            "maxLon": -80.499771,
+            "maxLat": 28.409906
+          }
+        },
+        {
+          "COUSUBFP": "92028",
+          "name": "Malabar",
+          "bbox": {
+            "minLon": -80.623185,
+            "minLat": 27.822058,
+            "maxLon": -80.478642,
+            "maxLat": 28.012794
+          }
+        },
+        {
+          "COUSUBFP": "92106",
+          "name": "Melbourne",
+          "bbox": {
+            "minLon": -80.718375,
+            "minLat": 28.03507,
+            "maxLon": -80.581876,
+            "maxLat": 28.232189
+          }
+        },
+        {
+          "COUSUBFP": "92119",
+          "name": "Melbourne Shores-Floridana Beach",
+          "bbox": {
+            "minLon": -80.569098,
+            "minLat": 27.854615,
+            "maxLon": -80.385069,
+            "maxLat": 28.042051
+          }
+        },
+        {
+          "COUSUBFP": "92132",
+          "name": "Merritt Island",
+          "bbox": {
+            "minLon": -80.757899,
+            "minLat": 28.132679,
+            "maxLon": -80.602575,
+            "maxLat": 28.515553
+          }
+        },
+        {
+          "COUSUBFP": "93224",
+          "name": "Space Center",
+          "bbox": {
+            "minLon": -80.842922,
+            "minLat": 28.409111,
+            "maxLon": -80.468605,
+            "maxLat": 28.791396
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Liberty": {
+      "COUNTYFP": "077",
+      "name": "Liberty",
+      "bbox": {
+        "minLon": -85.154015,
+        "minLat": 29.971399,
+        "maxLon": -84.542873,
+        "maxLat": 30.606393
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93601",
+          "name": "West Liberty",
+          "bbox": {
+            "minLon": -85.154015,
+            "minLat": 29.971399,
+            "maxLon": -84.781787,
+            "maxLat": 30.606393
+          }
+        },
+        {
+          "COUSUBFP": "90884",
+          "name": "East Liberty",
+          "bbox": {
+            "minLon": -84.989416,
+            "minLat": 30.010783,
+            "maxLon": -84.542873,
+            "maxLat": 30.517088
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Indian River": {
+      "COUNTYFP": "061",
+      "name": "Indian River",
+      "bbox": {
+        "minLon": -80.881566,
+        "minLat": 27.556737,
+        "maxLon": -80.263543,
+        "maxLat": 27.861362
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91066",
+          "name": "Fellsmere",
+          "bbox": {
+            "minLon": -80.881566,
+            "minLat": 27.558098,
+            "maxLon": -80.44727,
+            "maxLat": 27.823673
+          }
+        },
+        {
+          "COUSUBFP": "93510",
+          "name": "Vero Beach",
+          "bbox": {
+            "minLon": -80.51125,
+            "minLat": 27.556737,
+            "maxLon": -80.263543,
+            "maxLat": 27.861362
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Gadsden": {
+      "COUNTYFP": "039",
+      "name": "Gadsden",
+      "bbox": {
+        "minLon": -84.932519,
+        "minLat": 30.387797,
+        "maxLon": -84.282559,
+        "maxLat": 30.711542
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90520",
+          "name": "Chattahoochee",
+          "bbox": {
+            "minLon": -84.932519,
+            "minLat": 30.5791,
+            "maxLon": -84.725161,
+            "maxLat": 30.711542
+          }
+        },
+        {
+          "COUSUBFP": "92912",
+          "name": "Quincy",
+          "bbox": {
+            "minLon": -84.741423,
+            "minLat": 30.387797,
+            "maxLon": -84.485123,
+            "maxLat": 30.705505
+          }
+        },
+        {
+          "COUSUBFP": "91313",
+          "name": "Greensboro",
+          "bbox": {
+            "minLon": -84.883318,
+            "minLat": 30.459794,
+            "maxLon": -84.66942,
+            "maxLat": 30.59728
+          }
+        },
+        {
+          "COUSUBFP": "91456",
+          "name": "Havana",
+          "bbox": {
+            "minLon": -84.540169,
+            "minLat": 30.439802,
+            "maxLon": -84.282559,
+            "maxLat": 30.696028
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Gulf": {
+      "COUNTYFP": "045",
+      "name": "Gulf",
+      "bbox": {
+        "minLon": -85.440336,
+        "minLat": 29.497065,
+        "maxLon": -85.017939,
+        "maxLat": 30.201385
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93640",
+          "name": "Wewahitchka",
+          "bbox": {
+            "minLon": -85.391296,
+            "minLat": 29.879942,
+            "maxLon": -85.017939,
+            "maxLat": 30.201385
+          }
+        },
+        {
+          "COUSUBFP": "92863",
+          "name": "Port St. Joe",
+          "bbox": {
+            "minLon": -85.440336,
+            "minLat": 29.497065,
+            "maxLon": -85.019417,
+            "maxLat": 30.027635
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Leon": {
+      "COUNTYFP": "073",
+      "name": "Leon",
+      "bbox": {
+        "minLon": -84.715359,
+        "minLat": 30.273438,
+        "maxLon": -83.977165,
+        "maxLat": 30.685334
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90878",
+          "name": "East Leon",
+          "bbox": {
+            "minLon": -84.236677,
+            "minLat": 30.408169,
+            "maxLon": -83.977165,
+            "maxLat": 30.675455
+          }
+        },
+        {
+          "COUSUBFP": "93152",
+          "name": "Southeast Leon",
+          "bbox": {
+            "minLon": -84.34642,
+            "minLat": 30.273438,
+            "maxLon": -84.074891,
+            "maxLat": 30.422974
+          }
+        },
+        {
+          "COUSUBFP": "93302",
+          "name": "Tallahassee East",
+          "bbox": {
+            "minLon": -84.262961,
+            "minLat": 30.410729,
+            "maxLon": -84.226556,
+            "maxLat": 30.478172
+          }
+        },
+        {
+          "COUSUBFP": "93354",
+          "name": "Tallahassee Southwest",
+          "bbox": {
+            "minLon": -84.361135,
+            "minLat": 30.387538,
+            "maxLon": -84.302264,
+            "maxLat": 30.459422
+          }
+        },
+        {
+          "COUSUBFP": "93295",
+          "name": "Tallahassee Central",
+          "bbox": {
+            "minLon": -84.317165,
+            "minLat": 30.405352,
+            "maxLon": -84.248195,
+            "maxLat": 30.463752
+          }
+        },
+        {
+          "COUSUBFP": "92384",
+          "name": "Northeast Leon",
+          "bbox": {
+            "minLon": -84.384234,
+            "minLat": 30.478172,
+            "maxLon": -84.072739,
+            "maxLat": 30.685334
+          }
+        },
+        {
+          "COUSUBFP": "93315",
+          "name": "Tallahassee Northeast",
+          "bbox": {
+            "minLon": -84.308907,
+            "minLat": 30.456251,
+            "maxLon": -84.236677,
+            "maxLat": 30.501786
+          }
+        },
+        {
+          "COUSUBFP": "93190",
+          "name": "Southwest Leon",
+          "bbox": {
+            "minLon": -84.715359,
+            "minLat": 30.300116,
+            "maxLon": -84.292528,
+            "maxLat": 30.485008
+          }
+        },
+        {
+          "COUSUBFP": "92463",
+          "name": "Northwest Leon",
+          "bbox": {
+            "minLon": -84.405043,
+            "minLat": 30.478121,
+            "maxLon": -84.277254,
+            "maxLat": 30.553827
+          }
+        },
+        {
+          "COUSUBFP": "93328",
+          "name": "Tallahassee Northwest",
+          "bbox": {
+            "minLon": -84.363255,
+            "minLat": 30.445872,
+            "maxLon": -84.28243,
+            "maxLat": 30.482542
+          }
+        },
+        {
+          "COUSUBFP": "93335",
+          "name": "Tallahassee South",
+          "bbox": {
+            "minLon": -84.313294,
+            "minLat": 30.37569,
+            "maxLon": -84.235045,
+            "maxLat": 30.41264
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Hillsborough": {
+      "COUNTYFP": "057",
+      "name": "Hillsborough",
+      "bbox": {
+        "minLon": -82.935149,
+        "minLat": 27.53075,
+        "maxLon": -82.054012,
+        "maxLat": 28.173379
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91735",
+          "name": "Keystone-Citrus Park",
+          "bbox": {
+            "minLon": -82.651165,
+            "minLat": 28.036326,
+            "maxLon": -82.474026,
+            "maxLat": 28.173379
+          }
+        },
+        {
+          "COUSUBFP": "92769",
+          "name": "Plant City",
+          "bbox": {
+            "minLon": -82.249354,
+            "minLat": 27.866483,
+            "maxLon": -82.054866,
+            "maxLat": 28.172149
+          }
+        },
+        {
+          "COUSUBFP": "93003",
+          "name": "Ruskin",
+          "bbox": {
+            "minLon": -82.935149,
+            "minLat": 27.53075,
+            "maxLon": -82.3349,
+            "maxLat": 27.793358
+          }
+        },
+        {
+          "COUSUBFP": "90286",
+          "name": "Brandon",
+          "bbox": {
+            "minLon": -82.369813,
+            "minLat": 27.872617,
+            "maxLon": -82.170434,
+            "maxLat": 28.024872
+          }
+        },
+        {
+          "COUSUBFP": "93367",
+          "name": "Tampa",
+          "bbox": {
+            "minLon": -82.64882,
+            "minLat": 27.812649,
+            "maxLon": -82.21196,
+            "maxLat": 28.171935
+          }
+        },
+        {
+          "COUSUBFP": "93693",
+          "name": "Wimauma-Riverview",
+          "bbox": {
+            "minLon": -82.384884,
+            "minLat": 27.646028,
+            "maxLon": -82.054012,
+            "maxLat": 27.90346
+          }
+        },
+        {
+          "COUSUBFP": "92614",
+          "name": "Palm River-Gibsonton",
+          "bbox": {
+            "minLon": -82.564946,
+            "minLat": 27.791722,
+            "maxLon": -82.326613,
+            "maxLat": 27.952388
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Charlotte": {
+      "COUNTYFP": "015",
+      "name": "Charlotte",
+      "bbox": {
+        "minLon": -82.565858,
+        "minLat": 26.769564,
+        "maxLon": -81.562531,
+        "maxLat": 27.03525
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "92899",
+          "name": "Punta Gorda",
+          "bbox": {
+            "minLon": -82.117879,
+            "minLat": 26.769564,
+            "maxLon": -81.562531,
+            "maxLat": 27.03525
+          }
+        },
+        {
+          "COUSUBFP": "91352",
+          "name": "Grove City-Rotonda",
+          "bbox": {
+            "minLon": -82.565858,
+            "minLat": 26.770528,
+            "maxLon": -82.100587,
+            "maxLat": 27.000336
+          }
+        },
+        {
+          "COUSUBFP": "92834",
+          "name": "Port Charlotte",
+          "bbox": {
+            "minLon": -82.255331,
+            "minLat": 26.902923,
+            "maxLon": -81.983632,
+            "maxLat": 27.03302
+          }
+        }
+      ]
+    }
+  }
+]

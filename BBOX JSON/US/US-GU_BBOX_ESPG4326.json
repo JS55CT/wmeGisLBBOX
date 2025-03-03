@@ -1,0 +1,216 @@
+[
+  {
+    "Guam": {
+      "COUNTYFP": "010",
+      "name": "Guam",
+      "bbox": {
+        "minLon": 144.563426,
+        "minLat": 13.182335,
+        "maxLon": 145.009167,
+        "maxLat": 13.706179
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "26100",
+          "name": "Chalan Pago-Ordot",
+          "bbox": {
+            "minLon": 144.740387,
+            "minLat": 13.420031,
+            "maxLon": 144.792782,
+            "maxLat": 13.46197
+          }
+        },
+        {
+          "COUSUBFP": "62828",
+          "name": "S\u00c3\u00a5nta Rita-Sumai",
+          "bbox": {
+            "minLon": 144.618059,
+            "minLat": 13.351848,
+            "maxLon": 144.72226,
+            "maxLat": 13.454684
+          }
+        },
+        {
+          "COUSUBFP": "65750",
+          "name": "Sinajana",
+          "bbox": {
+            "minLon": 144.751981,
+            "minLat": 13.451748,
+            "maxLon": 144.77259,
+            "maxLat": 13.46751
+          }
+        },
+        {
+          "COUSUBFP": "84600",
+          "name": "Yona",
+          "bbox": {
+            "minLon": 144.699612,
+            "minLat": 13.36566,
+            "maxLon": 144.788905,
+            "maxLat": 13.444472
+          }
+        },
+        {
+          "COUSUBFP": "34800",
+          "name": "Hag\u00c3\u00a5t\u00c3\u00b1a",
+          "bbox": {
+            "minLon": 144.72841,
+            "minLat": 13.46363,
+            "maxLon": 144.767597,
+            "maxLat": 13.482254
+          }
+        },
+        {
+          "COUSUBFP": "46250",
+          "name": "Mangilao",
+          "bbox": {
+            "minLon": 144.781322,
+            "minLat": 13.426356,
+            "maxLon": 144.870955,
+            "maxLat": 13.499692
+          }
+        },
+        {
+          "COUSUBFP": "44403",
+          "name": "Malesso'",
+          "bbox": {
+            "minLon": 144.643169,
+            "minLat": 13.23376,
+            "maxLon": 144.719081,
+            "maxLat": 13.286833
+          }
+        },
+        {
+          "COUSUBFP": "51450",
+          "name": "Mongmong-Toto-Maite",
+          "bbox": {
+            "minLon": 144.758371,
+            "minLat": 13.46027,
+            "maxLon": 144.785783,
+            "maxLat": 13.482063
+          }
+        },
+        {
+          "COUSUBFP": "59250",
+          "name": "Piti",
+          "bbox": {
+            "minLon": 144.623961,
+            "minLat": 13.410432,
+            "maxLon": 144.710897,
+            "maxLat": 13.471702
+          }
+        },
+        {
+          "COUSUBFP": "71600",
+          "name": "Tamuning",
+          "bbox": {
+            "minLon": 144.767587,
+            "minLat": 13.479396,
+            "maxLon": 144.8213,
+            "maxLat": 13.544114
+          }
+        },
+        {
+          "COUSUBFP": "35528",
+          "name": "Hum\u00c3\u00a5tak",
+          "bbox": {
+            "minLon": 144.635422,
+            "minLat": 13.27886,
+            "maxLon": 144.692762,
+            "maxLat": 13.341373
+          }
+        },
+        {
+          "COUSUBFP": "83300",
+          "name": "Yigo",
+          "bbox": {
+            "minLon": 144.859769,
+            "minLat": 13.485951,
+            "maxLon": 144.956894,
+            "maxLat": 13.654384
+          }
+        },
+        {
+          "COUSUBFP": "00000",
+          "name": "County subdivision not defined",
+          "bbox": {
+            "minLon": 144.563426,
+            "minLat": 13.182335,
+            "maxLon": 145.009167,
+            "maxLat": 13.706179
+          }
+        },
+        {
+          "COUSUBFP": "13100",
+          "name": "Asan",
+          "bbox": {
+            "minLon": 144.705198,
+            "minLat": 13.434954,
+            "maxLon": 144.74816,
+            "maxLat": 13.48054
+          }
+        },
+        {
+          "COUSUBFP": "69650",
+          "name": "Talo'fo'fo",
+          "bbox": {
+            "minLon": 144.671535,
+            "minLat": 13.2995,
+            "maxLon": 144.772676,
+            "maxLat": 13.372182
+          }
+        },
+        {
+          "COUSUBFP": "35503",
+          "name": "Inal\u00c3\u00a5han",
+          "bbox": {
+            "minLon": 144.687485,
+            "minLat": 13.246023,
+            "maxLon": 144.7729,
+            "maxLat": 13.339361
+          }
+        },
+        {
+          "COUSUBFP": "04650",
+          "name": "Agana Heights",
+          "bbox": {
+            "minLon": 144.732181,
+            "minLat": 13.456034,
+            "maxLon": 144.752325,
+            "maxLat": 13.47617
+          }
+        },
+        {
+          "COUSUBFP": "17650",
+          "name": "Barrigada",
+          "bbox": {
+            "minLon": 144.779653,
+            "minLat": 13.45537,
+            "maxLon": 144.834717,
+            "maxLat": 13.501387
+          }
+        },
+        {
+          "COUSUBFP": "28050",
+          "name": "Dededo",
+          "bbox": {
+            "minLon": 144.808145,
+            "minLat": 13.497642,
+            "maxLon": 144.877836,
+            "maxLat": 13.654402
+          }
+        },
+        {
+          "COUSUBFP": "34653",
+          "name": "H\u00c3\u00a5gat",
+          "bbox": {
+            "minLon": 144.632,
+            "minLat": 13.329065,
+            "maxLon": 144.705163,
+            "maxLat": 13.402249
+          }
+        }
+      ]
+    }
+  }
+]

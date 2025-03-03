@@ -1,0 +1,232 @@
+[
+  {
+    "Manu'a": {
+      "COUNTYFP": "020",
+      "name": "Manu'a",
+      "bbox": {
+        "minLon": -169.725895,
+        "minLat": -14.317249,
+        "maxLon": -169.366862,
+        "maxLat": -14.105392
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "59300",
+          "name": "Ofu",
+          "bbox": {
+            "minLon": -169.725895,
+            "minLat": -14.233827,
+            "maxLon": -169.630488,
+            "maxLat": -14.108899
+          }
+        },
+        {
+          "COUSUBFP": "60900",
+          "name": "Olosega",
+          "bbox": {
+            "minLon": -169.63205,
+            "minLat": -14.237915,
+            "maxLon": -169.567625,
+            "maxLat": -14.105392
+          }
+        },
+        {
+          "COUSUBFP": "34500",
+          "name": "Fitiuta",
+          "bbox": {
+            "minLon": -169.494006,
+            "minLat": -14.311415,
+            "maxLon": -169.366862,
+            "maxLat": -14.16609
+          }
+        },
+        {
+          "COUSUBFP": "31300",
+          "name": "Faleasao",
+          "bbox": {
+            "minLon": -169.543378,
+            "minLat": -14.241665,
+            "maxLon": -169.47237,
+            "maxLat": -14.166052
+          }
+        },
+        {
+          "COUSUBFP": "78500",
+          "name": "Ta'u",
+          "bbox": {
+            "minLon": -169.5692,
+            "minLat": -14.317249,
+            "maxLon": -169.446034,
+            "maxLat": -14.120596
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Eastern": {
+      "COUNTYFP": "010",
+      "name": "Eastern",
+      "bbox": {
+        "minLon": -170.797156,
+        "minLat": -14.375776,
+        "maxLon": -170.490341,
+        "maxLat": -14.175545
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "37700",
+          "name": "Ituau",
+          "bbox": {
+            "minLon": -170.797156,
+            "minLat": -14.375776,
+            "maxLon": -170.65187,
+            "maxLat": -14.236581
+          }
+        },
+        {
+          "COUSUBFP": "51300",
+          "name": "Ma'oputasi",
+          "bbox": {
+            "minLon": -170.747496,
+            "minLat": -14.299364,
+            "maxLon": -170.653858,
+            "maxLat": -14.20498
+          }
+        },
+        {
+          "COUSUBFP": "67300",
+          "name": "Sa'ole",
+          "bbox": {
+            "minLon": -170.614778,
+            "minLat": -14.338046,
+            "maxLon": -170.53809,
+            "maxLat": -14.261875
+          }
+        },
+        {
+          "COUSUBFP": "72100",
+          "name": "Sua",
+          "bbox": {
+            "minLon": -170.673918,
+            "minLat": -14.356187,
+            "maxLon": -170.590132,
+            "maxLat": -14.198059
+          }
+        },
+        {
+          "COUSUBFP": "86500",
+          "name": "Vaifanua",
+          "bbox": {
+            "minLon": -170.706074,
+            "minLat": -14.336129,
+            "maxLon": -170.490341,
+            "maxLat": -14.175545
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Western": {
+      "COUNTYFP": "050",
+      "name": "Western",
+      "bbox": {
+        "minLon": -170.890348,
+        "minLat": -14.41995,
+        "maxLon": -170.666331,
+        "maxLat": -14.246314
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "80100",
+          "name": "Tualatai",
+          "bbox": {
+            "minLon": -170.794676,
+            "minLat": -14.419554,
+            "maxLon": -170.743587,
+            "maxLat": -14.338924
+          }
+        },
+        {
+          "COUSUBFP": "42500",
+          "name": "Lealataua",
+          "bbox": {
+            "minLon": -170.890348,
+            "minLat": -14.398945,
+            "maxLon": -170.761848,
+            "maxLat": -14.246314
+          }
+        },
+        {
+          "COUSUBFP": "43300",
+          "name": "Leasina",
+          "bbox": {
+            "minLon": -170.794637,
+            "minLat": -14.342149,
+            "maxLon": -170.73215,
+            "maxLat": -14.249491
+          }
+        },
+        {
+          "COUSUBFP": "80900",
+          "name": "Tualauta",
+          "bbox": {
+            "minLon": -170.762936,
+            "minLat": -14.41995,
+            "maxLon": -170.666331,
+            "maxLat": -14.297595
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Swains Island": {
+      "COUNTYFP": "040",
+      "name": "Swains Island",
+      "bbox": {
+        "minLon": -171.141907,
+        "minLat": -11.11013,
+        "maxLon": -171.011158,
+        "maxLat": -10.997203
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "73700",
+          "name": "Swains Island",
+          "bbox": {
+            "minLon": -171.141907,
+            "minLat": -11.11013,
+            "maxLon": -171.011158,
+            "maxLat": -10.997203
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Rose Island": {
+      "COUNTYFP": "030",
+      "name": "Rose Island",
+      "bbox": {
+        "minLon": -168.226,
+        "minLat": -14.601813,
+        "maxLon": -168.101612,
+        "maxLat": -14.477845
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "65700",
+          "name": "Rose Island",
+          "bbox": {
+            "minLon": -168.226,
+            "minLat": -14.601813,
+            "maxLon": -168.101612,
+            "maxLat": -14.477845
+          }
+        }
+      ]
+    }
+  }
+]

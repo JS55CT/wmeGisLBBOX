@@ -1,26 +1,23 @@
 {
   "US": {
+    "name": "United States of America",
     "2code": "US",
     "3code": "USA",
-    "Ncode": "840",
-    "name": "United States of America",
-    "bbox": {
-      "minLon": -179.231086,
-      "minLat": -14.601813,
-      "maxLon": 179.859681,
-      "maxLat": 71.439786
-    }
+    "bbox": [
+      { "minLon": -124.848974, "minLat": 24.396308, "maxLon": -66.93457, "maxLat": 49.384479 },
+      { "minLon": -179.231086, "minLat": 51.175092, "maxLon": 179.859681, "maxLat": 71.439786 },
+      { "minLon": -178.443593, "minLat": 18.86546, "maxLon": -154.755792, "maxLat": 28.517269 },
+      { "minLon": -171.141907, "minLat": -14.601813, "maxLon": -168.101612, "maxLat": -10.997203 },
+      { "minLon": 144.563426, "minLat": 13.182335, "maxLon": 145.009167, "maxLat": 13.706179 },
+      { "minLon": 144.813338, "minLat": 14.036565, "maxLon": 146.154418, "maxLat": 20.616556 },
+      { "minLon": -67.998751, "minLat": 17.831509, "maxLon": -65.168503, "maxLat": 18.568002 },
+      { "minLon": -65.154118, "minLat": 17.623468, "maxLon": -64.512674, "maxLat": 18.464984 }
+    ]
   },
   "CA": {
+    "name": "Canada",
     "2code": "CA",
     "3code": "CAN",
-    "Ncode": "124",
-    "name": "Canada",
-    "bbox": {
-      "minLon": -141.0,
-      "minLat": 41.675105,
-      "maxLon": -52.648099,
-      "maxLat": 83.23324
-    }
+    "bbox": [{ "minLon": -141.018073157628, "minLat": 41.6814354249861, "maxLon": -52.6194085038461, "maxLat": 83.1355025243594 }]
   }
 }

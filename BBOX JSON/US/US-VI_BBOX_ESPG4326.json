@@ -1,0 +1,274 @@
+[
+  {
+    "St. Thomas": {
+      "COUNTYFP": "030",
+      "name": "St. Thomas",
+      "bbox": {
+        "minLon": -65.154118,
+        "minLat": 18.179587,
+        "maxLon": -64.768336,
+        "maxLat": 18.464984
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "00000",
+          "name": "Island subdivision not defined",
+          "bbox": {
+            "minLon": -65.154118,
+            "minLat": 18.179587,
+            "maxLon": -64.768336,
+            "maxLat": 18.464984
+          }
+        },
+        {
+          "COUSUBFP": "61300",
+          "name": "Northside",
+          "bbox": {
+            "minLon": -64.99042,
+            "minLat": 18.33469,
+            "maxLon": -64.889435,
+            "maxLat": 18.415382
+          }
+        },
+        {
+          "COUSUBFP": "74800",
+          "name": "Southside",
+          "bbox": {
+            "minLon": -64.926506,
+            "minLat": 18.230304,
+            "maxLon": -64.850822,
+            "maxLat": 18.336458
+          }
+        },
+        {
+          "COUSUBFP": "78400",
+          "name": "Tutu",
+          "bbox": {
+            "minLon": -64.90364,
+            "minLat": 18.32899,
+            "maxLon": -64.871472,
+            "maxLat": 18.34998
+          }
+        },
+        {
+          "COUSUBFP": "82900",
+          "name": "West End",
+          "bbox": {
+            "minLon": -65.101333,
+            "minLat": 18.282796,
+            "maxLon": -64.970993,
+            "maxLat": 18.4094
+          }
+        },
+        {
+          "COUSUBFP": "17200",
+          "name": "Charlotte Amalie",
+          "bbox": {
+            "minLon": -64.9842,
+            "minLat": 18.324349,
+            "maxLon": -64.90966,
+            "maxLat": 18.348861
+          }
+        },
+        {
+          "COUSUBFP": "34300",
+          "name": "East End",
+          "bbox": {
+            "minLon": -64.892378,
+            "minLat": 18.293644,
+            "maxLon": -64.812072,
+            "maxLat": 18.363413
+          }
+        },
+        {
+          "COUSUBFP": "82000",
+          "name": "Water Island",
+          "bbox": {
+            "minLon": -64.961226,
+            "minLat": 18.3061,
+            "maxLon": -64.930107,
+            "maxLat": 18.336252
+          }
+        }
+      ]
+    }
+  },
+  {
+    "St. Croix": {
+      "COUNTYFP": "010",
+      "name": "St. Croix",
+      "bbox": {
+        "minLon": -64.956714,
+        "minLat": 17.623468,
+        "maxLon": -64.512674,
+        "maxLat": 17.844954
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "00000",
+          "name": "Island subdivision not defined",
+          "bbox": {
+            "minLon": -64.956714,
+            "minLat": 17.623468,
+            "maxLon": -64.512674,
+            "maxLat": 17.844954
+          }
+        },
+        {
+          "COUSUBFP": "04600",
+          "name": "Anna's Hope Village",
+          "bbox": {
+            "minLon": -64.73514,
+            "minLat": 17.698318,
+            "maxLon": -64.664562,
+            "maxLat": 17.74595
+          }
+        },
+        {
+          "COUSUBFP": "71200",
+          "name": "Sion Farm",
+          "bbox": {
+            "minLon": -64.77655,
+            "minLat": 17.725065,
+            "maxLon": -64.711419,
+            "maxLat": 17.787177
+          }
+        },
+        {
+          "COUSUBFP": "59500",
+          "name": "Northcentral",
+          "bbox": {
+            "minLon": -64.82316,
+            "minLat": 17.716323,
+            "maxLon": -64.757831,
+            "maxLat": 17.783842
+          }
+        },
+        {
+          "COUSUBFP": "73900",
+          "name": "Southcentral",
+          "bbox": {
+            "minLon": -64.830665,
+            "minLat": 17.682359,
+            "maxLon": -64.728428,
+            "maxLat": 17.73204
+          }
+        },
+        {
+          "COUSUBFP": "20800",
+          "name": "Christiansted",
+          "bbox": {
+            "minLon": -64.720257,
+            "minLat": 17.73906,
+            "maxLon": -64.693003,
+            "maxLat": 17.750734
+          }
+        },
+        {
+          "COUSUBFP": "38800",
+          "name": "Frederiksted",
+          "bbox": {
+            "minLon": -64.89038,
+            "minLat": 17.693982,
+            "maxLon": -64.86476,
+            "maxLat": 17.71913
+          }
+        },
+        {
+          "COUSUBFP": "62200",
+          "name": "Northwest",
+          "bbox": {
+            "minLon": -64.894293,
+            "minLat": 17.70056,
+            "maxLon": -64.81275,
+            "maxLat": 17.771218
+          }
+        },
+        {
+          "COUSUBFP": "75700",
+          "name": "Southwest",
+          "bbox": {
+            "minLon": -64.903808,
+            "minLat": 17.673931,
+            "maxLon": -64.822107,
+            "maxLat": 17.711108
+          }
+        },
+        {
+          "COUSUBFP": "31600",
+          "name": "East End",
+          "bbox": {
+            "minLon": -64.696099,
+            "minLat": 17.71384,
+            "maxLon": -64.565193,
+            "maxLat": 17.790137
+          }
+        }
+      ]
+    }
+  },
+  {
+    "St. John": {
+      "COUNTYFP": "020",
+      "name": "St. John",
+      "bbox": {
+        "minLon": -64.843739,
+        "minLat": 18.248725,
+        "maxLon": -64.637735,
+        "maxLat": 18.407595
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "00000",
+          "name": "Island subdivision not defined",
+          "bbox": {
+            "minLon": -64.843739,
+            "minLat": 18.248725,
+            "maxLon": -64.637735,
+            "maxLat": 18.407595
+          }
+        },
+        {
+          "COUSUBFP": "15400",
+          "name": "Central",
+          "bbox": {
+            "minLon": -64.839892,
+            "minLat": 18.298189,
+            "maxLon": -64.679191,
+            "maxLat": 18.372993
+          }
+        },
+        {
+          "COUSUBFP": "27100",
+          "name": "Coral Bay",
+          "bbox": {
+            "minLon": -64.741012,
+            "minLat": 18.311174,
+            "maxLon": -64.685874,
+            "maxLat": 18.357508
+          }
+        },
+        {
+          "COUSUBFP": "28900",
+          "name": "Cruz Bay",
+          "bbox": {
+            "minLon": -64.808036,
+            "minLat": 18.310523,
+            "maxLon": -64.759394,
+            "maxLat": 18.339176
+          }
+        },
+        {
+          "COUSUBFP": "33400",
+          "name": "East End",
+          "bbox": {
+            "minLon": -64.680592,
+            "minLat": 18.324049,
+            "maxLon": -64.648643,
+            "maxLat": 18.350281
+          }
+        }
+      ]
+    }
+  }
+]

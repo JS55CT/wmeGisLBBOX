@@ -1,0 +1,512 @@
+[
+  {
+    "Honolulu": {
+      "COUNTYFP": "003",
+      "name": "Honolulu",
+      "bbox": {
+        "minLon": -178.443593,
+        "minLat": 21.199238,
+        "maxLon": -157.597288,
+        "maxLat": 28.517269
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "91710",
+          "name": "Koolauloa",
+          "bbox": {
+            "minLon": -158.117344,
+            "minLat": 21.50146,
+            "maxLon": -157.78635,
+            "maxLat": 21.762997
+          }
+        },
+        {
+          "COUSUBFP": "93510",
+          "name": "Waialua",
+          "bbox": {
+            "minLon": -158.34465,
+            "minLat": 21.506447,
+            "maxLon": -157.918099,
+            "maxLat": 21.665698
+          }
+        },
+        {
+          "COUSUBFP": "90810",
+          "name": "Honolulu",
+          "bbox": {
+            "minLon": -178.443593,
+            "minLat": 21.199238,
+            "maxLon": -157.597288,
+            "maxLat": 28.517269
+          }
+        },
+        {
+          "COUSUBFP": "93600",
+          "name": "Waianae",
+          "bbox": {
+            "minLon": -158.328652,
+            "minLat": 21.353534,
+            "maxLon": -158.089548,
+            "maxLat": 21.57193
+          }
+        },
+        {
+          "COUSUBFP": "91800",
+          "name": "Koolaupoko",
+          "bbox": {
+            "minLon": -157.896254,
+            "minLat": 21.308134,
+            "maxLon": -157.59758,
+            "maxLat": 21.555505
+          }
+        },
+        {
+          "COUSUBFP": "93420",
+          "name": "Wahiawa",
+          "bbox": {
+            "minLon": -158.147728,
+            "minLat": 21.449206,
+            "maxLon": -157.901251,
+            "maxLat": 21.5335
+          }
+        },
+        {
+          "COUSUBFP": "90270",
+          "name": "Ewa",
+          "bbox": {
+            "minLon": -158.188753,
+            "minLat": 21.237071,
+            "maxLon": -157.836487,
+            "maxLat": 21.501697
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Kalawao": {
+      "COUNTYFP": "005",
+      "name": "Kalawao",
+      "bbox": {
+        "minLon": -157.015058,
+        "minLat": 21.129479,
+        "maxLon": -156.871195,
+        "maxLat": 21.274619
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90990",
+          "name": "Kalawao",
+          "bbox": {
+            "minLon": -157.015058,
+            "minLat": 21.129479,
+            "maxLon": -156.871195,
+            "maxLat": 21.274619
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Kauai": {
+      "COUNTYFP": "007",
+      "name": "Kauai",
+      "bbox": {
+        "minLon": -160.600875,
+        "minLat": 21.600384,
+        "maxLon": -159.241827,
+        "maxLat": 22.290473
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90180",
+          "name": "Eleele-Kalaheo",
+          "bbox": {
+            "minLon": -159.595579,
+            "minLat": 21.833389,
+            "maxLon": -159.453413,
+            "maxLat": 22.050046
+          }
+        },
+        {
+          "COUSUBFP": "91260",
+          "name": "Kaumakani-Hanapepe",
+          "bbox": {
+            "minLon": -159.68555,
+            "minLat": 21.842873,
+            "maxLon": -159.499045,
+            "maxLat": 22.162563
+          }
+        },
+        {
+          "COUSUBFP": "92160",
+          "name": "Lihue",
+          "bbox": {
+            "minLon": -159.37903,
+            "minLat": 21.940222,
+            "maxLon": -159.279222,
+            "maxLat": 21.997649
+          }
+        },
+        {
+          "COUSUBFP": "93780",
+          "name": "Wailua-Anahola",
+          "bbox": {
+            "minLon": -159.501137,
+            "minLat": 22.035869,
+            "maxLon": -159.241827,
+            "maxLat": 22.242031
+          }
+        },
+        {
+          "COUSUBFP": "90540",
+          "name": "Hanalei",
+          "bbox": {
+            "minLon": -159.691969,
+            "minLat": 22.071773,
+            "maxLon": -159.300139,
+            "maxLat": 22.290473
+          }
+        },
+        {
+          "COUSUBFP": "91080",
+          "name": "Kapaa",
+          "bbox": {
+            "minLon": -159.346957,
+            "minLat": 22.047671,
+            "maxLon": -159.248795,
+            "maxLat": 22.108207
+          }
+        },
+        {
+          "COUSUBFP": "92340",
+          "name": "Niihau",
+          "bbox": {
+            "minLon": -160.600875,
+            "minLat": 21.600384,
+            "maxLon": -159.995625,
+            "maxLat": 22.082919
+          }
+        },
+        {
+          "COUSUBFP": "91440",
+          "name": "Kekaha-Waimea",
+          "bbox": {
+            "minLon": -159.850959,
+            "minLat": 21.888026,
+            "maxLon": -159.619191,
+            "maxLat": 22.266837
+          }
+        },
+        {
+          "COUSUBFP": "91620",
+          "name": "Koloa-Poipu",
+          "bbox": {
+            "minLon": -159.51001,
+            "minLat": 21.817436,
+            "maxLon": -159.354871,
+            "maxLat": 21.955743
+          }
+        },
+        {
+          "COUSUBFP": "92970",
+          "name": "Puhi-Hanamaulu",
+          "bbox": {
+            "minLon": -159.508512,
+            "minLat": 21.867933,
+            "maxLon": -159.272854,
+            "maxLat": 22.071773
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Maui": {
+      "COUNTYFP": "009",
+      "name": "Maui",
+      "bbox": {
+        "minLon": -157.366549,
+        "minLat": 20.45293,
+        "maxLon": -155.926785,
+        "maxLat": 21.280347
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "93060",
+          "name": "Puunene",
+          "bbox": {
+            "minLon": -156.483677,
+            "minLat": 20.844769,
+            "maxLon": -156.434606,
+            "maxLat": 20.885516
+          }
+        },
+        {
+          "COUSUBFP": "90360",
+          "name": "Haiku-Pauwela",
+          "bbox": {
+            "minLon": -156.35446,
+            "minLat": 20.765714,
+            "maxLon": -156.14632,
+            "maxLat": 21.00623
+          }
+        },
+        {
+          "COUSUBFP": "92250",
+          "name": "Makawao-Paia",
+          "bbox": {
+            "minLon": -156.397807,
+            "minLat": 20.761108,
+            "maxLon": -156.249315,
+            "maxLat": 20.994104
+          }
+        },
+        {
+          "COUSUBFP": "93690",
+          "name": "Waihee-Waikapu",
+          "bbox": {
+            "minLon": -156.59391,
+            "minLat": 20.8134,
+            "maxLon": -156.459575,
+            "maxLat": 21.091077
+          }
+        },
+        {
+          "COUSUBFP": "90900",
+          "name": "Kahului",
+          "bbox": {
+            "minLon": -156.500589,
+            "minLat": 20.848774,
+            "maxLon": -156.45171,
+            "maxLat": 20.908719
+          }
+        },
+        {
+          "COUSUBFP": "91890",
+          "name": "Kula",
+          "bbox": {
+            "minLon": -156.755978,
+            "minLat": 20.45293,
+            "maxLon": -156.13675,
+            "maxLat": 20.840609
+          }
+        },
+        {
+          "COUSUBFP": "92070",
+          "name": "Lanai",
+          "bbox": {
+            "minLon": -157.11724,
+            "minLat": 20.685459,
+            "maxLon": -156.75,
+            "maxLat": 20.985058
+          }
+        },
+        {
+          "COUSUBFP": "93870",
+          "name": "Wailuku",
+          "bbox": {
+            "minLon": -156.537354,
+            "minLat": 20.866587,
+            "maxLon": -156.47848,
+            "maxLat": 20.921749
+          }
+        },
+        {
+          "COUSUBFP": "90450",
+          "name": "Hana",
+          "bbox": {
+            "minLon": -156.319371,
+            "minLat": 20.565578,
+            "maxLon": -155.926785,
+            "maxLat": 20.927448
+          }
+        },
+        {
+          "COUSUBFP": "91530",
+          "name": "Kihei",
+          "bbox": {
+            "minLon": -156.577224,
+            "minLat": 20.689913,
+            "maxLon": -156.402141,
+            "maxLat": 20.850901
+          }
+        },
+        {
+          "COUSUBFP": "90090",
+          "name": "East Molokai",
+          "bbox": {
+            "minLon": -157.137274,
+            "minLat": 20.99336,
+            "maxLon": -156.650525,
+            "maxLat": 21.234161
+          }
+        },
+        {
+          "COUSUBFP": "91980",
+          "name": "Lahaina",
+          "bbox": {
+            "minLon": -156.752355,
+            "minLat": 20.74313,
+            "maxLon": -156.54053,
+            "maxLat": 21.09258
+          }
+        },
+        {
+          "COUSUBFP": "93330",
+          "name": "Spreckelsville",
+          "bbox": {
+            "minLon": -156.478311,
+            "minLat": 20.829332,
+            "maxLon": -156.370438,
+            "maxLat": 20.983655
+          }
+        },
+        {
+          "COUSUBFP": "93960",
+          "name": "West Molokai",
+          "bbox": {
+            "minLon": -157.366549,
+            "minLat": 21.043099,
+            "maxLon": -156.925322,
+            "maxLat": 21.280347
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Hawaii": {
+      "COUNTYFP": "001",
+      "name": "Hawaii",
+      "bbox": {
+        "minLon": -156.120001,
+        "minLat": 18.86546,
+        "maxLon": -154.755792,
+        "maxLat": 20.321453
+      },
+      "subdivisions": [
+        {
+          "COUSUBFP": "90720",
+          "name": "Honokaa-Kukuihaele",
+          "bbox": {
+            "minLon": -155.71413,
+            "minLat": 19.957077,
+            "maxLon": -155.432521,
+            "maxLat": 20.245216
+          }
+        },
+        {
+          "COUSUBFP": "92520",
+          "name": "North Kohala",
+          "bbox": {
+            "minLon": -155.960818,
+            "minLat": 20.025919,
+            "maxLon": -155.689125,
+            "maxLat": 20.321453
+          }
+        },
+        {
+          "COUSUBFP": "92790",
+          "name": "Pahoa-Kalapana",
+          "bbox": {
+            "minLon": -155.25337,
+            "minLat": 19.277527,
+            "maxLon": -154.755792,
+            "maxLat": 19.621481
+          }
+        },
+        {
+          "COUSUBFP": "93240",
+          "name": "South Kona",
+          "bbox": {
+            "minLon": -156.019396,
+            "minLat": 19.081331,
+            "maxLon": -155.618917,
+            "maxLat": 19.55125
+          }
+        },
+        {
+          "COUSUBFP": "91170",
+          "name": "Kau",
+          "bbox": {
+            "minLon": -155.963331,
+            "minLat": 18.86546,
+            "maxLon": -155.016355,
+            "maxLat": 19.547589
+          }
+        },
+        {
+          "COUSUBFP": "92610",
+          "name": "North Kona",
+          "bbox": {
+            "minLon": -156.120001,
+            "minLat": 19.406603,
+            "maxLon": -155.599453,
+            "maxLat": 19.895644
+          }
+        },
+        {
+          "COUSUBFP": "93150",
+          "name": "South Kohala",
+          "bbox": {
+            "minLon": -156.018069,
+            "minLat": 19.671529,
+            "maxLon": -155.581188,
+            "maxLat": 20.117033
+          }
+        },
+        {
+          "COUSUBFP": "90630",
+          "name": "Hilo",
+          "bbox": {
+            "minLon": -155.396864,
+            "minLat": 19.519641,
+            "maxLon": -154.956172,
+            "maxLat": 19.800274
+          }
+        },
+        {
+          "COUSUBFP": "91350",
+          "name": "Keaau-Mountain View",
+          "bbox": {
+            "minLon": -155.34414,
+            "minLat": 19.418024,
+            "maxLon": -154.883208,
+            "maxLat": 19.760794
+          }
+        },
+        {
+          "COUSUBFP": "92430",
+          "name": "North Hilo",
+          "bbox": {
+            "minLon": -155.560491,
+            "minLat": 19.447212,
+            "maxLon": -155.08317,
+            "maxLat": 20.059808
+          }
+        },
+        {
+          "COUSUBFP": "92700",
+          "name": "Paauhau-Paauilo",
+          "bbox": {
+            "minLon": -155.725964,
+            "minLat": 19.506286,
+            "maxLon": -155.247897,
+            "maxLat": 20.145207
+          }
+        },
+        {
+          "COUSUBFP": "92880",
+          "name": "Papaikou-Wailea",
+          "bbox": {
+            "minLon": -155.335476,
+            "minLat": 19.754853,
+            "maxLon": -155.029999,
+            "maxLat": 19.937459
+          }
+        }
+      ]
+    }
+  }
+]
