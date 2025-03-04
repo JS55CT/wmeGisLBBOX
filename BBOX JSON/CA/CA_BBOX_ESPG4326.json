@@ -1,0 +1,145 @@
+{
+    "NL": {
+      "name": "Newfoundland and Labrador",
+      "code": "NL",
+      "ncode": "10",
+      "bbox": {
+        "minLon": -141.01807315762784,
+        "minLat": 59.99999998686003,
+        "maxLon": -123.78932483557897,
+        "maxLat": 69.64745530356235
+      }
+    },
+    "PE": {
+      "name": "Prince Edward Island",
+      "code": "PE",
+      "ncode": "11",
+      "bbox": {
+        "minLon": -64.41345805388153,
+        "minLat": 45.94825950278871,
+        "maxLon": -61.97070967673997,
+        "maxLat": 47.06122202997045
+      }
+    },
+    "NS": {
+      "name": "Nova Scotia",
+      "code": "NS",
+      "ncode": "12",
+      "bbox": {
+        "minLon": -66.39503237740779,
+        "minLat": 43.38966200891611,
+        "maxLon": -59.674167569953404,
+        "maxLat": 47.228032228270116
+      }
+    },
+    "NB": {
+      "name": "New Brunswick",
+      "code": "NB",
+      "ncode": "13",
+      "bbox": {
+        "minLon": -69.0532785201383,
+        "minLat": 44.57031288924336,
+        "maxLon": -63.771599927411366,
+        "maxLat": 48.08933913282103
+      }
+    },
+    "QC": {
+      "name": "Quebec",
+      "code": "QC",
+      "ncode": "24",
+      "bbox": {
+        "minLon": -79.76105867305748,
+        "minLat": 44.99114316765965,
+        "maxLon": -57.10548640010151,
+        "maxLat": 62.58286491704728
+      }
+    },
+    "ON": {
+      "name": "Ontario",
+      "code": "ON",
+      "ncode": "35",
+      "bbox": {
+        "minLon": -95.15482594209122,
+        "minLat": 41.68143542498606,
+        "maxLon": -74.3434958172725,
+        "maxLat": 56.8590362331328
+      }
+    },
+    "MB": {
+      "name": "Manitoba",
+      "code": "MB",
+      "ncode": "46",
+      "bbox": {
+        "minLon": -102.00000002514605,
+        "minLat": 48.99999999719589,
+        "maxLon": -88.98649334011763,
+        "maxLat": 60.00006152625598
+      }
+    },
+    "SK": {
+      "name": "Saskatchewan",
+      "code": "SK",
+      "ncode": "47",
+      "bbox": {
+        "minLon": -110.00802435846342,
+        "minLat": 48.999698741741696,
+        "maxLon": -101.36230470942762,
+        "maxLat": 60.000061527414104
+      }
+    },
+    "AB": {
+      "name": "Alberta",
+      "code": "AB",
+      "ncode": "48",
+      "bbox": {
+        "minLon": -120.00269820226407,
+        "minLat": 48.99673996423948,
+        "maxLon": -109.99964079577137,
+        "maxLat": 60.000073260174226
+      }
+    },
+    "BC": {
+      "name": "British Columbia",
+      "code": "BC",
+      "ncode": "49",
+      "bbox": {
+        "minLon": -139.0522010411866,
+        "minLat": 48.308915686538754,
+        "maxLon": -114.0537582644696,
+        "maxLat": 60.000061531802125
+      }
+    },
+    "YT": {
+      "name": "Yukon",
+      "code": "YT",
+      "ncode": "60",
+      "bbox": {
+        "minLon": -141.01807315762784,
+        "minLat": 59.99999998686003,
+        "maxLon": -123.78932483557897,
+        "maxLat": 69.64745530356235
+      }
+    },
+    "NU": {
+      "name": "Northwest Territories",
+      "code": "NU",
+      "ncode": "61",
+      "bbox": {
+        "minLon": -136.47684412534173,
+        "minLat": 59.99999998625139,
+        "maxLon": -101.99999996694538,
+        "maxLat": 78.80365777551438
+      }
+    },
+    "NT": {
+      "name": "Nunavut",
+      "code": "NT",
+      "ncode": "62",
+      "bbox": {
+        "minLon": -120.72491371170202,
+        "minLat": 51.27504892068751,
+        "maxLon": -61.09532368100351,
+        "maxLat": 83.13550252435944
+      }
+    }
+  }
