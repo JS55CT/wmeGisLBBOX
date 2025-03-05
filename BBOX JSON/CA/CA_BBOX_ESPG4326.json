@@ -1,8 +1,8 @@
 {
-    "NL": {
+    "10": {
       "name": "Newfoundland and Labrador",
-      "code": "NL",
-      "ncode": "10",
+      "sub_code": "NL",
+      "sub_id": "10",
       "bbox": {
         "minLon": -141.01807315762784,
         "minLat": 59.99999998686003,
@@ -10,10 +10,10 @@
         "maxLat": 69.64745530356235
       }
     },
-    "PE": {
+    "11": {
       "name": "Prince Edward Island",
-      "code": "PE",
-      "ncode": "11",
+      "sub_code": "PE",
+      "sub_id": "11",
       "bbox": {
         "minLon": -64.41345805388153,
         "minLat": 45.94825950278871,
@@ -21,10 +21,10 @@
         "maxLat": 47.06122202997045
       }
     },
-    "NS": {
+    "12": {
       "name": "Nova Scotia",
-      "code": "NS",
-      "ncode": "12",
+      "sub_code": "NS",
+      "sub_id": "12",
       "bbox": {
         "minLon": -66.39503237740779,
         "minLat": 43.38966200891611,
@@ -32,10 +32,10 @@
         "maxLat": 47.228032228270116
       }
     },
-    "NB": {
+    "13": {
       "name": "New Brunswick",
-      "code": "NB",
-      "ncode": "13",
+      "sub_code": "NB",
+      "sub_id": "13",
       "bbox": {
         "minLon": -69.0532785201383,
         "minLat": 44.57031288924336,
@@ -43,10 +43,10 @@
         "maxLat": 48.08933913282103
       }
     },
-    "QC": {
+    "24": {
       "name": "Quebec",
-      "code": "QC",
-      "ncode": "24",
+      "sub_code": "QC",
+      "sub_id": "24",
       "bbox": {
         "minLon": -79.76105867305748,
         "minLat": 44.99114316765965,
@@ -54,10 +54,10 @@
         "maxLat": 62.58286491704728
       }
     },
-    "ON": {
+    "35": {
       "name": "Ontario",
-      "code": "ON",
-      "ncode": "35",
+      "sub_code": "ON",
+      "sub_id": "35",
       "bbox": {
         "minLon": -95.15482594209122,
         "minLat": 41.68143542498606,
@@ -65,10 +65,10 @@
         "maxLat": 56.8590362331328
       }
     },
-    "MB": {
+    "46": {
       "name": "Manitoba",
-      "code": "MB",
-      "ncode": "46",
+      "sub_code": "MB",
+      "sub_id": "46",
       "bbox": {
         "minLon": -102.00000002514605,
         "minLat": 48.99999999719589,
@@ -76,10 +76,10 @@
         "maxLat": 60.00006152625598
       }
     },
-    "SK": {
+    "47": {
       "name": "Saskatchewan",
-      "code": "SK",
-      "ncode": "47",
+      "sub_code": "SK",
+      "sub_id": "47",
       "bbox": {
         "minLon": -110.00802435846342,
         "minLat": 48.999698741741696,
@@ -87,10 +87,10 @@
         "maxLat": 60.000061527414104
       }
     },
-    "AB": {
+    "48": {
       "name": "Alberta",
-      "code": "AB",
-      "ncode": "48",
+      "sub_code": "AB",
+      "sub_id": "48",
       "bbox": {
         "minLon": -120.00269820226407,
         "minLat": 48.99673996423948,
@@ -98,10 +98,10 @@
         "maxLat": 60.000073260174226
       }
     },
-    "BC": {
+    "49": {
       "name": "British Columbia",
-      "code": "BC",
-      "ncode": "49",
+      "sub_code": "BC",
+      "sub_id": "49",
       "bbox": {
         "minLon": -139.0522010411866,
         "minLat": 48.308915686538754,
@@ -109,10 +109,10 @@
         "maxLat": 60.000061531802125
       }
     },
-    "YT": {
+    "60": {
       "name": "Yukon",
-      "code": "YT",
-      "ncode": "60",
+      "sub_code": "YT",
+      "sub_id": "60",
       "bbox": {
         "minLon": -141.01807315762784,
         "minLat": 59.99999998686003,
@@ -120,10 +120,10 @@
         "maxLat": 69.64745530356235
       }
     },
-    "NU": {
+    "61": {
       "name": "Northwest Territories",
-      "code": "NU",
-      "ncode": "61",
+      "sub_code": "NU",
+      "sub_id": "61",
       "bbox": {
         "minLon": -136.47684412534173,
         "minLat": 59.99999998625139,
@@ -131,10 +131,10 @@
         "maxLat": 78.80365777551438
       }
     },
-    "NT": {
+    "62": {
       "name": "Nunavut",
-      "code": "NT",
-      "ncode": "62",
+      "sub_code": "NT",
+      "sub_id": "62",
       "bbox": {
         "minLon": -120.72491371170202,
         "minLat": 51.27504892068751,
