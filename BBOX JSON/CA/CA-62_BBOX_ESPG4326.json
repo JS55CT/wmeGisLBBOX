@@ -1,0 +1,38 @@
+[
+  {
+    "6204": {
+      "subsub_id": "6204",
+      "name": "Qikiqtaaluk",
+      "bbox": {
+        "minLon": -109.83533523,
+        "minLat": 51.25307379,
+        "maxLon": -61.0913155,
+        "maxLat": 83.13708641
+      }
+    }
+  },
+  {
+    "6205": {
+      "subsub_id": "6205",
+      "name": "Kivalliq",
+      "bbox": {
+        "minLon": -105.01776294,
+        "minLat": 57.03879263,
+        "maxLon": -80.127273,
+        "maxLat": 67.00000013
+      }
+    }
+  },
+  {
+    "6208": {
+      "subsub_id": "6208",
+      "name": "Kitikmeot",
+      "bbox": {
+        "minLon": -120.72477038,
+        "minLat": 64.47739258,
+        "maxLon": -88.98508999,
+        "maxLat": 73.73677681
+      }
+    }
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "5901": {
+      "subsub_id": "5901",
+      "name": "East Kootenay",
+      "bbox": {
+        "minLon": -116.79654644,
+        "minLat": 48.9988505,
+        "maxLon": -114.05375826,
+        "maxLat": 51.33150185
+      }
+    }
+  },
+  {
+    "5903": {
+      "subsub_id": "5903",
+      "name": "Central Kootenay",
+      "bbox": {
+        "minLon": -118.49588721,
+        "minLat": 49.0,
+        "maxLon": -116.02481205,
+        "maxLat": 51.06606348
+      }
+    }
+  },
+  {
+    "5905": {
+      "subsub_id": "5905",
+      "name": "Kootenay Boundary",
+      "bbox": {
+        "minLon": -119.37590574,
+        "minLat": 49.0,
+        "maxLon": -117.46543061,
+        "maxLat": 49.81276228
+      }
+    }
+  },
+  {
+    "5907": {
+      "subsub_id": "5907",
+      "name": "Okanagan-Similkameen",
+      "bbox": {
+        "minLon": -121.10177333,
+        "minLat": 49.00000179,
+        "maxLon": -119.17503756,
+        "maxLat": 49.91201161
+      }
+    }
+  },
+  {
+    "5909": {
+      "subsub_id": "5909",
+      "name": "Fraser Valley",
+      "bbox": {
+        "minLon": -123.00248067,
+        "minLat": 49.0,
+        "maxLon": -120.81206602,
+        "maxLat": 50.15368276
+      }
+    }
+  },
+  {
+    "5915": {
+      "subsub_id": "5915",
+      "name": "Greater Vancouver",
+      "bbox": {
+        "minLon": -123.43193384,
+        "minLat": 49.00191908,
+        "maxLon": -122.4086399,
+        "maxLat": 49.57427534
+      }
+    }
+  },
+  {
+    "5917": {
+      "subsub_id": "5917",
+      "name": "Capital",
+      "bbox": {
+        "minLon": -124.5006146,
+        "minLat": 48.29680857,
+        "maxLon": -123.04059815,
+        "maxLat": 49.01419996
+      }
+    }
+  },
+  {
+    "5919": {
+      "subsub_id": "5919",
+      "name": "Cowichan Valley",
+      "bbox": {
+        "minLon": -124.8549812,
+        "minLat": 48.52121153,
+        "maxLon": -123.51453004,
+        "maxLat": 49.14880351
+      }
+    }
+  },
+  {
+    "5921": {
+      "subsub_id": "5921",
+      "name": "Nanaimo",
+      "bbox": {
+        "minLon": -124.96815869,
+        "minLat": 48.98126711,
+        "maxLon": -123.64910504,
+        "maxLat": 49.46778927
+      }
+    }
+  },
+  {
+    "5923": {
+      "subsub_id": "5923",
+      "name": "Alberni-Clayoquot",
+      "bbox": {
+        "minLon": -126.59284872,
+        "minLat": 48.66794757,
+        "maxLon": -124.53934333,
+        "maxLat": 49.64266562
+      }
+    }
+  },
+  {
+    "5924": {
+      "subsub_id": "5924",
+      "name": "Strathcona",
+      "bbox": {
+        "minLon": -127.94509584,
+        "minLat": 49.47811648,
+        "maxLon": -123.71402467,
+        "maxLat": 51.40019602
+      }
+    }
+  },
+  {
+    "5926": {
+      "subsub_id": "5926",
+      "name": "Comox Valley",
+      "bbox": {
+        "minLon": -125.5530722,
+        "minLat": 49.40474425,
+        "maxLon": -124.57549744,
+        "maxLat": 49.91993494
+      }
+    }
+  },
+  {
+    "5927": {
+      "subsub_id": "5927",
+      "name": "Powell River",
+      "bbox": {
+        "minLon": -124.94656475,
+        "minLat": 49.42342517,
+        "maxLon": -123.72787482,
+        "maxLat": 50.86350189
+      }
+    }
+  },
+  {
+    "5929": {
+      "subsub_id": "5929",
+      "name": "Sunshine Coast",
+      "bbox": {
+        "minLon": -124.22847106,
+        "minLat": 49.34684118,
+        "maxLon": -123.27250845,
+        "maxLat": 50.3664234
+      }
+    }
+  },
+  {
+    "5931": {
+      "subsub_id": "5931",
+      "name": "Squamish-Lillooet",
+      "bbox": {
+        "minLon": -124.00331385,
+        "minLat": 49.48134798,
+        "maxLon": -121.62533767,
+        "maxLat": 51.22032311
+      }
+    }
+  },
+  {
+    "5933": {
+      "subsub_id": "5933",
+      "name": "Thompson-Nicola",
+      "bbox": {
+        "minLon": -122.67742474,
+        "minLat": 49.60979433,
+        "maxLon": -118.78649117,
+        "maxLat": 52.87786899
+      }
+    }
+  },
+  {
+    "5935": {
+      "subsub_id": "5935",
+      "name": "Central Okanagan",
+      "bbox": {
+        "minLon": -120.05680797,
+        "minLat": 49.67527462,
+        "maxLon": -118.79755741,
+        "maxLat": 50.23532494
+      }
+    }
+  },
+  {
+    "5937": {
+      "subsub_id": "5937",
+      "name": "North Okanagan",
+      "bbox": {
+        "minLon": -119.76294417,
+        "minLat": 49.81209967,
+        "maxLon": -118.16269416,
+        "maxLat": 50.93457265
+      }
+    }
+  },
+  {
+    "5939": {
+      "subsub_id": "5939",
+      "name": "Columbia-Shuswap",
+      "bbox": {
+        "minLon": -119.70453127,
+        "minLat": 50.40205147,
+        "maxLon": -116.25645367,
+        "maxLat": 52.50023849
+      }
+    }
+  },
+  {
+    "5941": {
+      "subsub_id": "5941",
+      "name": "Cariboo",
+      "bbox": {
+        "minLon": -126.64606287,
+        "minLat": 50.87693883,
+        "maxLon": -120.14254549,
+        "maxLat": 53.53110877
+      }
+    }
+  },
+  {
+    "5943": {
+      "subsub_id": "5943",
+      "name": "Mount Waddington",
+      "bbox": {
+        "minLon": -129.09556855,
+        "minLat": 49.906755,
+        "maxLon": -125.20366249,
+        "maxLat": 52.01231246
+      }
+    }
+  },
+  {
+    "5945": {
+      "subsub_id": "5945",
+      "name": "Central Coast",
+      "bbox": {
+        "minLon": -128.54181124,
+        "minLat": 51.15773478,
+        "maxLon": -125.34371562,
+        "maxLat": 53.30903267
+      }
+    }
+  },
+  {
+    "5947": {
+      "subsub_id": "5947",
+      "name": "Skeena-Queen Charlotte",
+      "bbox": {
+        "minLon": -133.20207757,
+        "minLat": 51.90527516,
+        "maxLon": -129.22187694,
+        "maxLat": 54.74578763
+      }
+    }
+  },
+  {
+    "5949": {
+      "subsub_id": "5949",
+      "name": "Kitimat-Stikine",
+      "bbox": {
+        "minLon": -133.06954317,
+        "minLat": 52.25007766,
+        "maxLon": -126.64470008,
+        "maxLat": 59.0022546
+      }
+    }
+  },
+  {
+    "5951": {
+      "subsub_id": "5951",
+      "name": "Bulkley-Nechako",
+      "bbox": {
+        "minLon": -128.48555038,
+        "minLat": 52.9925636,
+        "maxLon": -123.27774508,
+        "maxLat": 56.00317912
+      }
+    }
+  },
+  {
+    "5953": {
+      "subsub_id": "5953",
+      "name": "Fraser-Fort George",
+      "bbox": {
+        "minLon": -124.05326176,
+        "minLat": 52.15146311,
+        "maxLon": -118.19335093,
+        "maxLat": 55.98327576
+      }
+    }
+  },
+  {
+    "5955": {
+      "subsub_id": "5955",
+      "name": "Peace River",
+      "bbox": {
+        "minLon": -127.73841251,
+        "minLat": 53.79535121,
+        "maxLon": -119.99973173,
+        "maxLat": 58.02710422
+      }
+    }
+  },
+  {
+    "5957": {
+      "subsub_id": "5957",
+      "name": "Stikine",
+      "bbox": {
+        "minLon": -139.05220104,
+        "minLat": 55.99755804,
+        "maxLon": -124.44068575,
+        "maxLat": 60.00006153
+      }
+    }
+  },
+  {
+    "5959": {
+      "subsub_id": "5959",
+      "name": "Northern Rockies",
+      "bbox": {
+        "minLon": -127.81058615,
+        "minLat": 57.99756581,
+        "maxLon": -119.99998864,
+        "maxLat": 60.00006153
+      }
+    }
+  }
+]

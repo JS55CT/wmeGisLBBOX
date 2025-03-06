@@ -1,0 +1,134 @@
+[
+  {
+    "1001": {
+      "subsub_id": "1001",
+      "name": "Division No.  1",
+      "bbox": {
+        "minLon": -54.20305591,
+        "minLat": 46.610984,
+        "maxLon": -52.61936629,
+        "maxLat": 48.17342301
+      }
+    }
+  },
+  {
+    "1002": {
+      "subsub_id": "1002",
+      "name": "Division No.  2",
+      "bbox": {
+        "minLon": -55.9888099,
+        "minLat": 46.8381499,
+        "maxLon": -53.97400211,
+        "maxLat": 48.20658361
+      }
+    }
+  },
+  {
+    "1003": {
+      "subsub_id": "1003",
+      "name": "Division No.  3",
+      "bbox": {
+        "minLon": -59.31835688,
+        "minLat": 47.23781891,
+        "maxLon": -54.68965026,
+        "maxLat": 48.53959376
+      }
+    }
+  },
+  {
+    "1004": {
+      "subsub_id": "1004",
+      "name": "Division No.  4",
+      "bbox": {
+        "minLon": -59.4125518,
+        "minLat": 47.66131546,
+        "maxLon": -57.39289184,
+        "maxLat": 48.96316528
+      }
+    }
+  },
+  {
+    "1005": {
+      "subsub_id": "1005",
+      "name": "Division No.  5",
+      "bbox": {
+        "minLon": -58.5136631,
+        "minLat": 48.50891645,
+        "maxLon": -56.63503649,
+        "maxLat": 50.22973522
+      }
+    }
+  },
+  {
+    "1006": {
+      "subsub_id": "1006",
+      "name": "Division No.  6",
+      "bbox": {
+        "minLon": -57.97015882,
+        "minLat": 48.22323305,
+        "maxLon": -54.23480454,
+        "maxLat": 49.35587253
+      }
+    }
+  },
+  {
+    "1007": {
+      "subsub_id": "1007",
+      "name": "Division No.  7",
+      "bbox": {
+        "minLon": -55.30018238,
+        "minLat": 47.89050119,
+        "maxLon": -52.99569221,
+        "maxLat": 49.28117771
+      }
+    }
+  },
+  {
+    "1008": {
+      "subsub_id": "1008",
+      "name": "Division No.  8",
+      "bbox": {
+        "minLon": -56.98804985,
+        "minLat": 48.9815266,
+        "maxLon": -53.17771699,
+        "maxLat": 50.2463047
+      }
+    }
+  },
+  {
+    "1009": {
+      "subsub_id": "1009",
+      "name": "Division No.  9",
+      "bbox": {
+        "minLon": -58.2437947,
+        "minLat": 49.28113094,
+        "maxLon": -55.27582752,
+        "maxLat": 52.01685929
+      }
+    }
+  },
+  {
+    "1010": {
+      "subsub_id": "1010",
+      "name": "Division No. 10",
+      "bbox": {
+        "minLon": -67.82168529,
+        "minLat": 51.41285789,
+        "maxLon": -55.5482618,
+        "maxLat": 56.42710587
+      }
+    }
+  },
+  {
+    "1011": {
+      "subsub_id": "1011",
+      "name": "Division No. 11",
+      "bbox": {
+        "minLon": -64.93943924,
+        "minLat": 53.54477298,
+        "maxLon": -56.802893,
+        "maxLat": 60.37774401
+      }
+    }
+  }
+]

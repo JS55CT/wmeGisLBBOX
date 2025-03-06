@@ -1,0 +1,218 @@
+[
+  {
+    "1201": {
+      "subsub_id": "1201",
+      "name": "Shelburne",
+      "bbox": {
+        "minLon": -65.80467802,
+        "minLat": 43.38969149,
+        "maxLon": -64.92425781,
+        "maxLat": 44.23231761
+      }
+    }
+  },
+  {
+    "1202": {
+      "subsub_id": "1202",
+      "name": "Yarmouth",
+      "bbox": {
+        "minLon": -66.17079392,
+        "minLat": 43.3877475,
+        "maxLon": -65.39743701,
+        "maxLat": 44.23035428
+      }
+    }
+  },
+  {
+    "1203": {
+      "subsub_id": "1203",
+      "name": "Digby",
+      "bbox": {
+        "minLon": -66.3954123,
+        "minLat": 44.00145369,
+        "maxLon": -65.33149068,
+        "maxLat": 44.69235251
+      }
+    }
+  },
+  {
+    "1204": {
+      "subsub_id": "1204",
+      "name": "Queens",
+      "bbox": {
+        "minLon": -65.39582101,
+        "minLat": 43.78867581,
+        "maxLon": -64.51688022,
+        "maxLat": 44.53710477
+      }
+    }
+  },
+  {
+    "1205": {
+      "subsub_id": "1205",
+      "name": "Annapolis",
+      "bbox": {
+        "minLon": -65.76000249,
+        "minLat": 44.31157765,
+        "maxLon": -64.77323754,
+        "maxLat": 45.06655404
+      }
+    }
+  },
+  {
+    "1206": {
+      "subsub_id": "1206",
+      "name": "Lunenburg",
+      "bbox": {
+        "minLon": -64.94547423,
+        "minLat": 44.13315371,
+        "maxLon": -63.99337231,
+        "maxLat": 44.89931141
+      }
+    }
+  },
+  {
+    "1207": {
+      "subsub_id": "1207",
+      "name": "Kings",
+      "bbox": {
+        "minLon": -65.01903264,
+        "minLat": 44.66358457,
+        "maxLon": -64.16986589,
+        "maxLat": 45.33533889
+      }
+    }
+  },
+  {
+    "1208": {
+      "subsub_id": "1208",
+      "name": "Hants",
+      "bbox": {
+        "minLon": -64.43221014,
+        "minLat": 44.76086451,
+        "maxLon": -63.38229603,
+        "maxLat": 45.3363209
+      }
+    }
+  },
+  {
+    "1209": {
+      "subsub_id": "1209",
+      "name": "Halifax",
+      "bbox": {
+        "minLon": -64.23720043,
+        "minLat": 43.92513671,
+        "maxLon": -59.6707237,
+        "maxLat": 45.27587224
+      }
+    }
+  },
+  {
+    "1210": {
+      "subsub_id": "1210",
+      "name": "Colchester",
+      "bbox": {
+        "minLon": -64.13372495,
+        "minLat": 45.0291604,
+        "maxLon": -62.7141097,
+        "maxLat": 45.76720469
+      }
+    }
+  },
+  {
+    "1211": {
+      "subsub_id": "1211",
+      "name": "Cumberland",
+      "bbox": {
+        "minLon": -65.0187006,
+        "minLat": 45.24718391,
+        "maxLon": -63.23264571,
+        "maxLat": 46.00522351
+      }
+    }
+  },
+  {
+    "1212": {
+      "subsub_id": "1212",
+      "name": "Pictou",
+      "bbox": {
+        "minLon": -63.17789959,
+        "minLat": 45.27606717,
+        "maxLon": -62.09143867,
+        "maxLat": 45.83546652
+      }
+    }
+  },
+  {
+    "1213": {
+      "subsub_id": "1213",
+      "name": "Guysborough",
+      "bbox": {
+        "minLon": -62.71454586,
+        "minLat": 44.90050079,
+        "maxLon": -60.92517849,
+        "maxLat": 45.64827608
+      }
+    }
+  },
+  {
+    "1214": {
+      "subsub_id": "1214",
+      "name": "Antigonish",
+      "bbox": {
+        "minLon": -62.23524346,
+        "minLat": 45.38362137,
+        "maxLon": -61.4360029,
+        "maxLat": 45.88759911
+      }
+    }
+  },
+  {
+    "1215": {
+      "subsub_id": "1215",
+      "name": "Inverness",
+      "bbox": {
+        "minLon": -61.60240041,
+        "minLat": 45.6055854,
+        "maxLon": -60.55814386,
+        "maxLat": 47.042046
+      }
+    }
+  },
+  {
+    "1216": {
+      "subsub_id": "1216",
+      "name": "Richmond",
+      "bbox": {
+        "minLon": -61.3735694,
+        "minLat": 45.46665839,
+        "maxLon": -60.2130943,
+        "maxLat": 45.82168602
+      }
+    }
+  },
+  {
+    "1217": {
+      "subsub_id": "1217",
+      "name": "Cape Breton",
+      "bbox": {
+        "minLon": -60.80151331,
+        "minLat": 45.72778088,
+        "maxLon": -59.66116572,
+        "maxLat": 46.3413729
+      }
+    }
+  },
+  {
+    "1218": {
+      "subsub_id": "1218",
+      "name": "Victoria",
+      "bbox": {
+        "minLon": -61.05111385,
+        "minLat": 45.90203641,
+        "maxLon": -60.13599211,
+        "maxLat": 47.2277489
+      }
+    }
+  }
+]

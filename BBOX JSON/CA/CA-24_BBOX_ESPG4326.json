@@ -1,0 +1,1178 @@
+[
+  {
+    "2401": {
+      "subsub_id": "2401",
+      "name": "Communauté maritime des Îles-de-la-Madeleine",
+      "bbox": {
+        "minLon": -62.021118,
+        "minLat": 47.2115885,
+        "maxLon": -61.38976832,
+        "maxLat": 47.80288252
+      }
+    }
+  },
+  {
+    "2402": {
+      "subsub_id": "2402",
+      "name": "Le Rocher-Percé",
+      "bbox": {
+        "minLon": -65.50119084,
+        "minLat": 48.1061576,
+        "maxLon": -64.14363129,
+        "maxLat": 48.69666559
+      }
+    }
+  },
+  {
+    "2403": {
+      "subsub_id": "2403",
+      "name": "La Côte-de-Gaspé",
+      "bbox": {
+        "minLon": -65.53352984,
+        "minLat": 48.67903369,
+        "maxLon": -64.15892509,
+        "maxLat": 49.23088799
+      }
+    }
+  },
+  {
+    "2404": {
+      "subsub_id": "2404",
+      "name": "La Haute-Gaspésie",
+      "bbox": {
+        "minLon": -66.9082278,
+        "minLat": 48.56781033,
+        "maxLon": -65.18757378,
+        "maxLat": 49.25684499
+      }
+    }
+  },
+  {
+    "2405": {
+      "subsub_id": "2405",
+      "name": "Bonaventure",
+      "bbox": {
+        "minLon": -66.27984061,
+        "minLat": 48.00025709,
+        "maxLon": -64.9574042,
+        "maxLat": 48.67923362
+      }
+    }
+  },
+  {
+    "2406": {
+      "subsub_id": "2406",
+      "name": "Avignon",
+      "bbox": {
+        "minLon": -67.66697279,
+        "minLat": 47.84382666,
+        "maxLon": -65.90475481,
+        "maxLat": 48.48323139
+      }
+    }
+  },
+  {
+    "2407": {
+      "subsub_id": "2407",
+      "name": "La Matapédia",
+      "bbox": {
+        "minLon": -67.98087602,
+        "minLat": 48.03192163,
+        "maxLon": -65.94908207,
+        "maxLat": 48.79483453
+      }
+    }
+  },
+  {
+    "2408": {
+      "subsub_id": "2408",
+      "name": "La Matanie",
+      "bbox": {
+        "minLon": -67.94664303,
+        "minLat": 48.54223342,
+        "maxLon": -66.09831552,
+        "maxLat": 49.03389093
+      }
+    }
+  },
+  {
+    "2409": {
+      "subsub_id": "2409",
+      "name": "La Mitis",
+      "bbox": {
+        "minLon": -68.42667171,
+        "minLat": 47.99806427,
+        "maxLon": -67.58481416,
+        "maxLat": 48.69280461
+      }
+    }
+  },
+  {
+    "2410": {
+      "subsub_id": "2410",
+      "name": "Rimouski-Neigette",
+      "bbox": {
+        "minLon": -68.97375076,
+        "minLat": 47.88004845,
+        "maxLon": -67.94791734,
+        "maxLat": 48.52858954
+      }
+    }
+  },
+  {
+    "2411": {
+      "subsub_id": "2411",
+      "name": "Les Basques",
+      "bbox": {
+        "minLon": -69.27592444,
+        "minLat": 47.85762339,
+        "maxLon": -68.65926342,
+        "maxLat": 48.27185033
+      }
+    }
+  },
+  {
+    "2412": {
+      "subsub_id": "2412",
+      "name": "Rivière-du-Loup",
+      "bbox": {
+        "minLon": -69.69532031,
+        "minLat": 47.64583255,
+        "maxLon": -68.84754908,
+        "maxLat": 48.1093724
+      }
+    }
+  },
+  {
+    "2413": {
+      "subsub_id": "2413",
+      "name": "Témiscouata",
+      "bbox": {
+        "minLon": -69.58860236,
+        "minLat": 47.29762398,
+        "maxLon": -68.38254959,
+        "maxLat": 48.06577265
+      }
+    }
+  },
+  {
+    "2414": {
+      "subsub_id": "2414",
+      "name": "Kamouraska",
+      "bbox": {
+        "minLon": -70.09691771,
+        "minLat": 47.0668172,
+        "maxLon": -69.30445916,
+        "maxLat": 47.9307603
+      }
+    }
+  },
+  {
+    "2415": {
+      "subsub_id": "2415",
+      "name": "Charlevoix-Est",
+      "bbox": {
+        "minLon": -70.52949149,
+        "minLat": 47.50861633,
+        "maxLon": -69.68305801,
+        "maxLat": 48.18163136
+      }
+    }
+  },
+  {
+    "2416": {
+      "subsub_id": "2416",
+      "name": "Charlevoix",
+      "bbox": {
+        "minLon": -71.41180301,
+        "minLat": 47.22762636,
+        "maxLon": -70.21284176,
+        "maxLat": 48.00026959
+      }
+    }
+  },
+  {
+    "2417": {
+      "subsub_id": "2417",
+      "name": "L'Islet",
+      "bbox": {
+        "minLon": -70.44007041,
+        "minLat": 46.73328431,
+        "maxLon": -69.6249612,
+        "maxLat": 47.3413507
+      }
+    }
+  },
+  {
+    "2418": {
+      "subsub_id": "2418",
+      "name": "Montmagny",
+      "bbox": {
+        "minLon": -70.79483106,
+        "minLat": 46.4641921,
+        "maxLon": -69.95973445,
+        "maxLat": 47.1711535
+      }
+    }
+  },
+  {
+    "2419": {
+      "subsub_id": "2419",
+      "name": "Bellechasse",
+      "bbox": {
+        "minLon": -71.15201152,
+        "minLat": 46.3941868,
+        "maxLon": -70.32419647,
+        "maxLat": 46.91641693
+      }
+    }
+  },
+  {
+    "2420": {
+      "subsub_id": "2420",
+      "name": "L'Île-d'Orléans",
+      "bbox": {
+        "minLon": -71.1414803,
+        "minLat": 46.84494101,
+        "maxLon": -70.71107841,
+        "maxLat": 47.0252731
+      }
+    }
+  },
+  {
+    "2421": {
+      "subsub_id": "2421",
+      "name": "La Côte-de-Beaupré",
+      "bbox": {
+        "minLon": -72.07393193,
+        "minLat": 46.88564327,
+        "maxLon": -70.60653152,
+        "maxLat": 47.95101385
+      }
+    }
+  },
+  {
+    "2422": {
+      "subsub_id": "2422",
+      "name": "La Jacques-Cartier",
+      "bbox": {
+        "minLon": -72.23967849,
+        "minLat": 46.78418436,
+        "maxLon": -71.08596663,
+        "maxLat": 47.77256562
+      }
+    }
+  },
+  {
+    "2423": {
+      "subsub_id": "2423",
+      "name": "Québec",
+      "bbox": {
+        "minLon": -71.60630704,
+        "minLat": 46.71516969,
+        "maxLon": -71.14304941,
+        "maxLat": 46.98193772
+      }
+    }
+  },
+  {
+    "2425": {
+      "subsub_id": "2425",
+      "name": "Lévis",
+      "bbox": {
+        "minLon": -71.50144035,
+        "minLat": 46.57217431,
+        "maxLon": -70.99394247,
+        "maxLat": 46.83324431
+      }
+    }
+  },
+  {
+    "2426": {
+      "subsub_id": "2426",
+      "name": "La Nouvelle-Beauce",
+      "bbox": {
+        "minLon": -71.33124955,
+        "minLat": 46.33877796,
+        "maxLon": -70.68880955,
+        "maxLat": 46.65238119
+      }
+    }
+  },
+  {
+    "2427": {
+      "subsub_id": "2427",
+      "name": "Robert-Cliche",
+      "bbox": {
+        "minLon": -71.14638696,
+        "minLat": 46.06271089,
+        "maxLon": -70.55791932,
+        "maxLat": 46.42451097
+      }
+    }
+  },
+  {
+    "2428": {
+      "subsub_id": "2428",
+      "name": "Les Etchemins",
+      "bbox": {
+        "minLon": -70.67309011,
+        "minLat": 46.02682591,
+        "maxLon": -70.0464518,
+        "maxLat": 46.67665288
+      }
+    }
+  },
+  {
+    "2429": {
+      "subsub_id": "2429",
+      "name": "Beauce-Sartigan",
+      "bbox": {
+        "minLon": -71.10680416,
+        "minLat": 45.77890752,
+        "maxLon": -70.23899299,
+        "maxLat": 46.26269998
+      }
+    }
+  },
+  {
+    "2430": {
+      "subsub_id": "2430",
+      "name": "Le Granit",
+      "bbox": {
+        "minLon": -71.39271536,
+        "minLat": 45.22863758,
+        "maxLon": -70.38396375,
+        "maxLat": 45.95737909
+      }
+    }
+  },
+  {
+    "2431": {
+      "subsub_id": "2431",
+      "name": "Les Appalaches",
+      "bbox": {
+        "minLon": -71.6861183,
+        "minLat": 45.76874282,
+        "maxLon": -70.97013808,
+        "maxLat": 46.34904809
+      }
+    }
+  },
+  {
+    "2432": {
+      "subsub_id": "2432",
+      "name": "L'Érable",
+      "bbox": {
+        "minLon": -71.98613915,
+        "minLat": 46.02505842,
+        "maxLon": -71.37236812,
+        "maxLat": 46.45256964
+      }
+    }
+  },
+  {
+    "2433": {
+      "subsub_id": "2433",
+      "name": "Lotbinière",
+      "bbox": {
+        "minLon": -72.03766389,
+        "minLat": 46.28963934,
+        "maxLon": -71.10057942,
+        "maxLat": 46.68803439
+      }
+    }
+  },
+  {
+    "2434": {
+      "subsub_id": "2434",
+      "name": "Portneuf",
+      "bbox": {
+        "minLon": -72.54756834,
+        "minLat": 46.576371,
+        "maxLon": -71.51863871,
+        "maxLat": 47.40984822
+      }
+    }
+  },
+  {
+    "2435": {
+      "subsub_id": "2435",
+      "name": "Mékinac",
+      "bbox": {
+        "minLon": -74.0284761,
+        "minLat": 46.60745547,
+        "maxLon": -72.1688537,
+        "maxLat": 47.49692873
+      }
+    }
+  },
+  {
+    "2436": {
+      "subsub_id": "2436",
+      "name": "Shawinigan",
+      "bbox": {
+        "minLon": -73.17913489,
+        "minLat": 46.46049961,
+        "maxLon": -72.58342296,
+        "maxLat": 46.91985823
+      }
+    }
+  },
+  {
+    "2437": {
+      "subsub_id": "2437",
+      "name": "Francheville",
+      "bbox": {
+        "minLon": -72.77788429,
+        "minLat": 46.27715329,
+        "maxLon": -72.10192451,
+        "maxLat": 46.71760888
+      }
+    }
+  },
+  {
+    "2438": {
+      "subsub_id": "2438",
+      "name": "Bécancour",
+      "bbox": {
+        "minLon": -72.60144032,
+        "minLat": 46.19198398,
+        "maxLon": -71.88115694,
+        "maxLat": 46.56120911
+      }
+    }
+  },
+  {
+    "2439": {
+      "subsub_id": "2439",
+      "name": "Arthabaska",
+      "bbox": {
+        "minLon": -72.32720638,
+        "minLat": 45.78733554,
+        "maxLon": -71.45509004,
+        "maxLat": 46.32662916
+      }
+    }
+  },
+  {
+    "2440": {
+      "subsub_id": "2440",
+      "name": "Les Sources",
+      "bbox": {
+        "minLon": -72.13371126,
+        "minLat": 45.60048456,
+        "maxLon": -71.43667967,
+        "maxLat": 45.88529609
+      }
+    }
+  },
+  {
+    "2441": {
+      "subsub_id": "2441",
+      "name": "Le Haut-Saint-François",
+      "bbox": {
+        "minLon": -71.83104786,
+        "minLat": 45.2330501,
+        "maxLon": -71.13096807,
+        "maxLat": 45.79874335
+      }
+    }
+  },
+  {
+    "2442": {
+      "subsub_id": "2442",
+      "name": "Le Val-Saint-François",
+      "bbox": {
+        "minLon": -72.46302091,
+        "minLat": 45.37464856,
+        "maxLon": -71.62619361,
+        "maxLat": 45.76068152
+      }
+    }
+  },
+  {
+    "2443": {
+      "subsub_id": "2443",
+      "name": "Sherbrooke",
+      "bbox": {
+        "minLon": -72.10883728,
+        "minLat": 45.29974977,
+        "maxLon": -71.80255477,
+        "maxLat": 45.52404852
+      }
+    }
+  },
+  {
+    "2444": {
+      "subsub_id": "2444",
+      "name": "Coaticook",
+      "bbox": {
+        "minLon": -72.09823284,
+        "minLat": 45.00647402,
+        "maxLon": -71.39730581,
+        "maxLat": 45.35051783
+      }
+    }
+  },
+  {
+    "2445": {
+      "subsub_id": "2445",
+      "name": "Memphrémagog",
+      "bbox": {
+        "minLon": -72.48580081,
+        "minLat": 45.00379703,
+        "maxLon": -71.86386887,
+        "maxLat": 45.44976447
+      }
+    }
+  },
+  {
+    "2446": {
+      "subsub_id": "2446",
+      "name": "Brome-Missisquoi",
+      "bbox": {
+        "minLon": -73.11562165,
+        "minLat": 45.00782808,
+        "maxLon": -72.39960446,
+        "maxLat": 45.35215421
+      }
+    }
+  },
+  {
+    "2447": {
+      "subsub_id": "2447",
+      "name": "La Haute-Yamaska",
+      "bbox": {
+        "minLon": -72.87625836,
+        "minLat": 45.28430666,
+        "maxLon": -72.44862939,
+        "maxLat": 45.53881208
+      }
+    }
+  },
+  {
+    "2448": {
+      "subsub_id": "2448",
+      "name": "Acton",
+      "bbox": {
+        "minLon": -72.73009827,
+        "minLat": 45.44919725,
+        "maxLon": -72.31440105,
+        "maxLat": 45.7923586
+      }
+    }
+  },
+  {
+    "2449": {
+      "subsub_id": "2449",
+      "name": "Drummond",
+      "bbox": {
+        "minLon": -72.85440222,
+        "minLat": 45.58932074,
+        "maxLon": -72.09323179,
+        "maxLat": 46.09757839
+      }
+    }
+  },
+  {
+    "2450": {
+      "subsub_id": "2450",
+      "name": "Nicolet-Yamaska",
+      "bbox": {
+        "minLon": -72.9733699,
+        "minLat": 46.00627866,
+        "maxLon": -72.14932251,
+        "maxLat": 46.27642959
+      }
+    }
+  },
+  {
+    "2451": {
+      "subsub_id": "2451",
+      "name": "Maskinongé",
+      "bbox": {
+        "minLon": -73.46273919,
+        "minLat": 46.1570713,
+        "maxLon": -72.69067104,
+        "maxLat": 46.88887876
+      }
+    }
+  },
+  {
+    "2452": {
+      "subsub_id": "2452",
+      "name": "D'Autray",
+      "bbox": {
+        "minLon": -73.56293555,
+        "minLat": 45.84763827,
+        "maxLon": -72.97177219,
+        "maxLat": 46.58621207
+      }
+    }
+  },
+  {
+    "2453": {
+      "subsub_id": "2453",
+      "name": "Pierre-De Saurel",
+      "bbox": {
+        "minLon": -73.20387871,
+        "minLat": 45.81798008,
+        "maxLon": -72.75260548,
+        "maxLat": 46.11048379
+      }
+    }
+  },
+  {
+    "2454": {
+      "subsub_id": "2454",
+      "name": "Les Maskoutains",
+      "bbox": {
+        "minLon": -73.14011389,
+        "minLat": 45.45237313,
+        "maxLon": -72.61583927,
+        "maxLat": 45.90799328
+      }
+    }
+  },
+  {
+    "2455": {
+      "subsub_id": "2455",
+      "name": "Rouville",
+      "bbox": {
+        "minLon": -73.28044621,
+        "minLat": 45.26455297,
+        "maxLon": -72.8171996,
+        "maxLat": 45.53506003
+      }
+    }
+  },
+  {
+    "2456": {
+      "subsub_id": "2456",
+      "name": "Le Haut-Richelieu",
+      "bbox": {
+        "minLon": -73.41194522,
+        "minLat": 45.00978857,
+        "maxLon": -72.99481316,
+        "maxLat": 45.41319994
+      }
+    }
+  },
+  {
+    "2457": {
+      "subsub_id": "2457",
+      "name": "La Vallée-du-Richelieu",
+      "bbox": {
+        "minLon": -73.38701092,
+        "minLat": 45.38224016,
+        "maxLon": -73.05902307,
+        "maxLat": 45.86187744
+      }
+    }
+  },
+  {
+    "2458": {
+      "subsub_id": "2458",
+      "name": "Longueuil",
+      "bbox": {
+        "minLon": -73.5270025,
+        "minLat": 45.41319994,
+        "maxLon": -73.29259407,
+        "maxLat": 45.65725329
+      }
+    }
+  },
+  {
+    "2459": {
+      "subsub_id": "2459",
+      "name": "Marguerite-D'Youville",
+      "bbox": {
+        "minLon": -73.48393071,
+        "minLat": 45.55316792,
+        "maxLon": -73.16487429,
+        "maxLat": 45.98070168
+      }
+    }
+  },
+  {
+    "2460": {
+      "subsub_id": "2460",
+      "name": "L'Assomption",
+      "bbox": {
+        "minLon": -73.57857016,
+        "minLat": 45.7016332,
+        "maxLon": -73.284723,
+        "maxLat": 45.94375996
+      }
+    }
+  },
+  {
+    "2461": {
+      "subsub_id": "2461",
+      "name": "Joliette",
+      "bbox": {
+        "minLon": -73.63771659,
+        "minLat": 45.9052348,
+        "maxLon": -73.23370926,
+        "maxLat": 46.20610037
+      }
+    }
+  },
+  {
+    "2462": {
+      "subsub_id": "2462",
+      "name": "Matawinie",
+      "bbox": {
+        "minLon": -74.88863101,
+        "minLat": 45.97785857,
+        "maxLon": -73.28319772,
+        "maxLat": 47.76306464
+      }
+    }
+  },
+  {
+    "2463": {
+      "subsub_id": "2463",
+      "name": "Montcalm",
+      "bbox": {
+        "minLon": -73.97721936,
+        "minLat": 45.78673972,
+        "maxLon": -73.4559755,
+        "maxLat": 46.05934485
+      }
+    }
+  },
+  {
+    "2464": {
+      "subsub_id": "2464",
+      "name": "Les Moulins",
+      "bbox": {
+        "minLon": -73.84646376,
+        "minLat": 45.66999896,
+        "maxLon": -73.48755538,
+        "maxLat": 45.826807
+      }
+    }
+  },
+  {
+    "2465": {
+      "subsub_id": "2465",
+      "name": "Laval",
+      "bbox": {
+        "minLon": -73.89016569,
+        "minLat": 45.51216251,
+        "maxLon": -73.529136,
+        "maxLat": 45.6995813
+      }
+    }
+  },
+  {
+    "2466": {
+      "subsub_id": "2466",
+      "name": "Montréal",
+      "bbox": {
+        "minLon": -73.97639791,
+        "minLat": 45.40214989,
+        "maxLon": -73.47620358,
+        "maxLat": 45.7037778
+      }
+    }
+  },
+  {
+    "2467": {
+      "subsub_id": "2467",
+      "name": "Roussillon",
+      "bbox": {
+        "minLon": -73.8469072,
+        "minLat": 45.22900529,
+        "maxLon": -73.38043016,
+        "maxLat": 45.43391314
+      }
+    }
+  },
+  {
+    "2468": {
+      "subsub_id": "2468",
+      "name": "Les Jardins-de-Napierville",
+      "bbox": {
+        "minLon": -73.75528237,
+        "minLat": 45.002537,
+        "maxLon": -73.35187039,
+        "maxLat": 45.32890358
+      }
+    }
+  },
+  {
+    "2469": {
+      "subsub_id": "2469",
+      "name": "Le Haut-Saint-Laurent",
+      "bbox": {
+        "minLon": -74.66270529,
+        "minLat": 44.99114317,
+        "maxLon": -73.67063544,
+        "maxLat": 45.2185929
+      }
+    }
+  },
+  {
+    "2470": {
+      "subsub_id": "2470",
+      "name": "Beauharnois-Salaberry",
+      "bbox": {
+        "minLon": -74.18230215,
+        "minLat": 45.14548597,
+        "maxLon": -73.66848712,
+        "maxLat": 45.3408994
+      }
+    }
+  },
+  {
+    "2471": {
+      "subsub_id": "2471",
+      "name": "Vaudreuil-Soulanges",
+      "bbox": {
+        "minLon": -74.47191128,
+        "minLat": 45.197403,
+        "maxLon": -73.85198561,
+        "maxLat": 45.56371277
+      }
+    }
+  },
+  {
+    "2472": {
+      "subsub_id": "2472",
+      "name": "Deux-Montagnes",
+      "bbox": {
+        "minLon": -74.2785758,
+        "minLat": 45.45822191,
+        "maxLon": -73.84075599,
+        "maxLat": 45.62172167
+      }
+    }
+  },
+  {
+    "2473": {
+      "subsub_id": "2473",
+      "name": "Thérèse-De Blainville",
+      "bbox": {
+        "minLon": -73.9313833,
+        "minLat": 45.57972861,
+        "maxLon": -73.73069975,
+        "maxLat": 45.81691513
+      }
+    }
+  },
+  {
+    "2474": {
+      "subsub_id": "2474",
+      "name": "Mirabel",
+      "bbox": {
+        "minLon": -74.26752012,
+        "minLat": 45.51474455,
+        "maxLon": -73.85001125,
+        "maxLat": 45.78940607
+      }
+    }
+  },
+  {
+    "2475": {
+      "subsub_id": "2475",
+      "name": "La Rivière-du-Nord",
+      "bbox": {
+        "minLon": -74.21208744,
+        "minLat": 45.67043693,
+        "maxLon": -73.80677512,
+        "maxLat": 45.99776529
+      }
+    }
+  },
+  {
+    "2476": {
+      "subsub_id": "2476",
+      "name": "Argenteuil",
+      "bbox": {
+        "minLon": -74.80765164,
+        "minLat": 45.5061486,
+        "maxLon": -74.10356086,
+        "maxLat": 45.93180183
+      }
+    }
+  },
+  {
+    "2477": {
+      "subsub_id": "2477",
+      "name": "Les Pays-d'en-Haut",
+      "bbox": {
+        "minLon": -74.5364519,
+        "minLat": 45.75269641,
+        "maxLon": -73.96050325,
+        "maxLat": 46.11785743
+      }
+    }
+  },
+  {
+    "2478": {
+      "subsub_id": "2478",
+      "name": "Les Laurentides",
+      "bbox": {
+        "minLon": -75.089904,
+        "minLat": 45.90557632,
+        "maxLon": -74.03338363,
+        "maxLat": 46.45415542
+      }
+    }
+  },
+  {
+    "2479": {
+      "subsub_id": "2479",
+      "name": "Antoine-Labelle",
+      "bbox": {
+        "minLon": -76.14937428,
+        "minLat": 45.95811037,
+        "maxLon": -74.34483754,
+        "maxLat": 47.76453886
+      }
+    }
+  },
+  {
+    "2480": {
+      "subsub_id": "2480",
+      "name": "Papineau",
+      "bbox": {
+        "minLon": -75.79767579,
+        "minLat": 45.53680516,
+        "maxLon": -74.69821609,
+        "maxLat": 46.2161229
+      }
+    }
+  },
+  {
+    "2481": {
+      "subsub_id": "2481",
+      "name": "Gatineau",
+      "bbox": {
+        "minLon": -75.90876169,
+        "minLat": 45.37269871,
+        "maxLon": -75.3451426,
+        "maxLat": 45.59911474
+      }
+    }
+  },
+  {
+    "2482": {
+      "subsub_id": "2482",
+      "name": "Les Collines-de-l'Outaouais",
+      "bbox": {
+        "minLon": -76.32550918,
+        "minLat": 45.40163469,
+        "maxLon": -75.35525894,
+        "maxLat": 45.84595348
+      }
+    }
+  },
+  {
+    "2483": {
+      "subsub_id": "2483",
+      "name": "La Vallée-de-la-Gatineau",
+      "bbox": {
+        "minLon": -77.00380648,
+        "minLat": 45.74939568,
+        "maxLon": -75.30801716,
+        "maxLat": 47.84795397
+      }
+    }
+  },
+  {
+    "2484": {
+      "subsub_id": "2484",
+      "name": "Pontiac",
+      "bbox": {
+        "minLon": -77.9313131,
+        "minLat": 45.45667415,
+        "maxLon": -76.15035326,
+        "maxLat": 47.28967929
+      }
+    }
+  },
+  {
+    "2485": {
+      "subsub_id": "2485",
+      "name": "Témiscamingue",
+      "bbox": {
+        "minLon": -79.58687808,
+        "minLat": 46.20796969,
+        "maxLon": -77.42161989,
+        "maxLat": 47.90828765
+      }
+    }
+  },
+  {
+    "2486": {
+      "subsub_id": "2486",
+      "name": "Rouyn-Noranda",
+      "bbox": {
+        "minLon": -79.5179645,
+        "minLat": 47.70152847,
+        "maxLon": -78.22015946,
+        "maxLat": 48.57545231
+      }
+    }
+  },
+  {
+    "2487": {
+      "subsub_id": "2487",
+      "name": "Abitibi-Ouest",
+      "bbox": {
+        "minLon": -79.51807755,
+        "minLat": 48.42949693,
+        "maxLon": -78.64306015,
+        "maxLat": 49.00953713
+      }
+    }
+  },
+  {
+    "2488": {
+      "subsub_id": "2488",
+      "name": "Abitibi",
+      "bbox": {
+        "minLon": -78.64721798,
+        "minLat": 48.240871,
+        "maxLon": -77.05946174,
+        "maxLat": 49.00045804
+      }
+    }
+  },
+  {
+    "2489": {
+      "subsub_id": "2489",
+      "name": "La Vallée-de-l'Or",
+      "bbox": {
+        "minLon": -78.30855453,
+        "minLat": 47.14469384,
+        "maxLon": -75.52027782,
+        "maxLat": 49.00010638
+      }
+    }
+  },
+  {
+    "2490": {
+      "subsub_id": "2490",
+      "name": "La Tuque",
+      "bbox": {
+        "minLon": -75.52506217,
+        "minLat": 47.06175749,
+        "maxLon": -71.89256064,
+        "maxLat": 49.00007922
+      }
+    }
+  },
+  {
+    "2491": {
+      "subsub_id": "2491",
+      "name": "Le Domaine-du-Roy",
+      "bbox": {
+        "minLon": -74.44389031,
+        "minLat": 47.99834689,
+        "maxLon": -71.88089795,
+        "maxLat": 50.02605224
+      }
+    }
+  },
+  {
+    "2492": {
+      "subsub_id": "2492",
+      "name": "Maria-Chapdelaine",
+      "bbox": {
+        "minLon": -73.81532391,
+        "minLat": 48.67798949,
+        "maxLon": -70.83753138,
+        "maxLat": 52.27982343
+      }
+    }
+  },
+  {
+    "2493": {
+      "subsub_id": "2493",
+      "name": "Lac-Saint-Jean-Est",
+      "bbox": {
+        "minLon": -72.12320378,
+        "minLat": 47.94966108,
+        "maxLon": -71.32101014,
+        "maxLat": 48.96331333
+      }
+    }
+  },
+  {
+    "2494": {
+      "subsub_id": "2494",
+      "name": "Le Saguenay-et-son-Fjord",
+      "bbox": {
+        "minLon": -71.63985869,
+        "minLat": 47.99984313,
+        "maxLon": -69.87082384,
+        "maxLat": 52.69636036
+      }
+    }
+  },
+  {
+    "2495": {
+      "subsub_id": "2495",
+      "name": "La Haute-Côte-Nord",
+      "bbox": {
+        "minLon": -70.07879831,
+        "minLat": 48.0673504,
+        "maxLon": -68.61760231,
+        "maxLat": 50.00007701
+      }
+    }
+  },
+  {
+    "2496": {
+      "subsub_id": "2496",
+      "name": "Manicouagan",
+      "bbox": {
+        "minLon": -70.02563442,
+        "minLat": 48.9298319,
+        "maxLon": -67.22366849,
+        "maxLat": 51.5717606
+      }
+    }
+  },
+  {
+    "2497": {
+      "subsub_id": "2497",
+      "name": "Sept-Rivières--Caniapiscau",
+      "bbox": {
+        "minLon": -70.0259645,
+        "minLat": 49.58716113,
+        "maxLon": -63.55753452,
+        "maxLat": 55.00007057
+      }
+    }
+  },
+  {
+    "2498": {
+      "subsub_id": "2498",
+      "name": "Minganie--Le Golfe-du-Saint-Laurent",
+      "bbox": {
+        "minLon": -65.54801777,
+        "minLat": 49.0622052,
+        "maxLon": -57.1054864,
+        "maxLat": 52.87752858
+      }
+    }
+  },
+  {
+    "2499": {
+      "subsub_id": "2499",
+      "name": "Nord-du-Québec",
+      "bbox": {
+        "minLon": -79.76290191,
+        "minLat": 48.92652895,
+        "maxLon": -63.31978689,
+        "maxLat": 62.5824657
+      }
+    }
+  }
+]

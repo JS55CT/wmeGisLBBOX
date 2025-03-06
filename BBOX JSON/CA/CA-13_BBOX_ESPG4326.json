@@ -1,0 +1,182 @@
+[
+  {
+    "1301": {
+      "subsub_id": "1301",
+      "name": "Saint John",
+      "bbox": {
+        "minLon": -66.46054924,
+        "minLat": 45.0579861,
+        "maxLon": -65.08248168,
+        "maxLat": 45.61508979
+      }
+    }
+  },
+  {
+    "1302": {
+      "subsub_id": "1302",
+      "name": "Charlotte",
+      "bbox": {
+        "minLon": -67.50338521,
+        "minLat": 44.5676638,
+        "maxLon": -66.45854162,
+        "maxLat": 45.5100696
+      }
+    }
+  },
+  {
+    "1303": {
+      "subsub_id": "1303",
+      "name": "Sunbury",
+      "bbox": {
+        "minLon": -66.93634227,
+        "minLat": 45.49879952,
+        "maxLon": -65.85376753,
+        "maxLat": 46.39648606
+      }
+    }
+  },
+  {
+    "1304": {
+      "subsub_id": "1304",
+      "name": "Queens",
+      "bbox": {
+        "minLon": -66.56346136,
+        "minLat": 45.31260902,
+        "maxLon": -65.3425821,
+        "maxLat": 46.3365805
+      }
+    }
+  },
+  {
+    "1305": {
+      "subsub_id": "1305",
+      "name": "Kings",
+      "bbox": {
+        "minLon": -66.46034641,
+        "minLat": 45.22193044,
+        "maxLon": -65.11935467,
+        "maxLat": 46.0987732
+      }
+    }
+  },
+  {
+    "1306": {
+      "subsub_id": "1306",
+      "name": "Albert",
+      "bbox": {
+        "minLon": -65.2238341,
+        "minLat": 45.5268763,
+        "maxLon": -64.56798061,
+        "maxLat": 46.085292
+      }
+    }
+  },
+  {
+    "1307": {
+      "subsub_id": "1307",
+      "name": "Westmorland",
+      "bbox": {
+        "minLon": -65.41643782,
+        "minLat": 45.72054311,
+        "maxLon": -63.77064032,
+        "maxLat": 46.2793464
+      }
+    }
+  },
+  {
+    "1308": {
+      "subsub_id": "1308",
+      "name": "Kent",
+      "bbox": {
+        "minLon": -65.85166108,
+        "minLat": 46.25676548,
+        "maxLon": -64.51005728,
+        "maxLat": 47.05631436
+      }
+    }
+  },
+  {
+    "1309": {
+      "subsub_id": "1309",
+      "name": "Northumberland",
+      "bbox": {
+        "minLon": -67.04834766,
+        "minLat": 46.29401604,
+        "maxLon": -64.7968102,
+        "maxLat": 47.55087688
+      }
+    }
+  },
+  {
+    "1310": {
+      "subsub_id": "1310",
+      "name": "York",
+      "bbox": {
+        "minLon": -67.80563351,
+        "minLat": 45.50261197,
+        "maxLon": -66.20096874,
+        "maxLat": 46.92735567
+      }
+    }
+  },
+  {
+    "1311": {
+      "subsub_id": "1311",
+      "name": "Carleton",
+      "bbox": {
+        "minLon": -67.78828951,
+        "minLat": 45.9329761,
+        "maxLon": -66.86726016,
+        "maxLat": 46.77406692
+      }
+    }
+  },
+  {
+    "1312": {
+      "subsub_id": "1312",
+      "name": "Victoria",
+      "bbox": {
+        "minLon": -67.79019592,
+        "minLat": 46.59265581,
+        "maxLon": -66.74464845,
+        "maxLat": 47.56853974
+      }
+    }
+  },
+  {
+    "1313": {
+      "subsub_id": "1313",
+      "name": "Madawaska",
+      "bbox": {
+        "minLon": -69.05301439,
+        "minLat": 47.05915085,
+        "maxLon": -67.66956923,
+        "maxLat": 47.79078377
+      }
+    }
+  },
+  {
+    "1314": {
+      "subsub_id": "1314",
+      "name": "Restigouche",
+      "bbox": {
+        "minLon": -68.38274252,
+        "minLat": 47.36272761,
+        "maxLon": -65.79396334,
+        "maxLat": 48.0725475
+      }
+    }
+  },
+  {
+    "1315": {
+      "subsub_id": "1315",
+      "name": "Gloucester",
+      "bbox": {
+        "minLon": -66.21716123,
+        "minLat": 47.23253278,
+        "maxLon": -64.46768079,
+        "maxLat": 48.02201349
+      }
+    }
+  }
+]

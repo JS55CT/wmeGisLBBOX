@@ -1,0 +1,590 @@
+[
+  {
+    "3501": {
+      "subsub_id": "3501",
+      "name": "Stormont, Dundas and Glengarry",
+      "bbox": {
+        "minLon": -75.59498419,
+        "minLat": 44.80062778,
+        "maxLon": -74.34347167,
+        "maxLat": 45.508859
+      }
+    }
+  },
+  {
+    "3502": {
+      "subsub_id": "3502",
+      "name": "Prescott and Russell",
+      "bbox": {
+        "minLon": -75.42594482,
+        "minLat": 45.18207449,
+        "maxLon": -74.38160225,
+        "maxLat": 45.64569309
+      }
+    }
+  },
+  {
+    "3506": {
+      "subsub_id": "3506",
+      "name": "Ottawa",
+      "bbox": {
+        "minLon": -76.35397111,
+        "minLat": 44.96221312,
+        "maxLon": -75.24593279,
+        "maxLat": 45.53698399
+      }
+    }
+  },
+  {
+    "3507": {
+      "subsub_id": "3507",
+      "name": "Leeds and Grenville",
+      "bbox": {
+        "minLon": -76.5256646,
+        "minLat": 44.2860637,
+        "maxLon": -75.36044605,
+        "maxLat": 45.12552852
+      }
+    }
+  },
+  {
+    "3509": {
+      "subsub_id": "3509",
+      "name": "Lanark",
+      "bbox": {
+        "minLon": -76.76980018,
+        "minLat": 44.70411782,
+        "maxLon": -75.81616467,
+        "maxLat": 45.41055763
+      }
+    }
+  },
+  {
+    "3510": {
+      "subsub_id": "3510",
+      "name": "Frontenac",
+      "bbox": {
+        "minLon": -77.22135926,
+        "minLat": 44.09511352,
+        "maxLon": -76.1651164,
+        "maxLat": 45.2213995
+      }
+    }
+  },
+  {
+    "3511": {
+      "subsub_id": "3511",
+      "name": "Lennox and Addington",
+      "bbox": {
+        "minLon": -77.54143344,
+        "minLat": 44.04773879,
+        "maxLon": -76.61879176,
+        "maxLat": 45.23703755
+      }
+    }
+  },
+  {
+    "3512": {
+      "subsub_id": "3512",
+      "name": "Hastings",
+      "bbox": {
+        "minLon": -78.1784559,
+        "minLat": 44.01779837,
+        "maxLon": -77.03909285,
+        "maxLat": 45.43811924
+      }
+    }
+  },
+  {
+    "3513": {
+      "subsub_id": "3513",
+      "name": "Prince Edward",
+      "bbox": {
+        "minLon": -77.61289499,
+        "minLat": 43.8387219,
+        "maxLon": -76.58180793,
+        "maxLat": 44.18282719
+      }
+    }
+  },
+  {
+    "3514": {
+      "subsub_id": "3514",
+      "name": "Northumberland",
+      "bbox": {
+        "minLon": -78.50869781,
+        "minLat": 43.91194257,
+        "maxLon": -77.63999076,
+        "maxLat": 44.43647221
+      }
+    }
+  },
+  {
+    "3515": {
+      "subsub_id": "3515",
+      "name": "Peterborough",
+      "bbox": {
+        "minLon": -78.65482846,
+        "minLat": 44.081278,
+        "maxLon": -77.72737241,
+        "maxLat": 44.9167692
+      }
+    }
+  },
+  {
+    "3516": {
+      "subsub_id": "3516",
+      "name": "Kawartha Lakes",
+      "bbox": {
+        "minLon": -79.20922985,
+        "minLat": 44.05840226,
+        "maxLon": -78.42546931,
+        "maxLat": 44.98564218
+      }
+    }
+  },
+  {
+    "3518": {
+      "subsub_id": "3518",
+      "name": "Durham",
+      "bbox": {
+        "minLon": -79.32801341,
+        "minLat": 43.79438526,
+        "maxLon": -78.43695571,
+        "maxLat": 44.51674414
+      }
+    }
+  },
+  {
+    "3519": {
+      "subsub_id": "3519",
+      "name": "York",
+      "bbox": {
+        "minLon": -79.7755044,
+        "minLat": 43.74984571,
+        "maxLon": -79.15612312,
+        "maxLat": 44.45978379
+      }
+    }
+  },
+  {
+    "3520": {
+      "subsub_id": "3520",
+      "name": "Toronto",
+      "bbox": {
+        "minLon": -79.63930241,
+        "minLat": 43.5792011,
+        "maxLon": -79.11533294,
+        "maxLat": 43.8554655
+      }
+    }
+  },
+  {
+    "3521": {
+      "subsub_id": "3521",
+      "name": "Peel",
+      "bbox": {
+        "minLon": -80.14411839,
+        "minLat": 43.48112572,
+        "maxLon": -79.54083836,
+        "maxLat": 43.98975751
+      }
+    }
+  },
+  {
+    "3522": {
+      "subsub_id": "3522",
+      "name": "Dufferin",
+      "bbox": {
+        "minLon": -80.43842852,
+        "minLat": 43.76144261,
+        "maxLon": -79.95117641,
+        "maxLat": 44.29487171
+      }
+    }
+  },
+  {
+    "3523": {
+      "subsub_id": "3523",
+      "name": "Wellington",
+      "bbox": {
+        "minLon": -80.99178752,
+        "minLat": 43.38719143,
+        "maxLon": -79.96903471,
+        "maxLat": 44.02598939
+      }
+    }
+  },
+  {
+    "3524": {
+      "subsub_id": "3524",
+      "name": "Halton",
+      "bbox": {
+        "minLon": -80.16035631,
+        "minLat": 43.2861071,
+        "maxLon": -79.62509017,
+        "maxLat": 43.734451
+      }
+    }
+  },
+  {
+    "3525": {
+      "subsub_id": "3525",
+      "name": "Hamilton",
+      "bbox": {
+        "minLon": -80.24848621,
+        "minLat": 43.05051649,
+        "maxLon": -79.62220525,
+        "maxLat": 43.47105601
+      }
+    }
+  },
+  {
+    "3526": {
+      "subsub_id": "3526",
+      "name": "Niagara",
+      "bbox": {
+        "minLon": -79.75407963,
+        "minLat": 42.83557419,
+        "maxLon": -78.90813003,
+        "maxLat": 43.2621177
+      }
+    }
+  },
+  {
+    "3528": {
+      "subsub_id": "3528",
+      "name": "Haldimand-Norfolk",
+      "bbox": {
+        "minLon": -80.74463615,
+        "minLat": 42.5388033,
+        "maxLon": -79.43759355,
+        "maxLat": 43.13200039
+      }
+    }
+  },
+  {
+    "3529": {
+      "subsub_id": "3529",
+      "name": "Brant",
+      "bbox": {
+        "minLon": -80.60874541,
+        "minLat": 42.97274469,
+        "maxLon": -79.9843231,
+        "maxLat": 43.3065339
+      }
+    }
+  },
+  {
+    "3530": {
+      "subsub_id": "3530",
+      "name": "Waterloo",
+      "bbox": {
+        "minLon": -80.86903649,
+        "minLat": 43.26680201,
+        "maxLon": -80.1876031,
+        "maxLat": 43.68959601
+      }
+    }
+  },
+  {
+    "3531": {
+      "subsub_id": "3531",
+      "name": "Perth",
+      "bbox": {
+        "minLon": -81.44303829,
+        "minLat": 43.20332521,
+        "maxLon": -80.73577929,
+        "maxLat": 43.8446449
+      }
+    }
+  },
+  {
+    "3532": {
+      "subsub_id": "3532",
+      "name": "Oxford",
+      "bbox": {
+        "minLon": -81.13220345,
+        "minLat": 42.82398376,
+        "maxLon": -80.43645261,
+        "maxLat": 43.3533374
+      }
+    }
+  },
+  {
+    "3534": {
+      "subsub_id": "3534",
+      "name": "Elgin",
+      "bbox": {
+        "minLon": -81.83465275,
+        "minLat": 42.4726545,
+        "maxLon": -80.71713209,
+        "maxLat": 42.91259939
+      }
+    }
+  },
+  {
+    "3536": {
+      "subsub_id": "3536",
+      "name": "Chatham-Kent",
+      "bbox": {
+        "minLon": -82.48397924,
+        "minLat": 42.06077915,
+        "maxLon": -81.66860885,
+        "maxLat": 42.65144989
+      }
+    }
+  },
+  {
+    "3537": {
+      "subsub_id": "3537",
+      "name": "Essex",
+      "bbox": {
+        "minLon": -83.13384096,
+        "minLat": 41.6813203,
+        "maxLon": -82.42991941,
+        "maxLat": 42.34904731
+      }
+    }
+  },
+  {
+    "3538": {
+      "subsub_id": "3538",
+      "name": "Lambton",
+      "bbox": {
+        "minLon": -82.67812027,
+        "minLat": 42.46174661,
+        "maxLon": -81.74312978,
+        "maxLat": 43.31854862
+      }
+    }
+  },
+  {
+    "3539": {
+      "subsub_id": "3539",
+      "name": "Middlesex",
+      "bbox": {
+        "minLon": -81.83564232,
+        "minLat": 42.60740255,
+        "maxLon": -80.89869379,
+        "maxLat": 43.2929018
+      }
+    }
+  },
+  {
+    "3540": {
+      "subsub_id": "3540",
+      "name": "Huron",
+      "bbox": {
+        "minLon": -81.77745829,
+        "minLat": 43.23691515,
+        "maxLon": -80.9543992,
+        "maxLat": 44.05418269
+      }
+    }
+  },
+  {
+    "3541": {
+      "subsub_id": "3541",
+      "name": "Bruce",
+      "bbox": {
+        "minLon": -81.77623464,
+        "minLat": 43.9079934,
+        "maxLon": -80.95795766,
+        "maxLat": 45.3559061
+      }
+    }
+  },
+  {
+    "3542": {
+      "subsub_id": "3542",
+      "name": "Grey",
+      "bbox": {
+        "minLon": -81.14038299,
+        "minLat": 43.9678851,
+        "maxLon": -80.2290779,
+        "maxLat": 44.8601704
+      }
+    }
+  },
+  {
+    "3543": {
+      "subsub_id": "3543",
+      "name": "Simcoe",
+      "bbox": {
+        "minLon": -80.29345119,
+        "minLat": 43.95142349,
+        "maxLon": -79.08183404,
+        "maxLat": 44.93151941
+      }
+    }
+  },
+  {
+    "3544": {
+      "subsub_id": "3544",
+      "name": "Muskoka",
+      "bbox": {
+        "minLon": -80.13514118,
+        "minLat": 44.77108089,
+        "maxLon": -78.84319645,
+        "maxLat": 45.53367299
+      }
+    }
+  },
+  {
+    "3546": {
+      "subsub_id": "3546",
+      "name": "Haliburton",
+      "bbox": {
+        "minLon": -79.00114201,
+        "minLat": 44.75408609,
+        "maxLon": -77.96119811,
+        "maxLat": 45.56107503
+      }
+    }
+  },
+  {
+    "3547": {
+      "subsub_id": "3547",
+      "name": "Renfrew",
+      "bbox": {
+        "minLon": -78.41248587,
+        "minLat": 45.09926048,
+        "maxLon": -76.29621681,
+        "maxLat": 46.2933883
+      }
+    }
+  },
+  {
+    "3548": {
+      "subsub_id": "3548",
+      "name": "Nipissing",
+      "bbox": {
+        "minLon": -80.3586093,
+        "minLat": 45.30978878,
+        "maxLon": -77.49826478,
+        "maxLat": 47.2350715
+      }
+    }
+  },
+  {
+    "3549": {
+      "subsub_id": "3549",
+      "name": "Parry Sound",
+      "bbox": {
+        "minLon": -80.83149305,
+        "minLat": 45.0346625,
+        "maxLon": -78.92817387,
+        "maxLat": 46.2418999
+      }
+    }
+  },
+  {
+    "3551": {
+      "subsub_id": "3551",
+      "name": "Manitoulin",
+      "bbox": {
+        "minLon": -83.50815434,
+        "minLat": 45.39106721,
+        "maxLon": -81.45008854,
+        "maxLat": 46.1081876
+      }
+    }
+  },
+  {
+    "3552": {
+      "subsub_id": "3552",
+      "name": "Sudbury",
+      "bbox": {
+        "minLon": -84.01638346,
+        "minLat": 45.8705736,
+        "maxLon": -80.13951245,
+        "maxLat": 48.45096325
+      }
+    }
+  },
+  {
+    "3553": {
+      "subsub_id": "3553",
+      "name": "Greater Sudbury / Grand Sudbury",
+      "bbox": {
+        "minLon": -81.59748146,
+        "minLat": 46.19530627,
+        "maxLon": -80.54881532,
+        "maxLat": 46.97368116
+      }
+    }
+  },
+  {
+    "3554": {
+      "subsub_id": "3554",
+      "name": "Timiskaming",
+      "bbox": {
+        "minLon": -81.85689418,
+        "minLat": 47.05846032,
+        "maxLon": -79.410195,
+        "maxLat": 48.2785237
+      }
+    }
+  },
+  {
+    "3556": {
+      "subsub_id": "3556",
+      "name": "Cochrane",
+      "bbox": {
+        "minLon": -86.54942531,
+        "minLat": 48.27495231,
+        "maxLon": -79.51584871,
+        "maxLat": 52.29407842
+      }
+    }
+  },
+  {
+    "3557": {
+      "subsub_id": "3557",
+      "name": "Algoma",
+      "bbox": {
+        "minLon": -85.3336631,
+        "minLat": 46.01503769,
+        "maxLon": -81.94475717,
+        "maxLat": 49.70986253
+      }
+    }
+  },
+  {
+    "3558": {
+      "subsub_id": "3558",
+      "name": "Thunder Bay",
+      "bbox": {
+        "minLon": -90.9669531,
+        "minLat": 47.33884032,
+        "maxLon": -85.32953839,
+        "maxLat": 51.55824396
+      }
+    }
+  },
+  {
+    "3559": {
+      "subsub_id": "3559",
+      "name": "Rainy River",
+      "bbox": {
+        "minLon": -94.79516786,
+        "minLat": 48.04472809,
+        "maxLon": -90.96493536,
+        "maxLat": 49.36656333
+      }
+    }
+  },
+  {
+    "3560": {
+      "subsub_id": "3560",
+      "name": "Kenora",
+      "bbox": {
+        "minLon": -95.15570333,
+        "minLat": 48.99930582,
+        "maxLon": -81.5059434,
+        "maxLat": 56.8617046
+      }
+    }
+  }
+]
