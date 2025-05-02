@@ -2,15 +2,15 @@
 // @name                WME Where Am I
 // @namespace           https://github.com/JS55CT
 // @description         Use BBOX to locate where you are from a Viewport.
-// @version             1.1.0
+// @version             1.1.1
 // @author              JS55CT
 // @match               https://www.waze.com/*/editor*
 // @match               https://www.waze.com/editor*
 // @match               https://beta.waze.com/*
 // @exclude             https://www.waze.com/*user/*editor/*
 // @require             https://greasyfork.org/scripts/24851-wazewrap/code/WazeWrap.js
-// @require             https://raw.githubusercontent.com/JS55CT/geoBBoxPruner/refs/heads/main/geoBBoxPruner.js
-// @connect             raw.githubusercontent.com
+// @require             https://js55ct.github.io/geoBBoxPruner/geoBBoxPruner.js
+// @connect             github.io
 // @grant               unsafeWindow
 // @grant               GM_xmlhttpRequest
 // @license             MIT
@@ -18,9 +18,9 @@
 
 /*
 External Variables and Objects:
-GM_info: 
-unsafeWindow: 
-WazeWrap: external utility library for interacting with the Waze Map Editor environment.
+GM_info
+unsafeWindow
+WazeWrap
 geoBBoxPruner
 */
 
@@ -32,7 +32,7 @@ var whereAmI = function () {
   // Get the map extent from the SDK
   const geoPruner = new geoBBoxPruner(); // Create and reuse this instance
 
-  let wmeSDK; // Declare wmeSDK globally
+  let wmeSDK;
 
   // Ensure SDK_INITIALIZED is available
   if (unsafeWindow.SDK_INITIALIZED) {
@@ -355,7 +355,7 @@ async function whereAmI() {
       element.style.borderColor = bgColor;
     });
 
-    return element; // Assuming you need to return the created element
+    return element;
   }
 };
 whereAmI();

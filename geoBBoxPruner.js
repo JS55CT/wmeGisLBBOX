@@ -2,14 +2,16 @@
 // @name                geoBBoxPruner
 // @namespace           https://github.com/JS55CT
 // @description         Determines which geographical divisions intersect with the given BBOX.
-// @version             1.0.0
+// @version             1.1.1
 // @license             MIT
 // @grant               GM_xmlhttpRequest
-// @connect             raw.githubusercontent.com
+// @connect             github.io
 // ==/UserScript==
 
 var geoBBoxPruner = (function () {
   // Constructor for the geoBBoxPruner class
+
+  const funcName = "geoBBoxPruner";
   function geoBBoxPruner() {
     // Ensure class instantiation with 'new'
     if (!(this instanceof geoBBoxPruner)) {
@@ -27,7 +29,6 @@ var geoBBoxPruner = (function () {
     if (this.cache[url]) {
       return Promise.resolve(this.cache[url]);
     }
-    //console.log("feaching file: ", url);
     // Fetch data using GM_xmlhttpRequest
     return new Promise((resolve, reject) => {
       GM_xmlhttpRequest({
@@ -40,11 +41,11 @@ var geoBBoxPruner = (function () {
             this.cache[url] = data;
             resolve(data);
           } else {
-            reject(new Error(`Failed to fetch data from ${url}, status: ${response.status}`));
+            reject(new Error(`${funcName}: Failed to fetch data from ${url}, status: ${response.status}`));
           }
         },
         onerror: (error) => {
-          reject(new Error(`Failed to fetch data from ${url}, error: ${error}`));
+          reject(new Error(`${funcName}: Failed to fetch data from ${url}, error: ${error}`));
         },
       });
     });
@@ -55,7 +56,15 @@ var geoBBoxPruner = (function () {
    * @param {Object} bbox1 - The first bounding box.
    * @param {Object} bbox2 - The second bounding box.
    * @returns {boolean} - True if they intersect, false otherwise.
-   */
+   * 
+   * bbox: {
+   *   minLon: number,
+   *   minLat: number,
+   *   maxLon: number,
+   *   maxLat: number
+   * }
+   * 
+   **/
   function checkIntersection(bbox1, bbox2) {
     return !(bbox1.maxLon < bbox2.minLon || bbox1.minLon > bbox2.maxLon || bbox1.maxLat < bbox2.minLat || bbox1.minLat > bbox2.maxLat);
   }
@@ -64,9 +73,16 @@ var geoBBoxPruner = (function () {
    * Identifies countries intersecting with the given viewport bounding box.
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @returns {Array} - List of country info objects that intersect with the viewport.
-   */
+   * 
+   * viewportBbox: {
+   *   minLon: number,
+   *   minLat: number,
+   *   maxLon: number,
+   *   maxLat: number
+   * }
+   **/
   geoBBoxPruner.prototype.getIntersectingCountries = function (viewportBbox) {
-    const url = "https://raw.githubusercontent.com/JS55CT/geoBBoxPruner/refs/heads/main/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
+      const url = "https://js55ct.github.io/geoBBoxPruner/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
 
     return this.fetchJsonWithCache(url)
       .then((COUNTRY_DATA) => {
@@ -87,12 +103,10 @@ var geoBBoxPruner = (function () {
           return [];
         });
 
-        //console.log("Countries with Intersecting (BBOXs)", intersectingCountries);
-
         return intersectingCountries;
       })
       .catch((error) => {
-        console.error("Error fetching country data:", error);
+        console.error(`${funcName}: Error fetching country data:`, error);
         return [];
       });
   };
@@ -152,16 +166,20 @@ var geoBBoxPruner = (function () {
    * @param {string} subSubCode - Sub-subdivision code.
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @returns {Promise<boolean>} - True if intersection exists; false otherwise.
+   * 
+   * * viewportBbox: {
+   *   minLon: number,
+   *   minLat: number,
+   *   maxLon: number,
+   *   maxLat: number
+   * }
    */
   geoBBoxPruner.prototype.fetchAndCheckGeoJsonIntersection = async function (countyCode, subCode, subSubCode, viewportBbox) {
-    const BASE_URL_GEOJSON = `https://raw.githubusercontent.com/JS55CT/geoBBoxPruner/refs/heads/main/GEOJSON/`;
+    const BASE_URL_GEOJSON = `https://js55ct.github.io/geoBBoxPruner/GEOJSON/`;
     const url = `${BASE_URL_GEOJSON}${countyCode}/${subCode}/${countyCode}-${subCode}-${subSubCode}_EPSG4326.geojson`;
-
-    //console.log(`Fetching GeoJSON from URL: ${url}`);
 
     try {
       const geoJsonData = await this.fetchJsonWithCache(url);
-      //console.log(`Successfully fetched GeoJSON data for ${countyCode}-${subCode}-${subSubCode}`);
 
       // Define the viewport as a polygon.
       const viewportPolygon = [
@@ -171,18 +189,15 @@ var geoBBoxPruner = (function () {
         [viewportBbox.maxLon, viewportBbox.minLat],
         [viewportBbox.minLon, viewportBbox.minLat], // Close the polygon
       ];
-      //console.log('Viewport polygon defined:', viewportPolygon);
 
       // Iterate through each feature in the GeoJSON data
       for (const feature of geoJsonData.features) {
         const featureGeometry = feature.geometry;
-        // console.log(`Checking feature with geometry type: ${featureGeometry.type}`);
 
         // Check if the geometry type is Polygon or MultiPolygon
         if (featureGeometry.type === "Polygon") {
           for (const polygon of featureGeometry.coordinates) {
             if (hasIntersection(polygon, viewportPolygon)) {
-              //console.log(`Intersection found with Polygon feature: ${polygon}`);
               return true; // An intersection is found
             }
           }
@@ -190,21 +205,19 @@ var geoBBoxPruner = (function () {
           for (const multiPolygon of featureGeometry.coordinates) {
             for (const polygon of multiPolygon) {
               if (hasIntersection(polygon, viewportPolygon)) {
-                //console.log(`Intersection found with MultiPolygon feature: ${polygon}`);
                 return true; // An intersection is found
               }
             }
           }
         } else {
-          console.warn("Unsupported geometry type:", featureGeometry.type);
+          console.warn(`${funcName}: Unsupported geometry type:`, featureGeometry.type);
           continue; // Skip unsupported geometry types
         }
       }
 
-      //console.log('No intersection found for any features in this GeoJSON.');
       return false; // No intersection found
     } catch (error) {
-      console.error(`Error fetching or processing GeoJSON from ${url}:`, error);
+      console.error(`${funcName}: Error fetching or processing GeoJSON from ${url}:`, error);
       return false;
     }
   };
@@ -214,9 +227,16 @@ var geoBBoxPruner = (function () {
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @param {boolean} [highPrecision=false] - Flag to indicate if high precision is required.
    * @returns {Object} - An object containing intersecting regions.
+   * 
+   * viewportBbox: {
+   *   minLon: number,
+   *   minLat: number,
+   *   maxLon: number,
+   *   maxLat: number
+   * }
    */
   geoBBoxPruner.prototype.getIntersectingStatesAndCounties = async function (viewportBbox, highPrecision = false) {
-    const BASE_URL_BBOX = `https://raw.githubusercontent.com/JS55CT/geoBBoxPruner/refs/heads/main/BBOX%20JSON/US/`;
+    const BASE_URL_BBOX = `https://js55ct.github.io/geoBBoxPruner/BBOX%20JSON/US/`;
     const STATES_URL = `${BASE_URL_BBOX}US_BBOX_ESPG4326.json`;
     const intersectingRegions = {};
 
@@ -286,7 +306,7 @@ var geoBBoxPruner = (function () {
         }
       }
     } catch (error) {
-      console.error("Failed to fetch or process state data:", error);
+      console.error(`${funcName}: Failed to fetch or process state data:`, error);
     }
 
     return intersectingRegions;
@@ -297,11 +317,17 @@ var geoBBoxPruner = (function () {
    * @param {string} countryCode - The 2-letter ISO code of the country.
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @returns {Object} - Major subdivisions that intersect with the viewport.
+   * 
+   *  viewportBbox: {
+   *   minLon: number,
+   *   minLat: number,
+   *   maxLon: number,
+   *   maxLat: number
+   * }
    */
   geoBBoxPruner.prototype.getIntersectingSubdivisions = async function (countryCode, viewportBbox) {
-    //console.log("Finding Subs for country:", countryCode);
     const subdivisionsResult = {};
-    const BASE_URL_BBOX = "https://raw.githubusercontent.com/JS55CT/geoBBoxPruner/refs/heads/main/BBOX%20JSON/";
+    const BASE_URL_BBOX = `https://js55ct.github.io/geoBBoxPruner/BBOX%20JSON/`;
     const subL1Url = `${BASE_URL_BBOX}${countryCode}/${countryCode}_BBOX_ESPG4326.json`;
 
     try {
@@ -349,15 +375,15 @@ var geoBBoxPruner = (function () {
                 }
               }
             } else {
-              console.warn(`No sub-division L2 data found for ${subdivisionID} in country: ${countryCode}`);
+              console.warn(`${funcName}: No sub-division L2 data found for ${subdivisionID} in country: ${countryCode}`);
             }
           }
         }
       } else {
-        console.warn(`No first-level subdivision data found for country code: ${countryCode}`);
+        console.warn(`${funcName}: No first-level subdivision data found for country code: ${countryCode}`);
       }
     } catch (error) {
-      console.error(`Error fetching or processing subdivisions for country code: ${countryCode}`, error);
+      console.error(`${funcName}: Error fetching or processing subdivisions for country code: ${countryCode}`, error);
     }
 
     return subdivisionsResult;
@@ -368,6 +394,13 @@ var geoBBoxPruner = (function () {
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @param {boolean} [highPrecision=false] - Flag to indicate if high precision is required.
    * @returns {Object} - Results of intersecting regions structured by country, state, and county.
+   * 
+   *  viewportBbox: {
+   *   minLon: number,
+   *   minLat: number,
+   *   maxLon: number,
+   *   maxLat: number
+   * }
    */
   geoBBoxPruner.prototype.whatsInView = async function (viewportBbox, highPrecision = false) {
     const results = {};
@@ -376,7 +409,7 @@ var geoBBoxPruner = (function () {
       const countries = await this.getIntersectingCountries(viewportBbox);
 
       if (!countries.length) {
-        console.log("Viewport does not intersect with any known countries.");
+        console.log(`${funcName}: Viewport does not intersect with any known countries.`);
         return results;
       }
 
@@ -384,7 +417,6 @@ var geoBBoxPruner = (function () {
         if (country.ISO_ALPHA2 === "US") {
           // Fetch intersecting states and counties for the US
           const statesAndCounties = await this.getIntersectingStatesAndCounties(viewportBbox, highPrecision);
-          //console.log("statesAndCounties", statesAndCounties);
 
           if (statesAndCounties && Object.keys(statesAndCounties).length > 0) {
             results[country.name] = {
@@ -395,10 +427,8 @@ var geoBBoxPruner = (function () {
             this.cleanIntersectingData(results);
           }
         } else {
-          //console.log("Non US subdivisions for ", country);
           // Handle subdivisions for other countries
           const subdivisions = await this.getIntersectingSubdivisions(country.ISO_ALPHA2, viewportBbox);
-         // console.log("Non US subdivisions", subdivisions);
 
           if (subdivisions && Object.keys(subdivisions).length > 0) {
             results[country.name] = {
@@ -411,10 +441,9 @@ var geoBBoxPruner = (function () {
         }
       }
     } catch (error) {
-      console.error("Error during finding intersecting regions:", error);
+      console.error(`${funcName}: Error during finding intersecting regions:`, error);
     }
 
-    //return this.cleanIntersectingData(results);
     return results;
   };
 
