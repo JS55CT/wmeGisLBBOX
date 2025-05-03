@@ -2,7 +2,7 @@
   {
     "1001": {
       "subsub_id": "1001",
-      "name": "Division No.  1",
+      "name": "Division No. 1",
       "bbox": {
         "minLon": -54.20305591,
         "minLat": 46.610984,
@@ -14,7 +14,7 @@
   {
     "1002": {
       "subsub_id": "1002",
-      "name": "Division No.  2",
+      "name": "Division No. 2",
       "bbox": {
         "minLon": -55.9888099,
         "minLat": 46.8381499,
@@ -26,7 +26,7 @@
   {
     "1003": {
       "subsub_id": "1003",
-      "name": "Division No.  3",
+      "name": "Division No. 3",
       "bbox": {
         "minLon": -59.31835688,
         "minLat": 47.23781891,
@@ -38,7 +38,7 @@
   {
     "1004": {
       "subsub_id": "1004",
-      "name": "Division No.  4",
+      "name": "Division No. 4",
       "bbox": {
         "minLon": -59.4125518,
         "minLat": 47.66131546,
@@ -50,7 +50,7 @@
   {
     "1005": {
       "subsub_id": "1005",
-      "name": "Division No.  5",
+      "name": "Division No. 5",
       "bbox": {
         "minLon": -58.5136631,
         "minLat": 48.50891645,
@@ -62,7 +62,7 @@
   {
     "1006": {
       "subsub_id": "1006",
-      "name": "Division No.  6",
+      "name": "Division No. 6",
       "bbox": {
         "minLon": -57.97015882,
         "minLat": 48.22323305,
@@ -74,7 +74,7 @@
   {
     "1007": {
       "subsub_id": "1007",
-      "name": "Division No.  7",
+      "name": "Division No. 7",
       "bbox": {
         "minLon": -55.30018238,
         "minLat": 47.89050119,
@@ -86,7 +86,7 @@
   {
     "1008": {
       "subsub_id": "1008",
-      "name": "Division No.  8",
+      "name": "Division No. 8",
       "bbox": {
         "minLon": -56.98804985,
         "minLat": 48.9815266,
@@ -98,7 +98,7 @@
   {
     "1009": {
       "subsub_id": "1009",
-      "name": "Division No.  9",
+      "name": "Division No. 9",
       "bbox": {
         "minLon": -58.2437947,
         "minLat": 49.28113094,
