@@ -52,28 +52,53 @@ var geoBBoxPruner = (function () {
   };
 
   /**
-   * Checks whether two bounding boxes intersect.
-   * @param {Object} bbox1 - The first bounding box.
-   * @param {Object} bbox2 - The second bounding box.
-   * @returns {boolean} - True if they intersect, false otherwise.
-   * 
-   * bbox: {
-   *   minLon: number,
-   *   minLat: number,
-   *   maxLon: number,
-   *   maxLat: number
-   * }
-   * 
-   **/
+   * Checks if two geographical bounding boxes intersect, accounting for antemeridian crossing.
+   *
+   * Assumes bounding box objects have properties: minLat, maxLat, minLon, maxLon.
+   * Longitude ranges from -180 to 180 degrees. Latitude ranges from -90 to 90 degrees.
+   *
+   * @param {object} bbox1 - The first bounding box { minLat, maxLat, minLon, maxLon }.
+   * @param {object} bbox2 - The second bounding box { minLat, maxLat, minLon, maxLon }.
+   * @returns {boolean} True if the bounding boxes intersect, false otherwise.
+   */
   function checkIntersection(bbox1, bbox2) {
-    return !(bbox1.maxLon < bbox2.minLon || bbox1.minLon > bbox2.maxLon || bbox1.maxLat < bbox2.minLat || bbox1.minLat > bbox2.maxLat);
+    // Check for Latitude Intersection
+    const latIntersects = !(bbox1.maxLat < bbox2.minLat || bbox1.minLat > bbox2.maxLat);
+    if (!latIntersects) {
+      return false;
+    }
+
+    // Check for Longitude Intersection
+    const bbox1Wraps = bbox1.minLon > bbox1.maxLon;
+    const bbox2Wraps = bbox2.minLon > bbox2.maxLon;
+
+    let lonIntersects = false;
+
+    if (!bbox1Wraps && !bbox2Wraps) {
+      // Neither box wraps the antimeridian - standard overlap check
+      lonIntersects = !(bbox1.maxLon < bbox2.minLon || bbox1.minLon > bbox2.maxLon);
+    } else if (bbox1Wraps && !bbox2Wraps) {
+      // bbox1 wraps and bbox2 does not
+      const separated = bbox1.maxLon < bbox2.minLon && bbox1.minLon > bbox2.maxLon;
+      lonIntersects = !separated;
+    } else if (!bbox1Wraps && bbox2Wraps) {
+      // bbox2 wraps and bbox1 does not
+      const separated = bbox2.maxLon < bbox1.minLon && bbox2.minLon > bbox1.maxLon;
+      lonIntersects = !separated;
+    } else {
+      // Both boxes wrap the antimeridian
+      lonIntersects = true;
+    }
+
+    // Return true if both latitude and longitude intersect
+    return lonIntersects;
   }
 
   /**
    * Identifies countries intersecting with the given viewport bounding box.
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @returns {Array} - List of country info objects that intersect with the viewport.
-   * 
+   *
    * viewportBbox: {
    *   minLon: number,
    *   minLat: number,
@@ -82,7 +107,7 @@ var geoBBoxPruner = (function () {
    * }
    **/
   geoBBoxPruner.prototype.getIntersectingCountries = function (viewportBbox) {
-      const url = "https://js55ct.github.io/geoBBoxPruner/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
+    const url = "https://js55ct.github.io/geoBBoxPruner/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
 
     return this.fetchJsonWithCache(url)
       .then((COUNTRY_DATA) => {
@@ -166,7 +191,7 @@ var geoBBoxPruner = (function () {
    * @param {string} subSubCode - Sub-subdivision code.
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @returns {Promise<boolean>} - True if intersection exists; false otherwise.
-   * 
+   *
    * * viewportBbox: {
    *   minLon: number,
    *   minLat: number,
@@ -227,7 +252,7 @@ var geoBBoxPruner = (function () {
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @param {boolean} [highPrecision=false] - Flag to indicate if high precision is required.
    * @returns {Object} - An object containing intersecting regions.
-   * 
+   *
    * viewportBbox: {
    *   minLon: number,
    *   minLat: number,
@@ -317,7 +342,7 @@ var geoBBoxPruner = (function () {
    * @param {string} countryCode - The 2-letter ISO code of the country.
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @returns {Object} - Major subdivisions that intersect with the viewport.
-   * 
+   *
    *  viewportBbox: {
    *   minLon: number,
    *   minLat: number,
@@ -394,7 +419,7 @@ var geoBBoxPruner = (function () {
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @param {boolean} [highPrecision=false] - Flag to indicate if high precision is required.
    * @returns {Object} - Results of intersecting regions structured by country, state, and county.
-   * 
+   *
    *  viewportBbox: {
    *   minLon: number,
    *   minLat: number,
