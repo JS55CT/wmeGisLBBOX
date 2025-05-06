@@ -144,7 +144,7 @@ var geoBBoxPruner = (function () {
     for (const countryName in intersectingCountries) {
       const country = intersectingCountries[countryName];
 
-      if (country.ISO_ALPHA2 === "US") {
+      if (country.ISO_ALPHA3 === "USA") {
         // US specific logic
         for (const sub1Name in country.subL1) {
           const subL1 = country.subL1[sub1Name];
@@ -199,9 +199,9 @@ var geoBBoxPruner = (function () {
    *   maxLat: number
    * }
    */
-  geoBBoxPruner.prototype.fetchAndCheckGeoJsonIntersection = async function (countyCode, subCode, subSubCode, viewportBbox) {
+  geoBBoxPruner.prototype.fetchAndCheckGeoJsonIntersection = async function (countyCode, subCode, subSubNum, viewportBbox) {
     const BASE_URL_GEOJSON = `https://js55ct.github.io/geoBBoxPruner/GEOJSON/`;
-    const url = `${BASE_URL_GEOJSON}${countyCode}/${subCode}/${countyCode}-${subCode}-${subSubCode}_EPSG4326.geojson`;
+    const url = `${BASE_URL_GEOJSON}${countyCode}/${subCode}/${countyCode}-${subCode}-${subSubNum}_EPSG4326.geojson`;
 
     try {
       const geoJsonData = await this.fetchJsonWithCache(url);
@@ -247,6 +247,7 @@ var geoBBoxPruner = (function () {
     }
   };
 
+
   /**
    * Finds intersecting states and counties with the viewport, considering high-precision GeoJSON data if needed.
    * @param {Object} viewportBbox - The bounding box of the viewport.
@@ -273,7 +274,7 @@ var geoBBoxPruner = (function () {
 
         if (checkIntersection(stateData.bbox, viewportBbox)) {
           const intersectingCounties = {};
-          const countiesUrl = `${BASE_URL_BBOX}US-${stateData.STUSPS}_BBOX_ESPG4326.json`;
+          const countiesUrl = `${BASE_URL_BBOX}USA-${stateCode}_BBOX_ESPG4326.json`; //JS55CT
           const countiesData = await this.fetchJsonWithCache(countiesUrl);
 
           for (const countyEntry of countiesData) {
@@ -285,7 +286,7 @@ var geoBBoxPruner = (function () {
                 .filter((sub) => sub.bbox && checkIntersection(sub.bbox, viewportBbox))
                 .reduce((acc, sub) => {
                   acc[sub.name] = {
-                    COUSUBFP: sub.COUSUBFP,
+                    sub_num: sub.sub_num,
                     source: "BBOX",
                   };
                   return acc;
@@ -295,7 +296,7 @@ var geoBBoxPruner = (function () {
                 let source = "BBOX";
 
                 if (highPrecision) {
-                  const intersectsGeoJson = await this.fetchAndCheckGeoJsonIntersection("US", stateData.STUSPS, countyData.COUNTYFP, viewportBbox);
+                  const intersectsGeoJson = await this.fetchAndCheckGeoJsonIntersection("USA", stateCode, countyData.sub_num, viewportBbox);
 
                   if (intersectsGeoJson) {
                     source = "GEOJSON";
@@ -305,7 +306,7 @@ var geoBBoxPruner = (function () {
                 }
 
                 intersectingCounties[countyName] = {
-                  COUNTYFP: countyData.COUNTYFP,
+                  sub_num: countyData.sub_num,
                   subL3: intersectingSubCounties,
                   source: source,
                 };
@@ -322,8 +323,8 @@ var geoBBoxPruner = (function () {
               }
             }
             intersectingRegions[stateData.name] = {
-              STUSPS: stateData.STUSPS,
-              STATEFP: stateData.STATEFP,
+              sub_id: stateData.sub_id,
+              sub_num: stateData.sub_num,
               subL2: intersectingCounties,
               source: stateSource,
             };
@@ -339,7 +340,7 @@ var geoBBoxPruner = (function () {
 
   /**
    * Fetches major subdivisions data and checks for intersections with the viewport bounding box for countries other than the US.
-   * @param {string} countryCode - The 2-letter ISO code of the country.
+   * @param {string} countryCode - The 3-letter ISO code of the country.
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @returns {Object} - Major subdivisions that intersect with the viewport.
    *
@@ -439,7 +440,7 @@ var geoBBoxPruner = (function () {
       }
 
       for (const country of countries) {
-        if (country.ISO_ALPHA2 === "US") {
+        if (country.ISO_ALPHA3 === "USA") {
           // Fetch intersecting states and counties for the US
           const statesAndCounties = await this.getIntersectingStatesAndCounties(viewportBbox, highPrecision);
 
@@ -453,7 +454,7 @@ var geoBBoxPruner = (function () {
           }
         } else {
           // Handle subdivisions for other countries
-          const subdivisions = await this.getIntersectingSubdivisions(country.ISO_ALPHA2, viewportBbox);
+          const subdivisions = await this.getIntersectingSubdivisions(country.ISO_ALPHA3, viewportBbox);
 
           if (subdivisions && Object.keys(subdivisions).length > 0) {
             results[country.name] = {
