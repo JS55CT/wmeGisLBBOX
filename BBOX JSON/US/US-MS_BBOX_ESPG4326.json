@@ -1,7 +1,7 @@
 [
   {
     "Jasper": {
-      "COUNTYFP": "061",
+      "sub_num": "061",
       "name": "Jasper",
       "bbox": {
         "minLon": -89.322729,
@@ -11,7 +11,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92493",
+          "sub_num": "92493",
           "name": "4",
           "bbox": {
             "minLon": -89.321859,
@@ -21,7 +21,7 @@
           }
         },
         {
-          "COUSUBFP": "91755",
+          "sub_num": "91755",
           "name": "3",
           "bbox": {
             "minLon": -89.322729,
@@ -31,7 +31,7 @@
           }
         },
         {
-          "COUSUBFP": "90279",
+          "sub_num": "90279",
           "name": "1",
           "bbox": {
             "minLon": -89.26232,
@@ -41,7 +41,7 @@
           }
         },
         {
-          "COUSUBFP": "91017",
+          "sub_num": "91017",
           "name": "2",
           "bbox": {
             "minLon": -89.11787,
@@ -51,7 +51,7 @@
           }
         },
         {
-          "COUSUBFP": "93231",
+          "sub_num": "93231",
           "name": "5",
           "bbox": {
             "minLon": -89.116426,
@@ -65,7 +65,7 @@
   },
   {
     "Chickasaw": {
-      "COUNTYFP": "017",
+      "sub_num": "017",
       "name": "Chickasaw",
       "bbox": {
         "minLon": -89.191781,
@@ -75,7 +75,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90819",
+          "sub_num": "90819",
           "name": "2",
           "bbox": {
             "minLon": -89.191781,
@@ -85,7 +85,7 @@
           }
         },
         {
-          "COUSUBFP": "90081",
+          "sub_num": "90081",
           "name": "1",
           "bbox": {
             "minLon": -89.050755,
@@ -95,7 +95,7 @@
           }
         },
         {
-          "COUSUBFP": "92295",
+          "sub_num": "92295",
           "name": "4",
           "bbox": {
             "minLon": -89.139158,
@@ -105,7 +105,7 @@
           }
         },
         {
-          "COUSUBFP": "91557",
+          "sub_num": "91557",
           "name": "3",
           "bbox": {
             "minLon": -89.069329,
@@ -115,7 +115,7 @@
           }
         },
         {
-          "COUSUBFP": "93033",
+          "sub_num": "93033",
           "name": "5",
           "bbox": {
             "minLon": -89.025553,
@@ -129,7 +129,7 @@
   },
   {
     "Union": {
-      "COUNTYFP": "145",
+      "sub_num": "145",
       "name": "Union",
       "bbox": {
         "minLon": -89.246436,
@@ -139,7 +139,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90657",
+          "sub_num": "90657",
           "name": "1",
           "bbox": {
             "minLon": -89.246114,
@@ -149,7 +149,7 @@
           }
         },
         {
-          "COUSUBFP": "91395",
+          "sub_num": "91395",
           "name": "2",
           "bbox": {
             "minLon": -89.246436,
@@ -159,7 +159,7 @@
           }
         },
         {
-          "COUSUBFP": "92133",
+          "sub_num": "92133",
           "name": "3",
           "bbox": {
             "minLon": -89.036851,
@@ -169,7 +169,7 @@
           }
         },
         {
-          "COUSUBFP": "92871",
+          "sub_num": "92871",
           "name": "4",
           "bbox": {
             "minLon": -89.016476,
@@ -179,7 +179,7 @@
           }
         },
         {
-          "COUSUBFP": "93609",
+          "sub_num": "93609",
           "name": "5",
           "bbox": {
             "minLon": -89.009405,
@@ -193,7 +193,7 @@
   },
   {
     "Kemper": {
-      "COUNTYFP": "069",
+      "sub_num": "069",
       "name": "Kemper",
       "bbox": {
         "minLon": -88.915286,
@@ -203,7 +203,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90315",
+          "sub_num": "90315",
           "name": "1",
           "bbox": {
             "minLon": -88.642139,
@@ -213,7 +213,7 @@
           }
         },
         {
-          "COUSUBFP": "91053",
+          "sub_num": "91053",
           "name": "2",
           "bbox": {
             "minLon": -88.665363,
@@ -223,7 +223,7 @@
           }
         },
         {
-          "COUSUBFP": "92529",
+          "sub_num": "92529",
           "name": "4",
           "bbox": {
             "minLon": -88.914991,
@@ -233,7 +233,7 @@
           }
         },
         {
-          "COUSUBFP": "91791",
+          "sub_num": "91791",
           "name": "3",
           "bbox": {
             "minLon": -88.915286,
@@ -243,7 +243,7 @@
           }
         },
         {
-          "COUSUBFP": "93267",
+          "sub_num": "93267",
           "name": "5",
           "bbox": {
             "minLon": -88.736309,
@@ -257,7 +257,7 @@
   },
   {
     "Washington": {
-      "COUNTYFP": "151",
+      "sub_num": "151",
       "name": "Washington",
       "bbox": {
         "minLon": -91.235907,
@@ -267,7 +267,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93636",
+          "sub_num": "93636",
           "name": "5",
           "bbox": {
             "minLon": -91.049433,
@@ -277,7 +277,7 @@
           }
         },
         {
-          "COUSUBFP": "90684",
+          "sub_num": "90684",
           "name": "1",
           "bbox": {
             "minLon": -91.202129,
@@ -287,7 +287,7 @@
           }
         },
         {
-          "COUSUBFP": "92898",
+          "sub_num": "92898",
           "name": "4",
           "bbox": {
             "minLon": -91.033433,
@@ -297,7 +297,7 @@
           }
         },
         {
-          "COUSUBFP": "92160",
+          "sub_num": "92160",
           "name": "3",
           "bbox": {
             "minLon": -91.235907,
@@ -307,7 +307,7 @@
           }
         },
         {
-          "COUSUBFP": "91422",
+          "sub_num": "91422",
           "name": "2",
           "bbox": {
             "minLon": -91.056615,
@@ -321,7 +321,7 @@
   },
   {
     "Issaquena": {
-      "COUNTYFP": "055",
+      "sub_num": "055",
       "name": "Issaquena",
       "bbox": {
         "minLon": -91.214027,
@@ -331,7 +331,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93204",
+          "sub_num": "93204",
           "name": "5",
           "bbox": {
             "minLon": -91.052566,
@@ -341,7 +341,7 @@
           }
         },
         {
-          "COUSUBFP": "90990",
+          "sub_num": "90990",
           "name": "2",
           "bbox": {
             "minLon": -91.165889,
@@ -351,7 +351,7 @@
           }
         },
         {
-          "COUSUBFP": "92466",
+          "sub_num": "92466",
           "name": "4",
           "bbox": {
             "minLon": -91.214027,
@@ -361,7 +361,7 @@
           }
         },
         {
-          "COUSUBFP": "90252",
+          "sub_num": "90252",
           "name": "1",
           "bbox": {
             "minLon": -91.153821,
@@ -371,7 +371,7 @@
           }
         },
         {
-          "COUSUBFP": "91728",
+          "sub_num": "91728",
           "name": "3",
           "bbox": {
             "minLon": -91.054847,
@@ -385,7 +385,7 @@
   },
   {
     "Benton": {
-      "COUNTYFP": "009",
+      "sub_num": "009",
       "name": "Benton",
       "bbox": {
         "minLon": -89.353028,
@@ -395,7 +395,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92997",
+          "sub_num": "92997",
           "name": "5",
           "bbox": {
             "minLon": -89.298355,
@@ -405,7 +405,7 @@
           }
         },
         {
-          "COUSUBFP": "90783",
+          "sub_num": "90783",
           "name": "2",
           "bbox": {
             "minLon": -89.353028,
@@ -415,7 +415,7 @@
           }
         },
         {
-          "COUSUBFP": "90045",
+          "sub_num": "90045",
           "name": "1",
           "bbox": {
             "minLon": -89.26611,
@@ -425,7 +425,7 @@
           }
         },
         {
-          "COUSUBFP": "91521",
+          "sub_num": "91521",
           "name": "3",
           "bbox": {
             "minLon": -89.299227,
@@ -435,7 +435,7 @@
           }
         },
         {
-          "COUSUBFP": "92259",
+          "sub_num": "92259",
           "name": "4",
           "bbox": {
             "minLon": -89.299183,
@@ -449,7 +449,7 @@
   },
   {
     "Lowndes": {
-      "COUNTYFP": "087",
+      "sub_num": "087",
       "name": "Lowndes",
       "bbox": {
         "minLon": -88.67125,
@@ -459,7 +459,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91134",
+          "sub_num": "91134",
           "name": "2",
           "bbox": {
             "minLon": -88.514042,
@@ -469,7 +469,7 @@
           }
         },
         {
-          "COUSUBFP": "93348",
+          "sub_num": "93348",
           "name": "5",
           "bbox": {
             "minLon": -88.67125,
@@ -479,7 +479,7 @@
           }
         },
         {
-          "COUSUBFP": "90396",
+          "sub_num": "90396",
           "name": "1",
           "bbox": {
             "minLon": -88.4038,
@@ -489,7 +489,7 @@
           }
         },
         {
-          "COUSUBFP": "91872",
+          "sub_num": "91872",
           "name": "3",
           "bbox": {
             "minLon": -88.37335,
@@ -499,7 +499,7 @@
           }
         },
         {
-          "COUSUBFP": "92610",
+          "sub_num": "92610",
           "name": "4",
           "bbox": {
             "minLon": -88.670378,
@@ -513,7 +513,7 @@
   },
   {
     "Lamar": {
-      "COUNTYFP": "073",
+      "sub_num": "073",
       "name": "Lamar",
       "bbox": {
         "minLon": -89.6544,
@@ -523,7 +523,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93285",
+          "sub_num": "93285",
           "name": "5",
           "bbox": {
             "minLon": -89.6544,
@@ -533,7 +533,7 @@
           }
         },
         {
-          "COUSUBFP": "91071",
+          "sub_num": "91071",
           "name": "2",
           "bbox": {
             "minLon": -89.561599,
@@ -543,7 +543,7 @@
           }
         },
         {
-          "COUSUBFP": "90333",
+          "sub_num": "90333",
           "name": "1",
           "bbox": {
             "minLon": -89.417453,
@@ -553,7 +553,7 @@
           }
         },
         {
-          "COUSUBFP": "91809",
+          "sub_num": "91809",
           "name": "3",
           "bbox": {
             "minLon": -89.654038,
@@ -563,7 +563,7 @@
           }
         },
         {
-          "COUSUBFP": "92547",
+          "sub_num": "92547",
           "name": "4",
           "bbox": {
             "minLon": -89.654045,
@@ -577,7 +577,7 @@
   },
   {
     "Alcorn": {
-      "COUNTYFP": "003",
+      "sub_num": "003",
       "name": "Alcorn",
       "bbox": {
         "minLon": -88.823541,
@@ -587,7 +587,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91494",
+          "sub_num": "91494",
           "name": "3",
           "bbox": {
             "minLon": -88.700983,
@@ -597,7 +597,7 @@
           }
         },
         {
-          "COUSUBFP": "92970",
+          "sub_num": "92970",
           "name": "5",
           "bbox": {
             "minLon": -88.823541,
@@ -607,7 +607,7 @@
           }
         },
         {
-          "COUSUBFP": "90018",
+          "sub_num": "90018",
           "name": "1",
           "bbox": {
             "minLon": -88.684649,
@@ -617,7 +617,7 @@
           }
         },
         {
-          "COUSUBFP": "90756",
+          "sub_num": "90756",
           "name": "2",
           "bbox": {
             "minLon": -88.486668,
@@ -627,7 +627,7 @@
           }
         },
         {
-          "COUSUBFP": "92232",
+          "sub_num": "92232",
           "name": "4",
           "bbox": {
             "minLon": -88.700391,
@@ -641,7 +641,7 @@
   },
   {
     "Lafayette": {
-      "COUNTYFP": "071",
+      "sub_num": "071",
       "name": "Lafayette",
       "bbox": {
         "minLon": -89.722246,
@@ -651,7 +651,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91800",
+          "sub_num": "91800",
           "name": "3",
           "bbox": {
             "minLon": -89.711803,
@@ -661,7 +661,7 @@
           }
         },
         {
-          "COUSUBFP": "93276",
+          "sub_num": "93276",
           "name": "5",
           "bbox": {
             "minLon": -89.571652,
@@ -671,7 +671,7 @@
           }
         },
         {
-          "COUSUBFP": "90324",
+          "sub_num": "90324",
           "name": "1",
           "bbox": {
             "minLon": -89.544071,
@@ -681,7 +681,7 @@
           }
         },
         {
-          "COUSUBFP": "92538",
+          "sub_num": "92538",
           "name": "4",
           "bbox": {
             "minLon": -89.722246,
@@ -691,7 +691,7 @@
           }
         },
         {
-          "COUSUBFP": "91062",
+          "sub_num": "91062",
           "name": "2",
           "bbox": {
             "minLon": -89.54367,
@@ -705,7 +705,7 @@
   },
   {
     "Carroll": {
-      "COUNTYFP": "015",
+      "sub_num": "015",
       "name": "Carroll",
       "bbox": {
         "minLon": -90.174873,
@@ -715,7 +715,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90810",
+          "sub_num": "90810",
           "name": "2",
           "bbox": {
             "minLon": -90.130254,
@@ -725,7 +725,7 @@
           }
         },
         {
-          "COUSUBFP": "93024",
+          "sub_num": "93024",
           "name": "5",
           "bbox": {
             "minLon": -89.914941,
@@ -735,7 +735,7 @@
           }
         },
         {
-          "COUSUBFP": "90072",
+          "sub_num": "90072",
           "name": "1",
           "bbox": {
             "minLon": -89.928271,
@@ -745,7 +745,7 @@
           }
         },
         {
-          "COUSUBFP": "91548",
+          "sub_num": "91548",
           "name": "3",
           "bbox": {
             "minLon": -90.174873,
@@ -755,7 +755,7 @@
           }
         },
         {
-          "COUSUBFP": "92286",
+          "sub_num": "92286",
           "name": "4",
           "bbox": {
             "minLon": -89.999433,
@@ -769,7 +769,7 @@
   },
   {
     "Lincoln": {
-      "COUNTYFP": "085",
+      "sub_num": "085",
       "name": "Lincoln",
       "bbox": {
         "minLon": -90.737435,
@@ -779,7 +779,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91125",
+          "sub_num": "91125",
           "name": "2",
           "bbox": {
             "minLon": -90.49898,
@@ -789,7 +789,7 @@
           }
         },
         {
-          "COUSUBFP": "93339",
+          "sub_num": "93339",
           "name": "5",
           "bbox": {
             "minLon": -90.737435,
@@ -799,7 +799,7 @@
           }
         },
         {
-          "COUSUBFP": "91863",
+          "sub_num": "91863",
           "name": "3",
           "bbox": {
             "minLon": -90.49726,
@@ -809,7 +809,7 @@
           }
         },
         {
-          "COUSUBFP": "92601",
+          "sub_num": "92601",
           "name": "4",
           "bbox": {
             "minLon": -90.6334,
@@ -819,7 +819,7 @@
           }
         },
         {
-          "COUSUBFP": "90387",
+          "sub_num": "90387",
           "name": "1",
           "bbox": {
             "minLon": -90.44741,
@@ -833,7 +833,7 @@
   },
   {
     "Tunica": {
-      "COUNTYFP": "143",
+      "sub_num": "143",
       "name": "Tunica",
       "bbox": {
         "minLon": -90.591784,
@@ -843,7 +843,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92124",
+          "sub_num": "92124",
           "name": "3",
           "bbox": {
             "minLon": -90.411104,
@@ -853,7 +853,7 @@
           }
         },
         {
-          "COUSUBFP": "90648",
+          "sub_num": "90648",
           "name": "1",
           "bbox": {
             "minLon": -90.377336,
@@ -863,7 +863,7 @@
           }
         },
         {
-          "COUSUBFP": "92862",
+          "sub_num": "92862",
           "name": "4",
           "bbox": {
             "minLon": -90.484972,
@@ -873,7 +873,7 @@
           }
         },
         {
-          "COUSUBFP": "91386",
+          "sub_num": "91386",
           "name": "2",
           "bbox": {
             "minLon": -90.571944,
@@ -883,7 +883,7 @@
           }
         },
         {
-          "COUSUBFP": "93600",
+          "sub_num": "93600",
           "name": "5",
           "bbox": {
             "minLon": -90.591784,
@@ -897,7 +897,7 @@
   },
   {
     "Montgomery": {
-      "COUNTYFP": "097",
+      "sub_num": "097",
       "name": "Montgomery",
       "bbox": {
         "minLon": -89.78689,
@@ -907,7 +907,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91917",
+          "sub_num": "91917",
           "name": "3",
           "bbox": {
             "minLon": -89.735741,
@@ -917,7 +917,7 @@
           }
         },
         {
-          "COUSUBFP": "93393",
+          "sub_num": "93393",
           "name": "5",
           "bbox": {
             "minLon": -89.754051,
@@ -927,7 +927,7 @@
           }
         },
         {
-          "COUSUBFP": "90441",
+          "sub_num": "90441",
           "name": "1",
           "bbox": {
             "minLon": -89.7469,
@@ -937,7 +937,7 @@
           }
         },
         {
-          "COUSUBFP": "91179",
+          "sub_num": "91179",
           "name": "2",
           "bbox": {
             "minLon": -89.78689,
@@ -947,7 +947,7 @@
           }
         },
         {
-          "COUSUBFP": "92655",
+          "sub_num": "92655",
           "name": "4",
           "bbox": {
             "minLon": -89.729165,
@@ -961,7 +961,7 @@
   },
   {
     "Choctaw": {
-      "COUNTYFP": "019",
+      "sub_num": "019",
       "name": "Choctaw",
       "bbox": {
         "minLon": -89.45405,
@@ -971,7 +971,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90090",
+          "sub_num": "90090",
           "name": "1",
           "bbox": {
             "minLon": -89.369347,
@@ -981,7 +981,7 @@
           }
         },
         {
-          "COUSUBFP": "91566",
+          "sub_num": "91566",
           "name": "3",
           "bbox": {
             "minLon": -89.45405,
@@ -991,7 +991,7 @@
           }
         },
         {
-          "COUSUBFP": "90828",
+          "sub_num": "90828",
           "name": "2",
           "bbox": {
             "minLon": -89.356193,
@@ -1001,7 +1001,7 @@
           }
         },
         {
-          "COUSUBFP": "93042",
+          "sub_num": "93042",
           "name": "5",
           "bbox": {
             "minLon": -89.228094,
@@ -1011,7 +1011,7 @@
           }
         },
         {
-          "COUSUBFP": "92304",
+          "sub_num": "92304",
           "name": "4",
           "bbox": {
             "minLon": -89.318011,
@@ -1025,7 +1025,7 @@
   },
   {
     "Tippah": {
-      "COUNTYFP": "139",
+      "sub_num": "139",
       "name": "Tippah",
       "bbox": {
         "minLon": -89.088616,
@@ -1035,7 +1035,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92106",
+          "sub_num": "92106",
           "name": "3",
           "bbox": {
             "minLon": -89.088616,
@@ -1045,7 +1045,7 @@
           }
         },
         {
-          "COUSUBFP": "92844",
+          "sub_num": "92844",
           "name": "4",
           "bbox": {
             "minLon": -88.984041,
@@ -1055,7 +1055,7 @@
           }
         },
         {
-          "COUSUBFP": "93582",
+          "sub_num": "93582",
           "name": "5",
           "bbox": {
             "minLon": -88.952244,
@@ -1065,7 +1065,7 @@
           }
         },
         {
-          "COUSUBFP": "90630",
+          "sub_num": "90630",
           "name": "1",
           "bbox": {
             "minLon": -89.017576,
@@ -1075,7 +1075,7 @@
           }
         },
         {
-          "COUSUBFP": "91368",
+          "sub_num": "91368",
           "name": "2",
           "bbox": {
             "minLon": -89.088615,
@@ -1089,7 +1089,7 @@
   },
   {
     "Pearl River": {
-      "COUNTYFP": "109",
+      "sub_num": "109",
       "name": "Pearl River",
       "bbox": {
         "minLon": -89.85231,
@@ -1099,7 +1099,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91233",
+          "sub_num": "91233",
           "name": "2",
           "bbox": {
             "minLon": -89.85231,
@@ -1109,7 +1109,7 @@
           }
         },
         {
-          "COUSUBFP": "93447",
+          "sub_num": "93447",
           "name": "5",
           "bbox": {
             "minLon": -89.674701,
@@ -1119,7 +1119,7 @@
           }
         },
         {
-          "COUSUBFP": "90495",
+          "sub_num": "90495",
           "name": "1",
           "bbox": {
             "minLon": -89.714717,
@@ -1129,7 +1129,7 @@
           }
         },
         {
-          "COUSUBFP": "92709",
+          "sub_num": "92709",
           "name": "4",
           "bbox": {
             "minLon": -89.830825,
@@ -1139,7 +1139,7 @@
           }
         },
         {
-          "COUSUBFP": "91971",
+          "sub_num": "91971",
           "name": "3",
           "bbox": {
             "minLon": -89.696843,
@@ -1153,7 +1153,7 @@
   },
   {
     "Perry": {
-      "COUNTYFP": "111",
+      "sub_num": "111",
       "name": "Perry",
       "bbox": {
         "minLon": -89.146176,
@@ -1163,7 +1163,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90504",
+          "sub_num": "90504",
           "name": "1",
           "bbox": {
             "minLon": -89.145981,
@@ -1173,7 +1173,7 @@
           }
         },
         {
-          "COUSUBFP": "91242",
+          "sub_num": "91242",
           "name": "2",
           "bbox": {
             "minLon": -89.146165,
@@ -1183,7 +1183,7 @@
           }
         },
         {
-          "COUSUBFP": "91980",
+          "sub_num": "91980",
           "name": "3",
           "bbox": {
             "minLon": -89.0324,
@@ -1193,7 +1193,7 @@
           }
         },
         {
-          "COUSUBFP": "93456",
+          "sub_num": "93456",
           "name": "5",
           "bbox": {
             "minLon": -89.146176,
@@ -1203,7 +1203,7 @@
           }
         },
         {
-          "COUSUBFP": "92718",
+          "sub_num": "92718",
           "name": "4",
           "bbox": {
             "minLon": -89.024268,
@@ -1217,7 +1217,7 @@
   },
   {
     "Bolivar": {
-      "COUNTYFP": "011",
+      "sub_num": "011",
       "name": "Bolivar",
       "bbox": {
         "minLon": -91.234608,
@@ -1227,7 +1227,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92268",
+          "sub_num": "92268",
           "name": "4",
           "bbox": {
             "minLon": -90.745251,
@@ -1237,7 +1237,7 @@
           }
         },
         {
-          "COUSUBFP": "90792",
+          "sub_num": "90792",
           "name": "2",
           "bbox": {
             "minLon": -90.823378,
@@ -1247,7 +1247,7 @@
           }
         },
         {
-          "COUSUBFP": "93006",
+          "sub_num": "93006",
           "name": "5",
           "bbox": {
             "minLon": -90.896986,
@@ -1257,7 +1257,7 @@
           }
         },
         {
-          "COUSUBFP": "91530",
+          "sub_num": "91530",
           "name": "3",
           "bbox": {
             "minLon": -90.870839,
@@ -1267,7 +1267,7 @@
           }
         },
         {
-          "COUSUBFP": "90054",
+          "sub_num": "90054",
           "name": "1",
           "bbox": {
             "minLon": -91.234608,
@@ -1281,7 +1281,7 @@
   },
   {
     "Warren": {
-      "COUNTYFP": "149",
+      "sub_num": "149",
       "name": "Warren",
       "bbox": {
         "minLon": -91.174577,
@@ -1291,7 +1291,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92151",
+          "sub_num": "92151",
           "name": "3",
           "bbox": {
             "minLon": -90.906466,
@@ -1301,7 +1301,7 @@
           }
         },
         {
-          "COUSUBFP": "92889",
+          "sub_num": "92889",
           "name": "4",
           "bbox": {
             "minLon": -91.174577,
@@ -1311,7 +1311,7 @@
           }
         },
         {
-          "COUSUBFP": "90675",
+          "sub_num": "90675",
           "name": "1",
           "bbox": {
             "minLon": -90.853116,
@@ -1321,7 +1321,7 @@
           }
         },
         {
-          "COUSUBFP": "91413",
+          "sub_num": "91413",
           "name": "2",
           "bbox": {
             "minLon": -91.117308,
@@ -1331,7 +1331,7 @@
           }
         },
         {
-          "COUSUBFP": "93627",
+          "sub_num": "93627",
           "name": "5",
           "bbox": {
             "minLon": -90.877343,
@@ -1345,7 +1345,7 @@
   },
   {
     "Newton": {
-      "COUNTYFP": "101",
+      "sub_num": "101",
       "name": "Newton",
       "bbox": {
         "minLon": -89.322692,
@@ -1355,7 +1355,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90459",
+          "sub_num": "90459",
           "name": "1",
           "bbox": {
             "minLon": -89.185198,
@@ -1365,7 +1365,7 @@
           }
         },
         {
-          "COUSUBFP": "92673",
+          "sub_num": "92673",
           "name": "4",
           "bbox": {
             "minLon": -89.322692,
@@ -1375,7 +1375,7 @@
           }
         },
         {
-          "COUSUBFP": "91197",
+          "sub_num": "91197",
           "name": "2",
           "bbox": {
             "minLon": -89.121886,
@@ -1385,7 +1385,7 @@
           }
         },
         {
-          "COUSUBFP": "93411",
+          "sub_num": "93411",
           "name": "5",
           "bbox": {
             "minLon": -89.198907,
@@ -1395,7 +1395,7 @@
           }
         },
         {
-          "COUSUBFP": "91935",
+          "sub_num": "91935",
           "name": "3",
           "bbox": {
             "minLon": -89.322634,
@@ -1409,7 +1409,7 @@
   },
   {
     "Tallahatchie": {
-      "COUNTYFP": "135",
+      "sub_num": "135",
       "name": "Tallahatchie",
       "bbox": {
         "minLon": -90.451643,
@@ -1419,7 +1419,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90612",
+          "sub_num": "90612",
           "name": "1",
           "bbox": {
             "minLon": -90.135942,
@@ -1429,7 +1429,7 @@
           }
         },
         {
-          "COUSUBFP": "93564",
+          "sub_num": "93564",
           "name": "5",
           "bbox": {
             "minLon": -90.451643,
@@ -1439,7 +1439,7 @@
           }
         },
         {
-          "COUSUBFP": "91350",
+          "sub_num": "91350",
           "name": "2",
           "bbox": {
             "minLon": -90.373754,
@@ -1449,7 +1449,7 @@
           }
         },
         {
-          "COUSUBFP": "92088",
+          "sub_num": "92088",
           "name": "3",
           "bbox": {
             "minLon": -90.07479,
@@ -1459,7 +1459,7 @@
           }
         },
         {
-          "COUSUBFP": "92826",
+          "sub_num": "92826",
           "name": "4",
           "bbox": {
             "minLon": -90.348963,
@@ -1473,7 +1473,7 @@
   },
   {
     "Sharkey": {
-      "COUNTYFP": "125",
+      "sub_num": "125",
       "name": "Sharkey",
       "bbox": {
         "minLon": -90.965281,
@@ -1483,7 +1483,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91305",
+          "sub_num": "91305",
           "name": "2",
           "bbox": {
             "minLon": -90.965281,
@@ -1493,7 +1493,7 @@
           }
         },
         {
-          "COUSUBFP": "92043",
+          "sub_num": "92043",
           "name": "3",
           "bbox": {
             "minLon": -90.881332,
@@ -1503,7 +1503,7 @@
           }
         },
         {
-          "COUSUBFP": "93519",
+          "sub_num": "93519",
           "name": "5",
           "bbox": {
             "minLon": -90.914633,
@@ -1513,7 +1513,7 @@
           }
         },
         {
-          "COUSUBFP": "90567",
+          "sub_num": "90567",
           "name": "1",
           "bbox": {
             "minLon": -90.957923,
@@ -1523,7 +1523,7 @@
           }
         },
         {
-          "COUSUBFP": "92781",
+          "sub_num": "92781",
           "name": "4",
           "bbox": {
             "minLon": -90.914885,
@@ -1537,7 +1537,7 @@
   },
   {
     "Forrest": {
-      "COUNTYFP": "035",
+      "sub_num": "035",
       "name": "Forrest",
       "bbox": {
         "minLon": -89.451616,
@@ -1547,7 +1547,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91638",
+          "sub_num": "91638",
           "name": "3",
           "bbox": {
             "minLon": -89.302428,
@@ -1557,7 +1557,7 @@
           }
         },
         {
-          "COUSUBFP": "92376",
+          "sub_num": "92376",
           "name": "4",
           "bbox": {
             "minLon": -89.316689,
@@ -1567,7 +1567,7 @@
           }
         },
         {
-          "COUSUBFP": "93114",
+          "sub_num": "93114",
           "name": "5",
           "bbox": {
             "minLon": -89.398983,
@@ -1577,7 +1577,7 @@
           }
         },
         {
-          "COUSUBFP": "90162",
+          "sub_num": "90162",
           "name": "1",
           "bbox": {
             "minLon": -89.34584,
@@ -1587,7 +1587,7 @@
           }
         },
         {
-          "COUSUBFP": "90900",
+          "sub_num": "90900",
           "name": "2",
           "bbox": {
             "minLon": -89.451616,
@@ -1601,7 +1601,7 @@
   },
   {
     "Yalobusha": {
-      "COUNTYFP": "161",
+      "sub_num": "161",
       "name": "Yalobusha",
       "bbox": {
         "minLon": -89.931747,
@@ -1611,7 +1611,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91467",
+          "sub_num": "91467",
           "name": "2",
           "bbox": {
             "minLon": -89.668046,
@@ -1621,7 +1621,7 @@
           }
         },
         {
-          "COUSUBFP": "93681",
+          "sub_num": "93681",
           "name": "5",
           "bbox": {
             "minLon": -89.926129,
@@ -1631,7 +1631,7 @@
           }
         },
         {
-          "COUSUBFP": "92205",
+          "sub_num": "92205",
           "name": "3",
           "bbox": {
             "minLon": -89.846404,
@@ -1641,7 +1641,7 @@
           }
         },
         {
-          "COUSUBFP": "92943",
+          "sub_num": "92943",
           "name": "4",
           "bbox": {
             "minLon": -89.931747,
@@ -1651,7 +1651,7 @@
           }
         },
         {
-          "COUSUBFP": "90729",
+          "sub_num": "90729",
           "name": "1",
           "bbox": {
             "minLon": -89.808349,
@@ -1665,7 +1665,7 @@
   },
   {
     "Clarke": {
-      "COUNTYFP": "023",
+      "sub_num": "023",
       "name": "Clarke",
       "bbox": {
         "minLon": -88.914277,
@@ -1675,7 +1675,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91584",
+          "sub_num": "91584",
           "name": "3",
           "bbox": {
             "minLon": -88.914277,
@@ -1685,7 +1685,7 @@
           }
         },
         {
-          "COUSUBFP": "90846",
+          "sub_num": "90846",
           "name": "2",
           "bbox": {
             "minLon": -88.913339,
@@ -1695,7 +1695,7 @@
           }
         },
         {
-          "COUSUBFP": "92322",
+          "sub_num": "92322",
           "name": "4",
           "bbox": {
             "minLon": -88.731411,
@@ -1705,7 +1705,7 @@
           }
         },
         {
-          "COUSUBFP": "93060",
+          "sub_num": "93060",
           "name": "5",
           "bbox": {
             "minLon": -88.72806,
@@ -1715,7 +1715,7 @@
           }
         },
         {
-          "COUSUBFP": "90108",
+          "sub_num": "90108",
           "name": "1",
           "bbox": {
             "minLon": -88.810808,
@@ -1729,7 +1729,7 @@
   },
   {
     "Simpson": {
-      "COUNTYFP": "127",
+      "sub_num": "127",
       "name": "Simpson",
       "bbox": {
         "minLon": -90.247927,
@@ -1739,7 +1739,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90576",
+          "sub_num": "90576",
           "name": "1",
           "bbox": {
             "minLon": -89.985009,
@@ -1749,7 +1749,7 @@
           }
         },
         {
-          "COUSUBFP": "92790",
+          "sub_num": "92790",
           "name": "4",
           "bbox": {
             "minLon": -90.159183,
@@ -1759,7 +1759,7 @@
           }
         },
         {
-          "COUSUBFP": "91314",
+          "sub_num": "91314",
           "name": "2",
           "bbox": {
             "minLon": -89.957385,
@@ -1769,7 +1769,7 @@
           }
         },
         {
-          "COUSUBFP": "93528",
+          "sub_num": "93528",
           "name": "5",
           "bbox": {
             "minLon": -90.247927,
@@ -1779,7 +1779,7 @@
           }
         },
         {
-          "COUSUBFP": "92052",
+          "sub_num": "92052",
           "name": "3",
           "bbox": {
             "minLon": -89.9017,
@@ -1793,7 +1793,7 @@
   },
   {
     "Stone": {
-      "COUNTYFP": "131",
+      "sub_num": "131",
       "name": "Stone",
       "bbox": {
         "minLon": -89.341488,
@@ -1803,7 +1803,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91332",
+          "sub_num": "91332",
           "name": "2",
           "bbox": {
             "minLon": -89.340898,
@@ -1813,7 +1813,7 @@
           }
         },
         {
-          "COUSUBFP": "93546",
+          "sub_num": "93546",
           "name": "5",
           "bbox": {
             "minLon": -89.13804,
@@ -1823,7 +1823,7 @@
           }
         },
         {
-          "COUSUBFP": "90594",
+          "sub_num": "90594",
           "name": "1",
           "bbox": {
             "minLon": -89.171076,
@@ -1833,7 +1833,7 @@
           }
         },
         {
-          "COUSUBFP": "92070",
+          "sub_num": "92070",
           "name": "3",
           "bbox": {
             "minLon": -89.341488,
@@ -1843,7 +1843,7 @@
           }
         },
         {
-          "COUSUBFP": "92808",
+          "sub_num": "92808",
           "name": "4",
           "bbox": {
             "minLon": -89.16294,
@@ -1857,7 +1857,7 @@
   },
   {
     "Rankin": {
-      "COUNTYFP": "121",
+      "sub_num": "121",
       "name": "Rankin",
       "bbox": {
         "minLon": -90.254799,
@@ -1867,7 +1867,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92025",
+          "sub_num": "92025",
           "name": "3",
           "bbox": {
             "minLon": -90.125807,
@@ -1877,7 +1877,7 @@
           }
         },
         {
-          "COUSUBFP": "90549",
+          "sub_num": "90549",
           "name": "1",
           "bbox": {
             "minLon": -90.254799,
@@ -1887,7 +1887,7 @@
           }
         },
         {
-          "COUSUBFP": "92763",
+          "sub_num": "92763",
           "name": "4",
           "bbox": {
             "minLon": -90.038189,
@@ -1897,7 +1897,7 @@
           }
         },
         {
-          "COUSUBFP": "91287",
+          "sub_num": "91287",
           "name": "2",
           "bbox": {
             "minLon": -90.117078,
@@ -1907,7 +1907,7 @@
           }
         },
         {
-          "COUSUBFP": "93501",
+          "sub_num": "93501",
           "name": "5",
           "bbox": {
             "minLon": -90.162677,
@@ -1921,7 +1921,7 @@
   },
   {
     "Marion": {
-      "COUNTYFP": "091",
+      "sub_num": "091",
       "name": "Marion",
       "bbox": {
         "minLon": -90.040614,
@@ -1931,7 +1931,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92628",
+          "sub_num": "92628",
           "name": "4",
           "bbox": {
             "minLon": -90.031914,
@@ -1941,7 +1941,7 @@
           }
         },
         {
-          "COUSUBFP": "90414",
+          "sub_num": "90414",
           "name": "1",
           "bbox": {
             "minLon": -89.819377,
@@ -1951,7 +1951,7 @@
           }
         },
         {
-          "COUSUBFP": "93366",
+          "sub_num": "93366",
           "name": "5",
           "bbox": {
             "minLon": -89.846396,
@@ -1961,7 +1961,7 @@
           }
         },
         {
-          "COUSUBFP": "91152",
+          "sub_num": "91152",
           "name": "2",
           "bbox": {
             "minLon": -89.968704,
@@ -1971,7 +1971,7 @@
           }
         },
         {
-          "COUSUBFP": "91890",
+          "sub_num": "91890",
           "name": "3",
           "bbox": {
             "minLon": -90.040614,
@@ -1985,7 +1985,7 @@
   },
   {
     "George": {
-      "COUNTYFP": "039",
+      "sub_num": "039",
       "name": "George",
       "bbox": {
         "minLon": -88.885038,
@@ -1995,7 +1995,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90918",
+          "sub_num": "90918",
           "name": "2",
           "bbox": {
             "minLon": -88.590575,
@@ -2005,7 +2005,7 @@
           }
         },
         {
-          "COUSUBFP": "93132",
+          "sub_num": "93132",
           "name": "5",
           "bbox": {
             "minLon": -88.885038,
@@ -2015,7 +2015,7 @@
           }
         },
         {
-          "COUSUBFP": "90180",
+          "sub_num": "90180",
           "name": "1",
           "bbox": {
             "minLon": -88.583887,
@@ -2025,7 +2025,7 @@
           }
         },
         {
-          "COUSUBFP": "91656",
+          "sub_num": "91656",
           "name": "3",
           "bbox": {
             "minLon": -88.768963,
@@ -2035,7 +2035,7 @@
           }
         },
         {
-          "COUSUBFP": "92394",
+          "sub_num": "92394",
           "name": "4",
           "bbox": {
             "minLon": -88.834435,
@@ -2049,7 +2049,7 @@
   },
   {
     "Monroe": {
-      "COUNTYFP": "095",
+      "sub_num": "095",
       "name": "Monroe",
       "bbox": {
         "minLon": -88.72042,
@@ -2059,7 +2059,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91170",
+          "sub_num": "91170",
           "name": "2",
           "bbox": {
             "minLon": -88.549726,
@@ -2069,7 +2069,7 @@
           }
         },
         {
-          "COUSUBFP": "93384",
+          "sub_num": "93384",
           "name": "5",
           "bbox": {
             "minLon": -88.720221,
@@ -2079,7 +2079,7 @@
           }
         },
         {
-          "COUSUBFP": "90432",
+          "sub_num": "90432",
           "name": "1",
           "bbox": {
             "minLon": -88.578538,
@@ -2089,7 +2089,7 @@
           }
         },
         {
-          "COUSUBFP": "92646",
+          "sub_num": "92646",
           "name": "4",
           "bbox": {
             "minLon": -88.72042,
@@ -2099,7 +2099,7 @@
           }
         },
         {
-          "COUSUBFP": "91908",
+          "sub_num": "91908",
           "name": "3",
           "bbox": {
             "minLon": -88.5789,
@@ -2113,7 +2113,7 @@
   },
   {
     "Scott": {
-      "COUNTYFP": "123",
+      "sub_num": "123",
       "name": "Scott",
       "bbox": {
         "minLon": -89.784123,
@@ -2123,7 +2123,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91296",
+          "sub_num": "91296",
           "name": "2",
           "bbox": {
             "minLon": -89.580514,
@@ -2133,7 +2133,7 @@
           }
         },
         {
-          "COUSUBFP": "93510",
+          "sub_num": "93510",
           "name": "5",
           "bbox": {
             "minLon": -89.462997,
@@ -2143,7 +2143,7 @@
           }
         },
         {
-          "COUSUBFP": "90558",
+          "sub_num": "90558",
           "name": "1",
           "bbox": {
             "minLon": -89.581423,
@@ -2153,7 +2153,7 @@
           }
         },
         {
-          "COUSUBFP": "92034",
+          "sub_num": "92034",
           "name": "3",
           "bbox": {
             "minLon": -89.741013,
@@ -2163,7 +2163,7 @@
           }
         },
         {
-          "COUSUBFP": "92772",
+          "sub_num": "92772",
           "name": "4",
           "bbox": {
             "minLon": -89.784123,
@@ -2177,7 +2177,7 @@
   },
   {
     "Holmes": {
-      "COUNTYFP": "051",
+      "sub_num": "051",
       "name": "Holmes",
       "bbox": {
         "minLon": -90.43195,
@@ -2187,7 +2187,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90234",
+          "sub_num": "90234",
           "name": "1",
           "bbox": {
             "minLon": -90.139099,
@@ -2197,7 +2197,7 @@
           }
         },
         {
-          "COUSUBFP": "91710",
+          "sub_num": "91710",
           "name": "3",
           "bbox": {
             "minLon": -90.338339,
@@ -2207,7 +2207,7 @@
           }
         },
         {
-          "COUSUBFP": "90972",
+          "sub_num": "90972",
           "name": "2",
           "bbox": {
             "minLon": -89.950202,
@@ -2217,7 +2217,7 @@
           }
         },
         {
-          "COUSUBFP": "92448",
+          "sub_num": "92448",
           "name": "4",
           "bbox": {
             "minLon": -90.43195,
@@ -2227,7 +2227,7 @@
           }
         },
         {
-          "COUSUBFP": "93186",
+          "sub_num": "93186",
           "name": "5",
           "bbox": {
             "minLon": -90.331589,
@@ -2241,7 +2241,7 @@
   },
   {
     "Oktibbeha": {
-      "COUNTYFP": "105",
+      "sub_num": "105",
       "name": "Oktibbeha",
       "bbox": {
         "minLon": -89.088662,
@@ -2251,7 +2251,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90477",
+          "sub_num": "90477",
           "name": "1",
           "bbox": {
             "minLon": -89.088662,
@@ -2261,7 +2261,7 @@
           }
         },
         {
-          "COUSUBFP": "91215",
+          "sub_num": "91215",
           "name": "2",
           "bbox": {
             "minLon": -88.84115,
@@ -2271,7 +2271,7 @@
           }
         },
         {
-          "COUSUBFP": "91953",
+          "sub_num": "91953",
           "name": "3",
           "bbox": {
             "minLon": -89.088527,
@@ -2281,7 +2281,7 @@
           }
         },
         {
-          "COUSUBFP": "93429",
+          "sub_num": "93429",
           "name": "5",
           "bbox": {
             "minLon": -88.909167,
@@ -2291,7 +2291,7 @@
           }
         },
         {
-          "COUSUBFP": "92691",
+          "sub_num": "92691",
           "name": "4",
           "bbox": {
             "minLon": -89.088659,
@@ -2305,7 +2305,7 @@
   },
   {
     "Covington": {
-      "COUNTYFP": "031",
+      "sub_num": "031",
       "name": "Covington",
       "bbox": {
         "minLon": -89.755806,
@@ -2315,7 +2315,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91620",
+          "sub_num": "91620",
           "name": "3",
           "bbox": {
             "minLon": -89.66412,
@@ -2325,7 +2325,7 @@
           }
         },
         {
-          "COUSUBFP": "92358",
+          "sub_num": "92358",
           "name": "4",
           "bbox": {
             "minLon": -89.755806,
@@ -2335,7 +2335,7 @@
           }
         },
         {
-          "COUSUBFP": "93096",
+          "sub_num": "93096",
           "name": "5",
           "bbox": {
             "minLon": -89.586797,
@@ -2345,7 +2345,7 @@
           }
         },
         {
-          "COUSUBFP": "90144",
+          "sub_num": "90144",
           "name": "1",
           "bbox": {
             "minLon": -89.687894,
@@ -2355,7 +2355,7 @@
           }
         },
         {
-          "COUSUBFP": "90882",
+          "sub_num": "90882",
           "name": "2",
           "bbox": {
             "minLon": -89.602672,
@@ -2369,7 +2369,7 @@
   },
   {
     "Pontotoc": {
-      "COUNTYFP": "115",
+      "sub_num": "115",
       "name": "Pontotoc",
       "bbox": {
         "minLon": -89.246534,
@@ -2379,7 +2379,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91260",
+          "sub_num": "91260",
           "name": "2",
           "bbox": {
             "minLon": -89.246534,
@@ -2389,7 +2389,7 @@
           }
         },
         {
-          "COUSUBFP": "93474",
+          "sub_num": "93474",
           "name": "5",
           "bbox": {
             "minLon": -89.078472,
@@ -2399,7 +2399,7 @@
           }
         },
         {
-          "COUSUBFP": "91998",
+          "sub_num": "91998",
           "name": "3",
           "bbox": {
             "minLon": -89.245958,
@@ -2409,7 +2409,7 @@
           }
         },
         {
-          "COUSUBFP": "92736",
+          "sub_num": "92736",
           "name": "4",
           "bbox": {
             "minLon": -89.014239,
@@ -2419,7 +2419,7 @@
           }
         },
         {
-          "COUSUBFP": "90522",
+          "sub_num": "90522",
           "name": "1",
           "bbox": {
             "minLon": -89.092121,
@@ -2433,7 +2433,7 @@
   },
   {
     "Yazoo": {
-      "COUNTYFP": "163",
+      "sub_num": "163",
       "name": "Yazoo",
       "bbox": {
         "minLon": -90.759753,
@@ -2443,7 +2443,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90738",
+          "sub_num": "90738",
           "name": "1",
           "bbox": {
             "minLon": -90.724601,
@@ -2453,7 +2453,7 @@
           }
         },
         {
-          "COUSUBFP": "92214",
+          "sub_num": "92214",
           "name": "3",
           "bbox": {
             "minLon": -90.453591,
@@ -2463,7 +2463,7 @@
           }
         },
         {
-          "COUSUBFP": "92952",
+          "sub_num": "92952",
           "name": "4",
           "bbox": {
             "minLon": -90.457401,
@@ -2473,7 +2473,7 @@
           }
         },
         {
-          "COUSUBFP": "91476",
+          "sub_num": "91476",
           "name": "2",
           "bbox": {
             "minLon": -90.403378,
@@ -2483,7 +2483,7 @@
           }
         },
         {
-          "COUSUBFP": "93690",
+          "sub_num": "93690",
           "name": "5",
           "bbox": {
             "minLon": -90.759753,
@@ -2497,7 +2497,7 @@
   },
   {
     "Tate": {
-      "COUNTYFP": "137",
+      "sub_num": "137",
       "name": "Tate",
       "bbox": {
         "minLon": -90.244282,
@@ -2507,7 +2507,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91359",
+          "sub_num": "91359",
           "name": "2",
           "bbox": {
             "minLon": -90.244282,
@@ -2517,7 +2517,7 @@
           }
         },
         {
-          "COUSUBFP": "92835",
+          "sub_num": "92835",
           "name": "4",
           "bbox": {
             "minLon": -89.968566,
@@ -2527,7 +2527,7 @@
           }
         },
         {
-          "COUSUBFP": "92097",
+          "sub_num": "92097",
           "name": "3",
           "bbox": {
             "minLon": -90.075579,
@@ -2537,7 +2537,7 @@
           }
         },
         {
-          "COUSUBFP": "90621",
+          "sub_num": "90621",
           "name": "1",
           "bbox": {
             "minLon": -90.224431,
@@ -2547,7 +2547,7 @@
           }
         },
         {
-          "COUSUBFP": "93573",
+          "sub_num": "93573",
           "name": "5",
           "bbox": {
             "minLon": -89.955901,
@@ -2561,7 +2561,7 @@
   },
   {
     "Lawrence": {
-      "COUNTYFP": "077",
+      "sub_num": "077",
       "name": "Lawrence",
       "bbox": {
         "minLon": -90.245191,
@@ -2571,7 +2571,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91827",
+          "sub_num": "91827",
           "name": "3",
           "bbox": {
             "minLon": -90.24449,
@@ -2581,7 +2581,7 @@
           }
         },
         {
-          "COUSUBFP": "91089",
+          "sub_num": "91089",
           "name": "2",
           "bbox": {
             "minLon": -90.245191,
@@ -2591,7 +2591,7 @@
           }
         },
         {
-          "COUSUBFP": "90351",
+          "sub_num": "90351",
           "name": "1",
           "bbox": {
             "minLon": -90.244653,
@@ -2601,7 +2601,7 @@
           }
         },
         {
-          "COUSUBFP": "92565",
+          "sub_num": "92565",
           "name": "4",
           "bbox": {
             "minLon": -90.162689,
@@ -2611,7 +2611,7 @@
           }
         },
         {
-          "COUSUBFP": "93303",
+          "sub_num": "93303",
           "name": "5",
           "bbox": {
             "minLon": -90.128591,
@@ -2625,7 +2625,7 @@
   },
   {
     "Attala": {
-      "COUNTYFP": "007",
+      "sub_num": "007",
       "name": "Attala",
       "bbox": {
         "minLon": -89.966007,
@@ -2635,7 +2635,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90036",
+          "sub_num": "90036",
           "name": "1",
           "bbox": {
             "minLon": -89.640596,
@@ -2645,7 +2645,7 @@
           }
         },
         {
-          "COUSUBFP": "92250",
+          "sub_num": "92250",
           "name": "4",
           "bbox": {
             "minLon": -89.966007,
@@ -2655,7 +2655,7 @@
           }
         },
         {
-          "COUSUBFP": "91512",
+          "sub_num": "91512",
           "name": "3",
           "bbox": {
             "minLon": -89.833411,
@@ -2665,7 +2665,7 @@
           }
         },
         {
-          "COUSUBFP": "92988",
+          "sub_num": "92988",
           "name": "5",
           "bbox": {
             "minLon": -89.59402,
@@ -2675,7 +2675,7 @@
           }
         },
         {
-          "COUSUBFP": "90774",
+          "sub_num": "90774",
           "name": "2",
           "bbox": {
             "minLon": -89.597894,
@@ -2689,7 +2689,7 @@
   },
   {
     "Prentiss": {
-      "COUNTYFP": "117",
+      "sub_num": "117",
       "name": "Prentiss",
       "bbox": {
         "minLon": -88.736465,
@@ -2699,7 +2699,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90531",
+          "sub_num": "90531",
           "name": "1",
           "bbox": {
             "minLon": -88.612847,
@@ -2709,7 +2709,7 @@
           }
         },
         {
-          "COUSUBFP": "92745",
+          "sub_num": "92745",
           "name": "4",
           "bbox": {
             "minLon": -88.562833,
@@ -2719,7 +2719,7 @@
           }
         },
         {
-          "COUSUBFP": "91269",
+          "sub_num": "91269",
           "name": "2",
           "bbox": {
             "minLon": -88.718964,
@@ -2729,7 +2729,7 @@
           }
         },
         {
-          "COUSUBFP": "92007",
+          "sub_num": "92007",
           "name": "3",
           "bbox": {
             "minLon": -88.736465,
@@ -2739,7 +2739,7 @@
           }
         },
         {
-          "COUSUBFP": "93483",
+          "sub_num": "93483",
           "name": "5",
           "bbox": {
             "minLon": -88.562456,
@@ -2753,7 +2753,7 @@
   },
   {
     "Pike": {
-      "COUNTYFP": "113",
+      "sub_num": "113",
       "name": "Pike",
       "bbox": {
         "minLon": -90.548419,
@@ -2763,7 +2763,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91251",
+          "sub_num": "91251",
           "name": "2",
           "bbox": {
             "minLon": -90.531144,
@@ -2773,7 +2773,7 @@
           }
         },
         {
-          "COUSUBFP": "93465",
+          "sub_num": "93465",
           "name": "5",
           "bbox": {
             "minLon": -90.548387,
@@ -2783,7 +2783,7 @@
           }
         },
         {
-          "COUSUBFP": "90513",
+          "sub_num": "90513",
           "name": "1",
           "bbox": {
             "minLon": -90.47196,
@@ -2793,7 +2793,7 @@
           }
         },
         {
-          "COUSUBFP": "91989",
+          "sub_num": "91989",
           "name": "3",
           "bbox": {
             "minLon": -90.457657,
@@ -2803,7 +2803,7 @@
           }
         },
         {
-          "COUSUBFP": "92727",
+          "sub_num": "92727",
           "name": "4",
           "bbox": {
             "minLon": -90.548419,
@@ -2817,7 +2817,7 @@
   },
   {
     "Copiah": {
-      "COUNTYFP": "029",
+      "sub_num": "029",
       "name": "Copiah",
       "bbox": {
         "minLon": -90.736824,
@@ -2827,7 +2827,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92349",
+          "sub_num": "92349",
           "name": "4",
           "bbox": {
             "minLon": -90.718297,
@@ -2837,7 +2837,7 @@
           }
         },
         {
-          "COUSUBFP": "91611",
+          "sub_num": "91611",
           "name": "3",
           "bbox": {
             "minLon": -90.736824,
@@ -2847,7 +2847,7 @@
           }
         },
         {
-          "COUSUBFP": "90135",
+          "sub_num": "90135",
           "name": "1",
           "bbox": {
             "minLon": -90.518139,
@@ -2857,7 +2857,7 @@
           }
         },
         {
-          "COUSUBFP": "90873",
+          "sub_num": "90873",
           "name": "2",
           "bbox": {
             "minLon": -90.463938,
@@ -2867,7 +2867,7 @@
           }
         },
         {
-          "COUSUBFP": "93087",
+          "sub_num": "93087",
           "name": "5",
           "bbox": {
             "minLon": -90.621756,
@@ -2881,7 +2881,7 @@
   },
   {
     "Calhoun": {
-      "COUNTYFP": "013",
+      "sub_num": "013",
       "name": "Calhoun",
       "bbox": {
         "minLon": -89.510149,
@@ -2891,7 +2891,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90063",
+          "sub_num": "90063",
           "name": "1",
           "bbox": {
             "minLon": -89.507412,
@@ -2901,7 +2901,7 @@
           }
         },
         {
-          "COUSUBFP": "92277",
+          "sub_num": "92277",
           "name": "4",
           "bbox": {
             "minLon": -89.507314,
@@ -2911,7 +2911,7 @@
           }
         },
         {
-          "COUSUBFP": "93015",
+          "sub_num": "93015",
           "name": "5",
           "bbox": {
             "minLon": -89.294035,
@@ -2921,7 +2921,7 @@
           }
         },
         {
-          "COUSUBFP": "90801",
+          "sub_num": "90801",
           "name": "2",
           "bbox": {
             "minLon": -89.34675,
@@ -2931,7 +2931,7 @@
           }
         },
         {
-          "COUSUBFP": "91539",
+          "sub_num": "91539",
           "name": "3",
           "bbox": {
             "minLon": -89.510149,
@@ -2945,7 +2945,7 @@
   },
   {
     "Greene": {
-      "COUNTYFP": "041",
+      "sub_num": "041",
       "name": "Greene",
       "bbox": {
         "minLon": -88.841986,
@@ -2955,7 +2955,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90189",
+          "sub_num": "90189",
           "name": "1",
           "bbox": {
             "minLon": -88.659259,
@@ -2965,7 +2965,7 @@
           }
         },
         {
-          "COUSUBFP": "92403",
+          "sub_num": "92403",
           "name": "4",
           "bbox": {
             "minLon": -88.808395,
@@ -2975,7 +2975,7 @@
           }
         },
         {
-          "COUSUBFP": "90927",
+          "sub_num": "90927",
           "name": "2",
           "bbox": {
             "minLon": -88.67695,
@@ -2985,7 +2985,7 @@
           }
         },
         {
-          "COUSUBFP": "91665",
+          "sub_num": "91665",
           "name": "3",
           "bbox": {
             "minLon": -88.841986,
@@ -2995,7 +2995,7 @@
           }
         },
         {
-          "COUSUBFP": "93141",
+          "sub_num": "93141",
           "name": "5",
           "bbox": {
             "minLon": -88.841327,
@@ -3009,7 +3009,7 @@
   },
   {
     "Amite": {
-      "COUNTYFP": "005",
+      "sub_num": "005",
       "name": "Amite",
       "bbox": {
         "minLon": -91.095398,
@@ -3019,7 +3019,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90027",
+          "sub_num": "90027",
           "name": "1",
           "bbox": {
             "minLon": -90.976789,
@@ -3029,7 +3029,7 @@
           }
         },
         {
-          "COUSUBFP": "90765",
+          "sub_num": "90765",
           "name": "2",
           "bbox": {
             "minLon": -91.060219,
@@ -3039,7 +3039,7 @@
           }
         },
         {
-          "COUSUBFP": "92241",
+          "sub_num": "92241",
           "name": "4",
           "bbox": {
             "minLon": -90.80756,
@@ -3049,7 +3049,7 @@
           }
         },
         {
-          "COUSUBFP": "92979",
+          "sub_num": "92979",
           "name": "5",
           "bbox": {
             "minLon": -90.852688,
@@ -3059,7 +3059,7 @@
           }
         },
         {
-          "COUSUBFP": "91503",
+          "sub_num": "91503",
           "name": "3",
           "bbox": {
             "minLon": -91.095398,
@@ -3073,7 +3073,7 @@
   },
   {
     "Hancock": {
-      "COUNTYFP": "045",
+      "sub_num": "045",
       "name": "Hancock",
       "bbox": {
         "minLon": -89.690589,
@@ -3083,7 +3083,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90207",
+          "sub_num": "90207",
           "name": "1",
           "bbox": {
             "minLon": -89.592369,
@@ -3093,7 +3093,7 @@
           }
         },
         {
-          "COUSUBFP": "92421",
+          "sub_num": "92421",
           "name": "4",
           "bbox": {
             "minLon": -89.545982,
@@ -3103,7 +3103,7 @@
           }
         },
         {
-          "COUSUBFP": "93159",
+          "sub_num": "93159",
           "name": "5",
           "bbox": {
             "minLon": -89.45954,
@@ -3113,7 +3113,7 @@
           }
         },
         {
-          "COUSUBFP": "90945",
+          "sub_num": "90945",
           "name": "2",
           "bbox": {
             "minLon": -89.690589,
@@ -3123,7 +3123,7 @@
           }
         },
         {
-          "COUSUBFP": "91683",
+          "sub_num": "91683",
           "name": "3",
           "bbox": {
             "minLon": -89.403693,
@@ -3137,7 +3137,7 @@
   },
   {
     "Smith": {
-      "COUNTYFP": "129",
+      "sub_num": "129",
       "name": "Smith",
       "bbox": {
         "minLon": -89.731276,
@@ -3147,7 +3147,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92799",
+          "sub_num": "92799",
           "name": "4",
           "bbox": {
             "minLon": -89.731276,
@@ -3157,7 +3157,7 @@
           }
         },
         {
-          "COUSUBFP": "91323",
+          "sub_num": "91323",
           "name": "2",
           "bbox": {
             "minLon": -89.452235,
@@ -3167,7 +3167,7 @@
           }
         },
         {
-          "COUSUBFP": "93537",
+          "sub_num": "93537",
           "name": "5",
           "bbox": {
             "minLon": -89.61107,
@@ -3177,7 +3177,7 @@
           }
         },
         {
-          "COUSUBFP": "92061",
+          "sub_num": "92061",
           "name": "3",
           "bbox": {
             "minLon": -89.65479,
@@ -3187,7 +3187,7 @@
           }
         },
         {
-          "COUSUBFP": "90585",
+          "sub_num": "90585",
           "name": "1",
           "bbox": {
             "minLon": -89.593401,
@@ -3201,7 +3201,7 @@
   },
   {
     "Claiborne": {
-      "COUNTYFP": "021",
+      "sub_num": "021",
       "name": "Claiborne",
       "bbox": {
         "minLon": -91.248144,
@@ -3211,7 +3211,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90099",
+          "sub_num": "90099",
           "name": "1",
           "bbox": {
             "minLon": -91.248144,
@@ -3221,7 +3221,7 @@
           }
         },
         {
-          "COUSUBFP": "90837",
+          "sub_num": "90837",
           "name": "2",
           "bbox": {
             "minLon": -91.19321,
@@ -3231,7 +3231,7 @@
           }
         },
         {
-          "COUSUBFP": "92313",
+          "sub_num": "92313",
           "name": "4",
           "bbox": {
             "minLon": -90.983874,
@@ -3241,7 +3241,7 @@
           }
         },
         {
-          "COUSUBFP": "91575",
+          "sub_num": "91575",
           "name": "3",
           "bbox": {
             "minLon": -91.007282,
@@ -3251,7 +3251,7 @@
           }
         },
         {
-          "COUSUBFP": "93051",
+          "sub_num": "93051",
           "name": "5",
           "bbox": {
             "minLon": -90.97383,
@@ -3265,7 +3265,7 @@
   },
   {
     "Wayne": {
-      "COUNTYFP": "153",
+      "sub_num": "153",
       "name": "Wayne",
       "bbox": {
         "minLon": -88.943483,
@@ -3275,7 +3275,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90693",
+          "sub_num": "90693",
           "name": "1",
           "bbox": {
             "minLon": -88.708664,
@@ -3285,7 +3285,7 @@
           }
         },
         {
-          "COUSUBFP": "93645",
+          "sub_num": "93645",
           "name": "5",
           "bbox": {
             "minLon": -88.943483,
@@ -3295,7 +3295,7 @@
           }
         },
         {
-          "COUSUBFP": "92169",
+          "sub_num": "92169",
           "name": "3",
           "bbox": {
             "minLon": -88.809147,
@@ -3305,7 +3305,7 @@
           }
         },
         {
-          "COUSUBFP": "91431",
+          "sub_num": "91431",
           "name": "2",
           "bbox": {
             "minLon": -88.654983,
@@ -3315,7 +3315,7 @@
           }
         },
         {
-          "COUSUBFP": "92907",
+          "sub_num": "92907",
           "name": "4",
           "bbox": {
             "minLon": -88.943355,
@@ -3329,7 +3329,7 @@
   },
   {
     "Winston": {
-      "COUNTYFP": "159",
+      "sub_num": "159",
       "name": "Winston",
       "bbox": {
         "minLon": -89.319163,
@@ -3339,7 +3339,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93672",
+          "sub_num": "93672",
           "name": "5",
           "bbox": {
             "minLon": -89.319163,
@@ -3349,7 +3349,7 @@
           }
         },
         {
-          "COUSUBFP": "90720",
+          "sub_num": "90720",
           "name": "1",
           "bbox": {
             "minLon": -89.128902,
@@ -3359,7 +3359,7 @@
           }
         },
         {
-          "COUSUBFP": "92934",
+          "sub_num": "92934",
           "name": "4",
           "bbox": {
             "minLon": -89.318223,
@@ -3369,7 +3369,7 @@
           }
         },
         {
-          "COUSUBFP": "92196",
+          "sub_num": "92196",
           "name": "3",
           "bbox": {
             "minLon": -89.087046,
@@ -3379,7 +3379,7 @@
           }
         },
         {
-          "COUSUBFP": "91458",
+          "sub_num": "91458",
           "name": "2",
           "bbox": {
             "minLon": -89.047507,
@@ -3393,7 +3393,7 @@
   },
   {
     "Humphreys": {
-      "COUNTYFP": "053",
+      "sub_num": "053",
       "name": "Humphreys",
       "bbox": {
         "minLon": -90.733216,
@@ -3403,7 +3403,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91719",
+          "sub_num": "91719",
           "name": "3",
           "bbox": {
             "minLon": -90.589528,
@@ -3413,7 +3413,7 @@
           }
         },
         {
-          "COUSUBFP": "90981",
+          "sub_num": "90981",
           "name": "2",
           "bbox": {
             "minLon": -90.733216,
@@ -3423,7 +3423,7 @@
           }
         },
         {
-          "COUSUBFP": "90243",
+          "sub_num": "90243",
           "name": "1",
           "bbox": {
             "minLon": -90.559774,
@@ -3433,7 +3433,7 @@
           }
         },
         {
-          "COUSUBFP": "93195",
+          "sub_num": "93195",
           "name": "5",
           "bbox": {
             "minLon": -90.701915,
@@ -3443,7 +3443,7 @@
           }
         },
         {
-          "COUSUBFP": "92457",
+          "sub_num": "92457",
           "name": "4",
           "bbox": {
             "minLon": -90.515482,
@@ -3457,7 +3457,7 @@
   },
   {
     "Noxubee": {
-      "COUNTYFP": "103",
+      "sub_num": "103",
       "name": "Noxubee",
       "bbox": {
         "minLon": -88.813753,
@@ -3467,7 +3467,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91206",
+          "sub_num": "91206",
           "name": "2",
           "bbox": {
             "minLon": -88.568134,
@@ -3477,7 +3477,7 @@
           }
         },
         {
-          "COUSUBFP": "91944",
+          "sub_num": "91944",
           "name": "3",
           "bbox": {
             "minLon": -88.707374,
@@ -3487,7 +3487,7 @@
           }
         },
         {
-          "COUSUBFP": "90468",
+          "sub_num": "90468",
           "name": "1",
           "bbox": {
             "minLon": -88.569755,
@@ -3497,7 +3497,7 @@
           }
         },
         {
-          "COUSUBFP": "93420",
+          "sub_num": "93420",
           "name": "5",
           "bbox": {
             "minLon": -88.813353,
@@ -3507,7 +3507,7 @@
           }
         },
         {
-          "COUSUBFP": "92682",
+          "sub_num": "92682",
           "name": "4",
           "bbox": {
             "minLon": -88.813753,
@@ -3521,7 +3521,7 @@
   },
   {
     "Leflore": {
-      "COUNTYFP": "083",
+      "sub_num": "083",
       "name": "Leflore",
       "bbox": {
         "minLon": -90.453801,
@@ -3531,7 +3531,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90378",
+          "sub_num": "90378",
           "name": "1",
           "bbox": {
             "minLon": -90.452331,
@@ -3541,7 +3541,7 @@
           }
         },
         {
-          "COUSUBFP": "91854",
+          "sub_num": "91854",
           "name": "3",
           "bbox": {
             "minLon": -90.45278,
@@ -3551,7 +3551,7 @@
           }
         },
         {
-          "COUSUBFP": "93330",
+          "sub_num": "93330",
           "name": "5",
           "bbox": {
             "minLon": -90.453801,
@@ -3561,7 +3561,7 @@
           }
         },
         {
-          "COUSUBFP": "91116",
+          "sub_num": "91116",
           "name": "2",
           "bbox": {
             "minLon": -90.303828,
@@ -3571,7 +3571,7 @@
           }
         },
         {
-          "COUSUBFP": "92592",
+          "sub_num": "92592",
           "name": "4",
           "bbox": {
             "minLon": -90.452997,
@@ -3585,7 +3585,7 @@
   },
   {
     "Coahoma": {
-      "COUNTYFP": "027",
+      "sub_num": "027",
       "name": "Coahoma",
       "bbox": {
         "minLon": -90.961044,
@@ -3595,7 +3595,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90126",
+          "sub_num": "90126",
           "name": "1",
           "bbox": {
             "minLon": -90.59392,
@@ -3605,7 +3605,7 @@
           }
         },
         {
-          "COUSUBFP": "92340",
+          "sub_num": "92340",
           "name": "4",
           "bbox": {
             "minLon": -90.590629,
@@ -3615,7 +3615,7 @@
           }
         },
         {
-          "COUSUBFP": "90864",
+          "sub_num": "90864",
           "name": "2",
           "bbox": {
             "minLon": -90.937154,
@@ -3625,7 +3625,7 @@
           }
         },
         {
-          "COUSUBFP": "93078",
+          "sub_num": "93078",
           "name": "5",
           "bbox": {
             "minLon": -90.961044,
@@ -3635,7 +3635,7 @@
           }
         },
         {
-          "COUSUBFP": "91602",
+          "sub_num": "91602",
           "name": "3",
           "bbox": {
             "minLon": -90.570094,
@@ -3649,7 +3649,7 @@
   },
   {
     "Harrison": {
-      "COUNTYFP": "047",
+      "sub_num": "047",
       "name": "Harrison",
       "bbox": {
         "minLon": -89.341752,
@@ -3659,7 +3659,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90216",
+          "sub_num": "90216",
           "name": "1",
           "bbox": {
             "minLon": -89.094831,
@@ -3669,7 +3669,7 @@
           }
         },
         {
-          "COUSUBFP": "92430",
+          "sub_num": "92430",
           "name": "4",
           "bbox": {
             "minLon": -89.153504,
@@ -3679,7 +3679,7 @@
           }
         },
         {
-          "COUSUBFP": "90954",
+          "sub_num": "90954",
           "name": "2",
           "bbox": {
             "minLon": -89.341511,
@@ -3689,7 +3689,7 @@
           }
         },
         {
-          "COUSUBFP": "91692",
+          "sub_num": "91692",
           "name": "3",
           "bbox": {
             "minLon": -89.341752,
@@ -3699,7 +3699,7 @@
           }
         },
         {
-          "COUSUBFP": "93168",
+          "sub_num": "93168",
           "name": "5",
           "bbox": {
             "minLon": -89.240136,
@@ -3713,7 +3713,7 @@
   },
   {
     "Jackson": {
-      "COUNTYFP": "059",
+      "sub_num": "059",
       "name": "Jackson",
       "bbox": {
         "minLon": -88.884536,
@@ -3723,7 +3723,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91746",
+          "sub_num": "91746",
           "name": "3",
           "bbox": {
             "minLon": -88.721754,
@@ -3733,7 +3733,7 @@
           }
         },
         {
-          "COUSUBFP": "90270",
+          "sub_num": "90270",
           "name": "1",
           "bbox": {
             "minLon": -88.833815,
@@ -3743,7 +3743,7 @@
           }
         },
         {
-          "COUSUBFP": "92484",
+          "sub_num": "92484",
           "name": "4",
           "bbox": {
             "minLon": -88.884536,
@@ -3753,7 +3753,7 @@
           }
         },
         {
-          "COUSUBFP": "91008",
+          "sub_num": "91008",
           "name": "2",
           "bbox": {
             "minLon": -88.619042,
@@ -3763,7 +3763,7 @@
           }
         },
         {
-          "COUSUBFP": "93222",
+          "sub_num": "93222",
           "name": "5",
           "bbox": {
             "minLon": -88.823506,
@@ -3777,7 +3777,7 @@
   },
   {
     "Panola": {
-      "COUNTYFP": "107",
+      "sub_num": "107",
       "name": "Panola",
       "bbox": {
         "minLon": -90.198631,
@@ -3787,7 +3787,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91224",
+          "sub_num": "91224",
           "name": "2",
           "bbox": {
             "minLon": -90.198631,
@@ -3797,7 +3797,7 @@
           }
         },
         {
-          "COUSUBFP": "93438",
+          "sub_num": "93438",
           "name": "5",
           "bbox": {
             "minLon": -90.166701,
@@ -3807,7 +3807,7 @@
           }
         },
         {
-          "COUSUBFP": "91962",
+          "sub_num": "91962",
           "name": "3",
           "bbox": {
             "minLon": -90.135464,
@@ -3817,7 +3817,7 @@
           }
         },
         {
-          "COUSUBFP": "90486",
+          "sub_num": "90486",
           "name": "1",
           "bbox": {
             "minLon": -90.057153,
@@ -3827,7 +3827,7 @@
           }
         },
         {
-          "COUSUBFP": "92700",
+          "sub_num": "92700",
           "name": "4",
           "bbox": {
             "minLon": -89.961513,
@@ -3841,7 +3841,7 @@
   },
   {
     "Marshall": {
-      "COUNTYFP": "093",
+      "sub_num": "093",
       "name": "Marshall",
       "bbox": {
         "minLon": -89.724446,
@@ -3851,7 +3851,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91161",
+          "sub_num": "91161",
           "name": "2",
           "bbox": {
             "minLon": -89.618123,
@@ -3861,7 +3861,7 @@
           }
         },
         {
-          "COUSUBFP": "90423",
+          "sub_num": "90423",
           "name": "1",
           "bbox": {
             "minLon": -89.618294,
@@ -3871,7 +3871,7 @@
           }
         },
         {
-          "COUSUBFP": "93375",
+          "sub_num": "93375",
           "name": "5",
           "bbox": {
             "minLon": -89.528402,
@@ -3881,7 +3881,7 @@
           }
         },
         {
-          "COUSUBFP": "91899",
+          "sub_num": "91899",
           "name": "3",
           "bbox": {
             "minLon": -89.724446,
@@ -3891,7 +3891,7 @@
           }
         },
         {
-          "COUSUBFP": "92637",
+          "sub_num": "92637",
           "name": "4",
           "bbox": {
             "minLon": -89.72387,
@@ -3905,7 +3905,7 @@
   },
   {
     "Grenada": {
-      "COUNTYFP": "043",
+      "sub_num": "043",
       "name": "Grenada",
       "bbox": {
         "minLon": -90.137011,
@@ -3915,7 +3915,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90198",
+          "sub_num": "90198",
           "name": "1",
           "bbox": {
             "minLon": -89.979143,
@@ -3925,7 +3925,7 @@
           }
         },
         {
-          "COUSUBFP": "93150",
+          "sub_num": "93150",
           "name": "5",
           "bbox": {
             "minLon": -90.137011,
@@ -3935,7 +3935,7 @@
           }
         },
         {
-          "COUSUBFP": "92412",
+          "sub_num": "92412",
           "name": "4",
           "bbox": {
             "minLon": -89.99653,
@@ -3945,7 +3945,7 @@
           }
         },
         {
-          "COUSUBFP": "90936",
+          "sub_num": "90936",
           "name": "2",
           "bbox": {
             "minLon": -89.807817,
@@ -3955,7 +3955,7 @@
           }
         },
         {
-          "COUSUBFP": "91674",
+          "sub_num": "91674",
           "name": "3",
           "bbox": {
             "minLon": -89.840438,
@@ -3969,7 +3969,7 @@
   },
   {
     "Tishomingo": {
-      "COUNTYFP": "141",
+      "sub_num": "141",
       "name": "Tishomingo",
       "bbox": {
         "minLon": -88.365883,
@@ -3979,7 +3979,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90639",
+          "sub_num": "90639",
           "name": "1",
           "bbox": {
             "minLon": -88.260301,
@@ -3989,7 +3989,7 @@
           }
         },
         {
-          "COUSUBFP": "91377",
+          "sub_num": "91377",
           "name": "2",
           "bbox": {
             "minLon": -88.365883,
@@ -3999,7 +3999,7 @@
           }
         },
         {
-          "COUSUBFP": "92853",
+          "sub_num": "92853",
           "name": "4",
           "bbox": {
             "minLon": -88.330813,
@@ -4009,7 +4009,7 @@
           }
         },
         {
-          "COUSUBFP": "92115",
+          "sub_num": "92115",
           "name": "3",
           "bbox": {
             "minLon": -88.33128,
@@ -4019,7 +4019,7 @@
           }
         },
         {
-          "COUSUBFP": "93591",
+          "sub_num": "93591",
           "name": "5",
           "bbox": {
             "minLon": -88.330842,
@@ -4033,7 +4033,7 @@
   },
   {
     "Quitman": {
-      "COUNTYFP": "119",
+      "sub_num": "119",
       "name": "Quitman",
       "bbox": {
         "minLon": -90.450982,
@@ -4043,7 +4043,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90540",
+          "sub_num": "90540",
           "name": "1",
           "bbox": {
             "minLon": -90.341572,
@@ -4053,7 +4053,7 @@
           }
         },
         {
-          "COUSUBFP": "92754",
+          "sub_num": "92754",
           "name": "4",
           "bbox": {
             "minLon": -90.450982,
@@ -4063,7 +4063,7 @@
           }
         },
         {
-          "COUSUBFP": "93492",
+          "sub_num": "93492",
           "name": "5",
           "bbox": {
             "minLon": -90.323845,
@@ -4073,7 +4073,7 @@
           }
         },
         {
-          "COUSUBFP": "92016",
+          "sub_num": "92016",
           "name": "3",
           "bbox": {
             "minLon": -90.320611,
@@ -4083,7 +4083,7 @@
           }
         },
         {
-          "COUSUBFP": "91278",
+          "sub_num": "91278",
           "name": "2",
           "bbox": {
             "minLon": -90.450792,
@@ -4097,7 +4097,7 @@
   },
   {
     "Wilkinson": {
-      "COUNTYFP": "157",
+      "sub_num": "157",
       "name": "Wilkinson",
       "bbox": {
         "minLon": -91.636942,
@@ -4107,7 +4107,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91449",
+          "sub_num": "91449",
           "name": "2",
           "bbox": {
             "minLon": -91.636942,
@@ -4117,7 +4117,7 @@
           }
         },
         {
-          "COUSUBFP": "90711",
+          "sub_num": "90711",
           "name": "1",
           "bbox": {
             "minLon": -91.414903,
@@ -4127,7 +4127,7 @@
           }
         },
         {
-          "COUSUBFP": "93663",
+          "sub_num": "93663",
           "name": "5",
           "bbox": {
             "minLon": -91.325653,
@@ -4137,7 +4137,7 @@
           }
         },
         {
-          "COUSUBFP": "92187",
+          "sub_num": "92187",
           "name": "3",
           "bbox": {
             "minLon": -91.263304,
@@ -4147,7 +4147,7 @@
           }
         },
         {
-          "COUSUBFP": "92925",
+          "sub_num": "92925",
           "name": "4",
           "bbox": {
             "minLon": -91.497372,
@@ -4161,7 +4161,7 @@
   },
   {
     "Leake": {
-      "COUNTYFP": "079",
+      "sub_num": "079",
       "name": "Leake",
       "bbox": {
         "minLon": -89.730339,
@@ -4171,7 +4171,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93312",
+          "sub_num": "93312",
           "name": "5",
           "bbox": {
             "minLon": -89.4724,
@@ -4181,7 +4181,7 @@
           }
         },
         {
-          "COUSUBFP": "91098",
+          "sub_num": "91098",
           "name": "2",
           "bbox": {
             "minLon": -89.627485,
@@ -4191,7 +4191,7 @@
           }
         },
         {
-          "COUSUBFP": "90360",
+          "sub_num": "90360",
           "name": "1",
           "bbox": {
             "minLon": -89.531048,
@@ -4201,7 +4201,7 @@
           }
         },
         {
-          "COUSUBFP": "91836",
+          "sub_num": "91836",
           "name": "3",
           "bbox": {
             "minLon": -89.730304,
@@ -4211,7 +4211,7 @@
           }
         },
         {
-          "COUSUBFP": "92574",
+          "sub_num": "92574",
           "name": "4",
           "bbox": {
             "minLon": -89.730339,
@@ -4225,7 +4225,7 @@
   },
   {
     "Clay": {
-      "COUNTYFP": "025",
+      "sub_num": "025",
       "name": "Clay",
       "bbox": {
         "minLon": -89.036067,
@@ -4235,7 +4235,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91593",
+          "sub_num": "91593",
           "name": "3",
           "bbox": {
             "minLon": -88.974177,
@@ -4245,7 +4245,7 @@
           }
         },
         {
-          "COUSUBFP": "90117",
+          "sub_num": "90117",
           "name": "1",
           "bbox": {
             "minLon": -88.698202,
@@ -4255,7 +4255,7 @@
           }
         },
         {
-          "COUSUBFP": "92331",
+          "sub_num": "92331",
           "name": "4",
           "bbox": {
             "minLon": -88.931604,
@@ -4265,7 +4265,7 @@
           }
         },
         {
-          "COUSUBFP": "90855",
+          "sub_num": "90855",
           "name": "2",
           "bbox": {
             "minLon": -88.671526,
@@ -4275,7 +4275,7 @@
           }
         },
         {
-          "COUSUBFP": "93069",
+          "sub_num": "93069",
           "name": "5",
           "bbox": {
             "minLon": -89.036067,
@@ -4289,7 +4289,7 @@
   },
   {
     "Franklin": {
-      "COUNTYFP": "037",
+      "sub_num": "037",
       "name": "Franklin",
       "bbox": {
         "minLon": -91.15815,
@@ -4299,7 +4299,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90909",
+          "sub_num": "90909",
           "name": "2",
           "bbox": {
             "minLon": -91.06339,
@@ -4309,7 +4309,7 @@
           }
         },
         {
-          "COUSUBFP": "93123",
+          "sub_num": "93123",
           "name": "5",
           "bbox": {
             "minLon": -90.984116,
@@ -4319,7 +4319,7 @@
           }
         },
         {
-          "COUSUBFP": "92385",
+          "sub_num": "92385",
           "name": "4",
           "bbox": {
             "minLon": -90.88741,
@@ -4329,7 +4329,7 @@
           }
         },
         {
-          "COUSUBFP": "90171",
+          "sub_num": "90171",
           "name": "1",
           "bbox": {
             "minLon": -91.15815,
@@ -4339,7 +4339,7 @@
           }
         },
         {
-          "COUSUBFP": "91647",
+          "sub_num": "91647",
           "name": "3",
           "bbox": {
             "minLon": -91.05672,
@@ -4353,7 +4353,7 @@
   },
   {
     "Neshoba": {
-      "COUNTYFP": "099",
+      "sub_num": "099",
       "name": "Neshoba",
       "bbox": {
         "minLon": -89.319309,
@@ -4363,7 +4363,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91188",
+          "sub_num": "91188",
           "name": "2",
           "bbox": {
             "minLon": -89.117026,
@@ -4373,7 +4373,7 @@
           }
         },
         {
-          "COUSUBFP": "93402",
+          "sub_num": "93402",
           "name": "5",
           "bbox": {
             "minLon": -89.319309,
@@ -4383,7 +4383,7 @@
           }
         },
         {
-          "COUSUBFP": "90450",
+          "sub_num": "90450",
           "name": "1",
           "bbox": {
             "minLon": -89.318687,
@@ -4393,7 +4393,7 @@
           }
         },
         {
-          "COUSUBFP": "91926",
+          "sub_num": "91926",
           "name": "3",
           "bbox": {
             "minLon": -89.124672,
@@ -4403,7 +4403,7 @@
           }
         },
         {
-          "COUSUBFP": "92664",
+          "sub_num": "92664",
           "name": "4",
           "bbox": {
             "minLon": -89.318393,
@@ -4417,7 +4417,7 @@
   },
   {
     "Lee": {
-      "COUNTYFP": "081",
+      "sub_num": "081",
       "name": "Lee",
       "bbox": {
         "minLon": -88.825632,
@@ -4427,7 +4427,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91107",
+          "sub_num": "91107",
           "name": "2",
           "bbox": {
             "minLon": -88.825126,
@@ -4437,7 +4437,7 @@
           }
         },
         {
-          "COUSUBFP": "93321",
+          "sub_num": "93321",
           "name": "5",
           "bbox": {
             "minLon": -88.737459,
@@ -4447,7 +4447,7 @@
           }
         },
         {
-          "COUSUBFP": "90369",
+          "sub_num": "90369",
           "name": "1",
           "bbox": {
             "minLon": -88.732356,
@@ -4457,7 +4457,7 @@
           }
         },
         {
-          "COUSUBFP": "91845",
+          "sub_num": "91845",
           "name": "3",
           "bbox": {
             "minLon": -88.825632,
@@ -4467,7 +4467,7 @@
           }
         },
         {
-          "COUSUBFP": "92583",
+          "sub_num": "92583",
           "name": "4",
           "bbox": {
             "minLon": -88.825253,
@@ -4481,7 +4481,7 @@
   },
   {
     "Sunflower": {
-      "COUNTYFP": "133",
+      "sub_num": "133",
       "name": "Sunflower",
       "bbox": {
         "minLon": -90.764484,
@@ -4491,7 +4491,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91341",
+          "sub_num": "91341",
           "name": "2",
           "bbox": {
             "minLon": -90.764469,
@@ -4501,7 +4501,7 @@
           }
         },
         {
-          "COUSUBFP": "93555",
+          "sub_num": "93555",
           "name": "5",
           "bbox": {
             "minLon": -90.659128,
@@ -4511,7 +4511,7 @@
           }
         },
         {
-          "COUSUBFP": "92079",
+          "sub_num": "92079",
           "name": "3",
           "bbox": {
             "minLon": -90.764484,
@@ -4521,7 +4521,7 @@
           }
         },
         {
-          "COUSUBFP": "92817",
+          "sub_num": "92817",
           "name": "4",
           "bbox": {
             "minLon": -90.763642,
@@ -4531,7 +4531,7 @@
           }
         },
         {
-          "COUSUBFP": "90603",
+          "sub_num": "90603",
           "name": "1",
           "bbox": {
             "minLon": -90.725371,
@@ -4545,7 +4545,7 @@
   },
   {
     "Jefferson": {
-      "COUNTYFP": "063",
+      "sub_num": "063",
       "name": "Jefferson",
       "bbox": {
         "minLon": -91.365614,
@@ -4555,7 +4555,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92502",
+          "sub_num": "92502",
           "name": "4",
           "bbox": {
             "minLon": -91.317864,
@@ -4565,7 +4565,7 @@
           }
         },
         {
-          "COUSUBFP": "91764",
+          "sub_num": "91764",
           "name": "3",
           "bbox": {
             "minLon": -91.186883,
@@ -4575,7 +4575,7 @@
           }
         },
         {
-          "COUSUBFP": "93240",
+          "sub_num": "93240",
           "name": "5",
           "bbox": {
             "minLon": -91.365614,
@@ -4585,7 +4585,7 @@
           }
         },
         {
-          "COUSUBFP": "90288",
+          "sub_num": "90288",
           "name": "1",
           "bbox": {
             "minLon": -90.908345,
@@ -4595,7 +4595,7 @@
           }
         },
         {
-          "COUSUBFP": "91026",
+          "sub_num": "91026",
           "name": "2",
           "bbox": {
             "minLon": -91.057063,
@@ -4609,7 +4609,7 @@
   },
   {
     "Adams": {
-      "COUNTYFP": "001",
+      "sub_num": "001",
       "name": "Adams",
       "bbox": {
         "minLon": -91.655009,
@@ -4619,7 +4619,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90009",
+          "sub_num": "90009",
           "name": "1",
           "bbox": {
             "minLon": -91.655009,
@@ -4629,7 +4629,7 @@
           }
         },
         {
-          "COUSUBFP": "92223",
+          "sub_num": "92223",
           "name": "4",
           "bbox": {
             "minLon": -91.517921,
@@ -4639,7 +4639,7 @@
           }
         },
         {
-          "COUSUBFP": "91485",
+          "sub_num": "91485",
           "name": "3",
           "bbox": {
             "minLon": -91.396414,
@@ -4649,7 +4649,7 @@
           }
         },
         {
-          "COUSUBFP": "92961",
+          "sub_num": "92961",
           "name": "5",
           "bbox": {
             "minLon": -91.37024,
@@ -4659,7 +4659,7 @@
           }
         },
         {
-          "COUSUBFP": "90747",
+          "sub_num": "90747",
           "name": "2",
           "bbox": {
             "minLon": -91.438699,
@@ -4673,7 +4673,7 @@
   },
   {
     "Itawamba": {
-      "COUNTYFP": "057",
+      "sub_num": "057",
       "name": "Itawamba",
       "bbox": {
         "minLon": -88.544865,
@@ -4683,7 +4683,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90261",
+          "sub_num": "90261",
           "name": "1",
           "bbox": {
             "minLon": -88.427069,
@@ -4693,7 +4693,7 @@
           }
         },
         {
-          "COUSUBFP": "92475",
+          "sub_num": "92475",
           "name": "4",
           "bbox": {
             "minLon": -88.427191,
@@ -4703,7 +4703,7 @@
           }
         },
         {
-          "COUSUBFP": "90999",
+          "sub_num": "90999",
           "name": "2",
           "bbox": {
             "minLon": -88.544742,
@@ -4713,7 +4713,7 @@
           }
         },
         {
-          "COUSUBFP": "91737",
+          "sub_num": "91737",
           "name": "3",
           "bbox": {
             "minLon": -88.544865,
@@ -4723,7 +4723,7 @@
           }
         },
         {
-          "COUSUBFP": "93213",
+          "sub_num": "93213",
           "name": "5",
           "bbox": {
             "minLon": -88.414298,
@@ -4737,7 +4737,7 @@
   },
   {
     "Hinds": {
-      "COUNTYFP": "049",
+      "sub_num": "049",
       "name": "Hinds",
       "bbox": {
         "minLon": -90.72863,
@@ -4747,7 +4747,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90963",
+          "sub_num": "90963",
           "name": "2",
           "bbox": {
             "minLon": -90.72863,
@@ -4757,7 +4757,7 @@
           }
         },
         {
-          "COUSUBFP": "90225",
+          "sub_num": "90225",
           "name": "1",
           "bbox": {
             "minLon": -90.227197,
@@ -4767,7 +4767,7 @@
           }
         },
         {
-          "COUSUBFP": "92439",
+          "sub_num": "92439",
           "name": "4",
           "bbox": {
             "minLon": -90.660287,
@@ -4777,7 +4777,7 @@
           }
         },
         {
-          "COUSUBFP": "91701",
+          "sub_num": "91701",
           "name": "3",
           "bbox": {
             "minLon": -90.321871,
@@ -4787,7 +4787,7 @@
           }
         },
         {
-          "COUSUBFP": "93177",
+          "sub_num": "93177",
           "name": "5",
           "bbox": {
             "minLon": -90.66139,
@@ -4801,7 +4801,7 @@
   },
   {
     "DeSoto": {
-      "COUNTYFP": "033",
+      "sub_num": "033",
       "name": "DeSoto",
       "bbox": {
         "minLon": -90.317741,
@@ -4811,7 +4811,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91629",
+          "sub_num": "91629",
           "name": "3",
           "bbox": {
             "minLon": -90.317741,
@@ -4821,7 +4821,7 @@
           }
         },
         {
-          "COUSUBFP": "90153",
+          "sub_num": "90153",
           "name": "1",
           "bbox": {
             "minLon": -89.871419,
@@ -4831,7 +4831,7 @@
           }
         },
         {
-          "COUSUBFP": "93105",
+          "sub_num": "93105",
           "name": "5",
           "bbox": {
             "minLon": -90.113777,
@@ -4841,7 +4841,7 @@
           }
         },
         {
-          "COUSUBFP": "90891",
+          "sub_num": "90891",
           "name": "2",
           "bbox": {
             "minLon": -89.993186,
@@ -4851,7 +4851,7 @@
           }
         },
         {
-          "COUSUBFP": "92367",
+          "sub_num": "92367",
           "name": "4",
           "bbox": {
             "minLon": -90.202457,
@@ -4865,7 +4865,7 @@
   },
   {
     "Jones": {
-      "COUNTYFP": "067",
+      "sub_num": "067",
       "name": "Jones",
       "bbox": {
         "minLon": -89.40134,
@@ -4875,7 +4875,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91782",
+          "sub_num": "91782",
           "name": "3",
           "bbox": {
             "minLon": -89.147273,
@@ -4885,7 +4885,7 @@
           }
         },
         {
-          "COUSUBFP": "92520",
+          "sub_num": "92520",
           "name": "4",
           "bbox": {
             "minLon": -89.400539,
@@ -4895,7 +4895,7 @@
           }
         },
         {
-          "COUSUBFP": "91044",
+          "sub_num": "91044",
           "name": "2",
           "bbox": {
             "minLon": -89.40134,
@@ -4905,7 +4905,7 @@
           }
         },
         {
-          "COUSUBFP": "93258",
+          "sub_num": "93258",
           "name": "5",
           "bbox": {
             "minLon": -89.214877,
@@ -4915,7 +4915,7 @@
           }
         },
         {
-          "COUSUBFP": "90306",
+          "sub_num": "90306",
           "name": "1",
           "bbox": {
             "minLon": -89.190232,
@@ -4929,7 +4929,7 @@
   },
   {
     "Lauderdale": {
-      "COUNTYFP": "075",
+      "sub_num": "075",
       "name": "Lauderdale",
       "bbox": {
         "minLon": -88.915679,
@@ -4939,7 +4939,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91818",
+          "sub_num": "91818",
           "name": "3",
           "bbox": {
             "minLon": -88.915679,
@@ -4949,7 +4949,7 @@
           }
         },
         {
-          "COUSUBFP": "91080",
+          "sub_num": "91080",
           "name": "2",
           "bbox": {
             "minLon": -88.710677,
@@ -4959,7 +4959,7 @@
           }
         },
         {
-          "COUSUBFP": "92556",
+          "sub_num": "92556",
           "name": "4",
           "bbox": {
             "minLon": -88.814265,
@@ -4969,7 +4969,7 @@
           }
         },
         {
-          "COUSUBFP": "90342",
+          "sub_num": "90342",
           "name": "1",
           "bbox": {
             "minLon": -88.761967,
@@ -4979,7 +4979,7 @@
           }
         },
         {
-          "COUSUBFP": "93294",
+          "sub_num": "93294",
           "name": "5",
           "bbox": {
             "minLon": -88.915068,
@@ -4993,7 +4993,7 @@
   },
   {
     "Walthall": {
-      "COUNTYFP": "147",
+      "sub_num": "147",
       "name": "Walthall",
       "bbox": {
         "minLon": -90.26099,
@@ -5003,7 +5003,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92142",
+          "sub_num": "92142",
           "name": "3",
           "bbox": {
             "minLon": -90.146706,
@@ -5013,7 +5013,7 @@
           }
         },
         {
-          "COUSUBFP": "93618",
+          "sub_num": "93618",
           "name": "5",
           "bbox": {
             "minLon": -90.26092,
@@ -5023,7 +5023,7 @@
           }
         },
         {
-          "COUSUBFP": "91404",
+          "sub_num": "91404",
           "name": "2",
           "bbox": {
             "minLon": -90.22687,
@@ -5033,7 +5033,7 @@
           }
         },
         {
-          "COUSUBFP": "92880",
+          "sub_num": "92880",
           "name": "4",
           "bbox": {
             "minLon": -90.26099,
@@ -5043,7 +5043,7 @@
           }
         },
         {
-          "COUSUBFP": "90666",
+          "sub_num": "90666",
           "name": "1",
           "bbox": {
             "minLon": -90.260557,
@@ -5057,7 +5057,7 @@
   },
   {
     "Jefferson Davis": {
-      "COUNTYFP": "065",
+      "sub_num": "065",
       "name": "Jefferson Davis",
       "bbox": {
         "minLon": -89.976245,
@@ -5067,7 +5067,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92511",
+          "sub_num": "92511",
           "name": "4",
           "bbox": {
             "minLon": -89.861915,
@@ -5077,7 +5077,7 @@
           }
         },
         {
-          "COUSUBFP": "91773",
+          "sub_num": "91773",
           "name": "3",
           "bbox": {
             "minLon": -89.77491,
@@ -5087,7 +5087,7 @@
           }
         },
         {
-          "COUSUBFP": "93249",
+          "sub_num": "93249",
           "name": "5",
           "bbox": {
             "minLon": -89.975368,
@@ -5097,7 +5097,7 @@
           }
         },
         {
-          "COUSUBFP": "90297",
+          "sub_num": "90297",
           "name": "1",
           "bbox": {
             "minLon": -89.976245,
@@ -5107,7 +5107,7 @@
           }
         },
         {
-          "COUSUBFP": "91035",
+          "sub_num": "91035",
           "name": "2",
           "bbox": {
             "minLon": -89.959143,
@@ -5121,7 +5121,7 @@
   },
   {
     "Webster": {
-      "COUNTYFP": "155",
+      "sub_num": "155",
       "name": "Webster",
       "bbox": {
         "minLon": -89.507135,
@@ -5131,7 +5131,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91440",
+          "sub_num": "91440",
           "name": "2",
           "bbox": {
             "minLon": -89.507135,
@@ -5141,7 +5141,7 @@
           }
         },
         {
-          "COUSUBFP": "93654",
+          "sub_num": "93654",
           "name": "5",
           "bbox": {
             "minLon": -89.23363,
@@ -5151,7 +5151,7 @@
           }
         },
         {
-          "COUSUBFP": "90702",
+          "sub_num": "90702",
           "name": "1",
           "bbox": {
             "minLon": -89.5068,
@@ -5161,7 +5161,7 @@
           }
         },
         {
-          "COUSUBFP": "92178",
+          "sub_num": "92178",
           "name": "3",
           "bbox": {
             "minLon": -89.506585,
@@ -5171,7 +5171,7 @@
           }
         },
         {
-          "COUSUBFP": "92916",
+          "sub_num": "92916",
           "name": "4",
           "bbox": {
             "minLon": -89.225598,
@@ -5185,7 +5185,7 @@
   },
   {
     "Madison": {
-      "COUNTYFP": "089",
+      "sub_num": "089",
       "name": "Madison",
       "bbox": {
         "minLon": -90.451494,
@@ -5195,7 +5195,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90405",
+          "sub_num": "90405",
           "name": "1",
           "bbox": {
             "minLon": -90.132246,
@@ -5205,7 +5205,7 @@
           }
         },
         {
-          "COUSUBFP": "92619",
+          "sub_num": "92619",
           "name": "4",
           "bbox": {
             "minLon": -90.451494,
@@ -5215,7 +5215,7 @@
           }
         },
         {
-          "COUSUBFP": "91143",
+          "sub_num": "91143",
           "name": "2",
           "bbox": {
             "minLon": -90.243809,
@@ -5225,7 +5225,7 @@
           }
         },
         {
-          "COUSUBFP": "93357",
+          "sub_num": "93357",
           "name": "5",
           "bbox": {
             "minLon": -90.093625,
@@ -5235,7 +5235,7 @@
           }
         },
         {
-          "COUSUBFP": "91881",
+          "sub_num": "91881",
           "name": "3",
           "bbox": {
             "minLon": -90.226366,

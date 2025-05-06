@@ -1,7 +1,7 @@
 [
   {
-    "6204": {
-      "subsub_id": "6204",
+    "Qikiqtaaluk": {
+      "sub_num": "6204",
       "name": "Qikiqtaaluk",
       "bbox": {
         "minLon": -109.83533523,
@@ -12,8 +12,8 @@
     }
   },
   {
-    "6205": {
-      "subsub_id": "6205",
+    "Kivalliq": {
+      "sub_num": "6205",
       "name": "Kivalliq",
       "bbox": {
         "minLon": -105.01776294,
@@ -24,8 +24,8 @@
     }
   },
   {
-    "6208": {
-      "subsub_id": "6208",
+    "Kitikmeot": {
+      "sub_num": "6208",
       "name": "Kitikmeot",
       "bbox": {
         "minLon": -120.72477038,

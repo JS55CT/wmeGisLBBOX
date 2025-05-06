@@ -1,8 +1,8 @@
 [
   {
-    "4601": {
-      "subsub_id": "4601",
-      "name": "Division No.  1",
+    "Division No. 1": {
+      "sub_num": "4601",
+      "name": "Division No. 1",
       "bbox": {
         "minLon": -96.78630162,
         "minLat": 48.99886358,
@@ -12,9 +12,9 @@
     }
   },
   {
-    "4602": {
-      "subsub_id": "4602",
-      "name": "Division No.  2",
+    "Division No. 2": {
+      "sub_num": "4602",
+      "name": "Division No. 2",
       "bbox": {
         "minLon": -97.31113945,
         "minLat": 49.0002055,
@@ -24,9 +24,9 @@
     }
   },
   {
-    "4603": {
-      "subsub_id": "4603",
-      "name": "Division No.  3",
+    "Division No. 3": {
+      "sub_num": "4603",
+      "name": "Division No. 3",
       "bbox": {
         "minLon": -98.4156626,
         "minLat": 49.00025667,
@@ -36,9 +36,9 @@
     }
   },
   {
-    "4604": {
-      "subsub_id": "4604",
-      "name": "Division No.  4",
+    "Division No. 4": {
+      "sub_num": "4604",
+      "name": "Division No. 4",
       "bbox": {
         "minLon": -99.49721862,
         "minLat": 49.00000483,
@@ -48,9 +48,9 @@
     }
   },
   {
-    "4605": {
-      "subsub_id": "4605",
-      "name": "Division No.  5",
+    "Division No. 5": {
+      "sub_num": "4605",
+      "name": "Division No. 5",
       "bbox": {
         "minLon": -101.39260791,
         "minLat": 48.99942472,
@@ -60,9 +60,9 @@
     }
   },
   {
-    "4606": {
-      "subsub_id": "4606",
-      "name": "Division No.  6",
+    "Division No. 6": {
+      "sub_num": "4606",
+      "name": "Division No. 6",
       "bbox": {
         "minLon": -101.44846619,
         "minLat": 49.53220275,
@@ -72,9 +72,9 @@
     }
   },
   {
-    "4607": {
-      "subsub_id": "4607",
-      "name": "Division No.  7",
+    "Division No. 7": {
+      "sub_num": "4607",
+      "name": "Division No. 7",
       "bbox": {
         "minLon": -100.48539161,
         "minLat": 49.53166499,
@@ -84,9 +84,9 @@
     }
   },
   {
-    "4608": {
-      "subsub_id": "4608",
-      "name": "Division No.  8",
+    "Division No. 8": {
+      "sub_num": "4608",
+      "name": "Division No. 8",
       "bbox": {
         "minLon": -99.41521331,
         "minLat": 49.53161999,
@@ -96,9 +96,9 @@
     }
   },
   {
-    "4609": {
-      "subsub_id": "4609",
-      "name": "Division No.  9",
+    "Division No. 9": {
+      "sub_num": "4609",
+      "name": "Division No. 9",
       "bbox": {
         "minLon": -98.56103177,
         "minLat": 49.61967721,
@@ -108,8 +108,8 @@
     }
   },
   {
-    "4610": {
-      "subsub_id": "4610",
+    "Division No. 10": {
+      "sub_num": "4610",
       "name": "Division No. 10",
       "bbox": {
         "minLon": -97.95036014,
@@ -120,8 +120,8 @@
     }
   },
   {
-    "4611": {
-      "subsub_id": "4611",
+    "Division No. 11": {
+      "sub_num": "4611",
       "name": "Division No. 11",
       "bbox": {
         "minLon": -97.45384455,
@@ -132,8 +132,8 @@
     }
   },
   {
-    "4612": {
-      "subsub_id": "4612",
+    "Division No. 12": {
+      "sub_num": "4612",
       "name": "Division No. 12",
       "bbox": {
         "minLon": -97.02733603,
@@ -144,8 +144,8 @@
     }
   },
   {
-    "4613": {
-      "subsub_id": "4613",
+    "Division No. 13": {
+      "sub_num": "4613",
       "name": "Division No. 13",
       "bbox": {
         "minLon": -97.18460002,
@@ -156,8 +156,8 @@
     }
   },
   {
-    "4614": {
-      "subsub_id": "4614",
+    "Division No. 14": {
+      "sub_num": "4614",
       "name": "Division No. 14",
       "bbox": {
         "minLon": -98.01458662,
@@ -168,8 +168,8 @@
     }
   },
   {
-    "4615": {
-      "subsub_id": "4615",
+    "Division No. 15": {
+      "sub_num": "4615",
       "name": "Division No. 15",
       "bbox": {
         "minLon": -101.47725661,
@@ -180,8 +180,8 @@
     }
   },
   {
-    "4616": {
-      "subsub_id": "4616",
+    "Division No. 16": {
+      "sub_num": "4616",
       "name": "Division No. 16",
       "bbox": {
         "minLon": -101.57067621,
@@ -192,8 +192,8 @@
     }
   },
   {
-    "4617": {
-      "subsub_id": "4617",
+    "Division No. 17": {
+      "sub_num": "4617",
       "name": "Division No. 17",
       "bbox": {
         "minLon": -100.97848297,
@@ -204,8 +204,8 @@
     }
   },
   {
-    "4618": {
-      "subsub_id": "4618",
+    "Division No. 18": {
+      "sub_num": "4618",
       "name": "Division No. 18",
       "bbox": {
         "minLon": -98.87755837,
@@ -216,8 +216,8 @@
     }
   },
   {
-    "4619": {
-      "subsub_id": "4619",
+    "Division No. 19": {
+      "sub_num": "4619",
       "name": "Division No. 19",
       "bbox": {
         "minLon": -101.67163432,
@@ -228,8 +228,8 @@
     }
   },
   {
-    "4620": {
-      "subsub_id": "4620",
+    "Division No. 20": {
+      "sub_num": "4620",
       "name": "Division No. 20",
       "bbox": {
         "minLon": -101.67159415,
@@ -240,8 +240,8 @@
     }
   },
   {
-    "4621": {
-      "subsub_id": "4621",
+    "Division No. 21": {
+      "sub_num": "4621",
       "name": "Division No. 21",
       "bbox": {
         "minLon": -101.96395494,
@@ -252,8 +252,8 @@
     }
   },
   {
-    "4622": {
-      "subsub_id": "4622",
+    "Division No. 22": {
+      "sub_num": "4622",
       "name": "Division No. 22",
       "bbox": {
         "minLon": -99.02935155,
@@ -264,8 +264,8 @@
     }
   },
   {
-    "4623": {
-      "subsub_id": "4623",
+    "Division No. 23": {
+      "sub_num": "4623",
       "name": "Division No. 23",
       "bbox": {
         "minLon": -102.00760914,

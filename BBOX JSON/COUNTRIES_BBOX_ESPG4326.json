@@ -1,6 +1,7 @@
 {
-  "US": {
+  "USA": {
     "name": "United States",
+    "id": "USA",
     "ISO_ALPHA2": "US",
     "ISO_ALPHA3": "USA",
     "bbox": [
@@ -14,8 +15,9 @@
       { "minLon": -65.154118, "minLat": 17.623468, "maxLon": -64.512674, "maxLat": 18.464984 }
     ]
   },
-  "CA": {
+  "CAN": {
     "name": "Canada",
+    "id": "CAN",
     "ISO_ALPHA2": "CA",
     "ISO_ALPHA3": "CAN",
     "bbox": [{ "minLon": -141.018073157628, "minLat": 41.6814354249861, "maxLon": -52.6194085038461, "maxLat": 83.1355025243594 }]

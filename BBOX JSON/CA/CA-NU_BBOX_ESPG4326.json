@@ -1,7 +1,7 @@
 [
   {
-    "6101": {
-      "subsub_id": "6101",
+    "Region 1": {
+      "sub_num": "6101",
       "name": "Region 1",
       "bbox": {
         "minLon": -136.46868969,
@@ -12,8 +12,8 @@
     }
   },
   {
-    "6102": {
-      "subsub_id": "6102",
+    "Region 2": {
+      "sub_num": "6102",
       "name": "Region 2",
       "bbox": {
         "minLon": -132.07487406,
@@ -24,8 +24,8 @@
     }
   },
   {
-    "6103": {
-      "subsub_id": "6103",
+    "Region 3": {
+      "sub_num": "6103",
       "name": "Region 3",
       "bbox": {
         "minLon": -118.78216136,
@@ -36,8 +36,8 @@
     }
   },
   {
-    "6104": {
-      "subsub_id": "6104",
+    "Region 4": {
+      "sub_num": "6104",
       "name": "Region 4",
       "bbox": {
         "minLon": -128.4929113,
@@ -48,8 +48,8 @@
     }
   },
   {
-    "6105": {
-      "subsub_id": "6105",
+    "Region 5": {
+      "sub_num": "6105",
       "name": "Region 5",
       "bbox": {
         "minLon": -116.97862267,
@@ -60,8 +60,8 @@
     }
   },
   {
-    "6106": {
-      "subsub_id": "6106",
+    "Region 6": {
+      "sub_num": "6106",
       "name": "Region 6",
       "bbox": {
         "minLon": -119.99960277,

@@ -1,7 +1,7 @@
 [
   {
-    "3501": {
-      "subsub_id": "3501",
+    "Stormont, Dundas and Glengarry": {
+      "sub_num": "3501",
       "name": "Stormont, Dundas and Glengarry",
       "bbox": {
         "minLon": -75.59498419,
@@ -12,8 +12,8 @@
     }
   },
   {
-    "3502": {
-      "subsub_id": "3502",
+    "Prescott and Russell": {
+      "sub_num": "3502",
       "name": "Prescott and Russell",
       "bbox": {
         "minLon": -75.42594482,
@@ -24,8 +24,8 @@
     }
   },
   {
-    "3506": {
-      "subsub_id": "3506",
+    "Ottawa": {
+      "sub_num": "3506",
       "name": "Ottawa",
       "bbox": {
         "minLon": -76.35397111,
@@ -36,8 +36,8 @@
     }
   },
   {
-    "3507": {
-      "subsub_id": "3507",
+    "Leeds and Grenville": {
+      "sub_num": "3507",
       "name": "Leeds and Grenville",
       "bbox": {
         "minLon": -76.5256646,
@@ -48,8 +48,8 @@
     }
   },
   {
-    "3509": {
-      "subsub_id": "3509",
+    "Lanark": {
+      "sub_num": "3509",
       "name": "Lanark",
       "bbox": {
         "minLon": -76.76980018,
@@ -60,8 +60,8 @@
     }
   },
   {
-    "3510": {
-      "subsub_id": "3510",
+    "Frontenac": {
+      "sub_num": "3510",
       "name": "Frontenac",
       "bbox": {
         "minLon": -77.22135926,
@@ -72,8 +72,8 @@
     }
   },
   {
-    "3511": {
-      "subsub_id": "3511",
+    "Lennox and Addington": {
+      "sub_num": "3511",
       "name": "Lennox and Addington",
       "bbox": {
         "minLon": -77.54143344,
@@ -84,8 +84,8 @@
     }
   },
   {
-    "3512": {
-      "subsub_id": "3512",
+    "Hastings": {
+      "sub_num": "3512",
       "name": "Hastings",
       "bbox": {
         "minLon": -78.1784559,
@@ -96,8 +96,8 @@
     }
   },
   {
-    "3513": {
-      "subsub_id": "3513",
+    "Prince Edward": {
+      "sub_num": "3513",
       "name": "Prince Edward",
       "bbox": {
         "minLon": -77.61289499,
@@ -108,8 +108,8 @@
     }
   },
   {
-    "3514": {
-      "subsub_id": "3514",
+    "Northumberland": {
+      "sub_num": "3514",
       "name": "Northumberland",
       "bbox": {
         "minLon": -78.50869781,
@@ -120,8 +120,8 @@
     }
   },
   {
-    "3515": {
-      "subsub_id": "3515",
+    "Peterborough": {
+      "sub_num": "3515",
       "name": "Peterborough",
       "bbox": {
         "minLon": -78.65482846,
@@ -132,8 +132,8 @@
     }
   },
   {
-    "3516": {
-      "subsub_id": "3516",
+    "Kawartha Lakes": {
+      "sub_num": "3516",
       "name": "Kawartha Lakes",
       "bbox": {
         "minLon": -79.20922985,
@@ -144,8 +144,8 @@
     }
   },
   {
-    "3518": {
-      "subsub_id": "3518",
+    "Durham": {
+      "sub_num": "3518",
       "name": "Durham",
       "bbox": {
         "minLon": -79.32801341,
@@ -156,8 +156,8 @@
     }
   },
   {
-    "3519": {
-      "subsub_id": "3519",
+    "York": {
+      "sub_num": "3519",
       "name": "York",
       "bbox": {
         "minLon": -79.7755044,
@@ -168,8 +168,8 @@
     }
   },
   {
-    "3520": {
-      "subsub_id": "3520",
+    "Toronto": {
+      "sub_num": "3520",
       "name": "Toronto",
       "bbox": {
         "minLon": -79.63930241,
@@ -180,8 +180,8 @@
     }
   },
   {
-    "3521": {
-      "subsub_id": "3521",
+    "Peel": {
+      "sub_num": "3521",
       "name": "Peel",
       "bbox": {
         "minLon": -80.14411839,
@@ -192,8 +192,8 @@
     }
   },
   {
-    "3522": {
-      "subsub_id": "3522",
+    "Dufferin": {
+      "sub_num": "3522",
       "name": "Dufferin",
       "bbox": {
         "minLon": -80.43842852,
@@ -204,8 +204,8 @@
     }
   },
   {
-    "3523": {
-      "subsub_id": "3523",
+    "Wellington": {
+      "sub_num": "3523",
       "name": "Wellington",
       "bbox": {
         "minLon": -80.99178752,
@@ -216,8 +216,8 @@
     }
   },
   {
-    "3524": {
-      "subsub_id": "3524",
+    "Halton": {
+      "sub_num": "3524",
       "name": "Halton",
       "bbox": {
         "minLon": -80.16035631,
@@ -228,8 +228,8 @@
     }
   },
   {
-    "3525": {
-      "subsub_id": "3525",
+    "Hamilton": {
+      "sub_num": "3525",
       "name": "Hamilton",
       "bbox": {
         "minLon": -80.24848621,
@@ -240,8 +240,8 @@
     }
   },
   {
-    "3526": {
-      "subsub_id": "3526",
+    "Niagara": {
+      "sub_num": "3526",
       "name": "Niagara",
       "bbox": {
         "minLon": -79.75407963,
@@ -252,8 +252,8 @@
     }
   },
   {
-    "3528": {
-      "subsub_id": "3528",
+    "Haldimand-Norfolk": {
+      "sub_num": "3528",
       "name": "Haldimand-Norfolk",
       "bbox": {
         "minLon": -80.74463615,
@@ -264,8 +264,8 @@
     }
   },
   {
-    "3529": {
-      "subsub_id": "3529",
+    "Brant": {
+      "sub_num": "3529",
       "name": "Brant",
       "bbox": {
         "minLon": -80.60874541,
@@ -276,8 +276,8 @@
     }
   },
   {
-    "3530": {
-      "subsub_id": "3530",
+    "Waterloo": {
+      "sub_num": "3530",
       "name": "Waterloo",
       "bbox": {
         "minLon": -80.86903649,
@@ -288,8 +288,8 @@
     }
   },
   {
-    "3531": {
-      "subsub_id": "3531",
+    "Perth": {
+      "sub_num": "3531",
       "name": "Perth",
       "bbox": {
         "minLon": -81.44303829,
@@ -300,8 +300,8 @@
     }
   },
   {
-    "3532": {
-      "subsub_id": "3532",
+    "Oxford": {
+      "sub_num": "3532",
       "name": "Oxford",
       "bbox": {
         "minLon": -81.13220345,
@@ -312,8 +312,8 @@
     }
   },
   {
-    "3534": {
-      "subsub_id": "3534",
+    "Elgin": {
+      "sub_num": "3534",
       "name": "Elgin",
       "bbox": {
         "minLon": -81.83465275,
@@ -324,8 +324,8 @@
     }
   },
   {
-    "3536": {
-      "subsub_id": "3536",
+    "Chatham-Kent": {
+      "sub_num": "3536",
       "name": "Chatham-Kent",
       "bbox": {
         "minLon": -82.48397924,
@@ -336,8 +336,8 @@
     }
   },
   {
-    "3537": {
-      "subsub_id": "3537",
+    "Essex": {
+      "sub_num": "3537",
       "name": "Essex",
       "bbox": {
         "minLon": -83.13384096,
@@ -348,8 +348,8 @@
     }
   },
   {
-    "3538": {
-      "subsub_id": "3538",
+    "Lambton": {
+      "sub_num": "3538",
       "name": "Lambton",
       "bbox": {
         "minLon": -82.67812027,
@@ -360,8 +360,8 @@
     }
   },
   {
-    "3539": {
-      "subsub_id": "3539",
+    "Middlesex": {
+      "sub_num": "3539",
       "name": "Middlesex",
       "bbox": {
         "minLon": -81.83564232,
@@ -372,8 +372,8 @@
     }
   },
   {
-    "3540": {
-      "subsub_id": "3540",
+    "Huron": {
+      "sub_num": "3540",
       "name": "Huron",
       "bbox": {
         "minLon": -81.77745829,
@@ -384,8 +384,8 @@
     }
   },
   {
-    "3541": {
-      "subsub_id": "3541",
+    "Bruce": {
+      "sub_num": "3541",
       "name": "Bruce",
       "bbox": {
         "minLon": -81.77623464,
@@ -396,8 +396,8 @@
     }
   },
   {
-    "3542": {
-      "subsub_id": "3542",
+    "Grey": {
+      "sub_num": "3542",
       "name": "Grey",
       "bbox": {
         "minLon": -81.14038299,
@@ -408,8 +408,8 @@
     }
   },
   {
-    "3543": {
-      "subsub_id": "3543",
+    "Simcoe": {
+      "sub_num": "3543",
       "name": "Simcoe",
       "bbox": {
         "minLon": -80.29345119,
@@ -420,8 +420,8 @@
     }
   },
   {
-    "3544": {
-      "subsub_id": "3544",
+    "Muskoka": {
+      "sub_num": "3544",
       "name": "Muskoka",
       "bbox": {
         "minLon": -80.13514118,
@@ -432,8 +432,8 @@
     }
   },
   {
-    "3546": {
-      "subsub_id": "3546",
+    "Haliburton": {
+      "sub_num": "3546",
       "name": "Haliburton",
       "bbox": {
         "minLon": -79.00114201,
@@ -444,8 +444,8 @@
     }
   },
   {
-    "3547": {
-      "subsub_id": "3547",
+    "Renfrew": {
+      "sub_num": "3547",
       "name": "Renfrew",
       "bbox": {
         "minLon": -78.41248587,
@@ -456,8 +456,8 @@
     }
   },
   {
-    "3548": {
-      "subsub_id": "3548",
+    "Nipissing": {
+      "sub_num": "3548",
       "name": "Nipissing",
       "bbox": {
         "minLon": -80.3586093,
@@ -468,8 +468,8 @@
     }
   },
   {
-    "3549": {
-      "subsub_id": "3549",
+    "Parry Sound": {
+      "sub_num": "3549",
       "name": "Parry Sound",
       "bbox": {
         "minLon": -80.83149305,
@@ -480,8 +480,8 @@
     }
   },
   {
-    "3551": {
-      "subsub_id": "3551",
+    "Manitoulin": {
+      "sub_num": "3551",
       "name": "Manitoulin",
       "bbox": {
         "minLon": -83.50815434,
@@ -492,8 +492,8 @@
     }
   },
   {
-    "3552": {
-      "subsub_id": "3552",
+    "Sudbury": {
+      "sub_num": "3552",
       "name": "Sudbury",
       "bbox": {
         "minLon": -84.01638346,
@@ -504,8 +504,8 @@
     }
   },
   {
-    "3553": {
-      "subsub_id": "3553",
+    "Greater Sudbury / Grand Sudbury": {
+      "sub_num": "3553",
       "name": "Greater Sudbury / Grand Sudbury",
       "bbox": {
         "minLon": -81.59748146,
@@ -516,8 +516,8 @@
     }
   },
   {
-    "3554": {
-      "subsub_id": "3554",
+    "Timiskaming": {
+      "sub_num": "3554",
       "name": "Timiskaming",
       "bbox": {
         "minLon": -81.85689418,
@@ -528,8 +528,8 @@
     }
   },
   {
-    "3556": {
-      "subsub_id": "3556",
+    "Cochrane": {
+      "sub_num": "3556",
       "name": "Cochrane",
       "bbox": {
         "minLon": -86.54942531,
@@ -540,8 +540,8 @@
     }
   },
   {
-    "3557": {
-      "subsub_id": "3557",
+    "Algoma": {
+      "sub_num": "3557",
       "name": "Algoma",
       "bbox": {
         "minLon": -85.3336631,
@@ -552,8 +552,8 @@
     }
   },
   {
-    "3558": {
-      "subsub_id": "3558",
+    "Thunder Bay": {
+      "sub_num": "3558",
       "name": "Thunder Bay",
       "bbox": {
         "minLon": -90.9669531,
@@ -564,8 +564,8 @@
     }
   },
   {
-    "3559": {
-      "subsub_id": "3559",
+    "Rainy River": {
+      "sub_num": "3559",
       "name": "Rainy River",
       "bbox": {
         "minLon": -94.79516786,
@@ -576,8 +576,8 @@
     }
   },
   {
-    "3560": {
-      "subsub_id": "3560",
+    "Kenora": {
+      "sub_num": "3560",
       "name": "Kenora",
       "bbox": {
         "minLon": -95.15570333,

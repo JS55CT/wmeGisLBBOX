@@ -1,7 +1,7 @@
 [
   {
     "Lincoln": {
-      "COUNTYFP": "023",
+      "sub_num": "023",
       "name": "Lincoln",
       "bbox": {
         "minLon": -111.047343,
@@ -11,7 +11,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91980",
+          "sub_num": "91980",
           "name": "Kemmerer West",
           "bbox": {
             "minLon": -111.047343,
@@ -21,7 +21,7 @@
           }
         },
         {
-          "COUSUBFP": "90055",
+          "sub_num": "90055",
           "name": "Afton",
           "bbox": {
             "minLon": -111.047234,
@@ -31,7 +31,7 @@
           }
         },
         {
-          "COUSUBFP": "91925",
+          "sub_num": "91925",
           "name": "Kemmerer East",
           "bbox": {
             "minLon": -110.626998,
@@ -45,7 +45,7 @@
   },
   {
     "Fremont": {
-      "COUNTYFP": "013",
+      "sub_num": "013",
       "name": "Fremont",
       "bbox": {
         "minLon": -110.053637,
@@ -55,7 +55,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92035",
+          "sub_num": "92035",
           "name": "Lander",
           "bbox": {
             "minLon": -109.325773,
@@ -65,7 +65,7 @@
           }
         },
         {
-          "COUSUBFP": "93080",
+          "sub_num": "93080",
           "name": "Shoshoni",
           "bbox": {
             "minLon": -108.156763,
@@ -75,7 +75,7 @@
           }
         },
         {
-          "COUSUBFP": "91045",
+          "sub_num": "91045",
           "name": "Dubois",
           "bbox": {
             "minLon": -110.053637,
@@ -85,7 +85,7 @@
           }
         },
         {
-          "COUSUBFP": "93742",
+          "sub_num": "93742",
           "name": "Wind River Reservation",
           "bbox": {
             "minLon": -109.474296,
@@ -95,7 +95,7 @@
           }
         },
         {
-          "COUSUBFP": "91842",
+          "sub_num": "91842",
           "name": "Jeffrey City",
           "bbox": {
             "minLon": -108.368914,
@@ -109,7 +109,7 @@
   },
   {
     "Uinta": {
-      "COUNTYFP": "041",
+      "sub_num": "041",
       "name": "Uinta",
       "bbox": {
         "minLon": -111.046819,
@@ -119,7 +119,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90440",
+          "sub_num": "90440",
           "name": "Bridger Valley",
           "bbox": {
             "minLon": -110.743023,
@@ -129,7 +129,7 @@
           }
         },
         {
-          "COUSUBFP": "91155",
+          "sub_num": "91155",
           "name": "Evanston",
           "bbox": {
             "minLon": -111.046819,
@@ -143,7 +143,7 @@
   },
   {
     "Big Horn": {
-      "COUNTYFP": "003",
+      "sub_num": "003",
       "name": "Big Horn",
       "bbox": {
         "minLon": -108.622147,
@@ -153,7 +153,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90688",
+          "sub_num": "90688",
           "name": "Central Big Horn",
           "bbox": {
             "minLon": -108.592624,
@@ -163,7 +163,7 @@
           }
         },
         {
-          "COUSUBFP": "92393",
+          "sub_num": "92393",
           "name": "North Big Horn",
           "bbox": {
             "minLon": -108.622147,
@@ -173,7 +173,7 @@
           }
         },
         {
-          "COUSUBFP": "93142",
+          "sub_num": "93142",
           "name": "South Big Horn",
           "bbox": {
             "minLon": -108.573797,
@@ -187,7 +187,7 @@
   },
   {
     "Hot Springs": {
-      "COUNTYFP": "017",
+      "sub_num": "017",
       "name": "Hot Springs",
       "bbox": {
         "minLon": -109.313129,
@@ -197,7 +197,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93355",
+          "sub_num": "93355",
           "name": "Thermopolis East",
           "bbox": {
             "minLon": -108.220662,
@@ -207,7 +207,7 @@
           }
         },
         {
-          "COUSUBFP": "93410",
+          "sub_num": "93410",
           "name": "Thermopolis West",
           "bbox": {
             "minLon": -109.313129,
@@ -217,7 +217,7 @@
           }
         },
         {
-          "COUSUBFP": "93744",
+          "sub_num": "93744",
           "name": "Wind River Reservation",
           "bbox": {
             "minLon": -109.171638,
@@ -231,7 +231,7 @@
   },
   {
     "Washakie": {
-      "COUNTYFP": "043",
+      "sub_num": "043",
       "name": "Washakie",
       "bbox": {
         "minLon": -108.550815,
@@ -241,7 +241,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93300",
+          "sub_num": "93300",
           "name": "Ten Sleep",
           "bbox": {
             "minLon": -107.693775,
@@ -251,7 +251,7 @@
           }
         },
         {
-          "COUSUBFP": "93795",
+          "sub_num": "93795",
           "name": "Worland",
           "bbox": {
             "minLon": -108.550815,
@@ -265,7 +265,7 @@
   },
   {
     "Converse": {
-      "COUNTYFP": "009",
+      "sub_num": "009",
       "name": "Converse",
       "bbox": {
         "minLon": -106.078238,
@@ -275,7 +275,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90990",
+          "sub_num": "90990",
           "name": "Douglas",
           "bbox": {
             "minLon": -105.92667,
@@ -285,7 +285,7 @@
           }
         },
         {
-          "COUSUBFP": "91375",
+          "sub_num": "91375",
           "name": "Glenrock",
           "bbox": {
             "minLon": -106.078238,
@@ -299,7 +299,7 @@
   },
   {
     "Sweetwater": {
-      "COUNTYFP": "037",
+      "sub_num": "037",
       "name": "Sweetwater",
       "bbox": {
         "minLon": -110.054409,
@@ -309,7 +309,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93575",
+          "sub_num": "93575",
           "name": "Wamsutter",
           "bbox": {
             "minLon": -108.58201,
@@ -319,7 +319,7 @@
           }
         },
         {
-          "COUSUBFP": "91485",
+          "sub_num": "91485",
           "name": "Green River North",
           "bbox": {
             "minLon": -110.054409,
@@ -329,7 +329,7 @@
           }
         },
         {
-          "COUSUBFP": "92805",
+          "sub_num": "92805",
           "name": "Rock Springs South",
           "bbox": {
             "minLon": -109.589912,
@@ -339,7 +339,7 @@
           }
         },
         {
-          "COUSUBFP": "91540",
+          "sub_num": "91540",
           "name": "Green River South",
           "bbox": {
             "minLon": -110.049165,
@@ -349,7 +349,7 @@
           }
         },
         {
-          "COUSUBFP": "92750",
+          "sub_num": "92750",
           "name": "Rock Springs North",
           "bbox": {
             "minLon": -109.49666,
@@ -363,7 +363,7 @@
   },
   {
     "Crook": {
-      "COUNTYFP": "011",
+      "sub_num": "011",
       "name": "Crook",
       "bbox": {
         "minLon": -105.086151,
@@ -373,7 +373,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93190",
+          "sub_num": "93190",
           "name": "Sundance",
           "bbox": {
             "minLon": -104.69676,
@@ -383,7 +383,7 @@
           }
         },
         {
-          "COUSUBFP": "92200",
+          "sub_num": "92200",
           "name": "Moorcroft",
           "bbox": {
             "minLon": -105.086151,
@@ -393,7 +393,7 @@
           }
         },
         {
-          "COUSUBFP": "91760",
+          "sub_num": "91760",
           "name": "Hulett",
           "bbox": {
             "minLon": -105.085619,
@@ -407,7 +407,7 @@
   },
   {
     "Carbon": {
-      "COUNTYFP": "007",
+      "sub_num": "007",
       "name": "Carbon",
       "bbox": {
         "minLon": -107.929984,
@@ -417,7 +417,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91650",
+          "sub_num": "91650",
           "name": "Hanna",
           "bbox": {
             "minLon": -107.066119,
@@ -427,7 +427,7 @@
           }
         },
         {
-          "COUSUBFP": "92860",
+          "sub_num": "92860",
           "name": "Saratoga",
           "bbox": {
             "minLon": -107.316837,
@@ -437,7 +437,7 @@
           }
         },
         {
-          "COUSUBFP": "92640",
+          "sub_num": "92640",
           "name": "Rawlins",
           "bbox": {
             "minLon": -107.929984,
@@ -451,7 +451,7 @@
   },
   {
     "Campbell": {
-      "COUNTYFP": "005",
+      "sub_num": "005",
       "name": "Campbell",
       "bbox": {
         "minLon": -106.02524,
@@ -461,7 +461,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91210",
+          "sub_num": "91210",
           "name": "Gillette North",
           "bbox": {
             "minLon": -106.02524,
@@ -471,7 +471,7 @@
           }
         },
         {
-          "COUSUBFP": "91265",
+          "sub_num": "91265",
           "name": "Gillette South",
           "bbox": {
             "minLon": -106.018862,
@@ -485,7 +485,7 @@
   },
   {
     "Natrona": {
-      "COUNTYFP": "025",
+      "sub_num": "025",
       "name": "Natrona",
       "bbox": {
         "minLon": -107.543526,
@@ -495,7 +495,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90605",
+          "sub_num": "90605",
           "name": "Casper North",
           "bbox": {
             "minLon": -106.71474,
@@ -505,7 +505,7 @@
           }
         },
         {
-          "COUSUBFP": "90660",
+          "sub_num": "90660",
           "name": "Casper South",
           "bbox": {
             "minLon": -106.913401,
@@ -515,7 +515,7 @@
           }
         },
         {
-          "COUSUBFP": "90550",
+          "sub_num": "90550",
           "name": "Casper",
           "bbox": {
             "minLon": -106.418342,
@@ -525,7 +525,7 @@
           }
         },
         {
-          "COUSUBFP": "91705",
+          "sub_num": "91705",
           "name": "Hells Half Acre",
           "bbox": {
             "minLon": -107.543526,
@@ -539,7 +539,7 @@
   },
   {
     "Laramie": {
-      "COUNTYFP": "021",
+      "sub_num": "021",
       "name": "Laramie",
       "bbox": {
         "minLon": -105.280675,
@@ -549,7 +549,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90825",
+          "sub_num": "90825",
           "name": "Cheyenne West",
           "bbox": {
             "minLon": -105.280675,
@@ -559,7 +559,7 @@
           }
         },
         {
-          "COUSUBFP": "92420",
+          "sub_num": "92420",
           "name": "Pine Bluffs",
           "bbox": {
             "minLon": -104.484121,
@@ -569,7 +569,7 @@
           }
         },
         {
-          "COUSUBFP": "90715",
+          "sub_num": "90715",
           "name": "Cheyenne",
           "bbox": {
             "minLon": -104.852679,
@@ -579,7 +579,7 @@
           }
         },
         {
-          "COUSUBFP": "90770",
+          "sub_num": "90770",
           "name": "Cheyenne East",
           "bbox": {
             "minLon": -104.899507,
@@ -593,7 +593,7 @@
   },
   {
     "Platte": {
-      "COUNTYFP": "031",
+      "sub_num": "031",
       "name": "Platte",
       "bbox": {
         "minLon": -105.286511,
@@ -603,7 +603,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90880",
+          "sub_num": "90880",
           "name": "Chugwater",
           "bbox": {
             "minLon": -105.278973,
@@ -613,7 +613,7 @@
           }
         },
         {
-          "COUSUBFP": "91320",
+          "sub_num": "91320",
           "name": "Glendo",
           "bbox": {
             "minLon": -105.286511,
@@ -623,7 +623,7 @@
           }
         },
         {
-          "COUSUBFP": "91595",
+          "sub_num": "91595",
           "name": "Guernsey",
           "bbox": {
             "minLon": -105.079115,
@@ -633,7 +633,7 @@
           }
         },
         {
-          "COUSUBFP": "93630",
+          "sub_num": "93630",
           "name": "Wheatland",
           "bbox": {
             "minLon": -105.281454,
@@ -647,7 +647,7 @@
   },
   {
     "Weston": {
-      "COUNTYFP": "045",
+      "sub_num": "045",
       "name": "Weston",
       "bbox": {
         "minLon": -105.081769,
@@ -657,7 +657,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93520",
+          "sub_num": "93520",
           "name": "Upton",
           "bbox": {
             "minLon": -105.081407,
@@ -667,7 +667,7 @@
           }
         },
         {
-          "COUSUBFP": "92255",
+          "sub_num": "92255",
           "name": "Newcastle",
           "bbox": {
             "minLon": -105.081769,
@@ -681,7 +681,7 @@
   },
   {
     "Albany": {
-      "COUNTYFP": "001",
+      "sub_num": "001",
       "name": "Albany",
       "bbox": {
         "minLon": -106.323343,
@@ -691,7 +691,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91100",
+          "sub_num": "91100",
           "name": "East Albany",
           "bbox": {
             "minLon": -105.74781,
@@ -701,7 +701,7 @@
           }
         },
         {
-          "COUSUBFP": "92695",
+          "sub_num": "92695",
           "name": "Rock River",
           "bbox": {
             "minLon": -106.074922,
@@ -711,7 +711,7 @@
           }
         },
         {
-          "COUSUBFP": "92090",
+          "sub_num": "92090",
           "name": "Laramie",
           "bbox": {
             "minLon": -105.835619,
@@ -721,7 +721,7 @@
           }
         },
         {
-          "COUSUBFP": "93135",
+          "sub_num": "93135",
           "name": "South Albany",
           "bbox": {
             "minLon": -106.323343,
@@ -735,7 +735,7 @@
   },
   {
     "Park": {
-      "COUNTYFP": "029",
+      "sub_num": "029",
       "name": "Park",
       "bbox": {
         "minLon": -111.054558,
@@ -745,7 +745,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93850",
+          "sub_num": "93850",
           "name": "Yellowstone National Park",
           "bbox": {
             "minLon": -111.054558,
@@ -755,7 +755,7 @@
           }
         },
         {
-          "COUSUBFP": "90935",
+          "sub_num": "90935",
           "name": "Cody",
           "bbox": {
             "minLon": -110.172593,
@@ -765,7 +765,7 @@
           }
         },
         {
-          "COUSUBFP": "92530",
+          "sub_num": "92530",
           "name": "Powell",
           "bbox": {
             "minLon": -109.062718,
@@ -775,7 +775,7 @@
           }
         },
         {
-          "COUSUBFP": "92145",
+          "sub_num": "92145",
           "name": "Meeteetse",
           "bbox": {
             "minLon": -109.856693,
@@ -789,7 +789,7 @@
   },
   {
     "Johnson": {
-      "COUNTYFP": "019",
+      "sub_num": "019",
       "name": "Johnson",
       "bbox": {
         "minLon": -107.371447,
@@ -799,7 +799,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91870",
+          "sub_num": "91870",
           "name": "Kaycee",
           "bbox": {
             "minLon": -107.129009,
@@ -809,7 +809,7 @@
           }
         },
         {
-          "COUSUBFP": "90495",
+          "sub_num": "90495",
           "name": "Buffalo",
           "bbox": {
             "minLon": -107.371447,
@@ -823,7 +823,7 @@
   },
   {
     "Sheridan": {
-      "COUNTYFP": "033",
+      "sub_num": "033",
       "name": "Sheridan",
       "bbox": {
         "minLon": -107.911523,
@@ -833,7 +833,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92970",
+          "sub_num": "92970",
           "name": "Sheridan South",
           "bbox": {
             "minLon": -107.302031,
@@ -843,7 +843,7 @@
           }
         },
         {
-          "COUSUBFP": "92915",
+          "sub_num": "92915",
           "name": "Sheridan",
           "bbox": {
             "minLon": -107.1452,
@@ -853,7 +853,7 @@
           }
         },
         {
-          "COUSUBFP": "93025",
+          "sub_num": "93025",
           "name": "Sheridan West",
           "bbox": {
             "minLon": -107.911523,
@@ -867,7 +867,7 @@
   },
   {
     "Niobrara": {
-      "COUNTYFP": "027",
+      "sub_num": "027",
       "name": "Niobrara",
       "bbox": {
         "minLon": -104.899941,
@@ -877,7 +877,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91128",
+          "sub_num": "91128",
           "name": "East Niobrara",
           "bbox": {
             "minLon": -104.45237,
@@ -887,7 +887,7 @@
           }
         },
         {
-          "COUSUBFP": "93603",
+          "sub_num": "93603",
           "name": "West Niobrara",
           "bbox": {
             "minLon": -104.899941,
@@ -901,7 +901,7 @@
   },
   {
     "Teton": {
-      "COUNTYFP": "039",
+      "sub_num": "039",
       "name": "Teton",
       "bbox": {
         "minLon": -111.053447,
@@ -911,7 +911,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91815",
+          "sub_num": "91815",
           "name": "Jackson Hole",
           "bbox": {
             "minLon": -111.039233,
@@ -921,7 +921,7 @@
           }
         },
         {
-          "COUSUBFP": "93905",
+          "sub_num": "93905",
           "name": "Yellowstone National Park",
           "bbox": {
             "minLon": -111.053447,
@@ -931,7 +931,7 @@
           }
         },
         {
-          "COUSUBFP": "90110",
+          "sub_num": "90110",
           "name": "Alta",
           "bbox": {
             "minLon": -111.049119,
@@ -945,7 +945,7 @@
   },
   {
     "Sublette": {
-      "COUNTYFP": "035",
+      "sub_num": "035",
       "name": "Sublette",
       "bbox": {
         "minLon": -110.623792,
@@ -955,7 +955,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90330",
+          "sub_num": "90330",
           "name": "Big Piney",
           "bbox": {
             "minLon": -110.623792,
@@ -965,7 +965,7 @@
           }
         },
         {
-          "COUSUBFP": "92475",
+          "sub_num": "92475",
           "name": "Pinedale",
           "bbox": {
             "minLon": -110.589006,
@@ -975,7 +975,7 @@
           }
         },
         {
-          "COUSUBFP": "90385",
+          "sub_num": "90385",
           "name": "Boulder",
           "bbox": {
             "minLon": -110.193061,
@@ -989,7 +989,7 @@
   },
   {
     "Goshen": {
-      "COUNTYFP": "015",
+      "sub_num": "015",
       "name": "Goshen",
       "bbox": {
         "minLon": -104.655639,
@@ -999,7 +999,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91430",
+          "sub_num": "91430",
           "name": "Goshen Hole",
           "bbox": {
             "minLon": -104.655027,
@@ -1009,7 +1009,7 @@
           }
         },
         {
-          "COUSUBFP": "92585",
+          "sub_num": "92585",
           "name": "Rawhide Creek",
           "bbox": {
             "minLon": -104.655639,
@@ -1019,7 +1019,7 @@
           }
         },
         {
-          "COUSUBFP": "93465",
+          "sub_num": "93465",
           "name": "Torrington",
           "bbox": {
             "minLon": -104.632423,

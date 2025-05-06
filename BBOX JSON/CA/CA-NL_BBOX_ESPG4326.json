@@ -1,7 +1,7 @@
 [
   {
-    "1001": {
-      "subsub_id": "1001",
+    "Division No. 1": {
+      "sub_num": "1001",
       "name": "Division No. 1",
       "bbox": {
         "minLon": -54.20305591,
@@ -12,8 +12,8 @@
     }
   },
   {
-    "1002": {
-      "subsub_id": "1002",
+    "Division No. 2": {
+      "sub_num": "1002",
       "name": "Division No. 2",
       "bbox": {
         "minLon": -55.9888099,
@@ -24,8 +24,8 @@
     }
   },
   {
-    "1003": {
-      "subsub_id": "1003",
+    "Division No. 3": {
+      "sub_num": "1003",
       "name": "Division No. 3",
       "bbox": {
         "minLon": -59.31835688,
@@ -36,8 +36,8 @@
     }
   },
   {
-    "1004": {
-      "subsub_id": "1004",
+    "Division No. 4": {
+      "sub_num": "1004",
       "name": "Division No. 4",
       "bbox": {
         "minLon": -59.4125518,
@@ -48,8 +48,8 @@
     }
   },
   {
-    "1005": {
-      "subsub_id": "1005",
+    "Division No. 5": {
+      "sub_num": "1005",
       "name": "Division No. 5",
       "bbox": {
         "minLon": -58.5136631,
@@ -60,8 +60,8 @@
     }
   },
   {
-    "1006": {
-      "subsub_id": "1006",
+    "Division No. 6": {
+      "sub_num": "1006",
       "name": "Division No. 6",
       "bbox": {
         "minLon": -57.97015882,
@@ -72,8 +72,8 @@
     }
   },
   {
-    "1007": {
-      "subsub_id": "1007",
+    "Division No. 7": {
+      "sub_num": "1007",
       "name": "Division No. 7",
       "bbox": {
         "minLon": -55.30018238,
@@ -84,8 +84,8 @@
     }
   },
   {
-    "1008": {
-      "subsub_id": "1008",
+    "Division No. 8": {
+      "sub_num": "1008",
       "name": "Division No. 8",
       "bbox": {
         "minLon": -56.98804985,
@@ -96,8 +96,8 @@
     }
   },
   {
-    "1009": {
-      "subsub_id": "1009",
+    "Division No. 9": {
+      "sub_num": "1009",
       "name": "Division No. 9",
       "bbox": {
         "minLon": -58.2437947,
@@ -108,8 +108,8 @@
     }
   },
   {
-    "1010": {
-      "subsub_id": "1010",
+    "Division No. 10": {
+      "sub_num": "1010",
       "name": "Division No. 10",
       "bbox": {
         "minLon": -67.82168529,
@@ -120,8 +120,8 @@
     }
   },
   {
-    "1011": {
-      "subsub_id": "1011",
+    "Division No. 11": {
+      "sub_num": "1011",
       "name": "Division No. 11",
       "bbox": {
         "minLon": -64.93943924,

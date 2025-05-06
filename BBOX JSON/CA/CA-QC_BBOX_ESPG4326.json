@@ -1,7 +1,7 @@
 [
   {
-    "2401": {
-      "subsub_id": "2401",
+    "Communauté maritime des Îles-de-la-Madeleine": {
+      "sub_num": "2401",
       "name": "Communauté maritime des Îles-de-la-Madeleine",
       "bbox": {
         "minLon": -62.021118,
@@ -12,8 +12,8 @@
     }
   },
   {
-    "2402": {
-      "subsub_id": "2402",
+    "Le Rocher-Percé": {
+      "sub_num": "2402",
       "name": "Le Rocher-Percé",
       "bbox": {
         "minLon": -65.50119084,
@@ -24,8 +24,8 @@
     }
   },
   {
-    "2403": {
-      "subsub_id": "2403",
+    "La Côte-de-Gaspé": {
+      "sub_num": "2403",
       "name": "La Côte-de-Gaspé",
       "bbox": {
         "minLon": -65.53352984,
@@ -36,8 +36,8 @@
     }
   },
   {
-    "2404": {
-      "subsub_id": "2404",
+    "La Haute-Gaspésie": {
+      "sub_num": "2404",
       "name": "La Haute-Gaspésie",
       "bbox": {
         "minLon": -66.9082278,
@@ -48,8 +48,8 @@
     }
   },
   {
-    "2405": {
-      "subsub_id": "2405",
+    "Bonaventure": {
+      "sub_num": "2405",
       "name": "Bonaventure",
       "bbox": {
         "minLon": -66.27984061,
@@ -60,8 +60,8 @@
     }
   },
   {
-    "2406": {
-      "subsub_id": "2406",
+    "Avignon": {
+      "sub_num": "2406",
       "name": "Avignon",
       "bbox": {
         "minLon": -67.66697279,
@@ -72,8 +72,8 @@
     }
   },
   {
-    "2407": {
-      "subsub_id": "2407",
+    "La Matapédia": {
+      "sub_num": "2407",
       "name": "La Matapédia",
       "bbox": {
         "minLon": -67.98087602,
@@ -84,8 +84,8 @@
     }
   },
   {
-    "2408": {
-      "subsub_id": "2408",
+    "La Matanie": {
+      "sub_num": "2408",
       "name": "La Matanie",
       "bbox": {
         "minLon": -67.94664303,
@@ -96,8 +96,8 @@
     }
   },
   {
-    "2409": {
-      "subsub_id": "2409",
+    "La Mitis": {
+      "sub_num": "2409",
       "name": "La Mitis",
       "bbox": {
         "minLon": -68.42667171,
@@ -108,8 +108,8 @@
     }
   },
   {
-    "2410": {
-      "subsub_id": "2410",
+    "Rimouski-Neigette": {
+      "sub_num": "2410",
       "name": "Rimouski-Neigette",
       "bbox": {
         "minLon": -68.97375076,
@@ -120,8 +120,8 @@
     }
   },
   {
-    "2411": {
-      "subsub_id": "2411",
+    "Les Basques": {
+      "sub_num": "2411",
       "name": "Les Basques",
       "bbox": {
         "minLon": -69.27592444,
@@ -132,8 +132,8 @@
     }
   },
   {
-    "2412": {
-      "subsub_id": "2412",
+    "Rivière-du-Loup": {
+      "sub_num": "2412",
       "name": "Rivière-du-Loup",
       "bbox": {
         "minLon": -69.69532031,
@@ -144,8 +144,8 @@
     }
   },
   {
-    "2413": {
-      "subsub_id": "2413",
+    "Témiscouata": {
+      "sub_num": "2413",
       "name": "Témiscouata",
       "bbox": {
         "minLon": -69.58860236,
@@ -156,8 +156,8 @@
     }
   },
   {
-    "2414": {
-      "subsub_id": "2414",
+    "Kamouraska": {
+      "sub_num": "2414",
       "name": "Kamouraska",
       "bbox": {
         "minLon": -70.09691771,
@@ -168,8 +168,8 @@
     }
   },
   {
-    "2415": {
-      "subsub_id": "2415",
+    "Charlevoix-Est": {
+      "sub_num": "2415",
       "name": "Charlevoix-Est",
       "bbox": {
         "minLon": -70.52949149,
@@ -180,8 +180,8 @@
     }
   },
   {
-    "2416": {
-      "subsub_id": "2416",
+    "Charlevoix": {
+      "sub_num": "2416",
       "name": "Charlevoix",
       "bbox": {
         "minLon": -71.41180301,
@@ -192,8 +192,8 @@
     }
   },
   {
-    "2417": {
-      "subsub_id": "2417",
+    "L'Islet": {
+      "sub_num": "2417",
       "name": "L'Islet",
       "bbox": {
         "minLon": -70.44007041,
@@ -204,8 +204,8 @@
     }
   },
   {
-    "2418": {
-      "subsub_id": "2418",
+    "Montmagny": {
+      "sub_num": "2418",
       "name": "Montmagny",
       "bbox": {
         "minLon": -70.79483106,
@@ -216,8 +216,8 @@
     }
   },
   {
-    "2419": {
-      "subsub_id": "2419",
+    "Bellechasse": {
+      "sub_num": "2419",
       "name": "Bellechasse",
       "bbox": {
         "minLon": -71.15201152,
@@ -228,8 +228,8 @@
     }
   },
   {
-    "2420": {
-      "subsub_id": "2420",
+    "L'Île-d'Orléans": {
+      "sub_num": "2420",
       "name": "L'Île-d'Orléans",
       "bbox": {
         "minLon": -71.1414803,
@@ -240,8 +240,8 @@
     }
   },
   {
-    "2421": {
-      "subsub_id": "2421",
+    "La Côte-de-Beaupré": {
+      "sub_num": "2421",
       "name": "La Côte-de-Beaupré",
       "bbox": {
         "minLon": -72.07393193,
@@ -252,8 +252,8 @@
     }
   },
   {
-    "2422": {
-      "subsub_id": "2422",
+    "La Jacques-Cartier": {
+      "sub_num": "2422",
       "name": "La Jacques-Cartier",
       "bbox": {
         "minLon": -72.23967849,
@@ -264,8 +264,8 @@
     }
   },
   {
-    "2423": {
-      "subsub_id": "2423",
+    "Québec": {
+      "sub_num": "2423",
       "name": "Québec",
       "bbox": {
         "minLon": -71.60630704,
@@ -276,8 +276,8 @@
     }
   },
   {
-    "2425": {
-      "subsub_id": "2425",
+    "Lévis": {
+      "sub_num": "2425",
       "name": "Lévis",
       "bbox": {
         "minLon": -71.50144035,
@@ -288,8 +288,8 @@
     }
   },
   {
-    "2426": {
-      "subsub_id": "2426",
+    "La Nouvelle-Beauce": {
+      "sub_num": "2426",
       "name": "La Nouvelle-Beauce",
       "bbox": {
         "minLon": -71.33124955,
@@ -300,8 +300,8 @@
     }
   },
   {
-    "2427": {
-      "subsub_id": "2427",
+    "Robert-Cliche": {
+      "sub_num": "2427",
       "name": "Robert-Cliche",
       "bbox": {
         "minLon": -71.14638696,
@@ -312,8 +312,8 @@
     }
   },
   {
-    "2428": {
-      "subsub_id": "2428",
+    "Les Etchemins": {
+      "sub_num": "2428",
       "name": "Les Etchemins",
       "bbox": {
         "minLon": -70.67309011,
@@ -324,8 +324,8 @@
     }
   },
   {
-    "2429": {
-      "subsub_id": "2429",
+    "Beauce-Sartigan": {
+      "sub_num": "2429",
       "name": "Beauce-Sartigan",
       "bbox": {
         "minLon": -71.10680416,
@@ -336,8 +336,8 @@
     }
   },
   {
-    "2430": {
-      "subsub_id": "2430",
+    "Le Granit": {
+      "sub_num": "2430",
       "name": "Le Granit",
       "bbox": {
         "minLon": -71.39271536,
@@ -348,8 +348,8 @@
     }
   },
   {
-    "2431": {
-      "subsub_id": "2431",
+    "Les Appalaches": {
+      "sub_num": "2431",
       "name": "Les Appalaches",
       "bbox": {
         "minLon": -71.6861183,
@@ -360,8 +360,8 @@
     }
   },
   {
-    "2432": {
-      "subsub_id": "2432",
+    "L'Érable": {
+      "sub_num": "2432",
       "name": "L'Érable",
       "bbox": {
         "minLon": -71.98613915,
@@ -372,8 +372,8 @@
     }
   },
   {
-    "2433": {
-      "subsub_id": "2433",
+    "Lotbinière": {
+      "sub_num": "2433",
       "name": "Lotbinière",
       "bbox": {
         "minLon": -72.03766389,
@@ -384,8 +384,8 @@
     }
   },
   {
-    "2434": {
-      "subsub_id": "2434",
+    "Portneuf": {
+      "sub_num": "2434",
       "name": "Portneuf",
       "bbox": {
         "minLon": -72.54756834,
@@ -396,8 +396,8 @@
     }
   },
   {
-    "2435": {
-      "subsub_id": "2435",
+    "Mékinac": {
+      "sub_num": "2435",
       "name": "Mékinac",
       "bbox": {
         "minLon": -74.0284761,
@@ -408,8 +408,8 @@
     }
   },
   {
-    "2436": {
-      "subsub_id": "2436",
+    "Shawinigan": {
+      "sub_num": "2436",
       "name": "Shawinigan",
       "bbox": {
         "minLon": -73.17913489,
@@ -420,8 +420,8 @@
     }
   },
   {
-    "2437": {
-      "subsub_id": "2437",
+    "Francheville": {
+      "sub_num": "2437",
       "name": "Francheville",
       "bbox": {
         "minLon": -72.77788429,
@@ -432,8 +432,8 @@
     }
   },
   {
-    "2438": {
-      "subsub_id": "2438",
+    "Bécancour": {
+      "sub_num": "2438",
       "name": "Bécancour",
       "bbox": {
         "minLon": -72.60144032,
@@ -444,8 +444,8 @@
     }
   },
   {
-    "2439": {
-      "subsub_id": "2439",
+    "Arthabaska": {
+      "sub_num": "2439",
       "name": "Arthabaska",
       "bbox": {
         "minLon": -72.32720638,
@@ -456,8 +456,8 @@
     }
   },
   {
-    "2440": {
-      "subsub_id": "2440",
+    "Les Sources": {
+      "sub_num": "2440",
       "name": "Les Sources",
       "bbox": {
         "minLon": -72.13371126,
@@ -468,8 +468,8 @@
     }
   },
   {
-    "2441": {
-      "subsub_id": "2441",
+    "Le Haut-Saint-François": {
+      "sub_num": "2441",
       "name": "Le Haut-Saint-François",
       "bbox": {
         "minLon": -71.83104786,
@@ -480,8 +480,8 @@
     }
   },
   {
-    "2442": {
-      "subsub_id": "2442",
+    "Le Val-Saint-François": {
+      "sub_num": "2442",
       "name": "Le Val-Saint-François",
       "bbox": {
         "minLon": -72.46302091,
@@ -492,8 +492,8 @@
     }
   },
   {
-    "2443": {
-      "subsub_id": "2443",
+    "Sherbrooke": {
+      "sub_num": "2443",
       "name": "Sherbrooke",
       "bbox": {
         "minLon": -72.10883728,
@@ -504,8 +504,8 @@
     }
   },
   {
-    "2444": {
-      "subsub_id": "2444",
+    "Coaticook": {
+      "sub_num": "2444",
       "name": "Coaticook",
       "bbox": {
         "minLon": -72.09823284,
@@ -516,8 +516,8 @@
     }
   },
   {
-    "2445": {
-      "subsub_id": "2445",
+    "Memphrémagog": {
+      "sub_num": "2445",
       "name": "Memphrémagog",
       "bbox": {
         "minLon": -72.48580081,
@@ -528,8 +528,8 @@
     }
   },
   {
-    "2446": {
-      "subsub_id": "2446",
+    "Brome-Missisquoi": {
+      "sub_num": "2446",
       "name": "Brome-Missisquoi",
       "bbox": {
         "minLon": -73.11562165,
@@ -540,8 +540,8 @@
     }
   },
   {
-    "2447": {
-      "subsub_id": "2447",
+    "La Haute-Yamaska": {
+      "sub_num": "2447",
       "name": "La Haute-Yamaska",
       "bbox": {
         "minLon": -72.87625836,
@@ -552,8 +552,8 @@
     }
   },
   {
-    "2448": {
-      "subsub_id": "2448",
+    "Acton": {
+      "sub_num": "2448",
       "name": "Acton",
       "bbox": {
         "minLon": -72.73009827,
@@ -564,8 +564,8 @@
     }
   },
   {
-    "2449": {
-      "subsub_id": "2449",
+    "Drummond": {
+      "sub_num": "2449",
       "name": "Drummond",
       "bbox": {
         "minLon": -72.85440222,
@@ -576,8 +576,8 @@
     }
   },
   {
-    "2450": {
-      "subsub_id": "2450",
+    "Nicolet-Yamaska": {
+      "sub_num": "2450",
       "name": "Nicolet-Yamaska",
       "bbox": {
         "minLon": -72.9733699,
@@ -588,8 +588,8 @@
     }
   },
   {
-    "2451": {
-      "subsub_id": "2451",
+    "Maskinongé": {
+      "sub_num": "2451",
       "name": "Maskinongé",
       "bbox": {
         "minLon": -73.46273919,
@@ -600,8 +600,8 @@
     }
   },
   {
-    "2452": {
-      "subsub_id": "2452",
+    "D'Autray": {
+      "sub_num": "2452",
       "name": "D'Autray",
       "bbox": {
         "minLon": -73.56293555,
@@ -612,8 +612,8 @@
     }
   },
   {
-    "2453": {
-      "subsub_id": "2453",
+    "Pierre-De Saurel": {
+      "sub_num": "2453",
       "name": "Pierre-De Saurel",
       "bbox": {
         "minLon": -73.20387871,
@@ -624,8 +624,8 @@
     }
   },
   {
-    "2454": {
-      "subsub_id": "2454",
+    "Les Maskoutains": {
+      "sub_num": "2454",
       "name": "Les Maskoutains",
       "bbox": {
         "minLon": -73.14011389,
@@ -636,8 +636,8 @@
     }
   },
   {
-    "2455": {
-      "subsub_id": "2455",
+    "Rouville": {
+      "sub_num": "2455",
       "name": "Rouville",
       "bbox": {
         "minLon": -73.28044621,
@@ -648,8 +648,8 @@
     }
   },
   {
-    "2456": {
-      "subsub_id": "2456",
+    "Le Haut-Richelieu": {
+      "sub_num": "2456",
       "name": "Le Haut-Richelieu",
       "bbox": {
         "minLon": -73.41194522,
@@ -660,8 +660,8 @@
     }
   },
   {
-    "2457": {
-      "subsub_id": "2457",
+    "La Vallée-du-Richelieu": {
+      "sub_num": "2457",
       "name": "La Vallée-du-Richelieu",
       "bbox": {
         "minLon": -73.38701092,
@@ -672,8 +672,8 @@
     }
   },
   {
-    "2458": {
-      "subsub_id": "2458",
+    "Longueuil": {
+      "sub_num": "2458",
       "name": "Longueuil",
       "bbox": {
         "minLon": -73.5270025,
@@ -684,8 +684,8 @@
     }
   },
   {
-    "2459": {
-      "subsub_id": "2459",
+    "Marguerite-D'Youville": {
+      "sub_num": "2459",
       "name": "Marguerite-D'Youville",
       "bbox": {
         "minLon": -73.48393071,
@@ -696,8 +696,8 @@
     }
   },
   {
-    "2460": {
-      "subsub_id": "2460",
+    "L'Assomption": {
+      "sub_num": "2460",
       "name": "L'Assomption",
       "bbox": {
         "minLon": -73.57857016,
@@ -708,8 +708,8 @@
     }
   },
   {
-    "2461": {
-      "subsub_id": "2461",
+    "Joliette": {
+      "sub_num": "2461",
       "name": "Joliette",
       "bbox": {
         "minLon": -73.63771659,
@@ -720,8 +720,8 @@
     }
   },
   {
-    "2462": {
-      "subsub_id": "2462",
+    "Matawinie": {
+      "sub_num": "2462",
       "name": "Matawinie",
       "bbox": {
         "minLon": -74.88863101,
@@ -732,8 +732,8 @@
     }
   },
   {
-    "2463": {
-      "subsub_id": "2463",
+    "Montcalm": {
+      "sub_num": "2463",
       "name": "Montcalm",
       "bbox": {
         "minLon": -73.97721936,
@@ -744,8 +744,8 @@
     }
   },
   {
-    "2464": {
-      "subsub_id": "2464",
+    "Les Moulins": {
+      "sub_num": "2464",
       "name": "Les Moulins",
       "bbox": {
         "minLon": -73.84646376,
@@ -756,8 +756,8 @@
     }
   },
   {
-    "2465": {
-      "subsub_id": "2465",
+    "Laval": {
+      "sub_num": "2465",
       "name": "Laval",
       "bbox": {
         "minLon": -73.89016569,
@@ -768,8 +768,8 @@
     }
   },
   {
-    "2466": {
-      "subsub_id": "2466",
+    "Montréal": {
+      "sub_num": "2466",
       "name": "Montréal",
       "bbox": {
         "minLon": -73.97639791,
@@ -780,8 +780,8 @@
     }
   },
   {
-    "2467": {
-      "subsub_id": "2467",
+    "Roussillon": {
+      "sub_num": "2467",
       "name": "Roussillon",
       "bbox": {
         "minLon": -73.8469072,
@@ -792,8 +792,8 @@
     }
   },
   {
-    "2468": {
-      "subsub_id": "2468",
+    "Les Jardins-de-Napierville": {
+      "sub_num": "2468",
       "name": "Les Jardins-de-Napierville",
       "bbox": {
         "minLon": -73.75528237,
@@ -804,8 +804,8 @@
     }
   },
   {
-    "2469": {
-      "subsub_id": "2469",
+    "Le Haut-Saint-Laurent": {
+      "sub_num": "2469",
       "name": "Le Haut-Saint-Laurent",
       "bbox": {
         "minLon": -74.66270529,
@@ -816,8 +816,8 @@
     }
   },
   {
-    "2470": {
-      "subsub_id": "2470",
+    "Beauharnois-Salaberry": {
+      "sub_num": "2470",
       "name": "Beauharnois-Salaberry",
       "bbox": {
         "minLon": -74.18230215,
@@ -828,8 +828,8 @@
     }
   },
   {
-    "2471": {
-      "subsub_id": "2471",
+    "Vaudreuil-Soulanges": {
+      "sub_num": "2471",
       "name": "Vaudreuil-Soulanges",
       "bbox": {
         "minLon": -74.47191128,
@@ -840,8 +840,8 @@
     }
   },
   {
-    "2472": {
-      "subsub_id": "2472",
+    "Deux-Montagnes": {
+      "sub_num": "2472",
       "name": "Deux-Montagnes",
       "bbox": {
         "minLon": -74.2785758,
@@ -852,8 +852,8 @@
     }
   },
   {
-    "2473": {
-      "subsub_id": "2473",
+    "Thérèse-De Blainville": {
+      "sub_num": "2473",
       "name": "Thérèse-De Blainville",
       "bbox": {
         "minLon": -73.9313833,
@@ -864,8 +864,8 @@
     }
   },
   {
-    "2474": {
-      "subsub_id": "2474",
+    "Mirabel": {
+      "sub_num": "2474",
       "name": "Mirabel",
       "bbox": {
         "minLon": -74.26752012,
@@ -876,8 +876,8 @@
     }
   },
   {
-    "2475": {
-      "subsub_id": "2475",
+    "La Rivière-du-Nord": {
+      "sub_num": "2475",
       "name": "La Rivière-du-Nord",
       "bbox": {
         "minLon": -74.21208744,
@@ -888,8 +888,8 @@
     }
   },
   {
-    "2476": {
-      "subsub_id": "2476",
+    "Argenteuil": {
+      "sub_num": "2476",
       "name": "Argenteuil",
       "bbox": {
         "minLon": -74.80765164,
@@ -900,8 +900,8 @@
     }
   },
   {
-    "2477": {
-      "subsub_id": "2477",
+    "Les Pays-d'en-Haut": {
+      "sub_num": "2477",
       "name": "Les Pays-d'en-Haut",
       "bbox": {
         "minLon": -74.5364519,
@@ -912,8 +912,8 @@
     }
   },
   {
-    "2478": {
-      "subsub_id": "2478",
+    "Les Laurentides": {
+      "sub_num": "2478",
       "name": "Les Laurentides",
       "bbox": {
         "minLon": -75.089904,
@@ -924,8 +924,8 @@
     }
   },
   {
-    "2479": {
-      "subsub_id": "2479",
+    "Antoine-Labelle": {
+      "sub_num": "2479",
       "name": "Antoine-Labelle",
       "bbox": {
         "minLon": -76.14937428,
@@ -936,8 +936,8 @@
     }
   },
   {
-    "2480": {
-      "subsub_id": "2480",
+    "Papineau": {
+      "sub_num": "2480",
       "name": "Papineau",
       "bbox": {
         "minLon": -75.79767579,
@@ -948,8 +948,8 @@
     }
   },
   {
-    "2481": {
-      "subsub_id": "2481",
+    "Gatineau": {
+      "sub_num": "2481",
       "name": "Gatineau",
       "bbox": {
         "minLon": -75.90876169,
@@ -960,8 +960,8 @@
     }
   },
   {
-    "2482": {
-      "subsub_id": "2482",
+    "Les Collines-de-l'Outaouais": {
+      "sub_num": "2482",
       "name": "Les Collines-de-l'Outaouais",
       "bbox": {
         "minLon": -76.32550918,
@@ -972,8 +972,8 @@
     }
   },
   {
-    "2483": {
-      "subsub_id": "2483",
+    "La Vallée-de-la-Gatineau": {
+      "sub_num": "2483",
       "name": "La Vallée-de-la-Gatineau",
       "bbox": {
         "minLon": -77.00380648,
@@ -984,8 +984,8 @@
     }
   },
   {
-    "2484": {
-      "subsub_id": "2484",
+    "Pontiac": {
+      "sub_num": "2484",
       "name": "Pontiac",
       "bbox": {
         "minLon": -77.9313131,
@@ -996,8 +996,8 @@
     }
   },
   {
-    "2485": {
-      "subsub_id": "2485",
+    "Témiscamingue": {
+      "sub_num": "2485",
       "name": "Témiscamingue",
       "bbox": {
         "minLon": -79.58687808,
@@ -1008,8 +1008,8 @@
     }
   },
   {
-    "2486": {
-      "subsub_id": "2486",
+    "Rouyn-Noranda": {
+      "sub_num": "2486",
       "name": "Rouyn-Noranda",
       "bbox": {
         "minLon": -79.5179645,
@@ -1020,8 +1020,8 @@
     }
   },
   {
-    "2487": {
-      "subsub_id": "2487",
+    "Abitibi-Ouest": {
+      "sub_num": "2487",
       "name": "Abitibi-Ouest",
       "bbox": {
         "minLon": -79.51807755,
@@ -1032,8 +1032,8 @@
     }
   },
   {
-    "2488": {
-      "subsub_id": "2488",
+    "Abitibi": {
+      "sub_num": "2488",
       "name": "Abitibi",
       "bbox": {
         "minLon": -78.64721798,
@@ -1044,8 +1044,8 @@
     }
   },
   {
-    "2489": {
-      "subsub_id": "2489",
+    "La Vallée-de-l'Or": {
+      "sub_num": "2489",
       "name": "La Vallée-de-l'Or",
       "bbox": {
         "minLon": -78.30855453,
@@ -1056,8 +1056,8 @@
     }
   },
   {
-    "2490": {
-      "subsub_id": "2490",
+    "La Tuque": {
+      "sub_num": "2490",
       "name": "La Tuque",
       "bbox": {
         "minLon": -75.52506217,
@@ -1068,8 +1068,8 @@
     }
   },
   {
-    "2491": {
-      "subsub_id": "2491",
+    "Le Domaine-du-Roy": {
+      "sub_num": "2491",
       "name": "Le Domaine-du-Roy",
       "bbox": {
         "minLon": -74.44389031,
@@ -1080,8 +1080,8 @@
     }
   },
   {
-    "2492": {
-      "subsub_id": "2492",
+    "Maria-Chapdelaine": {
+      "sub_num": "2492",
       "name": "Maria-Chapdelaine",
       "bbox": {
         "minLon": -73.81532391,
@@ -1092,8 +1092,8 @@
     }
   },
   {
-    "2493": {
-      "subsub_id": "2493",
+    "Lac-Saint-Jean-Est": {
+      "sub_num": "2493",
       "name": "Lac-Saint-Jean-Est",
       "bbox": {
         "minLon": -72.12320378,
@@ -1104,8 +1104,8 @@
     }
   },
   {
-    "2494": {
-      "subsub_id": "2494",
+    "Le Saguenay-et-son-Fjord": {
+      "sub_num": "2494",
       "name": "Le Saguenay-et-son-Fjord",
       "bbox": {
         "minLon": -71.63985869,
@@ -1116,8 +1116,8 @@
     }
   },
   {
-    "2495": {
-      "subsub_id": "2495",
+    "La Haute-Côte-Nord": {
+      "sub_num": "2495",
       "name": "La Haute-Côte-Nord",
       "bbox": {
         "minLon": -70.07879831,
@@ -1128,8 +1128,8 @@
     }
   },
   {
-    "2496": {
-      "subsub_id": "2496",
+    "Manicouagan": {
+      "sub_num": "2496",
       "name": "Manicouagan",
       "bbox": {
         "minLon": -70.02563442,
@@ -1140,8 +1140,8 @@
     }
   },
   {
-    "2497": {
-      "subsub_id": "2497",
+    "Sept-Rivières--Caniapiscau": {
+      "sub_num": "2497",
       "name": "Sept-Rivières--Caniapiscau",
       "bbox": {
         "minLon": -70.0259645,
@@ -1152,8 +1152,8 @@
     }
   },
   {
-    "2498": {
-      "subsub_id": "2498",
+    "Minganie--Le Golfe-du-Saint-Laurent": {
+      "sub_num": "2498",
       "name": "Minganie--Le Golfe-du-Saint-Laurent",
       "bbox": {
         "minLon": -65.54801777,
@@ -1164,8 +1164,8 @@
     }
   },
   {
-    "2499": {
-      "subsub_id": "2499",
+    "Nord-du-Québec": {
+      "sub_num": "2499",
       "name": "Nord-du-Québec",
       "bbox": {
         "minLon": -79.76290191,

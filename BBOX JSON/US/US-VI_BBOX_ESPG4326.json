@@ -1,7 +1,7 @@
 [
   {
     "St. Thomas": {
-      "COUNTYFP": "030",
+      "sub_num": "030",
       "name": "St. Thomas",
       "bbox": {
         "minLon": -65.154118,
@@ -11,7 +11,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "00000",
+          "sub_num": "00000",
           "name": "Island subdivision not defined",
           "bbox": {
             "minLon": -65.154118,
@@ -21,7 +21,7 @@
           }
         },
         {
-          "COUSUBFP": "61300",
+          "sub_num": "61300",
           "name": "Northside",
           "bbox": {
             "minLon": -64.99042,
@@ -31,7 +31,7 @@
           }
         },
         {
-          "COUSUBFP": "74800",
+          "sub_num": "74800",
           "name": "Southside",
           "bbox": {
             "minLon": -64.926506,
@@ -41,7 +41,7 @@
           }
         },
         {
-          "COUSUBFP": "78400",
+          "sub_num": "78400",
           "name": "Tutu",
           "bbox": {
             "minLon": -64.90364,
@@ -51,7 +51,7 @@
           }
         },
         {
-          "COUSUBFP": "82900",
+          "sub_num": "82900",
           "name": "West End",
           "bbox": {
             "minLon": -65.101333,
@@ -61,7 +61,7 @@
           }
         },
         {
-          "COUSUBFP": "17200",
+          "sub_num": "17200",
           "name": "Charlotte Amalie",
           "bbox": {
             "minLon": -64.9842,
@@ -71,7 +71,7 @@
           }
         },
         {
-          "COUSUBFP": "34300",
+          "sub_num": "34300",
           "name": "East End",
           "bbox": {
             "minLon": -64.892378,
@@ -81,7 +81,7 @@
           }
         },
         {
-          "COUSUBFP": "82000",
+          "sub_num": "82000",
           "name": "Water Island",
           "bbox": {
             "minLon": -64.961226,
@@ -95,7 +95,7 @@
   },
   {
     "St. Croix": {
-      "COUNTYFP": "010",
+      "sub_num": "010",
       "name": "St. Croix",
       "bbox": {
         "minLon": -64.956714,
@@ -105,7 +105,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "00000",
+          "sub_num": "00000",
           "name": "Island subdivision not defined",
           "bbox": {
             "minLon": -64.956714,
@@ -115,7 +115,7 @@
           }
         },
         {
-          "COUSUBFP": "04600",
+          "sub_num": "04600",
           "name": "Anna's Hope Village",
           "bbox": {
             "minLon": -64.73514,
@@ -125,7 +125,7 @@
           }
         },
         {
-          "COUSUBFP": "71200",
+          "sub_num": "71200",
           "name": "Sion Farm",
           "bbox": {
             "minLon": -64.77655,
@@ -135,7 +135,7 @@
           }
         },
         {
-          "COUSUBFP": "59500",
+          "sub_num": "59500",
           "name": "Northcentral",
           "bbox": {
             "minLon": -64.82316,
@@ -145,7 +145,7 @@
           }
         },
         {
-          "COUSUBFP": "73900",
+          "sub_num": "73900",
           "name": "Southcentral",
           "bbox": {
             "minLon": -64.830665,
@@ -155,7 +155,7 @@
           }
         },
         {
-          "COUSUBFP": "20800",
+          "sub_num": "20800",
           "name": "Christiansted",
           "bbox": {
             "minLon": -64.720257,
@@ -165,7 +165,7 @@
           }
         },
         {
-          "COUSUBFP": "38800",
+          "sub_num": "38800",
           "name": "Frederiksted",
           "bbox": {
             "minLon": -64.89038,
@@ -175,7 +175,7 @@
           }
         },
         {
-          "COUSUBFP": "62200",
+          "sub_num": "62200",
           "name": "Northwest",
           "bbox": {
             "minLon": -64.894293,
@@ -185,7 +185,7 @@
           }
         },
         {
-          "COUSUBFP": "75700",
+          "sub_num": "75700",
           "name": "Southwest",
           "bbox": {
             "minLon": -64.903808,
@@ -195,7 +195,7 @@
           }
         },
         {
-          "COUSUBFP": "31600",
+          "sub_num": "31600",
           "name": "East End",
           "bbox": {
             "minLon": -64.696099,
@@ -209,7 +209,7 @@
   },
   {
     "St. John": {
-      "COUNTYFP": "020",
+      "sub_num": "020",
       "name": "St. John",
       "bbox": {
         "minLon": -64.843739,
@@ -219,7 +219,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "00000",
+          "sub_num": "00000",
           "name": "Island subdivision not defined",
           "bbox": {
             "minLon": -64.843739,
@@ -229,7 +229,7 @@
           }
         },
         {
-          "COUSUBFP": "15400",
+          "sub_num": "15400",
           "name": "Central",
           "bbox": {
             "minLon": -64.839892,
@@ -239,7 +239,7 @@
           }
         },
         {
-          "COUSUBFP": "27100",
+          "sub_num": "27100",
           "name": "Coral Bay",
           "bbox": {
             "minLon": -64.741012,
@@ -249,7 +249,7 @@
           }
         },
         {
-          "COUSUBFP": "28900",
+          "sub_num": "28900",
           "name": "Cruz Bay",
           "bbox": {
             "minLon": -64.808036,
@@ -259,7 +259,7 @@
           }
         },
         {
-          "COUSUBFP": "33400",
+          "sub_num": "33400",
           "name": "East End",
           "bbox": {
             "minLon": -64.680592,

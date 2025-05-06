@@ -1,23 +1,8 @@
 {
-  "AL": {
-    "name": "Alabama",
-    "STUSPS": "AL",
-    "sub_code": "AL",
-    "STATEFP": "01",
-    "sub_id": "01",
-    "bbox": {
-      "minLon": -88.473227,
-      "minLat": 30.144425,
-      "maxLon": -84.888246,
-      "maxLat": 35.008028
-    }
-  },
   "AK": {
     "name": "Alaska",
-    "STUSPS": "AK",
-    "sub_code": "AK",
-    "STATEFP": "02",
-    "sub_id": "02",
+    "sub_id": "AK",
+    "sub_num": "02",
     "bbox": {
       "minLon": -179.231086,
       "minLat": 51.175092,
@@ -25,25 +10,21 @@
       "maxLat": 71.439786
     }
   },
-  "AZ": {
-    "name": "Arizona",
-    "STUSPS": "AZ",
-    "sub_code": "AZ",
-    "STATEFP": "04",
-    "sub_id": "04",
+  "AL": {
+    "name": "Alabama",
+    "sub_id": "AL",
+    "sub_num": "01",
     "bbox": {
-      "minLon": -114.8163,
-      "minLat": 31.332342,
-      "maxLon": -109.045172,
-      "maxLat": 37.003725
+      "minLon": -88.473227,
+      "minLat": 30.144425,
+      "maxLon": -84.888246,
+      "maxLat": 35.008028
     }
   },
   "AR": {
     "name": "Arkansas",
-    "STUSPS": "AR",
-    "sub_code": "AR",
-    "STATEFP": "05",
-    "sub_id": "05",
+    "sub_id": "AR",
+    "sub_num": "05",
     "bbox": {
       "minLon": -94.617859,
       "minLat": 33.004282,
@@ -51,12 +32,32 @@
       "maxLat": 36.499749
     }
   },
+  "AS": {
+    "name": "American Samoa",
+    "sub_id": "AS",
+    "sub_num": "60",
+    "bbox": {
+      "minLon": -171.141907,
+      "minLat": -14.601813,
+      "maxLon": -168.101612,
+      "maxLat": -10.997203
+    }
+  },
+  "AZ": {
+    "name": "Arizona",
+    "sub_id": "AZ",
+    "sub_num": "04",
+    "bbox": {
+      "minLon": -114.8163,
+      "minLat": 31.332342,
+      "maxLon": -109.045172,
+      "maxLat": 37.003725
+    }
+  },
   "CA": {
     "name": "California",
-    "STUSPS": "CA",
-    "sub_code": "CA",
-    "STATEFP": "06",
-    "sub_id": "06",
+    "sub_id": "CA",
+    "sub_num": "06",
     "bbox": {
       "minLon": -124.482003,
       "minLat": 32.529508,
@@ -66,10 +67,8 @@
   },
   "CO": {
     "name": "Colorado",
-    "STUSPS": "CO",
-    "sub_code": "CO",
-    "STATEFP": "08",
-    "sub_id": "08",
+    "sub_id": "CO",
+    "sub_num": "08",
     "bbox": {
       "minLon": -109.060204,
       "minLat": 36.992449,
@@ -79,10 +78,8 @@
   },
   "CT": {
     "name": "Connecticut",
-    "STUSPS": "CT",
-    "sub_code": "CT",
-    "STATEFP": "09",
-    "sub_id": "09",
+    "sub_id": "CT",
+    "sub_num": "09",
     "bbox": {
       "minLon": -73.727775,
       "minLat": 40.950943,
@@ -90,25 +87,10 @@
       "maxLat": 42.050511
     }
   },
-  "DE": {
-    "name": "Delaware",
-    "STUSPS": "DE",
-    "sub_code": "DE",
-    "STATEFP": "10",
-    "sub_id": "10",
-    "bbox": {
-      "minLon": -75.789023,
-      "minLat": 38.451132,
-      "maxLon": -74.984165,
-      "maxLat": 39.839516
-    }
-  },
   "DC": {
     "name": "District of Columbia",
-    "STUSPS": "DC",
-    "sub_code": "DC",
-    "STATEFP": "11",
-    "sub_id": "11",
+    "sub_id": "DC",
+    "sub_num": "11",
     "bbox": {
       "minLon": -77.119759,
       "minLat": 38.791645,
@@ -116,12 +98,21 @@
       "maxLat": 38.995845
     }
   },
+  "DE": {
+    "name": "Delaware",
+    "sub_id": "DE",
+    "sub_num": "10",
+    "bbox": {
+      "minLon": -75.789023,
+      "minLat": 38.451132,
+      "maxLon": -74.984165,
+      "maxLat": 39.839516
+    }
+  },
   "FL": {
     "name": "Florida",
-    "STUSPS": "FL",
-    "sub_code": "FL",
-    "STATEFP": "12",
-    "sub_id": "12",
+    "sub_id": "FL",
+    "sub_num": "12",
     "bbox": {
       "minLon": -87.634896,
       "minLat": 24.396308,
@@ -131,10 +122,8 @@
   },
   "GA": {
     "name": "Georgia",
-    "STUSPS": "GA",
-    "sub_code": "GA",
-    "STATEFP": "13",
-    "sub_id": "13",
+    "sub_id": "GA",
+    "sub_num": "13",
     "bbox": {
       "minLon": -85.605165,
       "minLat": 30.355757,
@@ -142,12 +131,21 @@
       "maxLat": 35.001303
     }
   },
+  "GU": {
+    "name": "Guam",
+    "sub_id": "GU",
+    "sub_num": "66",
+    "bbox": {
+      "minLon": 144.563426,
+      "minLat": 13.182335,
+      "maxLon": 145.009167,
+      "maxLat": 13.706179
+    }
+  },
   "HI": {
     "name": "Hawaii",
-    "STUSPS": "HI",
-    "sub_code": "HI",
-    "STATEFP": "15",
-    "sub_id": "15",
+    "sub_id": "HI",
+    "sub_num": "15",
     "bbox": {
       "minLon": -178.443593,
       "minLat": 18.86546,
@@ -155,12 +153,21 @@
       "maxLat": 28.517269
     }
   },
+  "IA": {
+    "name": "Iowa",
+    "sub_id": "IA",
+    "sub_num": "19",
+    "bbox": {
+      "minLon": -96.639485,
+      "minLat": 40.37544,
+      "maxLon": -90.140061,
+      "maxLat": 43.501196
+    }
+  },
   "ID": {
     "name": "Idaho",
-    "STUSPS": "ID",
-    "sub_code": "ID",
-    "STATEFP": "16",
-    "sub_id": "16",
+    "sub_id": "ID",
+    "sub_num": "16",
     "bbox": {
       "minLon": -117.243027,
       "minLat": 41.988182,
@@ -170,10 +177,8 @@
   },
   "IL": {
     "name": "Illinois",
-    "STUSPS": "IL",
-    "sub_code": "IL",
-    "STATEFP": "17",
-    "sub_id": "17",
+    "sub_id": "IL",
+    "sub_num": "17",
     "bbox": {
       "minLon": -91.513079,
       "minLat": 36.970298,
@@ -183,10 +188,8 @@
   },
   "IN": {
     "name": "Indiana",
-    "STUSPS": "IN",
-    "sub_code": "IN",
-    "STATEFP": "18",
-    "sub_id": "18",
+    "sub_id": "IN",
+    "sub_num": "18",
     "bbox": {
       "minLon": -88.097892,
       "minLat": 37.771672,
@@ -194,25 +197,10 @@
       "maxLat": 41.761368
     }
   },
-  "IA": {
-    "name": "Iowa",
-    "STUSPS": "IA",
-    "sub_code": "IA",
-    "STATEFP": "19",
-    "sub_id": "19",
-    "bbox": {
-      "minLon": -96.639485,
-      "minLat": 40.37544,
-      "maxLon": -90.140061,
-      "maxLat": 43.501196
-    }
-  },
   "KS": {
     "name": "Kansas",
-    "STUSPS": "KS",
-    "sub_code": "KS",
-    "STATEFP": "20",
-    "sub_id": "20",
+    "sub_id": "KS",
+    "sub_num": "20",
     "bbox": {
       "minLon": -102.051769,
       "minLat": 36.993016,
@@ -222,10 +210,8 @@
   },
   "KY": {
     "name": "Kentucky",
-    "STUSPS": "KY",
-    "sub_code": "KY",
-    "STATEFP": "21",
-    "sub_id": "21",
+    "sub_id": "KY",
+    "sub_num": "21",
     "bbox": {
       "minLon": -89.571203,
       "minLat": 36.497058,
@@ -235,10 +221,8 @@
   },
   "LA": {
     "name": "Louisiana",
-    "STUSPS": "LA",
-    "sub_code": "LA",
-    "STATEFP": "22",
-    "sub_id": "22",
+    "sub_id": "LA",
+    "sub_num": "22",
     "bbox": {
       "minLon": -94.043352,
       "minLat": 28.855127,
@@ -246,38 +230,10 @@
       "maxLat": 33.01962
     }
   },
-  "ME": {
-    "name": "Maine",
-    "STUSPS": "ME",
-    "sub_code": "ME",
-    "STATEFP": "23",
-    "sub_id": "23",
-    "bbox": {
-      "minLon": -71.083928,
-      "minLat": 42.917126,
-      "maxLon": -66.885444,
-      "maxLat": 47.459833
-    }
-  },
-  "MD": {
-    "name": "Maryland",
-    "STUSPS": "MD",
-    "sub_code": "MD",
-    "STATEFP": "24",
-    "sub_id": "24",
-    "bbox": {
-      "minLon": -79.487651,
-      "minLat": 37.886605,
-      "maxLon": -74.986282,
-      "maxLat": 39.723037
-    }
-  },
   "MA": {
     "name": "Massachusetts",
-    "STUSPS": "MA",
-    "sub_code": "MA",
-    "STATEFP": "25",
-    "sub_id": "25",
+    "sub_id": "MA",
+    "sub_num": "25",
     "bbox": {
       "minLon": -73.50821,
       "minLat": 41.187053,
@@ -285,12 +241,32 @@
       "maxLat": 42.886778
     }
   },
+  "MD": {
+    "name": "Maryland",
+    "sub_id": "MD",
+    "sub_num": "24",
+    "bbox": {
+      "minLon": -79.487651,
+      "minLat": 37.886605,
+      "maxLon": -74.986282,
+      "maxLat": 39.723037
+    }
+  },
+  "ME": {
+    "name": "Maine",
+    "sub_id": "ME",
+    "sub_num": "23",
+    "bbox": {
+      "minLon": -71.083928,
+      "minLat": 42.917126,
+      "maxLon": -66.885444,
+      "maxLat": 47.459833
+    }
+  },
   "MI": {
     "name": "Michigan",
-    "STUSPS": "MI",
-    "sub_code": "MI",
-    "STATEFP": "26",
-    "sub_id": "26",
+    "sub_id": "MI",
+    "sub_num": "26",
     "bbox": {
       "minLon": -90.418392,
       "minLat": 41.696118,
@@ -300,10 +276,8 @@
   },
   "MN": {
     "name": "Minnesota",
-    "STUSPS": "MN",
-    "sub_code": "MN",
-    "STATEFP": "27",
-    "sub_id": "27",
+    "sub_id": "MN",
+    "sub_num": "27",
     "bbox": {
       "minLon": -97.239093,
       "minLat": 43.499361,
@@ -311,25 +285,10 @@
       "maxLat": 49.384479
     }
   },
-  "MS": {
-    "name": "Mississippi",
-    "STUSPS": "MS",
-    "sub_code": "MS",
-    "STATEFP": "28",
-    "sub_id": "28",
-    "bbox": {
-      "minLon": -91.655009,
-      "minLat": 30.139845,
-      "maxLon": -88.097888,
-      "maxLat": 34.996099
-    }
-  },
   "MO": {
     "name": "Missouri",
-    "STUSPS": "MO",
-    "sub_code": "MO",
-    "STATEFP": "29",
-    "sub_id": "29",
+    "sub_id": "MO",
+    "sub_num": "29",
     "bbox": {
       "minLon": -95.774704,
       "minLat": 35.995685,
@@ -337,12 +296,32 @@
       "maxLat": 40.61364
     }
   },
+  "MP": {
+    "name": "Commonwealth of the Northern Mariana Islands",
+    "sub_id": "MP",
+    "sub_num": "69",
+    "bbox": {
+      "minLon": 144.813338,
+      "minLat": 14.036565,
+      "maxLon": 146.154418,
+      "maxLat": 20.616556
+    }
+  },
+  "MS": {
+    "name": "Mississippi",
+    "sub_id": "MS",
+    "sub_num": "28",
+    "bbox": {
+      "minLon": -91.655009,
+      "minLat": 30.139845,
+      "maxLon": -88.097888,
+      "maxLat": 34.996099
+    }
+  },
   "MT": {
     "name": "Montana",
-    "STUSPS": "MT",
-    "sub_code": "MT",
-    "STATEFP": "30",
-    "sub_id": "30",
+    "sub_id": "MT",
+    "sub_num": "30",
     "bbox": {
       "minLon": -116.049153,
       "minLat": 44.357915,
@@ -350,90 +329,10 @@
       "maxLat": 49.001109
     }
   },
-  "NE": {
-    "name": "Nebraska",
-    "STUSPS": "NE",
-    "sub_code": "NE",
-    "STATEFP": "31",
-    "sub_id": "31",
-    "bbox": {
-      "minLon": -104.053514,
-      "minLat": 39.999932,
-      "maxLon": -95.30829,
-      "maxLat": 43.001707
-    }
-  },
-  "NV": {
-    "name": "Nevada",
-    "STUSPS": "NV",
-    "sub_code": "NV",
-    "STATEFP": "32",
-    "sub_id": "32",
-    "bbox": {
-      "minLon": -120.006473,
-      "minLat": 35.001857,
-      "maxLon": -114.039461,
-      "maxLat": 42.001842
-    }
-  },
-  "NH": {
-    "name": "New Hampshire",
-    "STUSPS": "NH",
-    "sub_code": "NH",
-    "STATEFP": "33",
-    "sub_id": "33",
-    "bbox": {
-      "minLon": -72.557124,
-      "minLat": 42.697042,
-      "maxLon": -70.575094,
-      "maxLat": 45.305778
-    }
-  },
-  "NJ": {
-    "name": "New Jersey",
-    "STUSPS": "NJ",
-    "sub_code": "NJ",
-    "STATEFP": "34",
-    "sub_id": "34",
-    "bbox": {
-      "minLon": -75.563586,
-      "minLat": 38.788657,
-      "maxLon": -73.88506,
-      "maxLat": 41.357607
-    }
-  },
-  "NM": {
-    "name": "New Mexico",
-    "STUSPS": "NM",
-    "sub_code": "NM",
-    "STATEFP": "35",
-    "sub_id": "35",
-    "bbox": {
-      "minLon": -109.050431,
-      "minLat": 31.33216,
-      "maxLon": -103.002043,
-      "maxLat": 37.000233
-    }
-  },
-  "NY": {
-    "name": "New York",
-    "STUSPS": "NY",
-    "sub_code": "NY",
-    "STATEFP": "36",
-    "sub_id": "36",
-    "bbox": {
-      "minLon": -79.76259,
-      "minLat": 40.476578,
-      "maxLon": -71.777491,
-      "maxLat": 45.015865
-    }
-  },
   "NC": {
     "name": "North Carolina",
-    "STUSPS": "NC",
-    "sub_code": "NC",
-    "STATEFP": "37",
-    "sub_id": "37",
+    "sub_id": "NC",
+    "sub_num": "37",
     "bbox": {
       "minLon": -84.321821,
       "minLat": 33.752878,
@@ -443,10 +342,8 @@
   },
   "ND": {
     "name": "North Dakota",
-    "STUSPS": "ND",
-    "sub_code": "ND",
-    "STATEFP": "38",
-    "sub_id": "38",
+    "sub_id": "ND",
+    "sub_num": "38",
     "bbox": {
       "minLon": -104.049012,
       "minLat": 45.935072,
@@ -454,12 +351,76 @@
       "maxLat": 49.000561
     }
   },
+  "NE": {
+    "name": "Nebraska",
+    "sub_id": "NE",
+    "sub_num": "31",
+    "bbox": {
+      "minLon": -104.053514,
+      "minLat": 39.999932,
+      "maxLon": -95.30829,
+      "maxLat": 43.001707
+    }
+  },
+  "NH": {
+    "name": "New Hampshire",
+    "sub_id": "NH",
+    "sub_num": "33",
+    "bbox": {
+      "minLon": -72.557124,
+      "minLat": 42.697042,
+      "maxLon": -70.575094,
+      "maxLat": 45.305778
+    }
+  },
+  "NJ": {
+    "name": "New Jersey",
+    "sub_id": "NJ",
+    "sub_num": "34",
+    "bbox": {
+      "minLon": -75.563586,
+      "minLat": 38.788657,
+      "maxLon": -73.88506,
+      "maxLat": 41.357607
+    }
+  },
+  "NM": {
+    "name": "New Mexico",
+    "sub_id": "NM",
+    "sub_num": "35",
+    "bbox": {
+      "minLon": -109.050431,
+      "minLat": 31.33216,
+      "maxLon": -103.002043,
+      "maxLat": 37.000233
+    }
+  },
+  "NV": {
+    "name": "Nevada",
+    "sub_id": "NV",
+    "sub_num": "32",
+    "bbox": {
+      "minLon": -120.006473,
+      "minLat": 35.001857,
+      "maxLon": -114.039461,
+      "maxLat": 42.001842
+    }
+  },
+  "NY": {
+    "name": "New York",
+    "sub_id": "NY",
+    "sub_num": "36",
+    "bbox": {
+      "minLon": -79.76259,
+      "minLat": 40.476578,
+      "maxLon": -71.777491,
+      "maxLat": 45.015865
+    }
+  },
   "OH": {
     "name": "Ohio",
-    "STUSPS": "OH",
-    "sub_code": "OH",
-    "STATEFP": "39",
-    "sub_id": "39",
+    "sub_id": "OH",
+    "sub_num": "39",
     "bbox": {
       "minLon": -84.820305,
       "minLat": 38.403423,
@@ -469,10 +430,8 @@
   },
   "OK": {
     "name": "Oklahoma",
-    "STUSPS": "OK",
-    "sub_code": "OK",
-    "STATEFP": "40",
-    "sub_id": "40",
+    "sub_id": "OK",
+    "sub_num": "40",
     "bbox": {
       "minLon": -103.002413,
       "minLat": 33.615787,
@@ -482,10 +441,8 @@
   },
   "OR": {
     "name": "Oregon",
-    "STUSPS": "OR",
-    "sub_code": "OR",
-    "STATEFP": "41",
-    "sub_id": "41",
+    "sub_id": "OR",
+    "sub_num": "41",
     "bbox": {
       "minLon": -124.703541,
       "minLat": 41.992082,
@@ -495,10 +452,8 @@
   },
   "PA": {
     "name": "Pennsylvania",
-    "STUSPS": "PA",
-    "sub_code": "PA",
-    "STATEFP": "42",
-    "sub_id": "42",
+    "sub_id": "PA",
+    "sub_num": "42",
     "bbox": {
       "minLon": -80.519851,
       "minLat": 39.719799,
@@ -506,12 +461,21 @@
       "maxLat": 42.516072
     }
   },
+  "PR": {
+    "name": "Puerto Rico",
+    "sub_id": "PR",
+    "sub_num": "72",
+    "bbox": {
+      "minLon": -67.998751,
+      "minLat": 17.831509,
+      "maxLon": -65.168503,
+      "maxLat": 18.568002
+    }
+  },
   "RI": {
     "name": "Rhode Island",
-    "STUSPS": "RI",
-    "sub_code": "RI",
-    "STATEFP": "44",
-    "sub_id": "44",
+    "sub_id": "RI",
+    "sub_num": "44",
     "bbox": {
       "minLon": -71.907258,
       "minLat": 41.095834,
@@ -521,10 +485,8 @@
   },
   "SC": {
     "name": "South Carolina",
-    "STUSPS": "SC",
-    "sub_code": "SC",
-    "STATEFP": "45",
-    "sub_id": "45",
+    "sub_id": "SC",
+    "sub_num": "45",
     "bbox": {
       "minLon": -83.353928,
       "minLat": 31.995954,
@@ -534,10 +496,8 @@
   },
   "SD": {
     "name": "South Dakota",
-    "STUSPS": "SD",
-    "sub_code": "SD",
-    "STATEFP": "46",
-    "sub_id": "46",
+    "sub_id": "SD",
+    "sub_num": "46",
     "bbox": {
       "minLon": -104.057879,
       "minLat": 42.479686,
@@ -547,10 +507,8 @@
   },
   "TN": {
     "name": "Tennessee",
-    "STUSPS": "TN",
-    "sub_code": "TN",
-    "STATEFP": "47",
-    "sub_id": "47",
+    "sub_id": "TN",
+    "sub_num": "47",
     "bbox": {
       "minLon": -90.310491,
       "minLat": 34.982924,
@@ -560,10 +518,8 @@
   },
   "TX": {
     "name": "Texas",
-    "STUSPS": "TX",
-    "sub_code": "TX",
-    "STATEFP": "48",
-    "sub_id": "48",
+    "sub_id": "TX",
+    "sub_num": "48",
     "bbox": {
       "minLon": -106.645646,
       "minLat": 25.837048,
@@ -573,10 +529,8 @@
   },
   "UT": {
     "name": "Utah",
-    "STUSPS": "UT",
-    "sub_code": "UT",
-    "STATEFP": "49",
-    "sub_id": "49",
+    "sub_id": "UT",
+    "sub_num": "49",
     "bbox": {
       "minLon": -114.052885,
       "minLat": 36.997657,
@@ -584,25 +538,10 @@
       "maxLat": 42.001702
     }
   },
-  "VT": {
-    "name": "Vermont",
-    "STUSPS": "VT",
-    "sub_code": "VT",
-    "STATEFP": "50",
-    "sub_id": "50",
-    "bbox": {
-      "minLon": -73.437905,
-      "minLat": 42.726933,
-      "maxLon": -71.465047,
-      "maxLat": 45.016658
-    }
-  },
   "VA": {
     "name": "Virginia",
-    "STUSPS": "VA",
-    "sub_code": "VA",
-    "STATEFP": "51",
-    "sub_id": "51",
+    "sub_id": "VA",
+    "sub_num": "51",
     "bbox": {
       "minLon": -83.675395,
       "minLat": 36.540852,
@@ -610,12 +549,32 @@
       "maxLat": 39.466012
     }
   },
+  "VI": {
+    "name": "United States Virgin Islands",
+    "sub_id": "VI",
+    "sub_num": "78",
+    "bbox": {
+      "minLon": -65.154118,
+      "minLat": 17.623468,
+      "maxLon": -64.512674,
+      "maxLat": 18.464984
+    }
+  },
+  "VT": {
+    "name": "Vermont",
+    "sub_id": "VT",
+    "sub_num": "50",
+    "bbox": {
+      "minLon": -73.437905,
+      "minLat": 42.726933,
+      "maxLon": -71.465047,
+      "maxLat": 45.016658
+    }
+  },
   "WA": {
     "name": "Washington",
-    "STUSPS": "WA",
-    "sub_code": "WA",
-    "STATEFP": "53",
-    "sub_id": "53",
+    "sub_id": "WA",
+    "sub_num": "53",
     "bbox": {
       "minLon": -124.848974,
       "minLat": 45.543541,
@@ -623,25 +582,10 @@
       "maxLat": 49.002439
     }
   },
-  "WV": {
-    "name": "West Virginia",
-    "STUSPS": "WV",
-    "sub_code": "WV",
-    "STATEFP": "54",
-    "sub_id": "54",
-    "bbox": {
-      "minLon": -82.644591,
-      "minLat": 37.20154,
-      "maxLon": -77.719519,
-      "maxLat": 40.638801
-    }
-  },
   "WI": {
     "name": "Wisconsin",
-    "STUSPS": "WI",
-    "sub_code": "WI",
-    "STATEFP": "55",
-    "sub_id": "55",
+    "sub_id": "WI",
+    "sub_num": "55",
     "bbox": {
       "minLon": -92.889433,
       "minLat": 42.49172,
@@ -649,82 +593,26 @@
       "maxLat": 47.309822
     }
   },
+  "WV": {
+    "name": "West Virginia",
+    "sub_id": "WV",
+    "sub_num": "54",
+    "bbox": {
+      "minLon": -82.644591,
+      "minLat": 37.20154,
+      "maxLon": -77.719519,
+      "maxLat": 40.638801
+    }
+  },
   "WY": {
     "name": "Wyoming",
-    "STUSPS": "WY",
-    "sub_code": "WY",
-    "STATEFP": "56",
-    "sub_id": "56",
+    "sub_id": "WY",
+    "sub_num": "56",
     "bbox": {
       "minLon": -111.054558,
       "minLat": 40.994772,
       "maxLon": -104.052245,
       "maxLat": 45.005815
-    }
-  },
-  "AS": {
-    "name": "American Samoa",
-    "STUSPS": "AS",
-    "sub_code": "AS",
-    "STATEFP": "60",
-    "sub_id": "60",
-    "bbox": {
-      "minLon": -171.141907,
-      "minLat": -14.601813,
-      "maxLon": -168.101612,
-      "maxLat": -10.997203
-    }
-  },
-  "GU": {
-    "name": "Guam",
-    "STUSPS": "GU",
-    "sub_code": "GU",
-    "STATEFP": "66",
-    "sub_id": "66",
-    "bbox": {
-      "minLon": 144.563426,
-      "minLat": 13.182335,
-      "maxLon": 145.009167,
-      "maxLat": 13.706179
-    }
-  },
-  "MP": {
-    "name": "Commonwealth of the Northern Mariana Islands",
-    "STUSPS": "MP",
-    "sub_code": "MP",
-    "STATEFP": "69",
-    "sub_id": "69",
-    "bbox": {
-      "minLon": 144.813338,
-      "minLat": 14.036565,
-      "maxLon": 146.154418,
-      "maxLat": 20.616556
-    }
-  },
-  "PR": {
-    "name": "Puerto Rico",
-    "STUSPS": "PR",
-    "sub_code": "PR",
-    "STATEFP": "72",
-    "sub_id": "72",
-    "bbox": {
-      "minLon": -67.998751,
-      "minLat": 17.831509,
-      "maxLon": -65.168503,
-      "maxLat": 18.568002
-    }
-  },
-  "VI": {
-    "name": "United States Virgin Islands",
-    "STUSPS": "VI",
-    "sub_code": "VI",
-    "STATEFP": "78",
-    "sub_id": "78",
-    "bbox": {
-      "minLon": -65.154118,
-      "minLat": 17.623468,
-      "maxLon": -64.512674,
-      "maxLat": 18.464984
     }
   }
 }

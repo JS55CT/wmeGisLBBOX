@@ -1,7 +1,7 @@
 [
   {
-    "1101": {
-      "subsub_id": "1101",
+    "Kings": {
+      "sub_num": "1101",
       "name": "Kings",
       "bbox": {
         "minLon": -62.86422882,
@@ -12,8 +12,8 @@
     }
   },
   {
-    "1102": {
-      "subsub_id": "1102",
+    "Queens": {
+      "sub_num": "1102",
       "name": "Queens",
       "bbox": {
         "minLon": -63.6039719,
@@ -24,8 +24,8 @@
     }
   },
   {
-    "1103": {
-      "subsub_id": "1103",
+    "Prince": {
+      "sub_num": "1103",
       "name": "Prince",
       "bbox": {
         "minLon": -64.41357499,

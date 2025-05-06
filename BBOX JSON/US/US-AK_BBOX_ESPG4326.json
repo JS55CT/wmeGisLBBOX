@@ -1,7 +1,7 @@
 [
   {
     "Ketchikan Gateway": {
-      "COUNTYFP": "130",
+      "sub_num": "130",
       "name": "Ketchikan Gateway",
       "bbox": {
         "minLon": -132.277239,
@@ -11,7 +11,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "39010",
+          "sub_num": "39010",
           "name": "Ketchikan",
           "bbox": {
             "minLon": -132.277239,
@@ -25,7 +25,7 @@
   },
   {
     "Northwest Arctic": {
-      "COUNTYFP": "188",
+      "sub_num": "188",
       "name": "Northwest Arctic",
       "bbox": {
         "minLon": -165.596046,
@@ -35,7 +35,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "56270",
+          "sub_num": "56270",
           "name": "Northwest Arctic",
           "bbox": {
             "minLon": -165.596046,
@@ -49,7 +49,7 @@
   },
   {
     "Sitka": {
-      "COUNTYFP": "220",
+      "sub_num": "220",
       "name": "Sitka",
       "bbox": {
         "minLon": -136.454427,
@@ -59,7 +59,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "70590",
+          "sub_num": "70590",
           "name": "Sitka",
           "bbox": {
             "minLon": -136.454427,
@@ -73,7 +73,7 @@
   },
   {
     "Yukon-Koyukuk": {
-      "COUNTYFP": "290",
+      "sub_num": "290",
       "name": "Yukon-Koyukuk",
       "bbox": {
         "minLon": -161.048176,
@@ -83,7 +83,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "86690",
+          "sub_num": "86690",
           "name": "Yukon Flats",
           "bbox": {
             "minLon": -149.326003,
@@ -93,7 +93,7 @@
           }
         },
         {
-          "COUSUBFP": "46060",
+          "sub_num": "46060",
           "name": "McGrath-Holy Cross",
           "bbox": {
             "minLon": -161.048176,
@@ -103,7 +103,7 @@
           }
         },
         {
-          "COUSUBFP": "42080",
+          "sub_num": "42080",
           "name": "Koyukuk-Middle Yukon",
           "bbox": {
             "minLon": -159.96229,
@@ -117,7 +117,7 @@
   },
   {
     "Anchorage": {
-      "COUNTYFP": "020",
+      "sub_num": "020",
       "name": "Anchorage",
       "bbox": {
         "minLon": -150.424163,
@@ -127,7 +127,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "03050",
+          "sub_num": "03050",
           "name": "Anchorage",
           "bbox": {
             "minLon": -150.424163,
@@ -141,7 +141,7 @@
   },
   {
     "Prince of Wales-Hyder": {
-      "COUNTYFP": "198",
+      "sub_num": "198",
       "name": "Prince of Wales-Hyder",
       "bbox": {
         "minLon": -134.666668,
@@ -151,7 +151,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "64310",
+          "sub_num": "64310",
           "name": "Prince of Wales",
           "bbox": {
             "minLon": -134.666668,
@@ -161,7 +161,7 @@
           }
         },
         {
-          "COUSUBFP": "34575",
+          "sub_num": "34575",
           "name": "Hyder",
           "bbox": {
             "minLon": -130.388606,
@@ -171,7 +171,7 @@
           }
         },
         {
-          "COUSUBFP": "48873",
+          "sub_num": "48873",
           "name": "Metlakatla Indian Community",
           "bbox": {
             "minLon": -131.713346,
@@ -185,7 +185,7 @@
   },
   {
     "Petersburg": {
-      "COUNTYFP": "195",
+      "sub_num": "195",
       "name": "Petersburg",
       "bbox": {
         "minLon": -133.738611,
@@ -195,7 +195,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "60360",
+          "sub_num": "60360",
           "name": "Petersburg",
           "bbox": {
             "minLon": -133.738611,
@@ -209,7 +209,7 @@
   },
   {
     "Wrangell": {
-      "COUNTYFP": "275",
+      "sub_num": "275",
       "name": "Wrangell",
       "bbox": {
         "minLon": -133.169079,
@@ -219,7 +219,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "86420",
+          "sub_num": "86420",
           "name": "Wrangell",
           "bbox": {
             "minLon": -133.169079,
@@ -233,7 +233,7 @@
   },
   {
     "Juneau": {
-      "COUNTYFP": "110",
+      "sub_num": "110",
       "name": "Juneau",
       "bbox": {
         "minLon": -135.221825,
@@ -243,7 +243,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "36450",
+          "sub_num": "36450",
           "name": "Juneau",
           "bbox": {
             "minLon": -135.221825,
@@ -257,7 +257,7 @@
   },
   {
     "Kenai Peninsula": {
-      "COUNTYFP": "122",
+      "sub_num": "122",
       "name": "Kenai Peninsula",
       "bbox": {
         "minLon": -154.748861,
@@ -267,7 +267,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "38460",
+          "sub_num": "38460",
           "name": "Kenai-Cook Inlet",
           "bbox": {
             "minLon": -154.748861,
@@ -277,7 +277,7 @@
           }
         },
         {
-          "COUSUBFP": "68610",
+          "sub_num": "68610",
           "name": "Seward-Hope",
           "bbox": {
             "minLon": -151.002241,
@@ -291,7 +291,7 @@
   },
   {
     "Denali": {
-      "COUNTYFP": "068",
+      "sub_num": "068",
       "name": "Denali",
       "bbox": {
         "minLon": -152.999609,
@@ -301,7 +301,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "18765",
+          "sub_num": "18765",
           "name": "Denali",
           "bbox": {
             "minLon": -152.999609,
@@ -315,7 +315,7 @@
   },
   {
     "Southeast Fairbanks": {
-      "COUNTYFP": "240",
+      "sub_num": "240",
       "name": "Southeast Fairbanks",
       "bbox": {
         "minLon": -147.000037,
@@ -325,7 +325,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "72030",
+          "sub_num": "72030",
           "name": "Southeast Fairbanks",
           "bbox": {
             "minLon": -147.000037,
@@ -339,7 +339,7 @@
   },
   {
     "Fairbanks North Star": {
-      "COUNTYFP": "090",
+      "sub_num": "090",
       "name": "Fairbanks North Star",
       "bbox": {
         "minLon": -148.663265,
@@ -349,7 +349,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "24450",
+          "sub_num": "24450",
           "name": "Fairbanks North Star",
           "bbox": {
             "minLon": -148.663265,
@@ -363,7 +363,7 @@
   },
   {
     "Haines": {
-      "COUNTYFP": "100",
+      "sub_num": "100",
       "name": "Haines",
       "bbox": {
         "minLon": -136.495756,
@@ -373,7 +373,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "31160",
+          "sub_num": "31160",
           "name": "Haines",
           "bbox": {
             "minLon": -136.495756,
@@ -387,7 +387,7 @@
   },
   {
     "Bethel": {
-      "COUNTYFP": "050",
+      "sub_num": "050",
       "name": "Bethel",
       "bbox": {
         "minLon": -173.23683,
@@ -397,7 +397,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "03580",
+          "sub_num": "03580",
           "name": "Aniak",
           "bbox": {
             "minLon": -160.985378,
@@ -407,7 +407,7 @@
           }
         },
         {
-          "COUSUBFP": "45510",
+          "sub_num": "45510",
           "name": "Lower Kuskokwim",
           "bbox": {
             "minLon": -173.23683,
@@ -421,7 +421,7 @@
   },
   {
     "Lake and Peninsula": {
-      "COUNTYFP": "164",
+      "sub_num": "164",
       "name": "Lake and Peninsula",
       "bbox": {
         "minLon": -159.900149,
@@ -431,7 +431,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "42780",
+          "sub_num": "42780",
           "name": "Lake and Peninsula",
           "bbox": {
             "minLon": -159.900149,
@@ -445,7 +445,7 @@
   },
   {
     "Bristol Bay": {
-      "COUNTYFP": "060",
+      "sub_num": "060",
       "name": "Bristol Bay",
       "bbox": {
         "minLon": -158.002155,
@@ -455,7 +455,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "09050",
+          "sub_num": "09050",
           "name": "Bristol Bay",
           "bbox": {
             "minLon": -158.002155,
@@ -469,7 +469,7 @@
   },
   {
     "Dillingham": {
-      "COUNTYFP": "070",
+      "sub_num": "070",
       "name": "Dillingham",
       "bbox": {
         "minLon": -161.365049,
@@ -479,7 +479,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "19000",
+          "sub_num": "19000",
           "name": "Dillingham",
           "bbox": {
             "minLon": -161.365049,
@@ -493,7 +493,7 @@
   },
   {
     "Matanuska-Susitna": {
-      "COUNTYFP": "170",
+      "sub_num": "170",
       "name": "Matanuska-Susitna",
       "bbox": {
         "minLon": -153.001881,
@@ -503,7 +503,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "47440",
+          "sub_num": "47440",
           "name": "Matanuska-Susitna",
           "bbox": {
             "minLon": -153.001881,
@@ -517,7 +517,7 @@
   },
   {
     "Aleutians East": {
-      "COUNTYFP": "013",
+      "sub_num": "013",
       "name": "Aleutians East",
       "bbox": {
         "minLon": -166.225647,
@@ -527,7 +527,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "01598",
+          "sub_num": "01598",
           "name": "Aleutians East",
           "bbox": {
             "minLon": -166.225647,
@@ -541,7 +541,7 @@
   },
   {
     "Kusilvak": {
-      "COUNTYFP": "158",
+      "sub_num": "158",
       "name": "Kusilvak",
       "bbox": {
         "minLon": -166.288613,
@@ -551,7 +551,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "42185",
+          "sub_num": "42185",
           "name": "Kusilvak",
           "bbox": {
             "minLon": -166.288613,
@@ -565,7 +565,7 @@
   },
   {
     "North Slope": {
-      "COUNTYFP": "185",
+      "sub_num": "185",
       "name": "North Slope",
       "bbox": {
         "minLon": -166.972107,
@@ -575,7 +575,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "55970",
+          "sub_num": "55970",
           "name": "North Slope",
           "bbox": {
             "minLon": -166.972107,
@@ -589,7 +589,7 @@
   },
   {
     "Nome": {
-      "COUNTYFP": "180",
+      "sub_num": "180",
       "name": "Nome",
       "bbox": {
         "minLon": -171.965319,
@@ -599,7 +599,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "54970",
+          "sub_num": "54970",
           "name": "Nome",
           "bbox": {
             "minLon": -171.965319,
@@ -613,7 +613,7 @@
   },
   {
     "Aleutians West": {
-      "COUNTYFP": "016",
+      "sub_num": "016",
       "name": "Aleutians West",
       "bbox": {
         "minLon": -179.231086,
@@ -623,7 +623,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "01615",
+          "sub_num": "01615",
           "name": "Aleutians West",
           "bbox": {
             "minLon": -179.231086,
@@ -637,7 +637,7 @@
   },
   {
     "Kodiak Island": {
-      "COUNTYFP": "150",
+      "sub_num": "150",
       "name": "Kodiak Island",
       "bbox": {
         "minLon": -156.903153,
@@ -647,7 +647,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "41200",
+          "sub_num": "41200",
           "name": "Kodiak Island",
           "bbox": {
             "minLon": -156.903153,
@@ -661,7 +661,7 @@
   },
   {
     "Yakutat": {
-      "COUNTYFP": "282",
+      "sub_num": "282",
       "name": "Yakutat",
       "bbox": {
         "minLon": -143.893329,
@@ -671,7 +671,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "86498",
+          "sub_num": "86498",
           "name": "Yakutat",
           "bbox": {
             "minLon": -143.893329,
@@ -685,7 +685,7 @@
   },
   {
     "Copper River": {
-      "COUNTYFP": "066",
+      "sub_num": "066",
       "name": "Copper River",
       "bbox": {
         "minLon": -147.744753,
@@ -695,7 +695,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "17350",
+          "sub_num": "17350",
           "name": "Copper River",
           "bbox": {
             "minLon": -147.744753,
@@ -709,7 +709,7 @@
   },
   {
     "Chugach": {
-      "COUNTYFP": "063",
+      "sub_num": "063",
       "name": "Chugach",
       "bbox": {
         "minLon": -148.948762,
@@ -719,7 +719,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "14420",
+          "sub_num": "14420",
           "name": "Chugach",
           "bbox": {
             "minLon": -148.948762,
@@ -733,7 +733,7 @@
   },
   {
     "Skagway": {
-      "COUNTYFP": "230",
+      "sub_num": "230",
       "name": "Skagway",
       "bbox": {
         "minLon": -135.723075,
@@ -743,7 +743,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "70810",
+          "sub_num": "70810",
           "name": "Skagway",
           "bbox": {
             "minLon": -135.723075,
@@ -757,7 +757,7 @@
   },
   {
     "Hoonah-Angoon": {
-      "COUNTYFP": "105",
+      "sub_num": "105",
       "name": "Hoonah-Angoon",
       "bbox": {
         "minLon": -138.029297,
@@ -767,7 +767,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "33390",
+          "sub_num": "33390",
           "name": "Hoonah-Angoon",
           "bbox": {
             "minLon": -138.029297,
@@ -777,7 +777,7 @@
           }
         },
         {
-          "COUSUBFP": "40560",
+          "sub_num": "40560",
           "name": "Klukwan",
           "bbox": {
             "minLon": -135.920472,

@@ -1,7 +1,7 @@
 [
   {
     "District of Columbia": {
-      "COUNTYFP": "001",
+      "sub_num": "001",
       "name": "District of Columbia",
       "bbox": {
         "minLon": -77.119759,
@@ -11,7 +11,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "50000",
+          "sub_num": "50000",
           "name": "Washington",
           "bbox": {
             "minLon": -77.119759,

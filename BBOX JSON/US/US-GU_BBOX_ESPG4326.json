@@ -1,7 +1,7 @@
 [
   {
     "Guam": {
-      "COUNTYFP": "010",
+      "sub_num": "010",
       "name": "Guam",
       "bbox": {
         "minLon": 144.563426,
@@ -11,7 +11,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "26100",
+          "sub_num": "26100",
           "name": "Chalan Pago-Ordot",
           "bbox": {
             "minLon": 144.740387,
@@ -21,7 +21,7 @@
           }
         },
         {
-          "COUSUBFP": "62828",
+          "sub_num": "62828",
           "name": "S\u00c3\u00a5nta Rita-Sumai",
           "bbox": {
             "minLon": 144.618059,
@@ -31,7 +31,7 @@
           }
         },
         {
-          "COUSUBFP": "65750",
+          "sub_num": "65750",
           "name": "Sinajana",
           "bbox": {
             "minLon": 144.751981,
@@ -41,7 +41,7 @@
           }
         },
         {
-          "COUSUBFP": "84600",
+          "sub_num": "84600",
           "name": "Yona",
           "bbox": {
             "minLon": 144.699612,
@@ -51,7 +51,7 @@
           }
         },
         {
-          "COUSUBFP": "34800",
+          "sub_num": "34800",
           "name": "Hag\u00c3\u00a5t\u00c3\u00b1a",
           "bbox": {
             "minLon": 144.72841,
@@ -61,7 +61,7 @@
           }
         },
         {
-          "COUSUBFP": "46250",
+          "sub_num": "46250",
           "name": "Mangilao",
           "bbox": {
             "minLon": 144.781322,
@@ -71,7 +71,7 @@
           }
         },
         {
-          "COUSUBFP": "44403",
+          "sub_num": "44403",
           "name": "Malesso'",
           "bbox": {
             "minLon": 144.643169,
@@ -81,7 +81,7 @@
           }
         },
         {
-          "COUSUBFP": "51450",
+          "sub_num": "51450",
           "name": "Mongmong-Toto-Maite",
           "bbox": {
             "minLon": 144.758371,
@@ -91,7 +91,7 @@
           }
         },
         {
-          "COUSUBFP": "59250",
+          "sub_num": "59250",
           "name": "Piti",
           "bbox": {
             "minLon": 144.623961,
@@ -101,7 +101,7 @@
           }
         },
         {
-          "COUSUBFP": "71600",
+          "sub_num": "71600",
           "name": "Tamuning",
           "bbox": {
             "minLon": 144.767587,
@@ -111,7 +111,7 @@
           }
         },
         {
-          "COUSUBFP": "35528",
+          "sub_num": "35528",
           "name": "Hum\u00c3\u00a5tak",
           "bbox": {
             "minLon": 144.635422,
@@ -121,7 +121,7 @@
           }
         },
         {
-          "COUSUBFP": "83300",
+          "sub_num": "83300",
           "name": "Yigo",
           "bbox": {
             "minLon": 144.859769,
@@ -131,7 +131,7 @@
           }
         },
         {
-          "COUSUBFP": "00000",
+          "sub_num": "00000",
           "name": "County subdivision not defined",
           "bbox": {
             "minLon": 144.563426,
@@ -141,7 +141,7 @@
           }
         },
         {
-          "COUSUBFP": "13100",
+          "sub_num": "13100",
           "name": "Asan",
           "bbox": {
             "minLon": 144.705198,
@@ -151,7 +151,7 @@
           }
         },
         {
-          "COUSUBFP": "69650",
+          "sub_num": "69650",
           "name": "Talo'fo'fo",
           "bbox": {
             "minLon": 144.671535,
@@ -161,7 +161,7 @@
           }
         },
         {
-          "COUSUBFP": "35503",
+          "sub_num": "35503",
           "name": "Inal\u00c3\u00a5han",
           "bbox": {
             "minLon": 144.687485,
@@ -171,7 +171,7 @@
           }
         },
         {
-          "COUSUBFP": "04650",
+          "sub_num": "04650",
           "name": "Agana Heights",
           "bbox": {
             "minLon": 144.732181,
@@ -181,7 +181,7 @@
           }
         },
         {
-          "COUSUBFP": "17650",
+          "sub_num": "17650",
           "name": "Barrigada",
           "bbox": {
             "minLon": 144.779653,
@@ -191,7 +191,7 @@
           }
         },
         {
-          "COUSUBFP": "28050",
+          "sub_num": "28050",
           "name": "Dededo",
           "bbox": {
             "minLon": 144.808145,
@@ -201,7 +201,7 @@
           }
         },
         {
-          "COUSUBFP": "34653",
+          "sub_num": "34653",
           "name": "H\u00c3\u00a5gat",
           "bbox": {
             "minLon": 144.632,

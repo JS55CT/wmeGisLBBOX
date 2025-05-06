@@ -1,7 +1,7 @@
 [
   {
     "Yuma": {
-      "COUNTYFP": "027",
+      "sub_num": "027",
       "name": "Yuma",
       "bbox": {
         "minLon": -114.8163,
@@ -11,7 +11,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93264",
+          "sub_num": "93264",
           "name": "Somerton",
           "bbox": {
             "minLon": -114.8163,
@@ -21,7 +21,7 @@
           }
         },
         {
-          "COUSUBFP": "93672",
+          "sub_num": "93672",
           "name": "Wellton",
           "bbox": {
             "minLon": -114.563775,
@@ -31,7 +31,7 @@
           }
         },
         {
-          "COUSUBFP": "93978",
+          "sub_num": "93978",
           "name": "Yuma",
           "bbox": {
             "minLon": -114.814087,
@@ -45,7 +45,7 @@
   },
   {
     "Pinal": {
-      "COUNTYFP": "021",
+      "sub_num": "021",
       "name": "Pinal",
       "bbox": {
         "minLon": -112.203624,
@@ -55,7 +55,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91224",
+          "sub_num": "91224",
           "name": "Florence",
           "bbox": {
             "minLon": -111.516732,
@@ -65,7 +65,7 @@
           }
         },
         {
-          "COUSUBFP": "92346",
+          "sub_num": "92346",
           "name": "North Pinal",
           "bbox": {
             "minLon": -111.686032,
@@ -75,7 +75,7 @@
           }
         },
         {
-          "COUSUBFP": "93162",
+          "sub_num": "93162",
           "name": "San Manuel",
           "bbox": {
             "minLon": -111.18487,
@@ -85,7 +85,7 @@
           }
         },
         {
-          "COUSUBFP": "91173",
+          "sub_num": "91173",
           "name": "Eloy",
           "bbox": {
             "minLon": -111.79265,
@@ -95,7 +95,7 @@
           }
         },
         {
-          "COUSUBFP": "91428",
+          "sub_num": "91428",
           "name": "Gila River",
           "bbox": {
             "minLon": -112.203208,
@@ -105,7 +105,7 @@
           }
         },
         {
-          "COUSUBFP": "90510",
+          "sub_num": "90510",
           "name": "Casa Grande",
           "bbox": {
             "minLon": -111.929365,
@@ -115,7 +115,7 @@
           }
         },
         {
-          "COUSUBFP": "92091",
+          "sub_num": "92091",
           "name": "Maricopa-Stanfield",
           "bbox": {
             "minLon": -112.203574,
@@ -125,7 +125,7 @@
           }
         },
         {
-          "COUSUBFP": "93377",
+          "sub_num": "93377",
           "name": "Tohono O'odham Nation",
           "bbox": {
             "minLon": -112.203624,
@@ -135,7 +135,7 @@
           }
         },
         {
-          "COUSUBFP": "90816",
+          "sub_num": "90816",
           "name": "Coolidge",
           "bbox": {
             "minLon": -111.687546,
@@ -149,7 +149,7 @@
   },
   {
     "Navajo": {
-      "COUNTYFP": "017",
+      "sub_num": "017",
       "name": "Navajo",
       "bbox": {
         "minLon": -110.75071,
@@ -159,7 +159,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91785",
+          "sub_num": "91785",
           "name": "Indian Wells",
           "bbox": {
             "minLon": -110.7507,
@@ -169,7 +169,7 @@
           }
         },
         {
-          "COUSUBFP": "93952",
+          "sub_num": "93952",
           "name": "Winslow-Holbrook",
           "bbox": {
             "minLon": -110.75071,
@@ -179,7 +179,7 @@
           }
         },
         {
-          "COUSUBFP": "93213",
+          "sub_num": "93213",
           "name": "Snowflake",
           "bbox": {
             "minLon": -110.750685,
@@ -189,7 +189,7 @@
           }
         },
         {
-          "COUSUBFP": "91860",
+          "sub_num": "91860",
           "name": "Kayenta",
           "bbox": {
             "minLon": -110.750699,
@@ -199,7 +199,7 @@
           }
         },
         {
-          "COUSUBFP": "91632",
+          "sub_num": "91632",
           "name": "Hopi",
           "bbox": {
             "minLon": -110.7507,
@@ -209,7 +209,7 @@
           }
         },
         {
-          "COUSUBFP": "92703",
+          "sub_num": "92703",
           "name": "Pi\u00c3\u00b1on",
           "bbox": {
             "minLon": -110.616781,
@@ -219,7 +219,7 @@
           }
         },
         {
-          "COUSUBFP": "91279",
+          "sub_num": "91279",
           "name": "Fort Apache",
           "bbox": {
             "minLon": -110.750683,
@@ -233,7 +233,7 @@
   },
   {
     "Greenlee": {
-      "COUNTYFP": "011",
+      "sub_num": "011",
       "name": "Greenlee",
       "bbox": {
         "minLon": -109.495829,
@@ -243,7 +243,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90663",
+          "sub_num": "90663",
           "name": "Clifton",
           "bbox": {
             "minLon": -109.495829,
@@ -253,7 +253,7 @@
           }
         },
         {
-          "COUSUBFP": "91020",
+          "sub_num": "91020",
           "name": "Duncan",
           "bbox": {
             "minLon": -109.33806,
@@ -267,7 +267,7 @@
   },
   {
     "Maricopa": {
-      "COUNTYFP": "013",
+      "sub_num": "013",
       "name": "Maricopa",
       "bbox": {
         "minLon": -113.335075,
@@ -277,7 +277,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90561",
+          "sub_num": "90561",
           "name": "Chandler",
           "bbox": {
             "minLon": -111.972735,
@@ -287,7 +287,7 @@
           }
         },
         {
-          "COUSUBFP": "92601",
+          "sub_num": "92601",
           "name": "Phoenix",
           "bbox": {
             "minLon": -112.47015,
@@ -297,7 +297,7 @@
           }
         },
         {
-          "COUSUBFP": "93472",
+          "sub_num": "93472",
           "name": "Tonto National Forest",
           "bbox": {
             "minLon": -112.065396,
@@ -307,7 +307,7 @@
           }
         },
         {
-          "COUSUBFP": "91377",
+          "sub_num": "91377",
           "name": "Gila Bend",
           "bbox": {
             "minLon": -113.333894,
@@ -317,7 +317,7 @@
           }
         },
         {
-          "COUSUBFP": "93774",
+          "sub_num": "93774",
           "name": "Wickenburg",
           "bbox": {
             "minLon": -113.335075,
@@ -327,7 +327,7 @@
           }
         },
         {
-          "COUSUBFP": "90867",
+          "sub_num": "90867",
           "name": "Deer Valley",
           "bbox": {
             "minLon": -112.311701,
@@ -337,7 +337,7 @@
           }
         },
         {
-          "COUSUBFP": "90459",
+          "sub_num": "90459",
           "name": "Buckeye",
           "bbox": {
             "minLon": -113.335064,
@@ -347,7 +347,7 @@
           }
         },
         {
-          "COUSUBFP": "93009",
+          "sub_num": "93009",
           "name": "St. Johns",
           "bbox": {
             "minLon": -112.30875,
@@ -357,7 +357,7 @@
           }
         },
         {
-          "COUSUBFP": "93060",
+          "sub_num": "93060",
           "name": "Salt River",
           "bbox": {
             "minLon": -111.909647,
@@ -371,7 +371,7 @@
   },
   {
     "Pima": {
-      "COUNTYFP": "019",
+      "sub_num": "019",
       "name": "Pima",
       "bbox": {
         "minLon": -113.334105,
@@ -381,7 +381,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "93570",
+          "sub_num": "93570",
           "name": "Tucson",
           "bbox": {
             "minLon": -111.266421,
@@ -391,7 +391,7 @@
           }
         },
         {
-          "COUSUBFP": "90153",
+          "sub_num": "90153",
           "name": "Arivaca",
           "bbox": {
             "minLon": -111.651601,
@@ -401,7 +401,7 @@
           }
         },
         {
-          "COUSUBFP": "90051",
+          "sub_num": "90051",
           "name": "Ajo",
           "bbox": {
             "minLon": -113.334105,
@@ -411,7 +411,7 @@
           }
         },
         {
-          "COUSUBFP": "92040",
+          "sub_num": "92040",
           "name": "Marana",
           "bbox": {
             "minLon": -111.795081,
@@ -421,7 +421,7 @@
           }
         },
         {
-          "COUSUBFP": "93375",
+          "sub_num": "93375",
           "name": "Tohono O'odham Nation",
           "bbox": {
             "minLon": -112.728513,
@@ -435,7 +435,7 @@
   },
   {
     "Cochise": {
-      "COUNTYFP": "003",
+      "sub_num": "003",
       "name": "Cochise",
       "bbox": {
         "minLon": -110.460916,
@@ -445,7 +445,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90306",
+          "sub_num": "90306",
           "name": "Bisbee",
           "bbox": {
             "minLon": -110.460916,
@@ -455,7 +455,7 @@
           }
         },
         {
-          "COUSUBFP": "90408",
+          "sub_num": "90408",
           "name": "Bowie",
           "bbox": {
             "minLon": -109.768658,
@@ -465,7 +465,7 @@
           }
         },
         {
-          "COUSUBFP": "93825",
+          "sub_num": "93825",
           "name": "Willcox",
           "bbox": {
             "minLon": -110.15218,
@@ -475,7 +475,7 @@
           }
         },
         {
-          "COUSUBFP": "90255",
+          "sub_num": "90255",
           "name": "Benson",
           "bbox": {
             "minLon": -110.452317,
@@ -485,7 +485,7 @@
           }
         },
         {
-          "COUSUBFP": "90969",
+          "sub_num": "90969",
           "name": "Douglas",
           "bbox": {
             "minLon": -109.792754,
@@ -495,7 +495,7 @@
           }
         },
         {
-          "COUSUBFP": "93182",
+          "sub_num": "93182",
           "name": "Sierra Vista",
           "bbox": {
             "minLon": -110.460788,
@@ -505,7 +505,7 @@
           }
         },
         {
-          "COUSUBFP": "91122",
+          "sub_num": "91122",
           "name": "Elfrida",
           "bbox": {
             "minLon": -110.037182,
@@ -519,7 +519,7 @@
   },
   {
     "Coconino": {
-      "COUNTYFP": "005",
+      "sub_num": "005",
       "name": "Coconino",
       "bbox": {
         "minLon": -113.354176,
@@ -529,7 +529,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91198",
+          "sub_num": "91198",
           "name": "Flagstaff",
           "bbox": {
             "minLon": -112.133711,
@@ -539,7 +539,7 @@
           }
         },
         {
-          "COUSUBFP": "91838",
+          "sub_num": "91838",
           "name": "Kaibab Plateau",
           "bbox": {
             "minLon": -112.660401,
@@ -549,7 +549,7 @@
           }
         },
         {
-          "COUSUBFP": "91683",
+          "sub_num": "91683",
           "name": "Hualapai",
           "bbox": {
             "minLon": -113.354176,
@@ -559,7 +559,7 @@
           }
         },
         {
-          "COUSUBFP": "91581",
+          "sub_num": "91581",
           "name": "Hopi",
           "bbox": {
             "minLon": -111.007042,
@@ -569,7 +569,7 @@
           }
         },
         {
-          "COUSUBFP": "93519",
+          "sub_num": "93519",
           "name": "Tuba City",
           "bbox": {
             "minLon": -111.892206,
@@ -579,7 +579,7 @@
           }
         },
         {
-          "COUSUBFP": "91530",
+          "sub_num": "91530",
           "name": "Havasupai",
           "bbox": {
             "minLon": -112.875989,
@@ -589,7 +589,7 @@
           }
         },
         {
-          "COUSUBFP": "93876",
+          "sub_num": "93876",
           "name": "Williams",
           "bbox": {
             "minLon": -113.301216,
@@ -603,7 +603,7 @@
   },
   {
     "Gila": {
-      "COUNTYFP": "007",
+      "sub_num": "007",
       "name": "Gila",
       "bbox": {
         "minLon": -111.720728,
@@ -613,7 +613,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91277",
+          "sub_num": "91277",
           "name": "Fort Apache",
           "bbox": {
             "minLon": -110.783268,
@@ -623,7 +623,7 @@
           }
         },
         {
-          "COUSUBFP": "92570",
+          "sub_num": "92570",
           "name": "Payson",
           "bbox": {
             "minLon": -111.720728,
@@ -633,7 +633,7 @@
           }
         },
         {
-          "COUSUBFP": "93927",
+          "sub_num": "93927",
           "name": "Winkelman",
           "bbox": {
             "minLon": -110.944707,
@@ -643,7 +643,7 @@
           }
         },
         {
-          "COUSUBFP": "91495",
+          "sub_num": "91495",
           "name": "Globe-Miami",
           "bbox": {
             "minLon": -111.15309,
@@ -653,7 +653,7 @@
           }
         },
         {
-          "COUSUBFP": "93470",
+          "sub_num": "93470",
           "name": "Tonto Basin",
           "bbox": {
             "minLon": -111.452203,
@@ -663,7 +663,7 @@
           }
         },
         {
-          "COUSUBFP": "93109",
+          "sub_num": "93109",
           "name": "San Carlos",
           "bbox": {
             "minLon": -110.752774,
@@ -677,7 +677,7 @@
   },
   {
     "Graham": {
-      "COUNTYFP": "009",
+      "sub_num": "009",
       "name": "Graham",
       "bbox": {
         "minLon": -110.458136,
@@ -687,7 +687,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90357",
+          "sub_num": "90357",
           "name": "Bonita-Klondyke",
           "bbox": {
             "minLon": -110.451522,
@@ -697,7 +697,7 @@
           }
         },
         {
-          "COUSUBFP": "92652",
+          "sub_num": "92652",
           "name": "Pima",
           "bbox": {
             "minLon": -110.31003,
@@ -707,7 +707,7 @@
           }
         },
         {
-          "COUSUBFP": "92907",
+          "sub_num": "92907",
           "name": "Safford",
           "bbox": {
             "minLon": -110.006931,
@@ -717,7 +717,7 @@
           }
         },
         {
-          "COUSUBFP": "93111",
+          "sub_num": "93111",
           "name": "San Carlos",
           "bbox": {
             "minLon": -110.458136,
@@ -731,7 +731,7 @@
   },
   {
     "Mohave": {
-      "COUNTYFP": "015",
+      "sub_num": "015",
       "name": "Mohave",
       "bbox": {
         "minLon": -114.754681,
@@ -741,7 +741,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "91964",
+          "sub_num": "91964",
           "name": "Lake Havasu City",
           "bbox": {
             "minLon": -114.487777,
@@ -751,7 +751,7 @@
           }
         },
         {
-          "COUSUBFP": "92340",
+          "sub_num": "92340",
           "name": "North Mohave",
           "bbox": {
             "minLon": -114.050616,
@@ -761,7 +761,7 @@
           }
         },
         {
-          "COUSUBFP": "91885",
+          "sub_num": "91885",
           "name": "Kingman",
           "bbox": {
             "minLon": -114.754681,
@@ -771,7 +771,7 @@
           }
         },
         {
-          "COUSUBFP": "90470",
+          "sub_num": "90470",
           "name": "Bullhead City",
           "bbox": {
             "minLon": -114.646764,
@@ -785,7 +785,7 @@
   },
   {
     "Yavapai": {
-      "COUNTYFP": "025",
+      "sub_num": "025",
       "name": "Yavapai",
       "bbox": {
         "minLon": -113.334359,
@@ -795,7 +795,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90765",
+          "sub_num": "90765",
           "name": "Congress",
           "bbox": {
             "minLon": -113.333742,
@@ -805,7 +805,7 @@
           }
         },
         {
-          "COUSUBFP": "92193",
+          "sub_num": "92193",
           "name": "Mingus Mountain",
           "bbox": {
             "minLon": -112.407835,
@@ -815,7 +815,7 @@
           }
         },
         {
-          "COUSUBFP": "90204",
+          "sub_num": "90204",
           "name": "Ash Fork",
           "bbox": {
             "minLon": -113.334161,
@@ -825,7 +825,7 @@
           }
         },
         {
-          "COUSUBFP": "90840",
+          "sub_num": "90840",
           "name": "Cordes Lakes-Mayer",
           "bbox": {
             "minLon": -112.396969,
@@ -835,7 +835,7 @@
           }
         },
         {
-          "COUSUBFP": "90484",
+          "sub_num": "90484",
           "name": "Camp Verde-Sedona",
           "bbox": {
             "minLon": -112.078944,
@@ -845,7 +845,7 @@
           }
         },
         {
-          "COUSUBFP": "92754",
+          "sub_num": "92754",
           "name": "Prescott",
           "bbox": {
             "minLon": -113.334359,
@@ -859,7 +859,7 @@
   },
   {
     "La Paz": {
-      "COUNTYFP": "012",
+      "sub_num": "012",
       "name": "La Paz",
       "bbox": {
         "minLon": -114.731223,
@@ -869,7 +869,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92480",
+          "sub_num": "92480",
           "name": "Parker",
           "bbox": {
             "minLon": -114.731223,
@@ -883,7 +883,7 @@
   },
   {
     "Santa Cruz": {
-      "COUNTYFP": "023",
+      "sub_num": "023",
       "name": "Santa Cruz",
       "bbox": {
         "minLon": -111.366922,
@@ -893,7 +893,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "92295",
+          "sub_num": "92295",
           "name": "Nogales",
           "bbox": {
             "minLon": -111.366922,
@@ -903,7 +903,7 @@
           }
         },
         {
-          "COUSUBFP": "92550",
+          "sub_num": "92550",
           "name": "Patagonia",
           "bbox": {
             "minLon": -110.96273,
@@ -917,7 +917,7 @@
   },
   {
     "Apache": {
-      "COUNTYFP": "001",
+      "sub_num": "001",
       "name": "Apache",
       "bbox": {
         "minLon": -110.000705,
@@ -927,7 +927,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "90612",
+          "sub_num": "90612",
           "name": "Chinle",
           "bbox": {
             "minLon": -110.000705,
@@ -937,7 +937,7 @@
           }
         },
         {
-          "COUSUBFP": "91275",
+          "sub_num": "91275",
           "name": "Fort Apache",
           "bbox": {
             "minLon": -109.891766,
@@ -947,7 +947,7 @@
           }
         },
         {
-          "COUSUBFP": "93315",
+          "sub_num": "93315",
           "name": "Sweetwater",
           "bbox": {
             "minLon": -109.877793,
@@ -957,7 +957,7 @@
           }
         },
         {
-          "COUSUBFP": "91326",
+          "sub_num": "91326",
           "name": "Fort Defiance",
           "bbox": {
             "minLon": -110.000693,
@@ -967,7 +967,7 @@
           }
         },
         {
-          "COUSUBFP": "90918",
+          "sub_num": "90918",
           "name": "Dennehotso",
           "bbox": {
             "minLon": -110.000688,
@@ -977,7 +977,7 @@
           }
         },
         {
-          "COUSUBFP": "92805",
+          "sub_num": "92805",
           "name": "Puerco",
           "bbox": {
             "minLon": -109.851929,
@@ -987,7 +987,7 @@
           }
         },
         {
-          "COUSUBFP": "91071",
+          "sub_num": "91071",
           "name": "Eagar-Springerville",
           "bbox": {
             "minLon": -109.85919,
@@ -997,7 +997,7 @@
           }
         },
         {
-          "COUSUBFP": "92958",
+          "sub_num": "92958",
           "name": "St. Johns",
           "bbox": {
             "minLon": -109.865231,

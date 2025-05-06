@@ -1,7 +1,7 @@
 [
   {
-    "5901": {
-      "subsub_id": "5901",
+    "East Kootenay": {
+      "sub_num": "5901",
       "name": "East Kootenay",
       "bbox": {
         "minLon": -116.79654644,
@@ -12,8 +12,8 @@
     }
   },
   {
-    "5903": {
-      "subsub_id": "5903",
+    "Central Kootenay": {
+      "sub_num": "5903",
       "name": "Central Kootenay",
       "bbox": {
         "minLon": -118.49588721,
@@ -24,8 +24,8 @@
     }
   },
   {
-    "5905": {
-      "subsub_id": "5905",
+    "Kootenay Boundary": {
+      "sub_num": "5905",
       "name": "Kootenay Boundary",
       "bbox": {
         "minLon": -119.37590574,
@@ -36,8 +36,8 @@
     }
   },
   {
-    "5907": {
-      "subsub_id": "5907",
+    "Okanagan-Similkameen": {
+      "sub_num": "5907",
       "name": "Okanagan-Similkameen",
       "bbox": {
         "minLon": -121.10177333,
@@ -48,8 +48,8 @@
     }
   },
   {
-    "5909": {
-      "subsub_id": "5909",
+    "Fraser Valley": {
+      "sub_num": "5909",
       "name": "Fraser Valley",
       "bbox": {
         "minLon": -123.00248067,
@@ -60,8 +60,8 @@
     }
   },
   {
-    "5915": {
-      "subsub_id": "5915",
+    "Greater Vancouver": {
+      "sub_num": "5915",
       "name": "Greater Vancouver",
       "bbox": {
         "minLon": -123.43193384,
@@ -72,8 +72,8 @@
     }
   },
   {
-    "5917": {
-      "subsub_id": "5917",
+    "Capital": {
+      "sub_num": "5917",
       "name": "Capital",
       "bbox": {
         "minLon": -124.5006146,
@@ -84,8 +84,8 @@
     }
   },
   {
-    "5919": {
-      "subsub_id": "5919",
+    "Cowichan Valley": {
+      "sub_num": "5919",
       "name": "Cowichan Valley",
       "bbox": {
         "minLon": -124.8549812,
@@ -96,8 +96,8 @@
     }
   },
   {
-    "5921": {
-      "subsub_id": "5921",
+    "Nanaimo": {
+      "sub_num": "5921",
       "name": "Nanaimo",
       "bbox": {
         "minLon": -124.96815869,
@@ -108,8 +108,8 @@
     }
   },
   {
-    "5923": {
-      "subsub_id": "5923",
+    "Alberni-Clayoquot": {
+      "sub_num": "5923",
       "name": "Alberni-Clayoquot",
       "bbox": {
         "minLon": -126.59284872,
@@ -120,8 +120,8 @@
     }
   },
   {
-    "5924": {
-      "subsub_id": "5924",
+    "Strathcona": {
+      "sub_num": "5924",
       "name": "Strathcona",
       "bbox": {
         "minLon": -127.94509584,
@@ -132,8 +132,8 @@
     }
   },
   {
-    "5926": {
-      "subsub_id": "5926",
+    "Comox Valley": {
+      "sub_num": "5926",
       "name": "Comox Valley",
       "bbox": {
         "minLon": -125.5530722,
@@ -144,8 +144,8 @@
     }
   },
   {
-    "5927": {
-      "subsub_id": "5927",
+    "Powell River": {
+      "sub_num": "5927",
       "name": "Powell River",
       "bbox": {
         "minLon": -124.94656475,
@@ -156,8 +156,8 @@
     }
   },
   {
-    "5929": {
-      "subsub_id": "5929",
+    "Sunshine Coast": {
+      "sub_num": "5929",
       "name": "Sunshine Coast",
       "bbox": {
         "minLon": -124.22847106,
@@ -168,8 +168,8 @@
     }
   },
   {
-    "5931": {
-      "subsub_id": "5931",
+    "Squamish-Lillooet": {
+      "sub_num": "5931",
       "name": "Squamish-Lillooet",
       "bbox": {
         "minLon": -124.00331385,
@@ -180,8 +180,8 @@
     }
   },
   {
-    "5933": {
-      "subsub_id": "5933",
+    "Thompson-Nicola": {
+      "sub_num": "5933",
       "name": "Thompson-Nicola",
       "bbox": {
         "minLon": -122.67742474,
@@ -192,8 +192,8 @@
     }
   },
   {
-    "5935": {
-      "subsub_id": "5935",
+    "Central Okanagan": {
+      "sub_num": "5935",
       "name": "Central Okanagan",
       "bbox": {
         "minLon": -120.05680797,
@@ -204,8 +204,8 @@
     }
   },
   {
-    "5937": {
-      "subsub_id": "5937",
+    "North Okanagan": {
+      "sub_num": "5937",
       "name": "North Okanagan",
       "bbox": {
         "minLon": -119.76294417,
@@ -216,8 +216,8 @@
     }
   },
   {
-    "5939": {
-      "subsub_id": "5939",
+    "Columbia-Shuswap": {
+      "sub_num": "5939",
       "name": "Columbia-Shuswap",
       "bbox": {
         "minLon": -119.70453127,
@@ -228,8 +228,8 @@
     }
   },
   {
-    "5941": {
-      "subsub_id": "5941",
+    "Cariboo": {
+      "sub_num": "5941",
       "name": "Cariboo",
       "bbox": {
         "minLon": -126.64606287,
@@ -240,8 +240,8 @@
     }
   },
   {
-    "5943": {
-      "subsub_id": "5943",
+    "Mount Waddington": {
+      "sub_num": "5943",
       "name": "Mount Waddington",
       "bbox": {
         "minLon": -129.09556855,
@@ -252,8 +252,8 @@
     }
   },
   {
-    "5945": {
-      "subsub_id": "5945",
+    "Central Coast": {
+      "sub_num": "5945",
       "name": "Central Coast",
       "bbox": {
         "minLon": -128.54181124,
@@ -264,8 +264,8 @@
     }
   },
   {
-    "5947": {
-      "subsub_id": "5947",
+    "Skeena-Queen Charlotte": {
+      "sub_num": "5947",
       "name": "Skeena-Queen Charlotte",
       "bbox": {
         "minLon": -133.20207757,
@@ -276,8 +276,8 @@
     }
   },
   {
-    "5949": {
-      "subsub_id": "5949",
+    "Kitimat-Stikine": {
+      "sub_num": "5949",
       "name": "Kitimat-Stikine",
       "bbox": {
         "minLon": -133.06954317,
@@ -288,8 +288,8 @@
     }
   },
   {
-    "5951": {
-      "subsub_id": "5951",
+    "Bulkley-Nechako": {
+      "sub_num": "5951",
       "name": "Bulkley-Nechako",
       "bbox": {
         "minLon": -128.48555038,
@@ -300,8 +300,8 @@
     }
   },
   {
-    "5953": {
-      "subsub_id": "5953",
+    "Fraser-Fort George": {
+      "sub_num": "5953",
       "name": "Fraser-Fort George",
       "bbox": {
         "minLon": -124.05326176,
@@ -312,8 +312,8 @@
     }
   },
   {
-    "5955": {
-      "subsub_id": "5955",
+    "Peace River": {
+      "sub_num": "5955",
       "name": "Peace River",
       "bbox": {
         "minLon": -127.73841251,
@@ -324,8 +324,8 @@
     }
   },
   {
-    "5957": {
-      "subsub_id": "5957",
+    "Stikine": {
+      "sub_num": "5957",
       "name": "Stikine",
       "bbox": {
         "minLon": -139.05220104,
@@ -336,8 +336,8 @@
     }
   },
   {
-    "5959": {
-      "subsub_id": "5959",
+    "Northern Rockies": {
+      "sub_num": "5959",
       "name": "Northern Rockies",
       "bbox": {
         "minLon": -127.81058615,

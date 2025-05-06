@@ -1,7 +1,7 @@
 [
   {
     "Manu'a": {
-      "COUNTYFP": "020",
+      "sub_num": "020",
       "name": "Manu'a",
       "bbox": {
         "minLon": -169.725895,
@@ -11,7 +11,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "59300",
+          "sub_num": "59300",
           "name": "Ofu",
           "bbox": {
             "minLon": -169.725895,
@@ -21,7 +21,7 @@
           }
         },
         {
-          "COUSUBFP": "60900",
+          "sub_num": "60900",
           "name": "Olosega",
           "bbox": {
             "minLon": -169.63205,
@@ -31,7 +31,7 @@
           }
         },
         {
-          "COUSUBFP": "34500",
+          "sub_num": "34500",
           "name": "Fitiuta",
           "bbox": {
             "minLon": -169.494006,
@@ -41,7 +41,7 @@
           }
         },
         {
-          "COUSUBFP": "31300",
+          "sub_num": "31300",
           "name": "Faleasao",
           "bbox": {
             "minLon": -169.543378,
@@ -51,7 +51,7 @@
           }
         },
         {
-          "COUSUBFP": "78500",
+          "sub_num": "78500",
           "name": "Ta'u",
           "bbox": {
             "minLon": -169.5692,
@@ -65,7 +65,7 @@
   },
   {
     "Eastern": {
-      "COUNTYFP": "010",
+      "sub_num": "010",
       "name": "Eastern",
       "bbox": {
         "minLon": -170.797156,
@@ -75,7 +75,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "37700",
+          "sub_num": "37700",
           "name": "Ituau",
           "bbox": {
             "minLon": -170.797156,
@@ -85,7 +85,7 @@
           }
         },
         {
-          "COUSUBFP": "51300",
+          "sub_num": "51300",
           "name": "Ma'oputasi",
           "bbox": {
             "minLon": -170.747496,
@@ -95,7 +95,7 @@
           }
         },
         {
-          "COUSUBFP": "67300",
+          "sub_num": "67300",
           "name": "Sa'ole",
           "bbox": {
             "minLon": -170.614778,
@@ -105,7 +105,7 @@
           }
         },
         {
-          "COUSUBFP": "72100",
+          "sub_num": "72100",
           "name": "Sua",
           "bbox": {
             "minLon": -170.673918,
@@ -115,7 +115,7 @@
           }
         },
         {
-          "COUSUBFP": "86500",
+          "sub_num": "86500",
           "name": "Vaifanua",
           "bbox": {
             "minLon": -170.706074,
@@ -129,7 +129,7 @@
   },
   {
     "Western": {
-      "COUNTYFP": "050",
+      "sub_num": "050",
       "name": "Western",
       "bbox": {
         "minLon": -170.890348,
@@ -139,7 +139,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "80100",
+          "sub_num": "80100",
           "name": "Tualatai",
           "bbox": {
             "minLon": -170.794676,
@@ -149,7 +149,7 @@
           }
         },
         {
-          "COUSUBFP": "42500",
+          "sub_num": "42500",
           "name": "Lealataua",
           "bbox": {
             "minLon": -170.890348,
@@ -159,7 +159,7 @@
           }
         },
         {
-          "COUSUBFP": "43300",
+          "sub_num": "43300",
           "name": "Leasina",
           "bbox": {
             "minLon": -170.794637,
@@ -169,7 +169,7 @@
           }
         },
         {
-          "COUSUBFP": "80900",
+          "sub_num": "80900",
           "name": "Tualauta",
           "bbox": {
             "minLon": -170.762936,
@@ -183,7 +183,7 @@
   },
   {
     "Swains Island": {
-      "COUNTYFP": "040",
+      "sub_num": "040",
       "name": "Swains Island",
       "bbox": {
         "minLon": -171.141907,
@@ -193,7 +193,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "73700",
+          "sub_num": "73700",
           "name": "Swains Island",
           "bbox": {
             "minLon": -171.141907,
@@ -207,7 +207,7 @@
   },
   {
     "Rose Island": {
-      "COUNTYFP": "030",
+      "sub_num": "030",
       "name": "Rose Island",
       "bbox": {
         "minLon": -168.226,
@@ -217,7 +217,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "65700",
+          "sub_num": "65700",
           "name": "Rose Island",
           "bbox": {
             "minLon": -168.226,

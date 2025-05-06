@@ -1,7 +1,7 @@
 [
   {
     "Androscoggin": {
-      "COUNTYFP": "001",
+      "sub_num": "001",
       "name": "Androscoggin",
       "bbox": {
         "minLon": -70.485288,
@@ -11,7 +11,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "02060",
+          "sub_num": "02060",
           "name": "Auburn",
           "bbox": {
             "minLon": -70.316236,
@@ -21,7 +21,7 @@
           }
         },
         {
-          "COUSUBFP": "38565",
+          "sub_num": "38565",
           "name": "Leeds",
           "bbox": {
             "minLon": -70.19883,
@@ -31,7 +31,7 @@
           }
         },
         {
-          "COUSUBFP": "40665",
+          "sub_num": "40665",
           "name": "Livermore",
           "bbox": {
             "minLon": -70.278692,
@@ -41,7 +41,7 @@
           }
         },
         {
-          "COUSUBFP": "60020",
+          "sub_num": "60020",
           "name": "Poland",
           "bbox": {
             "minLon": -70.485288,
@@ -51,7 +51,7 @@
           }
         },
         {
-          "COUSUBFP": "40770",
+          "sub_num": "40770",
           "name": "Livermore Falls",
           "bbox": {
             "minLon": -70.199758,
@@ -61,7 +61,7 @@
           }
         },
         {
-          "COUSUBFP": "40035",
+          "sub_num": "40035",
           "name": "Lisbon",
           "bbox": {
             "minLon": -70.158558,
@@ -71,7 +71,7 @@
           }
         },
         {
-          "COUSUBFP": "46160",
+          "sub_num": "46160",
           "name": "Minot",
           "bbox": {
             "minLon": -70.401809,
@@ -81,7 +81,7 @@
           }
         },
         {
-          "COUSUBFP": "77800",
+          "sub_num": "77800",
           "name": "Turner",
           "bbox": {
             "minLon": -70.325218,
@@ -91,7 +91,7 @@
           }
         },
         {
-          "COUSUBFP": "44585",
+          "sub_num": "44585",
           "name": "Mechanic Falls",
           "bbox": {
             "minLon": -70.451157,
@@ -101,7 +101,7 @@
           }
         },
         {
-          "COUSUBFP": "19105",
+          "sub_num": "19105",
           "name": "Durham",
           "bbox": {
             "minLon": -70.229244,
@@ -111,7 +111,7 @@
           }
         },
         {
-          "COUSUBFP": "29255",
+          "sub_num": "29255",
           "name": "Greene",
           "bbox": {
             "minLon": -70.212741,
@@ -121,7 +121,7 @@
           }
         },
         {
-          "COUSUBFP": "38740",
+          "sub_num": "38740",
           "name": "Lewiston",
           "bbox": {
             "minLon": -70.224262,
@@ -131,7 +131,7 @@
           }
         },
         {
-          "COUSUBFP": "64570",
+          "sub_num": "64570",
           "name": "Sabattus",
           "bbox": {
             "minLon": -70.126793,
@@ -141,7 +141,7 @@
           }
         },
         {
-          "COUSUBFP": "79585",
+          "sub_num": "79585",
           "name": "Wales",
           "bbox": {
             "minLon": -70.101906,
@@ -155,7 +155,7 @@
   },
   {
     "Sagadahoc": {
-      "COUNTYFP": "023",
+      "sub_num": "023",
       "name": "Sagadahoc",
       "bbox": {
         "minLon": -70.051824,
@@ -165,7 +165,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "76960",
+          "sub_num": "76960",
           "name": "Topsham",
           "bbox": {
             "minLon": -70.051824,
@@ -175,7 +175,7 @@
           }
         },
         {
-          "COUSUBFP": "27295",
+          "sub_num": "27295",
           "name": "Georgetown",
           "bbox": {
             "minLon": -69.788554,
@@ -185,7 +185,7 @@
           }
         },
         {
-          "COUSUBFP": "06365",
+          "sub_num": "06365",
           "name": "Bowdoinham",
           "bbox": {
             "minLon": -69.935304,
@@ -195,7 +195,7 @@
           }
         },
         {
-          "COUSUBFP": "58070",
+          "sub_num": "58070",
           "name": "Perkins",
           "bbox": {
             "minLon": -69.818152,
@@ -205,7 +205,7 @@
           }
         },
         {
-          "COUSUBFP": "62645",
+          "sub_num": "62645",
           "name": "Richmond",
           "bbox": {
             "minLon": -69.903737,
@@ -215,7 +215,7 @@
           }
         },
         {
-          "COUSUBFP": "81930",
+          "sub_num": "81930",
           "name": "West Bath",
           "bbox": {
             "minLon": -69.896009,
@@ -225,7 +225,7 @@
           }
         },
         {
-          "COUSUBFP": "01570",
+          "sub_num": "01570",
           "name": "Arrowsic",
           "bbox": {
             "minLon": -69.81074,
@@ -235,7 +235,7 @@
           }
         },
         {
-          "COUSUBFP": "03355",
+          "sub_num": "03355",
           "name": "Bath",
           "bbox": {
             "minLon": -69.874657,
@@ -245,7 +245,7 @@
           }
         },
         {
-          "COUSUBFP": "58515",
+          "sub_num": "58515",
           "name": "Phippsburg",
           "bbox": {
             "minLon": -69.888139,
@@ -255,7 +255,7 @@
           }
         },
         {
-          "COUSUBFP": "87460",
+          "sub_num": "87460",
           "name": "Woolwich",
           "bbox": {
             "minLon": -69.839393,
@@ -265,7 +265,7 @@
           }
         },
         {
-          "COUSUBFP": "06260",
+          "sub_num": "06260",
           "name": "Bowdoin",
           "bbox": {
             "minLon": -70.038316,
@@ -279,7 +279,7 @@
   },
   {
     "Washington": {
-      "COUNTYFP": "029",
+      "sub_num": "029",
       "name": "Washington",
       "bbox": {
         "minLon": -68.105017,
@@ -289,7 +289,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "13612",
+          "sub_num": "13612",
           "name": "Codyville",
           "bbox": {
             "minLon": -67.742846,
@@ -299,7 +299,7 @@
           }
         },
         {
-          "COUSUBFP": "00380",
+          "sub_num": "00380",
           "name": "Addison",
           "bbox": {
             "minLon": -67.778976,
@@ -309,7 +309,7 @@
           }
         },
         {
-          "COUSUBFP": "09585",
+          "sub_num": "09585",
           "name": "Calais",
           "bbox": {
             "minLon": -67.305593,
@@ -319,7 +319,7 @@
           }
         },
         {
-          "COUSUBFP": "17355",
+          "sub_num": "17355",
           "name": "Dennysville",
           "bbox": {
             "minLon": -67.302649,
@@ -329,7 +329,7 @@
           }
         },
         {
-          "COUSUBFP": "36010",
+          "sub_num": "36010",
           "name": "Jonesport",
           "bbox": {
             "minLon": -67.647323,
@@ -339,7 +339,7 @@
           }
         },
         {
-          "COUSUBFP": "42100",
+          "sub_num": "42100",
           "name": "Machiasport",
           "bbox": {
             "minLon": -67.443044,
@@ -349,7 +349,7 @@
           }
         },
         {
-          "COUSUBFP": "53500",
+          "sub_num": "53500",
           "name": "North Washington",
           "bbox": {
             "minLon": -68.105017,
@@ -359,7 +359,7 @@
           }
         },
         {
-          "COUSUBFP": "58165",
+          "sub_num": "58165",
           "name": "Perry",
           "bbox": {
             "minLon": -67.185849,
@@ -369,7 +369,7 @@
           }
         },
         {
-          "COUSUBFP": "75770",
+          "sub_num": "75770",
           "name": "Talmadge",
           "bbox": {
             "minLon": -67.842057,
@@ -379,7 +379,7 @@
           }
         },
         {
-          "COUSUBFP": "21730",
+          "sub_num": "21730",
           "name": "Eastport",
           "bbox": {
             "minLon": -67.052269,
@@ -389,7 +389,7 @@
           }
         },
         {
-          "COUSUBFP": "28660",
+          "sub_num": "28660",
           "name": "Grand Lake Stream",
           "bbox": {
             "minLon": -67.81183,
@@ -399,7 +399,7 @@
           }
         },
         {
-          "COUSUBFP": "35905",
+          "sub_num": "35905",
           "name": "Jonesboro",
           "bbox": {
             "minLon": -67.672839,
@@ -409,7 +409,7 @@
           }
         },
         {
-          "COUSUBFP": "41610",
+          "sub_num": "41610",
           "name": "Lubec",
           "bbox": {
             "minLon": -67.116249,
@@ -419,7 +419,7 @@
           }
         },
         {
-          "COUSUBFP": "41960",
+          "sub_num": "41960",
           "name": "Machias",
           "bbox": {
             "minLon": -67.506856,
@@ -429,7 +429,7 @@
           }
         },
         {
-          "COUSUBFP": "51375",
+          "sub_num": "51375",
           "name": "Northfield",
           "bbox": {
             "minLon": -67.715771,
@@ -439,7 +439,7 @@
           }
         },
         {
-          "COUSUBFP": "57780",
+          "sub_num": "57780",
           "name": "Pembroke",
           "bbox": {
             "minLon": -67.255899,
@@ -449,7 +449,7 @@
           }
         },
         {
-          "COUSUBFP": "61035",
+          "sub_num": "61035",
           "name": "Princeton",
           "bbox": {
             "minLon": -67.627602,
@@ -459,7 +459,7 @@
           }
         },
         {
-          "COUSUBFP": "20960",
+          "sub_num": "20960",
           "name": "East Machias",
           "bbox": {
             "minLon": -67.518097,
@@ -469,7 +469,7 @@
           }
         },
         {
-          "COUSUBFP": "63275",
+          "sub_num": "63275",
           "name": "Robbinston",
           "bbox": {
             "minLon": -67.242666,
@@ -479,7 +479,7 @@
           }
         },
         {
-          "COUSUBFP": "63940",
+          "sub_num": "63940",
           "name": "Roque Bluffs",
           "bbox": {
             "minLon": -67.543666,
@@ -489,7 +489,7 @@
           }
         },
         {
-          "COUSUBFP": "74125",
+          "sub_num": "74125",
           "name": "Steuben",
           "bbox": {
             "minLon": -68.017219,
@@ -499,7 +499,7 @@
           }
         },
         {
-          "COUSUBFP": "76895",
+          "sub_num": "76895",
           "name": "Topsfield",
           "bbox": {
             "minLon": -67.868807,
@@ -509,7 +509,7 @@
           }
         },
         {
-          "COUSUBFP": "78675",
+          "sub_num": "78675",
           "name": "Vanceboro",
           "bbox": {
             "minLon": -67.535116,
@@ -519,7 +519,7 @@
           }
         },
         {
-          "COUSUBFP": "79375",
+          "sub_num": "79375",
           "name": "Waite",
           "bbox": {
             "minLon": -67.714591,
@@ -529,7 +529,7 @@
           }
         },
         {
-          "COUSUBFP": "81685",
+          "sub_num": "81685",
           "name": "Wesley",
           "bbox": {
             "minLon": -67.726551,
@@ -539,7 +539,7 @@
           }
         },
         {
-          "COUSUBFP": "85185",
+          "sub_num": "85185",
           "name": "Whiting",
           "bbox": {
             "minLon": -67.362143,
@@ -549,7 +549,7 @@
           }
         },
         {
-          "COUSUBFP": "45600",
+          "sub_num": "45600",
           "name": "Milbridge",
           "bbox": {
             "minLon": -67.925178,
@@ -559,7 +559,7 @@
           }
         },
         {
-          "COUSUBFP": "02480",
+          "sub_num": "02480",
           "name": "Baileyville",
           "bbox": {
             "minLon": -67.536531,
@@ -569,7 +569,7 @@
           }
         },
         {
-          "COUSUBFP": "19870",
+          "sub_num": "19870",
           "name": "East Central Washington",
           "bbox": {
             "minLon": -67.611797,
@@ -579,7 +579,7 @@
           }
         },
         {
-          "COUSUBFP": "31530",
+          "sub_num": "31530",
           "name": "Harrington",
           "bbox": {
             "minLon": -67.876429,
@@ -589,7 +589,7 @@
           }
         },
         {
-          "COUSUBFP": "43640",
+          "sub_num": "43640",
           "name": "Marshfield",
           "bbox": {
             "minLon": -67.549955,
@@ -599,7 +599,7 @@
           }
         },
         {
-          "COUSUBFP": "02970",
+          "sub_num": "02970",
           "name": "Baring",
           "bbox": {
             "minLon": -67.3891,
@@ -609,7 +609,7 @@
           }
         },
         {
-          "COUSUBFP": "12175",
+          "sub_num": "12175",
           "name": "Charlotte",
           "bbox": {
             "minLon": -67.358211,
@@ -619,7 +619,7 @@
           }
         },
         {
-          "COUSUBFP": "13750",
+          "sub_num": "13750",
           "name": "Columbia",
           "bbox": {
             "minLon": -67.892057,
@@ -629,7 +629,7 @@
           }
         },
         {
-          "COUSUBFP": "14100",
+          "sub_num": "14100",
           "name": "Cooper",
           "bbox": {
             "minLon": -67.5034,
@@ -639,7 +639,7 @@
           }
         },
         {
-          "COUSUBFP": "14940",
+          "sub_num": "14940",
           "name": "Crawford",
           "bbox": {
             "minLon": -67.659609,
@@ -649,7 +649,7 @@
           }
         },
         {
-          "COUSUBFP": "15920",
+          "sub_num": "15920",
           "name": "Cutler",
           "bbox": {
             "minLon": -67.342999,
@@ -659,7 +659,7 @@
           }
         },
         {
-          "COUSUBFP": "16410",
+          "sub_num": "16410",
           "name": "Danforth",
           "bbox": {
             "minLon": -67.947146,
@@ -669,7 +669,7 @@
           }
         },
         {
-          "COUSUBFP": "03670",
+          "sub_num": "03670",
           "name": "Beals",
           "bbox": {
             "minLon": -67.673852,
@@ -679,7 +679,7 @@
           }
         },
         {
-          "COUSUBFP": "12455",
+          "sub_num": "12455",
           "name": "Cherryfield",
           "bbox": {
             "minLon": -68.016062,
@@ -689,7 +689,7 @@
           }
         },
         {
-          "COUSUBFP": "13820",
+          "sub_num": "13820",
           "name": "Columbia Falls",
           "bbox": {
             "minLon": -67.771673,
@@ -699,7 +699,7 @@
           }
         },
         {
-          "COUSUBFP": "00660",
+          "sub_num": "00660",
           "name": "Alexander",
           "bbox": {
             "minLon": -67.574027,
@@ -709,7 +709,7 @@
           }
         },
         {
-          "COUSUBFP": "03810",
+          "sub_num": "03810",
           "name": "Beddington",
           "bbox": {
             "minLon": -68.082335,
@@ -719,7 +719,7 @@
           }
         },
         {
-          "COUSUBFP": "16865",
+          "sub_num": "16865",
           "name": "Deblois",
           "bbox": {
             "minLon": -68.057281,
@@ -729,7 +729,7 @@
           }
         },
         {
-          "COUSUBFP": "44760",
+          "sub_num": "44760",
           "name": "Meddybemps",
           "bbox": {
             "minLon": -67.41074,
@@ -739,7 +739,7 @@
           }
         },
         {
-          "COUSUBFP": "57082",
+          "sub_num": "57082",
           "name": "Passamaquoddy Indian Township",
           "bbox": {
             "minLon": -67.689861,
@@ -749,7 +749,7 @@
           }
         },
         {
-          "COUSUBFP": "85290",
+          "sub_num": "85290",
           "name": "Whitneyville",
           "bbox": {
             "minLon": -67.579595,
@@ -759,7 +759,7 @@
           }
         },
         {
-          "COUSUBFP": "57090",
+          "sub_num": "57090",
           "name": "Passamaquoddy Pleasant Point",
           "bbox": {
             "minLon": -67.075308,
@@ -773,7 +773,7 @@
   },
   {
     "Waldo": {
-      "COUNTYFP": "027",
+      "sub_num": "027",
       "name": "Waldo",
       "bbox": {
         "minLon": -69.506382,
@@ -783,7 +783,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "79480",
+          "sub_num": "79480",
           "name": "Waldo",
           "bbox": {
             "minLon": -69.160011,
@@ -793,7 +793,7 @@
           }
         },
         {
-          "COUSUBFP": "03950",
+          "sub_num": "03950",
           "name": "Belfast",
           "bbox": {
             "minLon": -69.118282,
@@ -803,7 +803,7 @@
           }
         },
         {
-          "COUSUBFP": "09270",
+          "sub_num": "09270",
           "name": "Burnham",
           "bbox": {
             "minLon": -69.477318,
@@ -813,7 +813,7 @@
           }
         },
         {
-          "COUSUBFP": "26280",
+          "sub_num": "26280",
           "name": "Frankfort",
           "bbox": {
             "minLon": -68.992497,
@@ -823,7 +823,7 @@
           }
         },
         {
-          "COUSUBFP": "26420",
+          "sub_num": "26420",
           "name": "Freedom",
           "bbox": {
             "minLon": -69.395987,
@@ -833,7 +833,7 @@
           }
         },
         {
-          "COUSUBFP": "35450",
+          "sub_num": "35450",
           "name": "Jackson",
           "bbox": {
             "minLon": -69.20425,
@@ -843,7 +843,7 @@
           }
         },
         {
-          "COUSUBFP": "39055",
+          "sub_num": "39055",
           "name": "Liberty",
           "bbox": {
             "minLon": -69.394361,
@@ -853,7 +853,7 @@
           }
         },
         {
-          "COUSUBFP": "46475",
+          "sub_num": "46475",
           "name": "Monroe",
           "bbox": {
             "minLon": -69.107699,
@@ -863,7 +863,7 @@
           }
         },
         {
-          "COUSUBFP": "46790",
+          "sub_num": "46790",
           "name": "Montville",
           "bbox": {
             "minLon": -69.35744,
@@ -873,7 +873,7 @@
           }
         },
         {
-          "COUSUBFP": "47245",
+          "sub_num": "47245",
           "name": "Morrill",
           "bbox": {
             "minLon": -69.22222,
@@ -883,7 +883,7 @@
           }
         },
         {
-          "COUSUBFP": "52845",
+          "sub_num": "52845",
           "name": "Northport",
           "bbox": {
             "minLon": -69.082343,
@@ -893,7 +893,7 @@
           }
         },
         {
-          "COUSUBFP": "56450",
+          "sub_num": "56450",
           "name": "Palermo",
           "bbox": {
             "minLon": -69.506382,
@@ -903,7 +903,7 @@
           }
         },
         {
-          "COUSUBFP": "61210",
+          "sub_num": "61210",
           "name": "Prospect",
           "bbox": {
             "minLon": -68.940109,
@@ -913,7 +913,7 @@
           }
         },
         {
-          "COUSUBFP": "66635",
+          "sub_num": "66635",
           "name": "Searsport",
           "bbox": {
             "minLon": -68.982352,
@@ -923,7 +923,7 @@
           }
         },
         {
-          "COUSUBFP": "75525",
+          "sub_num": "75525",
           "name": "Swanville",
           "bbox": {
             "minLon": -69.065436,
@@ -933,7 +933,7 @@
           }
         },
         {
-          "COUSUBFP": "76610",
+          "sub_num": "76610",
           "name": "Thorndike",
           "bbox": {
             "minLon": -69.285952,
@@ -943,7 +943,7 @@
           }
         },
         {
-          "COUSUBFP": "77625",
+          "sub_num": "77625",
           "name": "Troy",
           "bbox": {
             "minLon": -69.327407,
@@ -953,7 +953,7 @@
           }
         },
         {
-          "COUSUBFP": "86760",
+          "sub_num": "86760",
           "name": "Winterport",
           "bbox": {
             "minLon": -69.014167,
@@ -963,7 +963,7 @@
           }
         },
         {
-          "COUSUBFP": "35240",
+          "sub_num": "35240",
           "name": "Islesboro",
           "bbox": {
             "minLon": -69.021484,
@@ -973,7 +973,7 @@
           }
         },
         {
-          "COUSUBFP": "04125",
+          "sub_num": "04125",
           "name": "Belmont",
           "bbox": {
             "minLon": -69.172275,
@@ -983,7 +983,7 @@
           }
         },
         {
-          "COUSUBFP": "07870",
+          "sub_num": "07870",
           "name": "Brooks",
           "bbox": {
             "minLon": -69.178741,
@@ -993,7 +993,7 @@
           }
         },
         {
-          "COUSUBFP": "37585",
+          "sub_num": "37585",
           "name": "Knox",
           "bbox": {
             "minLon": -69.291655,
@@ -1003,7 +1003,7 @@
           }
         },
         {
-          "COUSUBFP": "39755",
+          "sub_num": "39755",
           "name": "Lincolnville",
           "bbox": {
             "minLon": -69.170895,
@@ -1013,7 +1013,7 @@
           }
         },
         {
-          "COUSUBFP": "66565",
+          "sub_num": "66565",
           "name": "Searsmont",
           "bbox": {
             "minLon": -69.268882,
@@ -1023,7 +1023,7 @@
           }
         },
         {
-          "COUSUBFP": "78255",
+          "sub_num": "78255",
           "name": "Unity",
           "bbox": {
             "minLon": -69.41684,
@@ -1033,7 +1033,7 @@
           }
         },
         {
-          "COUSUBFP": "74475",
+          "sub_num": "74475",
           "name": "Stockton Springs",
           "bbox": {
             "minLon": -68.923229,
@@ -1047,7 +1047,7 @@
   },
   {
     "York": {
-      "COUNTYFP": "031",
+      "sub_num": "031",
       "name": "York",
       "bbox": {
         "minLon": -70.989122,
@@ -1057,7 +1057,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "00730",
+          "sub_num": "00730",
           "name": "Alfred",
           "bbox": {
             "minLon": -70.798365,
@@ -1067,7 +1067,7 @@
           }
         },
         {
-          "COUSUBFP": "04860",
+          "sub_num": "04860",
           "name": "Biddeford",
           "bbox": {
             "minLon": -70.565302,
@@ -1077,7 +1077,7 @@
           }
         },
         {
-          "COUSUBFP": "09410",
+          "sub_num": "09410",
           "name": "Buxton",
           "bbox": {
             "minLon": -70.612799,
@@ -1087,7 +1087,7 @@
           }
         },
         {
-          "COUSUBFP": "33665",
+          "sub_num": "33665",
           "name": "Hollis",
           "bbox": {
             "minLon": -70.683571,
@@ -1097,7 +1097,7 @@
           }
         },
         {
-          "COUSUBFP": "37270",
+          "sub_num": "37270",
           "name": "Kittery",
           "bbox": {
             "minLon": -70.775013,
@@ -1107,7 +1107,7 @@
           }
         },
         {
-          "COUSUBFP": "48750",
+          "sub_num": "48750",
           "name": "Newfield",
           "bbox": {
             "minLon": -70.97935,
@@ -1117,7 +1117,7 @@
           }
         },
         {
-          "COUSUBFP": "65725",
+          "sub_num": "65725",
           "name": "Sanford",
           "bbox": {
             "minLon": -70.872075,
@@ -1127,7 +1127,7 @@
           }
         },
         {
-          "COUSUBFP": "80530",
+          "sub_num": "80530",
           "name": "Waterboro",
           "bbox": {
             "minLon": -70.814698,
@@ -1137,7 +1137,7 @@
           }
         },
         {
-          "COUSUBFP": "81475",
+          "sub_num": "81475",
           "name": "Wells",
           "bbox": {
             "minLon": -70.724187,
@@ -1147,7 +1147,7 @@
           }
         },
         {
-          "COUSUBFP": "01605",
+          "sub_num": "01605",
           "name": "Arundel",
           "bbox": {
             "minLon": -70.607252,
@@ -1157,7 +1157,7 @@
           }
         },
         {
-          "COUSUBFP": "14485",
+          "sub_num": "14485",
           "name": "Cornish",
           "bbox": {
             "minLon": -70.852593,
@@ -1167,7 +1167,7 @@
           }
         },
         {
-          "COUSUBFP": "16725",
+          "sub_num": "16725",
           "name": "Dayton",
           "bbox": {
             "minLon": -70.634256,
@@ -1177,7 +1177,7 @@
           }
         },
         {
-          "COUSUBFP": "22955",
+          "sub_num": "22955",
           "name": "Eliot",
           "bbox": {
             "minLon": -70.83361,
@@ -1187,7 +1187,7 @@
           }
         },
         {
-          "COUSUBFP": "39195",
+          "sub_num": "39195",
           "name": "Limerick",
           "bbox": {
             "minLon": -70.839408,
@@ -1197,7 +1197,7 @@
           }
         },
         {
-          "COUSUBFP": "39405",
+          "sub_num": "39405",
           "name": "Limington",
           "bbox": {
             "minLon": -70.776276,
@@ -1207,7 +1207,7 @@
           }
         },
         {
-          "COUSUBFP": "41750",
+          "sub_num": "41750",
           "name": "Lyman",
           "bbox": {
             "minLon": -70.71757,
@@ -1217,7 +1217,7 @@
           }
         },
         {
-          "COUSUBFP": "50325",
+          "sub_num": "50325",
           "name": "North Berwick",
           "bbox": {
             "minLon": -70.857239,
@@ -1227,7 +1227,7 @@
           }
         },
         {
-          "COUSUBFP": "54980",
+          "sub_num": "54980",
           "name": "Ogunquit",
           "bbox": {
             "minLon": -70.651214,
@@ -1237,7 +1237,7 @@
           }
         },
         {
-          "COUSUBFP": "55085",
+          "sub_num": "55085",
           "name": "Old Orchard Beach",
           "bbox": {
             "minLon": -70.42526,
@@ -1247,7 +1247,7 @@
           }
         },
         {
-          "COUSUBFP": "56870",
+          "sub_num": "56870",
           "name": "Parsonsfield",
           "bbox": {
             "minLon": -70.989122,
@@ -1257,7 +1257,7 @@
           }
         },
         {
-          "COUSUBFP": "70030",
+          "sub_num": "70030",
           "name": "South Berwick",
           "bbox": {
             "minLon": -70.828298,
@@ -1267,7 +1267,7 @@
           }
         },
         {
-          "COUSUBFP": "36745",
+          "sub_num": "36745",
           "name": "Kennebunkport",
           "bbox": {
             "minLon": -70.492858,
@@ -1277,7 +1277,7 @@
           }
         },
         {
-          "COUSUBFP": "38425",
+          "sub_num": "38425",
           "name": "Lebanon",
           "bbox": {
             "minLon": -70.987912,
@@ -1287,7 +1287,7 @@
           }
         },
         {
-          "COUSUBFP": "00275",
+          "sub_num": "00275",
           "name": "Acton",
           "bbox": {
             "minLon": -70.975157,
@@ -1297,7 +1297,7 @@
           }
         },
         {
-          "COUSUBFP": "04720",
+          "sub_num": "04720",
           "name": "Berwick",
           "bbox": {
             "minLon": -70.925043,
@@ -1307,7 +1307,7 @@
           }
         },
         {
-          "COUSUBFP": "36535",
+          "sub_num": "36535",
           "name": "Kennebunk",
           "bbox": {
             "minLon": -70.670102,
@@ -1317,7 +1317,7 @@
           }
         },
         {
-          "COUSUBFP": "67475",
+          "sub_num": "67475",
           "name": "Shapleigh",
           "bbox": {
             "minLon": -70.908454,
@@ -1327,7 +1327,7 @@
           }
         },
         {
-          "COUSUBFP": "87985",
+          "sub_num": "87985",
           "name": "York",
           "bbox": {
             "minLon": -70.757427,
@@ -1337,7 +1337,7 @@
           }
         },
         {
-          "COUSUBFP": "64675",
+          "sub_num": "64675",
           "name": "Saco",
           "bbox": {
             "minLon": -70.547651,
@@ -1351,7 +1351,7 @@
   },
   {
     "Penobscot": {
-      "COUNTYFP": "019",
+      "sub_num": "019",
       "name": "Penobscot",
       "bbox": {
         "minLon": -69.355667,
@@ -1361,7 +1361,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "01115",
+          "sub_num": "01115",
           "name": "Alton",
           "bbox": {
             "minLon": -68.842312,
@@ -1371,7 +1371,7 @@
           }
         },
         {
-          "COUSUBFP": "14380",
+          "sub_num": "14380",
           "name": "Corinth",
           "bbox": {
             "minLon": -69.086231,
@@ -1381,7 +1381,7 @@
           }
         },
         {
-          "COUSUBFP": "34365",
+          "sub_num": "34365",
           "name": "Hudson",
           "bbox": {
             "minLon": -68.958227,
@@ -1391,7 +1391,7 @@
           }
         },
         {
-          "COUSUBFP": "44340",
+          "sub_num": "44340",
           "name": "Maxfield",
           "bbox": {
             "minLon": -68.800906,
@@ -1401,7 +1401,7 @@
           }
         },
         {
-          "COUSUBFP": "45670",
+          "sub_num": "45670",
           "name": "Milford",
           "bbox": {
             "minLon": -68.649165,
@@ -1411,7 +1411,7 @@
           }
         },
         {
-          "COUSUBFP": "55225",
+          "sub_num": "55225",
           "name": "Old Town",
           "bbox": {
             "minLon": -68.813099,
@@ -1421,7 +1421,7 @@
           }
         },
         {
-          "COUSUBFP": "57150",
+          "sub_num": "57150",
           "name": "Patten",
           "bbox": {
             "minLon": -68.559281,
@@ -1431,7 +1431,7 @@
           }
         },
         {
-          "COUSUBFP": "57936",
+          "sub_num": "57936",
           "name": "Penobscot Indian Island",
           "bbox": {
             "minLon": -68.696838,
@@ -1441,7 +1441,7 @@
           }
         },
         {
-          "COUSUBFP": "01500",
+          "sub_num": "01500",
           "name": "Argyle",
           "bbox": {
             "minLon": -68.773421,
@@ -1451,7 +1451,7 @@
           }
         },
         {
-          "COUSUBFP": "06925",
+          "sub_num": "06925",
           "name": "Brewer",
           "bbox": {
             "minLon": -68.787546,
@@ -1461,7 +1461,7 @@
           }
         },
         {
-          "COUSUBFP": "09200",
+          "sub_num": "09200",
           "name": "Burlington",
           "bbox": {
             "minLon": -68.46529,
@@ -1471,7 +1471,7 @@
           }
         },
         {
-          "COUSUBFP": "10810",
+          "sub_num": "10810",
           "name": "Carroll",
           "bbox": {
             "minLon": -68.115647,
@@ -1481,7 +1481,7 @@
           }
         },
         {
-          "COUSUBFP": "12105",
+          "sub_num": "12105",
           "name": "Charleston",
           "bbox": {
             "minLon": -69.109443,
@@ -1491,7 +1491,7 @@
           }
         },
         {
-          "COUSUBFP": "74055",
+          "sub_num": "74055",
           "name": "Stetson",
           "bbox": {
             "minLon": -69.183531,
@@ -1501,7 +1501,7 @@
           }
         },
         {
-          "COUSUBFP": "55680",
+          "sub_num": "55680",
           "name": "Orrington",
           "bbox": {
             "minLon": -68.840863,
@@ -1511,7 +1511,7 @@
           }
         },
         {
-          "COUSUBFP": "78015",
+          "sub_num": "78015",
           "name": "Twombly Ridge",
           "bbox": {
             "minLon": -68.34107,
@@ -1521,7 +1521,7 @@
           }
         },
         {
-          "COUSUBFP": "78780",
+          "sub_num": "78780",
           "name": "Veazie",
           "bbox": {
             "minLon": -68.730812,
@@ -1531,7 +1531,7 @@
           }
         },
         {
-          "COUSUBFP": "24110",
+          "sub_num": "24110",
           "name": "Exeter",
           "bbox": {
             "minLon": -69.20852,
@@ -1541,7 +1541,7 @@
           }
         },
         {
-          "COUSUBFP": "73250",
+          "sub_num": "73250",
           "name": "Springfield",
           "bbox": {
             "minLon": -68.241319,
@@ -1551,7 +1551,7 @@
           }
         },
         {
-          "COUSUBFP": "85230",
+          "sub_num": "85230",
           "name": "Whitney",
           "bbox": {
             "minLon": -68.026994,
@@ -1561,7 +1561,7 @@
           }
         },
         {
-          "COUSUBFP": "19868",
+          "sub_num": "19868",
           "name": "East Central Penobscot",
           "bbox": {
             "minLon": -68.542761,
@@ -1571,7 +1571,7 @@
           }
         },
         {
-          "COUSUBFP": "17950",
+          "sub_num": "17950",
           "name": "Dixmont",
           "bbox": {
             "minLon": -69.2052,
@@ -1581,7 +1581,7 @@
           }
         },
         {
-          "COUSUBFP": "37760",
+          "sub_num": "37760",
           "name": "Lagrange",
           "bbox": {
             "minLon": -68.880923,
@@ -1591,7 +1591,7 @@
           }
         },
         {
-          "COUSUBFP": "36325",
+          "sub_num": "36325",
           "name": "Kenduskeag",
           "bbox": {
             "minLon": -68.979032,
@@ -1601,7 +1601,7 @@
           }
         },
         {
-          "COUSUBFP": "38705",
+          "sub_num": "38705",
           "name": "Levant",
           "bbox": {
             "minLon": -69.062387,
@@ -1611,7 +1611,7 @@
           }
         },
         {
-          "COUSUBFP": "39475",
+          "sub_num": "39475",
           "name": "Lincoln",
           "bbox": {
             "minLon": -68.600305,
@@ -1621,7 +1621,7 @@
           }
         },
         {
-          "COUSUBFP": "41435",
+          "sub_num": "41435",
           "name": "Lowell",
           "bbox": {
             "minLon": -68.551054,
@@ -1631,7 +1631,7 @@
           }
         },
         {
-          "COUSUBFP": "02795",
+          "sub_num": "02795",
           "name": "Bangor",
           "bbox": {
             "minLon": -68.859041,
@@ -1641,7 +1641,7 @@
           }
         },
         {
-          "COUSUBFP": "06575",
+          "sub_num": "06575",
           "name": "Bradford",
           "bbox": {
             "minLon": -68.983599,
@@ -1651,7 +1651,7 @@
           }
         },
         {
-          "COUSUBFP": "06680",
+          "sub_num": "06680",
           "name": "Bradley",
           "bbox": {
             "minLon": -68.671859,
@@ -1661,7 +1661,7 @@
           }
         },
         {
-          "COUSUBFP": "10670",
+          "sub_num": "10670",
           "name": "Carmel",
           "bbox": {
             "minLon": -69.102693,
@@ -1671,7 +1671,7 @@
           }
         },
         {
-          "COUSUBFP": "44270",
+          "sub_num": "44270",
           "name": "Mattawamkeag",
           "bbox": {
             "minLon": -68.410884,
@@ -1681,7 +1681,7 @@
           }
         },
         {
-          "COUSUBFP": "45810",
+          "sub_num": "45810",
           "name": "Millinocket",
           "bbox": {
             "minLon": -68.753257,
@@ -1691,7 +1691,7 @@
           }
         },
         {
-          "COUSUBFP": "48505",
+          "sub_num": "48505",
           "name": "Newburgh",
           "bbox": {
             "minLon": -69.081355,
@@ -1701,7 +1701,7 @@
           }
         },
         {
-          "COUSUBFP": "49065",
+          "sub_num": "49065",
           "name": "Newport",
           "bbox": {
             "minLon": -69.305521,
@@ -1711,7 +1711,7 @@
           }
         },
         {
-          "COUSUBFP": "52710",
+          "sub_num": "52710",
           "name": "North Penobscot",
           "bbox": {
             "minLon": -68.964653,
@@ -1721,7 +1721,7 @@
           }
         },
         {
-          "COUSUBFP": "55565",
+          "sub_num": "55565",
           "name": "Orono",
           "bbox": {
             "minLon": -68.802806,
@@ -1731,7 +1731,7 @@
           }
         },
         {
-          "COUSUBFP": "12525",
+          "sub_num": "12525",
           "name": "Chester",
           "bbox": {
             "minLon": -68.60469,
@@ -1741,7 +1741,7 @@
           }
         },
         {
-          "COUSUBFP": "13365",
+          "sub_num": "13365",
           "name": "Clifton",
           "bbox": {
             "minLon": -68.570506,
@@ -1751,7 +1751,7 @@
           }
         },
         {
-          "COUSUBFP": "14310",
+          "sub_num": "14310",
           "name": "Corinna",
           "bbox": {
             "minLon": -69.330949,
@@ -1761,7 +1761,7 @@
           }
         },
         {
-          "COUSUBFP": "17530",
+          "sub_num": "17530",
           "name": "Dexter",
           "bbox": {
             "minLon": -69.355667,
@@ -1771,7 +1771,7 @@
           }
         },
         {
-          "COUSUBFP": "21030",
+          "sub_num": "21030",
           "name": "East Millinocket",
           "bbox": {
             "minLon": -68.615065,
@@ -1781,7 +1781,7 @@
           }
         },
         {
-          "COUSUBFP": "57045",
+          "sub_num": "57045",
           "name": "Passadumkeag",
           "bbox": {
             "minLon": -68.643758,
@@ -1791,7 +1791,7 @@
           }
         },
         {
-          "COUSUBFP": "59950",
+          "sub_num": "59950",
           "name": "Plymouth",
           "bbox": {
             "minLon": -69.286336,
@@ -1801,7 +1801,7 @@
           }
         },
         {
-          "COUSUBFP": "60790",
+          "sub_num": "60790",
           "name": "Prentiss",
           "bbox": {
             "minLon": -68.143874,
@@ -1811,7 +1811,7 @@
           }
         },
         {
-          "COUSUBFP": "22535",
+          "sub_num": "22535",
           "name": "Eddington",
           "bbox": {
             "minLon": -68.700919,
@@ -1821,7 +1821,7 @@
           }
         },
         {
-          "COUSUBFP": "22710",
+          "sub_num": "22710",
           "name": "Edinburg",
           "bbox": {
             "minLon": -68.75929,
@@ -1831,7 +1831,7 @@
           }
         },
         {
-          "COUSUBFP": "23620",
+          "sub_num": "23620",
           "name": "Enfield",
           "bbox": {
             "minLon": -68.651888,
@@ -1841,7 +1841,7 @@
           }
         },
         {
-          "COUSUBFP": "23865",
+          "sub_num": "23865",
           "name": "Etna",
           "bbox": {
             "minLon": -69.190594,
@@ -1851,7 +1851,7 @@
           }
         },
         {
-          "COUSUBFP": "27190",
+          "sub_num": "27190",
           "name": "Garland",
           "bbox": {
             "minLon": -69.232021,
@@ -1861,7 +1861,7 @@
           }
         },
         {
-          "COUSUBFP": "27645",
+          "sub_num": "27645",
           "name": "Glenburn",
           "bbox": {
             "minLon": -68.920444,
@@ -1871,7 +1871,7 @@
           }
         },
         {
-          "COUSUBFP": "67160",
+          "sub_num": "67160",
           "name": "Seboeis",
           "bbox": {
             "minLon": -68.825425,
@@ -1881,7 +1881,7 @@
           }
         },
         {
-          "COUSUBFP": "73600",
+          "sub_num": "73600",
           "name": "Stacyville",
           "bbox": {
             "minLon": -68.558815,
@@ -1891,7 +1891,7 @@
           }
         },
         {
-          "COUSUBFP": "81055",
+          "sub_num": "81055",
           "name": "Webster",
           "bbox": {
             "minLon": -68.266776,
@@ -1901,7 +1901,7 @@
           }
         },
         {
-          "COUSUBFP": "86305",
+          "sub_num": "86305",
           "name": "Winn",
           "bbox": {
             "minLon": -68.44248,
@@ -1911,7 +1911,7 @@
           }
         },
         {
-          "COUSUBFP": "87390",
+          "sub_num": "87390",
           "name": "Woodville",
           "bbox": {
             "minLon": -68.534508,
@@ -1921,7 +1921,7 @@
           }
         },
         {
-          "COUSUBFP": "29185",
+          "sub_num": "29185",
           "name": "Greenbush",
           "bbox": {
             "minLon": -68.660672,
@@ -1931,7 +1931,7 @@
           }
         },
         {
-          "COUSUBFP": "30795",
+          "sub_num": "30795",
           "name": "Hampden",
           "bbox": {
             "minLon": -68.965192,
@@ -1941,7 +1941,7 @@
           }
         },
         {
-          "COUSUBFP": "32510",
+          "sub_num": "32510",
           "name": "Hermon",
           "bbox": {
             "minLon": -68.983105,
@@ -1951,7 +1951,7 @@
           }
         },
         {
-          "COUSUBFP": "33490",
+          "sub_num": "33490",
           "name": "Holden",
           "bbox": {
             "minLon": -68.735138,
@@ -1961,7 +1961,7 @@
           }
         },
         {
-          "COUSUBFP": "34190",
+          "sub_num": "34190",
           "name": "Howland",
           "bbox": {
             "minLon": -68.776061,
@@ -1971,7 +1971,7 @@
           }
         },
         {
-          "COUSUBFP": "37075",
+          "sub_num": "37075",
           "name": "Kingman",
           "bbox": {
             "minLon": -68.260136,
@@ -1981,7 +1981,7 @@
           }
         },
         {
-          "COUSUBFP": "38005",
+          "sub_num": "38005",
           "name": "Lakeville",
           "bbox": {
             "minLon": -68.212799,
@@ -1991,7 +1991,7 @@
           }
         },
         {
-          "COUSUBFP": "45005",
+          "sub_num": "45005",
           "name": "Medway",
           "bbox": {
             "minLon": -68.562901,
@@ -2001,7 +2001,7 @@
           }
         },
         {
-          "COUSUBFP": "47560",
+          "sub_num": "47560",
           "name": "Mount Chase",
           "bbox": {
             "minLon": -68.563567,
@@ -2011,7 +2011,7 @@
           }
         },
         {
-          "COUSUBFP": "38530",
+          "sub_num": "38530",
           "name": "Lee",
           "bbox": {
             "minLon": -68.368581,
@@ -2021,7 +2021,7 @@
           }
         },
         {
-          "COUSUBFP": "18582",
+          "sub_num": "18582",
           "name": "Drew",
           "bbox": {
             "minLon": -68.180354,
@@ -2035,7 +2035,7 @@
   },
   {
     "Kennebec": {
-      "COUNTYFP": "011",
+      "sub_num": "011",
       "name": "Kennebec",
       "bbox": {
         "minLon": -70.132741,
@@ -2045,7 +2045,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "68385",
+          "sub_num": "68385",
           "name": "Sidney",
           "bbox": {
             "minLon": -69.832129,
@@ -2055,7 +2055,7 @@
           }
         },
         {
-          "COUSUBFP": "04475",
+          "sub_num": "04475",
           "name": "Benton",
           "bbox": {
             "minLon": -69.605746,
@@ -2065,7 +2065,7 @@
           }
         },
         {
-          "COUSUBFP": "61700",
+          "sub_num": "61700",
           "name": "Randolph",
           "bbox": {
             "minLon": -69.77039,
@@ -2075,7 +2075,7 @@
           }
         },
         {
-          "COUSUBFP": "80880",
+          "sub_num": "80880",
           "name": "Wayne",
           "bbox": {
             "minLon": -70.132741,
@@ -2085,7 +2085,7 @@
           }
         },
         {
-          "COUSUBFP": "00590",
+          "sub_num": "00590",
           "name": "Albion",
           "bbox": {
             "minLon": -69.515325,
@@ -2095,7 +2095,7 @@
           }
         },
         {
-          "COUSUBFP": "04020",
+          "sub_num": "04020",
           "name": "Belgrade",
           "bbox": {
             "minLon": -69.915359,
@@ -2105,7 +2105,7 @@
           }
         },
         {
-          "COUSUBFP": "02100",
+          "sub_num": "02100",
           "name": "Augusta",
           "bbox": {
             "minLon": -69.834234,
@@ -2115,7 +2115,7 @@
           }
         },
         {
-          "COUSUBFP": "12350",
+          "sub_num": "12350",
           "name": "Chelsea",
           "bbox": {
             "minLon": -69.789519,
@@ -2125,7 +2125,7 @@
           }
         },
         {
-          "COUSUBFP": "12735",
+          "sub_num": "12735",
           "name": "China",
           "bbox": {
             "minLon": -69.617717,
@@ -2135,7 +2135,7 @@
           }
         },
         {
-          "COUSUBFP": "13470",
+          "sub_num": "13470",
           "name": "Clinton",
           "bbox": {
             "minLon": -69.633118,
@@ -2145,7 +2145,7 @@
           }
         },
         {
-          "COUSUBFP": "24670",
+          "sub_num": "24670",
           "name": "Farmingdale",
           "bbox": {
             "minLon": -69.877416,
@@ -2155,7 +2155,7 @@
           }
         },
         {
-          "COUSUBFP": "24950",
+          "sub_num": "24950",
           "name": "Fayette",
           "bbox": {
             "minLon": -70.12939,
@@ -2165,7 +2165,7 @@
           }
         },
         {
-          "COUSUBFP": "27085",
+          "sub_num": "27085",
           "name": "Gardiner",
           "bbox": {
             "minLon": -69.854983,
@@ -2175,7 +2175,7 @@
           }
         },
         {
-          "COUSUBFP": "30550",
+          "sub_num": "30550",
           "name": "Hallowell",
           "bbox": {
             "minLon": -69.85247,
@@ -2185,7 +2185,7 @@
           }
         },
         {
-          "COUSUBFP": "43080",
+          "sub_num": "43080",
           "name": "Manchester",
           "bbox": {
             "minLon": -69.91072,
@@ -2195,7 +2195,7 @@
           }
         },
         {
-          "COUSUBFP": "46405",
+          "sub_num": "46405",
           "name": "Monmouth",
           "bbox": {
             "minLon": -70.075747,
@@ -2205,7 +2205,7 @@
           }
         },
         {
-          "COUSUBFP": "54560",
+          "sub_num": "54560",
           "name": "Oakland",
           "bbox": {
             "minLon": -69.792813,
@@ -2215,7 +2215,7 @@
           }
         },
         {
-          "COUSUBFP": "59110",
+          "sub_num": "59110",
           "name": "Pittston",
           "bbox": {
             "minLon": -69.764103,
@@ -2225,7 +2225,7 @@
           }
         },
         {
-          "COUSUBFP": "63835",
+          "sub_num": "63835",
           "name": "Rome",
           "bbox": {
             "minLon": -69.947541,
@@ -2235,7 +2235,7 @@
           }
         },
         {
-          "COUSUBFP": "78190",
+          "sub_num": "78190",
           "name": "Unity",
           "bbox": {
             "minLon": -69.464187,
@@ -2245,7 +2245,7 @@
           }
         },
         {
-          "COUSUBFP": "78745",
+          "sub_num": "78745",
           "name": "Vassalboro",
           "bbox": {
             "minLon": -69.729776,
@@ -2255,7 +2255,7 @@
           }
         },
         {
-          "COUSUBFP": "79025",
+          "sub_num": "79025",
           "name": "Vienna",
           "bbox": {
             "minLon": -70.072527,
@@ -2265,7 +2265,7 @@
           }
         },
         {
-          "COUSUBFP": "80740",
+          "sub_num": "80740",
           "name": "Waterville",
           "bbox": {
             "minLon": -69.719882,
@@ -2275,7 +2275,7 @@
           }
         },
         {
-          "COUSUBFP": "86165",
+          "sub_num": "86165",
           "name": "Windsor",
           "bbox": {
             "minLon": -69.650171,
@@ -2285,7 +2285,7 @@
           }
         },
         {
-          "COUSUBFP": "86515",
+          "sub_num": "86515",
           "name": "Winslow",
           "bbox": {
             "minLon": -69.676566,
@@ -2295,7 +2295,7 @@
           }
         },
         {
-          "COUSUBFP": "86970",
+          "sub_num": "86970",
           "name": "Winthrop",
           "bbox": {
             "minLon": -70.045934,
@@ -2305,7 +2305,7 @@
           }
         },
         {
-          "COUSUBFP": "62190",
+          "sub_num": "62190",
           "name": "Readfield",
           "bbox": {
             "minLon": -70.025609,
@@ -2315,7 +2315,7 @@
           }
         },
         {
-          "COUSUBFP": "82945",
+          "sub_num": "82945",
           "name": "West Gardiner",
           "bbox": {
             "minLon": -69.947191,
@@ -2325,7 +2325,7 @@
           }
         },
         {
-          "COUSUBFP": "40175",
+          "sub_num": "40175",
           "name": "Litchfield",
           "bbox": {
             "minLon": -70.027386,
@@ -2335,7 +2335,7 @@
           }
         },
         {
-          "COUSUBFP": "47770",
+          "sub_num": "47770",
           "name": "Mount Vernon",
           "bbox": {
             "minLon": -70.046415,
@@ -2349,7 +2349,7 @@
   },
   {
     "Oxford": {
-      "COUNTYFP": "017",
+      "sub_num": "017",
       "name": "Oxford",
       "bbox": {
         "minLon": -71.083928,
@@ -2359,7 +2359,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "01325",
+          "sub_num": "01325",
           "name": "Andover",
           "bbox": {
             "minLon": -70.860505,
@@ -2369,7 +2369,7 @@
           }
         },
         {
-          "COUSUBFP": "46105",
+          "sub_num": "46105",
           "name": "Milton",
           "bbox": {
             "minLon": -70.660973,
@@ -2379,7 +2379,7 @@
           }
         },
         {
-          "COUSUBFP": "54000",
+          "sub_num": "54000",
           "name": "Norway",
           "bbox": {
             "minLon": -70.708954,
@@ -2389,7 +2389,7 @@
           }
         },
         {
-          "COUSUBFP": "74685",
+          "sub_num": "74685",
           "name": "Stow",
           "bbox": {
             "minLon": -71.009603,
@@ -2399,7 +2399,7 @@
           }
         },
         {
-          "COUSUBFP": "27505",
+          "sub_num": "27505",
           "name": "Gilead",
           "bbox": {
             "minLon": -71.017317,
@@ -2409,7 +2409,7 @@
           }
         },
         {
-          "COUSUBFP": "31670",
+          "sub_num": "31670",
           "name": "Hartford",
           "bbox": {
             "minLon": -70.422006,
@@ -2419,7 +2419,7 @@
           }
         },
         {
-          "COUSUBFP": "33315",
+          "sub_num": "33315",
           "name": "Hiram",
           "bbox": {
             "minLon": -70.894383,
@@ -2429,7 +2429,7 @@
           }
         },
         {
-          "COUSUBFP": "41365",
+          "sub_num": "41365",
           "name": "Lovell",
           "bbox": {
             "minLon": -70.970902,
@@ -2439,7 +2439,7 @@
           }
         },
         {
-          "COUSUBFP": "52575",
+          "sub_num": "52575",
           "name": "North Oxford",
           "bbox": {
             "minLon": -71.083928,
@@ -2449,7 +2449,7 @@
           }
         },
         {
-          "COUSUBFP": "78465",
+          "sub_num": "78465",
           "name": "Upton",
           "bbox": {
             "minLon": -71.039305,
@@ -2459,7 +2459,7 @@
           }
         },
         {
-          "COUSUBFP": "74510",
+          "sub_num": "74510",
           "name": "Stoneham",
           "bbox": {
             "minLon": -70.976451,
@@ -2469,7 +2469,7 @@
           }
         },
         {
-          "COUSUBFP": "08150",
+          "sub_num": "08150",
           "name": "Brownfield",
           "bbox": {
             "minLon": -70.994786,
@@ -2479,7 +2479,7 @@
           }
         },
         {
-          "COUSUBFP": "08710",
+          "sub_num": "08710",
           "name": "Buckfield",
           "bbox": {
             "minLon": -70.459703,
@@ -2489,7 +2489,7 @@
           }
         },
         {
-          "COUSUBFP": "10005",
+          "sub_num": "10005",
           "name": "Canton",
           "bbox": {
             "minLon": -70.360326,
@@ -2499,7 +2499,7 @@
           }
         },
         {
-          "COUSUBFP": "17250",
+          "sub_num": "17250",
           "name": "Denmark",
           "bbox": {
             "minLon": -70.895188,
@@ -2509,7 +2509,7 @@
           }
         },
         {
-          "COUSUBFP": "17740",
+          "sub_num": "17740",
           "name": "Dixfield",
           "bbox": {
             "minLon": -70.473408,
@@ -2519,7 +2519,7 @@
           }
         },
         {
-          "COUSUBFP": "26910",
+          "sub_num": "26910",
           "name": "Fryeburg",
           "bbox": {
             "minLon": -71.002194,
@@ -2529,7 +2529,7 @@
           }
         },
         {
-          "COUSUBFP": "29710",
+          "sub_num": "29710",
           "name": "Greenwood",
           "bbox": {
             "minLon": -70.762749,
@@ -2539,7 +2539,7 @@
           }
         },
         {
-          "COUSUBFP": "31110",
+          "sub_num": "31110",
           "name": "Hanover",
           "bbox": {
             "minLon": -70.788017,
@@ -2549,7 +2549,7 @@
           }
         },
         {
-          "COUSUBFP": "32370",
+          "sub_num": "32370",
           "name": "Hebron",
           "bbox": {
             "minLon": -70.441137,
@@ -2559,7 +2559,7 @@
           }
         },
         {
-          "COUSUBFP": "39422",
+          "sub_num": "39422",
           "name": "Lincoln",
           "bbox": {
             "minLon": -71.058247,
@@ -2569,7 +2569,7 @@
           }
         },
         {
-          "COUSUBFP": "45285",
+          "sub_num": "45285",
           "name": "Mexico",
           "bbox": {
             "minLon": -70.59233,
@@ -2579,7 +2579,7 @@
           }
         },
         {
-          "COUSUBFP": "49275",
+          "sub_num": "49275",
           "name": "Newry",
           "bbox": {
             "minLon": -70.904234,
@@ -2589,7 +2589,7 @@
           }
         },
         {
-          "COUSUBFP": "56310",
+          "sub_num": "56310",
           "name": "Oxford",
           "bbox": {
             "minLon": -70.567279,
@@ -2599,7 +2599,7 @@
           }
         },
         {
-          "COUSUBFP": "58270",
+          "sub_num": "58270",
           "name": "Peru",
           "bbox": {
             "minLon": -70.560616,
@@ -2609,7 +2609,7 @@
           }
         },
         {
-          "COUSUBFP": "60405",
+          "sub_num": "60405",
           "name": "Porter",
           "bbox": {
             "minLon": -70.992277,
@@ -2619,7 +2619,7 @@
           }
         },
         {
-          "COUSUBFP": "64290",
+          "sub_num": "64290",
           "name": "Rumford",
           "bbox": {
             "minLon": -70.732707,
@@ -2629,7 +2629,7 @@
           }
         },
         {
-          "COUSUBFP": "04825",
+          "sub_num": "04825",
           "name": "Bethel",
           "bbox": {
             "minLon": -70.891246,
@@ -2639,7 +2639,7 @@
           }
         },
         {
-          "COUSUBFP": "75595",
+          "sub_num": "75595",
           "name": "Sweden",
           "bbox": {
             "minLon": -70.898766,
@@ -2649,7 +2649,7 @@
           }
         },
         {
-          "COUSUBFP": "80635",
+          "sub_num": "80635",
           "name": "Waterford",
           "bbox": {
             "minLon": -70.815803,
@@ -2659,7 +2659,7 @@
           }
         },
         {
-          "COUSUBFP": "09550",
+          "sub_num": "09550",
           "name": "Byron",
           "bbox": {
             "minLon": -70.769228,
@@ -2669,7 +2669,7 @@
           }
         },
         {
-          "COUSUBFP": "55960",
+          "sub_num": "55960",
           "name": "Otisfield",
           "bbox": {
             "minLon": -70.614102,
@@ -2679,7 +2679,7 @@
           }
         },
         {
-          "COUSUBFP": "75035",
+          "sub_num": "75035",
           "name": "Sumner",
           "bbox": {
             "minLon": -70.525171,
@@ -2689,7 +2689,7 @@
           }
         },
         {
-          "COUSUBFP": "64185",
+          "sub_num": "64185",
           "name": "Roxbury",
           "bbox": {
             "minLon": -70.706441,
@@ -2699,7 +2699,7 @@
           }
         },
         {
-          "COUSUBFP": "83890",
+          "sub_num": "83890",
           "name": "West Paris",
           "bbox": {
             "minLon": -70.602902,
@@ -2709,7 +2709,7 @@
           }
         },
         {
-          "COUSUBFP": "87355",
+          "sub_num": "87355",
           "name": "Woodstock",
           "bbox": {
             "minLon": -70.694244,
@@ -2719,7 +2719,7 @@
           }
         },
         {
-          "COUSUBFP": "71755",
+          "sub_num": "71755",
           "name": "South Oxford",
           "bbox": {
             "minLon": -71.015051,
@@ -2729,7 +2729,7 @@
           }
         },
         {
-          "COUSUBFP": "56625",
+          "sub_num": "56625",
           "name": "Paris",
           "bbox": {
             "minLon": -70.566212,
@@ -2743,7 +2743,7 @@
   },
   {
     "Piscataquis": {
-      "COUNTYFP": "021",
+      "sub_num": "021",
       "name": "Piscataquis",
       "bbox": {
         "minLon": -69.833105,
@@ -2753,7 +2753,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "00100",
+          "sub_num": "00100",
           "name": "Abbot",
           "bbox": {
             "minLon": -69.550596,
@@ -2763,7 +2763,7 @@
           }
         },
         {
-          "COUSUBFP": "06400",
+          "sub_num": "06400",
           "name": "Bowerbank",
           "bbox": {
             "minLon": -69.3312,
@@ -2773,7 +2773,7 @@
           }
         },
         {
-          "COUSUBFP": "08325",
+          "sub_num": "08325",
           "name": "Brownville",
           "bbox": {
             "minLon": -69.082369,
@@ -2783,7 +2783,7 @@
           }
         },
         {
-          "COUSUBFP": "18195",
+          "sub_num": "18195",
           "name": "Dover-Foxcroft",
           "bbox": {
             "minLon": -69.299323,
@@ -2793,7 +2793,7 @@
           }
         },
         {
-          "COUSUBFP": "51105",
+          "sub_num": "51105",
           "name": "Northeast Piscataquis",
           "bbox": {
             "minLon": -69.536875,
@@ -2803,7 +2803,7 @@
           }
         },
         {
-          "COUSUBFP": "53628",
+          "sub_num": "53628",
           "name": "Northwest Piscataquis",
           "bbox": {
             "minLon": -69.833105,
@@ -2813,7 +2813,7 @@
           }
         },
         {
-          "COUSUBFP": "66950",
+          "sub_num": "66950",
           "name": "Sebec",
           "bbox": {
             "minLon": -69.180845,
@@ -2823,7 +2823,7 @@
           }
         },
         {
-          "COUSUBFP": "85710",
+          "sub_num": "85710",
           "name": "Willimantic",
           "bbox": {
             "minLon": -69.454465,
@@ -2833,7 +2833,7 @@
           }
         },
         {
-          "COUSUBFP": "56765",
+          "sub_num": "56765",
           "name": "Parkman",
           "bbox": {
             "minLon": -69.526763,
@@ -2843,7 +2843,7 @@
           }
         },
         {
-          "COUSUBFP": "37095",
+          "sub_num": "37095",
           "name": "Kingsbury",
           "bbox": {
             "minLon": -69.6828,
@@ -2853,7 +2853,7 @@
           }
         },
         {
-          "COUSUBFP": "46020",
+          "sub_num": "46020",
           "name": "Milo",
           "bbox": {
             "minLon": -69.052117,
@@ -2863,7 +2863,7 @@
           }
         },
         {
-          "COUSUBFP": "46580",
+          "sub_num": "46580",
           "name": "Monson",
           "bbox": {
             "minLon": -69.582557,
@@ -2873,7 +2873,7 @@
           }
         },
         {
-          "COUSUBFP": "65865",
+          "sub_num": "65865",
           "name": "Sangerville",
           "bbox": {
             "minLon": -69.381127,
@@ -2883,7 +2883,7 @@
           }
         },
         {
-          "COUSUBFP": "81405",
+          "sub_num": "81405",
           "name": "Wellington",
           "bbox": {
             "minLon": -69.64576,
@@ -2893,7 +2893,7 @@
           }
         },
         {
-          "COUSUBFP": "03740",
+          "sub_num": "03740",
           "name": "Beaver Cove",
           "bbox": {
             "minLon": -69.616789,
@@ -2903,7 +2903,7 @@
           }
         },
         {
-          "COUSUBFP": "44830",
+          "sub_num": "44830",
           "name": "Medford",
           "bbox": {
             "minLon": -68.938085,
@@ -2913,7 +2913,7 @@
           }
         },
         {
-          "COUSUBFP": "70655",
+          "sub_num": "70655",
           "name": "Southeast Piscataquis",
           "bbox": {
             "minLon": -69.132205,
@@ -2923,7 +2923,7 @@
           }
         },
         {
-          "COUSUBFP": "05560",
+          "sub_num": "05560",
           "name": "Blanchard",
           "bbox": {
             "minLon": -69.708324,
@@ -2933,7 +2933,7 @@
           }
         },
         {
-          "COUSUBFP": "29535",
+          "sub_num": "29535",
           "name": "Greenville",
           "bbox": {
             "minLon": -69.62429,
@@ -2943,7 +2943,7 @@
           }
         },
         {
-          "COUSUBFP": "30095",
+          "sub_num": "30095",
           "name": "Guilford",
           "bbox": {
             "minLon": -69.424481,
@@ -2953,7 +2953,7 @@
           }
         },
         {
-          "COUSUBFP": "68140",
+          "sub_num": "68140",
           "name": "Shirley",
           "bbox": {
             "minLon": -69.729215,
@@ -2963,7 +2963,7 @@
           }
         },
         {
-          "COUSUBFP": "37970",
+          "sub_num": "37970",
           "name": "Lake View",
           "bbox": {
             "minLon": -68.967334,
@@ -2977,7 +2977,7 @@
   },
   {
     "Lincoln": {
-      "COUNTYFP": "015",
+      "sub_num": "015",
       "name": "Lincoln",
       "bbox": {
         "minLon": -69.813554,
@@ -2987,7 +2987,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "32715",
+          "sub_num": "32715",
           "name": "Hibberts",
           "bbox": {
             "minLon": -69.451251,
@@ -2997,7 +2997,7 @@
           }
         },
         {
-          "COUSUBFP": "46335",
+          "sub_num": "46335",
           "name": "Monhegan",
           "bbox": {
             "minLon": -69.39721,
@@ -3007,7 +3007,7 @@
           }
         },
         {
-          "COUSUBFP": "01010",
+          "sub_num": "01010",
           "name": "Alna",
           "bbox": {
             "minLon": -69.684662,
@@ -3017,7 +3017,7 @@
           }
         },
         {
-          "COUSUBFP": "06050",
+          "sub_num": "06050",
           "name": "Boothbay",
           "bbox": {
             "minLon": -69.691932,
@@ -3027,7 +3027,7 @@
           }
         },
         {
-          "COUSUBFP": "06120",
+          "sub_num": "06120",
           "name": "Boothbay Harbor",
           "bbox": {
             "minLon": -69.692929,
@@ -3037,7 +3037,7 @@
           }
         },
         {
-          "COUSUBFP": "06855",
+          "sub_num": "06855",
           "name": "Bremen",
           "bbox": {
             "minLon": -69.490855,
@@ -3047,7 +3047,7 @@
           }
         },
         {
-          "COUSUBFP": "07485",
+          "sub_num": "07485",
           "name": "Bristol",
           "bbox": {
             "minLon": -69.547119,
@@ -3057,7 +3057,7 @@
           }
         },
         {
-          "COUSUBFP": "16235",
+          "sub_num": "16235",
           "name": "Damariscotta",
           "bbox": {
             "minLon": -69.54519,
@@ -3067,7 +3067,7 @@
           }
         },
         {
-          "COUSUBFP": "18475",
+          "sub_num": "18475",
           "name": "Dresden",
           "bbox": {
             "minLon": -69.813554,
@@ -3077,7 +3077,7 @@
           }
         },
         {
-          "COUSUBFP": "22675",
+          "sub_num": "22675",
           "name": "Edgecomb",
           "bbox": {
             "minLon": -69.676727,
@@ -3087,7 +3087,7 @@
           }
         },
         {
-          "COUSUBFP": "35695",
+          "sub_num": "35695",
           "name": "Jefferson",
           "bbox": {
             "minLon": -69.591749,
@@ -3097,7 +3097,7 @@
           }
         },
         {
-          "COUSUBFP": "48645",
+          "sub_num": "48645",
           "name": "Newcastle",
           "bbox": {
             "minLon": -69.637826,
@@ -3107,7 +3107,7 @@
           }
         },
         {
-          "COUSUBFP": "49660",
+          "sub_num": "49660",
           "name": "Nobleboro",
           "bbox": {
             "minLon": -69.53198,
@@ -3117,7 +3117,7 @@
           }
         },
         {
-          "COUSUBFP": "69645",
+          "sub_num": "69645",
           "name": "Somerville",
           "bbox": {
             "minLon": -69.528223,
@@ -3127,7 +3127,7 @@
           }
         },
         {
-          "COUSUBFP": "70240",
+          "sub_num": "70240",
           "name": "South Bristol",
           "bbox": {
             "minLon": -69.584921,
@@ -3137,7 +3137,7 @@
           }
         },
         {
-          "COUSUBFP": "71955",
+          "sub_num": "71955",
           "name": "Southport",
           "bbox": {
             "minLon": -69.697878,
@@ -3147,7 +3147,7 @@
           }
         },
         {
-          "COUSUBFP": "84140",
+          "sub_num": "84140",
           "name": "Westport Island",
           "bbox": {
             "minLon": -69.743533,
@@ -3157,7 +3157,7 @@
           }
         },
         {
-          "COUSUBFP": "41280",
+          "sub_num": "41280",
           "name": "Louds Island",
           "bbox": {
             "minLon": -69.451606,
@@ -3167,7 +3167,7 @@
           }
         },
         {
-          "COUSUBFP": "85010",
+          "sub_num": "85010",
           "name": "Whitefield",
           "bbox": {
             "minLon": -69.665441,
@@ -3177,7 +3177,7 @@
           }
         },
         {
-          "COUSUBFP": "87075",
+          "sub_num": "87075",
           "name": "Wiscasset",
           "bbox": {
             "minLon": -69.746329,
@@ -3187,7 +3187,7 @@
           }
         },
         {
-          "COUSUBFP": "79550",
+          "sub_num": "79550",
           "name": "Waldoboro",
           "bbox": {
             "minLon": -69.45017,
@@ -3201,7 +3201,7 @@
   },
   {
     "Cumberland": {
-      "COUNTYFP": "005",
+      "sub_num": "005",
       "name": "Cumberland",
       "bbox": {
         "minLon": -70.866623,
@@ -3211,7 +3211,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "08430",
+          "sub_num": "08430",
           "name": "Brunswick",
           "bbox": {
             "minLon": -70.087892,
@@ -3221,7 +3221,7 @@
           }
         },
         {
-          "COUSUBFP": "11125",
+          "sub_num": "11125",
           "name": "Casco",
           "bbox": {
             "minLon": -70.58068,
@@ -3231,7 +3231,7 @@
           }
         },
         {
-          "COUSUBFP": "26525",
+          "sub_num": "26525",
           "name": "Freeport",
           "bbox": {
             "minLon": -70.17138,
@@ -3241,7 +3241,7 @@
           }
         },
         {
-          "COUSUBFP": "28240",
+          "sub_num": "28240",
           "name": "Gorham",
           "bbox": {
             "minLon": -70.546605,
@@ -3251,7 +3251,7 @@
           }
         },
         {
-          "COUSUBFP": "31390",
+          "sub_num": "31390",
           "name": "Harpswell",
           "bbox": {
             "minLon": -70.070294,
@@ -3261,7 +3261,7 @@
           }
         },
         {
-          "COUSUBFP": "31600",
+          "sub_num": "31600",
           "name": "Harrison",
           "bbox": {
             "minLon": -70.699577,
@@ -3271,7 +3271,7 @@
           }
         },
         {
-          "COUSUBFP": "48085",
+          "sub_num": "48085",
           "name": "Naples",
           "bbox": {
             "minLon": -70.689487,
@@ -3281,7 +3281,7 @@
           }
         },
         {
-          "COUSUBFP": "66775",
+          "sub_num": "66775",
           "name": "Sebago",
           "bbox": {
             "minLon": -70.757934,
@@ -3291,7 +3291,7 @@
           }
         },
         {
-          "COUSUBFP": "73670",
+          "sub_num": "73670",
           "name": "Standish",
           "bbox": {
             "minLon": -70.66823,
@@ -3301,7 +3301,7 @@
           }
         },
         {
-          "COUSUBFP": "87845",
+          "sub_num": "87845",
           "name": "Yarmouth",
           "bbox": {
             "minLon": -70.227751,
@@ -3311,7 +3311,7 @@
           }
         },
         {
-          "COUSUBFP": "15430",
+          "sub_num": "15430",
           "name": "Cumberland",
           "bbox": {
             "minLon": -70.336781,
@@ -3321,7 +3321,7 @@
           }
         },
         {
-          "COUSUBFP": "02655",
+          "sub_num": "02655",
           "name": "Baldwin",
           "bbox": {
             "minLon": -70.801612,
@@ -3331,7 +3331,7 @@
           }
         },
         {
-          "COUSUBFP": "28870",
+          "sub_num": "28870",
           "name": "Gray",
           "bbox": {
             "minLon": -70.445434,
@@ -3341,7 +3341,7 @@
           }
         },
         {
-          "COUSUBFP": "41067",
+          "sub_num": "41067",
           "name": "Long Island",
           "bbox": {
             "minLon": -70.199186,
@@ -3351,7 +3351,7 @@
           }
         },
         {
-          "COUSUBFP": "66145",
+          "sub_num": "66145",
           "name": "Scarborough",
           "bbox": {
             "minLon": -70.492009,
@@ -3361,7 +3361,7 @@
           }
         },
         {
-          "COUSUBFP": "86025",
+          "sub_num": "86025",
           "name": "Windham",
           "bbox": {
             "minLon": -70.486735,
@@ -3371,7 +3371,7 @@
           }
         },
         {
-          "COUSUBFP": "07170",
+          "sub_num": "07170",
           "name": "Bridgton",
           "bbox": {
             "minLon": -70.866623,
@@ -3381,7 +3381,7 @@
           }
         },
         {
-          "COUSUBFP": "10180",
+          "sub_num": "10180",
           "name": "Cape Elizabeth",
           "bbox": {
             "minLon": -70.281078,
@@ -3391,7 +3391,7 @@
           }
         },
         {
-          "COUSUBFP": "24495",
+          "sub_num": "24495",
           "name": "Falmouth",
           "bbox": {
             "minLon": -70.361226,
@@ -3401,7 +3401,7 @@
           }
         },
         {
-          "COUSUBFP": "27025",
+          "sub_num": "27025",
           "name": "Frye Island",
           "bbox": {
             "minLon": -70.534539,
@@ -3411,7 +3411,7 @@
           }
         },
         {
-          "COUSUBFP": "12300",
+          "sub_num": "12300",
           "name": "Chebeague Island",
           "bbox": {
             "minLon": -70.169036,
@@ -3421,7 +3421,7 @@
           }
         },
         {
-          "COUSUBFP": "48820",
+          "sub_num": "48820",
           "name": "New Gloucester",
           "bbox": {
             "minLon": -70.405125,
@@ -3431,7 +3431,7 @@
           }
         },
         {
-          "COUSUBFP": "53860",
+          "sub_num": "53860",
           "name": "North Yarmouth",
           "bbox": {
             "minLon": -70.296382,
@@ -3441,7 +3441,7 @@
           }
         },
         {
-          "COUSUBFP": "60545",
+          "sub_num": "60545",
           "name": "Portland",
           "bbox": {
             "minLon": -70.347399,
@@ -3451,7 +3451,7 @@
           }
         },
         {
-          "COUSUBFP": "60685",
+          "sub_num": "60685",
           "name": "Pownal",
           "bbox": {
             "minLon": -70.248617,
@@ -3461,7 +3461,7 @@
           }
         },
         {
-          "COUSUBFP": "61945",
+          "sub_num": "61945",
           "name": "Raymond",
           "bbox": {
             "minLon": -70.543308,
@@ -3471,7 +3471,7 @@
           }
         },
         {
-          "COUSUBFP": "71990",
+          "sub_num": "71990",
           "name": "South Portland",
           "bbox": {
             "minLon": -70.370545,
@@ -3481,7 +3481,7 @@
           }
         },
         {
-          "COUSUBFP": "82105",
+          "sub_num": "82105",
           "name": "Westbrook",
           "bbox": {
             "minLon": -70.392012,
@@ -3495,7 +3495,7 @@
   },
   {
     "Hancock": {
-      "COUNTYFP": "009",
+      "sub_num": "009",
       "name": "Hancock",
       "bbox": {
         "minLon": -68.896384,
@@ -3505,7 +3505,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "01185",
+          "sub_num": "01185",
           "name": "Amherst",
           "bbox": {
             "minLon": -68.477952,
@@ -3515,7 +3515,7 @@
           }
         },
         {
-          "COUSUBFP": "02165",
+          "sub_num": "02165",
           "name": "Aurora",
           "bbox": {
             "minLon": -68.349291,
@@ -3525,7 +3525,7 @@
           }
         },
         {
-          "COUSUBFP": "43578",
+          "sub_num": "43578",
           "name": "Marshall Island",
           "bbox": {
             "minLon": -68.54205,
@@ -3535,7 +3535,7 @@
           }
         },
         {
-          "COUSUBFP": "55890",
+          "sub_num": "55890",
           "name": "Otis",
           "bbox": {
             "minLon": -68.528542,
@@ -3545,7 +3545,7 @@
           }
         },
         {
-          "COUSUBFP": "80040",
+          "sub_num": "80040",
           "name": "Waltham",
           "bbox": {
             "minLon": -68.400773,
@@ -3555,7 +3555,7 @@
           }
         },
         {
-          "COUSUBFP": "07975",
+          "sub_num": "07975",
           "name": "Brooksville",
           "bbox": {
             "minLon": -68.861201,
@@ -3565,7 +3565,7 @@
           }
         },
         {
-          "COUSUBFP": "11800",
+          "sub_num": "11800",
           "name": "Central Hancock",
           "bbox": {
             "minLon": -68.407128,
@@ -3575,7 +3575,7 @@
           }
         },
         {
-          "COUSUBFP": "17145",
+          "sub_num": "17145",
           "name": "Deer Isle",
           "bbox": {
             "minLon": -68.896384,
@@ -3585,7 +3585,7 @@
           }
         },
         {
-          "COUSUBFP": "30970",
+          "sub_num": "30970",
           "name": "Hancock",
           "bbox": {
             "minLon": -68.396001,
@@ -3595,7 +3595,7 @@
           }
         },
         {
-          "COUSUBFP": "43430",
+          "sub_num": "43430",
           "name": "Mariaville",
           "bbox": {
             "minLon": -68.454889,
@@ -3605,7 +3605,7 @@
           }
         },
         {
-          "COUSUBFP": "53620",
+          "sub_num": "53620",
           "name": "Northwest Hancock",
           "bbox": {
             "minLon": -68.501095,
@@ -3615,7 +3615,7 @@
           }
         },
         {
-          "COUSUBFP": "05700",
+          "sub_num": "05700",
           "name": "Blue Hill",
           "bbox": {
             "minLon": -68.696672,
@@ -3625,7 +3625,7 @@
           }
         },
         {
-          "COUSUBFP": "07800",
+          "sub_num": "07800",
           "name": "Brooklin",
           "bbox": {
             "minLon": -68.632168,
@@ -3635,7 +3635,7 @@
           }
         },
         {
-          "COUSUBFP": "08815",
+          "sub_num": "08815",
           "name": "Bucksport",
           "bbox": {
             "minLon": -68.847533,
@@ -3645,7 +3645,7 @@
           }
         },
         {
-          "COUSUBFP": "11265",
+          "sub_num": "11265",
           "name": "Castine",
           "bbox": {
             "minLon": -68.853523,
@@ -3655,7 +3655,7 @@
           }
         },
         {
-          "COUSUBFP": "14905",
+          "sub_num": "14905",
           "name": "Cranberry Isles",
           "bbox": {
             "minLon": -68.288382,
@@ -3665,7 +3665,7 @@
           }
         },
         {
-          "COUSUBFP": "16935",
+          "sub_num": "16935",
           "name": "Dedham",
           "bbox": {
             "minLon": -68.69093,
@@ -3675,7 +3675,7 @@
           }
         },
         {
-          "COUSUBFP": "19770",
+          "sub_num": "19770",
           "name": "Eastbrook",
           "bbox": {
             "minLon": -68.303433,
@@ -3685,7 +3685,7 @@
           }
         },
         {
-          "COUSUBFP": "23200",
+          "sub_num": "23200",
           "name": "Ellsworth",
           "bbox": {
             "minLon": -68.639764,
@@ -3695,7 +3695,7 @@
           }
         },
         {
-          "COUSUBFP": "26350",
+          "sub_num": "26350",
           "name": "Franklin",
           "bbox": {
             "minLon": -68.312892,
@@ -3705,7 +3705,7 @@
           }
         },
         {
-          "COUSUBFP": "26595",
+          "sub_num": "26595",
           "name": "Frenchboro",
           "bbox": {
             "minLon": -68.494654,
@@ -3715,7 +3715,7 @@
           }
         },
         {
-          "COUSUBFP": "28975",
+          "sub_num": "28975",
           "name": "Great Pond",
           "bbox": {
             "minLon": -68.375892,
@@ -3725,7 +3725,7 @@
           }
         },
         {
-          "COUSUBFP": "38180",
+          "sub_num": "38180",
           "name": "Lamoine",
           "bbox": {
             "minLon": -68.389273,
@@ -3735,7 +3735,7 @@
           }
         },
         {
-          "COUSUBFP": "47630",
+          "sub_num": "47630",
           "name": "Mount Desert",
           "bbox": {
             "minLon": -68.472136,
@@ -3745,7 +3745,7 @@
           }
         },
         {
-          "COUSUBFP": "55505",
+          "sub_num": "55505",
           "name": "Orland",
           "bbox": {
             "minLon": -68.792469,
@@ -3755,7 +3755,7 @@
           }
         },
         {
-          "COUSUBFP": "57920",
+          "sub_num": "57920",
           "name": "Penobscot",
           "bbox": {
             "minLon": -68.800964,
@@ -3765,7 +3765,7 @@
           }
         },
         {
-          "COUSUBFP": "67300",
+          "sub_num": "67300",
           "name": "Sedgwick",
           "bbox": {
             "minLon": -68.704205,
@@ -3775,7 +3775,7 @@
           }
         },
         {
-          "COUSUBFP": "69750",
+          "sub_num": "69750",
           "name": "Sorrento",
           "bbox": {
             "minLon": -68.220543,
@@ -3785,7 +3785,7 @@
           }
         },
         {
-          "COUSUBFP": "72865",
+          "sub_num": "72865",
           "name": "Southwest Harbor",
           "bbox": {
             "minLon": -68.383985,
@@ -3795,7 +3795,7 @@
           }
         },
         {
-          "COUSUBFP": "74580",
+          "sub_num": "74580",
           "name": "Stonington",
           "bbox": {
             "minLon": -68.746207,
@@ -3805,7 +3805,7 @@
           }
         },
         {
-          "COUSUBFP": "75280",
+          "sub_num": "75280",
           "name": "Surry",
           "bbox": {
             "minLon": -68.625524,
@@ -3815,7 +3815,7 @@
           }
         },
         {
-          "COUSUBFP": "75455",
+          "sub_num": "75455",
           "name": "Swans Island",
           "bbox": {
             "minLon": -68.550128,
@@ -3825,7 +3825,7 @@
           }
         },
         {
-          "COUSUBFP": "77345",
+          "sub_num": "77345",
           "name": "Tremont",
           "bbox": {
             "minLon": -68.511484,
@@ -3835,7 +3835,7 @@
           }
         },
         {
-          "COUSUBFP": "77415",
+          "sub_num": "77415",
           "name": "Trenton",
           "bbox": {
             "minLon": -68.44873,
@@ -3845,7 +3845,7 @@
           }
         },
         {
-          "COUSUBFP": "78925",
+          "sub_num": "78925",
           "name": "Verona Island",
           "bbox": {
             "minLon": -68.806222,
@@ -3855,7 +3855,7 @@
           }
         },
         {
-          "COUSUBFP": "86655",
+          "sub_num": "86655",
           "name": "Winter Harbor",
           "bbox": {
             "minLon": -68.166136,
@@ -3865,7 +3865,7 @@
           }
         },
         {
-          "COUSUBFP": "02865",
+          "sub_num": "02865",
           "name": "Bar Harbor",
           "bbox": {
             "minLon": -68.419837,
@@ -3875,7 +3875,7 @@
           }
         },
         {
-          "COUSUBFP": "55855",
+          "sub_num": "55855",
           "name": "Osborn",
           "bbox": {
             "minLon": -68.326227,
@@ -3885,7 +3885,7 @@
           }
         },
         {
-          "COUSUBFP": "74965",
+          "sub_num": "74965",
           "name": "Sullivan",
           "bbox": {
             "minLon": -68.256524,
@@ -3895,7 +3895,7 @@
           }
         },
         {
-          "COUSUBFP": "20405",
+          "sub_num": "20405",
           "name": "East Hancock",
           "bbox": {
             "minLon": -68.396903,
@@ -3905,7 +3905,7 @@
           }
         },
         {
-          "COUSUBFP": "28450",
+          "sub_num": "28450",
           "name": "Gouldsboro",
           "bbox": {
             "minLon": -68.227249,
@@ -3919,7 +3919,7 @@
   },
   {
     "Knox": {
-      "COUNTYFP": "013",
+      "sub_num": "013",
       "name": "Knox",
       "bbox": {
         "minLon": -69.451251,
@@ -3929,7 +3929,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "33840",
+          "sub_num": "33840",
           "name": "Hope",
           "bbox": {
             "minLon": -69.254946,
@@ -3939,7 +3939,7 @@
           }
         },
         {
-          "COUSUBFP": "01465",
+          "sub_num": "01465",
           "name": "Appleton",
           "bbox": {
             "minLon": -69.346616,
@@ -3949,7 +3949,7 @@
           }
         },
         {
-          "COUSUBFP": "26805",
+          "sub_num": "26805",
           "name": "Friendship",
           "bbox": {
             "minLon": -69.398184,
@@ -3959,7 +3959,7 @@
           }
         },
         {
-          "COUSUBFP": "78115",
+          "sub_num": "78115",
           "name": "Union",
           "bbox": {
             "minLon": -69.373755,
@@ -3969,7 +3969,7 @@
           }
         },
         {
-          "COUSUBFP": "35135",
+          "sub_num": "35135",
           "name": "Isle au Haut",
           "bbox": {
             "minLon": -68.741033,
@@ -3979,7 +3979,7 @@
           }
         },
         {
-          "COUSUBFP": "47962",
+          "sub_num": "47962",
           "name": "Muscle Ridge Islands",
           "bbox": {
             "minLon": -69.119619,
@@ -3989,7 +3989,7 @@
           }
         },
         {
-          "COUSUBFP": "51620",
+          "sub_num": "51620",
           "name": "North Haven",
           "bbox": {
             "minLon": -69.070021,
@@ -3999,7 +3999,7 @@
           }
         },
         {
-          "COUSUBFP": "56135",
+          "sub_num": "56135",
           "name": "Owls Head",
           "bbox": {
             "minLon": -69.133475,
@@ -4009,7 +4009,7 @@
           }
         },
         {
-          "COUSUBFP": "63590",
+          "sub_num": "63590",
           "name": "Rockland",
           "bbox": {
             "minLon": -69.185287,
@@ -4019,7 +4019,7 @@
           }
         },
         {
-          "COUSUBFP": "63660",
+          "sub_num": "63660",
           "name": "Rockport",
           "bbox": {
             "minLon": -69.196629,
@@ -4029,7 +4029,7 @@
           }
         },
         {
-          "COUSUBFP": "65130",
+          "sub_num": "65130",
           "name": "St. George",
           "bbox": {
             "minLon": -69.394216,
@@ -4039,7 +4039,7 @@
           }
         },
         {
-          "COUSUBFP": "72585",
+          "sub_num": "72585",
           "name": "South Thomaston",
           "bbox": {
             "minLon": -69.197003,
@@ -4049,7 +4049,7 @@
           }
         },
         {
-          "COUSUBFP": "76365",
+          "sub_num": "76365",
           "name": "Thomaston",
           "bbox": {
             "minLon": -69.219107,
@@ -4059,7 +4059,7 @@
           }
         },
         {
-          "COUSUBFP": "79130",
+          "sub_num": "79130",
           "name": "Vinalhaven",
           "bbox": {
             "minLon": -68.987013,
@@ -4069,7 +4069,7 @@
           }
         },
         {
-          "COUSUBFP": "80215",
+          "sub_num": "80215",
           "name": "Warren",
           "bbox": {
             "minLon": -69.321529,
@@ -4079,7 +4079,7 @@
           }
         },
         {
-          "COUSUBFP": "44165",
+          "sub_num": "44165",
           "name": "Matinicus Isle",
           "bbox": {
             "minLon": -69.236554,
@@ -4089,7 +4089,7 @@
           }
         },
         {
-          "COUSUBFP": "80425",
+          "sub_num": "80425",
           "name": "Washington",
           "bbox": {
             "minLon": -69.451251,
@@ -4099,7 +4099,7 @@
           }
         },
         {
-          "COUSUBFP": "15125",
+          "sub_num": "15125",
           "name": "Criehaven",
           "bbox": {
             "minLon": -68.949774,
@@ -4109,7 +4109,7 @@
           }
         },
         {
-          "COUSUBFP": "15780",
+          "sub_num": "15780",
           "name": "Cushing",
           "bbox": {
             "minLon": -69.323856,
@@ -4119,7 +4119,7 @@
           }
         },
         {
-          "COUSUBFP": "09725",
+          "sub_num": "09725",
           "name": "Camden",
           "bbox": {
             "minLon": -69.165437,
@@ -4133,7 +4133,7 @@
   },
   {
     "Franklin": {
-      "COUNTYFP": "007",
+      "sub_num": "007",
       "name": "Franklin",
       "bbox": {
         "minLon": -70.835709,
@@ -4143,7 +4143,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "10740",
+          "sub_num": "10740",
           "name": "Carrabassett Valley",
           "bbox": {
             "minLon": -70.405919,
@@ -4153,7 +4153,7 @@
           }
         },
         {
-          "COUSUBFP": "82235",
+          "sub_num": "82235",
           "name": "West Central Franklin",
           "bbox": {
             "minLon": -70.773901,
@@ -4163,7 +4163,7 @@
           }
         },
         {
-          "COUSUBFP": "34820",
+          "sub_num": "34820",
           "name": "Industry",
           "bbox": {
             "minLon": -70.115787,
@@ -4173,7 +4173,7 @@
           }
         },
         {
-          "COUSUBFP": "02235",
+          "sub_num": "02235",
           "name": "Avon",
           "bbox": {
             "minLon": -70.396471,
@@ -4183,7 +4183,7 @@
           }
         },
         {
-          "COUSUBFP": "16165",
+          "sub_num": "16165",
           "name": "Dallas",
           "bbox": {
             "minLon": -70.649823,
@@ -4193,7 +4193,7 @@
           }
         },
         {
-          "COUSUBFP": "19865",
+          "sub_num": "19865",
           "name": "East Central Franklin",
           "bbox": {
             "minLon": -70.521502,
@@ -4203,7 +4203,7 @@
           }
         },
         {
-          "COUSUBFP": "24005",
+          "sub_num": "24005",
           "name": "Eustis",
           "bbox": {
             "minLon": -70.566381,
@@ -4213,7 +4213,7 @@
           }
         },
         {
-          "COUSUBFP": "24775",
+          "sub_num": "24775",
           "name": "Farmington",
           "bbox": {
             "minLon": -70.229363,
@@ -4223,7 +4223,7 @@
           }
         },
         {
-          "COUSUBFP": "35625",
+          "sub_num": "35625",
           "name": "Jay",
           "bbox": {
             "minLon": -70.307659,
@@ -4233,7 +4233,7 @@
           }
         },
         {
-          "COUSUBFP": "49345",
+          "sub_num": "49345",
           "name": "New Sharon",
           "bbox": {
             "minLon": -70.087361,
@@ -4243,7 +4243,7 @@
           }
         },
         {
-          "COUSUBFP": "49520",
+          "sub_num": "49520",
           "name": "New Vineyard",
           "bbox": {
             "minLon": -70.184266,
@@ -4253,7 +4253,7 @@
           }
         },
         {
-          "COUSUBFP": "61875",
+          "sub_num": "61875",
           "name": "Rangeley",
           "bbox": {
             "minLon": -70.795286,
@@ -4263,7 +4263,7 @@
           }
         },
         {
-          "COUSUBFP": "74825",
+          "sub_num": "74825",
           "name": "Strong",
           "bbox": {
             "minLon": -70.264397,
@@ -4273,7 +4273,7 @@
           }
         },
         {
-          "COUSUBFP": "81300",
+          "sub_num": "81300",
           "name": "Weld",
           "bbox": {
             "minLon": -70.563799,
@@ -4283,7 +4283,7 @@
           }
         },
         {
-          "COUSUBFP": "85850",
+          "sub_num": "85850",
           "name": "Wilton",
           "bbox": {
             "minLon": -70.34758,
@@ -4293,7 +4293,7 @@
           }
         },
         {
-          "COUSUBFP": "87680",
+          "sub_num": "87680",
           "name": "Wyman",
           "bbox": {
             "minLon": -70.418519,
@@ -4303,7 +4303,7 @@
           }
         },
         {
-          "COUSUBFP": "75980",
+          "sub_num": "75980",
           "name": "Temple",
           "bbox": {
             "minLon": -70.355929,
@@ -4313,7 +4313,7 @@
           }
         },
         {
-          "COUSUBFP": "14205",
+          "sub_num": "14205",
           "name": "Coplin",
           "bbox": {
             "minLon": -70.541044,
@@ -4323,7 +4323,7 @@
           }
         },
         {
-          "COUSUBFP": "61840",
+          "sub_num": "61840",
           "name": "Rangeley",
           "bbox": {
             "minLon": -70.823634,
@@ -4333,7 +4333,7 @@
           }
         },
         {
-          "COUSUBFP": "58445",
+          "sub_num": "58445",
           "name": "Phillips",
           "bbox": {
             "minLon": -70.485273,
@@ -4343,7 +4343,7 @@
           }
         },
         {
-          "COUSUBFP": "70760",
+          "sub_num": "70760",
           "name": "South Franklin",
           "bbox": {
             "minLon": -70.398034,
@@ -4353,7 +4353,7 @@
           }
         },
         {
-          "COUSUBFP": "51400",
+          "sub_num": "51400",
           "name": "North Franklin",
           "bbox": {
             "minLon": -70.835709,
@@ -4363,7 +4363,7 @@
           }
         },
         {
-          "COUSUBFP": "65655",
+          "sub_num": "65655",
           "name": "Sandy River",
           "bbox": {
             "minLon": -70.628227,
@@ -4373,7 +4373,7 @@
           }
         },
         {
-          "COUSUBFP": "12595",
+          "sub_num": "12595",
           "name": "Chesterville",
           "bbox": {
             "minLon": -70.152481,
@@ -4383,7 +4383,7 @@
           }
         },
         {
-          "COUSUBFP": "37025",
+          "sub_num": "37025",
           "name": "Kingfield",
           "bbox": {
             "minLon": -70.271626,
@@ -4393,7 +4393,7 @@
           }
         },
         {
-          "COUSUBFP": "10915",
+          "sub_num": "10915",
           "name": "Carthage",
           "bbox": {
             "minLon": -70.549985,
@@ -4407,7 +4407,7 @@
   },
   {
     "Aroostook": {
-      "COUNTYFP": "003",
+      "sub_num": "003",
       "name": "Aroostook",
       "bbox": {
         "minLon": -70.023187,
@@ -4417,7 +4417,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "57936",
+          "sub_num": "57936",
           "name": "Penobscot Indian Island",
           "bbox": {
             "minLon": -68.433028,
@@ -4427,7 +4427,7 @@
           }
         },
         {
-          "COUSUBFP": "26735",
+          "sub_num": "26735",
           "name": "Frenchville",
           "bbox": {
             "minLon": -68.482149,
@@ -4437,7 +4437,7 @@
           }
         },
         {
-          "COUSUBFP": "27855",
+          "sub_num": "27855",
           "name": "Glenwood",
           "bbox": {
             "minLon": -68.166626,
@@ -4447,7 +4447,7 @@
           }
         },
         {
-          "COUSUBFP": "30725",
+          "sub_num": "30725",
           "name": "Hammond",
           "bbox": {
             "minLon": -68.04044,
@@ -4457,7 +4457,7 @@
           }
         },
         {
-          "COUSUBFP": "32195",
+          "sub_num": "32195",
           "name": "Haynesville",
           "bbox": {
             "minLon": -68.034555,
@@ -4467,7 +4467,7 @@
           }
         },
         {
-          "COUSUBFP": "32685",
+          "sub_num": "32685",
           "name": "Hersey",
           "bbox": {
             "minLon": -68.436959,
@@ -4477,7 +4477,7 @@
           }
         },
         {
-          "COUSUBFP": "79865",
+          "sub_num": "79865",
           "name": "Wallagrass",
           "bbox": {
             "minLon": -68.697905,
@@ -4487,7 +4487,7 @@
           }
         },
         {
-          "COUSUBFP": "80285",
+          "sub_num": "80285",
           "name": "Washburn",
           "bbox": {
             "minLon": -68.177298,
@@ -4497,7 +4497,7 @@
           }
         },
         {
-          "COUSUBFP": "83540",
+          "sub_num": "83540",
           "name": "Westmanland",
           "bbox": {
             "minLon": -68.301975,
@@ -4507,7 +4507,7 @@
           }
         },
         {
-          "COUSUBFP": "83785",
+          "sub_num": "83785",
           "name": "Weston",
           "bbox": {
             "minLon": -67.938706,
@@ -4517,7 +4517,7 @@
           }
         },
         {
-          "COUSUBFP": "87215",
+          "sub_num": "87215",
           "name": "Woodland",
           "bbox": {
             "minLon": -68.178696,
@@ -4527,7 +4527,7 @@
           }
         },
         {
-          "COUSUBFP": "11335",
+          "sub_num": "11335",
           "name": "Caswell",
           "bbox": {
             "minLon": -67.931152,
@@ -4537,7 +4537,7 @@
           }
         },
         {
-          "COUSUBFP": "25755",
+          "sub_num": "25755",
           "name": "Fort Kent",
           "bbox": {
             "minLon": -68.698008,
@@ -4547,7 +4547,7 @@
           }
         },
         {
-          "COUSUBFP": "33385",
+          "sub_num": "33385",
           "name": "Hodgdon",
           "bbox": {
             "minLon": -67.911812,
@@ -4557,7 +4557,7 @@
           }
         },
         {
-          "COUSUBFP": "35065",
+          "sub_num": "35065",
           "name": "Island Falls",
           "bbox": {
             "minLon": -68.299839,
@@ -4567,7 +4567,7 @@
           }
         },
         {
-          "COUSUBFP": "33980",
+          "sub_num": "33980",
           "name": "Houlton",
           "bbox": {
             "minLon": -67.90656,
@@ -4577,7 +4577,7 @@
           }
         },
         {
-          "COUSUBFP": "39300",
+          "sub_num": "39300",
           "name": "Limestone",
           "bbox": {
             "minLon": -67.929276,
@@ -4587,7 +4587,7 @@
           }
         },
         {
-          "COUSUBFP": "39965",
+          "sub_num": "39965",
           "name": "Linneus",
           "bbox": {
             "minLon": -68.040052,
@@ -4597,7 +4597,7 @@
           }
         },
         {
-          "COUSUBFP": "40595",
+          "sub_num": "40595",
           "name": "Littleton",
           "bbox": {
             "minLon": -67.908357,
@@ -4607,7 +4607,7 @@
           }
         },
         {
-          "COUSUBFP": "42450",
+          "sub_num": "42450",
           "name": "Macwahoc",
           "bbox": {
             "minLon": -68.300814,
@@ -4617,7 +4617,7 @@
           }
         },
         {
-          "COUSUBFP": "42520",
+          "sub_num": "42520",
           "name": "Madawaska",
           "bbox": {
             "minLon": -68.360984,
@@ -4627,7 +4627,7 @@
           }
         },
         {
-          "COUSUBFP": "00800",
+          "sub_num": "00800",
           "name": "Allagash",
           "bbox": {
             "minLon": -69.212145,
@@ -4637,7 +4637,7 @@
           }
         },
         {
-          "COUSUBFP": "01220",
+          "sub_num": "01220",
           "name": "Amity",
           "bbox": {
             "minLon": -67.914048,
@@ -4647,7 +4647,7 @@
           }
         },
         {
-          "COUSUBFP": "01710",
+          "sub_num": "01710",
           "name": "Ashland",
           "bbox": {
             "minLon": -68.440131,
@@ -4657,7 +4657,7 @@
           }
         },
         {
-          "COUSUBFP": "43255",
+          "sub_num": "43255",
           "name": "Mapleton",
           "bbox": {
             "minLon": -68.175361,
@@ -4667,7 +4667,7 @@
           }
         },
         {
-          "COUSUBFP": "43710",
+          "sub_num": "43710",
           "name": "Mars Hill",
           "bbox": {
             "minLon": -67.908946,
@@ -4677,7 +4677,7 @@
           }
         },
         {
-          "COUSUBFP": "46685",
+          "sub_num": "46685",
           "name": "Monticello",
           "bbox": {
             "minLon": -67.908905,
@@ -4687,7 +4687,7 @@
           }
         },
         {
-          "COUSUBFP": "47175",
+          "sub_num": "47175",
           "name": "Moro",
           "bbox": {
             "minLon": -68.437415,
@@ -4697,7 +4697,7 @@
           }
         },
         {
-          "COUSUBFP": "05385",
+          "sub_num": "05385",
           "name": "Blaine",
           "bbox": {
             "minLon": -67.914879,
@@ -4707,7 +4707,7 @@
           }
         },
         {
-          "COUSUBFP": "07065",
+          "sub_num": "07065",
           "name": "Bridgewater",
           "bbox": {
             "minLon": -67.912657,
@@ -4717,7 +4717,7 @@
           }
         },
         {
-          "COUSUBFP": "10565",
+          "sub_num": "10565",
           "name": "Caribou",
           "bbox": {
             "minLon": -68.062881,
@@ -4727,7 +4727,7 @@
           }
         },
         {
-          "COUSUBFP": "11785",
+          "sub_num": "11785",
           "name": "Central Aroostook",
           "bbox": {
             "minLon": -68.567869,
@@ -4737,7 +4737,7 @@
           }
         },
         {
-          "COUSUBFP": "49415",
+          "sub_num": "49415",
           "name": "New Sweden",
           "bbox": {
             "minLon": -68.178996,
@@ -4747,7 +4747,7 @@
           }
         },
         {
-          "COUSUBFP": "54385",
+          "sub_num": "54385",
           "name": "Oakfield",
           "bbox": {
             "minLon": -68.167457,
@@ -4757,7 +4757,7 @@
           }
         },
         {
-          "COUSUBFP": "55435",
+          "sub_num": "55435",
           "name": "Orient",
           "bbox": {
             "minLon": -67.915337,
@@ -4767,7 +4767,7 @@
           }
         },
         {
-          "COUSUBFP": "30690",
+          "sub_num": "30690",
           "name": "Hamlin",
           "bbox": {
             "minLon": -67.927657,
@@ -4777,7 +4777,7 @@
           }
         },
         {
-          "COUSUBFP": "60825",
+          "sub_num": "60825",
           "name": "Presque Isle",
           "bbox": {
             "minLon": -68.056528,
@@ -4787,7 +4787,7 @@
           }
         },
         {
-          "COUSUBFP": "64780",
+          "sub_num": "64780",
           "name": "St. Agatha",
           "bbox": {
             "minLon": -68.420751,
@@ -4797,7 +4797,7 @@
           }
         },
         {
-          "COUSUBFP": "12000",
+          "sub_num": "12000",
           "name": "Chapman",
           "bbox": {
             "minLon": -68.173581,
@@ -4807,7 +4807,7 @@
           }
         },
         {
-          "COUSUBFP": "15990",
+          "sub_num": "15990",
           "name": "Cyr",
           "bbox": {
             "minLon": -68.062977,
@@ -4817,7 +4817,7 @@
           }
         },
         {
-          "COUSUBFP": "19210",
+          "sub_num": "19210",
           "name": "Dyer Brook",
           "bbox": {
             "minLon": -68.301962,
@@ -4827,7 +4827,7 @@
           }
         },
         {
-          "COUSUBFP": "21380",
+          "sub_num": "21380",
           "name": "Easton",
           "bbox": {
             "minLon": -67.921601,
@@ -4837,7 +4837,7 @@
           }
         },
         {
-          "COUSUBFP": "25615",
+          "sub_num": "25615",
           "name": "Fort Fairfield",
           "bbox": {
             "minLon": -67.926079,
@@ -4847,7 +4847,7 @@
           }
         },
         {
-          "COUSUBFP": "65200",
+          "sub_num": "65200",
           "name": "St. John",
           "bbox": {
             "minLon": -68.826559,
@@ -4857,7 +4857,7 @@
           }
         },
         {
-          "COUSUBFP": "67790",
+          "sub_num": "67790",
           "name": "Sherman",
           "bbox": {
             "minLon": -68.427599,
@@ -4867,7 +4867,7 @@
           }
         },
         {
-          "COUSUBFP": "69260",
+          "sub_num": "69260",
           "name": "Smyrna",
           "bbox": {
             "minLon": -68.167379,
@@ -4877,7 +4877,7 @@
           }
         },
         {
-          "COUSUBFP": "73472",
+          "sub_num": "73472",
           "name": "Square Lake",
           "bbox": {
             "minLon": -68.564025,
@@ -4887,7 +4887,7 @@
           }
         },
         {
-          "COUSUBFP": "78570",
+          "sub_num": "78570",
           "name": "Van Buren",
           "bbox": {
             "minLon": -68.06154,
@@ -4897,7 +4897,7 @@
           }
         },
         {
-          "COUSUBFP": "79270",
+          "sub_num": "79270",
           "name": "Wade",
           "bbox": {
             "minLon": -68.300531,
@@ -4907,7 +4907,7 @@
           }
         },
         {
-          "COUSUBFP": "48575",
+          "sub_num": "48575",
           "name": "New Canada",
           "bbox": {
             "minLon": -68.564739,
@@ -4917,7 +4917,7 @@
           }
         },
         {
-          "COUSUBFP": "28590",
+          "sub_num": "28590",
           "name": "Grand Isle",
           "bbox": {
             "minLon": -68.181468,
@@ -4927,7 +4927,7 @@
           }
         },
         {
-          "COUSUBFP": "41715",
+          "sub_num": "41715",
           "name": "Ludlow",
           "bbox": {
             "minLon": -68.041154,
@@ -4937,7 +4937,7 @@
           }
         },
         {
-          "COUSUBFP": "43990",
+          "sub_num": "43990",
           "name": "Masardis",
           "bbox": {
             "minLon": -68.43693,
@@ -4947,7 +4947,7 @@
           }
         },
         {
-          "COUSUBFP": "45180",
+          "sub_num": "45180",
           "name": "Merrill",
           "bbox": {
             "minLon": -68.304215,
@@ -4957,7 +4957,7 @@
           }
         },
         {
-          "COUSUBFP": "48120",
+          "sub_num": "48120",
           "name": "Nashville",
           "bbox": {
             "minLon": -68.561956,
@@ -4967,7 +4967,7 @@
           }
         },
         {
-          "COUSUBFP": "53602",
+          "sub_num": "53602",
           "name": "Northwest Aroostook",
           "bbox": {
             "minLon": -70.023187,
@@ -4977,7 +4977,7 @@
           }
         },
         {
-          "COUSUBFP": "62400",
+          "sub_num": "62400",
           "name": "Reed",
           "bbox": {
             "minLon": -68.167056,
@@ -4987,7 +4987,7 @@
           }
         },
         {
-          "COUSUBFP": "65025",
+          "sub_num": "65025",
           "name": "St. Francis",
           "bbox": {
             "minLon": -68.955634,
@@ -4997,7 +4997,7 @@
           }
         },
         {
-          "COUSUBFP": "69930",
+          "sub_num": "69930",
           "name": "South Aroostook",
           "bbox": {
             "minLon": -68.433001,
@@ -5007,7 +5007,7 @@
           }
         },
         {
-          "COUSUBFP": "82770",
+          "sub_num": "82770",
           "name": "Westfield",
           "bbox": {
             "minLon": -68.048247,
@@ -5017,7 +5017,7 @@
           }
         },
         {
-          "COUSUBFP": "48960",
+          "sub_num": "48960",
           "name": "New Limerick",
           "bbox": {
             "minLon": -68.040586,
@@ -5027,7 +5027,7 @@
           }
         },
         {
-          "COUSUBFP": "13900",
+          "sub_num": "13900",
           "name": "Connor",
           "bbox": {
             "minLon": -68.064031,
@@ -5037,7 +5037,7 @@
           }
         },
         {
-          "COUSUBFP": "11300",
+          "sub_num": "11300",
           "name": "Castle Hill",
           "bbox": {
             "minLon": -68.300763,
@@ -5047,7 +5047,7 @@
           }
         },
         {
-          "COUSUBFP": "27120",
+          "sub_num": "27120",
           "name": "Garfield",
           "bbox": {
             "minLon": -68.561322,
@@ -5057,7 +5057,7 @@
           }
         },
         {
-          "COUSUBFP": "86865",
+          "sub_num": "86865",
           "name": "Winterville",
           "bbox": {
             "minLon": -68.69641,
@@ -5067,7 +5067,7 @@
           }
         },
         {
-          "COUSUBFP": "19420",
+          "sub_num": "19420",
           "name": "Eagle Lake",
           "bbox": {
             "minLon": -68.697512,
@@ -5077,7 +5077,7 @@
           }
         },
         {
-          "COUSUBFP": "74405",
+          "sub_num": "74405",
           "name": "Stockholm",
           "bbox": {
             "minLon": -68.179678,
@@ -5087,7 +5087,7 @@
           }
         },
         {
-          "COUSUBFP": "15395",
+          "sub_num": "15395",
           "name": "Crystal",
           "bbox": {
             "minLon": -68.432445,
@@ -5097,7 +5097,7 @@
           }
         },
         {
-          "COUSUBFP": "58060",
+          "sub_num": "58060",
           "name": "Perham",
           "bbox": {
             "minLon": -68.30019,
@@ -5107,7 +5107,7 @@
           }
         },
         {
-          "COUSUBFP": "60300",
+          "sub_num": "60300",
           "name": "Portage Lake",
           "bbox": {
             "minLon": -68.563457,
@@ -5117,7 +5117,7 @@
           }
         },
         {
-          "COUSUBFP": "02762",
+          "sub_num": "02762",
           "name": "Bancroft",
           "bbox": {
             "minLon": -68.035765,
@@ -5131,7 +5131,7 @@
   },
   {
     "Somerset": {
-      "COUNTYFP": "025",
+      "sub_num": "025",
       "name": "Somerset",
       "bbox": {
         "minLon": -70.552853,
@@ -5141,7 +5141,7 @@
       },
       "subdivisions": [
         {
-          "COUSUBFP": "24320",
+          "sub_num": "24320",
           "name": "Fairfield",
           "bbox": {
             "minLon": -69.780271,
@@ -5151,7 +5151,7 @@
           }
         },
         {
-          "COUSUBFP": "01395",
+          "sub_num": "01395",
           "name": "Anson",
           "bbox": {
             "minLon": -70.03327,
@@ -5161,7 +5161,7 @@
           }
         },
         {
-          "COUSUBFP": "01885",
+          "sub_num": "01885",
           "name": "Athens",
           "bbox": {
             "minLon": -69.745415,
@@ -5171,7 +5171,7 @@
           }
         },
         {
-          "COUSUBFP": "07380",
+          "sub_num": "07380",
           "name": "Brighton",
           "bbox": {
             "minLon": -69.773026,
@@ -5181,7 +5181,7 @@
           }
         },
         {
-          "COUSUBFP": "09935",
+          "sub_num": "09935",
           "name": "Canaan",
           "bbox": {
             "minLon": -69.607465,
@@ -5191,7 +5191,7 @@
           }
         },
         {
-          "COUSUBFP": "10495",
+          "sub_num": "10495",
           "name": "Caratunk",
           "bbox": {
             "minLon": -70.001332,
@@ -5201,7 +5201,7 @@
           }
         },
         {
-          "COUSUBFP": "11820",
+          "sub_num": "11820",
           "name": "Central Somerset",
           "bbox": {
             "minLon": -70.133443,
@@ -5211,7 +5211,7 @@
           }
         },
         {
-          "COUSUBFP": "17285",
+          "sub_num": "17285",
           "name": "Dennistown",
           "bbox": {
             "minLon": -70.417962,
@@ -5221,7 +5221,7 @@
           }
         },
         {
-          "COUSUBFP": "17460",
+          "sub_num": "17460",
           "name": "Detroit",
           "bbox": {
             "minLon": -69.366148,
@@ -5231,7 +5231,7 @@
           }
         },
         {
-          "COUSUBFP": "23410",
+          "sub_num": "23410",
           "name": "Embden",
           "bbox": {
             "minLon": -70.013496,
@@ -5241,7 +5241,7 @@
           }
         },
         {
-          "COUSUBFP": "31355",
+          "sub_num": "31355",
           "name": "Harmony",
           "bbox": {
             "minLon": -69.620967,
@@ -5251,7 +5251,7 @@
           }
         },
         {
-          "COUSUBFP": "32895",
+          "sub_num": "32895",
           "name": "Highland",
           "bbox": {
             "minLon": -70.159375,
@@ -5261,7 +5261,7 @@
           }
         },
         {
-          "COUSUBFP": "35345",
+          "sub_num": "35345",
           "name": "Jackman",
           "bbox": {
             "minLon": -70.268684,
@@ -5271,7 +5271,7 @@
           }
         },
         {
-          "COUSUBFP": "42660",
+          "sub_num": "42660",
           "name": "Madison",
           "bbox": {
             "minLon": -69.891924,
@@ -5281,7 +5281,7 @@
           }
         },
         {
-          "COUSUBFP": "45110",
+          "sub_num": "45110",
           "name": "Mercer",
           "bbox": {
             "minLon": -69.968834,
@@ -5291,7 +5291,7 @@
           }
         },
         {
-          "COUSUBFP": "49835",
+          "sub_num": "49835",
           "name": "Norridgewock",
           "bbox": {
             "minLon": -69.903502,
@@ -5301,7 +5301,7 @@
           }
         },
         {
-          "COUSUBFP": "56520",
+          "sub_num": "56520",
           "name": "Palmyra",
           "bbox": {
             "minLon": -69.44915,
@@ -5311,7 +5311,7 @@
           }
         },
         {
-          "COUSUBFP": "59005",
+          "sub_num": "59005",
           "name": "Pittsfield",
           "bbox": {
             "minLon": -69.521651,
@@ -5321,7 +5321,7 @@
           }
         },
         {
-          "COUSUBFP": "59705",
+          "sub_num": "59705",
           "name": "Pleasant Ridge",
           "bbox": {
             "minLon": -70.029197,
@@ -5331,7 +5331,7 @@
           }
         },
         {
-          "COUSUBFP": "64850",
+          "sub_num": "64850",
           "name": "St. Albans",
           "bbox": {
             "minLon": -69.475444,
@@ -5341,7 +5341,7 @@
           }
         },
         {
-          "COUSUBFP": "68910",
+          "sub_num": "68910",
           "name": "Skowhegan",
           "bbox": {
             "minLon": -69.75999,
@@ -5351,7 +5351,7 @@
           }
         },
         {
-          "COUSUBFP": "69155",
+          "sub_num": "69155",
           "name": "Smithfield",
           "bbox": {
             "minLon": -69.868822,
@@ -5361,7 +5361,7 @@
           }
         },
         {
-          "COUSUBFP": "69505",
+          "sub_num": "69505",
           "name": "Solon",
           "bbox": {
             "minLon": -69.874424,
@@ -5371,7 +5371,7 @@
           }
         },
         {
-          "COUSUBFP": "73845",
+          "sub_num": "73845",
           "name": "Starks",
           "bbox": {
             "minLon": -70.013529,
@@ -5381,7 +5381,7 @@
           }
         },
         {
-          "COUSUBFP": "76190",
+          "sub_num": "76190",
           "name": "The Forks",
           "bbox": {
             "minLon": -69.997688,
@@ -5391,7 +5391,7 @@
           }
         },
         {
-          "COUSUBFP": "47455",
+          "sub_num": "47455",
           "name": "Moscow",
           "bbox": {
             "minLon": -69.966591,
@@ -5401,7 +5401,7 @@
           }
         },
         {
-          "COUSUBFP": "51114",
+          "sub_num": "51114",
           "name": "Northeast Somerset",
           "bbox": {
             "minLon": -70.145237,
@@ -5411,7 +5411,7 @@
           }
         },
         {
-          "COUSUBFP": "82840",
+          "sub_num": "82840",
           "name": "West Forks",
           "bbox": {
             "minLon": -70.107937,
@@ -5421,7 +5421,7 @@
           }
         },
         {
-          "COUSUBFP": "62995",
+          "sub_num": "62995",
           "name": "Ripley",
           "bbox": {
             "minLon": -69.48234,
@@ -5431,7 +5431,7 @@
           }
         },
         {
-          "COUSUBFP": "67238",
+          "sub_num": "67238",
           "name": "Seboomook Lake",
           "bbox": {
             "minLon": -70.417962,
@@ -5441,7 +5441,7 @@
           }
         },
         {
-          "COUSUBFP": "09655",
+          "sub_num": "09655",
           "name": "Cambridge",
           "bbox": {
             "minLon": -69.518602,
@@ -5451,7 +5451,7 @@
           }
         },
         {
-          "COUSUBFP": "14555",
+          "sub_num": "14555",
           "name": "Cornville",
           "bbox": {
             "minLon": -69.751153,
@@ -5461,7 +5461,7 @@
           }
         },
         {
-          "COUSUBFP": "31740",
+          "sub_num": "31740",
           "name": "Hartland",
           "bbox": {
             "minLon": -69.614967,
@@ -5471,7 +5471,7 @@
           }
         },
         {
-          "COUSUBFP": "47140",
+          "sub_num": "47140",
           "name": "Moose River",
           "bbox": {
             "minLon": -70.292079,
@@ -5481,7 +5481,7 @@
           }
         },
         {
-          "COUSUBFP": "53636",
+          "sub_num": "53636",
           "name": "Northwest Somerset",
           "bbox": {
             "minLon": -70.552853,
@@ -5491,7 +5491,7 @@
           }
         },
         {
-          "COUSUBFP": "05000",
+          "sub_num": "05000",
           "name": "Bingham",
           "bbox": {
             "minLon": -69.89808,
@@ -5501,7 +5501,7 @@
           }
         },
         {
-          "COUSUBFP": "49205",
+          "sub_num": "49205",
           "name": "New Portland",
           "bbox": {
             "minLon": -70.152585,

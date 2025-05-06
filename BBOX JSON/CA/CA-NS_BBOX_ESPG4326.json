@@ -1,7 +1,7 @@
 [
   {
-    "1201": {
-      "subsub_id": "1201",
+    "Shelburne": {
+      "sub_num": "1201",
       "name": "Shelburne",
       "bbox": {
         "minLon": -65.80467802,
@@ -12,8 +12,8 @@
     }
   },
   {
-    "1202": {
-      "subsub_id": "1202",
+    "Yarmouth": {
+      "sub_num": "1202",
       "name": "Yarmouth",
       "bbox": {
         "minLon": -66.17079392,
@@ -24,8 +24,8 @@
     }
   },
   {
-    "1203": {
-      "subsub_id": "1203",
+    "Digby": {
+      "sub_num": "1203",
       "name": "Digby",
       "bbox": {
         "minLon": -66.3954123,
@@ -36,8 +36,8 @@
     }
   },
   {
-    "1204": {
-      "subsub_id": "1204",
+    "Queens": {
+      "sub_num": "1204",
       "name": "Queens",
       "bbox": {
         "minLon": -65.39582101,
@@ -48,8 +48,8 @@
     }
   },
   {
-    "1205": {
-      "subsub_id": "1205",
+    "Annapolis": {
+      "sub_num": "1205",
       "name": "Annapolis",
       "bbox": {
         "minLon": -65.76000249,
@@ -60,8 +60,8 @@
     }
   },
   {
-    "1206": {
-      "subsub_id": "1206",
+    "Lunenburg": {
+      "sub_num": "1206",
       "name": "Lunenburg",
       "bbox": {
         "minLon": -64.94547423,
@@ -72,8 +72,8 @@
     }
   },
   {
-    "1207": {
-      "subsub_id": "1207",
+    "Kings": {
+      "sub_num": "1207",
       "name": "Kings",
       "bbox": {
         "minLon": -65.01903264,
@@ -84,8 +84,8 @@
     }
   },
   {
-    "1208": {
-      "subsub_id": "1208",
+    "Hants": {
+      "sub_num": "1208",
       "name": "Hants",
       "bbox": {
         "minLon": -64.43221014,
@@ -96,8 +96,8 @@
     }
   },
   {
-    "1209": {
-      "subsub_id": "1209",
+    "Halifax": {
+      "sub_num": "1209",
       "name": "Halifax",
       "bbox": {
         "minLon": -64.23720043,
@@ -108,8 +108,8 @@
     }
   },
   {
-    "1210": {
-      "subsub_id": "1210",
+    "Colchester": {
+      "sub_num": "1210",
       "name": "Colchester",
       "bbox": {
         "minLon": -64.13372495,
@@ -120,8 +120,8 @@
     }
   },
   {
-    "1211": {
-      "subsub_id": "1211",
+    "Cumberland": {
+      "sub_num": "1211",
       "name": "Cumberland",
       "bbox": {
         "minLon": -65.0187006,
@@ -132,8 +132,8 @@
     }
   },
   {
-    "1212": {
-      "subsub_id": "1212",
+    "Pictou": {
+      "sub_num": "1212",
       "name": "Pictou",
       "bbox": {
         "minLon": -63.17789959,
@@ -144,8 +144,8 @@
     }
   },
   {
-    "1213": {
-      "subsub_id": "1213",
+    "Guysborough": {
+      "sub_num": "1213",
       "name": "Guysborough",
       "bbox": {
         "minLon": -62.71454586,
@@ -156,8 +156,8 @@
     }
   },
   {
-    "1214": {
-      "subsub_id": "1214",
+    "Antigonish": {
+      "sub_num": "1214",
       "name": "Antigonish",
       "bbox": {
         "minLon": -62.23524346,
@@ -168,8 +168,8 @@
     }
   },
   {
-    "1215": {
-      "subsub_id": "1215",
+    "Inverness": {
+      "sub_num": "1215",
       "name": "Inverness",
       "bbox": {
         "minLon": -61.60240041,
@@ -180,8 +180,8 @@
     }
   },
   {
-    "1216": {
-      "subsub_id": "1216",
+    "Richmond": {
+      "sub_num": "1216",
       "name": "Richmond",
       "bbox": {
         "minLon": -61.3735694,
@@ -192,8 +192,8 @@
     }
   },
   {
-    "1217": {
-      "subsub_id": "1217",
+    "Cape Breton": {
+      "sub_num": "1217",
       "name": "Cape Breton",
       "bbox": {
         "minLon": -60.80151331,
@@ -204,8 +204,8 @@
     }
   },
   {
-    "1218": {
-      "subsub_id": "1218",
+    "Victoria": {
+      "sub_num": "1218",
       "name": "Victoria",
       "bbox": {
         "minLon": -61.05111385,

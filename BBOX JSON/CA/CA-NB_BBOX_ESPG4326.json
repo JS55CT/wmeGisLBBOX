@@ -1,7 +1,7 @@
 [
   {
-    "1301": {
-      "subsub_id": "1301",
+    "Saint John": {
+      "sub_num": "1301",
       "name": "Saint John",
       "bbox": {
         "minLon": -66.46054924,
@@ -12,8 +12,8 @@
     }
   },
   {
-    "1302": {
-      "subsub_id": "1302",
+    "Charlotte": {
+      "sub_num": "1302",
       "name": "Charlotte",
       "bbox": {
         "minLon": -67.50338521,
@@ -24,8 +24,8 @@
     }
   },
   {
-    "1303": {
-      "subsub_id": "1303",
+    "Sunbury": {
+      "sub_num": "1303",
       "name": "Sunbury",
       "bbox": {
         "minLon": -66.93634227,
@@ -36,8 +36,8 @@
     }
   },
   {
-    "1304": {
-      "subsub_id": "1304",
+    "Queens": {
+      "sub_num": "1304",
       "name": "Queens",
       "bbox": {
         "minLon": -66.56346136,
@@ -48,8 +48,8 @@
     }
   },
   {
-    "1305": {
-      "subsub_id": "1305",
+    "Kings": {
+      "sub_num": "1305",
       "name": "Kings",
       "bbox": {
         "minLon": -66.46034641,
@@ -60,8 +60,8 @@
     }
   },
   {
-    "1306": {
-      "subsub_id": "1306",
+    "Albert": {
+      "sub_num": "1306",
       "name": "Albert",
       "bbox": {
         "minLon": -65.2238341,
@@ -72,8 +72,8 @@
     }
   },
   {
-    "1307": {
-      "subsub_id": "1307",
+    "Westmorland": {
+      "sub_num": "1307",
       "name": "Westmorland",
       "bbox": {
         "minLon": -65.41643782,
@@ -84,8 +84,8 @@
     }
   },
   {
-    "1308": {
-      "subsub_id": "1308",
+    "Kent": {
+      "sub_num": "1308",
       "name": "Kent",
       "bbox": {
         "minLon": -65.85166108,
@@ -96,8 +96,8 @@
     }
   },
   {
-    "1309": {
-      "subsub_id": "1309",
+    "Northumberland": {
+      "sub_num": "1309",
       "name": "Northumberland",
       "bbox": {
         "minLon": -67.04834766,
@@ -108,8 +108,8 @@
     }
   },
   {
-    "1310": {
-      "subsub_id": "1310",
+    "York": {
+      "sub_num": "1310",
       "name": "York",
       "bbox": {
         "minLon": -67.80563351,
@@ -120,8 +120,8 @@
     }
   },
   {
-    "1311": {
-      "subsub_id": "1311",
+    "Carleton": {
+      "sub_num": "1311",
       "name": "Carleton",
       "bbox": {
         "minLon": -67.78828951,
@@ -132,8 +132,8 @@
     }
   },
   {
-    "1312": {
-      "subsub_id": "1312",
+    "Victoria": {
+      "sub_num": "1312",
       "name": "Victoria",
       "bbox": {
         "minLon": -67.79019592,
@@ -144,8 +144,8 @@
     }
   },
   {
-    "1313": {
-      "subsub_id": "1313",
+    "Madawaska": {
+      "sub_num": "1313",
       "name": "Madawaska",
       "bbox": {
         "minLon": -69.05301439,
@@ -156,8 +156,8 @@
     }
   },
   {
-    "1314": {
-      "subsub_id": "1314",
+    "Restigouche": {
+      "sub_num": "1314",
       "name": "Restigouche",
       "bbox": {
         "minLon": -68.38274252,
@@ -168,8 +168,8 @@
     }
   },
   {
-    "1315": {
-      "subsub_id": "1315",
+    "Gloucester": {
+      "sub_num": "1315",
       "name": "Gloucester",
       "bbox": {
         "minLon": -66.21716123,
