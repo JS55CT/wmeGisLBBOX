@@ -1,8 +1,8 @@
 const US_States_Counties_4326 = {
     states: {
       "West Virginia": {
-        STUSPS: "WV",
-        STATEFP: "54",
+        sub_id: "WV",
+        sub_num: "54",
         bbox: {
           minLon: -82.644591,
           minLat: 37.20154,
@@ -11,7 +11,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Pocahontas: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -80.363295,
               minLat: 38.03611,
@@ -20,7 +20,7 @@ const US_States_Counties_4326 = {
             },
           },
           Putnam: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -82.064562,
               minLat: 38.266605,
@@ -29,7 +29,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wetzel: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -80.943782,
               minLat: 39.42912,
@@ -38,7 +38,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boone: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -81.980348,
               minLat: 37.76331,
@@ -47,7 +47,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cabell: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -82.50828,
               minLat: 38.227986,
@@ -56,7 +56,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -80.870322,
               minLat: 39.720812,
@@ -65,7 +65,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -81.910606,
               minLat: 38.55437,
@@ -74,7 +74,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monongalia: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -80.42224,
               minLat: 39.435588,
@@ -83,7 +83,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mineral: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -79.271695,
               minLat: 39.237624,
@@ -92,7 +92,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hancock: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -80.667957,
               minLat: 40.394978,
@@ -101,7 +101,7 @@ const US_States_Counties_4326 = {
             },
           },
           Preston: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -79.89974,
               minLat: 39.194906,
@@ -110,7 +110,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hardy: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -79.134296,
               minLat: 38.761413,
@@ -119,7 +119,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wood: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -81.756384,
               minLat: 39.026179,
@@ -128,7 +128,7 @@ const US_States_Counties_4326 = {
             },
           },
           Webster: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -80.678291,
               minLat: 38.225845,
@@ -137,7 +137,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hampshire: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -78.979898,
               minLat: 39.08863,
@@ -146,7 +146,7 @@ const US_States_Counties_4326 = {
             },
           },
           McDowell: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -81.996578,
               minLat: 37.20154,
@@ -155,7 +155,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harrison: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -80.604301,
               minLat: 39.100809,
@@ -164,7 +164,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barbour: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -80.227173,
               minLat: 38.947236,
@@ -173,7 +173,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tucker: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -79.838093,
               minLat: 38.96441,
@@ -182,7 +182,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -81.283872,
               minLat: 38.263716,
@@ -191,7 +191,7 @@ const US_States_Counties_4326 = {
             },
           },
           Logan: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -82.19727,
               minLat: 37.640607,
@@ -200,7 +200,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pleasants: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -81.371478,
               minLat: 39.268328,
@@ -209,7 +209,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -81.380843,
               minLat: 37.819131,
@@ -218,7 +218,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -78.035454,
               minLat: 39.132426,
@@ -227,7 +227,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mercer: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -81.362156,
               minLat: 37.234874,
@@ -236,7 +236,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wyoming: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -81.857839,
               minLat: 37.413178,
@@ -245,7 +245,7 @@ const US_States_Counties_4326 = {
             },
           },
           Braxton: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -81.031677,
               minLat: 38.507045,
@@ -254,7 +254,7 @@ const US_States_Counties_4326 = {
             },
           },
           Roane: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -81.546631,
               minLat: 38.52183,
@@ -263,7 +263,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -79.487175,
               minLat: 38.81334,
@@ -272,7 +272,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -80.858466,
               minLat: 37.372363,
@@ -281,7 +281,7 @@ const US_States_Counties_4326 = {
             },
           },
           Doddridge: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -80.91384,
               minLat: 39.090278,
@@ -290,7 +290,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wirt: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -81.581447,
               minLat: 38.895633,
@@ -299,7 +299,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tyler: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -81.121533,
               minLat: 39.294298,
@@ -308,7 +308,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greenbrier: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -80.894183,
               minLat: 37.683858,
@@ -317,7 +317,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ritchie: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -81.329228,
               minLat: 39.007884,
@@ -326,7 +326,7 @@ const US_States_Counties_4326 = {
             },
           },
           Randolph: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -80.280059,
               minLat: 38.388457,
@@ -335,7 +335,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -80.498163,
               minLat: 39.386215,
@@ -344,7 +344,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pendleton: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -79.649875,
               minLat: 38.411876,
@@ -353,7 +353,7 @@ const US_States_Counties_4326 = {
             },
           },
           Summers: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -81.09463,
               minLat: 37.428307,
@@ -362,7 +362,7 @@ const US_States_Counties_4326 = {
             },
           },
           Berkeley: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -78.229005,
               minLat: 39.264612,
@@ -371,7 +371,7 @@ const US_States_Counties_4326 = {
             },
           },
           Upshur: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -80.409541,
               minLat: 38.683995,
@@ -380,7 +380,7 @@ const US_States_Counties_4326 = {
             },
           },
           Taylor: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -80.205113,
               minLat: 39.23825,
@@ -389,7 +389,7 @@ const US_States_Counties_4326 = {
             },
           },
           Raleigh: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -81.571534,
               minLat: 37.507851,
@@ -398,7 +398,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nicholas: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -81.231636,
               minLat: 38.079129,
@@ -407,7 +407,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mason: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -82.221713,
               minLat: 38.474547,
@@ -416,7 +416,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gilmer: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -81.056714,
               minLat: 38.717898,
@@ -425,7 +425,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brooke: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -80.681811,
               minLat: 40.159672,
@@ -434,7 +434,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -81.279482,
               minLat: 38.611982,
@@ -443,7 +443,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -82.306391,
               minLat: 37.94364,
@@ -452,7 +452,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ohio: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -80.739236,
               minLat: 40.01641,
@@ -461,7 +461,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -78.468581,
               minLat: 39.391233,
@@ -470,7 +470,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kanawha: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -81.915197,
               minLat: 37.967209,
@@ -479,7 +479,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lewis: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -80.728877,
               minLat: 38.722756,
@@ -488,7 +488,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mingo: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -82.420689,
               minLat: 37.511426,
@@ -497,7 +497,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -82.644591,
               minLat: 37.84242,
@@ -508,8 +508,8 @@ const US_States_Counties_4326 = {
         },
       },
       Florida: {
-        STUSPS: "FL",
-        STATEFP: "12",
+        sub_id: "FL",
+        sub_num: "12",
         bbox: {
           minLon: -87.634896,
           minLat: 24.396308,
@@ -518,7 +518,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Hernando: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -82.889544,
               minLat: 28.430786,
@@ -527,7 +527,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wakulla: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -84.737846,
               minLat: 29.74293,
@@ -536,7 +536,7 @@ const US_States_Counties_4326 = {
             },
           },
           Walton: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -86.39964,
               minLat: 30.1036,
@@ -545,7 +545,7 @@ const US_States_Counties_4326 = {
             },
           },
           Volusia: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -81.680903,
               minLat: 28.612662,
@@ -554,7 +554,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hendry: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -81.56657,
               minLat: 26.253069,
@@ -563,7 +563,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orange: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -81.658612,
               minLat: 28.346889,
@@ -572,7 +572,7 @@ const US_States_Counties_4326 = {
             },
           },
           Broward: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -80.881285,
               minLat: 25.95675,
@@ -581,7 +581,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Palm Beach": {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -80.886053,
               minLat: 26.320755,
@@ -590,7 +590,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gilchrist: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -82.973054,
               minLat: 29.562467,
@@ -599,7 +599,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Miami-Dade": {
-            COUNTYFP: "086",
+            sub_num: "086",
             bbox: {
               minLon: -80.8736,
               minLat: 25.13742,
@@ -608,7 +608,7 @@ const US_States_Counties_4326 = {
             },
           },
           Highlands: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -81.564162,
               minLat: 27.032319,
@@ -617,7 +617,7 @@ const US_States_Counties_4326 = {
             },
           },
           Citrus: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -83.187906,
               minLat: 28.665671,
@@ -626,7 +626,7 @@ const US_States_Counties_4326 = {
             },
           },
           Okeechobee: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -81.214284,
               minLat: 26.958919,
@@ -635,7 +635,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Johns": {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -81.690469,
               minLat: 29.622432,
@@ -644,7 +644,7 @@ const US_States_Counties_4326 = {
             },
           },
           DeSoto: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -82.057631,
               minLat: 27.0317,
@@ -653,7 +653,7 @@ const US_States_Counties_4326 = {
             },
           },
           Glades: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -81.565749,
               minLat: 26.768161,
@@ -662,7 +662,7 @@ const US_States_Counties_4326 = {
             },
           },
           Manatee: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -82.92417,
               minLat: 27.207769,
@@ -671,7 +671,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -85.389755,
               minLat: 30.199889,
@@ -680,7 +680,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -81.957641,
               minLat: 28.34518,
@@ -689,7 +689,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pinellas: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -83.02054,
               minLat: 27.610437,
@@ -698,7 +698,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -85.225499,
               minLat: 29.43598,
@@ -707,7 +707,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pasco: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -83.02236,
               minLat: 28.17098,
@@ -716,7 +716,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sumter: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -82.311697,
               minLat: 28.305265,
@@ -725,7 +725,7 @@ const US_States_Counties_4326 = {
             },
           },
           Seminole: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -81.459728,
               minLat: 28.610501,
@@ -734,7 +734,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bradford: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -82.418728,
               minLat: 29.718232,
@@ -743,7 +743,7 @@ const US_States_Counties_4326 = {
             },
           },
           Duval: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -82.049502,
               minLat: 30.103748,
@@ -752,7 +752,7 @@ const US_States_Counties_4326 = {
             },
           },
           Martin: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -80.885639,
               minLat: 26.956623,
@@ -761,7 +761,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dixie: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -83.575406,
               minLat: 29.241868,
@@ -770,7 +770,7 @@ const US_States_Counties_4326 = {
             },
           },
           Escambia: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -87.634896,
               minLat: 30.12553,
@@ -779,7 +779,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -83.108914,
               minLat: 24.396308,
@@ -788,7 +788,7 @@ const US_States_Counties_4326 = {
             },
           },
           Flagler: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -81.52366,
               minLat: 29.261133,
@@ -797,7 +797,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -82.462012,
               minLat: 26.316242,
@@ -806,7 +806,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bay: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -86.00077,
               minLat: 29.50701,
@@ -815,7 +815,7 @@ const US_States_Counties_4326 = {
             },
           },
           Putnam: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -82.056151,
               minLat: 29.32443,
@@ -824,7 +824,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -84.076328,
               minLat: 29.898948,
@@ -833,7 +833,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lafayette: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -83.37089,
               minLat: 29.822222,
@@ -842,7 +842,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamilton: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -83.309573,
               minLat: 30.317369,
@@ -851,7 +851,7 @@ const US_States_Counties_4326 = {
             },
           },
           Levy: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -83.346176,
               minLat: 28.986573,
@@ -860,7 +860,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -82.106236,
               minLat: 27.643238,
@@ -869,7 +869,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Lucie": {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -80.679974,
               minLat: 27.205584,
@@ -878,7 +878,7 @@ const US_States_Counties_4326 = {
             },
           },
           Okaloosa: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -86.803374,
               minLat: 30.226956,
@@ -887,7 +887,7 @@ const US_States_Counties_4326 = {
             },
           },
           Columbia: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -82.800477,
               minLat: 29.825587,
@@ -896,7 +896,7 @@ const US_States_Counties_4326 = {
             },
           },
           Holmes: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -86.037772,
               minLat: 30.702975,
@@ -905,7 +905,7 @@ const US_States_Counties_4326 = {
             },
           },
           Collier: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -82.244953,
               minLat: 25.800785,
@@ -914,7 +914,7 @@ const US_States_Counties_4326 = {
             },
           },
           Baker: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -82.459793,
               minLat: 30.136449,
@@ -923,7 +923,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sarasota: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -82.85074,
               minLat: 26.945255,
@@ -932,7 +932,7 @@ const US_States_Counties_4326 = {
             },
           },
           Suwannee: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -83.253236,
               minLat: 29.882334,
@@ -941,7 +941,7 @@ const US_States_Counties_4326 = {
             },
           },
           Taylor: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -83.999955,
               minLat: 29.527003,
@@ -950,7 +950,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -82.576143,
               minLat: 29.919923,
@@ -959,7 +959,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -82.049442,
               minLat: 29.71867,
@@ -968,7 +968,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -83.821913,
               minLat: 30.26011,
@@ -977,7 +977,7 @@ const US_States_Counties_4326 = {
             },
           },
           Osceola: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -81.657268,
               minLat: 27.64199,
@@ -986,7 +986,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -82.535916,
               minLat: 28.959778,
@@ -995,7 +995,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -85.600291,
               minLat: 30.564336,
@@ -1004,7 +1004,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alachua: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -82.658554,
               minLat: 29.417057,
@@ -1013,7 +1013,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hardee: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -82.055753,
               minLat: 27.336709,
@@ -1022,7 +1022,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nassau: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -82.050331,
               minLat: 30.273337,
@@ -1031,7 +1031,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -85.99369,
               minLat: 30.38932,
@@ -1040,7 +1040,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Santa Rosa": {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -87.313908,
               minLat: 30.217637,
@@ -1049,7 +1049,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brevard: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -80.98725,
               minLat: 27.822058,
@@ -1058,7 +1058,7 @@ const US_States_Counties_4326 = {
             },
           },
           Liberty: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -85.154015,
               minLat: 29.971399,
@@ -1067,7 +1067,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Indian River": {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -80.881566,
               minLat: 27.556737,
@@ -1076,7 +1076,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gadsden: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -84.932519,
               minLat: 30.387797,
@@ -1085,7 +1085,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gulf: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -85.440336,
               minLat: 29.497065,
@@ -1094,7 +1094,7 @@ const US_States_Counties_4326 = {
             },
           },
           Leon: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -84.715359,
               minLat: 30.273438,
@@ -1103,7 +1103,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hillsborough: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -82.935149,
               minLat: 27.53075,
@@ -1112,7 +1112,7 @@ const US_States_Counties_4326 = {
             },
           },
           Charlotte: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -82.565858,
               minLat: 26.769564,
@@ -1123,8 +1123,8 @@ const US_States_Counties_4326 = {
         },
       },
       Illinois: {
-        STUSPS: "IL",
-        STATEFP: "17",
+        sub_id: "IL",
+        sub_num: "17",
         bbox: {
           minLon: -91.513079,
           minLat: 36.970298,
@@ -1133,7 +1133,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Hancock: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -91.507269,
               minLat: 40.193086,
@@ -1142,7 +1142,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -88.698459,
               minLat: 38.599137,
@@ -1151,7 +1151,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wabash: {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -87.992328,
               minLat: 38.236297,
@@ -1160,7 +1160,7 @@ const US_States_Counties_4326 = {
             },
           },
           McLean: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -89.269397,
               minLat: 40.280919,
@@ -1169,7 +1169,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bond: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -89.639267,
               minLat: 38.740509,
@@ -1178,7 +1178,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brown: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -90.917132,
               minLat: 39.838961,
@@ -1187,7 +1187,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jersey: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -90.603569,
               minLat: 38.923395,
@@ -1196,7 +1196,7 @@ const US_States_Counties_4326 = {
             },
           },
           Piatt: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -88.745967,
               minLat: 39.79182,
@@ -1205,7 +1205,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pope: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -88.710753,
               minLat: 37.06725,
@@ -1214,7 +1214,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bureau: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -89.862351,
               minLat: 41.14851,
@@ -1223,7 +1223,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coles: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -88.472073,
               minLat: 39.373638,
@@ -1232,7 +1232,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mercer: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -91.114186,
               minLat: 41.063645,
@@ -1241,7 +1241,7 @@ const US_States_Counties_4326 = {
             },
           },
           Effingham: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -88.806795,
               minLat: 38.910847,
@@ -1250,7 +1250,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cumberland: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -88.471207,
               minLat: 39.171042,
@@ -1259,7 +1259,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -87.950392,
               minLat: 38.848857,
@@ -1268,7 +1268,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fulton: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -90.451916,
               minLat: 40.183812,
@@ -1277,7 +1277,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -89.703692,
               minLat: 38.998979,
@@ -1286,7 +1286,7 @@ const US_States_Counties_4326 = {
             },
           },
           Macon: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -89.217874,
               minLat: 39.652678,
@@ -1295,7 +1295,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -89.178371,
               minLat: 37.861927,
@@ -1304,7 +1304,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -88.013944,
               minLat: 39.157513,
@@ -1313,7 +1313,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Rock Island": {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -91.07207,
               minLat: 41.326781,
@@ -1322,7 +1322,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kendall: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -88.60362,
               minLat: 41.457129,
@@ -1331,7 +1331,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cook: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -88.263641,
               minLat: 41.469705,
@@ -1340,7 +1340,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gallatin: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -88.375434,
               minLat: 37.573066,
@@ -1349,7 +1349,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -89.632379,
               minLat: 41.584889,
@@ -1358,7 +1358,7 @@ const US_States_Counties_4326 = {
             },
           },
           DeKalb: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -88.942146,
               minLat: 41.628316,
@@ -1367,7 +1367,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stark: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -89.985494,
               minLat: 40.973707,
@@ -1376,7 +1376,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -91.513079,
               minLat: 39.756862,
@@ -1385,7 +1385,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iroquois: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -88.131935,
               minLat: 40.485568,
@@ -1394,7 +1394,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ford: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -88.459957,
               minLat: 40.398417,
@@ -1403,7 +1403,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -88.473182,
               minLat: 39.651588,
@@ -1412,7 +1412,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Clair": {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -90.264123,
               minLat: 38.219404,
@@ -1421,7 +1421,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "189",
+            sub_num: "189",
             bbox: {
               minLon: -89.70425,
               minLat: 38.212895,
@@ -1430,7 +1430,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -90.646112,
               minLat: 39.520269,
@@ -1439,7 +1439,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richland: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -88.297536,
               minLat: 38.569033,
@@ -1448,7 +1448,7 @@ const US_States_Counties_4326 = {
             },
           },
           Menard: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -89.995113,
               minLat: 39.901531,
@@ -1457,7 +1457,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamilton: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -88.70664,
               minLat: 37.906428,
@@ -1466,7 +1466,7 @@ const US_States_Counties_4326 = {
             },
           },
           White: {
-            COUNTYFP: "193",
+            sub_num: "193",
             bbox: {
               minLon: -88.374644,
               minLat: 37.888051,
@@ -1475,7 +1475,7 @@ const US_States_Counties_4326 = {
             },
           },
           "De Witt": {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -89.148764,
               minLat: 40.048853,
@@ -1484,7 +1484,7 @@ const US_States_Counties_4326 = {
             },
           },
           Putnam: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -89.466473,
               minLat: 41.103766,
@@ -1493,7 +1493,7 @@ const US_States_Counties_4326 = {
             },
           },
           Schuyler: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -90.913471,
               minLat: 39.97883,
@@ -1502,7 +1502,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stephenson: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -89.926509,
               minLat: 42.196651,
@@ -1511,7 +1511,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -89.521979,
               minLat: 37.329717,
@@ -1520,7 +1520,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kankakee: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -88.251501,
               minLat: 40.99456,
@@ -1529,7 +1529,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clinton: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -89.706949,
               minLat: 38.415779,
@@ -1538,7 +1538,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Jo Daviess": {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -90.65671,
               minLat: 42.193645,
@@ -1547,7 +1547,7 @@ const US_States_Counties_4326 = {
             },
           },
           Williamson: {
-            COUNTYFP: "199",
+            sub_num: "199",
             bbox: {
               minLon: -89.153617,
               minLat: 37.596222,
@@ -1556,7 +1556,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mason: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -90.354524,
               minLat: 40.050926,
@@ -1565,7 +1565,7 @@ const US_States_Counties_4326 = {
             },
           },
           Livingston: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -88.931476,
               minLat: 40.61655,
@@ -1574,7 +1574,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "191",
+            sub_num: "191",
             bbox: {
               minLon: -88.702405,
               minLat: 38.255301,
@@ -1583,7 +1583,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kane: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -88.602566,
               minLat: 41.719563,
@@ -1592,7 +1592,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hardin: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -88.415412,
               minLat: 37.401599,
@@ -1601,7 +1601,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grundy: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -88.595961,
               minLat: 41.10828,
@@ -1610,7 +1610,7 @@ const US_States_Counties_4326 = {
             },
           },
           McDonough: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -90.909756,
               minLat: 40.276335,
@@ -1619,7 +1619,7 @@ const US_States_Counties_4326 = {
             },
           },
           Massac: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -88.928898,
               minLat: 37.06535,
@@ -1628,7 +1628,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henry: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -90.437652,
               minLat: 41.149304,
@@ -1637,7 +1637,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -90.62229,
               minLat: 39.117592,
@@ -1646,7 +1646,7 @@ const US_States_Counties_4326 = {
             },
           },
           Randolph: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -90.205205,
               minLat: 37.803152,
@@ -1655,7 +1655,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pike: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -91.370102,
               minLat: 39.395416,
@@ -1664,7 +1664,7 @@ const US_States_Counties_4326 = {
             },
           },
           Woodford: {
-            COUNTYFP: "203",
+            sub_num: "203",
             bbox: {
               minLon: -89.563626,
               minLat: 40.594318,
@@ -1673,7 +1673,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perry: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -89.595079,
               minLat: 37.950186,
@@ -1682,7 +1682,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -89.044799,
               minLat: 37.293933,
@@ -1691,7 +1691,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shelby: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -89.139919,
               minLat: 39.214915,
@@ -1700,7 +1700,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -89.257463,
               minLat: 38.736331,
@@ -1709,7 +1709,7 @@ const US_States_Counties_4326 = {
             },
           },
           Winnebago: {
-            COUNTYFP: "201",
+            sub_num: "201",
             bbox: {
               minLon: -89.401423,
               minLat: 42.150266,
@@ -1718,7 +1718,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ogle: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -89.688486,
               minLat: 41.885463,
@@ -1727,7 +1727,7 @@ const US_States_Counties_4326 = {
             },
           },
           Moultrie: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -88.812709,
               minLat: 39.447041,
@@ -1736,7 +1736,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cass: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -90.583534,
               minLat: 39.872601,
@@ -1745,7 +1745,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sangamon: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -89.994514,
               minLat: 39.522104,
@@ -1754,7 +1754,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tazewell: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -89.92468,
               minLat: 40.319212,
@@ -1763,7 +1763,7 @@ const US_States_Counties_4326 = {
             },
           },
           LaSalle: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -89.16715,
               minLat: 40.925749,
@@ -1772,7 +1772,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vermilion: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -87.942103,
               minLat: 39.868459,
@@ -1781,7 +1781,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boone: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -88.940994,
               minLat: 42.15232,
@@ -1790,7 +1790,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -90.599105,
               minLat: 39.519945,
@@ -1799,7 +1799,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -89.638727,
               minLat: 40.921205,
@@ -1808,7 +1808,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jasper: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -88.362779,
               minLat: 38.846877,
@@ -1817,7 +1817,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -90.936728,
               minLat: 38.868384,
@@ -1826,7 +1826,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -89.144388,
               minLat: 38.473878,
@@ -1835,7 +1835,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "187",
+            sub_num: "187",
             bbox: {
               minLon: -90.789653,
               minLat: 40.627638,
@@ -1844,7 +1844,7 @@ const US_States_Counties_4326 = {
             },
           },
           Will: {
-            COUNTYFP: "197",
+            sub_num: "197",
             bbox: {
               minLon: -88.261275,
               minLat: 41.201566,
@@ -1853,7 +1853,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pulaski: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -89.273631,
               minLat: 37.06831,
@@ -1862,7 +1862,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -90.275702,
               minLat: 38.654966,
@@ -1871,7 +1871,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -90.372734,
               minLat: 38.086907,
@@ -1880,7 +1880,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alexander: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -89.518477,
               minLat: 36.970298,
@@ -1889,7 +1889,7 @@ const US_States_Counties_4326 = {
             },
           },
           DuPage: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -88.262896,
               minLat: 41.685242,
@@ -1898,7 +1898,7 @@ const US_States_Counties_4326 = {
             },
           },
           Saline: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -88.708638,
               minLat: 37.598991,
@@ -1907,7 +1907,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -88.199763,
               minLat: 42.149409,
@@ -1916,7 +1916,7 @@ const US_States_Counties_4326 = {
             },
           },
           Macoupin: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -90.153782,
               minLat: 38.99833,
@@ -1925,7 +1925,7 @@ const US_States_Counties_4326 = {
             },
           },
           Whiteside: {
-            COUNTYFP: "195",
+            sub_num: "195",
             bbox: {
               minLon: -90.247917,
               minLat: 41.583654,
@@ -1934,7 +1934,7 @@ const US_States_Counties_4326 = {
             },
           },
           Logan: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -89.603598,
               minLat: 39.91686,
@@ -1943,7 +1943,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -89.149841,
               minLat: 38.124523,
@@ -1952,7 +1952,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -87.912362,
               minLat: 38.568061,
@@ -1961,7 +1961,7 @@ const US_States_Counties_4326 = {
             },
           },
           Peoria: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -89.989018,
               minLat: 40.513225,
@@ -1970,7 +1970,7 @@ const US_States_Counties_4326 = {
             },
           },
           Champaign: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -88.463634,
               minLat: 39.879092,
@@ -1979,7 +1979,7 @@ const US_States_Counties_4326 = {
             },
           },
           Edgar: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -87.968777,
               minLat: 39.476676,
@@ -1988,7 +1988,7 @@ const US_States_Counties_4326 = {
             },
           },
           Christian: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -89.535076,
               minLat: 39.345825,
@@ -1997,7 +1997,7 @@ const US_States_Counties_4326 = {
             },
           },
           Knox: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -90.444339,
               minLat: 40.712361,
@@ -2006,7 +2006,7 @@ const US_States_Counties_4326 = {
             },
           },
           McHenry: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -88.707421,
               minLat: 42.15341,
@@ -2015,7 +2015,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -90.317395,
               minLat: 41.928917,
@@ -2024,7 +2024,7 @@ const US_States_Counties_4326 = {
             },
           },
           Edwards: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -88.150891,
               minLat: 38.25566,
@@ -2033,7 +2033,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henderson: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -91.185295,
               minLat: 40.634946,
@@ -2042,7 +2042,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -89.680868,
               minLat: 37.561925,
@@ -2053,8 +2053,8 @@ const US_States_Counties_4326 = {
         },
       },
       Minnesota: {
-        STUSPS: "MN",
-        STATEFP: "27",
+        sub_id: "MN",
+        sub_num: "27",
         bbox: {
           minLon: -97.239093,
           minLat: 43.499361,
@@ -2063,7 +2063,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           "Mille Lacs": {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -93.810912,
               minLat: 45.558772,
@@ -2072,7 +2072,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fillmore: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -92.44961,
               minLat: 43.50044,
@@ -2081,7 +2081,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Lac qui Parle": {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -96.452947,
               minLat: 44.804679,
@@ -2090,7 +2090,7 @@ const US_States_Counties_4326 = {
             },
           },
           McLeod: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -94.502395,
               minLat: 44.629877,
@@ -2099,7 +2099,7 @@ const US_States_Counties_4326 = {
             },
           },
           Todd: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -95.155592,
               minLat: 45.773415,
@@ -2108,7 +2108,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nobles: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -96.05384,
               minLat: 43.499856,
@@ -2117,7 +2117,7 @@ const US_States_Counties_4326 = {
             },
           },
           Aitkin: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -93.812191,
               minLat: 46.153881,
@@ -2126,7 +2126,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hubbard: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -95.183218,
               minLat: 46.803716,
@@ -2135,7 +2135,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -95.454693,
               minLat: 43.500099,
@@ -2144,7 +2144,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dodge: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -93.045966,
               minLat: 43.848406,
@@ -2153,7 +2153,7 @@ const US_States_Counties_4326 = {
             },
           },
           Freeborn: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -93.648563,
               minLat: 43.499361,
@@ -2162,7 +2162,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pope: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -95.758645,
               minLat: 45.411895,
@@ -2171,7 +2171,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sibley: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -94.629489,
               minLat: 44.45587,
@@ -2180,7 +2180,7 @@ const US_States_Counties_4326 = {
             },
           },
           Olmsted: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -92.689391,
               minLat: 43.833847,
@@ -2189,7 +2189,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kandiyohi: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -95.255375,
               minLat: 44.89125,
@@ -2198,7 +2198,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rock: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -96.45347,
               minLat: 43.50014,
@@ -2207,7 +2207,7 @@ const US_States_Counties_4326 = {
             },
           },
           Waseca: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -93.76836,
               minLat: 43.847871,
@@ -2216,7 +2216,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cottonwood: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -95.462886,
               minLat: 43.847624,
@@ -2225,7 +2225,7 @@ const US_States_Counties_4326 = {
             },
           },
           Koochiching: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -94.430279,
               minLat: 47.845816,
@@ -2234,7 +2234,7 @@ const US_States_Counties_4326 = {
             },
           },
           Watonwan: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -94.859803,
               minLat: 43.84803,
@@ -2243,7 +2243,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wright: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -94.26152,
               minLat: 44.977646,
@@ -2252,7 +2252,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -96.840122,
               minLat: 46.628654,
@@ -2261,7 +2261,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -93.911401,
               minLat: 44.543032,
@@ -2270,7 +2270,7 @@ const US_States_Counties_4326 = {
             },
           },
           Becker: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -96.194702,
               minLat: 46.715459,
@@ -2279,7 +2279,7 @@ const US_States_Counties_4326 = {
             },
           },
           Norman: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -96.871768,
               minLat: 47.150475,
@@ -2288,7 +2288,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chisago: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -93.142013,
               minLat: 45.296042,
@@ -2297,7 +2297,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -97.163376,
               minLat: 48.171616,
@@ -2306,7 +2306,7 @@ const US_States_Counties_4326 = {
             },
           },
           Winona: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -92.079498,
               minLat: 43.846825,
@@ -2315,7 +2315,7 @@ const US_States_Counties_4326 = {
             },
           },
           Beltrami: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -95.602865,
               minLat: 47.409614,
@@ -2324,7 +2324,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lyon: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -96.09347,
               minLat: 44.19497,
@@ -2333,7 +2333,7 @@ const US_States_Counties_4326 = {
             },
           },
           Goodhue: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -93.041195,
               minLat: 44.194909,
@@ -2342,7 +2342,7 @@ const US_States_Counties_4326 = {
             },
           },
           Itasca: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -94.41928,
               minLat: 47.025192,
@@ -2351,7 +2351,7 @@ const US_States_Counties_4326 = {
             },
           },
           Meeker: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -94.76351,
               minLat: 44.891851,
@@ -2360,7 +2360,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kanabec: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -93.518902,
               minLat: 45.730517,
@@ -2369,7 +2369,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Lake of the Woods": {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -95.342764,
               minLat: 48.365971,
@@ -2378,7 +2378,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -96.452773,
               minLat: 44.19662,
@@ -2387,7 +2387,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Otter Tail": {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -96.28128,
               minLat: 46.106761,
@@ -2396,7 +2396,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cass: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -94.787126,
               minLat: 46.276616,
@@ -2405,7 +2405,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dakota: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -93.329787,
               minLat: 44.471149,
@@ -2414,7 +2414,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -91.800129,
               minLat: 46.794838,
@@ -2423,7 +2423,7 @@ const US_States_Counties_4326 = {
             },
           },
           Anoka: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -93.512649,
               minLat: 45.035365,
@@ -2432,7 +2432,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mower: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -93.049603,
               minLat: 43.499701,
@@ -2441,7 +2441,7 @@ const US_States_Counties_4326 = {
             },
           },
           Murray: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -96.06462,
               minLat: 43.847876,
@@ -2450,7 +2450,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ramsey: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -93.228119,
               minLat: 44.887399,
@@ -2459,7 +2459,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilkin: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -96.791325,
               minLat: 46.021531,
@@ -2468,7 +2468,7 @@ const US_States_Counties_4326 = {
             },
           },
           Isanti: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -93.513683,
               minLat: 45.41177,
@@ -2477,7 +2477,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benton: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -94.353165,
               minLat: 45.559066,
@@ -2486,7 +2486,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wadena: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -95.164103,
               minLat: 46.368356,
@@ -2495,7 +2495,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pennington: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -96.50117,
               minLat: 47.933966,
@@ -2504,7 +2504,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wabasha: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -92.551005,
               minLat: 44.106715,
@@ -2513,7 +2513,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -93.021521,
               minLat: 44.745673,
@@ -2522,7 +2522,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Crow Wing": {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -94.395718,
               minLat: 46.155917,
@@ -2531,7 +2531,7 @@ const US_States_Counties_4326 = {
             },
           },
           Traverse: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -96.856834,
               minLat: 45.585215,
@@ -2540,7 +2540,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Yellow Medicine": {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -96.451871,
               minLat: 44.541744,
@@ -2549,7 +2549,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rice: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -93.525284,
               minLat: 44.196051,
@@ -2558,7 +2558,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stearns: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -95.139856,
               minLat: 45.282298,
@@ -2567,7 +2567,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sherburne: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -94.154284,
               minLat: 45.245683,
@@ -2576,7 +2576,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Le Sueur": {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -94.025254,
               minLat: 44.195836,
@@ -2585,7 +2585,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Louis": {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -93.098021,
               minLat: 46.649241,
@@ -2594,7 +2594,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cook: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -91.03229,
               minLat: 47.244299,
@@ -2603,7 +2603,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -96.26648,
               minLat: 45.759436,
@@ -2612,7 +2612,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chippewa: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -96.036993,
               minLat: 44.750672,
@@ -2621,7 +2621,7 @@ const US_States_Counties_4326 = {
             },
           },
           Faribault: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -94.24804,
               minLat: 43.499648,
@@ -2630,7 +2630,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carlton: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -93.064867,
               minLat: 46.41722,
@@ -2639,7 +2639,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pine: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -93.142869,
               minLat: 45.729849,
@@ -2648,7 +2648,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stevens: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -96.254088,
               minLat: 45.411963,
@@ -2657,7 +2657,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kittson: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -97.239093,
               minLat: 48.543189,
@@ -2666,7 +2666,7 @@ const US_States_Counties_4326 = {
             },
           },
           Martin: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -94.854668,
               minLat: 43.500118,
@@ -2675,7 +2675,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morrison: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -94.653464,
               minLat: 45.773895,
@@ -2684,7 +2684,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pipestone: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -96.453533,
               minLat: 43.848589,
@@ -2693,7 +2693,7 @@ const US_States_Counties_4326 = {
             },
           },
           Renville: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -95.483622,
               minLat: 44.45599,
@@ -2702,7 +2702,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mahnomen: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -96.067719,
               minLat: 47.150178,
@@ -2711,7 +2711,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hennepin: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -93.768385,
               minLat: 44.785106,
@@ -2720,7 +2720,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brown: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -95.108777,
               minLat: 44.107725,
@@ -2729,7 +2729,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nicollet: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -94.786706,
               minLat: 44.153888,
@@ -2738,7 +2738,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -95.769862,
               minLat: 45.758732,
@@ -2747,7 +2747,7 @@ const US_States_Counties_4326 = {
             },
           },
           Swift: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -96.118343,
               minLat: 45.151202,
@@ -2756,7 +2756,7 @@ const US_States_Counties_4326 = {
             },
           },
           Steele: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -93.406784,
               minLat: 43.84812,
@@ -2765,7 +2765,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Red Lake": {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -96.48255,
               minLat: 47.75957,
@@ -2774,7 +2774,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clearwater: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -95.582889,
               minLat: 47.151089,
@@ -2783,7 +2783,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Big Stone": {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -96.835451,
               minLat: 45.176742,
@@ -2792,7 +2792,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Blue Earth": {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -94.371732,
               minLat: 43.847779,
@@ -2801,7 +2801,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -97.147511,
               minLat: 47.498625,
@@ -2810,7 +2810,7 @@ const US_States_Counties_4326 = {
             },
           },
           Redwood: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -95.594817,
               minLat: 44.195038,
@@ -2819,7 +2819,7 @@ const US_States_Counties_4326 = {
             },
           },
           Houston: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -91.730747,
               minLat: 43.500437,
@@ -2828,7 +2828,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carver: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -94.012497,
               minLat: 44.63514,
@@ -2837,7 +2837,7 @@ const US_States_Counties_4326 = {
             },
           },
           Roseau: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -96.405579,
               minLat: 48.538533,
@@ -2848,8 +2848,8 @@ const US_States_Counties_4326 = {
         },
       },
       Maryland: {
-        STUSPS: "MD",
-        STATEFP: "24",
+        sub_id: "MD",
+        sub_num: "24",
         bbox: {
           minLon: -79.487651,
           minLat: 37.886605,
@@ -2858,7 +2858,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Worcester: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -75.661827,
               minLat: 37.994208,
@@ -2867,7 +2867,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allegany: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -79.067559,
               minLat: 39.438273,
@@ -2876,7 +2876,7 @@ const US_States_Counties_4326 = {
             },
           },
           Baltimore: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -76.895596,
               minLat: 39.156623,
@@ -2885,7 +2885,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cecil: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -76.233279,
               minLat: 39.360797,
@@ -2894,7 +2894,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -77.311562,
               minLat: 39.348463,
@@ -2903,7 +2903,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calvert: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -76.70196,
               minLat: 38.305057,
@@ -2912,7 +2912,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dorchester: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -76.438814,
               minLat: 38.05841,
@@ -2921,7 +2921,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Anne Arundel": {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -76.840362,
               minLat: 38.711099,
@@ -2930,7 +2930,7 @@ const US_States_Counties_4326 = {
             },
           },
           Frederick: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -77.677164,
               minLat: 39.22027,
@@ -2939,7 +2939,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Prince George's": {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -77.086391,
               minLat: 38.535372,
@@ -2948,7 +2948,7 @@ const US_States_Counties_4326 = {
             },
           },
           Howard: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -77.187113,
               minLat: 39.103142,
@@ -2957,7 +2957,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garrett: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -79.487651,
               minLat: 39.202107,
@@ -2966,7 +2966,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -77.52768,
               minLat: 38.934343,
@@ -2975,7 +2975,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Queen Anne's": {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -76.436586,
               minLat: 38.807396,
@@ -2984,7 +2984,7 @@ const US_States_Counties_4326 = {
             },
           },
           Talbot: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -76.463946,
               minLat: 38.571895,
@@ -2993,7 +2993,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wicomico: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -75.948454,
               minLat: 38.21596,
@@ -3002,7 +3002,7 @@ const US_States_Counties_4326 = {
             },
           },
           Somerset: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -76.236458,
               minLat: 37.886605,
@@ -3011,7 +3011,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harford: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -76.569449,
               minLat: 39.254104,
@@ -3020,7 +3020,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Mary's": {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -76.874405,
               minLat: 37.888468,
@@ -3029,7 +3029,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kent: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -76.354843,
               minLat: 38.992428,
@@ -3038,7 +3038,7 @@ const US_States_Counties_4326 = {
             },
           },
           Charles: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -77.323009,
               minLat: 38.171328,
@@ -3047,7 +3047,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -78.363484,
               minLat: 39.318415,
@@ -3056,7 +3056,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caroline: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -76.015045,
               minLat: 38.635358,
@@ -3067,8 +3067,8 @@ const US_States_Counties_4326 = {
         },
       },
       "Rhode Island": {
-        STUSPS: "RI",
-        STATEFP: "44",
+        sub_id: "RI",
+        sub_num: "44",
         bbox: {
           minLon: -71.907258,
           minLat: 41.095834,
@@ -3077,7 +3077,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Washington: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -71.907258,
               minLat: 41.095834,
@@ -3086,7 +3086,7 @@ const US_States_Counties_4326 = {
             },
           },
           Providence: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -71.799195,
               minLat: 41.725198,
@@ -3095,7 +3095,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bristol: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -71.365207,
               minLat: 41.638137,
@@ -3104,7 +3104,7 @@ const US_States_Counties_4326 = {
             },
           },
           Newport: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -71.509442,
               minLat: 41.307355,
@@ -3113,7 +3113,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kent: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -71.789704,
               minLat: 41.596847,
@@ -3124,8 +3124,8 @@ const US_States_Counties_4326 = {
         },
       },
       Idaho: {
-        STUSPS: "ID",
-        STATEFP: "16",
+        sub_id: "ID",
+        sub_num: "16",
         bbox: {
           minLon: -117.243027,
           minLat: 41.988182,
@@ -3134,7 +3134,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Jefferson: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -112.697122,
               minLat: 43.62314,
@@ -3143,7 +3143,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kootenai: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -117.042309,
               minLat: 47.366031,
@@ -3152,7 +3152,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gem: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -116.712792,
               minLat: 43.807096,
@@ -3161,7 +3161,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -112.126194,
               minLat: 41.997794,
@@ -3170,7 +3170,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -111.983527,
               minLat: 43.621951,
@@ -3179,7 +3179,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -112.995363,
               minLat: 43.971941,
@@ -3188,7 +3188,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jerome: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -114.617401,
               minLat: 42.494906,
@@ -3197,7 +3197,7 @@ const US_States_Counties_4326 = {
             },
           },
           Custer: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -115.305042,
               minLat: 43.569157,
@@ -3206,7 +3206,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bonneville: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -112.520082,
               minLat: 43.019407,
@@ -3215,7 +3215,7 @@ const US_States_Counties_4326 = {
             },
           },
           Idaho: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -116.794562,
               minLat: 45.107642,
@@ -3224,7 +3224,7 @@ const US_States_Counties_4326 = {
             },
           },
           Teton: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -111.400954,
               minLat: 43.501051,
@@ -3233,7 +3233,7 @@ const US_States_Counties_4326 = {
             },
           },
           Power: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -113.243781,
               minLat: 42.327384,
@@ -3242,7 +3242,7 @@ const US_States_Counties_4326 = {
             },
           },
           Blaine: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -114.996687,
               minLat: 42.615851,
@@ -3251,7 +3251,7 @@ const US_States_Counties_4326 = {
             },
           },
           Elmore: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -116.267904,
               minLat: 42.767657,
@@ -3260,7 +3260,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benewah: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -117.03994,
               minLat: 47.021667,
@@ -3269,7 +3269,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Nez Perce": {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -117.06284,
               minLat: 45.855216,
@@ -3278,7 +3278,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butte: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -113.798441,
               minLat: 43.284561,
@@ -3287,7 +3287,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -116.899711,
               minLat: 44.444402,
@@ -3296,7 +3296,7 @@ const US_States_Counties_4326 = {
             },
           },
           Valley: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -116.213871,
               minLat: 44.147668,
@@ -3305,7 +3305,7 @@ const US_States_Counties_4326 = {
             },
           },
           Minidoka: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -113.932063,
               minLat: 42.518563,
@@ -3314,7 +3314,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bonner: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -117.042137,
               minLat: 47.890127,
@@ -3323,7 +3323,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bingham: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -113.007788,
               minLat: 42.862998,
@@ -3332,7 +3332,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lemhi: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -114.820199,
               minLat: 44.230201,
@@ -3341,7 +3341,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ada: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -116.513683,
               minLat: 43.112255,
@@ -3350,7 +3350,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cassia: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -114.286654,
               minLat: 41.988182,
@@ -3359,7 +3359,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oneida: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -113.000081,
               minLat: 41.997226,
@@ -3368,7 +3368,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clearwater: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -116.456136,
               minLat: 46.265755,
@@ -3377,7 +3377,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boise: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -116.279919,
               minLat: 43.585874,
@@ -3386,7 +3386,7 @@ const US_States_Counties_4326 = {
             },
           },
           Payette: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -116.983857,
               minLat: 43.792651,
@@ -3395,7 +3395,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shoshone: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -116.329601,
               minLat: 46.932857,
@@ -3404,7 +3404,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fremont: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -112.15637,
               minLat: 43.883206,
@@ -3413,7 +3413,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lewis: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -116.713824,
               minLat: 45.991601,
@@ -3422,7 +3422,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bannock: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -112.752341,
               minLat: 42.256276,
@@ -3431,7 +3431,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Twin Falls": {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -115.038174,
               minLat: 41.994238,
@@ -3440,7 +3440,7 @@ const US_States_Counties_4326 = {
             },
           },
           Owyhee: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -117.027014,
               minLat: 41.996115,
@@ -3449,7 +3449,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -117.243027,
               minLat: 44.15103,
@@ -3458,7 +3458,7 @@ const US_States_Counties_4326 = {
             },
           },
           Latah: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -117.039981,
               minLat: 46.541709,
@@ -3467,7 +3467,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gooding: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -115.086902,
               minLat: 42.649298,
@@ -3476,7 +3476,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caribou: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -112.149851,
               minLat: 42.415359,
@@ -3485,7 +3485,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boundary: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -117.032441,
               minLat: 48.499974,
@@ -3494,7 +3494,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Bear Lake": {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -111.63491,
               minLat: 41.999541,
@@ -3503,7 +3503,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -114.5948,
               minLat: 42.764206,
@@ -3512,7 +3512,7 @@ const US_States_Counties_4326 = {
             },
           },
           Camas: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -115.086653,
               minLat: 43.198064,
@@ -3521,7 +3521,7 @@ const US_States_Counties_4326 = {
             },
           },
           Canyon: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -117.032578,
               minLat: 43.29052,
@@ -3532,8 +3532,8 @@ const US_States_Counties_4326 = {
         },
       },
       "New Hampshire": {
-        STUSPS: "NH",
-        STATEFP: "33",
+        sub_id: "NH",
+        sub_num: "33",
         bbox: {
           minLon: -72.557124,
           minLat: 42.697042,
@@ -3542,7 +3542,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Grafton: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -72.335148,
               minLat: 43.528857,
@@ -3551,7 +3551,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sullivan: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -72.452949,
               minLat: 43.128807,
@@ -3560,7 +3560,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cheshire: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -72.557124,
               minLat: 42.712102,
@@ -3569,7 +3569,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coos: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -71.765684,
               minLat: 44.085752,
@@ -3578,7 +3578,7 @@ const US_States_Counties_4326 = {
             },
           },
           Merrimack: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -72.090146,
               minLat: 43.009309,
@@ -3587,7 +3587,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -71.564603,
               minLat: 43.482913,
@@ -3596,7 +3596,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rockingham: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -71.451231,
               minLat: 42.737341,
@@ -3605,7 +3605,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hillsborough: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -72.062222,
               minLat: 42.697042,
@@ -3614,7 +3614,7 @@ const US_States_Counties_4326 = {
             },
           },
           Strafford: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -71.247336,
               minLat: 43.080422,
@@ -3623,7 +3623,7 @@ const US_States_Counties_4326 = {
             },
           },
           Belknap: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -71.731707,
               minLat: 43.284994,
@@ -3634,8 +3634,8 @@ const US_States_Counties_4326 = {
         },
       },
       "North Carolina": {
-        STUSPS: "NC",
-        STATEFP: "37",
+        sub_id: "NC",
+        sub_num: "37",
         bbox: {
           minLon: -84.321821,
           minLat: 33.752878,
@@ -3644,7 +3644,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Chatham: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -79.555804,
               minLat: 35.515039,
@@ -3653,7 +3653,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alamance: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -79.542428,
               minLat: 35.843303,
@@ -3662,7 +3662,7 @@ const US_States_Counties_4326 = {
             },
           },
           Davidson: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -80.487586,
               minLat: 35.504141,
@@ -3671,7 +3671,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -78.546414,
               minLat: 35.81812,
@@ -3680,7 +3680,7 @@ const US_States_Counties_4326 = {
             },
           },
           Robeson: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -79.461506,
               minLat: 34.299342,
@@ -3689,7 +3689,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -81.537599,
               minLat: 35.400078,
@@ -3698,7 +3698,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caldwell: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -81.810516,
               minLat: 35.757147,
@@ -3707,7 +3707,7 @@ const US_States_Counties_4326 = {
             },
           },
           Durham: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -79.016305,
               minLat: 35.86321,
@@ -3716,7 +3716,7 @@ const US_States_Counties_4326 = {
             },
           },
           Person: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -79.153997,
               minLat: 36.235794,
@@ -3725,7 +3725,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -82.9629,
               minLat: 35.678128,
@@ -3734,7 +3734,7 @@ const US_States_Counties_4326 = {
             },
           },
           Randolph: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -80.066842,
               minLat: 35.505661,
@@ -3743,7 +3743,7 @@ const US_States_Counties_4326 = {
             },
           },
           Northampton: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -77.90008,
               minLat: 36.164906,
@@ -3752,7 +3752,7 @@ const US_States_Counties_4326 = {
             },
           },
           Beaufort: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -77.195772,
               minLat: 35.216059,
@@ -3761,7 +3761,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rowan: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -80.771582,
               minLat: 35.501961,
@@ -3770,7 +3770,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cumberland: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -79.112921,
               minLat: 34.834862,
@@ -3779,7 +3779,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richmond: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -80.075676,
               minLat: 34.805155,
@@ -3788,7 +3788,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hoke: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -79.458751,
               minLat: 34.833717,
@@ -3797,7 +3797,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cabarrus: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -80.787091,
               minLat: 35.184998,
@@ -3806,7 +3806,7 @@ const US_States_Counties_4326 = {
             },
           },
           Camden: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -76.541966,
               minLat: 36.085877,
@@ -3815,7 +3815,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stokes: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -80.451925,
               minLat: 36.257184,
@@ -3824,7 +3824,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carteret: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -77.167769,
               minLat: 34.531736,
@@ -3833,7 +3833,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alleghany: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -81.353259,
               minLat: 36.366057,
@@ -3842,7 +3842,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pasquotank: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -76.491424,
               minLat: 36.059517,
@@ -3851,7 +3851,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilkes: {
-            COUNTYFP: "193",
+            sub_num: "193",
             bbox: {
               minLon: -81.545488,
               minLat: 35.994829,
@@ -3860,7 +3860,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alexander: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -81.344034,
               minLat: 35.776594,
@@ -3869,7 +3869,7 @@ const US_States_Counties_4326 = {
             },
           },
           Halifax: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -78.006551,
               minLat: 36.003598,
@@ -3878,7 +3878,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sampson: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -78.672308,
               minLat: 34.553595,
@@ -3887,7 +3887,7 @@ const US_States_Counties_4326 = {
             },
           },
           Watauga: {
-            COUNTYFP: "189",
+            sub_num: "189",
             bbox: {
               minLon: -81.918119,
               minLat: 36.111459,
@@ -3896,7 +3896,7 @@ const US_States_Counties_4326 = {
             },
           },
           Swain: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -83.953392,
               minLat: 35.279107,
@@ -3905,7 +3905,7 @@ const US_States_Counties_4326 = {
             },
           },
           Avery: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -82.081083,
               minLat: 35.911361,
@@ -3914,7 +3914,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cleveland: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -81.768102,
               minLat: 35.163467,
@@ -3923,7 +3923,7 @@ const US_States_Counties_4326 = {
             },
           },
           Moore: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -79.767957,
               minLat: 35.043028,
@@ -3932,7 +3932,7 @@ const US_States_Counties_4326 = {
             },
           },
           Forsyth: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -80.516682,
               minLat: 35.972762,
@@ -3941,7 +3941,7 @@ const US_States_Counties_4326 = {
             },
           },
           Granville: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -78.807623,
               minLat: 36.021826,
@@ -3950,7 +3950,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -78.323991,
               minLat: 36.202633,
@@ -3959,7 +3959,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pamlico: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -76.987579,
               minLat: 34.950434,
@@ -3968,7 +3968,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caswell: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -79.531865,
               minLat: 36.241875,
@@ -3977,7 +3977,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lenoir: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -77.834249,
               minLat: 35.008138,
@@ -3986,7 +3986,7 @@ const US_States_Counties_4326 = {
             },
           },
           Graham: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -84.038881,
               minLat: 35.216893,
@@ -3995,7 +3995,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gates: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -76.950662,
               minLat: 36.296138,
@@ -4004,7 +4004,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rutherford: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -82.280563,
               minLat: 35.180611,
@@ -4013,7 +4013,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "187",
+            sub_num: "187",
             bbox: {
               minLon: -76.847264,
               minLat: 35.697579,
@@ -4022,7 +4022,7 @@ const US_States_Counties_4326 = {
             },
           },
           Anson: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -80.320828,
               minLat: 34.806711,
@@ -4031,7 +4031,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orange: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -79.268434,
               minLat: 35.860776,
@@ -4040,7 +4040,7 @@ const US_States_Counties_4326 = {
             },
           },
           Craven: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -77.473717,
               minLat: 34.808917,
@@ -4049,7 +4049,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilson: {
-            COUNTYFP: "195",
+            sub_num: "195",
             bbox: {
               minLon: -78.192117,
               minLat: 35.583436,
@@ -4058,7 +4058,7 @@ const US_States_Counties_4326 = {
             },
           },
           Duplin: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -78.198642,
               minLat: 34.710201,
@@ -4067,7 +4067,7 @@ const US_States_Counties_4326 = {
             },
           },
           Haywood: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -83.25743,
               minLat: 35.291607,
@@ -4076,7 +4076,7 @@ const US_States_Counties_4326 = {
             },
           },
           Guilford: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -80.046869,
               minLat: 35.899851,
@@ -4085,7 +4085,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -83.363766,
               minLat: 35.001354,
@@ -4094,7 +4094,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iredell: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -81.109507,
               minLat: 35.488473,
@@ -4103,7 +4103,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hertford: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -77.208606,
               minLat: 36.23813,
@@ -4112,7 +4112,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -82.359256,
               minLat: 35.185082,
@@ -4121,7 +4121,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scotland: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -79.692944,
               minLat: 34.630379,
@@ -4130,7 +4130,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harnett: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -79.223021,
               minLat: 35.192012,
@@ -4139,7 +4139,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -79.359912,
               minLat: 35.307161,
@@ -4148,7 +4148,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bladen: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -78.901998,
               minLat: 34.367622,
@@ -4157,7 +4157,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cherokee: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -84.321821,
               minLat: 34.987028,
@@ -4166,7 +4166,7 @@ const US_States_Counties_4326 = {
             },
           },
           Catawba: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -81.535403,
               minLat: 35.54702,
@@ -4175,7 +4175,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tyrrell: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -76.405971,
               minLat: 35.597998,
@@ -4184,7 +4184,7 @@ const US_States_Counties_4326 = {
             },
           },
           Macon: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -83.738129,
               minLat: 34.993301,
@@ -4193,7 +4193,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perquimans: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -76.590107,
               minLat: 36.019036,
@@ -4202,7 +4202,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hyde: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -76.637513,
               minLat: 35.006018,
@@ -4211,7 +4211,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gaston: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -81.4556,
               minLat: 35.148412,
@@ -4220,7 +4220,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnston: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -78.708902,
               minLat: 35.254663,
@@ -4229,7 +4229,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bertie: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -77.327993,
               minLat: 35.811866,
@@ -4238,7 +4238,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stanly: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -80.506171,
               minLat: 35.143081,
@@ -4247,7 +4247,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -77.826744,
               minLat: 35.347324,
@@ -4256,7 +4256,7 @@ const US_States_Counties_4326 = {
             },
           },
           "New Hanover": {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -78.029922,
               minLat: 33.7868,
@@ -4265,7 +4265,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pitt: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -77.700692,
               minLat: 35.327394,
@@ -4274,7 +4274,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pender: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -78.272606,
               minLat: 34.25313,
@@ -4283,7 +4283,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -80.840278,
               minLat: 34.813906,
@@ -4292,7 +4292,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mitchell: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -82.416738,
               minLat: 35.822728,
@@ -4301,7 +4301,7 @@ const US_States_Counties_4326 = {
             },
           },
           Onslow: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -77.680127,
               minLat: 34.399705,
@@ -4310,7 +4310,7 @@ const US_States_Counties_4326 = {
             },
           },
           Edgecombe: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -77.828444,
               minLat: 35.674935,
@@ -4319,7 +4319,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mecklenburg: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -81.058207,
               minLat: 35.001692,
@@ -4328,7 +4328,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yancey: {
-            COUNTYFP: "199",
+            sub_num: "199",
             bbox: {
               minLon: -82.505425,
               minLat: 35.698677,
@@ -4337,7 +4337,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yadkin: {
-            COUNTYFP: "197",
+            sub_num: "197",
             bbox: {
               minLon: -80.881591,
               minLat: 36.046545,
@@ -4346,7 +4346,7 @@ const US_States_Counties_4326 = {
             },
           },
           Burke: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -81.986939,
               minLat: 35.558187,
@@ -4355,7 +4355,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "191",
+            sub_num: "191",
             bbox: {
               minLon: -78.30658,
               minLat: 35.146315,
@@ -4364,7 +4364,7 @@ const US_States_Counties_4326 = {
             },
           },
           Davie: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -80.707824,
               minLat: 35.742758,
@@ -4373,7 +4373,7 @@ const US_States_Counties_4326 = {
             },
           },
           McDowell: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -82.295028,
               minLat: 35.518002,
@@ -4382,7 +4382,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wake: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -78.995048,
               minLat: 35.519458,
@@ -4391,7 +4391,7 @@ const US_States_Counties_4326 = {
             },
           },
           Currituck: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -76.313303,
               minLat: 36.028834,
@@ -4400,7 +4400,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jones: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -77.731026,
               minLat: 34.780323,
@@ -4409,7 +4409,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chowan: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -76.737272,
               minLat: 35.97441,
@@ -4418,7 +4418,7 @@ const US_States_Counties_4326 = {
             },
           },
           Buncombe: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -82.888107,
               minLat: 35.41645,
@@ -4427,7 +4427,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rockingham: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -80.035119,
               minLat: 36.241463,
@@ -4436,7 +4436,7 @@ const US_States_Counties_4326 = {
             },
           },
           Martin: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -77.4092,
               minLat: 35.658848,
@@ -4445,7 +4445,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henderson: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -82.745139,
               minLat: 35.144188,
@@ -4454,7 +4454,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nash: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -78.257164,
               minLat: 35.727754,
@@ -4463,7 +4463,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ashe: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -81.741929,
               minLat: 36.24025,
@@ -4472,7 +4472,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brunswick: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -78.650881,
               minLat: 33.752878,
@@ -4481,7 +4481,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -80.182559,
               minLat: 35.137069,
@@ -4490,7 +4490,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vance: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -78.511224,
               minLat: 36.163637,
@@ -4499,7 +4499,7 @@ const US_States_Counties_4326 = {
             },
           },
           Transylvania: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -83.056934,
               minLat: 35.027394,
@@ -4508,7 +4508,7 @@ const US_States_Counties_4326 = {
             },
           },
           Surry: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -80.973643,
               minLat: 36.236305,
@@ -4517,7 +4517,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -84.005821,
               minLat: 34.986628,
@@ -4526,7 +4526,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dare: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -76.027479,
               minLat: 35.140565,
@@ -4535,7 +4535,7 @@ const US_States_Counties_4326 = {
             },
           },
           Columbus: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -79.071211,
               minLat: 33.944365,
@@ -4546,8 +4546,8 @@ const US_States_Counties_4326 = {
         },
       },
       Vermont: {
-        STUSPS: "VT",
-        STATEFP: "50",
+        sub_id: "VT",
+        sub_num: "50",
         bbox: {
           minLon: -73.437905,
           minLat: 42.726933,
@@ -4556,7 +4556,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Franklin: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -73.259009,
               minLat: 44.633214,
@@ -4565,7 +4565,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orange: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -72.791775,
               minLat: 43.771261,
@@ -4574,7 +4574,7 @@ const US_States_Counties_4326 = {
             },
           },
           Essex: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -71.974825,
               minLat: 44.34797,
@@ -4583,7 +4583,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rutland: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -73.431229,
               minLat: 43.290551,
@@ -4592,7 +4592,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lamoille: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -72.927279,
               minLat: 44.398297,
@@ -4601,7 +4601,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caledonia: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -72.434683,
               minLat: 44.155989,
@@ -4610,7 +4610,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bennington: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -73.290944,
               minLat: 42.73929,
@@ -4619,7 +4619,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Grand Isle": {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -73.390231,
               minLat: 44.564264,
@@ -4628,7 +4628,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chittenden: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -73.362856,
               minLat: 44.161412,
@@ -4637,7 +4637,7 @@ const US_States_Counties_4326 = {
             },
           },
           Windsor: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -72.980246,
               minLat: 43.22258,
@@ -4646,7 +4646,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -72.952204,
               minLat: 44.01281,
@@ -4655,7 +4655,7 @@ const US_States_Counties_4326 = {
             },
           },
           Addison: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -73.437905,
               minLat: 43.753084,
@@ -4664,7 +4664,7 @@ const US_States_Counties_4326 = {
             },
           },
           Windham: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -73.008133,
               minLat: 42.726933,
@@ -4673,7 +4673,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orleans: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -72.579075,
               minLat: 44.542489,
@@ -4684,8 +4684,8 @@ const US_States_Counties_4326 = {
         },
       },
       Connecticut: {
-        STUSPS: "CT",
-        STATEFP: "09",
+        sub_id: "CT",
+        sub_num: "09",
         bbox: {
           minLon: -73.727775,
           minLat: 40.950943,
@@ -4694,7 +4694,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Middlesex: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -72.752941,
               minLat: 41.177774,
@@ -4703,7 +4703,7 @@ const US_States_Counties_4326 = {
             },
           },
           "New London": {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -72.46673,
               minLat: 41.215004,
@@ -4712,7 +4712,7 @@ const US_States_Counties_4326 = {
             },
           },
           "New Haven": {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -73.327114,
               minLat: 41.087108,
@@ -4721,7 +4721,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tolland: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -72.51833,
               minLat: 41.588652,
@@ -4730,7 +4730,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hartford: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -73.029537,
               minLat: 41.544725,
@@ -4739,7 +4739,7 @@ const US_States_Counties_4326 = {
             },
           },
           Windham: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -72.253201,
               minLat: 41.634328,
@@ -4748,7 +4748,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fairfield: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -73.727775,
               minLat: 40.950943,
@@ -4757,7 +4757,7 @@ const US_States_Counties_4326 = {
             },
           },
           Litchfield: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -73.51808,
               minLat: 41.467415,
@@ -4766,7 +4766,7 @@ const US_States_Counties_4326 = {
             },
           },
           Capitol: {
-            COUNTYFP: "110",
+            sub_num: "110",
             bbox: {
               minLon: -72.953849,
               minLat: 41.544725,
@@ -4775,7 +4775,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Greater Bridgeport": {
-            COUNTYFP: "120",
+            sub_num: "120",
             bbox: {
               minLon: -73.368811,
               minLat: 41.01788,
@@ -4784,7 +4784,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Lower Connecticut River Valley": {
-            COUNTYFP: "130",
+            sub_num: "130",
             bbox: {
               minLon: -72.752941,
               minLat: 41.177774,
@@ -4793,7 +4793,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Naugatuck Valley": {
-            COUNTYFP: "140",
+            sub_num: "140",
             bbox: {
               minLon: -73.327114,
               minLat: 41.254596,
@@ -4802,7 +4802,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Northeastern Connecticut": {
-            COUNTYFP: "150",
+            sub_num: "150",
             bbox: {
               minLon: -72.234898,
               minLat: 41.505704,
@@ -4811,7 +4811,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Northwest Hills": {
-            COUNTYFP: "160",
+            sub_num: "160",
             bbox: {
               minLon: -73.51808,
               minLat: 41.504409,
@@ -4820,7 +4820,7 @@ const US_States_Counties_4326 = {
             },
           },
           "South Central Connecticut": {
-            COUNTYFP: "170",
+            sub_num: "170",
             bbox: {
               minLon: -73.122453,
               minLat: 41.087108,
@@ -4829,7 +4829,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Southeastern Connecticut": {
-            COUNTYFP: "180",
+            sub_num: "180",
             bbox: {
               minLon: -72.46673,
               minLat: 41.230711,
@@ -4838,7 +4838,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Western Connecticut": {
-            COUNTYFP: "190",
+            sub_num: "190",
             bbox: {
               minLon: -73.727775,
               minLat: 40.950943,
@@ -4849,8 +4849,8 @@ const US_States_Counties_4326 = {
         },
       },
       Delaware: {
-        STUSPS: "DE",
-        STATEFP: "10",
+        sub_id: "DE",
+        sub_num: "10",
         bbox: {
           minLon: -75.789023,
           minLat: 38.451132,
@@ -4859,7 +4859,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           "New Castle": {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -75.789023,
               minLat: 39.290281,
@@ -4868,7 +4868,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sussex: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -75.722797,
               minLat: 38.451132,
@@ -4877,7 +4877,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kent: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -75.760074,
               minLat: 38.829851,
@@ -4888,8 +4888,8 @@ const US_States_Counties_4326 = {
         },
       },
       "New Mexico": {
-        STUSPS: "NM",
-        STATEFP: "35",
+        sub_id: "NM",
+        sub_num: "35",
         bbox: {
           minLon: -109.050431,
           minLat: 31.33216,
@@ -4898,7 +4898,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           "De Baca": {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -104.893377,
               minLat: 33.995413,
@@ -4907,7 +4907,7 @@ const US_States_Counties_4326 = {
             },
           },
           Otero: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -106.377492,
               minLat: 32.000191,
@@ -4916,7 +4916,7 @@ const US_States_Counties_4326 = {
             },
           },
           Catron: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -109.047578,
               minLat: 33.200873,
@@ -4925,7 +4925,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -104.009342,
               minLat: 35.739433,
@@ -4934,7 +4934,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Miguel": {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -105.722205,
               minLat: 35.041605,
@@ -4943,7 +4943,7 @@ const US_States_Counties_4326 = {
             },
           },
           Taos: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -106.058364,
               minLat: 36.013014,
@@ -4952,7 +4952,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -109.047843,
               minLat: 31.863614,
@@ -4961,7 +4961,7 @@ const US_States_Counties_4326 = {
             },
           },
           Colfax: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -105.377745,
               minLat: 36.217857,
@@ -4970,7 +4970,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sandoval: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -107.626511,
               minLat: 35.197762,
@@ -4979,7 +4979,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cibola: {
-            COUNTYFP: "006",
+            sub_num: "006",
             bbox: {
               minLon: -109.046136,
               minLat: 34.57782,
@@ -4988,7 +4988,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Do\u00c3\u00b1a Ana": {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -107.299673,
               minLat: 31.783638,
@@ -4997,7 +4997,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harding: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -104.439215,
               minLat: 35.389533,
@@ -5006,7 +5006,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hidalgo: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -109.050431,
               minLat: 31.33216,
@@ -5015,7 +5015,7 @@ const US_States_Counties_4326 = {
             },
           },
           Socorro: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -107.726695,
               minLat: 33.475422,
@@ -5024,7 +5024,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Los Alamos": {
-            COUNTYFP: "028",
+            sub_num: "028",
             bbox: {
               minLon: -106.418855,
               minLat: 35.754274,
@@ -5033,7 +5033,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mora: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -105.720529,
               minLat: 35.754197,
@@ -5042,7 +5042,7 @@ const US_States_Counties_4326 = {
             },
           },
           Eddy: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -104.851739,
               minLat: 31.997486,
@@ -5051,7 +5051,7 @@ const US_States_Counties_4326 = {
             },
           },
           Curry: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -103.740066,
               minLat: 34.302648,
@@ -5060,7 +5060,7 @@ const US_States_Counties_4326 = {
             },
           },
           Roosevelt: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -103.949228,
               minLat: 33.570117,
@@ -5069,7 +5069,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Juan": {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -109.046218,
               minLat: 36.000288,
@@ -5078,7 +5078,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -106.373802,
               minLat: 33.131742,
@@ -5087,7 +5087,7 @@ const US_States_Counties_4326 = {
             },
           },
           Guadalupe: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -105.313072,
               minLat: 34.347043,
@@ -5096,7 +5096,7 @@ const US_States_Counties_4326 = {
             },
           },
           Torrance: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -106.471182,
               minLat: 34.259772,
@@ -5105,7 +5105,7 @@ const US_States_Counties_4326 = {
             },
           },
           Luna: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -108.229956,
               minLat: 31.783641,
@@ -5114,7 +5114,7 @@ const US_States_Counties_4326 = {
             },
           },
           McKinley: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -109.046954,
               minLat: 34.959081,
@@ -5123,7 +5123,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Rio Arriba": {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -107.626537,
               minLat: 35.930636,
@@ -5132,7 +5132,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lea: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -103.814573,
               minLat: 32.000206,
@@ -5141,7 +5141,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chaves: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -105.35401,
               minLat: 32.51877,
@@ -5150,7 +5150,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Santa Fe": {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -106.250499,
               minLat: 35.040003,
@@ -5159,7 +5159,7 @@ const US_States_Counties_4326 = {
             },
           },
           Quay: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -104.129461,
               minLat: 34.60467,
@@ -5168,7 +5168,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bernalillo: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -107.197244,
               minLat: 34.869277,
@@ -5177,7 +5177,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sierra: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -108.000619,
               minLat: 32.605304,
@@ -5186,7 +5186,7 @@ const US_States_Counties_4326 = {
             },
           },
           Valencia: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -107.204381,
               minLat: 34.437054,
@@ -5197,8 +5197,8 @@ const US_States_Counties_4326 = {
         },
       },
       California: {
-        STUSPS: "CA",
-        STATEFP: "06",
+        sub_id: "CA",
+        sub_num: "06",
         bbox: {
           minLon: -124.482003,
           minLat: 32.529508,
@@ -5207,7 +5207,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Sierra: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -121.058203,
               minLat: 39.391558,
@@ -5216,7 +5216,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sacramento: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -121.862622,
               minLat: 38.018421,
@@ -5225,7 +5225,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Santa Barbara": {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -120.734382,
               minLat: 33.411024,
@@ -5234,7 +5234,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calaveras: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -120.9955,
               minLat: 37.831858,
@@ -5243,7 +5243,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ventura: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -119.636302,
               minLat: 33.163493,
@@ -5252,7 +5252,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Los Angeles": {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -118.951721,
               minLat: 32.75004,
@@ -5261,7 +5261,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sonoma: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -123.632497,
               minLat: 38.07326,
@@ -5270,7 +5270,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kings: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -120.315068,
               minLat: 35.78858,
@@ -5279,7 +5279,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Diego": {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -117.611081,
               minLat: 32.529508,
@@ -5288,7 +5288,7 @@ const US_States_Counties_4326 = {
             },
           },
           Placer: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -121.484442,
               minLat: 38.711395,
@@ -5297,7 +5297,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Francisco": {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -123.173825,
               minLat: 37.63983,
@@ -5306,7 +5306,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marin: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -123.134523,
               minLat: 37.815102,
@@ -5315,7 +5315,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mariposa: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -120.395441,
               minLat: 37.183108,
@@ -5324,7 +5324,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lassen: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -121.332338,
               minLat: 39.707658,
@@ -5333,7 +5333,7 @@ const US_States_Counties_4326 = {
             },
           },
           Napa: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -122.646616,
               minLat: 38.154933,
@@ -5342,7 +5342,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shasta: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -123.068838,
               minLat: 40.285375,
@@ -5351,7 +5351,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monterey: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -122.051878,
               minLat: 35.788977,
@@ -5360,7 +5360,7 @@ const US_States_Counties_4326 = {
             },
           },
           Trinity: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -123.623891,
               minLat: 39.977015,
@@ -5369,7 +5369,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mendocino: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -124.134889,
               minLat: 38.758119,
@@ -5378,7 +5378,7 @@ const US_States_Counties_4326 = {
             },
           },
           Inyo: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -118.790031,
               minLat: 35.786579,
@@ -5387,7 +5387,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mono: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -119.651509,
               minLat: 37.462588,
@@ -5396,7 +5396,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tuolumne: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -120.653274,
               minLat: 37.633704,
@@ -5405,7 +5405,7 @@ const US_States_Counties_4326 = {
             },
           },
           Solano: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -122.40697,
               minLat: 38.031721,
@@ -5414,7 +5414,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Bernardino": {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -117.802539,
               minLat: 33.87089,
@@ -5423,7 +5423,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Contra Costa": {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -122.441584,
               minLat: 37.718531,
@@ -5432,7 +5432,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alpine: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -120.073331,
               minLat: 38.32688,
@@ -5441,7 +5441,7 @@ const US_States_Counties_4326 = {
             },
           },
           "El Dorado": {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -121.141595,
               minLat: 38.502349,
@@ -5450,7 +5450,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yolo: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -122.422048,
               minLat: 38.313048,
@@ -5459,7 +5459,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yuba: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -121.636368,
               minLat: 38.918348,
@@ -5468,7 +5468,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Benito": {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -121.644001,
               minLat: 36.196848,
@@ -5477,7 +5477,7 @@ const US_States_Counties_4326 = {
             },
           },
           Humboldt: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -124.482003,
               minLat: 40.001248,
@@ -5486,7 +5486,7 @@ const US_States_Counties_4326 = {
             },
           },
           Riverside: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -117.676684,
               minLat: 33.425888,
@@ -5495,7 +5495,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kern: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -120.194369,
               minLat: 34.788655,
@@ -5504,7 +5504,7 @@ const US_States_Counties_4326 = {
             },
           },
           Colusa: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -122.78509,
               minLat: 38.92384,
@@ -5513,7 +5513,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Del Norte": {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -124.440707,
               minLat: 41.380776,
@@ -5522,7 +5522,7 @@ const US_States_Counties_4326 = {
             },
           },
           Modoc: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -121.457213,
               minLat: 41.183484,
@@ -5531,7 +5531,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fresno: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -120.918731,
               minLat: 35.906914,
@@ -5540,7 +5540,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madera: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -120.545536,
               minLat: 36.763047,
@@ -5549,7 +5549,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Santa Clara": {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -122.202653,
               minLat: 36.892976,
@@ -5558,7 +5558,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tehama: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -123.066009,
               minLat: 39.797385,
@@ -5567,7 +5567,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Joaquin": {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -121.585078,
               minLat: 37.481783,
@@ -5576,7 +5576,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alameda: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -122.373782,
               minLat: 37.454186,
@@ -5585,7 +5585,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nevada: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -121.279784,
               minLat: 39.00516,
@@ -5594,7 +5594,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butte: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -122.069431,
               minLat: 39.295621,
@@ -5603,7 +5603,7 @@ const US_States_Counties_4326 = {
             },
           },
           Merced: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -121.248647,
               minLat: 36.740381,
@@ -5612,7 +5612,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tulare: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -119.573194,
               minLat: 35.788935,
@@ -5621,7 +5621,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stanislaus: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -121.486775,
               minLat: 37.134774,
@@ -5630,7 +5630,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orange: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -118.147806,
               minLat: 33.333992,
@@ -5639,7 +5639,7 @@ const US_States_Counties_4326 = {
             },
           },
           Imperial: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -116.106272,
               minLat: 32.618441,
@@ -5648,7 +5648,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sutter: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -121.948294,
               minLat: 38.734598,
@@ -5657,7 +5657,7 @@ const US_States_Counties_4326 = {
             },
           },
           Amador: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -121.02771,
               minLat: 38.217951,
@@ -5666,7 +5666,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -123.094216,
               minLat: 38.67078,
@@ -5675,7 +5675,7 @@ const US_States_Counties_4326 = {
             },
           },
           Plumas: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -121.49788,
               minLat: 39.597264,
@@ -5684,7 +5684,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Mateo": {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -122.588177,
               minLat: 37.053858,
@@ -5693,7 +5693,7 @@ const US_States_Counties_4326 = {
             },
           },
           Siskiyou: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -123.719174,
               minLat: 40.992193,
@@ -5702,7 +5702,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Santa Cruz": {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -122.317682,
               minLat: 36.8196,
@@ -5711,7 +5711,7 @@ const US_States_Counties_4326 = {
             },
           },
           Glenn: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -122.938413,
               minLat: 39.382946,
@@ -5720,7 +5720,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Luis Obispo": {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -121.438176,
               minLat: 34.897475,
@@ -5731,8 +5731,8 @@ const US_States_Counties_4326 = {
         },
       },
       "New Jersey": {
-        STUSPS: "NJ",
-        STATEFP: "34",
+        sub_id: "NJ",
+        sub_num: "34",
         bbox: {
           minLon: -75.563586,
           minLat: 38.788657,
@@ -5741,7 +5741,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Sussex: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -74.992015,
               minLat: 40.899165,
@@ -5750,7 +5750,7 @@ const US_States_Counties_4326 = {
             },
           },
           Camden: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -75.139019,
               minLat: 39.608352,
@@ -5759,7 +5759,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -74.463291,
               minLat: 40.591925,
@@ -5768,7 +5768,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Cape May": {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -75.168462,
               minLat: 38.788657,
@@ -5777,7 +5777,7 @@ const US_States_Counties_4326 = {
             },
           },
           Burlington: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -75.060639,
               minLat: 39.541198,
@@ -5786,7 +5786,7 @@ const US_States_Counties_4326 = {
             },
           },
           Middlesex: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -74.631036,
               minLat: 40.251122,
@@ -5795,7 +5795,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hudson: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -74.166087,
               minLat: 40.64199,
@@ -5804,7 +5804,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monmouth: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -74.614576,
               minLat: 40.07913,
@@ -5813,7 +5813,7 @@ const US_States_Counties_4326 = {
             },
           },
           Somerset: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -74.797881,
               minLat: 40.373733,
@@ -5822,7 +5822,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ocean: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -74.553105,
               minLat: 39.475198,
@@ -5831,7 +5831,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gloucester: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -75.429061,
               minLat: 39.514967,
@@ -5840,7 +5840,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cumberland: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -75.444751,
               minLat: 39.056179,
@@ -5849,7 +5849,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morris: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -74.889819,
               minLat: 40.648447,
@@ -5858,7 +5858,7 @@ const US_States_Counties_4326 = {
             },
           },
           Essex: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -74.377409,
               minLat: 40.674368,
@@ -5867,7 +5867,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bergen: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -74.272226,
               minLat: 40.76159,
@@ -5876,7 +5876,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -75.203921,
               minLat: 40.591776,
@@ -5885,7 +5885,7 @@ const US_States_Counties_4326 = {
             },
           },
           Passaic: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -74.503212,
               minLat: 40.819938,
@@ -5894,7 +5894,7 @@ const US_States_Counties_4326 = {
             },
           },
           Salem: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -75.563586,
               minLat: 39.355089,
@@ -5903,7 +5903,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hunterdon: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -75.195496,
               minLat: 40.339427,
@@ -5912,7 +5912,7 @@ const US_States_Counties_4326 = {
             },
           },
           Atlantic: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -74.985271,
               minLat: 39.288558,
@@ -5921,7 +5921,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mercer: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -74.942909,
               minLat: 40.136771,
@@ -5932,8 +5932,8 @@ const US_States_Counties_4326 = {
         },
       },
       Wisconsin: {
-        STUSPS: "WI",
-        STATEFP: "55",
+        sub_id: "WI",
+        sub_num: "55",
         bbox: {
           minLon: -92.889433,
           minLat: 42.49172,
@@ -5942,7 +5942,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Sauk: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -90.312444,
               minLat: 43.145291,
@@ -5951,7 +5951,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pierce: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -92.808415,
               minLat: 44.53946,
@@ -5960,7 +5960,7 @@ const US_States_Counties_4326 = {
             },
           },
           "La Crosse": {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -91.425188,
               minLat: 43.724895,
@@ -5969,7 +5969,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dunn: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -92.157072,
               minLat: 44.683612,
@@ -5978,7 +5978,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -91.166245,
               minLat: 44.070873,
@@ -5987,7 +5987,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Green Lake": {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -89.245594,
               minLat: 43.631721,
@@ -5996,7 +5996,7 @@ const US_States_Counties_4326 = {
             },
           },
           Walworth: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -88.778877,
               minLat: 42.491913,
@@ -6005,7 +6005,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vernon: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -91.273316,
               minLat: 43.422271,
@@ -6014,7 +6014,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kenosha: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -88.305891,
               minLat: 42.49172,
@@ -6023,7 +6023,7 @@ const US_States_Counties_4326 = {
             },
           },
           Milwaukee: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -88.069947,
               minLat: 42.842117,
@@ -6032,7 +6032,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ashland: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -90.928341,
               minLat: 45.980505,
@@ -6041,7 +6041,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oneida: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -90.045258,
               minLat: 45.464439,
@@ -6050,7 +6050,7 @@ const US_States_Counties_4326 = {
             },
           },
           Waushara: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -89.598117,
               minLat: 43.982,
@@ -6059,7 +6059,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washburn: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -92.050647,
               minLat: 45.637604,
@@ -6068,7 +6068,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lafayette: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -90.426912,
               minLat: 42.505649,
@@ -6077,7 +6077,7 @@ const US_States_Counties_4326 = {
             },
           },
           Waupaca: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -89.224813,
               minLat: 44.242556,
@@ -6086,7 +6086,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vilas: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -90.043958,
               minLat: 45.856579,
@@ -6095,7 +6095,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ozaukee: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -88.063916,
               minLat: 43.190816,
@@ -6104,7 +6104,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sheboygan: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -88.162274,
               minLat: 43.541433,
@@ -6113,7 +6113,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -88.419267,
               minLat: 43.19187,
@@ -6122,7 +6122,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bayfield: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -91.553888,
               minLat: 46.154604,
@@ -6131,7 +6131,7 @@ const US_States_Counties_4326 = {
             },
           },
           Portage: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -89.845293,
               minLat: 44.243393,
@@ -6140,7 +6140,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Fond du Lac": {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -88.886052,
               minLat: 43.542844,
@@ -6149,7 +6149,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kewaunee: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -87.766026,
               minLat: 44.327162,
@@ -6158,7 +6158,7 @@ const US_States_Counties_4326 = {
             },
           },
           Langlade: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -89.425985,
               minLat: 45.028917,
@@ -6167,7 +6167,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rock: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -89.369227,
               minLat: 42.491913,
@@ -6176,7 +6176,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -91.215062,
               minLat: 42.98817,
@@ -6185,7 +6185,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Eau Claire": {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -91.650491,
               minLat: 44.595854,
@@ -6194,7 +6194,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oconto: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -88.680066,
               minLat: 44.67236,
@@ -6203,7 +6203,7 @@ const US_States_Counties_4326 = {
             },
           },
           Forest: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -89.047865,
               minLat: 45.37701,
@@ -6212,7 +6212,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sawyer: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -91.551805,
               minLat: 45.63751,
@@ -6221,7 +6221,7 @@ const US_States_Counties_4326 = {
             },
           },
           Trempealeau: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -91.612994,
               minLat: 43.984166,
@@ -6230,7 +6230,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -92.889433,
               minLat: 45.209184,
@@ -6239,7 +6239,7 @@ const US_States_Counties_4326 = {
             },
           },
           Green: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -89.838637,
               minLat: 42.500078,
@@ -6248,7 +6248,7 @@ const US_States_Counties_4326 = {
             },
           },
           Outagamie: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -88.73977,
               minLat: 44.241947,
@@ -6257,7 +6257,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -90.026378,
               minLat: 43.641046,
@@ -6266,7 +6266,7 @@ const US_States_Counties_4326 = {
             },
           },
           Taylor: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -90.925981,
               minLat: 45.030871,
@@ -6275,7 +6275,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marathon: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -90.316982,
               minLat: 44.681235,
@@ -6284,7 +6284,7 @@ const US_States_Counties_4326 = {
             },
           },
           Florence: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -88.6842,
               minLat: 45.713063,
@@ -6293,7 +6293,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barron: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -92.156856,
               minLat: 45.206538,
@@ -6302,7 +6302,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iron: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -90.55228,
               minLat: 45.981349,
@@ -6311,7 +6311,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -90.978288,
               minLat: 43.725334,
@@ -6320,7 +6320,7 @@ const US_States_Counties_4326 = {
             },
           },
           Racine: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -88.30806,
               minLat: 42.610817,
@@ -6329,7 +6329,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shawano: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -89.22437,
               minLat: 44.584746,
@@ -6338,7 +6338,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dodge: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -89.009569,
               minLat: 43.194697,
@@ -6347,7 +6347,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dane: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -89.838575,
               minLat: 42.845036,
@@ -6356,7 +6356,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calumet: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -88.404609,
               minLat: 43.891511,
@@ -6365,7 +6365,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -89.013584,
               minLat: 42.842376,
@@ -6374,7 +6374,7 @@ const US_States_Counties_4326 = {
             },
           },
           Burnett: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -92.887067,
               minLat: 45.639742,
@@ -6383,7 +6383,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chippewa: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -91.666419,
               minLat: 44.855951,
@@ -6392,7 +6392,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -92.293705,
               minLat: 46.156926,
@@ -6401,7 +6401,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marquette: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -89.599674,
               minLat: 43.642302,
@@ -6410,7 +6410,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brown: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -88.252562,
               minLat: 44.24038,
@@ -6419,7 +6419,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richland: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -90.671652,
               minLat: 43.164463,
@@ -6428,7 +6428,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wood: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -90.318032,
               minLat: 44.247678,
@@ -6437,7 +6437,7 @@ const US_States_Counties_4326 = {
             },
           },
           Winnebago: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -88.886758,
               minLat: 43.892977,
@@ -6446,7 +6446,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -90.046531,
               minLat: 45.119098,
@@ -6455,7 +6455,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pepin: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -92.316169,
               minLat: 44.407336,
@@ -6464,7 +6464,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iowa: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -90.430042,
               minLat: 42.812862,
@@ -6473,7 +6473,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marinette: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -88.428102,
               minLat: 44.764367,
@@ -6482,7 +6482,7 @@ const US_States_Counties_4326 = {
             },
           },
           Price: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -90.67981,
               minLat: 45.376898,
@@ -6491,7 +6491,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -91.156893,
               minLat: 42.507173,
@@ -6500,7 +6500,7 @@ const US_States_Counties_4326 = {
             },
           },
           Columbia: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -89.785809,
               minLat: 43.280832,
@@ -6509,7 +6509,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -90.923395,
               minLat: 44.422102,
@@ -6518,7 +6518,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Croix": {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -92.803124,
               minLat: 44.8577,
@@ -6527,7 +6527,7 @@ const US_States_Counties_4326 = {
             },
           },
           Juneau: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -90.313262,
               minLat: 43.64092,
@@ -6536,7 +6536,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rusk: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -91.541323,
               minLat: 45.291463,
@@ -6545,7 +6545,7 @@ const US_States_Counties_4326 = {
             },
           },
           Waukesha: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -88.542277,
               minLat: 42.841915,
@@ -6554,7 +6554,7 @@ const US_States_Counties_4326 = {
             },
           },
           Buffalo: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -92.084047,
               minLat: 44.025315,
@@ -6563,7 +6563,7 @@ const US_States_Counties_4326 = {
             },
           },
           Menominee: {
-            COUNTYFP: "078",
+            sub_num: "078",
             bbox: {
               minLon: -88.98246,
               minLat: 44.855406,
@@ -6572,7 +6572,7 @@ const US_States_Counties_4326 = {
             },
           },
           Manitowoc: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -88.04378,
               minLat: 43.891585,
@@ -6581,7 +6581,7 @@ const US_States_Counties_4326 = {
             },
           },
           Door: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -87.762476,
               minLat: 44.675192,
@@ -6592,8 +6592,8 @@ const US_States_Counties_4326 = {
         },
       },
       Oregon: {
-        STUSPS: "OR",
-        STATEFP: "41",
+        sub_id: "OR",
+        sub_num: "41",
         bbox: {
           minLon: -124.703541,
           minLat: 41.992082,
@@ -6602,7 +6602,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Wallowa: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -117.977745,
               minLat: 45.078088,
@@ -6611,7 +6611,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crook: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -121.108537,
               minLat: 43.697376,
@@ -6620,7 +6620,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clackamas: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -122.868098,
               minLat: 44.885714,
@@ -6629,7 +6629,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clatsop: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -124.159546,
               minLat: 45.77308,
@@ -6638,7 +6638,7 @@ const US_States_Counties_4326 = {
             },
           },
           Klamath: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -122.289972,
               minLat: 41.992988,
@@ -6647,7 +6647,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morrow: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -120.006555,
               minLat: 44.994534,
@@ -6656,7 +6656,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -123.231327,
               minLat: 42.003084,
@@ -6665,7 +6665,7 @@ const US_States_Counties_4326 = {
             },
           },
           Multnomah: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -122.929197,
               minLat: 45.432657,
@@ -6674,7 +6674,7 @@ const US_States_Counties_4326 = {
             },
           },
           Baker: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -118.519477,
               minLat: 44.25509,
@@ -6683,7 +6683,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benton: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -123.816833,
               minLat: 44.276694,
@@ -6692,7 +6692,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -123.180944,
               minLat: 44.683836,
@@ -6701,7 +6701,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -119.672228,
               minLat: 43.958569,
@@ -6710,7 +6710,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coos: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -124.552373,
               minLat: 42.666684,
@@ -6719,7 +6719,7 @@ const US_States_Counties_4326 = {
             },
           },
           Linn: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -123.260836,
               minLat: 44.199915,
@@ -6728,7 +6728,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -121.3513,
               minLat: 41.992586,
@@ -6737,7 +6737,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wheeler: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -120.495648,
               minLat: 44.30662,
@@ -6746,7 +6746,7 @@ const US_States_Counties_4326 = {
             },
           },
           Malheur: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -118.233908,
               minLat: 41.997001,
@@ -6755,7 +6755,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tillamook: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -124.095833,
               minLat: 45.043986,
@@ -6764,7 +6764,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lane: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -124.230178,
               minLat: 43.437395,
@@ -6773,7 +6773,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -118.697766,
               minLat: 44.956326,
@@ -6782,7 +6782,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -124.290236,
               minLat: 42.699297,
@@ -6791,7 +6791,7 @@ const US_States_Counties_4326 = {
             },
           },
           Columbia: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -123.367438,
               minLat: 45.720946,
@@ -6800,7 +6800,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Hood River": {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -121.922285,
               minLat: 45.257377,
@@ -6809,7 +6809,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harney: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -119.943779,
               minLat: 41.992082,
@@ -6818,7 +6818,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -124.187674,
               minLat: 44.275094,
@@ -6827,7 +6827,7 @@ const US_States_Counties_4326 = {
             },
           },
           Josephine: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -124.041983,
               minLat: 41.995094,
@@ -6836,7 +6836,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gilliam: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -120.653503,
               minLat: 45.065224,
@@ -6845,7 +6845,7 @@ const US_States_Counties_4326 = {
             },
           },
           Deschutes: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -122.002362,
               minLat: 43.611104,
@@ -6854,7 +6854,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -123.725771,
               minLat: 44.719415,
@@ -6863,7 +6863,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wasco: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -121.80572,
               minLat: 44.821535,
@@ -6872,7 +6872,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sherman: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -121.031202,
               minLat: 45.083455,
@@ -6881,7 +6881,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yamhill: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -123.785567,
               minLat: 45.074856,
@@ -6890,7 +6890,7 @@ const US_States_Counties_4326 = {
             },
           },
           Curry: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -124.703541,
               minLat: 41.99558,
@@ -6899,7 +6899,7 @@ const US_States_Counties_4326 = {
             },
           },
           Umatilla: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -119.435024,
               minLat: 44.995877,
@@ -6908,7 +6908,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -121.849599,
               minLat: 44.390265,
@@ -6917,7 +6917,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -123.48608,
               minLat: 45.317192,
@@ -6928,8 +6928,8 @@ const US_States_Counties_4326 = {
         },
       },
       Nebraska: {
-        STUSPS: "NE",
-        STATEFP: "31",
+        sub_id: "NE",
+        sub_num: "31",
         bbox: {
           minLon: -104.053514,
           minLat: 39.999932,
@@ -6938,7 +6938,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Cuming: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -97.019935,
               minLat: 41.742015,
@@ -6947,7 +6947,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lancaster: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -96.91393,
               minLat: 40.523013,
@@ -6956,7 +6956,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nuckolls: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -98.274051,
               minLat: 40.002023,
@@ -6965,7 +6965,7 @@ const US_States_Counties_4326 = {
             },
           },
           Keith: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -102.055955,
               minLat: 41.002673,
@@ -6974,7 +6974,7 @@ const US_States_Counties_4326 = {
             },
           },
           Phelps: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -99.644416,
               minLat: 40.350535,
@@ -6983,7 +6983,7 @@ const US_States_Counties_4326 = {
             },
           },
           Webster: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -98.726835,
               minLat: 40.002205,
@@ -6992,7 +6992,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dakota: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -96.726661,
               minLat: 42.276351,
@@ -7001,7 +7001,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boyd: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -99.257578,
               minLat: 42.761207,
@@ -7010,7 +7010,7 @@ const US_States_Counties_4326 = {
             },
           },
           Thomas: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -100.846129,
               minLat: 41.739632,
@@ -7019,7 +7019,7 @@ const US_States_Counties_4326 = {
             },
           },
           Holt: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -99.257039,
               minLat: 42.087895,
@@ -7028,7 +7028,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brown: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -100.198575,
               minLat: 42.085294,
@@ -7037,7 +7037,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Keya Paha": {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -100.198536,
               minLat: 42.717626,
@@ -7046,7 +7046,7 @@ const US_States_Counties_4326 = {
             },
           },
           Banner: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -104.052899,
               minLat: 41.39293,
@@ -7055,7 +7055,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greeley: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -98.752225,
               minLat: 41.393637,
@@ -7064,7 +7064,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -97.369251,
               minLat: 40.001179,
@@ -7073,7 +7073,7 @@ const US_States_Counties_4326 = {
             },
           },
           Saline: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -97.368805,
               minLat: 40.349585,
@@ -7082,7 +7082,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dundy: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -102.051972,
               minLat: 40.002385,
@@ -7091,7 +7091,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Scotts Bluff": {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -104.053008,
               minLat: 41.697823,
@@ -7100,7 +7100,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -98.724413,
               minLat: 40.350064,
@@ -7109,7 +7109,7 @@ const US_States_Counties_4326 = {
             },
           },
           Otoe: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -96.463872,
               minLat: 40.52277,
@@ -7118,7 +7118,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kearney: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -99.17951,
               minLat: 40.350303,
@@ -7127,7 +7127,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hitchcock: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -101.325391,
               minLat: 40.002144,
@@ -7136,7 +7136,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kimball: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -104.053514,
               minLat: 41.001406,
@@ -7145,7 +7145,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nemaha: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -96.067091,
               minLat: 40.261216,
@@ -7154,7 +7154,7 @@ const US_States_Counties_4326 = {
             },
           },
           Custer: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -100.252934,
               minLat: 41.046252,
@@ -7163,7 +7163,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cass: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -96.463861,
               minLat: 40.78347,
@@ -7172,7 +7172,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -97.828418,
               minLat: 41.04648,
@@ -7181,7 +7181,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dawes: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -103.5051,
               minLat: 42.437267,
@@ -7190,7 +7190,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -97.368446,
               minLat: 42.090407,
@@ -7199,7 +7199,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garfield: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -99.222733,
               minLat: 41.740305,
@@ -7208,7 +7208,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -96.47072,
               minLat: 41.189999,
@@ -7217,7 +7217,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pierce: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -97.835015,
               minLat: 42.08975,
@@ -7226,7 +7226,7 @@ const US_States_Counties_4326 = {
             },
           },
           Platte: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -97.831215,
               minLat: 41.333119,
@@ -7235,7 +7235,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Box Butte": {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -103.444438,
               minLat: 42.000665,
@@ -7244,7 +7244,7 @@ const US_States_Counties_4326 = {
             },
           },
           Thurston: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -96.82367,
               minLat: 42.015187,
@@ -7253,7 +7253,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boone: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -98.296006,
               minLat: 41.480541,
@@ -7262,7 +7262,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -97.834536,
               minLat: 41.742234,
@@ -7271,7 +7271,7 @@ const US_States_Counties_4326 = {
             },
           },
           McPherson: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -101.407268,
               minLat: 41.393511,
@@ -7280,7 +7280,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Red Willow": {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -100.761019,
               minLat: 40.001604,
@@ -7289,7 +7289,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rock: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -99.677719,
               minLat: 42.086009,
@@ -7298,7 +7298,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gosper: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -100.095095,
               minLat: 40.351012,
@@ -7307,7 +7307,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gage: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -96.916948,
               minLat: 40.000841,
@@ -7316,7 +7316,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dawson: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -100.224555,
               minLat: 40.670825,
@@ -7325,7 +7325,7 @@ const US_States_Counties_4326 = {
             },
           },
           Arthur: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -101.985589,
               minLat: 41.394736,
@@ -7334,7 +7334,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hayes: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -101.345398,
               minLat: 40.349302,
@@ -7343,7 +7343,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -96.463875,
               minLat: 40.261954,
@@ -7352,7 +7352,7 @@ const US_States_Counties_4326 = {
             },
           },
           Antelope: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -98.300714,
               minLat: 41.914954,
@@ -7361,7 +7361,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sioux: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -104.053152,
               minLat: 42.000402,
@@ -7370,7 +7370,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -101.270513,
               minLat: 40.697802,
@@ -7379,7 +7379,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sherman: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -99.207577,
               minLat: 41.046629,
@@ -7388,7 +7388,7 @@ const US_States_Counties_4326 = {
             },
           },
           Logan: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -100.713936,
               minLat: 41.393137,
@@ -7397,7 +7397,7 @@ const US_States_Counties_4326 = {
             },
           },
           Merrick: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -98.287168,
               minLat: 40.868677,
@@ -7406,7 +7406,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sheridan: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -102.7932,
               minLat: 42.004843,
@@ -7415,7 +7415,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pawnee: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -96.463928,
               minLat: 40.000438,
@@ -7424,7 +7424,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sarpy: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -96.339805,
               minLat: 40.994308,
@@ -7433,7 +7433,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -102.067782,
               minLat: 41.742057,
@@ -7442,7 +7442,7 @@ const US_States_Counties_4326 = {
             },
           },
           Burt: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -96.555285,
               minLat: 41.68273,
@@ -7451,7 +7451,7 @@ const US_States_Counties_4326 = {
             },
           },
           Saunders: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -96.909112,
               minLat: 41.014991,
@@ -7460,7 +7460,7 @@ const US_States_Counties_4326 = {
             },
           },
           Blaine: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -100.268129,
               minLat: 41.738459,
@@ -7469,7 +7469,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dixon: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -97.017991,
               minLat: 42.264034,
@@ -7478,7 +7478,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stanton: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -97.368404,
               minLat: 41.74298,
@@ -7487,7 +7487,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wheeler: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -98.761183,
               minLat: 41.740359,
@@ -7496,7 +7496,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -99.179478,
               minLat: 40.001975,
@@ -7505,7 +7505,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dodge: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -96.906043,
               minLat: 41.393131,
@@ -7514,7 +7514,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chase: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -102.051798,
               minLat: 40.349213,
@@ -7523,7 +7523,7 @@ const US_States_Counties_4326 = {
             },
           },
           Buffalo: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -99.426795,
               minLat: 40.652138,
@@ -7532,7 +7532,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fillmore: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -97.824942,
               minLat: 40.3503,
@@ -7541,7 +7541,7 @@ const US_States_Counties_4326 = {
             },
           },
           York: {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -97.82629,
               minLat: 40.698493,
@@ -7550,7 +7550,7 @@ const US_States_Counties_4326 = {
             },
           },
           Seward: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -97.368445,
               minLat: 40.697862,
@@ -7559,7 +7559,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -98.278314,
               minLat: 40.350336,
@@ -7568,7 +7568,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cheyenne: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -103.382503,
               minLat: 41.001776,
@@ -7577,7 +7577,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garden: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -102.6794,
               minLat: 41.221345,
@@ -7586,7 +7586,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harlan: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -99.630721,
               minLat: 40.001791,
@@ -7595,7 +7595,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -96.444795,
               minLat: 41.390752,
@@ -7604,7 +7604,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hooker: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -101.42668,
               minLat: 41.739903,
@@ -7613,7 +7613,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richardson: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -96.010688,
               minLat: 39.999932,
@@ -7622,7 +7622,7 @@ const US_States_Counties_4326 = {
             },
           },
           Furnas: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -100.197807,
               minLat: 40.001342,
@@ -7631,7 +7631,7 @@ const US_States_Counties_4326 = {
             },
           },
           Howard: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -98.749167,
               minLat: 41.046097,
@@ -7640,7 +7640,7 @@ const US_States_Counties_4326 = {
             },
           },
           Valley: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -99.212465,
               minLat: 41.394048,
@@ -7649,7 +7649,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cedar: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -97.486113,
               minLat: 42.35106,
@@ -7658,7 +7658,7 @@ const US_States_Counties_4326 = {
             },
           },
           Thayer: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -97.82151,
               minLat: 40.001697,
@@ -7667,7 +7667,7 @@ const US_States_Counties_4326 = {
             },
           },
           Deuel: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -102.621366,
               minLat: 41.002189,
@@ -7676,7 +7676,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morrill: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -103.371195,
               minLat: 41.437766,
@@ -7685,7 +7685,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hall: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -98.721975,
               minLat: 40.698284,
@@ -7694,7 +7694,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamilton: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -98.282851,
               minLat: 40.698276,
@@ -7703,7 +7703,7 @@ const US_States_Counties_4326 = {
             },
           },
           Loup: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -99.68697,
               minLat: 41.740207,
@@ -7712,7 +7712,7 @@ const US_States_Counties_4326 = {
             },
           },
           Frontier: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -100.783018,
               minLat: 40.349239,
@@ -7721,7 +7721,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nance: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -98.291506,
               minLat: 41.264027,
@@ -7730,7 +7730,7 @@ const US_States_Counties_4326 = {
             },
           },
           Knox: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -98.310394,
               minLat: 42.436898,
@@ -7739,7 +7739,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perkins: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -102.051761,
               minLat: 40.697539,
@@ -7748,7 +7748,7 @@ const US_States_Counties_4326 = {
             },
           },
           Colfax: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -97.253519,
               minLat: 41.376816,
@@ -7757,7 +7757,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butler: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -97.368274,
               minLat: 41.046091,
@@ -7766,7 +7766,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cherry: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -102.084961,
               minLat: 42.085848,
@@ -7777,8 +7777,8 @@ const US_States_Counties_4326 = {
         },
       },
       Pennsylvania: {
-        STUSPS: "PA",
-        STATEFP: "42",
+        sub_id: "PA",
+        sub_num: "42",
         bbox: {
           minLon: -80.519851,
           minLat: 39.719799,
@@ -7787,7 +7787,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Beaver: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -80.519228,
               minLat: 40.477286,
@@ -7796,7 +7796,7 @@ const US_States_Counties_4326 = {
             },
           },
           Forest: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -79.522024,
               minLat: 41.324135,
@@ -7805,7 +7805,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tioga: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -77.610027,
               minLat: 41.542271,
@@ -7814,7 +7814,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dauphin: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -77.029341,
               minLat: 40.12007,
@@ -7823,7 +7823,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -75.505607,
               minLat: 41.232539,
@@ -7832,7 +7832,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -80.519497,
               minLat: 39.720671,
@@ -7841,7 +7841,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -79.215706,
               minLat: 40.905971,
@@ -7850,7 +7850,7 @@ const US_States_Counties_4326 = {
             },
           },
           Snyder: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -77.356628,
               minLat: 40.635711,
@@ -7859,7 +7859,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clarion: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -79.700581,
               minLat: 40.968262,
@@ -7868,7 +7868,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clearfield: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -78.806598,
               minLat: 40.723066,
@@ -7877,7 +7877,7 @@ const US_States_Counties_4326 = {
             },
           },
           Indiana: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -79.4599,
               minLat: 40.368717,
@@ -7886,7 +7886,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perry: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -77.671761,
               minLat: 40.185362,
@@ -7895,7 +7895,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cameron: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -78.421154,
               minLat: 41.216931,
@@ -7904,7 +7904,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butler: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -80.166472,
               minLat: 40.669233,
@@ -7913,7 +7913,7 @@ const US_States_Counties_4326 = {
             },
           },
           Philadelphia: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -75.280266,
               minLat: 39.867464,
@@ -7922,7 +7922,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fulton: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -78.380599,
               minLat: 39.722003,
@@ -7931,7 +7931,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bradford: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -76.927059,
               minLat: 41.541278,
@@ -7940,7 +7940,7 @@ const US_States_Counties_4326 = {
             },
           },
           Huntingdon: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -78.257305,
               minLat: 40.061419,
@@ -7949,7 +7949,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bedford: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -78.808387,
               minLat: 39.722472,
@@ -7958,7 +7958,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -80.519311,
               minLat: 40.851338,
@@ -7967,7 +7967,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clinton: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -78.093381,
               minLat: 40.962938,
@@ -7976,7 +7976,7 @@ const US_States_Counties_4326 = {
             },
           },
           Columbia: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -76.640767,
               minLat: 40.775445,
@@ -7985,7 +7985,7 @@ const US_States_Counties_4326 = {
             },
           },
           Berks: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -76.440181,
               minLat: 40.137107,
@@ -7994,7 +7994,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mercer: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -80.519345,
               minLat: 41.069804,
@@ -8003,7 +8003,7 @@ const US_States_Counties_4326 = {
             },
           },
           Schuylkill: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -76.701624,
               minLat: 40.495434,
@@ -8012,7 +8012,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sullivan: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -76.813731,
               minLat: 41.275629,
@@ -8021,7 +8021,7 @@ const US_States_Counties_4326 = {
             },
           },
           Northumberland: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -76.949148,
               minLat: 40.603466,
@@ -8030,7 +8030,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cambria: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -79.056347,
               minLat: 40.242524,
@@ -8039,7 +8039,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lackawanna: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -75.834512,
               minLat: 41.161419,
@@ -8048,7 +8048,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wyoming: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -76.282799,
               minLat: 41.377244,
@@ -8057,7 +8057,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chester: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -76.136672,
               minLat: 39.721147,
@@ -8066,7 +8066,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -75.649412,
               minLat: 40.814746,
@@ -8075,7 +8075,7 @@ const US_States_Counties_4326 = {
             },
           },
           York: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -77.137425,
               minLat: 39.719799,
@@ -8084,7 +8084,7 @@ const US_States_Counties_4326 = {
             },
           },
           Elk: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -79.095183,
               minLat: 41.201859,
@@ -8093,7 +8093,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carbon: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -75.997636,
               minLat: 40.735414,
@@ -8102,7 +8102,7 @@ const US_States_Counties_4326 = {
             },
           },
           Blair: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -78.618889,
               minLat: 40.242107,
@@ -8111,7 +8111,7 @@ const US_States_Counties_4326 = {
             },
           },
           Somerset: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -79.417558,
               minLat: 39.721578,
@@ -8120,7 +8120,7 @@ const US_States_Counties_4326 = {
             },
           },
           Erie: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -80.519851,
               minLat: 41.849039,
@@ -8129,7 +8129,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -80.010751,
               minLat: 39.720678,
@@ -8138,7 +8138,7 @@ const US_States_Counties_4326 = {
             },
           },
           Juniata: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -77.75212,
               minLat: 40.263576,
@@ -8147,7 +8147,7 @@ const US_States_Counties_4326 = {
             },
           },
           McKean: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -78.956138,
               minLat: 41.601874,
@@ -8156,7 +8156,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mifflin: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -77.913929,
               minLat: 40.360542,
@@ -8165,7 +8165,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -75.696782,
               minLat: 39.976959,
@@ -8174,7 +8174,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -79.613147,
               minLat: 41.623334,
@@ -8183,7 +8183,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montour: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -76.794246,
               minLat: 40.882515,
@@ -8192,7 +8192,7 @@ const US_States_Counties_4326 = {
             },
           },
           Delaware: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -75.60154,
               minLat: 39.801919,
@@ -8201,7 +8201,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -77.471085,
               minLat: 39.719816,
@@ -8210,7 +8210,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lehigh: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -75.891473,
               minLat: 40.418634,
@@ -8219,7 +8219,7 @@ const US_States_Counties_4326 = {
             },
           },
           Northampton: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -75.608985,
               minLat: 40.536767,
@@ -8228,7 +8228,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cumberland: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -77.627552,
               minLat: 39.944077,
@@ -8237,7 +8237,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -78.099403,
               minLat: 39.71987,
@@ -8246,7 +8246,7 @@ const US_States_Counties_4326 = {
             },
           },
           Luzerne: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -76.32022,
               minLat: 40.902313,
@@ -8255,7 +8255,7 @@ const US_States_Counties_4326 = {
             },
           },
           Potter: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -78.206663,
               minLat: 41.474801,
@@ -8264,7 +8264,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allegheny: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -80.360902,
               minLat: 40.194285,
@@ -8273,7 +8273,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bucks: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -75.483858,
               minLat: 40.048595,
@@ -8282,7 +8282,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lycoming: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -77.599474,
               minLat: 41.068708,
@@ -8291,7 +8291,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lebanon: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -76.67804,
               minLat: 40.195549,
@@ -8300,7 +8300,7 @@ const US_States_Counties_4326 = {
             },
           },
           Centre: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -78.376976,
               minLat: 40.691557,
@@ -8309,7 +8309,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pike: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -75.359184,
               minLat: 41.079868,
@@ -8318,7 +8318,7 @@ const US_States_Counties_4326 = {
             },
           },
           Susquehanna: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -76.145519,
               minLat: 41.64141,
@@ -8327,7 +8327,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -80.51928,
               minLat: 39.952016,
@@ -8336,7 +8336,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -77.36418,
               minLat: 40.807334,
@@ -8345,7 +8345,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -80.519437,
               minLat: 41.480396,
@@ -8354,7 +8354,7 @@ const US_States_Counties_4326 = {
             },
           },
           Venango: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -79.999845,
               minLat: 41.171654,
@@ -8363,7 +8363,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lancaster: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -76.72162,
               minLat: 39.721131,
@@ -8372,7 +8372,7 @@ const US_States_Counties_4326 = {
             },
           },
           Armstrong: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -79.693284,
               minLat: 40.52488,
@@ -8381,7 +8381,7 @@ const US_States_Counties_4326 = {
             },
           },
           Westmoreland: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -79.904954,
               minLat: 40.040347,
@@ -8392,8 +8392,8 @@ const US_States_Counties_4326 = {
         },
       },
       Washington: {
-        STUSPS: "WA",
-        STATEFP: "53",
+        sub_id: "WA",
+        sub_num: "53",
         bbox: {
           minLon: -124.848974,
           minLat: 45.543541,
@@ -8402,7 +8402,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Wahkiakum: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -123.728316,
               minLat: 46.144532,
@@ -8411,7 +8411,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lewis: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -123.372706,
               minLat: 46.383458,
@@ -8420,7 +8420,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -124.717153,
               minLat: 47.517715,
@@ -8429,7 +8429,7 @@ const US_States_Counties_4326 = {
             },
           },
           Columbia: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -118.24264,
               minLat: 45.99895,
@@ -8438,7 +8438,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kittitas: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -121.465979,
               minLat: 46.736151,
@@ -8447,7 +8447,7 @@ const US_States_Counties_4326 = {
             },
           },
           Snohomish: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -122.458596,
               minLat: 47.775349,
@@ -8456,7 +8456,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yakima: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -121.52307,
               minLat: 46.040169,
@@ -8465,7 +8465,7 @@ const US_States_Counties_4326 = {
             },
           },
           Okanogan: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -120.88564,
               minLat: 47.940857,
@@ -8474,7 +8474,7 @@ const US_States_Counties_4326 = {
             },
           },
           Spokane: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -117.823629,
               minLat: 47.259272,
@@ -8483,7 +8483,7 @@ const US_States_Counties_4326 = {
             },
           },
           Island: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -122.863078,
               minLat: 47.828098,
@@ -8492,7 +8492,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clallam: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -124.848974,
               minLat: 47.866673,
@@ -8501,7 +8501,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stevens: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -118.402407,
               minLat: 47.792295,
@@ -8510,7 +8510,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Pend Oreille": {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -117.629611,
               minLat: 48.045394,
@@ -8519,7 +8519,7 @@ const US_States_Counties_4326 = {
             },
           },
           Whatcom: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -123.32224,
               minLat: 48.625687,
@@ -8528,7 +8528,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chelan: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -121.180802,
               minLat: 47.260871,
@@ -8537,7 +8537,7 @@ const US_States_Counties_4326 = {
             },
           },
           Asotin: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -117.47999,
               minLat: 45.995357,
@@ -8546,7 +8546,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ferry: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -118.869983,
               minLat: 47.830363,
@@ -8555,7 +8555,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -120.318084,
               minLat: 47.220133,
@@ -8564,7 +8564,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benton: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -119.876725,
               minLat: 45.836198,
@@ -8573,7 +8573,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garfield: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -117.863347,
               minLat: 45.997801,
@@ -8582,7 +8582,7 @@ const US_States_Counties_4326 = {
             },
           },
           King: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -122.541661,
               minLat: 47.08435,
@@ -8591,7 +8591,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pacific: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -124.175131,
               minLat: 46.234949,
@@ -8600,7 +8600,7 @@ const US_States_Counties_4326 = {
             },
           },
           Klickitat: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -121.612731,
               minLat: 45.606098,
@@ -8609,7 +8609,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Juan": {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -123.267877,
               minLat: 48.284558,
@@ -8618,7 +8618,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Grays Harbor": {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -124.429553,
               minLat: 46.790916,
@@ -8627,7 +8627,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cowlitz: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -123.218313,
               minLat: 45.850536,
@@ -8636,7 +8636,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Walla Walla": {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -119.041498,
               minLat: 45.999855,
@@ -8645,7 +8645,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -120.042866,
               minLat: 46.625464,
@@ -8654,7 +8654,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -119.369507,
               minLat: 46.73539,
@@ -8663,7 +8663,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -122.795963,
               minLat: 45.543541,
@@ -8672,7 +8672,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -118.979777,
               minLat: 47.260011,
@@ -8681,7 +8681,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kitsap: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -123.038404,
               minLat: 47.403091,
@@ -8690,7 +8690,7 @@ const US_States_Counties_4326 = {
             },
           },
           Whitman: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -118.249389,
               minLat: 46.416779,
@@ -8699,7 +8699,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mason: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -123.50608,
               minLat: 47.082259,
@@ -8708,7 +8708,7 @@ const US_States_Counties_4326 = {
             },
           },
           Skagit: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -122.764404,
               minLat: 48.295945,
@@ -8717,7 +8717,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pierce: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -122.852918,
               minLat: 46.728406,
@@ -8726,7 +8726,7 @@ const US_States_Counties_4326 = {
             },
           },
           Thurston: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -123.203101,
               minLat: 46.762038,
@@ -8735,7 +8735,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -119.457535,
               minLat: 46.192667,
@@ -8744,7 +8744,7 @@ const US_States_Counties_4326 = {
             },
           },
           Skamania: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -122.25021,
               minLat: 45.548653,
@@ -8755,8 +8755,8 @@ const US_States_Counties_4326 = {
         },
       },
       Louisiana: {
-        STUSPS: "LA",
-        STATEFP: "22",
+        sub_id: "LA",
+        sub_num: "22",
         bbox: {
           minLon: -94.043352,
           minLat: 28.855127,
@@ -8765,7 +8765,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Calcasieu: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -93.765851,
               minLat: 30.038041,
@@ -8774,7 +8774,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -92.734061,
               minLat: 32.580888,
@@ -8783,7 +8783,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tangipahoa: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -90.567344,
               minLat: 30.234337,
@@ -8792,7 +8792,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caldwell: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -92.31303,
               minLat: 31.927112,
@@ -8801,7 +8801,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tensas: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -91.580017,
               minLat: 31.733255,
@@ -8810,7 +8810,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -92.8223,
               minLat: 32.145501,
@@ -8819,7 +8819,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -92.973529,
               minLat: 31.387946,
@@ -8828,7 +8828,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -92.880944,
               minLat: 32.452959,
@@ -8837,7 +8837,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Jefferson Davis": {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -93.131224,
               minLat: 30.037455,
@@ -8846,7 +8846,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lafayette: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -92.284675,
               minLat: 30.036986,
@@ -8855,7 +8855,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vermilion: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -92.737217,
               minLat: 29.481496,
@@ -8864,7 +8864,7 @@ const US_States_Counties_4326 = {
             },
           },
           "East Carroll": {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -91.457614,
               minLat: 32.537539,
@@ -8873,7 +8873,7 @@ const US_States_Counties_4326 = {
             },
           },
           "East Feliciana": {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -91.320706,
               minLat: 30.649548,
@@ -8882,7 +8882,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Bernard": {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -90.012102,
               minLat: 29.617551,
@@ -8891,7 +8891,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iberville: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -91.701341,
               minLat: 30.02556,
@@ -8900,7 +8900,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richland: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -92.034669,
               minLat: 32.15155,
@@ -8909,7 +8909,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Martin": {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -91.988765,
               minLat: 29.699402,
@@ -8918,7 +8918,7 @@ const US_States_Counties_4326 = {
             },
           },
           Claiborne: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -93.238661,
               minLat: 32.584807,
@@ -8927,7 +8927,7 @@ const US_States_Counties_4326 = {
             },
           },
           Evangeline: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -92.633839,
               minLat: 30.480443,
@@ -8936,7 +8936,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Landry": {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -92.493259,
               minLat: 30.298817,
@@ -8945,7 +8945,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Pointe Coupee": {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -91.823072,
               minLat: 30.48259,
@@ -8954,7 +8954,7 @@ const US_States_Counties_4326 = {
             },
           },
           LaSalle: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -92.384613,
               minLat: 31.323064,
@@ -8963,7 +8963,7 @@ const US_States_Counties_4326 = {
             },
           },
           Webster: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -93.530805,
               minLat: 32.409926,
@@ -8972,7 +8972,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. James": {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -90.963755,
               minLat: 29.889182,
@@ -8981,7 +8981,7 @@ const US_States_Counties_4326 = {
             },
           },
           Plaquemines: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -90.075683,
               minLat: 28.855127,
@@ -8990,7 +8990,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morehouse: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -92.085617,
               minLat: 32.50571,
@@ -8999,7 +8999,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rapides: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -92.981464,
               minLat: 30.891362,
@@ -9008,7 +9008,7 @@ const US_States_Counties_4326 = {
             },
           },
           Avoyelles: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -92.280743,
               minLat: 30.84796,
@@ -9017,7 +9017,7 @@ const US_States_Counties_4326 = {
             },
           },
           Winn: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -92.976035,
               minLat: 31.708258,
@@ -9026,7 +9026,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vernon: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -93.578207,
               minLat: 30.859183,
@@ -9035,7 +9035,7 @@ const US_States_Counties_4326 = {
             },
           },
           Catahoula: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -92.023515,
               minLat: 31.221012,
@@ -9044,7 +9044,7 @@ const US_States_Counties_4326 = {
             },
           },
           Assumption: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -91.259932,
               minLat: 29.626814,
@@ -9053,7 +9053,7 @@ const US_States_Counties_4326 = {
             },
           },
           "De Soto": {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -94.042823,
               minLat: 31.844237,
@@ -9062,7 +9062,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caddo: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -94.043352,
               minLat: 32.195625,
@@ -9071,7 +9071,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Red River": {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -93.61469,
               minLat: 31.887005,
@@ -9080,7 +9080,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -90.347316,
               minLat: 30.665057,
@@ -9089,7 +9089,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sabine: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -93.882485,
               minLat: 31.165515,
@@ -9098,7 +9098,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -90.280296,
               minLat: 29.094648,
@@ -9107,7 +9107,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Tammany": {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -90.25766,
               minLat: 30.138814,
@@ -9116,7 +9116,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cameron: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -93.929208,
               minLat: 29.527103,
@@ -9125,7 +9125,7 @@ const US_States_Counties_4326 = {
             },
           },
           "East Baton Rouge": {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -91.316565,
               minLat: 30.312469,
@@ -9134,7 +9134,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iberia: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -92.045616,
               minLat: 29.358942,
@@ -9143,7 +9143,7 @@ const US_States_Counties_4326 = {
             },
           },
           Natchitoches: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -93.441689,
               minLat: 31.346733,
@@ -9152,7 +9152,7 @@ const US_States_Counties_4326 = {
             },
           },
           Terrebonne: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -91.354272,
               minLat: 28.985911,
@@ -9161,7 +9161,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bienville: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -93.428745,
               minLat: 32.147413,
@@ -9170,7 +9170,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bossier: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -93.845224,
               minLat: 32.235139,
@@ -9179,7 +9179,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allen: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -93.131224,
               minLat: 30.423591,
@@ -9188,7 +9188,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ouachita: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -92.415577,
               minLat: 32.25873,
@@ -9197,7 +9197,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. John the Baptist": {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -90.68885,
               minLat: 29.883094,
@@ -9206,7 +9206,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Helena": {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -90.91224,
               minLat: 30.649304,
@@ -9215,7 +9215,7 @@ const US_States_Counties_4326 = {
             },
           },
           "West Feliciana": {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -91.750119,
               minLat: 30.653961,
@@ -9224,7 +9224,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Mary": {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -91.935286,
               minLat: 29.239606,
@@ -9233,7 +9233,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lafourche: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -91.00689,
               minLat: 28.99534,
@@ -9242,7 +9242,7 @@ const US_States_Counties_4326 = {
             },
           },
           "West Carroll": {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -91.638883,
               minLat: 32.581956,
@@ -9251,7 +9251,7 @@ const US_States_Counties_4326 = {
             },
           },
           Concordia: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -91.867422,
               minLat: 30.970362,
@@ -9260,7 +9260,7 @@ const US_States_Counties_4326 = {
             },
           },
           Livingston: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -90.991536,
               minLat: 30.175067,
@@ -9269,7 +9269,7 @@ const US_States_Counties_4326 = {
             },
           },
           "West Baton Rouge": {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -91.485155,
               minLat: 30.322459,
@@ -9278,7 +9278,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -91.557295,
               minLat: 32.120353,
@@ -9287,7 +9287,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orleans: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -90.140074,
               minLat: 29.866661,
@@ -9296,7 +9296,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ascension: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -91.106559,
               minLat: 30.062749,
@@ -9305,7 +9305,7 @@ const US_States_Counties_4326 = {
             },
           },
           Acadia: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -92.632318,
               minLat: 30.049126,
@@ -9314,7 +9314,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Charles": {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -90.549762,
               minLat: 29.692028,
@@ -9323,7 +9323,7 @@ const US_States_Counties_4326 = {
             },
           },
           Beauregard: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -93.741679,
               minLat: 30.402526,
@@ -9332,7 +9332,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -91.933229,
               minLat: 31.871896,
@@ -9343,8 +9343,8 @@ const US_States_Counties_4326 = {
         },
       },
       Georgia: {
-        STUSPS: "GA",
-        STATEFP: "13",
+        sub_id: "GA",
+        sub_num: "13",
         bbox: {
           minLon: -85.605165,
           minLat: 30.355757,
@@ -9353,7 +9353,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           McDuffie: {
-            COUNTYFP: "189",
+            sub_num: "189",
             bbox: {
               minLon: -82.649705,
               minLat: 33.310879,
@@ -9362,7 +9362,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brantley: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -82.284561,
               minLat: 31.010442,
@@ -9371,7 +9371,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lamar: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -84.27014,
               minLat: 32.931497,
@@ -9380,7 +9380,7 @@ const US_States_Counties_4326 = {
             },
           },
           Floyd: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -85.462207,
               minLat: 34.079133,
@@ -9389,7 +9389,7 @@ const US_States_Counties_4326 = {
             },
           },
           Terrell: {
-            COUNTYFP: "273",
+            sub_num: "273",
             bbox: {
               minLon: -84.603086,
               minLat: 31.620988,
@@ -9398,7 +9398,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clayton: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -84.458665,
               minLat: 33.352465,
@@ -9407,7 +9407,7 @@ const US_States_Counties_4326 = {
             },
           },
           Columbia: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -82.442846,
               minLat: 33.354635,
@@ -9416,7 +9416,7 @@ const US_States_Counties_4326 = {
             },
           },
           Macon: {
-            COUNTYFP: "193",
+            sub_num: "193",
             bbox: {
               minLon: -84.255912,
               minLat: 32.17052,
@@ -9425,7 +9425,7 @@ const US_States_Counties_4326 = {
             },
           },
           Charlton: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -82.420442,
               minLat: 30.355757,
@@ -9434,7 +9434,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "233",
+            sub_num: "233",
             bbox: {
               minLon: -85.421852,
               minLat: 33.899212,
@@ -9443,7 +9443,7 @@ const US_States_Counties_4326 = {
             },
           },
           DeKalb: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -84.349904,
               minLat: 33.614666,
@@ -9452,7 +9452,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pickens: {
-            COUNTYFP: "227",
+            sub_num: "227",
             bbox: {
               minLon: -84.654272,
               minLat: 34.373266,
@@ -9461,7 +9461,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -83.398049,
               minLat: 34.22374,
@@ -9470,7 +9470,7 @@ const US_States_Counties_4326 = {
             },
           },
           Taliaferro: {
-            COUNTYFP: "265",
+            sub_num: "265",
             bbox: {
               minLon: -83.014038,
               minLat: 33.438099,
@@ -9479,7 +9479,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -85.33823,
               minLat: 33.425506,
@@ -9488,7 +9488,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cook: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -83.577053,
               minLat: 31.027275,
@@ -9497,7 +9497,7 @@ const US_States_Counties_4326 = {
             },
           },
           Toombs: {
-            COUNTYFP: "279",
+            sub_num: "279",
             bbox: {
               minLon: -82.483131,
               minLat: 31.911798,
@@ -9506,7 +9506,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -82.645606,
               minLat: 33.636979,
@@ -9515,7 +9515,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harris: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -85.184914,
               minLat: 32.583129,
@@ -9524,7 +9524,7 @@ const US_States_Counties_4326 = {
             },
           },
           Screven: {
-            COUNTYFP: "251",
+            sub_num: "251",
             bbox: {
               minLon: -81.868683,
               minLat: 32.489286,
@@ -9533,7 +9533,7 @@ const US_States_Counties_4326 = {
             },
           },
           Walton: {
-            COUNTYFP: "297",
+            sub_num: "297",
             bbox: {
               minLon: -83.982201,
               minLat: 33.596919,
@@ -9542,7 +9542,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gordon: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -85.112327,
               minLat: 34.384192,
@@ -9551,7 +9551,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hart: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -83.115847,
               minLat: 34.210066,
@@ -9560,7 +9560,7 @@ const US_States_Counties_4326 = {
             },
           },
           Upson: {
-            COUNTYFP: "293",
+            sub_num: "293",
             bbox: {
               minLon: -84.534397,
               minLat: 32.690018,
@@ -9569,7 +9569,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barrow: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -83.869115,
               minLat: 33.894573,
@@ -9578,7 +9578,7 @@ const US_States_Counties_4326 = {
             },
           },
           Long: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -81.981621,
               minLat: 31.538667,
@@ -9587,7 +9587,7 @@ const US_States_Counties_4326 = {
             },
           },
           Paulding: {
-            COUNTYFP: "223",
+            sub_num: "223",
             bbox: {
               minLon: -85.05031,
               minLat: 33.774758,
@@ -9596,7 +9596,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -84.202628,
               minLat: 32.529927,
@@ -9605,7 +9605,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "291",
+            sub_num: "291",
             bbox: {
               minLon: -84.17916,
               minLat: 34.640552,
@@ -9614,7 +9614,7 @@ const US_States_Counties_4326 = {
             },
           },
           Habersham: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -83.681696,
               minLat: 34.431712,
@@ -9623,7 +9623,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilkinson: {
-            COUNTYFP: "319",
+            sub_num: "319",
             bbox: {
               minLon: -83.40699,
               minLat: 32.584201,
@@ -9632,7 +9632,7 @@ const US_States_Counties_4326 = {
             },
           },
           Meriwether: {
-            COUNTYFP: "199",
+            sub_num: "199",
             bbox: {
               minLon: -84.864633,
               minLat: 32.84464,
@@ -9641,7 +9641,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chattahoochee: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -85.008096,
               minLat: 32.220951,
@@ -9650,7 +9650,7 @@ const US_States_Counties_4326 = {
             },
           },
           Berrien: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -83.43901,
               minLat: 31.025405,
@@ -9659,7 +9659,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -84.62722,
               minLat: 33.2565,
@@ -9668,7 +9668,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hancock: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -83.27522,
               minLat: 33.049849,
@@ -9677,7 +9677,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tift: {
-            COUNTYFP: "277",
+            sub_num: "277",
             bbox: {
               minLon: -83.66667,
               minLat: 31.326263,
@@ -9686,7 +9686,7 @@ const US_States_Counties_4326 = {
             },
           },
           Haralson: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -85.386581,
               minLat: 33.652087,
@@ -9695,7 +9695,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -85.14113,
               minLat: 31.485871,
@@ -9704,7 +9704,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bartow: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -85.047074,
               minLat: 34.075296,
@@ -9713,7 +9713,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hall: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -84.062187,
               minLat: 34.098652,
@@ -9722,7 +9722,7 @@ const US_States_Counties_4326 = {
             },
           },
           Treutlen: {
-            COUNTYFP: "283",
+            sub_num: "283",
             bbox: {
               minLon: -82.748742,
               minLat: 32.293595,
@@ -9731,7 +9731,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -84.828062,
               minLat: 31.427882,
@@ -9740,7 +9740,7 @@ const US_States_Counties_4326 = {
             },
           },
           Early: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -85.114601,
               minLat: 31.07259,
@@ -9749,7 +9749,7 @@ const US_States_Counties_4326 = {
             },
           },
           Candler: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -82.254572,
               minLat: 32.268783,
@@ -9758,7 +9758,7 @@ const US_States_Counties_4326 = {
             },
           },
           Muscogee: {
-            COUNTYFP: "215",
+            sub_num: "215",
             bbox: {
               minLon: -85.080784,
               minLat: 32.373871,
@@ -9767,7 +9767,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crisp: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -83.961278,
               minLat: 31.803495,
@@ -9776,7 +9776,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sumter: {
-            COUNTYFP: "261",
+            sub_num: "261",
             bbox: {
               minLon: -84.443807,
               minLat: 31.872755,
@@ -9785,7 +9785,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clarke: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -83.537385,
               minLat: 33.847977,
@@ -9794,7 +9794,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coweta: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -85.015358,
               minLat: 33.191043,
@@ -9803,7 +9803,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bleckley: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -83.498089,
               minLat: 32.272489,
@@ -9812,7 +9812,7 @@ const US_States_Counties_4326 = {
             },
           },
           Burke: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -82.316515,
               minLat: 32.803707,
@@ -9821,7 +9821,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "197",
+            sub_num: "197",
             bbox: {
               minLon: -84.658983,
               minLat: 32.134058,
@@ -9830,7 +9830,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jasper: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -83.863362,
               minLat: 33.131816,
@@ -9839,7 +9839,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henry: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -84.3544,
               minLat: 33.297631,
@@ -9848,7 +9848,7 @@ const US_States_Counties_4326 = {
             },
           },
           Atkinson: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -83.141586,
               minLat: 31.183012,
@@ -9857,7 +9857,7 @@ const US_States_Counties_4326 = {
             },
           },
           Talbot: {
-            COUNTYFP: "263",
+            sub_num: "263",
             bbox: {
               minLon: -84.703196,
               minLat: 32.518639,
@@ -9866,7 +9866,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dawson: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -84.34655,
               minLat: 34.334011,
@@ -9875,7 +9875,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -82.957066,
               minLat: 32.509473,
@@ -9884,7 +9884,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "303",
+            sub_num: "303",
             bbox: {
               minLon: -83.073648,
               minLat: 32.756261,
@@ -9893,7 +9893,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dodge: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -83.373931,
               minLat: 31.900325,
@@ -9902,7 +9902,7 @@ const US_States_Counties_4326 = {
             },
           },
           Camden: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -81.936988,
               minLat: 30.708651,
@@ -9911,7 +9911,7 @@ const US_States_Counties_4326 = {
             },
           },
           Peach: {
-            COUNTYFP: "225",
+            sub_num: "225",
             bbox: {
               minLon: -84.018168,
               minLat: 32.439123,
@@ -9920,7 +9920,7 @@ const US_States_Counties_4326 = {
             },
           },
           White: {
-            COUNTYFP: "311",
+            sub_num: "311",
             bbox: {
               minLon: -83.877418,
               minLat: 34.503599,
@@ -9929,7 +9929,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -82.662135,
               minLat: 32.761452,
@@ -9938,7 +9938,7 @@ const US_States_Counties_4326 = {
             },
           },
           Twiggs: {
-            COUNTYFP: "289",
+            sub_num: "289",
             bbox: {
               minLon: -83.611569,
               minLat: 32.452198,
@@ -9947,7 +9947,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dougherty: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -84.457662,
               minLat: 31.435856,
@@ -9956,7 +9956,7 @@ const US_States_Counties_4326 = {
             },
           },
           Catoosa: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -85.265114,
               minLat: 34.767639,
@@ -9965,7 +9965,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -84.911059,
               minLat: 33.573357,
@@ -9974,7 +9974,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "211",
+            sub_num: "211",
             bbox: {
               minLon: -83.687386,
               minLat: 33.434472,
@@ -9983,7 +9983,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bulloch: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -82.030233,
               minLat: 32.15289,
@@ -9992,7 +9992,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wheeler: {
-            COUNTYFP: "309",
+            sub_num: "309",
             bbox: {
               minLon: -82.940242,
               minLat: 31.918883,
@@ -10001,7 +10001,7 @@ const US_States_Counties_4326 = {
             },
           },
           Evans: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -82.025339,
               minLat: 32.0479,
@@ -10010,7 +10010,7 @@ const US_States_Counties_4326 = {
             },
           },
           Webster: {
-            COUNTYFP: "307",
+            sub_num: "307",
             bbox: {
               minLon: -84.65582,
               minLat: 31.919167,
@@ -10019,7 +10019,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jones: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -83.816856,
               minLat: 32.841291,
@@ -10028,7 +10028,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gwinnett: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -84.277093,
               minLat: 33.752808,
@@ -10037,7 +10037,7 @@ const US_States_Counties_4326 = {
             },
           },
           Worth: {
-            COUNTYFP: "321",
+            sub_num: "321",
             bbox: {
               minLon: -84.03288,
               minLat: 31.318365,
@@ -10046,7 +10046,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pierce: {
-            COUNTYFP: "229",
+            sub_num: "229",
             bbox: {
               minLon: -82.417412,
               minLat: 31.202082,
@@ -10055,7 +10055,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pike: {
-            COUNTYFP: "231",
+            sub_num: "231",
             bbox: {
               minLon: -84.538004,
               minLat: 32.968534,
@@ -10064,7 +10064,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stewart: {
-            COUNTYFP: "259",
+            sub_num: "259",
             bbox: {
               minLon: -85.06833,
               minLat: 31.920308,
@@ -10073,7 +10073,7 @@ const US_States_Counties_4326 = {
             },
           },
           Troup: {
-            COUNTYFP: "285",
+            sub_num: "285",
             bbox: {
               minLon: -85.236518,
               minLat: 32.866647,
@@ -10082,7 +10082,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stephens: {
-            COUNTYFP: "257",
+            sub_num: "257",
             bbox: {
               minLon: -83.45843,
               minLat: 34.460998,
@@ -10091,7 +10091,7 @@ const US_States_Counties_4326 = {
             },
           },
           Emanuel: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -82.647733,
               minLat: 32.291882,
@@ -10100,7 +10100,7 @@ const US_States_Counties_4326 = {
             },
           },
           Colquitt: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -84.013858,
               minLat: 31.025846,
@@ -10109,7 +10109,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richmond: {
-            COUNTYFP: "245",
+            sub_num: "245",
             bbox: {
               minLon: -82.353498,
               minLat: 33.227165,
@@ -10118,7 +10118,7 @@ const US_States_Counties_4326 = {
             },
           },
           Banks: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -83.669432,
               minLat: 34.197499,
@@ -10127,7 +10127,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "305",
+            sub_num: "305",
             bbox: {
               minLon: -82.147948,
               minLat: 31.327206,
@@ -10136,7 +10136,7 @@ const US_States_Counties_4326 = {
             },
           },
           Echols: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -83.13662,
               minLat: 30.591548,
@@ -10145,7 +10145,7 @@ const US_States_Counties_4326 = {
             },
           },
           Liberty: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -81.824405,
               minLat: 31.520981,
@@ -10154,7 +10154,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rockdale: {
-            COUNTYFP: "247",
+            sub_num: "247",
             bbox: {
               minLon: -84.184143,
               minLat: 33.525776,
@@ -10163,7 +10163,7 @@ const US_States_Counties_4326 = {
             },
           },
           Elbert: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -83.103287,
               minLat: 33.955728,
@@ -10172,7 +10172,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilcox: {
-            COUNTYFP: "315",
+            sub_num: "315",
             bbox: {
               minLon: -83.612256,
               minLat: 31.844626,
@@ -10181,7 +10181,7 @@ const US_States_Counties_4326 = {
             },
           },
           Towns: {
-            COUNTYFP: "281",
+            sub_num: "281",
             bbox: {
               minLon: -83.94618,
               minLat: 34.790995,
@@ -10190,7 +10190,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dooly: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -84.0335,
               minLat: 32.027938,
@@ -10199,7 +10199,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pulaski: {
-            COUNTYFP: "235",
+            sub_num: "235",
             bbox: {
               minLon: -83.615846,
               minLat: 32.102843,
@@ -10208,7 +10208,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coffee: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -83.151141,
               minLat: 31.363884,
@@ -10217,7 +10217,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ware: {
-            COUNTYFP: "299",
+            sub_num: "299",
             bbox: {
               minLon: -82.70105,
               minLat: 30.568556,
@@ -10226,7 +10226,7 @@ const US_States_Counties_4326 = {
             },
           },
           Appling: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -82.550714,
               minLat: 31.469253,
@@ -10235,7 +10235,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fulton: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -84.851158,
               minLat: 33.502514,
@@ -10244,7 +10244,7 @@ const US_States_Counties_4326 = {
             },
           },
           Schley: {
-            COUNTYFP: "249",
+            sub_num: "249",
             bbox: {
               minLon: -84.430218,
               minLat: 32.158493,
@@ -10253,7 +10253,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bryan: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -81.781712,
               minLat: 31.71266,
@@ -10262,7 +10262,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clinch: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -82.971336,
               minLat: 30.581767,
@@ -10271,7 +10271,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lowndes: {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -83.484766,
               minLat: 30.623967,
@@ -10280,7 +10280,7 @@ const US_States_Counties_4326 = {
             },
           },
           Turner: {
-            COUNTYFP: "287",
+            sub_num: "287",
             bbox: {
               minLon: -83.802723,
               minLat: 31.565492,
@@ -10289,7 +10289,7 @@ const US_States_Counties_4326 = {
             },
           },
           Randolph: {
-            COUNTYFP: "243",
+            sub_num: "243",
             bbox: {
               minLon: -84.959324,
               minLat: 31.618643,
@@ -10298,7 +10298,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Jeff Davis": {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -82.836861,
               minLat: 31.671281,
@@ -10307,7 +10307,7 @@ const US_States_Counties_4326 = {
             },
           },
           Murray: {
-            COUNTYFP: "213",
+            sub_num: "213",
             bbox: {
               minLon: -84.944512,
               minLat: 34.583187,
@@ -10316,7 +10316,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Ben Hill": {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -83.484529,
               minLat: 31.651691,
@@ -10325,7 +10325,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lanier: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -83.197995,
               minLat: 30.844709,
@@ -10334,7 +10334,7 @@ const US_States_Counties_4326 = {
             },
           },
           Quitman: {
-            COUNTYFP: "239",
+            sub_num: "239",
             bbox: {
               minLon: -85.141931,
               minLat: 31.770963,
@@ -10343,7 +10343,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oglethorpe: {
-            COUNTYFP: "221",
+            sub_num: "221",
             bbox: {
               minLon: -83.306619,
               minLat: 33.689869,
@@ -10352,7 +10352,7 @@ const US_States_Counties_4326 = {
             },
           },
           Irwin: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -83.500951,
               minLat: 31.471857,
@@ -10361,7 +10361,7 @@ const US_States_Counties_4326 = {
             },
           },
           Taylor: {
-            COUNTYFP: "269",
+            sub_num: "269",
             bbox: {
               minLon: -84.453232,
               minLat: 32.372053,
@@ -10370,7 +10370,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "209",
+            sub_num: "209",
             bbox: {
               minLon: -82.656244,
               minLat: 31.948572,
@@ -10379,7 +10379,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -83.406189,
               minLat: 33.35503,
@@ -10388,7 +10388,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "301",
+            sub_num: "301",
             bbox: {
               minLon: -82.866605,
               minLat: 33.25344,
@@ -10397,7 +10397,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jenkins: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -82.147942,
               minLat: 32.60691,
@@ -10406,7 +10406,7 @@ const US_States_Counties_4326 = {
             },
           },
           Heard: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -85.293805,
               minLat: 33.129559,
@@ -10415,7 +10415,7 @@ const US_States_Counties_4326 = {
             },
           },
           Walker: {
-            COUNTYFP: "295",
+            sub_num: "295",
             bbox: {
               minLon: -85.534089,
               minLat: 34.581799,
@@ -10424,7 +10424,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chatham: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -81.391698,
               minLat: 31.705198,
@@ -10433,7 +10433,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rabun: {
-            COUNTYFP: "241",
+            sub_num: "241",
             bbox: {
               minLon: -83.661672,
               minLat: 34.716007,
@@ -10442,7 +10442,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oconee: {
-            COUNTYFP: "219",
+            sub_num: "219",
             bbox: {
               minLon: -83.647031,
               minLat: 33.698307,
@@ -10451,7 +10451,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brooks: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -83.743729,
               minLat: 30.634406,
@@ -10460,7 +10460,7 @@ const US_States_Counties_4326 = {
             },
           },
           Telfair: {
-            COUNTYFP: "271",
+            sub_num: "271",
             bbox: {
               minLon: -83.207583,
               minLat: 31.774629,
@@ -10469,7 +10469,7 @@ const US_States_Counties_4326 = {
             },
           },
           Miller: {
-            COUNTYFP: "201",
+            sub_num: "201",
             bbox: {
               minLon: -84.922423,
               minLat: 31.06801,
@@ -10478,7 +10478,7 @@ const US_States_Counties_4326 = {
             },
           },
           Laurens: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -83.226536,
               minLat: 32.147274,
@@ -10487,7 +10487,7 @@ const US_States_Counties_4326 = {
             },
           },
           Effingham: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -81.548006,
               minLat: 32.095886,
@@ -10496,7 +10496,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "195",
+            sub_num: "195",
             bbox: {
               minLon: -83.402428,
               minLat: 33.998935,
@@ -10505,7 +10505,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cobb: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -84.739679,
               minLat: 33.743683,
@@ -10514,7 +10514,7 @@ const US_States_Counties_4326 = {
             },
           },
           Seminole: {
-            COUNTYFP: "253",
+            sub_num: "253",
             bbox: {
               minLon: -85.028573,
               minLat: 30.711494,
@@ -10523,7 +10523,7 @@ const US_States_Counties_4326 = {
             },
           },
           Putnam: {
-            COUNTYFP: "237",
+            sub_num: "237",
             bbox: {
               minLon: -83.545876,
               minLat: 33.167491,
@@ -10532,7 +10532,7 @@ const US_States_Counties_4326 = {
             },
           },
           Baker: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -84.641953,
               minLat: 31.078396,
@@ -10541,7 +10541,7 @@ const US_States_Counties_4326 = {
             },
           },
           Thomas: {
-            COUNTYFP: "275",
+            sub_num: "275",
             bbox: {
               minLon: -84.119245,
               minLat: 30.658396,
@@ -10550,7 +10550,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cherokee: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -84.659241,
               minLat: 34.073539,
@@ -10559,7 +10559,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chattooga: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -85.527261,
               minLat: 34.286097,
@@ -10568,7 +10568,7 @@ const US_States_Counties_4326 = {
             },
           },
           Decatur: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -84.871322,
               minLat: 30.689991,
@@ -10577,7 +10577,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mitchell: {
-            COUNTYFP: "205",
+            sub_num: "205",
             bbox: {
               minLon: -84.508324,
               minLat: 31.077148,
@@ -10586,7 +10586,7 @@ const US_States_Counties_4326 = {
             },
           },
           Newton: {
-            COUNTYFP: "217",
+            sub_num: "217",
             bbox: {
               minLon: -84.055221,
               minLat: 33.367239,
@@ -10595,7 +10595,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grady: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -84.380705,
               minLat: 30.675804,
@@ -10604,7 +10604,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bibb: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -83.89205,
               minLat: 32.660643,
@@ -10613,7 +10613,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bacon: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -82.628273,
               minLat: 31.416906,
@@ -10622,7 +10622,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -83.817682,
               minLat: 33.965912,
@@ -10631,7 +10631,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tattnall: {
-            COUNTYFP: "267",
+            sub_num: "267",
             bbox: {
               minLon: -82.235034,
               minLat: 31.782607,
@@ -10640,7 +10640,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilkes: {
-            COUNTYFP: "317",
+            sub_num: "317",
             bbox: {
               minLon: -82.987286,
               minLat: 33.596071,
@@ -10649,7 +10649,7 @@ const US_States_Counties_4326 = {
             },
           },
           Glascock: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -82.755846,
               minLat: 33.118881,
@@ -10658,7 +10658,7 @@ const US_States_Counties_4326 = {
             },
           },
           Whitfield: {
-            COUNTYFP: "313",
+            sub_num: "313",
             bbox: {
               minLon: -85.168851,
               minLat: 34.615719,
@@ -10667,7 +10667,7 @@ const US_States_Counties_4326 = {
             },
           },
           Spalding: {
-            COUNTYFP: "255",
+            sub_num: "255",
             bbox: {
               minLon: -84.509104,
               minLat: 33.17862,
@@ -10676,7 +10676,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butts: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -84.123767,
               minLat: 33.18022,
@@ -10685,7 +10685,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lumpkin: {
-            COUNTYFP: "187",
+            sub_num: "187",
             bbox: {
               minLon: -84.19104,
               minLat: 34.418389,
@@ -10694,7 +10694,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dade: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -85.605165,
               minLat: 34.623858,
@@ -10703,7 +10703,7 @@ const US_States_Counties_4326 = {
             },
           },
           Houston: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -83.856851,
               minLat: 32.282583,
@@ -10712,7 +10712,7 @@ const US_States_Counties_4326 = {
             },
           },
           McIntosh: {
-            COUNTYFP: "191",
+            sub_num: "191",
             bbox: {
               minLon: -81.668357,
               minLat: 31.290953,
@@ -10721,7 +10721,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "207",
+            sub_num: "207",
             bbox: {
               minLon: -84.124275,
               minLat: 32.848351,
@@ -10730,7 +10730,7 @@ const US_States_Counties_4326 = {
             },
           },
           Forsyth: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -84.259019,
               minLat: 34.050708,
@@ -10739,7 +10739,7 @@ const US_States_Counties_4326 = {
             },
           },
           Glynn: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -81.782629,
               minLat: 30.990644,
@@ -10748,7 +10748,7 @@ const US_States_Counties_4326 = {
             },
           },
           Baldwin: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -83.42909,
               minLat: 32.926141,
@@ -10757,7 +10757,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fannin: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -84.622752,
               minLat: 34.602692,
@@ -10766,7 +10766,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -84.33861,
               minLat: 31.621951,
@@ -10775,7 +10775,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gilmer: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -84.657098,
               minLat: 34.548495,
@@ -10786,8 +10786,8 @@ const US_States_Counties_4326 = {
         },
       },
       Alabama: {
-        STUSPS: "AL",
-        STATEFP: "01",
+        sub_id: "AL",
+        sub_num: "01",
         bbox: {
           minLon: -88.473227,
           minLat: 30.144425,
@@ -10796,7 +10796,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Clay: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -86.17437,
               minLat: 33.09026,
@@ -10805,7 +10805,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marengo: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -88.118344,
               minLat: 31.989832,
@@ -10814,7 +10814,7 @@ const US_States_Counties_4326 = {
             },
           },
           DeKalb: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -86.118911,
               minLat: 34.199262,
@@ -10823,7 +10823,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cherokee: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -85.843875,
               minLat: 33.941423,
@@ -10832,7 +10832,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hale: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -87.870502,
               minLat: 32.48068,
@@ -10841,7 +10841,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perry: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -87.525682,
               minLat: 32.307279,
@@ -10850,7 +10850,7 @@ const US_States_Counties_4326 = {
             },
           },
           Colbert: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -88.139988,
               minLat: 34.56623,
@@ -10859,7 +10859,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -88.207497,
               minLat: 32.517727,
@@ -10868,7 +10868,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butler: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -86.908939,
               minLat: 31.523673,
@@ -10877,7 +10877,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -85.696955,
               minLat: 32.40984,
@@ -10886,7 +10886,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mobile: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -88.432007,
               minLat: 30.144425,
@@ -10895,7 +10895,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -87.952072,
               minLat: 33.519568,
@@ -10904,7 +10904,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chambers: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -85.593653,
               minLat: 32.72853,
@@ -10913,7 +10913,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tuscaloosa: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -87.840711,
               minLat: 33.003379,
@@ -10922,7 +10922,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilcox: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -87.667945,
               minLat: 31.827123,
@@ -10931,7 +10931,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -86.581936,
               minLat: 34.099073,
@@ -10940,7 +10940,7 @@ const US_States_Counties_4326 = {
             },
           },
           Escambia: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -87.616074,
               minLat: 30.994487,
@@ -10949,7 +10949,7 @@ const US_States_Counties_4326 = {
             },
           },
           Limestone: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -87.278636,
               minLat: 34.55079,
@@ -10958,7 +10958,7 @@ const US_States_Counties_4326 = {
             },
           },
           Blount: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -86.963358,
               minLat: 33.765171,
@@ -10967,7 +10967,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -87.784796,
               minLat: 31.227268,
@@ -10976,7 +10976,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -88.207229,
               minLat: 33.914723,
@@ -10985,7 +10985,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lowndes: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -86.908597,
               minLat: 31.961601,
@@ -10994,7 +10994,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coosa: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -86.522283,
               minLat: 32.753434,
@@ -11003,7 +11003,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pike: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -86.199408,
               minLat: 31.616414,
@@ -11012,7 +11012,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sumter: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -88.421453,
               minLat: 32.307437,
@@ -11021,7 +11021,7 @@ const US_States_Counties_4326 = {
             },
           },
           Winston: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -87.636573,
               minLat: 33.984882,
@@ -11030,7 +11030,7 @@ const US_States_Counties_4326 = {
             },
           },
           Talladega: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -86.50359,
               minLat: 33.102944,
@@ -11039,7 +11039,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -86.359034,
               minLat: 34.464473,
@@ -11048,7 +11048,7 @@ const US_States_Counties_4326 = {
             },
           },
           Baldwin: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -88.037309,
               minLat: 30.146561,
@@ -11057,7 +11057,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bullock: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -85.999258,
               minLat: 31.880275,
@@ -11066,7 +11066,7 @@ const US_States_Counties_4326 = {
             },
           },
           Autauga: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -86.921237,
               minLat: 32.307574,
@@ -11075,7 +11075,7 @@ const US_States_Counties_4326 = {
             },
           },
           Macon: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -86.023164,
               minLat: 32.231975,
@@ -11084,7 +11084,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Clair": {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -86.577799,
               minLat: 33.390983,
@@ -11093,7 +11093,7 @@ const US_States_Counties_4326 = {
             },
           },
           Choctaw: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -88.473227,
               minLat: 31.697929,
@@ -11102,7 +11102,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cullman: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -87.151036,
               minLat: 33.857954,
@@ -11111,7 +11111,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shelby: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -87.026846,
               minLat: 33.018664,
@@ -11120,7 +11120,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dallas: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -87.47308,
               minLat: 32.047202,
@@ -11129,7 +11129,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pickens: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -88.340432,
               minLat: 32.991199,
@@ -11138,7 +11138,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lauderdale: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -88.202959,
               minLat: 34.731901,
@@ -11147,7 +11147,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cleburne: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -85.887782,
               minLat: 33.469226,
@@ -11156,7 +11156,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barbour: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -85.748433,
               minLat: 31.617565,
@@ -11165,7 +11165,7 @@ const US_States_Counties_4326 = {
             },
           },
           Geneva: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -86.193476,
               minLat: 30.992859,
@@ -11174,7 +11174,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dale: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -85.791581,
               minLat: 31.195173,
@@ -11183,7 +11183,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tallapoosa: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -86.013897,
               minLat: 32.49297,
@@ -11192,7 +11192,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clarke: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -88.180821,
               minLat: 31.185486,
@@ -11201,7 +11201,7 @@ const US_States_Counties_4326 = {
             },
           },
           Houston: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -85.712436,
               minLat: 30.997064,
@@ -11210,7 +11210,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -88.46443,
               minLat: 31.114064,
@@ -11219,7 +11219,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -86.790056,
               minLat: 34.475633,
@@ -11228,7 +11228,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crenshaw: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -86.503948,
               minLat: 31.440072,
@@ -11237,7 +11237,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -86.146225,
               minLat: 33.55593,
@@ -11246,7 +11246,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -87.531024,
               minLat: 34.299096,
@@ -11255,7 +11255,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -87.110199,
               minLat: 34.304694,
@@ -11264,7 +11264,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lamar: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -88.274619,
               minLat: 33.523987,
@@ -11273,7 +11273,7 @@ const US_States_Counties_4326 = {
             },
           },
           Russell: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -85.434747,
               minLat: 32.061708,
@@ -11282,7 +11282,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -88.173632,
               minLat: 34.304598,
@@ -11291,7 +11291,7 @@ const US_States_Counties_4326 = {
             },
           },
           Conecuh: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -87.427516,
               minLat: 31.181133,
@@ -11300,7 +11300,7 @@ const US_States_Counties_4326 = {
             },
           },
           Elmore: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -86.413335,
               minLat: 32.406036,
@@ -11309,7 +11309,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -87.341698,
               minLat: 33.245995,
@@ -11318,7 +11318,7 @@ const US_States_Counties_4326 = {
             },
           },
           Walker: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -87.636119,
               minLat: 33.512929,
@@ -11327,7 +11327,7 @@ const US_States_Counties_4326 = {
             },
           },
           Randolph: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -85.653949,
               minLat: 33.106634,
@@ -11336,7 +11336,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -86.498531,
               minLat: 31.965065,
@@ -11345,7 +11345,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bibb: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -87.421989,
               minLat: 32.831522,
@@ -11354,7 +11354,7 @@ const US_States_Counties_4326 = {
             },
           },
           Etowah: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -86.370152,
               minLat: 33.841598,
@@ -11363,7 +11363,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chilton: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -87.019157,
               minLat: 32.660117,
@@ -11372,7 +11372,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coffee: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -86.196365,
               minLat: 31.182023,
@@ -11381,7 +11381,7 @@ const US_States_Counties_4326 = {
             },
           },
           Covington: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -86.702791,
               minLat: 30.993258,
@@ -11390,7 +11390,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henry: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -85.418035,
               minLat: 31.307675,
@@ -11401,8 +11401,8 @@ const US_States_Counties_4326 = {
         },
       },
       Utah: {
-        STUSPS: "UT",
-        STATEFP: "49",
+        sub_id: "UT",
+        sub_num: "49",
         bbox: {
           minLon: -114.052885,
           minLat: 36.997657,
@@ -11411,7 +11411,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Rich: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -111.512042,
               minLat: 41.14103,
@@ -11420,7 +11420,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cache: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -112.166108,
               minLat: 41.368818,
@@ -11429,7 +11429,7 @@ const US_States_Counties_4326 = {
             },
           },
           Duchesne: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -110.905017,
               minLat: 39.80623,
@@ -11438,7 +11438,7 @@ const US_States_Counties_4326 = {
             },
           },
           Davis: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -112.493515,
               minLat: 40.769093,
@@ -11447,7 +11447,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Box Elder": {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -114.042029,
               minLat: 40.999896,
@@ -11456,7 +11456,7 @@ const US_States_Counties_4326 = {
             },
           },
           Millard: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -114.049977,
               minLat: 38.571358,
@@ -11465,7 +11465,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -111.876598,
               minLat: 40.780038,
@@ -11474,7 +11474,7 @@ const US_States_Counties_4326 = {
             },
           },
           Weber: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -112.493515,
               minLat: 41.076888,
@@ -11483,7 +11483,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kane: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -112.901288,
               minLat: 37.000385,
@@ -11492,7 +11492,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Salt Lake": {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -112.260216,
               minLat: 40.414169,
@@ -11501,7 +11501,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sevier: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -112.522627,
               minLat: 38.501791,
@@ -11510,7 +11510,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garfield: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -112.689297,
               minLat: 37.535733,
@@ -11519,7 +11519,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -114.052885,
               minLat: 36.999975,
@@ -11528,7 +11528,7 @@ const US_States_Counties_4326 = {
             },
           },
           Piute: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -112.519522,
               minLat: 38.145615,
@@ -11537,7 +11537,7 @@ const US_States_Counties_4326 = {
             },
           },
           Summit: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -111.649129,
               minLat: 40.548332,
@@ -11546,7 +11546,7 @@ const US_States_Counties_4326 = {
             },
           },
           Emery: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -111.307037,
               minLat: 38.499921,
@@ -11555,7 +11555,7 @@ const US_States_Counties_4326 = {
             },
           },
           Daggett: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -110.000717,
               minLat: 40.662385,
@@ -11564,7 +11564,7 @@ const US_States_Counties_4326 = {
             },
           },
           Beaver: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -114.050521,
               minLat: 38.147325,
@@ -11573,7 +11573,7 @@ const US_States_Counties_4326 = {
             },
           },
           Uintah: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -110.04823,
               minLat: 39.461766,
@@ -11582,7 +11582,7 @@ const US_States_Counties_4326 = {
             },
           },
           Utah: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -112.214178,
               minLat: 39.776246,
@@ -11591,7 +11591,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -111.84884,
               minLat: 38.14996,
@@ -11600,7 +11600,7 @@ const US_States_Counties_4326 = {
             },
           },
           Juab: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -114.047855,
               minLat: 39.314483,
@@ -11609,7 +11609,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carbon: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -111.247506,
               minLat: 39.467455,
@@ -11618,7 +11618,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iron: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -114.05235,
               minLat: 37.474298,
@@ -11627,7 +11627,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sanpete: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -112.01624,
               minLat: 39.032255,
@@ -11636,7 +11636,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Juan": {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -111.413014,
               minLat: 36.997657,
@@ -11645,7 +11645,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wasatch: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -111.620952,
               minLat: 39.899653,
@@ -11654,7 +11654,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grand: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -110.179296,
               minLat: 38.499927,
@@ -11663,7 +11663,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tooele: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -114.047026,
               minLat: 39.903655,
@@ -11674,8 +11674,8 @@ const US_States_Counties_4326 = {
         },
       },
       Ohio: {
-        STUSPS: "OH",
-        STATEFP: "39",
+        sub_id: "OH",
+        sub_num: "39",
         bbox: {
           minLon: -84.820305,
           minLat: 38.403423,
@@ -11684,7 +11684,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Hancock: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -83.881156,
               minLat: 40.818134,
@@ -11693,7 +11693,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allen: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -84.39738,
               minLat: 40.643069,
@@ -11702,7 +11702,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -81.495181,
               minLat: 41.56967,
@@ -11711,7 +11711,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -83.670196,
               minLat: 39.377354,
@@ -11720,7 +11720,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butler: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -84.81945,
               minLat: 39.292284,
@@ -11729,7 +11729,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -82.080224,
               minLat: 39.449172,
@@ -11738,7 +11738,7 @@ const US_States_Counties_4326 = {
             },
           },
           Portage: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -81.393348,
               minLat: 40.987777,
@@ -11747,7 +11747,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scioto: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -83.270817,
               minLat: 38.570818,
@@ -11756,7 +11756,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vinton: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -82.762892,
               minLat: 39.027674,
@@ -11765,7 +11765,7 @@ const US_States_Counties_4326 = {
             },
           },
           Paulding: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -84.803552,
               minLat: 40.989269,
@@ -11774,7 +11774,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henry: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -84.341926,
               minLat: 41.165862,
@@ -11783,7 +11783,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fulton: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -84.399551,
               minLat: 41.485519,
@@ -11792,7 +11792,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brown: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -84.052709,
               minLat: 38.639702,
@@ -11801,7 +11801,7 @@ const US_States_Counties_4326 = {
             },
           },
           Logan: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -84.014763,
               minLat: 40.22937,
@@ -11810,7 +11810,7 @@ const US_States_Counties_4326 = {
             },
           },
           Trumbull: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -81.003356,
               minLat: 41.133218,
@@ -11819,7 +11819,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pike: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -83.385637,
               minLat: 38.948073,
@@ -11828,7 +11828,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -81.319125,
               minLat: 39.539886,
@@ -11837,7 +11837,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -82.815934,
               minLat: 38.403423,
@@ -11846,7 +11846,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -83.705312,
               minLat: 38.596621,
@@ -11855,7 +11855,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -83.112745,
               minLat: 40.70255,
@@ -11864,7 +11864,7 @@ const US_States_Counties_4326 = {
             },
           },
           Guernsey: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -81.728611,
               minLat: 39.839104,
@@ -11873,7 +11873,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Van Wert": {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -84.803257,
               minLat: 40.684755,
@@ -11882,7 +11882,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pickaway: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -83.266737,
               minLat: 39.468062,
@@ -11891,7 +11891,7 @@ const US_States_Counties_4326 = {
             },
           },
           Muskingum: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -82.233974,
               minLat: 39.755572,
@@ -11900,7 +11900,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richland: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -82.727164,
               minLat: 40.549879,
@@ -11909,7 +11909,7 @@ const US_States_Counties_4326 = {
             },
           },
           Champaign: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -84.036069,
               minLat: 40.010818,
@@ -11918,7 +11918,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -82.129334,
               minLat: 40.666826,
@@ -11927,7 +11927,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ottawa: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -83.415941,
               minLat: 41.457166,
@@ -11936,7 +11936,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harrison: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -81.339565,
               minLat: 40.159495,
@@ -11945,7 +11945,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -84.053713,
               minLat: 39.768812,
@@ -11954,7 +11954,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hocking: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -82.748591,
               minLat: 39.361566,
@@ -11963,7 +11963,7 @@ const US_States_Counties_4326 = {
             },
           },
           Miami: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -84.436332,
               minLat: 39.87981,
@@ -11972,7 +11972,7 @@ const US_States_Counties_4326 = {
             },
           },
           Delaware: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -83.249631,
               minLat: 40.125855,
@@ -11981,7 +11981,7 @@ const US_States_Counties_4326 = {
             },
           },
           Darke: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -84.81244,
               minLat: 39.916481,
@@ -11990,7 +11990,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -84.114174,
               minLat: 39.550254,
@@ -11999,7 +11999,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ashland: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -82.436916,
               minLat: 40.555001,
@@ -12008,7 +12008,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lucas: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -83.883234,
               minLat: 41.414135,
@@ -12017,7 +12017,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ashtabula: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -81.009827,
               minLat: 41.498379,
@@ -12026,7 +12026,7 @@ const US_States_Counties_4326 = {
             },
           },
           Preble: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -84.815164,
               minLat: 39.5666,
@@ -12035,7 +12035,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -82.80709,
               minLat: 38.844478,
@@ -12044,7 +12044,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stark: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -81.650045,
               minLat: 40.634525,
@@ -12053,7 +12053,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mahoning: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -81.086726,
               minLat: 40.899773,
@@ -12062,7 +12062,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tuscarawas: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -81.712383,
               minLat: 40.214077,
@@ -12071,7 +12071,7 @@ const US_States_Counties_4326 = {
             },
           },
           Highland: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -83.872214,
               minLat: 39.01889,
@@ -12080,7 +12080,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morrow: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -83.022079,
               minLat: 40.345076,
@@ -12089,7 +12089,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -83.420284,
               minLat: 40.433795,
@@ -12098,7 +12098,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perry: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -82.472402,
               minLat: 39.550217,
@@ -12107,7 +12107,7 @@ const US_States_Counties_4326 = {
             },
           },
           Erie: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -82.952936,
               minLat: 41.283874,
@@ -12116,7 +12116,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clinton: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -84.007454,
               minLat: 39.222845,
@@ -12125,7 +12125,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lorain: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -82.348183,
               minLat: 41.063537,
@@ -12134,7 +12134,7 @@ const US_States_Counties_4326 = {
             },
           },
           Defiance: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -84.804063,
               minLat: 41.16543,
@@ -12143,7 +12143,7 @@ const US_States_Counties_4326 = {
             },
           },
           Athens: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -82.298476,
               minLat: 39.18056,
@@ -12152,7 +12152,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -80.941911,
               minLat: 40.155111,
@@ -12161,7 +12161,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sandusky: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -83.419843,
               minLat: 41.252955,
@@ -12170,7 +12170,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -84.485653,
               minLat: 39.57823,
@@ -12179,7 +12179,7 @@ const US_States_Counties_4326 = {
             },
           },
           Auglaize: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -84.456227,
               minLat: 40.354534,
@@ -12188,7 +12188,7 @@ const US_States_Counties_4326 = {
             },
           },
           Geauga: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -81.391945,
               minLat: 41.347319,
@@ -12197,7 +12197,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamilton: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -84.820305,
               minLat: 39.021534,
@@ -12206,7 +12206,7 @@ const US_States_Counties_4326 = {
             },
           },
           Holmes: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -82.221118,
               minLat: 40.443892,
@@ -12215,7 +12215,7 @@ const US_States_Counties_4326 = {
             },
           },
           Columbiana: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -81.087391,
               minLat: 40.58248,
@@ -12224,7 +12224,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -81.321659,
               minLat: 40.4247,
@@ -12233,7 +12233,7 @@ const US_States_Counties_4326 = {
             },
           },
           Belmont: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -81.237316,
               minLat: 39.849982,
@@ -12242,7 +12242,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ross: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -83.394005,
               minLat: 39.167768,
@@ -12251,7 +12251,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -81.853668,
               minLat: 39.215905,
@@ -12260,7 +12260,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -83.653386,
               minLat: 39.695438,
@@ -12269,7 +12269,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hardin: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -83.880408,
               minLat: 40.504061,
@@ -12278,7 +12278,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clermont: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -84.32004,
               minLat: 38.770414,
@@ -12287,7 +12287,7 @@ const US_States_Counties_4326 = {
             },
           },
           Noble: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -81.697461,
               minLat: 39.583318,
@@ -12296,7 +12296,7 @@ const US_States_Counties_4326 = {
             },
           },
           Putnam: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -84.399486,
               minLat: 40.859099,
@@ -12305,7 +12305,7 @@ const US_States_Counties_4326 = {
             },
           },
           Meigs: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -82.323894,
               minLat: 38.873869,
@@ -12314,7 +12314,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -83.260877,
               minLat: 39.794996,
@@ -12323,7 +12323,7 @@ const US_States_Counties_4326 = {
             },
           },
           Huron: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -82.841475,
               minLat: 40.992909,
@@ -12332,7 +12332,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wood: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -83.883678,
               minLat: 41.165751,
@@ -12341,7 +12341,7 @@ const US_States_Counties_4326 = {
             },
           },
           Seneca: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -83.421299,
               minLat: 40.991889,
@@ -12350,7 +12350,7 @@ const US_States_Counties_4326 = {
             },
           },
           Williams: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -84.806209,
               minLat: 41.426027,
@@ -12359,7 +12359,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -83.551338,
               minLat: 40.106927,
@@ -12368,7 +12368,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cuyahoga: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -81.971262,
               minLat: 41.275044,
@@ -12377,7 +12377,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -84.365232,
               minLat: 39.255112,
@@ -12386,7 +12386,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fairfield: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -82.842953,
               minLat: 39.554445,
@@ -12395,7 +12395,7 @@ const US_States_Counties_4326 = {
             },
           },
           Knox: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -82.750747,
               minLat: 40.239071,
@@ -12404,7 +12404,7 @@ const US_States_Counties_4326 = {
             },
           },
           Licking: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -82.782495,
               minLat: 39.91326,
@@ -12413,7 +12413,7 @@ const US_States_Counties_4326 = {
             },
           },
           Summit: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -81.688491,
               minLat: 40.906502,
@@ -12422,7 +12422,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shelby: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -84.434631,
               minLat: 40.183945,
@@ -12431,7 +12431,7 @@ const US_States_Counties_4326 = {
             },
           },
           Medina: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -82.173373,
               minLat: 40.988196,
@@ -12440,7 +12440,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gallia: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -82.582683,
               minLat: 38.582783,
@@ -12449,7 +12449,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coshocton: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -82.195911,
               minLat: 40.150976,
@@ -12458,7 +12458,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wyandot: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -83.515883,
               minLat: 40.686816,
@@ -12467,7 +12467,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mercer: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -84.804235,
               minLat: 40.351721,
@@ -12478,8 +12478,8 @@ const US_States_Counties_4326 = {
         },
       },
       Texas: {
-        STUSPS: "TX",
-        STATEFP: "48",
+        sub_id: "TX",
+        sub_num: "48",
         bbox: {
           minLon: -106.645646,
           minLat: 25.837048,
@@ -12488,7 +12488,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Menard: {
-            COUNTYFP: "327",
+            sub_num: "327",
             bbox: {
               minLon: -100.116672,
               minLat: 30.710366,
@@ -12497,7 +12497,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hale: {
-            COUNTYFP: "189",
+            sub_num: "189",
             bbox: {
               minLon: -102.090415,
               minLat: 33.824675,
@@ -12506,7 +12506,7 @@ const US_States_Counties_4326 = {
             },
           },
           Armstrong: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -101.629396,
               minLat: 34.747416,
@@ -12515,7 +12515,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -96.930367,
               minLat: 28.022835,
@@ -12524,7 +12524,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -98.423801,
               minLat: 33.466217,
@@ -12533,7 +12533,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orange: {
-            COUNTYFP: "361",
+            sub_num: "361",
             bbox: {
               minLon: -94.118004,
               minLat: 29.865053,
@@ -12542,7 +12542,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gonzales: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -97.858782,
               minLat: 29.109765,
@@ -12551,7 +12551,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fannin: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -96.384756,
               minLat: 33.341119,
@@ -12560,7 +12560,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kerr: {
-            COUNTYFP: "265",
+            sub_num: "265",
             bbox: {
               minLon: -99.757621,
               minLat: 29.781398,
@@ -12569,7 +12569,7 @@ const US_States_Counties_4326 = {
             },
           },
           Refugio: {
-            COUNTYFP: "391",
+            sub_num: "391",
             bbox: {
               minLon: -97.541071,
               minLat: 28.061396,
@@ -12578,7 +12578,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Jim Hogg": {
-            COUNTYFP: "247",
+            sub_num: "247",
             bbox: {
               minLon: -98.954771,
               minLat: 26.783444,
@@ -12587,7 +12587,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dimmit: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -100.114345,
               minLat: 28.197819,
@@ -12596,7 +12596,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nolan: {
-            COUNTYFP: "353",
+            sub_num: "353",
             bbox: {
               minLon: -100.665353,
               minLat: 32.08133,
@@ -12605,7 +12605,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brazos: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -96.601854,
               minLat: 30.330288,
@@ -12614,7 +12614,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "245",
+            sub_num: "245",
             bbox: {
               minLon: -94.445106,
               minLat: 29.506328,
@@ -12623,7 +12623,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bell: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -97.913847,
               minLat: 30.752363,
@@ -12632,7 +12632,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bandera: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -99.603323,
               minLat: 29.551695,
@@ -12641,7 +12641,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hidalgo: {
-            COUNTYFP: "215",
+            sub_num: "215",
             bbox: {
               minLon: -98.586444,
               minLat: 26.036268,
@@ -12650,7 +12650,7 @@ const US_States_Counties_4326 = {
             },
           },
           Schleicher: {
-            COUNTYFP: "413",
+            sub_num: "413",
             bbox: {
               minLon: -100.962364,
               minLat: 30.706071,
@@ -12659,7 +12659,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grayson: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -96.945126,
               minLat: 33.397826,
@@ -12668,7 +12668,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crosby: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -101.56358,
               minLat: 33.39476,
@@ -12677,7 +12677,7 @@ const US_States_Counties_4326 = {
             },
           },
           Delta: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -95.861778,
               minLat: 33.218269,
@@ -12686,7 +12686,7 @@ const US_States_Counties_4326 = {
             },
           },
           Zavala: {
-            COUNTYFP: "507",
+            sub_num: "507",
             bbox: {
               minLon: -100.114338,
               minLat: 28.640512,
@@ -12695,7 +12695,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rockwall: {
-            COUNTYFP: "397",
+            sub_num: "397",
             bbox: {
               minLon: -96.51897,
               minLat: 32.813229,
@@ -12704,7 +12704,7 @@ const US_States_Counties_4326 = {
             },
           },
           Eastland: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -99.118665,
               minLat: 32.078018,
@@ -12713,7 +12713,7 @@ const US_States_Counties_4326 = {
             },
           },
           DeWitt: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -97.75511,
               minLat: 28.8133,
@@ -12722,7 +12722,7 @@ const US_States_Counties_4326 = {
             },
           },
           Angelina: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -95.005566,
               minLat: 31.026088,
@@ -12731,7 +12731,7 @@ const US_States_Counties_4326 = {
             },
           },
           McLennan: {
-            COUNTYFP: "309",
+            sub_num: "309",
             bbox: {
               minLon: -97.60523,
               minLat: 31.244215,
@@ -12740,7 +12740,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lamar: {
-            COUNTYFP: "277",
+            sub_num: "277",
             bbox: {
               minLon: -95.857738,
               minLat: 33.377653,
@@ -12749,7 +12749,7 @@ const US_States_Counties_4326 = {
             },
           },
           Leon: {
-            COUNTYFP: "289",
+            sub_num: "289",
             bbox: {
               minLon: -96.331121,
               minLat: 30.973737,
@@ -12758,7 +12758,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stonewall: {
-            COUNTYFP: "433",
+            sub_num: "433",
             bbox: {
               minLon: -100.519208,
               minLat: 32.959801,
@@ -12767,7 +12767,7 @@ const US_States_Counties_4326 = {
             },
           },
           McMullen: {
-            COUNTYFP: "311",
+            sub_num: "311",
             bbox: {
               minLon: -98.803325,
               minLat: 28.057127,
@@ -12776,7 +12776,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sutton: {
-            COUNTYFP: "435",
+            sub_num: "435",
             bbox: {
               minLon: -100.960824,
               minLat: 30.287477,
@@ -12785,7 +12785,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Fort Bend": {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -96.088912,
               minLat: 29.26259,
@@ -12794,7 +12794,7 @@ const US_States_Counties_4326 = {
             },
           },
           Parker: {
-            COUNTYFP: "367",
+            sub_num: "367",
             bbox: {
               minLon: -98.066836,
               minLat: 32.555297,
@@ -12803,7 +12803,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kinney: {
-            COUNTYFP: "271",
+            sub_num: "271",
             bbox: {
               minLon: -100.797073,
               minLat: 29.084261,
@@ -12812,7 +12812,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -97.317893,
               minLat: 29.628089,
@@ -12821,7 +12821,7 @@ const US_States_Counties_4326 = {
             },
           },
           Briscoe: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -101.472076,
               minLat: 34.312217,
@@ -12830,7 +12830,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harrison: {
-            COUNTYFP: "203",
+            sub_num: "203",
             bbox: {
               minLon: -94.702201,
               minLat: 32.326583,
@@ -12839,7 +12839,7 @@ const US_States_Counties_4326 = {
             },
           },
           Reagan: {
-            COUNTYFP: "383",
+            sub_num: "383",
             bbox: {
               minLon: -101.776191,
               minLat: 31.079263,
@@ -12848,7 +12848,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coleman: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -99.722403,
               minLat: 31.409778,
@@ -12857,7 +12857,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ochiltree: {
-            COUNTYFP: "357",
+            sub_num: "357",
             bbox: {
               minLon: -101.085745,
               minLat: 36.056536,
@@ -12866,7 +12866,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crane: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -102.767688,
               minLat: 31.086212,
@@ -12875,7 +12875,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "477",
+            sub_num: "477",
             bbox: {
               minLon: -96.794552,
               minLat: 30.044283,
@@ -12884,7 +12884,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lynn: {
-            COUNTYFP: "305",
+            sub_num: "305",
             bbox: {
               minLon: -102.076214,
               minLat: 32.959702,
@@ -12893,7 +12893,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mills: {
-            COUNTYFP: "333",
+            sub_num: "333",
             bbox: {
               minLon: -98.995091,
               minLat: 31.230443,
@@ -12902,7 +12902,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oldham: {
-            COUNTYFP: "359",
+            sub_num: "359",
             bbox: {
               minLon: -103.042521,
               minLat: 35.183026,
@@ -12911,7 +12911,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sabine: {
-            COUNTYFP: "403",
+            sub_num: "403",
             bbox: {
               minLon: -94.048926,
               minLat: 31.134246,
@@ -12920,7 +12920,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hopkins: {
-            COUNTYFP: "223",
+            sub_num: "223",
             bbox: {
               minLon: -95.863332,
               minLat: 32.960434,
@@ -12929,7 +12929,7 @@ const US_States_Counties_4326 = {
             },
           },
           Houston: {
-            COUNTYFP: "225",
+            sub_num: "225",
             bbox: {
               minLon: -95.777039,
               minLat: 30.925879,
@@ -12938,7 +12938,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bexar: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -98.806552,
               minLat: 29.114435,
@@ -12947,7 +12947,7 @@ const US_States_Counties_4326 = {
             },
           },
           Upton: {
-            COUNTYFP: "461",
+            sub_num: "461",
             bbox: {
               minLon: -102.31805,
               minLat: 31.079751,
@@ -12956,7 +12956,7 @@ const US_States_Counties_4326 = {
             },
           },
           Erath: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -98.551158,
               minLat: 31.917511,
@@ -12965,7 +12965,7 @@ const US_States_Counties_4326 = {
             },
           },
           Randall: {
-            COUNTYFP: "381",
+            sub_num: "381",
             bbox: {
               minLon: -102.168848,
               minLat: 34.747417,
@@ -12974,7 +12974,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rusk: {
-            COUNTYFP: "401",
+            sub_num: "401",
             bbox: {
               minLon: -94.985957,
               minLat: 31.843718,
@@ -12983,7 +12983,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coryell: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -98.180006,
               minLat: 31.069374,
@@ -12992,7 +12992,7 @@ const US_States_Counties_4326 = {
             },
           },
           Comal: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -98.646244,
               minLat: 29.594473,
@@ -13001,7 +13001,7 @@ const US_States_Counties_4326 = {
             },
           },
           Aransas: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -97.260818,
               minLat: 27.803783,
@@ -13010,7 +13010,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jack: {
-            COUNTYFP: "237",
+            sub_num: "237",
             bbox: {
               minLon: -98.426553,
               minLat: 33.001284,
@@ -13019,7 +13019,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hemphill: {
-            COUNTYFP: "211",
+            sub_num: "211",
             bbox: {
               minLon: -100.54128,
               minLat: 35.619114,
@@ -13028,7 +13028,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shackelford: {
-            COUNTYFP: "417",
+            sub_num: "417",
             bbox: {
               minLon: -99.612264,
               minLat: 32.514654,
@@ -13037,7 +13037,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Jacinto": {
-            COUNTYFP: "407",
+            sub_num: "407",
             bbox: {
               minLon: -95.359156,
               minLat: 30.31945,
@@ -13046,7 +13046,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kendall: {
-            COUNTYFP: "259",
+            sub_num: "259",
             bbox: {
               minLon: -98.920799,
               minLat: 29.716359,
@@ -13055,7 +13055,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wharton: {
-            COUNTYFP: "481",
+            sub_num: "481",
             bbox: {
               minLon: -96.640315,
               minLat: 28.963291,
@@ -13064,7 +13064,7 @@ const US_States_Counties_4326 = {
             },
           },
           Floyd: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -101.565103,
               minLat: 33.830451,
@@ -13073,7 +13073,7 @@ const US_States_Counties_4326 = {
             },
           },
           Karnes: {
-            COUNTYFP: "255",
+            sub_num: "255",
             bbox: {
               minLon: -98.190991,
               minLat: 28.668027,
@@ -13082,7 +13082,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kaufman: {
-            COUNTYFP: "257",
+            sub_num: "257",
             bbox: {
               minLon: -96.529678,
               minLat: 32.354709,
@@ -13091,7 +13091,7 @@ const US_States_Counties_4326 = {
             },
           },
           Duval: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -98.803325,
               minLat: 27.262487,
@@ -13100,7 +13100,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "251",
+            sub_num: "251",
             bbox: {
               minLon: -97.617053,
               minLat: 32.133765,
@@ -13109,7 +13109,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -95.308957,
               minLat: 32.961829,
@@ -13118,7 +13118,7 @@ const US_States_Counties_4326 = {
             },
           },
           Edwards: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -100.700845,
               minLat: 29.623263,
@@ -13127,7 +13127,7 @@ const US_States_Counties_4326 = {
             },
           },
           Waller: {
-            COUNTYFP: "473",
+            sub_num: "473",
             bbox: {
               minLon: -96.192208,
               minLat: 29.727944,
@@ -13136,7 +13136,7 @@ const US_States_Counties_4326 = {
             },
           },
           Maverick: {
-            COUNTYFP: "323",
+            sub_num: "323",
             bbox: {
               minLon: -100.667548,
               minLat: 28.196837,
@@ -13145,7 +13145,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kleberg: {
-            COUNTYFP: "273",
+            sub_num: "273",
             bbox: {
               minLon: -98.0598,
               minLat: 27.209271,
@@ -13154,7 +13154,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gaines: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -103.064871,
               minLat: 32.522193,
@@ -13163,7 +13163,7 @@ const US_States_Counties_4326 = {
             },
           },
           Martin: {
-            COUNTYFP: "317",
+            sub_num: "317",
             bbox: {
               minLon: -102.21127,
               minLat: 32.086765,
@@ -13172,7 +13172,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bowie: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -94.747063,
               minLat: 33.237046,
@@ -13181,7 +13181,7 @@ const US_States_Counties_4326 = {
             },
           },
           Andrews: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -103.064788,
               minLat: 32.085795,
@@ -13190,7 +13190,7 @@ const US_States_Counties_4326 = {
             },
           },
           Potter: {
-            COUNTYFP: "375",
+            sub_num: "375",
             bbox: {
               minLon: -102.167471,
               minLat: 35.182753,
@@ -13199,7 +13199,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garza: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -101.557618,
               minLat: 32.961025,
@@ -13208,7 +13208,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caldwell: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -97.899291,
               minLat: 29.630718,
@@ -13217,7 +13217,7 @@ const US_States_Counties_4326 = {
             },
           },
           Parmer: {
-            COUNTYFP: "369",
+            sub_num: "369",
             bbox: {
               minLon: -103.043791,
               minLat: 34.312277,
@@ -13226,7 +13226,7 @@ const US_States_Counties_4326 = {
             },
           },
           Titus: {
-            COUNTYFP: "449",
+            sub_num: "449",
             bbox: {
               minLon: -95.12613,
               minLat: 32.982453,
@@ -13235,7 +13235,7 @@ const US_States_Counties_4326 = {
             },
           },
           Terry: {
-            COUNTYFP: "445",
+            sub_num: "445",
             bbox: {
               minLon: -102.595106,
               minLat: 32.958566,
@@ -13244,7 +13244,7 @@ const US_States_Counties_4326 = {
             },
           },
           Foard: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -100.04848,
               minLat: 33.733849,
@@ -13253,7 +13253,7 @@ const US_States_Counties_4326 = {
             },
           },
           Real: {
-            COUNTYFP: "385",
+            sub_num: "385",
             bbox: {
               minLon: -100.063741,
               minLat: 29.623495,
@@ -13262,7 +13262,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carson: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -101.623458,
               minLat: 35.181658,
@@ -13271,7 +13271,7 @@ const US_States_Counties_4326 = {
             },
           },
           Knox: {
-            COUNTYFP: "275",
+            sub_num: "275",
             bbox: {
               minLon: -99.996434,
               minLat: 33.397404,
@@ -13280,7 +13280,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hays: {
-            COUNTYFP: "209",
+            sub_num: "209",
             bbox: {
               minLon: -98.2976,
               minLat: 29.752444,
@@ -13289,7 +13289,7 @@ const US_States_Counties_4326 = {
             },
           },
           Medina: {
-            COUNTYFP: "325",
+            sub_num: "325",
             bbox: {
               minLon: -99.41388,
               minLat: 29.09024,
@@ -13298,7 +13298,7 @@ const US_States_Counties_4326 = {
             },
           },
           Motley: {
-            COUNTYFP: "345",
+            sub_num: "345",
             bbox: {
               minLon: -101.041763,
               minLat: 33.833625,
@@ -13307,7 +13307,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wichita: {
-            COUNTYFP: "485",
+            sub_num: "485",
             bbox: {
               minLon: -98.953203,
               minLat: 33.834021,
@@ -13316,7 +13316,7 @@ const US_States_Counties_4326 = {
             },
           },
           Midland: {
-            COUNTYFP: "329",
+            sub_num: "329",
             bbox: {
               minLon: -102.287528,
               minLat: 31.651276,
@@ -13325,7 +13325,7 @@ const US_States_Counties_4326 = {
             },
           },
           Victoria: {
-            COUNTYFP: "469",
+            sub_num: "469",
             bbox: {
               minLon: -97.305916,
               minLat: 28.485712,
@@ -13334,7 +13334,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tyler: {
-            COUNTYFP: "457",
+            sub_num: "457",
             bbox: {
               minLon: -94.657992,
               minLat: 30.526033,
@@ -13343,7 +13343,7 @@ const US_States_Counties_4326 = {
             },
           },
           Falls: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -97.278113,
               minLat: 30.986031,
@@ -13352,7 +13352,7 @@ const US_States_Counties_4326 = {
             },
           },
           Presidio: {
-            COUNTYFP: "377",
+            sub_num: "377",
             bbox: {
               minLon: -104.980778,
               minLat: 29.258437,
@@ -13361,7 +13361,7 @@ const US_States_Counties_4326 = {
             },
           },
           Willacy: {
-            COUNTYFP: "489",
+            sub_num: "489",
             bbox: {
               minLon: -98.004189,
               minLat: 26.299269,
@@ -13370,7 +13370,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lubbock: {
-            COUNTYFP: "303",
+            sub_num: "303",
             bbox: {
               minLon: -102.085768,
               minLat: 33.389586,
@@ -13379,7 +13379,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henderson: {
-            COUNTYFP: "213",
+            sub_num: "213",
             bbox: {
               minLon: -96.454573,
               minLat: 32.005895,
@@ -13388,7 +13388,7 @@ const US_States_Counties_4326 = {
             },
           },
           Walker: {
-            COUNTYFP: "471",
+            sub_num: "471",
             bbox: {
               minLon: -95.863082,
               minLat: 30.504369,
@@ -13397,7 +13397,7 @@ const US_States_Counties_4326 = {
             },
           },
           Galveston: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -95.233081,
               minLat: 29.062739,
@@ -13406,7 +13406,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harris: {
-            COUNTYFP: "201",
+            sub_num: "201",
             bbox: {
               minLon: -95.960733,
               minLat: 29.497297,
@@ -13415,7 +13415,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dawson: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -102.20852,
               minLat: 32.52327,
@@ -13424,7 +13424,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pecos: {
-            COUNTYFP: "371",
+            sub_num: "371",
             bbox: {
               minLon: -103.585084,
               minLat: 30.052808,
@@ -13433,7 +13433,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nacogdoches: {
-            COUNTYFP: "347",
+            sub_num: "347",
             bbox: {
               minLon: -94.97816,
               minLat: 31.222776,
@@ -13442,7 +13442,7 @@ const US_States_Counties_4326 = {
             },
           },
           Guadalupe: {
-            COUNTYFP: "187",
+            sub_num: "187",
             bbox: {
               minLon: -98.312058,
               minLat: 29.36533,
@@ -13451,7 +13451,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tarrant: {
-            COUNTYFP: "439",
+            sub_num: "439",
             bbox: {
               minLon: -97.550582,
               minLat: 32.548666,
@@ -13460,7 +13460,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "239",
+            sub_num: "239",
             bbox: {
               minLon: -96.938587,
               minLat: 28.674409,
@@ -13469,7 +13469,7 @@ const US_States_Counties_4326 = {
             },
           },
           Swisher: {
-            COUNTYFP: "437",
+            sub_num: "437",
             bbox: {
               minLon: -101.998533,
               minLat: 34.312204,
@@ -13478,7 +13478,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sterling: {
-            COUNTYFP: "431",
+            sub_num: "431",
             bbox: {
               minLon: -101.26771,
               minLat: 31.556462,
@@ -13487,7 +13487,7 @@ const US_States_Counties_4326 = {
             },
           },
           Winkler: {
-            COUNTYFP: "495",
+            sub_num: "495",
             bbox: {
               minLon: -103.327538,
               minLat: 31.651306,
@@ -13496,7 +13496,7 @@ const US_States_Counties_4326 = {
             },
           },
           Frio: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -99.41388,
               minLat: 28.640566,
@@ -13505,7 +13505,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lipscomb: {
-            COUNTYFP: "295",
+            sub_num: "295",
             bbox: {
               minLon: -100.546724,
               minLat: 36.055323,
@@ -13514,7 +13514,7 @@ const US_States_Counties_4326 = {
             },
           },
           Collingsworth: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -100.540997,
               minLat: 34.746358,
@@ -13523,7 +13523,7 @@ const US_States_Counties_4326 = {
             },
           },
           Colorado: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -96.874222,
               minLat: 29.247804,
@@ -13532,7 +13532,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wise: {
-            COUNTYFP: "497",
+            sub_num: "497",
             bbox: {
               minLon: -97.921642,
               minLat: 32.990839,
@@ -13541,7 +13541,7 @@ const US_States_Counties_4326 = {
             },
           },
           Glasscock: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -101.776085,
               minLat: 31.650854,
@@ -13550,7 +13550,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shelby: {
-            COUNTYFP: "419",
+            sub_num: "419",
             bbox: {
               minLon: -94.511471,
               minLat: 31.569419,
@@ -13559,7 +13559,7 @@ const US_States_Counties_4326 = {
             },
           },
           Comanche: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -98.924401,
               minLat: 31.683989,
@@ -13568,7 +13568,7 @@ const US_States_Counties_4326 = {
             },
           },
           Burnet: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -98.459373,
               minLat: 30.426164,
@@ -13577,7 +13577,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gray: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -101.086438,
               minLat: 35.18214,
@@ -13586,7 +13586,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hudspeth: {
-            COUNTYFP: "229",
+            sub_num: "229",
             bbox: {
               minLon: -105.998012,
               minLat: 30.629258,
@@ -13595,7 +13595,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cass: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -94.654,
               minLat: 32.879499,
@@ -13604,7 +13604,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ellis: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -97.087067,
               minLat: 32.052087,
@@ -13613,7 +13613,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cooke: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -97.487065,
               minLat: 33.41641,
@@ -13622,7 +13622,7 @@ const US_States_Counties_4326 = {
             },
           },
           Williamson: {
-            COUNTYFP: "491",
+            sub_num: "491",
             bbox: {
               minLon: -98.049886,
               minLat: 30.402843,
@@ -13631,7 +13631,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cochran: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -103.056485,
               minLat: 33.388068,
@@ -13640,7 +13640,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Van Zandt": {
-            COUNTYFP: "467",
+            sub_num: "467",
             bbox: {
               minLon: -96.076801,
               minLat: 32.355097,
@@ -13649,7 +13649,7 @@ const US_States_Counties_4326 = {
             },
           },
           Donley: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -101.090753,
               minLat: 34.747723,
@@ -13658,7 +13658,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jones: {
-            COUNTYFP: "253",
+            sub_num: "253",
             bbox: {
               minLon: -100.146543,
               minLat: 32.514653,
@@ -13667,7 +13667,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grimes: {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -96.188314,
               minLat: 30.225187,
@@ -13676,7 +13676,7 @@ const US_States_Counties_4326 = {
             },
           },
           Irion: {
-            COUNTYFP: "235",
+            sub_num: "235",
             bbox: {
               minLon: -101.274799,
               minLat: 31.079379,
@@ -13685,7 +13685,7 @@ const US_States_Counties_4326 = {
             },
           },
           Navarro: {
-            COUNTYFP: "349",
+            sub_num: "349",
             bbox: {
               minLon: -96.896209,
               minLat: 31.796191,
@@ -13694,7 +13694,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brooks: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -98.536646,
               minLat: 26.780917,
@@ -13703,7 +13703,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dallam: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -103.041729,
               minLat: 36.054975,
@@ -13712,7 +13712,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hunt: {
-            COUNTYFP: "231",
+            sub_num: "231",
             bbox: {
               minLon: -96.297344,
               minLat: 32.837217,
@@ -13721,7 +13721,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mitchell: {
-            COUNTYFP: "335",
+            sub_num: "335",
             bbox: {
               minLon: -101.183997,
               minLat: 32.085386,
@@ -13730,7 +13730,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wood: {
-            COUNTYFP: "499",
+            sub_num: "499",
             bbox: {
               minLon: -95.665389,
               minLat: 32.540959,
@@ -13739,7 +13739,7 @@ const US_States_Counties_4326 = {
             },
           },
           Childress: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -100.417783,
               minLat: 34.311829,
@@ -13748,7 +13748,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Jeff Davis": {
-            COUNTYFP: "243",
+            sub_num: "243",
             bbox: {
               minLon: -104.979801,
               minLat: 30.41219,
@@ -13757,7 +13757,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montague: {
-            COUNTYFP: "337",
+            sub_num: "337",
             bbox: {
               minLon: -97.979046,
               minLat: 33.433681,
@@ -13766,7 +13766,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brown: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -99.203601,
               minLat: 31.448186,
@@ -13775,7 +13775,7 @@ const US_States_Counties_4326 = {
             },
           },
           Haskell: {
-            COUNTYFP: "207",
+            sub_num: "207",
             bbox: {
               minLon: -99.991327,
               minLat: 32.956961,
@@ -13784,7 +13784,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fisher: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -100.660626,
               minLat: 32.522793,
@@ -13793,7 +13793,7 @@ const US_States_Counties_4326 = {
             },
           },
           Concho: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -100.115216,
               minLat: 31.086962,
@@ -13802,7 +13802,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coke: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -100.82537,
               minLat: 31.692514,
@@ -13811,7 +13811,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "373",
+            sub_num: "373",
             bbox: {
               minLon: -95.20018,
               minLat: 30.489002,
@@ -13820,7 +13820,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cottle: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -100.518692,
               minLat: 33.835607,
@@ -13829,7 +13829,7 @@ const US_States_Counties_4326 = {
             },
           },
           Young: {
-            COUNTYFP: "503",
+            sub_num: "503",
             bbox: {
               minLon: -98.954097,
               minLat: 32.9523,
@@ -13838,7 +13838,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "287",
+            sub_num: "287",
             bbox: {
               minLon: -97.334463,
               minLat: 30.032,
@@ -13847,7 +13847,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cherokee: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -95.462242,
               minLat: 31.42571,
@@ -13856,7 +13856,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hall: {
-            COUNTYFP: "191",
+            sub_num: "191",
             bbox: {
               minLon: -100.946372,
               minLat: 34.312759,
@@ -13865,7 +13865,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hood: {
-            COUNTYFP: "221",
+            sub_num: "221",
             bbox: {
               minLon: -98.068545,
               minLat: 32.233468,
@@ -13874,7 +13874,7 @@ const US_States_Counties_4326 = {
             },
           },
           Archer: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -98.953938,
               minLat: 33.39542,
@@ -13883,7 +13883,7 @@ const US_States_Counties_4326 = {
             },
           },
           Baylor: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -99.47565,
               minLat: 33.397534,
@@ -13892,7 +13892,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Augustine": {
-            COUNTYFP: "405",
+            sub_num: "405",
             bbox: {
               minLon: -94.39984,
               minLat: 31.09928,
@@ -13901,7 +13901,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "313",
+            sub_num: "313",
             bbox: {
               minLon: -96.24102,
               minLat: 30.822997,
@@ -13910,7 +13910,7 @@ const US_States_Counties_4326 = {
             },
           },
           Milam: {
-            COUNTYFP: "331",
+            sub_num: "331",
             bbox: {
               minLon: -97.315485,
               minLat: 30.457344,
@@ -13919,7 +13919,7 @@ const US_States_Counties_4326 = {
             },
           },
           Reeves: {
-            COUNTYFP: "389",
+            sub_num: "389",
             bbox: {
               minLon: -104.102351,
               minLat: 30.76647,
@@ -13928,7 +13928,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nueces: {
-            COUNTYFP: "355",
+            sub_num: "355",
             bbox: {
               minLon: -97.942146,
               minLat: 27.558358,
@@ -13937,7 +13937,7 @@ const US_States_Counties_4326 = {
             },
           },
           Camp: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -95.152619,
               minLat: 32.902444,
@@ -13946,7 +13946,7 @@ const US_States_Counties_4326 = {
             },
           },
           Freestone: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -96.496713,
               minLat: 31.413392,
@@ -13955,7 +13955,7 @@ const US_States_Counties_4326 = {
             },
           },
           Runnels: {
-            COUNTYFP: "399",
+            sub_num: "399",
             bbox: {
               minLon: -100.236189,
               minLat: 31.576688,
@@ -13964,7 +13964,7 @@ const US_States_Counties_4326 = {
             },
           },
           Terrell: {
-            COUNTYFP: "443",
+            sub_num: "443",
             bbox: {
               minLon: -102.56705,
               minLat: 29.779134,
@@ -13973,7 +13973,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Deaf Smith": {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -103.042982,
               minLat: 34.746024,
@@ -13982,7 +13982,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "315",
+            sub_num: "315",
             bbox: {
               minLon: -94.709711,
               minLat: 32.687093,
@@ -13991,7 +13991,7 @@ const US_States_Counties_4326 = {
             },
           },
           Liberty: {
-            COUNTYFP: "291",
+            sub_num: "291",
             bbox: {
               minLon: -95.165897,
               minLat: 29.884276,
@@ -14000,7 +14000,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jasper: {
-            COUNTYFP: "241",
+            sub_num: "241",
             bbox: {
               minLon: -94.460172,
               minLat: 30.241649,
@@ -14009,7 +14009,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hansford: {
-            COUNTYFP: "195",
+            sub_num: "195",
             bbox: {
               minLon: -101.623915,
               minLat: 36.05506,
@@ -14018,7 +14018,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chambers: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -95.018205,
               minLat: 29.49624,
@@ -14027,7 +14027,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hardin: {
-            COUNTYFP: "199",
+            sub_num: "199",
             bbox: {
               minLon: -94.732732,
               minLat: 30.097167,
@@ -14036,7 +14036,7 @@ const US_States_Counties_4326 = {
             },
           },
           Collin: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -96.844122,
               minLat: 32.98149,
@@ -14045,7 +14045,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brazoria: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -95.874028,
               minLat: 28.764837,
@@ -14054,7 +14054,7 @@ const US_States_Counties_4326 = {
             },
           },
           Throckmorton: {
-            COUNTYFP: "447",
+            sub_num: "447",
             bbox: {
               minLon: -99.472444,
               minLat: 32.956415,
@@ -14063,7 +14063,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bastrop: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -97.64937,
               minLat: 29.786541,
@@ -14072,7 +14072,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scurry: {
-            COUNTYFP: "415",
+            sub_num: "415",
             bbox: {
               minLon: -101.174726,
               minLat: 32.525188,
@@ -14081,7 +14081,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ector: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -102.799086,
               minLat: 31.651085,
@@ -14090,7 +14090,7 @@ const US_States_Counties_4326 = {
             },
           },
           Limestone: {
-            COUNTYFP: "293",
+            sub_num: "293",
             bbox: {
               minLon: -96.932215,
               minLat: 31.2209,
@@ -14099,7 +14099,7 @@ const US_States_Counties_4326 = {
             },
           },
           Denton: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -97.398459,
               minLat: 32.987435,
@@ -14108,7 +14108,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Red River": {
-            COUNTYFP: "387",
+            sub_num: "387",
             bbox: {
               minLon: -95.311035,
               minLat: 33.317365,
@@ -14117,7 +14117,7 @@ const US_States_Counties_4326 = {
             },
           },
           Matagorda: {
-            COUNTYFP: "321",
+            sub_num: "321",
             bbox: {
               minLon: -96.395198,
               minLat: 28.279736,
@@ -14126,7 +14126,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hardeman: {
-            COUNTYFP: "197",
+            sub_num: "197",
             bbox: {
               minLon: -99.998006,
               minLat: 34.055774,
@@ -14135,7 +14135,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Palo Pinto": {
-            COUNTYFP: "363",
+            sub_num: "363",
             bbox: {
               minLon: -98.57626,
               minLat: 32.511626,
@@ -14144,7 +14144,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Live Oak": {
-            COUNTYFP: "297",
+            sub_num: "297",
             bbox: {
               minLon: -98.335031,
               minLat: 28.056681,
@@ -14153,7 +14153,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sherman: {
-            COUNTYFP: "421",
+            sub_num: "421",
             bbox: {
               minLon: -102.163303,
               minLat: 36.055131,
@@ -14162,7 +14162,7 @@ const US_States_Counties_4326 = {
             },
           },
           Uvalde: {
-            COUNTYFP: "463",
+            sub_num: "463",
             bbox: {
               minLon: -100.112309,
               minLat: 29.086318,
@@ -14171,7 +14171,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bailey: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -103.047409,
               minLat: 33.824627,
@@ -14180,7 +14180,7 @@ const US_States_Counties_4326 = {
             },
           },
           Culberson: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -104.918691,
               minLat: 30.663626,
@@ -14189,7 +14189,7 @@ const US_States_Counties_4326 = {
             },
           },
           Atascosa: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -98.804914,
               minLat: 28.612658,
@@ -14198,7 +14198,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilson: {
-            COUNTYFP: "493",
+            sub_num: "493",
             bbox: {
               minLon: -98.407336,
               minLat: 28.882333,
@@ -14207,7 +14207,7 @@ const US_States_Counties_4326 = {
             },
           },
           Starr: {
-            COUNTYFP: "427",
+            sub_num: "427",
             bbox: {
               minLon: -99.171835,
               minLat: 26.235259,
@@ -14216,7 +14216,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dallas: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -97.038685,
               minLat: 32.545214,
@@ -14225,7 +14225,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kimble: {
-            COUNTYFP: "267",
+            sub_num: "267",
             bbox: {
               minLon: -100.116873,
               minLat: 30.286653,
@@ -14234,7 +14234,7 @@ const US_States_Counties_4326 = {
             },
           },
           McCulloch: {
-            COUNTYFP: "307",
+            sub_num: "307",
             bbox: {
               minLon: -99.60371,
               minLat: 30.940553,
@@ -14243,7 +14243,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crockett: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -102.390667,
               minLat: 30.287333,
@@ -14252,7 +14252,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hill: {
-            COUNTYFP: "217",
+            sub_num: "217",
             bbox: {
               minLon: -97.497113,
               minLat: 31.708887,
@@ -14261,7 +14261,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kent: {
-            COUNTYFP: "263",
+            sub_num: "263",
             bbox: {
               minLon: -101.038884,
               minLat: 32.96291,
@@ -14270,7 +14270,7 @@ const US_States_Counties_4326 = {
             },
           },
           "El Paso": {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -106.645646,
               minLat: 31.38723,
@@ -14279,7 +14279,7 @@ const US_States_Counties_4326 = {
             },
           },
           Loving: {
-            COUNTYFP: "301",
+            sub_num: "301",
             bbox: {
               minLon: -103.98406,
               minLat: 31.650558,
@@ -14288,7 +14288,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dickens: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -101.041158,
               minLat: 33.397179,
@@ -14297,7 +14297,7 @@ const US_States_Counties_4326 = {
             },
           },
           "La Salle": {
-            COUNTYFP: "283",
+            sub_num: "283",
             bbox: {
               minLon: -99.396681,
               minLat: 28.030419,
@@ -14306,7 +14306,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lamb: {
-            COUNTYFP: "279",
+            sub_num: "279",
             bbox: {
               minLon: -102.615596,
               minLat: 33.824596,
@@ -14315,7 +14315,7 @@ const US_States_Counties_4326 = {
             },
           },
           Austin: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -96.62198,
               minLat: 29.601658,
@@ -14324,7 +14324,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hutchinson: {
-            COUNTYFP: "233",
+            sub_num: "233",
             bbox: {
               minLon: -101.623466,
               minLat: 35.624057,
@@ -14333,7 +14333,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Val Verde": {
-            COUNTYFP: "465",
+            sub_num: "465",
             bbox: {
               minLon: -101.760924,
               minLat: 29.237579,
@@ -14342,7 +14342,7 @@ const US_States_Counties_4326 = {
             },
           },
           Smith: {
-            COUNTYFP: "423",
+            sub_num: "423",
             bbox: {
               minLon: -95.594541,
               minLat: 32.135399,
@@ -14351,7 +14351,7 @@ const US_States_Counties_4326 = {
             },
           },
           Robertson: {
-            COUNTYFP: "395",
+            sub_num: "395",
             bbox: {
               minLon: -96.8311,
               minLat: 30.69567,
@@ -14360,7 +14360,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gillespie: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -99.304015,
               minLat: 30.134298,
@@ -14369,7 +14369,7 @@ const US_States_Counties_4326 = {
             },
           },
           King: {
-            COUNTYFP: "269",
+            sub_num: "269",
             bbox: {
               minLon: -100.518691,
               minLat: 33.396997,
@@ -14378,7 +14378,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Tom Green": {
-            COUNTYFP: "451",
+            sub_num: "451",
             bbox: {
               minLon: -101.267947,
               minLat: 31.086122,
@@ -14387,7 +14387,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yoakum: {
-            COUNTYFP: "501",
+            sub_num: "501",
             bbox: {
               minLon: -103.064696,
               minLat: 32.958548,
@@ -14396,7 +14396,7 @@ const US_States_Counties_4326 = {
             },
           },
           Somervell: {
-            COUNTYFP: "425",
+            sub_num: "425",
             bbox: {
               minLon: -97.945625,
               minLat: 32.087328,
@@ -14405,7 +14405,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kenedy: {
-            COUNTYFP: "261",
+            sub_num: "261",
             bbox: {
               minLon: -97.985892,
               minLat: 26.597884,
@@ -14414,7 +14414,7 @@ const US_States_Counties_4326 = {
             },
           },
           Borden: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -101.69133,
               minLat: 32.52398,
@@ -14423,7 +14423,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Saba": {
-            COUNTYFP: "411",
+            sub_num: "411",
             bbox: {
               minLon: -99.092431,
               minLat: 30.920343,
@@ -14432,7 +14432,7 @@ const US_States_Counties_4326 = {
             },
           },
           Burleson: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -96.96363,
               minLat: 30.295549,
@@ -14441,7 +14441,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bee: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -98.089764,
               minLat: 28.129683,
@@ -14450,7 +14450,7 @@ const US_States_Counties_4326 = {
             },
           },
           Trinity: {
-            COUNTYFP: "455",
+            sub_num: "455",
             bbox: {
               minLon: -95.434781,
               minLat: 30.824566,
@@ -14459,7 +14459,7 @@ const US_States_Counties_4326 = {
             },
           },
           Castro: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -102.525833,
               minLat: 34.312725,
@@ -14468,7 +14468,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brewster: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -103.80068,
               minLat: 28.971547,
@@ -14477,7 +14477,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gregg: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -94.986963,
               minLat: 32.359948,
@@ -14486,7 +14486,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ward: {
-            COUNTYFP: "475",
+            sub_num: "475",
             bbox: {
               minLon: -103.610887,
               minLat: 31.266881,
@@ -14495,7 +14495,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilbarger: {
-            COUNTYFP: "487",
+            sub_num: "487",
             bbox: {
               minLon: -99.47565,
               minLat: 33.833799,
@@ -14504,7 +14504,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamilton: {
-            COUNTYFP: "193",
+            sub_num: "193",
             bbox: {
               minLon: -98.463736,
               minLat: 31.416398,
@@ -14513,7 +14513,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stephens: {
-            COUNTYFP: "429",
+            sub_num: "429",
             bbox: {
               minLon: -99.096059,
               minLat: 32.51469,
@@ -14522,7 +14522,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lavaca: {
-            COUNTYFP: "285",
+            sub_num: "285",
             bbox: {
               minLon: -97.240108,
               minLat: 29.063244,
@@ -14531,7 +14531,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bosque: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -98.005462,
               minLat: 31.587762,
@@ -14540,7 +14540,7 @@ const US_States_Counties_4326 = {
             },
           },
           Goliad: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -97.77853,
               minLat: 28.388684,
@@ -14549,7 +14549,7 @@ const US_States_Counties_4326 = {
             },
           },
           Roberts: {
-            COUNTYFP: "393",
+            sub_num: "393",
             bbox: {
               minLon: -101.086146,
               minLat: 35.61908,
@@ -14558,7 +14558,7 @@ const US_States_Counties_4326 = {
             },
           },
           Callahan: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -99.631561,
               minLat: 32.079123,
@@ -14567,7 +14567,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rains: {
-            COUNTYFP: "379",
+            sub_num: "379",
             bbox: {
               minLon: -95.987358,
               minLat: 32.711402,
@@ -14576,7 +14576,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morris: {
-            COUNTYFP: "343",
+            sub_num: "343",
             bbox: {
               minLon: -94.819828,
               minLat: 32.879161,
@@ -14585,7 +14585,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lampasas: {
-            COUNTYFP: "281",
+            sub_num: "281",
             bbox: {
               minLon: -98.569645,
               minLat: 31.029647,
@@ -14594,7 +14594,7 @@ const US_States_Counties_4326 = {
             },
           },
           Upshur: {
-            COUNTYFP: "459",
+            sub_num: "459",
             bbox: {
               minLon: -95.15341,
               minLat: 32.516398,
@@ -14603,7 +14603,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wheeler: {
-            COUNTYFP: "483",
+            sub_num: "483",
             bbox: {
               minLon: -100.540215,
               minLat: 35.182466,
@@ -14612,7 +14612,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Patricio": {
-            COUNTYFP: "409",
+            sub_num: "409",
             bbox: {
               minLon: -97.908774,
               minLat: 27.821105,
@@ -14621,7 +14621,7 @@ const US_States_Counties_4326 = {
             },
           },
           Moore: {
-            COUNTYFP: "341",
+            sub_num: "341",
             bbox: {
               minLon: -102.163058,
               minLat: 35.619923,
@@ -14630,7 +14630,7 @@ const US_States_Counties_4326 = {
             },
           },
           Webb: {
-            COUNTYFP: "479",
+            sub_num: "479",
             bbox: {
               minLon: -100.212189,
               minLat: 27.259562,
@@ -14639,7 +14639,7 @@ const US_States_Counties_4326 = {
             },
           },
           Blanco: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -98.59167,
               minLat: 29.937557,
@@ -14648,7 +14648,7 @@ const US_States_Counties_4326 = {
             },
           },
           Newton: {
-            COUNTYFP: "351",
+            sub_num: "351",
             bbox: {
               minLon: -93.911126,
               minLat: 30.242672,
@@ -14657,7 +14657,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hockley: {
-            COUNTYFP: "219",
+            sub_num: "219",
             bbox: {
               minLon: -102.615447,
               minLat: 33.388327,
@@ -14666,7 +14666,7 @@ const US_States_Counties_4326 = {
             },
           },
           Panola: {
-            COUNTYFP: "365",
+            sub_num: "365",
             bbox: {
               minLon: -94.601853,
               minLat: 31.973193,
@@ -14675,7 +14675,7 @@ const US_States_Counties_4326 = {
             },
           },
           Anderson: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -96.06486,
               minLat: 31.504056,
@@ -14684,7 +14684,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cameron: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -97.862325,
               minLat: 25.837048,
@@ -14693,7 +14693,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "339",
+            sub_num: "339",
             bbox: {
               minLon: -95.83024,
               minLat: 30.027748,
@@ -14702,7 +14702,7 @@ const US_States_Counties_4326 = {
             },
           },
           Llano: {
-            COUNTYFP: "299",
+            sub_num: "299",
             bbox: {
               minLon: -98.964612,
               minLat: 30.486096,
@@ -14711,7 +14711,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mason: {
-            COUNTYFP: "319",
+            sub_num: "319",
             bbox: {
               minLon: -99.484755,
               minLat: 30.498076,
@@ -14720,7 +14720,7 @@ const US_States_Counties_4326 = {
             },
           },
           Taylor: {
-            COUNTYFP: "441",
+            sub_num: "441",
             bbox: {
               minLon: -100.151924,
               minLat: 32.081203,
@@ -14729,7 +14729,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hartley: {
-            COUNTYFP: "205",
+            sub_num: "205",
             bbox: {
               minLon: -103.041706,
               minLat: 35.622487,
@@ -14738,7 +14738,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Jim Wells": {
-            COUNTYFP: "249",
+            sub_num: "249",
             bbox: {
               minLon: -98.235497,
               minLat: 27.260981,
@@ -14747,7 +14747,7 @@ const US_States_Counties_4326 = {
             },
           },
           Zapata: {
-            COUNTYFP: "505",
+            sub_num: "505",
             bbox: {
               minLon: -99.453794,
               minLat: 26.571682,
@@ -14756,7 +14756,7 @@ const US_States_Counties_4326 = {
             },
           },
           Travis: {
-            COUNTYFP: "453",
+            sub_num: "453",
             bbox: {
               minLon: -98.172977,
               minLat: 30.023451,
@@ -14765,7 +14765,7 @@ const US_States_Counties_4326 = {
             },
           },
           Howard: {
-            COUNTYFP: "227",
+            sub_num: "227",
             bbox: {
               minLon: -101.695011,
               minLat: 32.087097,
@@ -14776,8 +14776,8 @@ const US_States_Counties_4326 = {
         },
       },
       Colorado: {
-        STUSPS: "CO",
-        STATEFP: "08",
+        sub_id: "CO",
+        sub_num: "08",
         bbox: {
           minLon: -109.060204,
           minLat: 36.992449,
@@ -14786,7 +14786,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Saguache: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -107.001892,
               minLat: 37.747809,
@@ -14795,7 +14795,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sedgwick: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -102.653488,
               minLat: 40.748896,
@@ -14804,7 +14804,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cheyenne: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -103.172943,
               minLat: 38.61245,
@@ -14813,7 +14813,7 @@ const US_States_Counties_4326 = {
             },
           },
           Custer: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -105.796897,
               minLat: 37.889703,
@@ -14822,7 +14822,7 @@ const US_States_Counties_4326 = {
             },
           },
           "La Plata": {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -108.381069,
               minLat: 36.999606,
@@ -14831,7 +14831,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Juan": {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -107.97506,
               minLat: 37.639478,
@@ -14840,7 +14840,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pitkin: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -107.465957,
               minLat: 38.97772,
@@ -14849,7 +14849,7 @@ const US_States_Counties_4326 = {
             },
           },
           Park: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -106.210173,
               minLat: 38.693089,
@@ -14858,7 +14858,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alamosa: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -106.039397,
               minLat: 37.3562,
@@ -14867,7 +14867,7 @@ const US_States_Counties_4326 = {
             },
           },
           Prowers: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -102.747991,
               minLat: 37.643486,
@@ -14876,7 +14876,7 @@ const US_States_Counties_4326 = {
             },
           },
           Moffat: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -109.051245,
               minLat: 40.219991,
@@ -14885,7 +14885,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -105.39915,
               minLat: 39.129474,
@@ -14894,7 +14894,7 @@ const US_States_Counties_4326 = {
             },
           },
           Summit: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -106.440301,
               minLat: 39.357378,
@@ -14903,7 +14903,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pueblo: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -105.050678,
               minLat: 37.734704,
@@ -14912,7 +14912,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boulder: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -105.694362,
               minLat: 39.912886,
@@ -14921,7 +14921,7 @@ const US_States_Counties_4326 = {
             },
           },
           Denver: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -105.109924,
               minLat: 39.614311,
@@ -14930,7 +14930,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montrose: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -109.060204,
               minLat: 38.152228,
@@ -14939,7 +14939,7 @@ const US_States_Counties_4326 = {
             },
           },
           Eagle: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -107.113947,
               minLat: 39.349469,
@@ -14948,7 +14948,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Miguel": {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -109.042947,
               minLat: 37.773556,
@@ -14957,7 +14957,7 @@ const US_States_Counties_4326 = {
             },
           },
           Costilla: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -105.771391,
               minLat: 36.994974,
@@ -14966,7 +14966,7 @@ const US_States_Counties_4326 = {
             },
           },
           Broomfield: {
-            COUNTYFP: "014",
+            sub_num: "014",
             bbox: {
               minLon: -105.166056,
               minLat: 39.889212,
@@ -14975,7 +14975,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chaffee: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -106.599516,
               minLat: 38.422092,
@@ -14984,7 +14984,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crowley: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -104.058488,
               minLat: 38.112437,
@@ -14993,7 +14993,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fremont: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -106.012789,
               minLat: 38.257548,
@@ -15002,7 +15002,7 @@ const US_States_Counties_4326 = {
             },
           },
           Huerfano: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -105.501755,
               minLat: 37.289117,
@@ -15011,7 +15011,7 @@ const US_States_Counties_4326 = {
             },
           },
           Delta: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -108.378999,
               minLat: 38.66798,
@@ -15020,7 +15020,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garfield: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -109.051459,
               minLat: 39.365859,
@@ -15029,7 +15029,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Rio Blanco": {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -109.051316,
               minLat: 39.649712,
@@ -15038,7 +15038,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -104.150538,
               minLat: 40.000836,
@@ -15047,7 +15047,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -104.055539,
               minLat: 38.516409,
@@ -15056,7 +15056,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montezuma: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -109.045924,
               minLat: 36.998838,
@@ -15065,7 +15065,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -105.053339,
               minLat: 39.738002,
@@ -15074,7 +15074,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mineral: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -107.145138,
               minLat: 37.392304,
@@ -15083,7 +15083,7 @@ const US_States_Counties_4326 = {
             },
           },
           Otero: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -104.062073,
               minLat: 37.642936,
@@ -15092,7 +15092,7 @@ const US_States_Counties_4326 = {
             },
           },
           Phillips: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -102.665595,
               minLat: 40.438466,
@@ -15101,7 +15101,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ouray: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -108.13238,
               minLat: 37.892007,
@@ -15110,7 +15110,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bent: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -103.404426,
               minLat: 37.643272,
@@ -15119,7 +15119,7 @@ const US_States_Counties_4326 = {
             },
           },
           Archuleta: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -107.482409,
               minLat: 36.992449,
@@ -15128,7 +15128,7 @@ const US_States_Counties_4326 = {
             },
           },
           Routt: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -107.442594,
               minLat: 39.918671,
@@ -15137,7 +15137,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hinsdale: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -107.591367,
               minLat: 37.422673,
@@ -15146,7 +15146,7 @@ const US_States_Counties_4326 = {
             },
           },
           Weld: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -105.05672,
               minLat: 40.000251,
@@ -15155,7 +15155,7 @@ const US_States_Counties_4326 = {
             },
           },
           Larimer: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -106.195438,
               minLat: 40.257784,
@@ -15164,7 +15164,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -106.586338,
               minLat: 39.056073,
@@ -15173,7 +15173,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Rio Grande": {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -106.711835,
               minLat: 37.39935,
@@ -15182,7 +15182,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gilpin: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -105.700784,
               minLat: 39.745856,
@@ -15191,7 +15191,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yuma: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -102.803767,
               minLat: 39.567748,
@@ -15200,7 +15200,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -106.873221,
               minLat: 40.323382,
@@ -15209,7 +15209,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Kit Carson": {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -103.163209,
               minLat: 39.03761,
@@ -15218,7 +15218,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Clear Creek": {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -105.92703,
               minLat: 39.564865,
@@ -15227,7 +15227,7 @@ const US_States_Counties_4326 = {
             },
           },
           Logan: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -103.581848,
               minLat: 40.435294,
@@ -15236,7 +15236,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -103.707072,
               minLat: 39.565654,
@@ -15245,7 +15245,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -105.329445,
               minLat: 39.129479,
@@ -15254,7 +15254,7 @@ const US_States_Counties_4326 = {
             },
           },
           Conejos: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -106.678705,
               minLat: 36.993548,
@@ -15263,7 +15263,7 @@ const US_States_Counties_4326 = {
             },
           },
           "El Paso": {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -105.072529,
               minLat: 38.51944,
@@ -15272,7 +15272,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kiowa: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -103.506985,
               minLat: 38.265004,
@@ -15281,7 +15281,7 @@ const US_States_Counties_4326 = {
             },
           },
           Teller: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -105.330382,
               minLat: 38.647464,
@@ -15290,7 +15290,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gunnison: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -107.63504,
               minLat: 38.146888,
@@ -15299,7 +15299,7 @@ const US_States_Counties_4326 = {
             },
           },
           Baca: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -103.087276,
               minLat: 36.993016,
@@ -15308,7 +15308,7 @@ const US_States_Counties_4326 = {
             },
           },
           Elbert: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -104.662894,
               minLat: 38.866436,
@@ -15317,7 +15317,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mesa: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -109.060152,
               minLat: 38.499983,
@@ -15326,7 +15326,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dolores: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -109.043366,
               minLat: 37.484818,
@@ -15335,7 +15335,7 @@ const US_States_Counties_4326 = {
             },
           },
           Arapahoe: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -105.054169,
               minLat: 39.563601,
@@ -15344,7 +15344,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Las Animas": {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -105.155063,
               minLat: 36.992727,
@@ -15353,7 +15353,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grand: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -106.652957,
               minLat: 39.684122,
@@ -15364,8 +15364,8 @@ const US_States_Counties_4326 = {
         },
       },
       "South Carolina": {
-        STUSPS: "SC",
-        STATEFP: "45",
+        sub_id: "SC",
+        sub_num: "45",
         bbox: {
           minLon: -83.353928,
           minLat: 31.995954,
@@ -15374,7 +15374,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Chester: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -81.488377,
               minLat: 34.54315,
@@ -15383,7 +15383,7 @@ const US_States_Counties_4326 = {
             },
           },
           Saluda: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -82.010272,
               minLat: 33.81451,
@@ -15392,7 +15392,7 @@ const US_States_Counties_4326 = {
             },
           },
           Williamsburg: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -80.101697,
               minLat: 33.304944,
@@ -15401,7 +15401,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dorchester: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -80.791968,
               minLat: 32.818132,
@@ -15410,7 +15410,7 @@ const US_States_Counties_4326 = {
             },
           },
           Berkeley: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -80.361851,
               minLat: 32.815319,
@@ -15419,7 +15419,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greenwood: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -82.334234,
               minLat: 33.95321,
@@ -15428,7 +15428,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marlboro: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -79.934621,
               minLat: 34.297994,
@@ -15437,7 +15437,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bamberg: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -81.227805,
               minLat: 33.02663,
@@ -15446,7 +15446,7 @@ const US_States_Counties_4326 = {
             },
           },
           Darlington: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -80.288787,
               minLat: 34.085189,
@@ -15455,7 +15455,7 @@ const US_States_Counties_4326 = {
             },
           },
           Aiken: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -82.01247,
               minLat: 33.198148,
@@ -15464,7 +15464,7 @@ const US_States_Counties_4326 = {
             },
           },
           Laurens: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -82.314857,
               minLat: 34.203148,
@@ -15473,7 +15473,7 @@ const US_States_Counties_4326 = {
             },
           },
           Newberry: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -81.945019,
               minLat: 34.070839,
@@ -15482,7 +15482,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lexington: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -81.571487,
               minLat: 33.652919,
@@ -15491,7 +15491,7 @@ const US_States_Counties_4326 = {
             },
           },
           Anderson: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -82.992232,
               minLat: 34.211715,
@@ -15500,7 +15500,7 @@ const US_States_Counties_4326 = {
             },
           },
           Beaufort: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -81.016234,
               minLat: 32.07689,
@@ -15509,7 +15509,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pickens: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -82.943639,
               minLat: 34.60883,
@@ -15518,7 +15518,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kershaw: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -80.879227,
               minLat: 34.068972,
@@ -15527,7 +15527,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greenville: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -82.764157,
               minLat: 34.484335,
@@ -15536,7 +15536,7 @@ const US_States_Counties_4326 = {
             },
           },
           Florence: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -80.069878,
               minLat: 33.775357,
@@ -15545,7 +15545,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sumter: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -80.646714,
               minLat: 33.643911,
@@ -15554,7 +15554,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orangeburg: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -81.373494,
               minLat: 33.176907,
@@ -15563,7 +15563,7 @@ const US_States_Counties_4326 = {
             },
           },
           Spartanburg: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -82.226537,
               minLat: 34.58016,
@@ -15572,7 +15572,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -79.57188,
               minLat: 33.694235,
@@ -15581,7 +15581,7 @@ const US_States_Counties_4326 = {
             },
           },
           Charleston: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -80.453553,
               minLat: 32.482565,
@@ -15590,7 +15590,7 @@ const US_States_Counties_4326 = {
             },
           },
           Edgefield: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -82.182987,
               minLat: 33.532116,
@@ -15599,7 +15599,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oconee: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -83.353928,
               minLat: 34.472204,
@@ -15608,7 +15608,7 @@ const US_States_Counties_4326 = {
             },
           },
           Colleton: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -81.082291,
               minLat: 32.397589,
@@ -15617,7 +15617,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hampton: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -81.427517,
               minLat: 32.551083,
@@ -15626,7 +15626,7 @@ const US_States_Counties_4326 = {
             },
           },
           Abbeville: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -82.742075,
               minLat: 34.013796,
@@ -15635,7 +15635,7 @@ const US_States_Counties_4326 = {
             },
           },
           Horry: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -79.33911,
               minLat: 33.569108,
@@ -15644,7 +15644,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cherokee: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -81.874689,
               minLat: 34.839248,
@@ -15653,7 +15653,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lancaster: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -80.909535,
               minLat: 34.457776,
@@ -15662,7 +15662,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allendale: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -81.614033,
               minLat: 32.744867,
@@ -15671,7 +15671,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -80.481318,
               minLat: 33.952002,
@@ -15680,7 +15680,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clarendon: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -80.540514,
               minLat: 33.430219,
@@ -15689,7 +15689,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fairfield: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -81.427545,
               minLat: 34.174552,
@@ -15698,7 +15698,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dillon: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -79.633413,
               minLat: 34.230913,
@@ -15707,7 +15707,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jasper: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -81.28127,
               minLat: 31.995954,
@@ -15716,7 +15716,7 @@ const US_States_Counties_4326 = {
             },
           },
           McCormick: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -82.594631,
               minLat: 33.589925,
@@ -15725,7 +15725,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -81.851865,
               minLat: 34.445027,
@@ -15734,7 +15734,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richland: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -81.345328,
               minLat: 33.743237,
@@ -15743,7 +15743,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -81.060499,
               minLat: 33.466006,
@@ -15752,7 +15752,7 @@ const US_States_Counties_4326 = {
             },
           },
           York: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -81.492282,
               minLat: 34.820844,
@@ -15761,7 +15761,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barnwell: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -81.772435,
               minLat: 33.092852,
@@ -15770,7 +15770,7 @@ const US_States_Counties_4326 = {
             },
           },
           Georgetown: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -79.680904,
               minLat: 33.062883,
@@ -15779,7 +15779,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chesterfield: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -80.564088,
               minLat: 34.366207,
@@ -15790,8 +15790,8 @@ const US_States_Counties_4326 = {
         },
       },
       Oklahoma: {
-        STUSPS: "OK",
-        STATEFP: "40",
+        sub_id: "OK",
+        sub_num: "40",
         bbox: {
           minLon: -103.002413,
           minLat: 33.615787,
@@ -15800,7 +15800,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Adair: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -94.807757,
               minLat: 35.638328,
@@ -15809,7 +15809,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sequoyah: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -95.132314,
               minLat: 35.291214,
@@ -15818,7 +15818,7 @@ const US_States_Counties_4326 = {
             },
           },
           Canadian: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -98.313473,
               minLat: 35.323762,
@@ -15827,7 +15827,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -96.969744,
               minLat: 33.824407,
@@ -15836,7 +15836,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harper: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -100.00388,
               minLat: 36.592754,
@@ -15845,7 +15845,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alfalfa: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -98.54502,
               minLat: 36.463016,
@@ -15854,7 +15854,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -97.141689,
               minLat: 35.462705,
@@ -15863,7 +15863,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hughes: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -96.490786,
               minLat: 34.766804,
@@ -15872,7 +15872,7 @@ const US_States_Counties_4326 = {
             },
           },
           Muskogee: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -95.766265,
               minLat: 35.261636,
@@ -15881,7 +15881,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ottawa: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -95.037735,
               minLat: 36.667472,
@@ -15890,7 +15890,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rogers: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -95.8154,
               minLat: 36.0752,
@@ -15899,7 +15899,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caddo: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -98.62386,
               minLat: 34.854988,
@@ -15908,7 +15908,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mayes: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -95.44002,
               minLat: 36.074544,
@@ -15917,7 +15917,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coal: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -96.513792,
               minLat: 34.41823,
@@ -15926,7 +15926,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carter: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -97.562719,
               minLat: 34.070768,
@@ -15935,7 +15935,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greer: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -99.888444,
               minLat: 34.724555,
@@ -15944,7 +15944,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cotton: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -98.662004,
               minLat: 34.06227,
@@ -15953,7 +15953,7 @@ const US_States_Counties_4326 = {
             },
           },
           McCurtain: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -95.156736,
               minLat: 33.615787,
@@ -15962,7 +15962,7 @@ const US_States_Counties_4326 = {
             },
           },
           Atoka: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -96.407517,
               minLat: 34.156556,
@@ -15971,7 +15971,7 @@ const US_States_Counties_4326 = {
             },
           },
           Okmulgee: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -96.19277,
               minLat: 35.376656,
@@ -15980,7 +15980,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -96.001199,
               minLat: 36.423466,
@@ -15989,7 +15989,7 @@ const US_States_Counties_4326 = {
             },
           },
           Seminole: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -96.777147,
               minLat: 34.856782,
@@ -15998,7 +15998,7 @@ const US_States_Counties_4326 = {
             },
           },
           Woods: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -99.456203,
               minLat: 36.390848,
@@ -16007,7 +16007,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harmon: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -100.000479,
               minLat: 34.506915,
@@ -16016,7 +16016,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kay: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -97.462495,
               minLat: 36.593627,
@@ -16025,7 +16025,7 @@ const US_States_Counties_4326 = {
             },
           },
           Blaine: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -98.636899,
               minLat: 35.551329,
@@ -16034,7 +16034,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pontotoc: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -96.93258,
               minLat: 34.505389,
@@ -16043,7 +16043,7 @@ const US_States_Counties_4326 = {
             },
           },
           Creek: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -96.622863,
               minLat: 35.638712,
@@ -16052,7 +16052,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pottawatomie: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -97.142349,
               minLat: 34.898809,
@@ -16061,7 +16061,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kiowa: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -99.409291,
               minLat: 34.594366,
@@ -16070,7 +16070,7 @@ const US_States_Counties_4326 = {
             },
           },
           Love: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -97.560872,
               minLat: 33.717044,
@@ -16079,7 +16079,7 @@ const US_States_Counties_4326 = {
             },
           },
           Noble: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -97.461603,
               minLat: 36.159054,
@@ -16088,7 +16088,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washita: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -99.364666,
               minLat: 35.097237,
@@ -16097,7 +16097,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -99.844585,
               minLat: 34.337762,
@@ -16106,7 +16106,7 @@ const US_States_Counties_4326 = {
             },
           },
           Major: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -98.96093,
               minLat: 36.161178,
@@ -16115,7 +16115,7 @@ const US_States_Counties_4326 = {
             },
           },
           Delaware: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -95.011354,
               minLat: 36.161455,
@@ -16124,7 +16124,7 @@ const US_States_Counties_4326 = {
             },
           },
           Custer: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -99.377068,
               minLat: 35.464225,
@@ -16133,7 +16133,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ellis: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -100.003869,
               minLat: 35.841955,
@@ -16142,7 +16142,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oklahoma: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -97.674058,
               minLat: 35.37686,
@@ -16151,7 +16151,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnston: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -96.933503,
               minLat: 34.1141,
@@ -16160,7 +16160,7 @@ const US_States_Counties_4326 = {
             },
           },
           Comanche: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -98.826323,
               minLat: 34.405948,
@@ -16169,7 +16169,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pushmataha: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -95.779517,
               minLat: 34.156637,
@@ -16178,7 +16178,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cleveland: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -97.671463,
               minLat: 34.927417,
@@ -16187,7 +16187,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wagoner: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -95.819477,
               minLat: 35.76516,
@@ -16196,7 +16196,7 @@ const US_States_Counties_4326 = {
             },
           },
           Beckham: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -100.00042,
               minLat: 35.029889,
@@ -16205,7 +16205,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garvin: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -97.668513,
               minLat: 34.506597,
@@ -16214,7 +16214,7 @@ const US_States_Counties_4326 = {
             },
           },
           Craig: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -95.43182,
               minLat: 36.509807,
@@ -16223,7 +16223,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cherokee: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -95.283146,
               minLat: 35.638343,
@@ -16232,7 +16232,7 @@ const US_States_Counties_4326 = {
             },
           },
           Osage: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -97.064489,
               minLat: 36.16087,
@@ -16241,7 +16241,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tillman: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -99.23806,
               minLat: 34.124215,
@@ -16250,7 +16250,7 @@ const US_States_Counties_4326 = {
             },
           },
           Logan: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -97.675768,
               minLat: 35.724401,
@@ -16259,7 +16259,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pittsburg: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -96.092374,
               minLat: 34.593528,
@@ -16268,7 +16268,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -98.139366,
               minLat: 33.849093,
@@ -16277,7 +16277,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pawnee: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -97.032229,
               minLat: 36.158885,
@@ -16286,7 +16286,7 @@ const US_States_Counties_4326 = {
             },
           },
           Okfuskee: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -96.6247,
               minLat: 35.289755,
@@ -16295,7 +16295,7 @@ const US_States_Counties_4326 = {
             },
           },
           McClain: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -97.671415,
               minLat: 34.854496,
@@ -16304,7 +16304,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Le Flore": {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -95.059969,
               minLat: 34.507218,
@@ -16313,7 +16313,7 @@ const US_States_Counties_4326 = {
             },
           },
           Beaver: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -100.954359,
               minLat: 36.499286,
@@ -16322,7 +16322,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dewey: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -99.382216,
               minLat: 35.811979,
@@ -16331,7 +16331,7 @@ const US_States_Counties_4326 = {
             },
           },
           Choctaw: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -95.991578,
               minLat: 33.864542,
@@ -16340,7 +16340,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Roger Mills": {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -100.000396,
               minLat: 35.421493,
@@ -16349,7 +16349,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bryan: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -96.63002,
               minLat: 33.686216,
@@ -16358,7 +16358,7 @@ const US_States_Counties_4326 = {
             },
           },
           Latimer: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -95.514475,
               minLat: 34.68052,
@@ -16367,7 +16367,7 @@ const US_States_Counties_4326 = {
             },
           },
           Texas: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -102.032354,
               minLat: 36.499118,
@@ -16376,7 +16376,7 @@ const US_States_Counties_4326 = {
             },
           },
           Woodward: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -99.605692,
               minLat: 36.161577,
@@ -16385,7 +16385,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stephens: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -98.142148,
               minLat: 34.289069,
@@ -16394,7 +16394,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tulsa: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -96.297909,
               minLat: 35.856253,
@@ -16403,7 +16403,7 @@ const US_States_Counties_4326 = {
             },
           },
           McIntosh: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -95.983205,
               minLat: 35.142501,
@@ -16412,7 +16412,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kingfisher: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -98.210464,
               minLat: 35.725054,
@@ -16421,7 +16421,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -98.111985,
               minLat: 36.59324,
@@ -16430,7 +16430,7 @@ const US_States_Counties_4326 = {
             },
           },
           Murray: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -97.352231,
               minLat: 34.332299,
@@ -16439,7 +16439,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nowata: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -95.809921,
               minLat: 36.597427,
@@ -16448,7 +16448,7 @@ const US_States_Counties_4326 = {
             },
           },
           Haskell: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -95.45519,
               minLat: 35.057631,
@@ -16457,7 +16457,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grady: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -98.096018,
               minLat: 34.681163,
@@ -16466,7 +16466,7 @@ const US_States_Counties_4326 = {
             },
           },
           Payne: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -97.354132,
               minLat: 35.940687,
@@ -16475,7 +16475,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cimarron: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -103.002413,
               minLat: 36.500238,
@@ -16484,7 +16484,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garfield: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -98.104575,
               minLat: 36.164462,
@@ -16495,8 +16495,8 @@ const US_States_Counties_4326 = {
         },
       },
       Tennessee: {
-        STUSPS: "TN",
-        STATEFP: "47",
+        sub_id: "TN",
+        sub_num: "47",
         bbox: {
           minLon: -90.310491,
           minLat: 34.982924,
@@ -16505,7 +16505,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Hamilton: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -85.475593,
               minLat: 34.982924,
@@ -16514,7 +16514,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -85.873018,
               minLat: 34.98302,
@@ -16523,7 +16523,7 @@ const US_States_Counties_4326 = {
             },
           },
           White: {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -85.682886,
               minLat: 35.766927,
@@ -16532,7 +16532,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -84.914156,
               minLat: 35.908454,
@@ -16541,7 +16541,7 @@ const US_States_Counties_4326 = {
             },
           },
           Campbell: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -84.376633,
               minLat: 36.177578,
@@ -16550,7 +16550,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -84.52585,
               minLat: 35.204276,
@@ -16559,7 +16559,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rutherford: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -86.700265,
               minLat: 35.618571,
@@ -16568,7 +16568,7 @@ const US_States_Counties_4326 = {
             },
           },
           Smith: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -86.136803,
               minLat: 36.082019,
@@ -16577,7 +16577,7 @@ const US_States_Counties_4326 = {
             },
           },
           Trousdale: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -86.285372,
               minLat: 36.294086,
@@ -16586,7 +16586,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sumner: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -86.754795,
               minLat: 36.24401,
@@ -16595,7 +16595,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grundy: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -85.913633,
               minLat: 35.215295,
@@ -16604,7 +16604,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bedford: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -86.665555,
               minLat: 35.318817,
@@ -16613,7 +16613,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -85.813885,
               minLat: 36.402977,
@@ -16622,7 +16622,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lauderdale: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -89.958895,
               minLat: 35.535798,
@@ -16631,7 +16631,7 @@ const US_States_Counties_4326 = {
             },
           },
           Loudon: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -84.584472,
               minLat: 35.607783,
@@ -16640,7 +16640,7 @@ const US_States_Counties_4326 = {
             },
           },
           DeKalb: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -86.063413,
               minLat: 35.825703,
@@ -16649,7 +16649,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hickman: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -87.74375,
               minLat: 35.608937,
@@ -16658,7 +16658,7 @@ const US_States_Counties_4326 = {
             },
           },
           Putnam: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -85.809349,
               minLat: 35.978492,
@@ -16667,7 +16667,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -85.997732,
               minLat: 35.504573,
@@ -16676,7 +16676,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -89.705545,
               minLat: 36.185382,
@@ -16685,7 +16685,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -83.71029,
               minLat: 35.895846,
@@ -16694,7 +16694,7 @@ const US_States_Counties_4326 = {
             },
           },
           Haywood: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -89.502118,
               minLat: 35.397126,
@@ -16703,7 +16703,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -87.611925,
               minLat: 34.999377,
@@ -16712,7 +16712,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hawkins: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -83.288896,
               minLat: 36.241923,
@@ -16721,7 +16721,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -84.009753,
               minLat: 36.160906,
@@ -16730,7 +16730,7 @@ const US_States_Counties_4326 = {
             },
           },
           Blount: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -84.188319,
               minLat: 35.460543,
@@ -16739,7 +16739,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chester: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -88.842135,
               minLat: 35.247339,
@@ -16748,7 +16748,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -85.846483,
               minLat: 36.212805,
@@ -16757,7 +16757,7 @@ const US_States_Counties_4326 = {
             },
           },
           Moore: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -86.539485,
               minLat: 35.122389,
@@ -16766,7 +16766,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sullivan: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -82.702279,
               minLat: 36.392104,
@@ -16775,7 +16775,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carter: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -82.34245,
               minLat: 36.10317,
@@ -16784,7 +16784,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -82.702566,
               minLat: 36.096205,
@@ -16793,7 +16793,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stewart: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -88.070541,
               minLat: 36.328724,
@@ -16802,7 +16802,7 @@ const US_States_Counties_4326 = {
             },
           },
           Macon: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -86.228724,
               minLat: 36.411836,
@@ -16811,7 +16811,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hardeman: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -89.198288,
               minLat: 34.993926,
@@ -16820,7 +16820,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -88.706811,
               minLat: 35.789165,
@@ -16829,7 +16829,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -88.024741,
               minLat: 35.003425,
@@ -16838,7 +16838,7 @@ const US_States_Counties_4326 = {
             },
           },
           McMinn: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -84.860164,
               minLat: 35.241043,
@@ -16847,7 +16847,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Van Buren": {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -85.615182,
               minLat: 35.532977,
@@ -16856,7 +16856,7 @@ const US_States_Counties_4326 = {
             },
           },
           Houston: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -87.98074,
               minLat: 36.177719,
@@ -16865,7 +16865,7 @@ const US_States_Counties_4326 = {
             },
           },
           Giles: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -87.232442,
               minLat: 34.991899,
@@ -16874,7 +16874,7 @@ const US_States_Counties_4326 = {
             },
           },
           Humphreys: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -88.022635,
               minLat: 35.803799,
@@ -16883,7 +16883,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sequatchie: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -85.607326,
               minLat: 35.147169,
@@ -16892,7 +16892,7 @@ const US_States_Counties_4326 = {
             },
           },
           Roane: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -84.789535,
               minLat: 35.644424,
@@ -16901,7 +16901,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -87.641157,
               minLat: 36.312442,
@@ -16910,7 +16910,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henry: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -88.530322,
               minLat: 36.12029,
@@ -16919,7 +16919,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dickson: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -87.566798,
               minLat: 35.959186,
@@ -16928,7 +16928,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -83.172685,
               minLat: 35.921807,
@@ -16937,7 +16937,7 @@ const US_States_Counties_4326 = {
             },
           },
           Unicoi: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -82.615177,
               minLat: 35.953871,
@@ -16946,7 +16946,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coffee: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -86.279905,
               minLat: 35.28918,
@@ -16955,7 +16955,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perry: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -88.043503,
               minLat: 35.423356,
@@ -16964,7 +16964,7 @@ const US_States_Counties_4326 = {
             },
           },
           Williamson: {
-            COUNTYFP: "187",
+            sub_num: "187",
             bbox: {
               minLon: -87.215099,
               minLat: 35.696447,
@@ -16973,7 +16973,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cumberland: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -85.273288,
               minLat: 35.746285,
@@ -16982,7 +16982,7 @@ const US_States_Counties_4326 = {
             },
           },
           Knox: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -84.27347,
               minLat: 35.793806,
@@ -16991,7 +16991,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cocke: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -83.316827,
               minLat: 35.712982,
@@ -17000,7 +17000,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hancock: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -83.472108,
               minLat: 36.388189,
@@ -17009,7 +17009,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hardin: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -88.380508,
               minLat: 34.995436,
@@ -17018,7 +17018,7 @@ const US_States_Counties_4326 = {
             },
           },
           Claiborne: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -83.987615,
               minLat: 36.331982,
@@ -17027,7 +17027,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rhea: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -85.146393,
               minLat: 35.409101,
@@ -17036,7 +17036,7 @@ const US_States_Counties_4326 = {
             },
           },
           Overton: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -85.497587,
               minLat: 36.144719,
@@ -17045,7 +17045,7 @@ const US_States_Counties_4326 = {
             },
           },
           Obion: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -89.485832,
               minLat: 36.201635,
@@ -17054,7 +17054,7 @@ const US_States_Counties_4326 = {
             },
           },
           Robertson: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -87.150371,
               minLat: 36.349635,
@@ -17063,7 +17063,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilson: {
-            COUNTYFP: "189",
+            sub_num: "189",
             bbox: {
               minLon: -86.595439,
               minLat: 35.954399,
@@ -17072,7 +17072,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grainger: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -83.732704,
               minLat: 36.080587,
@@ -17081,7 +17081,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bradley: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -85.026737,
               minLat: 34.987569,
@@ -17090,7 +17090,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shelby: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -90.310491,
               minLat: 34.994188,
@@ -17099,7 +17099,7 @@ const US_States_Counties_4326 = {
             },
           },
           Meigs: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -85.030369,
               minLat: 35.287717,
@@ -17108,7 +17108,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -86.836306,
               minLat: 34.99048,
@@ -17117,7 +17117,7 @@ const US_States_Counties_4326 = {
             },
           },
           Davidson: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -87.054705,
               minLat: 35.967785,
@@ -17126,7 +17126,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bledsoe: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -85.436214,
               minLat: 35.354276,
@@ -17135,7 +17135,7 @@ const US_States_Counties_4326 = {
             },
           },
           Weakley: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -88.959839,
               minLat: 36.061817,
@@ -17144,7 +17144,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -86.960804,
               minLat: 35.252878,
@@ -17153,7 +17153,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -82.058946,
               minLat: 36.261763,
@@ -17162,7 +17162,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sevier: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -83.794275,
               minLat: 35.561929,
@@ -17171,7 +17171,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -84.775853,
               minLat: 34.987833,
@@ -17180,7 +17180,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henderson: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -88.613611,
               minLat: 35.416307,
@@ -17189,7 +17189,7 @@ const US_States_Counties_4326 = {
             },
           },
           McNairy: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -88.786926,
               minLat: 34.995133,
@@ -17198,7 +17198,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fentress: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -85.122245,
               minLat: 36.132789,
@@ -17207,7 +17207,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benton: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -88.225048,
               minLat: 35.810986,
@@ -17216,7 +17216,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pickett: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -85.285413,
               minLat: 36.405614,
@@ -17225,7 +17225,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -86.333365,
               minLat: 34.988281,
@@ -17234,7 +17234,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tipton: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -90.179342,
               minLat: 35.371211,
@@ -17243,7 +17243,7 @@ const US_States_Counties_4326 = {
             },
           },
           Anderson: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -84.449881,
               minLat: 35.910165,
@@ -17252,7 +17252,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cannon: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -86.208769,
               minLat: 35.642954,
@@ -17261,7 +17261,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crockett: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -89.36162,
               minLat: 35.670931,
@@ -17270,7 +17270,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cheatham: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -87.286501,
               minLat: 36.041312,
@@ -17279,7 +17279,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -89.078876,
               minLat: 35.427451,
@@ -17288,7 +17288,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dyer: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -89.733056,
               minLat: 35.880934,
@@ -17297,7 +17297,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gibson: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -89.206297,
               minLat: 35.791075,
@@ -17306,7 +17306,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -84.78545,
               minLat: 36.163478,
@@ -17315,7 +17315,7 @@ const US_States_Counties_4326 = {
             },
           },
           Decatur: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -88.247986,
               minLat: 35.379561,
@@ -17324,7 +17324,7 @@ const US_States_Counties_4326 = {
             },
           },
           Maury: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -87.354349,
               minLat: 35.408175,
@@ -17333,7 +17333,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -89.64405,
               minLat: 34.993754,
@@ -17342,7 +17342,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamblen: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -83.468697,
               minLat: 36.081295,
@@ -17351,7 +17351,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lewis: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -87.717559,
               minLat: 35.398188,
@@ -17362,8 +17362,8 @@ const US_States_Counties_4326 = {
         },
       },
       Wyoming: {
-        STUSPS: "WY",
-        STATEFP: "56",
+        sub_id: "WY",
+        sub_num: "56",
         bbox: {
           minLon: -111.054558,
           minLat: 40.994772,
@@ -17372,7 +17372,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Lincoln: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -111.047343,
               minLat: 41.577519,
@@ -17381,7 +17381,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fremont: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -110.053637,
               minLat: 42.261356,
@@ -17390,7 +17390,7 @@ const US_States_Counties_4326 = {
             },
           },
           Uinta: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -111.046819,
               minLat: 40.994772,
@@ -17399,7 +17399,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Big Horn": {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -108.622147,
               minLat: 44.165666,
@@ -17408,7 +17408,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Hot Springs": {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -109.313129,
               minLat: 43.459535,
@@ -17417,7 +17417,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washakie: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -108.550815,
               minLat: 43.500219,
@@ -17426,7 +17426,7 @@ const US_States_Counties_4326 = {
             },
           },
           Converse: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -106.078238,
               minLat: 42.288859,
@@ -17435,7 +17435,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sweetwater: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -110.054409,
               minLat: 40.997294,
@@ -17444,7 +17444,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crook: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -105.086151,
               minLat: 44.17613,
@@ -17453,7 +17453,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carbon: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -107.929984,
               minLat: 40.999123,
@@ -17462,7 +17462,7 @@ const US_States_Counties_4326 = {
             },
           },
           Campbell: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -106.02524,
               minLat: 43.4948,
@@ -17471,7 +17471,7 @@ const US_States_Counties_4326 = {
             },
           },
           Natrona: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -107.543526,
               minLat: 42.430488,
@@ -17480,7 +17480,7 @@ const US_States_Counties_4326 = {
             },
           },
           Laramie: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -105.280675,
               minLat: 40.998048,
@@ -17489,7 +17489,7 @@ const US_States_Counties_4326 = {
             },
           },
           Platte: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -105.286511,
               minLat: 41.652672,
@@ -17498,7 +17498,7 @@ const US_States_Counties_4326 = {
             },
           },
           Weston: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -105.081769,
               minLat: 43.498445,
@@ -17507,7 +17507,7 @@ const US_States_Counties_4326 = {
             },
           },
           Albany: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -106.323343,
               minLat: 40.996822,
@@ -17516,7 +17516,7 @@ const US_States_Counties_4326 = {
             },
           },
           Park: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -111.054558,
               minLat: 43.801156,
@@ -17525,7 +17525,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -107.371447,
               minLat: 43.49147,
@@ -17534,7 +17534,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sheridan: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -107.911523,
               minLat: 44.556713,
@@ -17543,7 +17543,7 @@ const US_States_Counties_4326 = {
             },
           },
           Niobrara: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -104.899941,
               minLat: 42.608787,
@@ -17552,7 +17552,7 @@ const US_States_Counties_4326 = {
             },
           },
           Teton: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -111.053447,
               minLat: 43.23499,
@@ -17561,7 +17561,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sublette: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -110.623792,
               minLat: 42.263318,
@@ -17570,7 +17570,7 @@ const US_States_Counties_4326 = {
             },
           },
           Goshen: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -104.655639,
               minLat: 41.564147,
@@ -17581,8 +17581,8 @@ const US_States_Counties_4326 = {
         },
       },
       Hawaii: {
-        STUSPS: "HI",
-        STATEFP: "15",
+        sub_id: "HI",
+        sub_num: "15",
         bbox: {
           minLon: -178.443593,
           minLat: 18.86546,
@@ -17591,7 +17591,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Honolulu: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -178.443593,
               minLat: 21.199238,
@@ -17600,7 +17600,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kalawao: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -157.015058,
               minLat: 21.129479,
@@ -17609,7 +17609,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kauai: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -160.600875,
               minLat: 21.600384,
@@ -17618,7 +17618,7 @@ const US_States_Counties_4326 = {
             },
           },
           Maui: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -157.366549,
               minLat: 20.45293,
@@ -17627,7 +17627,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hawaii: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -156.120001,
               minLat: 18.86546,
@@ -17638,8 +17638,8 @@ const US_States_Counties_4326 = {
         },
       },
       "North Dakota": {
-        STUSPS: "ND",
-        STATEFP: "38",
+        sub_id: "ND",
+        sub_num: "38",
         bbox: {
           minLon: -104.049012,
           minLat: 45.935072,
@@ -17648,7 +17648,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Walsh: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -98.31846,
               minLat: 48.193605,
@@ -17657,7 +17657,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sioux: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -101.998756,
               minLat: 45.943449,
@@ -17666,7 +17666,7 @@ const US_States_Counties_4326 = {
             },
           },
           Burke: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -102.939936,
               minLat: 48.546276,
@@ -17675,7 +17675,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ramsey: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -99.200319,
               minLat: 47.915056,
@@ -17684,7 +17684,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sargent: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -98.008102,
               minLat: 45.935072,
@@ -17693,7 +17693,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Grand Forks": {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -97.903651,
               minLat: 47.672004,
@@ -17702,7 +17702,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mercer: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -102.205811,
               minLat: 46.981238,
@@ -17711,7 +17711,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dickey: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -99.005758,
               minLat: 45.935777,
@@ -17720,7 +17720,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barnes: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -98.46753,
               minLat: 46.629928,
@@ -17729,7 +17729,7 @@ const US_States_Counties_4326 = {
             },
           },
           Burleigh: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -100.96544,
               minLat: 46.633396,
@@ -17738,7 +17738,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ward: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -102.234055,
               minLat: 47.847555,
@@ -17747,7 +17747,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bottineau: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -101.496701,
               minLat: 48.544627,
@@ -17756,7 +17756,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benson: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -99.848222,
               minLat: 47.846189,
@@ -17765,7 +17765,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stark: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -103.231656,
               minLat: 46.629679,
@@ -17774,7 +17774,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bowman: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -104.046828,
               minLat: 45.944944,
@@ -17783,7 +17783,7 @@ const US_States_Counties_4326 = {
             },
           },
           Logan: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -99.91732,
               minLat: 46.282443,
@@ -17792,7 +17792,7 @@ const US_States_Counties_4326 = {
             },
           },
           Emmons: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -100.662015,
               minLat: 45.941373,
@@ -17801,7 +17801,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sheridan: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -100.673351,
               minLat: 47.327165,
@@ -17810,7 +17810,7 @@ const US_States_Counties_4326 = {
             },
           },
           Traill: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -97.474365,
               minLat: 47.237729,
@@ -17819,7 +17819,7 @@ const US_States_Counties_4326 = {
             },
           },
           McHenry: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -101.059923,
               minLat: 47.847336,
@@ -17828,7 +17828,7 @@ const US_States_Counties_4326 = {
             },
           },
           LaMoure: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -99.03749,
               minLat: 46.28263,
@@ -17837,7 +17837,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kidder: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -100.114642,
               minLat: 46.63162,
@@ -17846,7 +17846,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nelson: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -98.525781,
               minLat: 47.672131,
@@ -17855,7 +17855,7 @@ const US_States_Counties_4326 = {
             },
           },
           Steele: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -97.986428,
               minLat: 47.238925,
@@ -17864,7 +17864,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wells: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -100.069608,
               minLat: 47.326936,
@@ -17873,7 +17873,7 @@ const US_States_Counties_4326 = {
             },
           },
           Griggs: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -98.500312,
               minLat: 47.240325,
@@ -17882,7 +17882,7 @@ const US_States_Counties_4326 = {
             },
           },
           Slope: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -104.04573,
               minLat: 46.279781,
@@ -17891,7 +17891,7 @@ const US_States_Counties_4326 = {
             },
           },
           Divide: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -104.049012,
               minLat: 48.633219,
@@ -17900,7 +17900,7 @@ const US_States_Counties_4326 = {
             },
           },
           McIntosh: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -99.880072,
               minLat: 45.939731,
@@ -17909,7 +17909,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -102.995549,
               minLat: 45.944521,
@@ -17918,7 +17918,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cavalier: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -99.000839,
               minLat: 48.543122,
@@ -17927,7 +17927,7 @@ const US_States_Counties_4326 = {
             },
           },
           Williams: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -104.047994,
               minLat: 47.95595,
@@ -17936,7 +17936,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cass: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -97.706174,
               minLat: 46.629312,
@@ -17945,7 +17945,7 @@ const US_States_Counties_4326 = {
             },
           },
           Billings: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -103.667487,
               minLat: 46.629651,
@@ -17954,7 +17954,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mountrail: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -102.885862,
               minLat: 47.751409,
@@ -17963,7 +17963,7 @@ const US_States_Counties_4326 = {
             },
           },
           McLean: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -102.385758,
               minLat: 47.156939,
@@ -17972,7 +17972,7 @@ const US_States_Counties_4326 = {
             },
           },
           Foster: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -99.266349,
               minLat: 47.326395,
@@ -17981,7 +17981,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pembina: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -97.950709,
               minLat: 48.542177,
@@ -17990,7 +17990,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richland: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -97.2807,
               minLat: 45.935196,
@@ -17999,7 +17999,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -102.096744,
               minLat: 46.006767,
@@ -18008,7 +18008,7 @@ const US_States_Counties_4326 = {
             },
           },
           McKenzie: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -104.045165,
               minLat: 47.328366,
@@ -18017,7 +18017,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ransom: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -98.034929,
               minLat: 46.282264,
@@ -18026,7 +18026,7 @@ const US_States_Counties_4326 = {
             },
           },
           Towner: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -99.525957,
               minLat: 48.370414,
@@ -18035,7 +18035,7 @@ const US_States_Counties_4326 = {
             },
           },
           Renville: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -102.021655,
               minLat: 48.458427,
@@ -18044,7 +18044,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stutsman: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -99.481394,
               minLat: 46.628826,
@@ -18053,7 +18053,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Golden Valley": {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -104.045978,
               minLat: 46.540671,
@@ -18062,7 +18062,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oliver: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -101.764721,
               minLat: 46.981012,
@@ -18071,7 +18071,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dunn: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -103.099771,
               minLat: 46.980563,
@@ -18080,7 +18080,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rolette: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -100.183049,
               minLat: 48.544789,
@@ -18089,7 +18089,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morton: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -102.097205,
               minLat: 46.28439,
@@ -18098,7 +18098,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pierce: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -100.276714,
               minLat: 47.847257,
@@ -18107,7 +18107,7 @@ const US_States_Counties_4326 = {
             },
           },
           Eddy: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -99.29738,
               minLat: 47.587191,
@@ -18116,7 +18116,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hettinger: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -102.927751,
               minLat: 46.205259,
@@ -18127,8 +18127,8 @@ const US_States_Counties_4326 = {
         },
       },
       Kentucky: {
-        STUSPS: "KY",
-        STATEFP: "21",
+        sub_id: "KY",
+        sub_num: "21",
         bbox: {
           minLon: -89.571203,
           minLat: 36.497058,
@@ -18137,7 +18137,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Clinton: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -85.296002,
               minLat: 36.615465,
@@ -18146,7 +18146,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allen: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -86.419043,
               minLat: 36.628493,
@@ -18155,7 +18155,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "231",
+            sub_num: "231",
             bbox: {
               minLon: -85.064307,
               minLat: 36.603279,
@@ -18164,7 +18164,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "209",
+            sub_num: "209",
             bbox: {
               minLon: -84.740594,
               minLat: 38.110779,
@@ -18173,7 +18173,7 @@ const US_States_Counties_4326 = {
             },
           },
           Edmonson: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -86.469126,
               minLat: 37.053285,
@@ -18182,7 +18182,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adair: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -85.526881,
               minLat: 36.925069,
@@ -18191,7 +18191,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gallatin: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -85.023118,
               minLat: 38.66213,
@@ -18200,7 +18200,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harrison: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -84.557375,
               minLat: 38.277852,
@@ -18209,7 +18209,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bourbon: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -84.442661,
               minLat: 38.067028,
@@ -18218,7 +18218,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perry: {
-            COUNTYFP: "193",
+            sub_num: "193",
             bbox: {
               minLon: -83.553942,
               minLat: 36.991845,
@@ -18227,7 +18227,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crittenden: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -88.358496,
               minLat: 37.126087,
@@ -18236,7 +18236,7 @@ const US_States_Counties_4326 = {
             },
           },
           Knott: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -83.134711,
               minLat: 37.172395,
@@ -18245,7 +18245,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -83.025222,
               minLat: 37.879272,
@@ -18254,7 +18254,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -83.506612,
               minLat: 37.712657,
@@ -18263,7 +18263,7 @@ const US_States_Counties_4326 = {
             },
           },
           Muhlenberg: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -87.388979,
               minLat: 37.040557,
@@ -18272,7 +18272,7 @@ const US_States_Counties_4326 = {
             },
           },
           Green: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -85.697325,
               minLat: 37.109444,
@@ -18281,7 +18281,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wolfe: {
-            COUNTYFP: "237",
+            sub_num: "237",
             bbox: {
               minLon: -83.707974,
               minLat: 37.619104,
@@ -18290,7 +18290,7 @@ const US_States_Counties_4326 = {
             },
           },
           Robertson: {
-            COUNTYFP: "201",
+            sub_num: "201",
             bbox: {
               minLon: -84.183903,
               minLat: 38.422286,
@@ -18299,7 +18299,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -83.90557,
               minLat: 37.486821,
@@ -18308,7 +18308,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kenton: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -84.623493,
               minLat: 38.790093,
@@ -18317,7 +18317,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -84.525643,
               minLat: 37.515279,
@@ -18326,7 +18326,7 @@ const US_States_Counties_4326 = {
             },
           },
           Martin: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -82.674463,
               minLat: 37.668659,
@@ -18335,7 +18335,7 @@ const US_States_Counties_4326 = {
             },
           },
           Owsley: {
-            COUNTYFP: "189",
+            sub_num: "189",
             bbox: {
               minLon: -83.888311,
               minLat: 37.255664,
@@ -18344,7 +18344,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -83.969571,
               minLat: 36.937387,
@@ -18353,7 +18353,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harlan: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -83.511729,
               minLat: 36.664793,
@@ -18362,7 +18362,7 @@ const US_States_Counties_4326 = {
             },
           },
           Elliott: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -83.270849,
               minLat: 37.996452,
@@ -18371,7 +18371,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -84.660135,
               minLat: 37.845261,
@@ -18380,7 +18380,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hancock: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -86.987301,
               minLat: 37.655008,
@@ -18389,7 +18389,7 @@ const US_States_Counties_4326 = {
             },
           },
           Daviess: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -87.408547,
               minLat: 37.560803,
@@ -18398,7 +18398,7 @@ const US_States_Counties_4326 = {
             },
           },
           Powell: {
-            COUNTYFP: "197",
+            sub_num: "197",
             bbox: {
               minLon: -84.02737,
               minLat: 37.716237,
@@ -18407,7 +18407,7 @@ const US_States_Counties_4326 = {
             },
           },
           Graves: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -88.819595,
               minLat: 36.501153,
@@ -18416,7 +18416,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jessamine: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -84.724676,
               minLat: 37.72855,
@@ -18425,7 +18425,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -85.977442,
               minLat: 36.614855,
@@ -18434,7 +18434,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -84.785794,
               minLat: 38.473039,
@@ -18443,7 +18443,7 @@ const US_States_Counties_4326 = {
             },
           },
           Taylor: {
-            COUNTYFP: "217",
+            sub_num: "217",
             bbox: {
               minLon: -85.586992,
               minLat: 37.192432,
@@ -18452,7 +18452,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greenup: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -83.167673,
               minLat: 38.373935,
@@ -18461,7 +18461,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henderson: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -87.92706,
               minLat: 37.638376,
@@ -18470,7 +18470,7 @@ const US_States_Counties_4326 = {
             },
           },
           Logan: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -87.060849,
               minLat: 36.642963,
@@ -18479,7 +18479,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butler: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -86.944939,
               minLat: 36.999766,
@@ -18488,7 +18488,7 @@ const US_States_Counties_4326 = {
             },
           },
           Floyd: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -82.946065,
               minLat: 37.285323,
@@ -18497,7 +18497,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boyle: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -85.039674,
               minLat: 37.532113,
@@ -18506,7 +18506,7 @@ const US_States_Counties_4326 = {
             },
           },
           Estill: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -84.126948,
               minLat: 37.542856,
@@ -18515,7 +18515,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bullitt: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -85.938321,
               minLat: 37.805866,
@@ -18524,7 +18524,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boone: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -84.897371,
               minLat: 38.777293,
@@ -18533,7 +18533,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "229",
+            sub_num: "229",
             bbox: {
               minLon: -85.401784,
               minLat: 37.630903,
@@ -18542,7 +18542,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carlisle: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -89.179651,
               minLat: 36.771562,
@@ -18551,7 +18551,7 @@ const US_States_Counties_4326 = {
             },
           },
           Whitley: {
-            COUNTYFP: "235",
+            sub_num: "235",
             bbox: {
               minLon: -84.355967,
               minLat: 36.587691,
@@ -18560,7 +18560,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ohio: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -87.137416,
               minLat: 37.212313,
@@ -18569,7 +18569,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mason: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -83.991605,
               minLat: 38.456348,
@@ -18578,7 +18578,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bracken: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -84.235962,
               minLat: 38.549802,
@@ -18587,7 +18587,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carter: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -83.341471,
               minLat: 38.168312,
@@ -18596,7 +18596,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hopkins: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -87.851803,
               minLat: 37.105344,
@@ -18605,7 +18605,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bell: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -83.957274,
               minLat: 36.582596,
@@ -18614,7 +18614,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pike: {
-            COUNTYFP: "195",
+            sub_num: "195",
             bbox: {
               minLon: -82.732716,
               minLat: 37.196099,
@@ -18623,7 +18623,7 @@ const US_States_Counties_4326 = {
             },
           },
           Breathitt: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -83.580227,
               minLat: 37.33004,
@@ -18632,7 +18632,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "227",
+            sub_num: "227",
             bbox: {
               minLon: -86.674462,
               minLat: 36.776187,
@@ -18641,7 +18641,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hickman: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -89.2014,
               minLat: 36.502611,
@@ -18650,7 +18650,7 @@ const US_States_Counties_4326 = {
             },
           },
           McCracken: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -88.942249,
               minLat: 36.942096,
@@ -18659,7 +18659,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "225",
+            sub_num: "225",
             bbox: {
               minLon: -88.160307,
               minLat: 37.469879,
@@ -18668,7 +18668,7 @@ const US_States_Counties_4326 = {
             },
           },
           Leslie: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -83.553101,
               minLat: 36.883154,
@@ -18677,7 +18677,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lyon: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -88.240371,
               minLat: 36.867183,
@@ -18686,7 +18686,7 @@ const US_States_Counties_4326 = {
             },
           },
           Knox: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -84.094706,
               minLat: 36.687259,
@@ -18695,7 +18695,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calloway: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -88.489117,
               minLat: 36.497058,
@@ -18704,7 +18704,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -84.205306,
               minLat: 37.250551,
@@ -18713,7 +18713,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ballard: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -89.182467,
               minLat: 36.915486,
@@ -18722,7 +18722,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henry: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -85.34608,
               minLat: 38.335586,
@@ -18731,7 +18731,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mercer: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -85.031456,
               minLat: 37.678854,
@@ -18740,7 +18740,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lewis: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -83.644977,
               minLat: 38.318258,
@@ -18749,7 +18749,7 @@ const US_States_Counties_4326 = {
             },
           },
           Trigg: {
-            COUNTYFP: "221",
+            sub_num: "221",
             bbox: {
               minLon: -88.157347,
               minLat: 36.63316,
@@ -18758,7 +18758,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -88.48571,
               minLat: 36.74629,
@@ -18767,7 +18767,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hart: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -86.161548,
               minLat: 37.148377,
@@ -18776,7 +18776,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -84.86013,
               minLat: 37.238328,
@@ -18785,7 +18785,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pulaski: {
-            COUNTYFP: "199",
+            sub_num: "199",
             bbox: {
               minLon: -84.907062,
               minLat: 36.867133,
@@ -18794,7 +18794,7 @@ const US_States_Counties_4326 = {
             },
           },
           Campbell: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -84.506161,
               minLat: 38.805757,
@@ -18803,7 +18803,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cumberland: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -85.601624,
               minLat: 36.618655,
@@ -18812,7 +18812,7 @@ const US_States_Counties_4326 = {
             },
           },
           Laurel: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -84.368886,
               minLat: 36.939116,
@@ -18821,7 +18821,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grayson: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -86.669004,
               minLat: 37.321099,
@@ -18830,7 +18830,7 @@ const US_States_Counties_4326 = {
             },
           },
           Magoffin: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -83.270735,
               minLat: 37.486525,
@@ -18839,7 +18839,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -84.080527,
               minLat: 37.900149,
@@ -18848,7 +18848,7 @@ const US_States_Counties_4326 = {
             },
           },
           Larue: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -85.894725,
               minLat: 37.421996,
@@ -18857,7 +18857,7 @@ const US_States_Counties_4326 = {
             },
           },
           Livingston: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -88.566149,
               minLat: 36.981911,
@@ -18866,7 +18866,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shelby: {
-            COUNTYFP: "211",
+            sub_num: "211",
             bbox: {
               minLon: -85.468206,
               minLat: 38.036753,
@@ -18875,7 +18875,7 @@ const US_States_Counties_4326 = {
             },
           },
           Todd: {
-            COUNTYFP: "219",
+            sub_num: "219",
             bbox: {
               minLon: -87.33598,
               minLat: 36.641659,
@@ -18884,7 +18884,7 @@ const US_States_Counties_4326 = {
             },
           },
           Breckinridge: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -86.677873,
               minLat: 37.558637,
@@ -18893,7 +18893,7 @@ const US_States_Counties_4326 = {
             },
           },
           Simpson: {
-            COUNTYFP: "213",
+            sub_num: "213",
             bbox: {
               minLon: -86.763296,
               minLat: 36.633562,
@@ -18902,7 +18902,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rowan: {
-            COUNTYFP: "205",
+            sub_num: "205",
             bbox: {
               minLon: -83.63522,
               minLat: 38.016975,
@@ -18911,7 +18911,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -85.33311,
               minLat: 38.580216,
@@ -18920,7 +18920,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -85.947104,
               minLat: 37.99721,
@@ -18929,7 +18929,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fulton: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -89.571203,
               minLat: 36.497491,
@@ -18938,7 +18938,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hardin: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -86.277558,
               minLat: 37.440308,
@@ -18947,7 +18947,7 @@ const US_States_Counties_4326 = {
             },
           },
           Christian: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -87.733368,
               minLat: 36.637108,
@@ -18956,7 +18956,7 @@ const US_States_Counties_4326 = {
             },
           },
           Anderson: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -85.170062,
               minLat: 37.884348,
@@ -18965,7 +18965,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oldham: {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -85.637817,
               minLat: 38.285309,
@@ -18974,7 +18974,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rockcastle: {
-            COUNTYFP: "203",
+            sub_num: "203",
             bbox: {
               minLon: -84.502932,
               minLat: 37.15174,
@@ -18983,7 +18983,7 @@ const US_States_Counties_4326 = {
             },
           },
           Trimble: {
-            COUNTYFP: "223",
+            sub_num: "223",
             bbox: {
               minLon: -85.456913,
               minLat: 38.492592,
@@ -18992,7 +18992,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barren: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -86.17641,
               minLat: 36.722722,
@@ -19001,7 +19001,7 @@ const US_States_Counties_4326 = {
             },
           },
           McCreary: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -84.778454,
               minLat: 36.591703,
@@ -19010,7 +19010,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pendleton: {
-            COUNTYFP: "191",
+            sub_num: "191",
             bbox: {
               minLon: -84.532288,
               minLat: 38.529422,
@@ -19019,7 +19019,7 @@ const US_States_Counties_4326 = {
             },
           },
           Spencer: {
-            COUNTYFP: "215",
+            sub_num: "215",
             bbox: {
               minLon: -85.516882,
               minLat: 37.939838,
@@ -19028,7 +19028,7 @@ const US_States_Counties_4326 = {
             },
           },
           Letcher: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -83.153982,
               minLat: 36.954163,
@@ -19037,7 +19037,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -84.349051,
               minLat: 37.821798,
@@ -19046,7 +19046,7 @@ const US_States_Counties_4326 = {
             },
           },
           Woodford: {
-            COUNTYFP: "239",
+            sub_num: "239",
             bbox: {
               minLon: -84.866003,
               minLat: 37.84702,
@@ -19055,7 +19055,7 @@ const US_States_Counties_4326 = {
             },
           },
           McLean: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -87.499971,
               minLat: 37.380452,
@@ -19064,7 +19064,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -85.024264,
               minLat: 38.093437,
@@ -19073,7 +19073,7 @@ const US_States_Counties_4326 = {
             },
           },
           Menifee: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -83.777193,
               minLat: 37.818223,
@@ -19082,7 +19082,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -85.52129,
               minLat: 37.412038,
@@ -19091,7 +19091,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fleming: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -83.984317,
               minLat: 38.170963,
@@ -19100,7 +19100,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caldwell: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -88.095781,
               minLat: 36.950714,
@@ -19109,7 +19109,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garrard: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -84.745502,
               minLat: 37.472663,
@@ -19118,7 +19118,7 @@ const US_States_Counties_4326 = {
             },
           },
           Casey: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -85.165174,
               minLat: 37.102271,
@@ -19127,7 +19127,7 @@ const US_States_Counties_4326 = {
             },
           },
           Metcalfe: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -85.776962,
               minLat: 36.818039,
@@ -19136,7 +19136,7 @@ const US_States_Counties_4326 = {
             },
           },
           Russell: {
-            COUNTYFP: "207",
+            sub_num: "207",
             bbox: {
               minLon: -85.27495,
               minLat: 36.827334,
@@ -19145,7 +19145,7 @@ const US_States_Counties_4326 = {
             },
           },
           Meade: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -86.490869,
               minLat: 37.798878,
@@ -19154,7 +19154,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nelson: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -85.74257,
               minLat: 37.522955,
@@ -19163,7 +19163,7 @@ const US_States_Counties_4326 = {
             },
           },
           Owen: {
-            COUNTYFP: "187",
+            sub_num: "187",
             bbox: {
               minLon: -85.076118,
               minLat: 38.338505,
@@ -19172,7 +19172,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bath: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -83.98028,
               minLat: 37.992542,
@@ -19181,7 +19181,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nicholas: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -84.19405,
               minLat: 38.192118,
@@ -19190,7 +19190,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boyd: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -82.817729,
               minLat: 38.234685,
@@ -19199,7 +19199,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -83.004649,
               minLat: 37.7032,
@@ -19208,7 +19208,7 @@ const US_States_Counties_4326 = {
             },
           },
           Webster: {
-            COUNTYFP: "233",
+            sub_num: "233",
             bbox: {
               minLon: -87.943955,
               minLat: 37.350645,
@@ -19219,8 +19219,8 @@ const US_States_Counties_4326 = {
         },
       },
       "United States Virgin Islands": {
-        STUSPS: "VI",
-        STATEFP: "78",
+        sub_id: "VI",
+        sub_num: "78",
         bbox: {
           minLon: -65.154118,
           minLat: 17.623468,
@@ -19229,7 +19229,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           "St. Thomas": {
-            COUNTYFP: "030",
+            sub_num: "030",
             bbox: {
               minLon: -65.154118,
               minLat: 18.179587,
@@ -19238,7 +19238,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Croix": {
-            COUNTYFP: "010",
+            sub_num: "010",
             bbox: {
               minLon: -64.956714,
               minLat: 17.623468,
@@ -19247,7 +19247,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. John": {
-            COUNTYFP: "020",
+            sub_num: "020",
             bbox: {
               minLon: -64.843739,
               minLat: 18.248725,
@@ -19258,8 +19258,8 @@ const US_States_Counties_4326 = {
         },
       },
       "Commonwealth of the Northern Mariana Islands": {
-        STUSPS: "MP",
-        STATEFP: "69",
+        sub_id: "MP",
+        sub_num: "69",
         bbox: {
           minLon: 144.813338,
           minLat: 14.036565,
@@ -19268,7 +19268,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Rota: {
-            COUNTYFP: "100",
+            sub_num: "100",
             bbox: {
               minLon: 145.058053,
               minLat: 14.036565,
@@ -19277,7 +19277,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tinian: {
-            COUNTYFP: "120",
+            sub_num: "120",
             bbox: {
               minLon: 145.467848,
               minLat: 14.772689,
@@ -19286,7 +19286,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Northern Islands": {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: 144.813338,
               minLat: 15.947893,
@@ -19295,7 +19295,7 @@ const US_States_Counties_4326 = {
             },
           },
           Saipan: {
-            COUNTYFP: "110",
+            sub_num: "110",
             bbox: {
               minLon: 145.572603,
               minLat: 15.022906,
@@ -19306,8 +19306,8 @@ const US_States_Counties_4326 = {
         },
       },
       Guam: {
-        STUSPS: "GU",
-        STATEFP: "66",
+        sub_id: "GU",
+        sub_num: "66",
         bbox: {
           minLon: 144.563426,
           minLat: 13.182335,
@@ -19316,7 +19316,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Guam: {
-            COUNTYFP: "010",
+            sub_num: "010",
             bbox: {
               minLon: 144.563426,
               minLat: 13.182335,
@@ -19327,8 +19327,8 @@ const US_States_Counties_4326 = {
         },
       },
       Maine: {
-        STUSPS: "ME",
-        STATEFP: "23",
+        sub_id: "ME",
+        sub_num: "23",
         bbox: {
           minLon: -71.083928,
           minLat: 42.917126,
@@ -19337,7 +19337,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Androscoggin: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -70.485288,
               minLat: 43.90671,
@@ -19346,7 +19346,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sagadahoc: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -70.051824,
               minLat: 43.636466,
@@ -19355,7 +19355,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -68.105017,
               minLat: 44.316925,
@@ -19364,7 +19364,7 @@ const US_States_Counties_4326 = {
             },
           },
           Waldo: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -69.506382,
               minLat: 44.166667,
@@ -19373,7 +19373,7 @@ const US_States_Counties_4326 = {
             },
           },
           York: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -70.989122,
               minLat: 42.917126,
@@ -19382,7 +19382,7 @@ const US_States_Counties_4326 = {
             },
           },
           Penobscot: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -69.355667,
               minLat: 44.644023,
@@ -19391,7 +19391,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kennebec: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -70.132741,
               minLat: 44.107662,
@@ -19400,7 +19400,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oxford: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -71.083928,
               minLat: 43.784985,
@@ -19409,7 +19409,7 @@ const US_States_Counties_4326 = {
             },
           },
           Piscataquis: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -69.833105,
               minLat: 45.010956,
@@ -19418,7 +19418,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -69.813554,
               minLat: 43.699814,
@@ -19427,7 +19427,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cumberland: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -70.866623,
               minLat: 43.466878,
@@ -19436,7 +19436,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hancock: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -68.896384,
               minLat: 44.028326,
@@ -19445,7 +19445,7 @@ const US_States_Counties_4326 = {
             },
           },
           Knox: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -69.451251,
               minLat: 43.732384,
@@ -19454,7 +19454,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -70.835709,
               minLat: 44.458942,
@@ -19463,7 +19463,7 @@ const US_States_Counties_4326 = {
             },
           },
           Aroostook: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -70.023187,
               minLat: 45.572848,
@@ -19472,7 +19472,7 @@ const US_States_Counties_4326 = {
             },
           },
           Somerset: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -70.552853,
               minLat: 44.577264,
@@ -19483,8 +19483,8 @@ const US_States_Counties_4326 = {
         },
       },
       "New York": {
-        STUSPS: "NY",
-        STATEFP: "36",
+        sub_id: "NY",
+        sub_num: "36",
         bbox: {
           minLon: -79.76259,
           minLat: 40.476578,
@@ -19493,7 +19493,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Steuben: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -77.749936,
               minLat: 41.998663,
@@ -19502,7 +19502,7 @@ const US_States_Counties_4326 = {
             },
           },
           Saratoga: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -74.1601,
               minLat: 42.775377,
@@ -19511,7 +19511,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allegany: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -78.309316,
               minLat: 41.998207,
@@ -19520,7 +19520,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oswego: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -76.644712,
               minLat: 43.155562,
@@ -19529,7 +19529,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ulster: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -74.780693,
               minLat: 41.58061,
@@ -19538,7 +19538,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Lawrence": {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -75.860207,
               minLat: 44.0504,
@@ -19547,7 +19547,7 @@ const US_States_Counties_4326 = {
             },
           },
           Schuyler: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -77.107203,
               minLat: 42.233721,
@@ -19556,7 +19556,7 @@ const US_States_Counties_4326 = {
             },
           },
           Essex: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -74.336826,
               minLat: 43.744513,
@@ -19565,7 +19565,7 @@ const US_States_Counties_4326 = {
             },
           },
           Suffolk: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -73.497405,
               minLat: 40.534265,
@@ -19574,7 +19574,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamilton: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -74.867712,
               minLat: 43.214684,
@@ -19583,7 +19583,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dutchess: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -74.000115,
               minLat: 41.438905,
@@ -19592,7 +19592,7 @@ const US_States_Counties_4326 = {
             },
           },
           Otsego: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -75.416932,
               minLat: 42.313949,
@@ -19601,7 +19601,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tompkins: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -76.696655,
               minLat: 42.262976,
@@ -19610,7 +19610,7 @@ const US_States_Counties_4326 = {
             },
           },
           Albany: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -74.264863,
               minLat: 42.407127,
@@ -19619,7 +19619,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cayuga: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -76.753538,
               minLat: 42.618608,
@@ -19628,7 +19628,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -74.53731,
               minLat: 42.096589,
@@ -19637,7 +19637,7 @@ const US_States_Counties_4326 = {
             },
           },
           Herkimer: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -75.219106,
               minLat: 42.824943,
@@ -19646,7 +19646,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -74.214625,
               minLat: 43.222123,
@@ -19655,7 +19655,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -76.734725,
               minLat: 43.668143,
@@ -19664,7 +19664,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clinton: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -74.027389,
               minLat: 44.429699,
@@ -19673,7 +19673,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nassau: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -73.780193,
               minLat: 40.520505,
@@ -19682,7 +19682,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -75.993508,
               minLat: 42.723844,
@@ -19691,7 +19691,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -73.636774,
               minLat: 42.941222,
@@ -19700,7 +19700,7 @@ const US_States_Counties_4326 = {
             },
           },
           Westchester: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -73.983284,
               minLat: 40.871721,
@@ -19709,7 +19709,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lewis: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -75.850914,
               minLat: 43.419815,
@@ -19718,7 +19718,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ontario: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -77.611718,
               minLat: 42.576368,
@@ -19727,7 +19727,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cortland: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -76.274673,
               minLat: 42.407568,
@@ -19736,7 +19736,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richmond: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -74.258843,
               minLat: 40.476578,
@@ -19745,7 +19745,7 @@ const US_States_Counties_4326 = {
             },
           },
           Erie: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -79.312136,
               minLat: 42.437997,
@@ -19754,7 +19754,7 @@ const US_States_Counties_4326 = {
             },
           },
           Putnam: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -73.982532,
               minLat: 41.321824,
@@ -19763,7 +19763,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -74.763303,
               minLat: 42.772979,
@@ -19772,7 +19772,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sullivan: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -75.144744,
               minLat: 41.421409,
@@ -19781,7 +19781,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orleans: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -78.468711,
               minLat: 43.128619,
@@ -19790,7 +19790,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oneida: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -75.886756,
               minLat: 42.863319,
@@ -19799,7 +19799,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cattaraugus: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -79.061259,
               minLat: 41.997705,
@@ -19808,7 +19808,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yates: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -77.367106,
               minLat: 42.459186,
@@ -19817,7 +19817,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tioga: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -76.563589,
               minLat: 41.998318,
@@ -19826,7 +19826,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -77.99729,
               minLat: 42.939964,
@@ -19835,7 +19835,7 @@ const US_States_Counties_4326 = {
             },
           },
           Schoharie: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -74.71158,
               minLat: 42.355017,
@@ -19844,7 +19844,7 @@ const US_States_Counties_4326 = {
             },
           },
           Broome: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -76.130181,
               minLat: 41.997856,
@@ -19853,7 +19853,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rensselaer: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -73.786165,
               minLat: 42.464231,
@@ -19862,7 +19862,7 @@ const US_States_Counties_4326 = {
             },
           },
           Seneca: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -76.981334,
               minLat: 42.541537,
@@ -19871,7 +19871,7 @@ const US_States_Counties_4326 = {
             },
           },
           Queens: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -74.042279,
               minLat: 40.486511,
@@ -19880,7 +19880,7 @@ const US_States_Counties_4326 = {
             },
           },
           Genesee: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -78.465505,
               minLat: 42.862754,
@@ -19889,7 +19889,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -77.387995,
               minLat: 43.012463,
@@ -19898,7 +19898,7 @@ const US_States_Counties_4326 = {
             },
           },
           Niagara: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -79.200936,
               minLat: 43.018863,
@@ -19907,7 +19907,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kings: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -74.05663,
               minLat: 40.551042,
@@ -19916,7 +19916,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chemung: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -76.966109,
               minLat: 42.000064,
@@ -19925,7 +19925,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wyoming: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -78.487957,
               minLat: 42.51918,
@@ -19934,7 +19934,7 @@ const US_States_Counties_4326 = {
             },
           },
           "New York": {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -74.047207,
               minLat: 40.679548,
@@ -19943,7 +19943,7 @@ const US_States_Counties_4326 = {
             },
           },
           Columbia: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -73.929626,
               minLat: 41.97798,
@@ -19952,7 +19952,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chautauqua: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -79.76259,
               minLat: 41.998364,
@@ -19961,7 +19961,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -74.726228,
               minLat: 44.09925,
@@ -19970,7 +19970,7 @@ const US_States_Counties_4326 = {
             },
           },
           Onondaga: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -76.499324,
               minLat: 42.771257,
@@ -19979,7 +19979,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chenango: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -75.889832,
               minLat: 42.194918,
@@ -19988,7 +19988,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fulton: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -74.774253,
               minLat: 42.982817,
@@ -19997,7 +19997,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rockland: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -74.234417,
               minLat: 40.997172,
@@ -20006,7 +20006,7 @@ const US_States_Counties_4326 = {
             },
           },
           Livingston: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -78.060817,
               minLat: 42.471216,
@@ -20015,7 +20015,7 @@ const US_States_Counties_4326 = {
             },
           },
           Delaware: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -75.423038,
               minLat: 41.848448,
@@ -20024,7 +20024,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orange: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -74.762623,
               minLat: 41.143063,
@@ -20033,7 +20033,7 @@ const US_States_Counties_4326 = {
             },
           },
           Schenectady: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -74.306665,
               minLat: 42.710826,
@@ -20042,7 +20042,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bronx: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -73.933808,
               minLat: 40.785357,
@@ -20053,8 +20053,8 @@ const US_States_Counties_4326 = {
         },
       },
       Nevada: {
-        STUSPS: "NV",
-        STATEFP: "32",
+        sub_id: "NV",
+        sub_num: "32",
         bbox: {
           minLon: -120.006473,
           minLat: 35.001857,
@@ -20063,7 +20063,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Churchill: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -119.226139,
               minLat: 39.073345,
@@ -20072,7 +20072,7 @@ const US_States_Counties_4326 = {
             },
           },
           Humboldt: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -119.33142,
               minLat: 40.526136,
@@ -20081,7 +20081,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -115.896925,
               minLat: 35.001857,
@@ -20090,7 +20090,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mineral: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -119.155564,
               minLat: 37.893659,
@@ -20099,7 +20099,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nye: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -118.196274,
               minLat: 35.963707,
@@ -20108,7 +20108,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -120.003429,
               minLat: 38.535961,
@@ -20117,7 +20117,7 @@ const US_States_Counties_4326 = {
             },
           },
           "White Pine": {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -115.907659,
               minLat: 38.677298,
@@ -20126,7 +20126,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Carson City": {
-            COUNTYFP: "510",
+            sub_num: "510",
             bbox: {
               minLon: -120.004297,
               minLat: 39.084796,
@@ -20135,7 +20135,7 @@ const US_States_Counties_4326 = {
             },
           },
           Eureka: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -116.600994,
               minLat: 39.161228,
@@ -20144,7 +20144,7 @@ const US_States_Counties_4326 = {
             },
           },
           Elko: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -117.019525,
               minLat: 40.116622,
@@ -20153,7 +20153,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lyon: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -119.712287,
               minLat: 38.413753,
@@ -20162,7 +20162,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lander: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -117.806786,
               minLat: 39.093425,
@@ -20171,7 +20171,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washoe: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -120.006473,
               minLat: 39.165509,
@@ -20180,7 +20180,7 @@ const US_States_Counties_4326 = {
             },
           },
           Storey: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -119.71407,
               minLat: 39.250871,
@@ -20189,7 +20189,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -115.896941,
               minLat: 36.8419,
@@ -20198,7 +20198,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pershing: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -119.339296,
               minLat: 39.998295,
@@ -20207,7 +20207,7 @@ const US_States_Counties_4326 = {
             },
           },
           Esmeralda: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -118.428144,
               minLat: 36.971111,
@@ -20218,8 +20218,8 @@ const US_States_Counties_4326 = {
         },
       },
       Alaska: {
-        STUSPS: "AK",
-        STATEFP: "02",
+        sub_id: "AK",
+        sub_num: "02",
         bbox: {
           minLon: -179.231086,
           minLat: 51.175092,
@@ -20228,7 +20228,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           "Ketchikan Gateway": {
-            COUNTYFP: "130",
+            sub_num: "130",
             bbox: {
               minLon: -132.277239,
               minLat: 54.648906,
@@ -20237,7 +20237,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Northwest Arctic": {
-            COUNTYFP: "188",
+            sub_num: "188",
             bbox: {
               minLon: -165.596046,
               minLat: 65.437152,
@@ -20246,7 +20246,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sitka: {
-            COUNTYFP: "220",
+            sub_num: "220",
             bbox: {
               minLon: -136.454427,
               minLat: 56.147586,
@@ -20255,7 +20255,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Yukon-Koyukuk": {
-            COUNTYFP: "290",
+            sub_num: "290",
             bbox: {
               minLon: -161.048176,
               minLat: 61.945933,
@@ -20264,7 +20264,7 @@ const US_States_Counties_4326 = {
             },
           },
           Anchorage: {
-            COUNTYFP: "020",
+            sub_num: "020",
             bbox: {
               minLon: -150.424163,
               minLat: 60.732977,
@@ -20273,7 +20273,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Prince of Wales-Hyder": {
-            COUNTYFP: "198",
+            sub_num: "198",
             bbox: {
               minLon: -134.666668,
               minLat: 54.632045,
@@ -20282,7 +20282,7 @@ const US_States_Counties_4326 = {
             },
           },
           Petersburg: {
-            COUNTYFP: "195",
+            sub_num: "195",
             bbox: {
               minLon: -133.738611,
               minLat: 56.355093,
@@ -20291,7 +20291,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wrangell: {
-            COUNTYFP: "275",
+            sub_num: "275",
             bbox: {
               minLon: -133.169079,
               minLat: 55.634282,
@@ -20300,7 +20300,7 @@ const US_States_Counties_4326 = {
             },
           },
           Juneau: {
-            COUNTYFP: "110",
+            sub_num: "110",
             bbox: {
               minLon: -135.221825,
               minLat: 57.791331,
@@ -20309,7 +20309,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Kenai Peninsula": {
-            COUNTYFP: "122",
+            sub_num: "122",
             bbox: {
               minLon: -154.748861,
               minLat: 58.65274,
@@ -20318,7 +20318,7 @@ const US_States_Counties_4326 = {
             },
           },
           Denali: {
-            COUNTYFP: "068",
+            sub_num: "068",
             bbox: {
               minLon: -152.999609,
               minLat: 62.725831,
@@ -20327,7 +20327,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Southeast Fairbanks": {
-            COUNTYFP: "240",
+            sub_num: "240",
             bbox: {
               minLon: -147.000037,
               minLat: 61.904047,
@@ -20336,7 +20336,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Fairbanks North Star": {
-            COUNTYFP: "090",
+            sub_num: "090",
             bbox: {
               minLon: -148.663265,
               minLat: 64.257176,
@@ -20345,7 +20345,7 @@ const US_States_Counties_4326 = {
             },
           },
           Haines: {
-            COUNTYFP: "100",
+            sub_num: "100",
             bbox: {
               minLon: -136.495756,
               minLat: 58.131328,
@@ -20354,7 +20354,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bethel: {
-            COUNTYFP: "050",
+            sub_num: "050",
             bbox: {
               minLon: -173.23683,
               minLat: 58.496019,
@@ -20363,7 +20363,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Lake and Peninsula": {
-            COUNTYFP: "164",
+            sub_num: "164",
             bbox: {
               minLon: -159.900149,
               minLat: 55.638531,
@@ -20372,7 +20372,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Bristol Bay": {
-            COUNTYFP: "060",
+            sub_num: "060",
             bbox: {
               minLon: -158.002155,
               minLat: 58.615888,
@@ -20381,7 +20381,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dillingham: {
-            COUNTYFP: "070",
+            sub_num: "070",
             bbox: {
               minLon: -161.365049,
               minLat: 58.33414,
@@ -20390,7 +20390,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Matanuska-Susitna": {
-            COUNTYFP: "170",
+            sub_num: "170",
             bbox: {
               minLon: -153.001881,
               minLat: 61.079639,
@@ -20399,7 +20399,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Aleutians East": {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -166.225647,
               minLat: 53.916217,
@@ -20408,7 +20408,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kusilvak: {
-            COUNTYFP: "158",
+            sub_num: "158",
             bbox: {
               minLon: -166.288613,
               minLat: 60.917108,
@@ -20417,7 +20417,7 @@ const US_States_Counties_4326 = {
             },
           },
           "North Slope": {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -166.972107,
               minLat: 67.999952,
@@ -20426,7 +20426,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nome: {
-            COUNTYFP: "180",
+            sub_num: "180",
             bbox: {
               minLon: -171.965319,
               minLat: 62.884908,
@@ -20435,7 +20435,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Aleutians West": {
-            COUNTYFP: "016",
+            sub_num: "016",
             bbox: {
               minLon: -179.231086,
               minLat: 51.175092,
@@ -20444,7 +20444,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Kodiak Island": {
-            COUNTYFP: "150",
+            sub_num: "150",
             bbox: {
               minLon: -156.903153,
               minLat: 55.699912,
@@ -20453,7 +20453,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yakutat: {
-            COUNTYFP: "282",
+            sub_num: "282",
             bbox: {
               minLon: -143.893329,
               minLat: 58.808333,
@@ -20462,7 +20462,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Copper River": {
-            COUNTYFP: "066",
+            sub_num: "066",
             bbox: {
               minLon: -147.744753,
               minLat: 60.391676,
@@ -20471,7 +20471,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chugach: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -148.948762,
               minLat: 59.334006,
@@ -20480,7 +20480,7 @@ const US_States_Counties_4326 = {
             },
           },
           Skagway: {
-            COUNTYFP: "230",
+            sub_num: "230",
             bbox: {
               minLon: -135.723075,
               minLat: 59.34634,
@@ -20489,7 +20489,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Hoonah-Angoon": {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -138.029297,
               minLat: 56.863052,
@@ -20500,8 +20500,8 @@ const US_States_Counties_4326 = {
         },
       },
       "American Samoa": {
-        STUSPS: "AS",
-        STATEFP: "60",
+        sub_id: "AS",
+        sub_num: "60",
         bbox: {
           minLon: -171.141907,
           minLat: -14.601813,
@@ -20510,7 +20510,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           "Manu'a": {
-            COUNTYFP: "020",
+            sub_num: "020",
             bbox: {
               minLon: -169.725895,
               minLat: -14.317249,
@@ -20519,7 +20519,7 @@ const US_States_Counties_4326 = {
             },
           },
           Eastern: {
-            COUNTYFP: "010",
+            sub_num: "010",
             bbox: {
               minLon: -170.797156,
               minLat: -14.375776,
@@ -20528,7 +20528,7 @@ const US_States_Counties_4326 = {
             },
           },
           Western: {
-            COUNTYFP: "050",
+            sub_num: "050",
             bbox: {
               minLon: -170.890348,
               minLat: -14.41995,
@@ -20537,7 +20537,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Swains Island": {
-            COUNTYFP: "040",
+            sub_num: "040",
             bbox: {
               minLon: -171.141907,
               minLat: -11.11013,
@@ -20546,7 +20546,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Rose Island": {
-            COUNTYFP: "030",
+            sub_num: "030",
             bbox: {
               minLon: -168.226,
               minLat: -14.601813,
@@ -20557,8 +20557,8 @@ const US_States_Counties_4326 = {
         },
       },
       Michigan: {
-        STUSPS: "MI",
-        STATEFP: "26",
+        sub_id: "MI",
+        sub_num: "26",
         bbox: {
           minLon: -90.418392,
           minLat: 41.696118,
@@ -20567,7 +20567,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Menominee: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -87.888236,
               minLat: 45.076434,
@@ -20576,7 +20576,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alpena: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -83.890439,
               minLat: 44.855544,
@@ -20585,7 +20585,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clare: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -85.088811,
               minLat: 43.813676,
@@ -20594,7 +20594,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marquette: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -88.117612,
               minLat: 45.985102,
@@ -20603,7 +20603,7 @@ const US_States_Counties_4326 = {
             },
           },
           Leelanau: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -86.734529,
               minLat: 44.773074,
@@ -20612,7 +20612,7 @@ const US_States_Counties_4326 = {
             },
           },
           Schoolcraft: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -86.615686,
               minLat: 45.578386,
@@ -20621,7 +20621,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alger: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -87.116634,
               minLat: 46.158461,
@@ -20630,7 +20630,7 @@ const US_States_Counties_4326 = {
             },
           },
           Newaygo: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -86.03978,
               minLat: 43.292907,
@@ -20639,7 +20639,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sanilac: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -83.120396,
               minLat: 43.154099,
@@ -20648,7 +20648,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -83.551907,
               minLat: 42.02793,
@@ -20657,7 +20657,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Van Buren": {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -87.088338,
               minLat: 42.06928,
@@ -20666,7 +20666,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chippewa: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -85.240106,
               minLat: 45.773944,
@@ -20675,7 +20675,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clinton: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -84.837639,
               minLat: 42.769479,
@@ -20684,7 +20684,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Joseph": {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -85.791837,
               minLat: 41.758946,
@@ -20693,7 +20693,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iron: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -88.991256,
               minLat: 45.920838,
@@ -20702,7 +20702,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ontonagon: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -90.111689,
               minLat: 46.332308,
@@ -20711,7 +20711,7 @@ const US_States_Counties_4326 = {
             },
           },
           Baraga: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -88.679453,
               minLat: 46.41976,
@@ -20720,7 +20720,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alcona: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -83.888588,
               minLat: 44.508898,
@@ -20729,7 +20729,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -86.043507,
               minLat: 43.81405,
@@ -20738,7 +20738,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ottawa: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -87.107669,
               minLat: 42.765202,
@@ -20747,7 +20747,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barry: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -85.545575,
               minLat: 42.419722,
@@ -20756,7 +20756,7 @@ const US_States_Counties_4326 = {
             },
           },
           Antrim: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -85.480674,
               minLat: 44.812372,
@@ -20765,7 +20765,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -84.718632,
               minLat: 42.070337,
@@ -20774,7 +20774,7 @@ const US_States_Counties_4326 = {
             },
           },
           Roscommon: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -84.855801,
               minLat: 44.160479,
@@ -20783,7 +20783,7 @@ const US_States_Counties_4326 = {
             },
           },
           Luce: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -85.86506,
               minLat: 46.244631,
@@ -20792,7 +20792,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gogebic: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -90.418392,
               minLat: 46.097381,
@@ -20801,7 +20801,7 @@ const US_States_Counties_4326 = {
             },
           },
           Berrien: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -87.207774,
               minLat: 41.759487,
@@ -20810,7 +20810,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montmorency: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -84.372081,
               minLat: 44.854753,
@@ -20819,7 +20819,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oscoda: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -84.372125,
               minLat: 44.507068,
@@ -20828,7 +20828,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ogemaw: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -84.370643,
               minLat: 44.160538,
@@ -20837,7 +20837,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ingham: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -84.603137,
               minLat: 42.421937,
@@ -20846,7 +20846,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lapeer: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -83.460744,
               minLat: 42.880432,
@@ -20855,7 +20855,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kalkaska: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -85.334011,
               minLat: 44.510314,
@@ -20864,7 +20864,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mason: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -87.093109,
               minLat: 43.815556,
@@ -20873,7 +20873,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shiawassee: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -84.367891,
               minLat: 42.775778,
@@ -20882,7 +20882,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Clair": {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -82.996257,
               minLat: 42.477778,
@@ -20891,7 +20891,7 @@ const US_States_Counties_4326 = {
             },
           },
           Livingston: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -84.158189,
               minLat: 42.423904,
@@ -20900,7 +20900,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tuscola: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -83.708317,
               minLat: 43.221419,
@@ -20909,7 +20909,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oceana: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -87.140331,
               minLat: 43.467447,
@@ -20918,7 +20918,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washtenaw: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -84.134079,
               minLat: 42.071577,
@@ -20927,7 +20927,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hillsdale: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -84.826491,
               minLat: 41.696118,
@@ -20936,7 +20936,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benzie: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -86.846928,
               minLat: 44.512951,
@@ -20945,7 +20945,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gratiot: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -84.845962,
               minLat: 43.117637,
@@ -20954,7 +20954,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wexford: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -85.82145,
               minLat: 44.164197,
@@ -20963,7 +20963,7 @@ const US_States_Counties_4326 = {
             },
           },
           Genesee: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -83.932071,
               minLat: 42.780821,
@@ -20972,7 +20972,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Presque Isle": {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -84.25202,
               minLat: 45.198418,
@@ -20981,7 +20981,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -85.299557,
               minLat: 42.070366,
@@ -20990,7 +20990,7 @@ const US_States_Counties_4326 = {
             },
           },
           Otsego: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -84.857952,
               minLat: 44.854944,
@@ -20999,7 +20999,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mecosta: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -85.562913,
               minLat: 43.46619,
@@ -21008,7 +21008,7 @@ const US_States_Counties_4326 = {
             },
           },
           Huron: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -83.713563,
               minLat: 43.667621,
@@ -21017,7 +21017,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iosco: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -83.886634,
               minLat: 44.158751,
@@ -21026,7 +21026,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ionia: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -85.312578,
               minLat: 42.769644,
@@ -21035,7 +21035,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kent: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -85.790662,
               minLat: 42.768099,
@@ -21044,7 +21044,7 @@ const US_States_Counties_4326 = {
             },
           },
           Macomb: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -83.102891,
               minLat: 42.447055,
@@ -21053,7 +21053,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dickinson: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -88.136212,
               minLat: 45.722495,
@@ -21062,7 +21062,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montcalm: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -85.562769,
               minLat: 43.118793,
@@ -21071,7 +21071,7 @@ const US_States_Counties_4326 = {
             },
           },
           Saginaw: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -84.369977,
               minLat: 43.128452,
@@ -21080,7 +21080,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bay: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -84.168127,
               minLat: 43.478623,
@@ -21089,7 +21089,7 @@ const US_States_Counties_4326 = {
             },
           },
           Arenac: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -84.166744,
               minLat: 43.833948,
@@ -21098,7 +21098,7 @@ const US_States_Counties_4326 = {
             },
           },
           Emmet: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -85.308494,
               minLat: 45.271045,
@@ -21107,7 +21107,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cheboygan: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -84.734413,
               minLat: 45.198617,
@@ -21116,7 +21116,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gladwin: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -84.608104,
               minLat: 43.81356,
@@ -21125,7 +21125,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -83.773922,
               minLat: 41.723552,
@@ -21134,7 +21134,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kalamazoo: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -85.766066,
               minLat: 42.069327,
@@ -21143,7 +21143,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Grand Traverse": {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -85.817802,
               minLat: 44.512122,
@@ -21152,7 +21152,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -84.851009,
               minLat: 44.507223,
@@ -21161,7 +21161,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mackinac: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -85.868241,
               minLat: 45.692447,
@@ -21170,7 +21170,7 @@ const US_States_Counties_4326 = {
             },
           },
           Midland: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -84.608106,
               minLat: 43.466006,
@@ -21179,7 +21179,7 @@ const US_States_Counties_4326 = {
             },
           },
           Eaton: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -85.075585,
               minLat: 42.421428,
@@ -21188,7 +21188,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cass: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -86.226095,
               minLat: 41.759064,
@@ -21197,7 +21197,7 @@ const US_States_Counties_4326 = {
             },
           },
           Manistee: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -86.987998,
               minLat: 44.164187,
@@ -21206,7 +21206,7 @@ const US_States_Counties_4326 = {
             },
           },
           Missaukee: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -85.338404,
               minLat: 44.161375,
@@ -21215,7 +21215,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oakland: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -83.689438,
               minLat: 42.431179,
@@ -21224,7 +21224,7 @@ const US_States_Counties_4326 = {
             },
           },
           Osceola: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -85.564554,
               minLat: 43.813527,
@@ -21233,7 +21233,7 @@ const US_States_Counties_4326 = {
             },
           },
           Branch: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -85.293645,
               minLat: 41.759491,
@@ -21242,7 +21242,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allegan: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -87.058716,
               minLat: 42.415413,
@@ -21251,7 +21251,7 @@ const US_States_Counties_4326 = {
             },
           },
           Keweenaw: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -89.68073,
               minLat: 47.199704,
@@ -21260,7 +21260,7 @@ const US_States_Counties_4326 = {
             },
           },
           Houghton: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -88.991549,
               minLat: 46.419643,
@@ -21269,7 +21269,7 @@ const US_States_Counties_4326 = {
             },
           },
           Charlevoix: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -85.873227,
               minLat: 45.114903,
@@ -21278,7 +21278,7 @@ const US_States_Counties_4326 = {
             },
           },
           Muskegon: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -87.147166,
               minLat: 43.117297,
@@ -21287,7 +21287,7 @@ const US_States_Counties_4326 = {
             },
           },
           Delta: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -87.368011,
               minLat: 45.32481,
@@ -21296,7 +21296,7 @@ const US_States_Counties_4326 = {
             },
           },
           Isabella: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -85.088815,
               minLat: 43.466006,
@@ -21305,7 +21305,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lenawee: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -84.363297,
               minLat: 41.706589,
@@ -21316,8 +21316,8 @@ const US_States_Counties_4326 = {
         },
       },
       Arkansas: {
-        STUSPS: "AR",
-        STATEFP: "05",
+        sub_id: "AR",
+        sub_num: "05",
         bbox: {
           minLon: -94.617859,
           minLat: 33.004282,
@@ -21326,7 +21326,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Stone: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -92.418409,
               minLat: 35.705019,
@@ -21335,7 +21335,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -94.470331,
               minLat: 34.190177,
@@ -21344,7 +21344,7 @@ const US_States_Counties_4326 = {
             },
           },
           Independence: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -91.871023,
               minLat: 35.526333,
@@ -21353,7 +21353,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lonoke: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -92.12154,
               minLat: 34.481913,
@@ -21362,7 +21362,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -93.502208,
               minLat: 33.769789,
@@ -21371,7 +21371,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fulton: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -92.159196,
               minLat: 36.249961,
@@ -21380,7 +21380,7 @@ const US_States_Counties_4326 = {
             },
           },
           Logan: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -94.141787,
               minLat: 35.019716,
@@ -21389,7 +21389,7 @@ const US_States_Counties_4326 = {
             },
           },
           Miller: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -94.043316,
               minLat: 33.019245,
@@ -21398,7 +21398,7 @@ const US_States_Counties_4326 = {
             },
           },
           Arkansas: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -91.711675,
               minLat: 33.921202,
@@ -21407,7 +21407,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -93.890382,
               minLat: 36.12155,
@@ -21416,7 +21416,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Van Buren": {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -92.850951,
               minLat: 35.36365,
@@ -21425,7 +21425,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -93.710043,
               minLat: 35.326584,
@@ -21434,7 +21434,7 @@ const US_States_Counties_4326 = {
             },
           },
           Searcy: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -92.951373,
               minLat: 35.718381,
@@ -21443,7 +21443,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garland: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -93.407203,
               minLat: 34.389172,
@@ -21452,7 +21452,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sevier: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -94.477397,
               minLat: 33.751058,
@@ -21461,7 +21461,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -92.233303,
               minLat: 34.058586,
@@ -21470,7 +21470,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -91.976442,
               minLat: 33.783322,
@@ -21479,7 +21479,7 @@ const US_States_Counties_4326 = {
             },
           },
           Randolph: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -91.40724,
               minLat: 36.114861,
@@ -21488,7 +21488,7 @@ const US_States_Counties_4326 = {
             },
           },
           Izard: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -92.215231,
               minLat: 35.867301,
@@ -21497,7 +21497,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -94.454436,
               minLat: 34.66564,
@@ -21506,7 +21506,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perry: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -93.305885,
               minLat: 34.771892,
@@ -21515,7 +21515,7 @@ const US_States_Counties_4326 = {
             },
           },
           Craighead: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -91.037012,
               minLat: 35.69991,
@@ -21524,7 +21524,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cleburne: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -92.252843,
               minLat: 35.358384,
@@ -21533,7 +21533,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Hot Spring": {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -93.40818,
               minLat: 34.149645,
@@ -21542,7 +21542,7 @@ const US_States_Counties_4326 = {
             },
           },
           Columbia: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -93.490558,
               minLat: 33.017316,
@@ -21551,7 +21551,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ouachita: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -93.118951,
               minLat: 33.355819,
@@ -21560,7 +21560,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yell: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -93.709992,
               minLat: 34.743318,
@@ -21569,7 +21569,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -91.447888,
               minLat: 34.336362,
@@ -21578,7 +21578,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mississippi: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -90.289076,
               minLat: 35.389277,
@@ -21587,7 +21587,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -94.552172,
               minLat: 35.750327,
@@ -21596,7 +21596,7 @@ const US_States_Counties_4326 = {
             },
           },
           Newton: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -93.526056,
               minLat: 35.724635,
@@ -21605,7 +21605,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -92.776732,
               minLat: 33.269468,
@@ -21614,7 +21614,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cross: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -91.042566,
               minLat: 35.143286,
@@ -21623,7 +21623,7 @@ const US_States_Counties_4326 = {
             },
           },
           Phillips: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -91.117918,
               minLat: 34.118515,
@@ -21632,7 +21632,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -94.08222,
               minLat: 35.199466,
@@ -21641,7 +21641,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -94.493137,
               minLat: 35.343385,
@@ -21650,7 +21650,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -91.584454,
               minLat: 35.354255,
@@ -21659,7 +21659,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -90.806676,
               minLat: 36.200528,
@@ -21668,7 +21668,7 @@ const US_States_Counties_4326 = {
             },
           },
           Faulkner: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -92.599252,
               minLat: 34.842962,
@@ -21677,7 +21677,7 @@ const US_States_Counties_4326 = {
             },
           },
           Baxter: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -92.59522,
               minLat: 35.974007,
@@ -21686,7 +21686,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Little River": {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -94.485905,
               minLat: 33.534743,
@@ -21695,7 +21695,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boone: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -93.3023,
               minLat: 36.114245,
@@ -21704,7 +21704,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ashley: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -92.14366,
               minLat: 33.006189,
@@ -21713,7 +21713,7 @@ const US_States_Counties_4326 = {
             },
           },
           Desha: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -91.557656,
               minLat: 33.51719,
@@ -21722,7 +21722,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Francis": {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -91.152498,
               minLat: 34.867101,
@@ -21731,7 +21731,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -93.935435,
               minLat: 34.339467,
@@ -21740,7 +21740,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sharp: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -91.710483,
               minLat: 35.89066,
@@ -21749,7 +21749,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -90.860168,
               minLat: 35.964691,
@@ -21758,7 +21758,7 @@ const US_States_Counties_4326 = {
             },
           },
           Woodruff: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -91.47896,
               minLat: 34.91245,
@@ -21767,7 +21767,7 @@ const US_States_Counties_4326 = {
             },
           },
           White: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -92.119748,
               minLat: 35.020638,
@@ -21776,7 +21776,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -91.102542,
               minLat: 34.627327,
@@ -21785,7 +21785,7 @@ const US_States_Counties_4326 = {
             },
           },
           Conway: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -93.040829,
               minLat: 35.071862,
@@ -21794,7 +21794,7 @@ const US_States_Counties_4326 = {
             },
           },
           Howard: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -94.256261,
               minLat: 33.748236,
@@ -21803,7 +21803,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nevada: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -93.483931,
               minLat: 33.440487,
@@ -21812,7 +21812,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pulaski: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -92.755399,
               minLat: 34.489539,
@@ -21821,7 +21821,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -92.678382,
               minLat: 34.059477,
@@ -21830,7 +21830,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benton: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -94.617859,
               minLat: 36.099396,
@@ -21839,7 +21839,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -93.963054,
               minLat: 35.759752,
@@ -21848,7 +21848,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dallas: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -92.961217,
               minLat: 33.795065,
@@ -21857,7 +21857,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cleveland: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -92.475646,
               minLat: 33.704194,
@@ -21866,7 +21866,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crittenden: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -90.506526,
               minLat: 34.826559,
@@ -21875,7 +21875,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lafayette: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -93.864266,
               minLat: 33.01854,
@@ -21884,7 +21884,7 @@ const US_States_Counties_4326 = {
             },
           },
           Saline: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -93.075278,
               minLat: 34.410912,
@@ -21893,7 +21893,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chicot: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -91.460516,
               minLat: 33.004282,
@@ -21902,7 +21902,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pope: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -93.298903,
               minLat: 35.117531,
@@ -21911,7 +21911,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -92.890725,
               minLat: 36.062716,
@@ -21920,7 +21920,7 @@ const US_States_Counties_4326 = {
             },
           },
           Prairie: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -91.803734,
               minLat: 34.479537,
@@ -21929,7 +21929,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bradley: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -92.38246,
               minLat: 33.161144,
@@ -21938,7 +21938,7 @@ const US_States_Counties_4326 = {
             },
           },
           Drew: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -92.015217,
               minLat: 33.38896,
@@ -21947,7 +21947,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pike: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -93.937009,
               minLat: 33.942938,
@@ -21956,7 +21956,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -92.988775,
               minLat: 33.00799,
@@ -21965,7 +21965,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sebastian: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -94.447533,
               minLat: 34.930706,
@@ -21974,7 +21974,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -91.35752,
               minLat: 35.880872,
@@ -21983,7 +21983,7 @@ const US_States_Counties_4326 = {
             },
           },
           Poinsett: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -91.039251,
               minLat: 35.438439,
@@ -21992,7 +21992,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hempstead: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -93.969675,
               minLat: 33.476172,
@@ -22003,8 +22003,8 @@ const US_States_Counties_4326 = {
         },
       },
       Mississippi: {
-        STUSPS: "MS",
-        STATEFP: "28",
+        sub_id: "MS",
+        sub_num: "28",
         bbox: {
           minLon: -91.655009,
           minLat: 30.139845,
@@ -22013,7 +22013,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Jasper: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -89.322729,
               minLat: 31.80209,
@@ -22022,7 +22022,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chickasaw: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -89.191781,
               minLat: 33.738602,
@@ -22031,7 +22031,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -89.246436,
               minLat: 34.364759,
@@ -22040,7 +22040,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kemper: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -88.915286,
               minLat: 32.576791,
@@ -22049,7 +22049,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -91.235907,
               minLat: 33.007697,
@@ -22058,7 +22058,7 @@ const US_States_Counties_4326 = {
             },
           },
           Issaquena: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -91.214027,
               minLat: 32.411185,
@@ -22067,7 +22067,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benton: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -89.353028,
               minLat: 34.582926,
@@ -22076,7 +22076,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lowndes: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -88.67125,
               minLat: 33.286916,
@@ -22085,7 +22085,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lamar: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -89.6544,
               minLat: 30.98245,
@@ -22094,7 +22094,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alcorn: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -88.823541,
               minLat: 34.755573,
@@ -22103,7 +22103,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lafayette: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -89.722246,
               minLat: 34.161022,
@@ -22112,7 +22112,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -90.174873,
               minLat: 33.214207,
@@ -22121,7 +22121,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -90.737435,
               minLat: 31.349187,
@@ -22130,7 +22130,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tunica: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -90.591784,
               minLat: 34.423807,
@@ -22139,7 +22139,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -89.78689,
               minLat: 33.285505,
@@ -22148,7 +22148,7 @@ const US_States_Counties_4326 = {
             },
           },
           Choctaw: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -89.45405,
               minLat: 33.108871,
@@ -22157,7 +22157,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tippah: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -89.088616,
               minLat: 34.596319,
@@ -22166,7 +22166,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Pearl River": {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -89.85231,
               minLat: 30.458892,
@@ -22175,7 +22175,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perry: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -89.146176,
               minLat: 30.909834,
@@ -22184,7 +22184,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bolivar: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -91.234608,
               minLat: 33.529269,
@@ -22193,7 +22193,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -91.174577,
               minLat: 32.078327,
@@ -22202,7 +22202,7 @@ const US_States_Counties_4326 = {
             },
           },
           Newton: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -89.322692,
               minLat: 32.223467,
@@ -22211,7 +22211,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tallahatchie: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -90.451643,
               minLat: 33.694062,
@@ -22220,7 +22220,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sharkey: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -90.965281,
               minLat: 32.662076,
@@ -22229,7 +22229,7 @@ const US_States_Counties_4326 = {
             },
           },
           Forrest: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -89.451616,
               minLat: 30.909832,
@@ -22238,7 +22238,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yalobusha: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -89.931747,
               minLat: 33.86693,
@@ -22247,7 +22247,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clarke: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -88.914277,
               minLat: 31.826649,
@@ -22256,7 +22256,7 @@ const US_States_Counties_4326 = {
             },
           },
           Simpson: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -90.247927,
               minLat: 31.75268,
@@ -22265,7 +22265,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stone: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -89.341488,
               minLat: 30.647293,
@@ -22274,7 +22274,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rankin: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -90.254799,
               minLat: 32.047038,
@@ -22283,7 +22283,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -90.040614,
               minLat: 30.99942,
@@ -22292,7 +22292,7 @@ const US_States_Counties_4326 = {
             },
           },
           George: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -88.885038,
               minLat: 30.734236,
@@ -22301,7 +22301,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -88.72042,
               minLat: 33.650209,
@@ -22310,7 +22310,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -89.784123,
               minLat: 32.221787,
@@ -22319,7 +22319,7 @@ const US_States_Counties_4326 = {
             },
           },
           Holmes: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -90.43195,
               minLat: 32.879573,
@@ -22328,7 +22328,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oktibbeha: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -89.088662,
               minLat: 33.286003,
@@ -22337,7 +22337,7 @@ const US_States_Counties_4326 = {
             },
           },
           Covington: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -89.755806,
               minLat: 31.433676,
@@ -22346,7 +22346,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pontotoc: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -89.246534,
               minLat: 34.073926,
@@ -22355,7 +22355,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yazoo: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -90.759753,
               minLat: 32.503037,
@@ -22364,7 +22364,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tate: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -90.244282,
               minLat: 34.553601,
@@ -22373,7 +22373,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -90.245191,
               minLat: 31.328668,
@@ -22382,7 +22382,7 @@ const US_States_Counties_4326 = {
             },
           },
           Attala: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -89.966007,
               minLat: 32.879515,
@@ -22391,7 +22391,7 @@ const US_States_Counties_4326 = {
             },
           },
           Prentiss: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -88.736465,
               minLat: 34.463571,
@@ -22400,7 +22400,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pike: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -90.548419,
               minLat: 30.999539,
@@ -22409,7 +22409,7 @@ const US_States_Counties_4326 = {
             },
           },
           Copiah: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -90.736824,
               minLat: 31.685147,
@@ -22418,7 +22418,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -89.510149,
               minLat: 33.72161,
@@ -22427,7 +22427,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -88.841986,
               minLat: 30.997376,
@@ -22436,7 +22436,7 @@ const US_States_Counties_4326 = {
             },
           },
           Amite: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -91.095398,
               minLat: 30.998909,
@@ -22445,7 +22445,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hancock: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -89.690589,
               minLat: 30.160617,
@@ -22454,7 +22454,7 @@ const US_States_Counties_4326 = {
             },
           },
           Smith: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -89.731276,
               minLat: 31.780653,
@@ -22463,7 +22463,7 @@ const US_States_Counties_4326 = {
             },
           },
           Claiborne: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -91.248144,
               minLat: 31.785422,
@@ -22472,7 +22472,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -88.943483,
               minLat: 31.43338,
@@ -22481,7 +22481,7 @@ const US_States_Counties_4326 = {
             },
           },
           Winston: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -89.319163,
               minLat: 32.919107,
@@ -22490,7 +22490,7 @@ const US_States_Counties_4326 = {
             },
           },
           Humphreys: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -90.733216,
               minLat: 32.92251,
@@ -22499,7 +22499,7 @@ const US_States_Counties_4326 = {
             },
           },
           Noxubee: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -88.813753,
               minLat: 32.925973,
@@ -22508,7 +22508,7 @@ const US_States_Counties_4326 = {
             },
           },
           Leflore: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -90.453801,
               minLat: 33.23532,
@@ -22517,7 +22517,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coahoma: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -90.961044,
               minLat: 33.985689,
@@ -22526,7 +22526,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harrison: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -89.341752,
               minLat: 30.139845,
@@ -22535,7 +22535,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -88.884536,
               minLat: 30.146096,
@@ -22544,7 +22544,7 @@ const US_States_Counties_4326 = {
             },
           },
           Panola: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -90.198631,
               minLat: 34.159471,
@@ -22553,7 +22553,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -89.724446,
               minLat: 34.494788,
@@ -22562,7 +22562,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grenada: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -90.137011,
               minLat: 33.676182,
@@ -22571,7 +22571,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tishomingo: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -88.365883,
               minLat: 34.463197,
@@ -22580,7 +22580,7 @@ const US_States_Counties_4326 = {
             },
           },
           Quitman: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -90.450982,
               minLat: 34.072215,
@@ -22589,7 +22589,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilkinson: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -91.636942,
               minLat: 30.998691,
@@ -22598,7 +22598,7 @@ const US_States_Counties_4326 = {
             },
           },
           Leake: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -89.730339,
               minLat: 32.576174,
@@ -22607,7 +22607,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -89.036067,
               minLat: 33.506168,
@@ -22616,7 +22616,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -91.15815,
               minLat: 31.319848,
@@ -22625,7 +22625,7 @@ const US_States_Counties_4326 = {
             },
           },
           Neshoba: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -89.319309,
               minLat: 32.576439,
@@ -22634,7 +22634,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -88.825632,
               minLat: 34.074521,
@@ -22643,7 +22643,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sunflower: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -90.764484,
               minLat: 33.270007,
@@ -22652,7 +22652,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -91.365614,
               minLat: 31.610068,
@@ -22661,7 +22661,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -91.655009,
               minLat: 31.19114,
@@ -22670,7 +22670,7 @@ const US_States_Counties_4326 = {
             },
           },
           Itawamba: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -88.544865,
               minLat: 34.086556,
@@ -22679,7 +22679,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hinds: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -90.72863,
               minLat: 32.048352,
@@ -22688,7 +22688,7 @@ const US_States_Counties_4326 = {
             },
           },
           DeSoto: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -90.317741,
               minLat: 34.70795,
@@ -22697,7 +22697,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jones: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -89.40134,
               minLat: 31.433458,
@@ -22706,7 +22706,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lauderdale: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -88.915679,
               minLat: 32.224185,
@@ -22715,7 +22715,7 @@ const US_States_Counties_4326 = {
             },
           },
           Walthall: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -90.26099,
               minLat: 31.00055,
@@ -22724,7 +22724,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Jefferson Davis": {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -89.976245,
               minLat: 31.39001,
@@ -22733,7 +22733,7 @@ const US_States_Counties_4326 = {
             },
           },
           Webster: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -89.507135,
               minLat: 33.459806,
@@ -22742,7 +22742,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -90.451494,
               minLat: 32.399411,
@@ -22753,8 +22753,8 @@ const US_States_Counties_4326 = {
         },
       },
       Missouri: {
-        STUSPS: "MO",
-        STATEFP: "29",
+        sub_id: "MO",
+        sub_num: "29",
         bbox: {
           minLon: -95.774704,
           minLat: 35.995685,
@@ -22763,7 +22763,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Henry: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -94.075214,
               minLat: 38.201048,
@@ -22772,7 +22772,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barton: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -94.617711,
               minLat: 37.349291,
@@ -22781,7 +22781,7 @@ const US_States_Counties_4326 = {
             },
           },
           Knox: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -92.34927,
               minLat: 39.949424,
@@ -22790,7 +22790,7 @@ const US_States_Counties_4326 = {
             },
           },
           Livingston: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -93.761973,
               minLat: 39.611307,
@@ -22799,7 +22799,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -94.129372,
               minLat: 38.55621,
@@ -22808,7 +22808,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -90.549729,
               minLat: 37.312091,
@@ -22817,7 +22817,7 @@ const US_States_Counties_4326 = {
             },
           },
           Maries: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -92.197773,
               minLat: 38.009622,
@@ -22826,7 +22826,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -94.062818,
               minLat: 36.922831,
@@ -22835,7 +22835,7 @@ const US_States_Counties_4326 = {
             },
           },
           Reynolds: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -91.314236,
               minLat: 37.050324,
@@ -22844,7 +22844,7 @@ const US_States_Counties_4326 = {
             },
           },
           Newton: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -94.618668,
               minLat: 36.747818,
@@ -22853,7 +22853,7 @@ const US_States_Counties_4326 = {
             },
           },
           Christian: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -93.610177,
               minLat: 36.809178,
@@ -22862,7 +22862,7 @@ const US_States_Counties_4326 = {
             },
           },
           McDonald: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -94.618465,
               minLat: 36.498632,
@@ -22871,7 +22871,7 @@ const US_States_Counties_4326 = {
             },
           },
           Atchison: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -95.774704,
               minLat: 40.261706,
@@ -22880,7 +22880,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boone: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -92.570156,
               minLat: 38.643167,
@@ -22889,7 +22889,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harrison: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -94.23238,
               minLat: 40.132909,
@@ -22898,7 +22898,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cass: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -94.612882,
               minLat: 38.445268,
@@ -22907,7 +22907,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -92.909347,
               minLat: 36.794011,
@@ -22916,7 +22916,7 @@ const US_States_Counties_4326 = {
             },
           },
           Webster: {
-            COUNTYFP: "225",
+            sub_num: "225",
             bbox: {
               minLon: -93.076779,
               minLat: 37.067051,
@@ -22925,7 +22925,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iron: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -91.155089,
               minLat: 37.270113,
@@ -22934,7 +22934,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grundy: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -93.764921,
               minLat: 39.958842,
@@ -22943,7 +22943,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pike: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -91.460442,
               minLat: 39.13905,
@@ -22952,7 +22952,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "201",
+            sub_num: "201",
             bbox: {
               minLon: -89.78688,
               minLat: 36.859517,
@@ -22961,7 +22961,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stone: {
-            COUNTYFP: "209",
+            sub_num: "209",
             bbox: {
               minLon: -93.612929,
               minLat: 36.498436,
@@ -22970,7 +22970,7 @@ const US_States_Counties_4326 = {
             },
           },
           Howard: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -92.945317,
               minLat: 38.967537,
@@ -22979,7 +22979,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "221",
+            sub_num: "221",
             bbox: {
               minLon: -91.100017,
               minLat: 37.734196,
@@ -22988,7 +22988,7 @@ const US_States_Counties_4326 = {
             },
           },
           Miller: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -92.695886,
               minLat: 38.016338,
@@ -22997,7 +22997,7 @@ const US_States_Counties_4326 = {
             },
           },
           Platte: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -95.102888,
               minLat: 39.153707,
@@ -23006,7 +23006,7 @@ const US_States_Counties_4326 = {
             },
           },
           Buchanan: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -95.113605,
               minLat: 39.53017,
@@ -23015,7 +23015,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cole: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -92.495185,
               minLat: 38.322713,
@@ -23024,7 +23024,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ralls: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -91.718467,
               minLat: 39.318716,
@@ -23033,7 +23033,7 @@ const US_States_Counties_4326 = {
             },
           },
           Andrew: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -95.060797,
               minLat: 39.819728,
@@ -23042,7 +23042,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -91.647171,
               minLat: 38.676267,
@@ -23051,7 +23051,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ozark: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -92.772339,
               minLat: 36.497264,
@@ -23060,7 +23060,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -91.846752,
               minLat: 39.657365,
@@ -23069,7 +23069,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ray: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -94.212515,
               minLat: 39.134024,
@@ -23078,7 +23078,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butler: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -90.679729,
               minLat: 36.497798,
@@ -23087,7 +23087,7 @@ const US_States_Counties_4326 = {
             },
           },
           Laclede: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -92.859913,
               minLat: 37.472944,
@@ -23096,7 +23096,7 @@ const US_States_Counties_4326 = {
             },
           },
           Saline: {
-            COUNTYFP: "195",
+            sub_num: "195",
             bbox: {
               minLon: -93.496377,
               minLat: 38.928244,
@@ -23105,7 +23105,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -91.369228,
               minLat: 38.203979,
@@ -23114,7 +23114,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chariton: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -93.287621,
               minLat: 39.221865,
@@ -23123,7 +23123,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "223",
+            sub_num: "223",
             bbox: {
               minLon: -90.779553,
               minLat: 36.921435,
@@ -23132,7 +23132,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cedar: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -94.0754,
               minLat: 37.572689,
@@ -23141,7 +23141,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bollinger: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -90.22323,
               minLat: 37.040019,
@@ -23150,7 +23150,7 @@ const US_States_Counties_4326 = {
             },
           },
           Randolph: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -92.707367,
               minLat: 39.24645,
@@ -23159,7 +23159,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jasper: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -94.618321,
               minLat: 37.048127,
@@ -23168,7 +23168,7 @@ const US_States_Counties_4326 = {
             },
           },
           Oregon: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -91.678333,
               minLat: 36.497062,
@@ -23177,7 +23177,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dallas: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -93.19138,
               minLat: 37.414847,
@@ -23186,7 +23186,7 @@ const US_States_Counties_4326 = {
             },
           },
           Osage: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -92.195675,
               minLat: 38.28814,
@@ -23195,7 +23195,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gasconade: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -91.644974,
               minLat: 38.152471,
@@ -23204,7 +23204,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Charles": {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -90.964469,
               minLat: 38.534134,
@@ -23213,7 +23213,7 @@ const US_States_Counties_4326 = {
             },
           },
           Holt: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -95.554817,
               minLat: 39.86149,
@@ -23222,7 +23222,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -91.535337,
               minLat: 37.697198,
@@ -23231,7 +23231,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lafayette: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -94.11427,
               minLat: 38.908709,
@@ -23240,7 +23240,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Ste. Genevieve": {
-            COUNTYFP: "186",
+            sub_num: "186",
             bbox: {
               minLon: -90.459133,
               minLat: 37.669628,
@@ -23249,7 +23249,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -91.950812,
               minLat: 40.248763,
@@ -23258,7 +23258,7 @@ const US_States_Counties_4326 = {
             },
           },
           Worth: {
-            COUNTYFP: "227",
+            sub_num: "227",
             bbox: {
               minLon: -94.632307,
               minLat: 40.384254,
@@ -23267,7 +23267,7 @@ const US_States_Counties_4326 = {
             },
           },
           Phelps: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -92.029359,
               minLat: 37.598863,
@@ -23276,7 +23276,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hickory: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -93.574103,
               minLat: 37.802737,
@@ -23285,7 +23285,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barry: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -94.077194,
               minLat: 36.498669,
@@ -23294,7 +23294,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -93.632439,
               minLat: 37.417204,
@@ -23303,7 +23303,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caldwell: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -94.208423,
               minLat: 39.524392,
@@ -23312,7 +23312,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lewis: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -91.952726,
               minLat: 39.945222,
@@ -23321,7 +23321,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ripley: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -91.1268,
               minLat: 36.497665,
@@ -23330,7 +23330,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "219",
+            sub_num: "219",
             bbox: {
               minLon: -91.418637,
               minLat: 38.547241,
@@ -23339,7 +23339,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -94.608457,
               minLat: 38.833006,
@@ -23348,7 +23348,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stoddard: {
-            COUNTYFP: "207",
+            sub_num: "207",
             bbox: {
               minLon: -90.259918,
               minLat: 36.627375,
@@ -23357,7 +23357,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pulaski: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -92.413669,
               minLat: 37.602542,
@@ -23366,7 +23366,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gentry: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -94.606596,
               minLat: 40.034885,
@@ -23375,7 +23375,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adair: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -92.856372,
               minLat: 40.036894,
@@ -23384,7 +23384,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Louis": {
-            COUNTYFP: "510",
+            sub_num: "510",
             bbox: {
               minLon: -90.320515,
               minLat: 38.532012,
@@ -23393,7 +23393,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wright: {
-            COUNTYFP: "229",
+            sub_num: "229",
             bbox: {
               minLon: -92.692323,
               minLat: 37.059653,
@@ -23402,7 +23402,7 @@ const US_States_Counties_4326 = {
             },
           },
           Audrain: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -92.314471,
               minLat: 39.059057,
@@ -23411,7 +23411,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cooper: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -93.059974,
               minLat: 38.680013,
@@ -23420,7 +23420,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -94.608519,
               minLat: 39.109763,
@@ -23429,7 +23429,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sullivan: {
-            COUNTYFP: "211",
+            sub_num: "211",
             bbox: {
               minLon: -93.367315,
               minLat: 40.033098,
@@ -23438,7 +23438,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nodaway: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -95.2024,
               minLat: 40.126127,
@@ -23447,7 +23447,7 @@ const US_States_Counties_4326 = {
             },
           },
           Taney: {
-            COUNTYFP: "213",
+            sub_num: "213",
             bbox: {
               minLon: -93.315323,
               minLat: 36.497839,
@@ -23456,7 +23456,7 @@ const US_States_Counties_4326 = {
             },
           },
           Linn: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -93.364808,
               minLat: 39.699985,
@@ -23465,7 +23465,7 @@ const US_States_Counties_4326 = {
             },
           },
           Moniteau: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -92.84198,
               minLat: 38.427728,
@@ -23474,7 +23474,7 @@ const US_States_Counties_4326 = {
             },
           },
           Callaway: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -92.226091,
               minLat: 38.557396,
@@ -23483,7 +23483,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -90.780185,
               minLat: 38.003499,
@@ -23492,7 +23492,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -91.264287,
               minLat: 38.870865,
@@ -23501,7 +23501,7 @@ const US_States_Counties_4326 = {
             },
           },
           Texas: {
-            COUNTYFP: "215",
+            sub_num: "215",
             bbox: {
               minLon: -92.25331,
               minLat: 37.0488,
@@ -23510,7 +23510,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -93.077692,
               minLat: 38.186002,
@@ -23519,7 +23519,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -93.625844,
               minLat: 37.088694,
@@ -23528,7 +23528,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carter: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -91.224825,
               minLat: 36.811449,
@@ -23537,7 +23537,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Cape Girardeau": {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -89.8668,
               minLat: 37.126039,
@@ -23546,7 +23546,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mississippi: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -89.519865,
               minLat: 36.564946,
@@ -23555,7 +23555,7 @@ const US_States_Counties_4326 = {
             },
           },
           Schuyler: {
-            COUNTYFP: "197",
+            sub_num: "197",
             bbox: {
               minLon: -92.721158,
               minLat: 40.343466,
@@ -23564,7 +23564,7 @@ const US_States_Counties_4326 = {
             },
           },
           Howell: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -92.120393,
               minLat: 36.498358,
@@ -23573,7 +23573,7 @@ const US_States_Counties_4326 = {
             },
           },
           Macon: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -92.85792,
               minLat: 39.605344,
@@ -23582,7 +23582,7 @@ const US_States_Counties_4326 = {
             },
           },
           Daviess: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -94.2188,
               minLat: 39.784674,
@@ -23591,7 +23591,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shelby: {
-            COUNTYFP: "205",
+            sub_num: "205",
             bbox: {
               minLon: -92.299316,
               minLat: 39.604082,
@@ -23600,7 +23600,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shannon: {
-            COUNTYFP: "203",
+            sub_num: "203",
             bbox: {
               minLon: -91.658111,
               minLat: 36.883857,
@@ -23609,7 +23609,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perry: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -90.147306,
               minLat: 37.563953,
@@ -23618,7 +23618,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dade: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -94.083833,
               minLat: 37.281969,
@@ -23627,7 +23627,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scotland: {
-            COUNTYFP: "199",
+            sub_num: "199",
             bbox: {
               minLon: -92.351413,
               minLat: 40.300832,
@@ -23636,7 +23636,7 @@ const US_States_Counties_4326 = {
             },
           },
           Putnam: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -93.37522,
               minLat: 40.342334,
@@ -23645,7 +23645,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Francois": {
-            COUNTYFP: "187",
+            sub_num: "187",
             bbox: {
               minLon: -90.647874,
               minLat: 37.641039,
@@ -23654,7 +23654,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clinton: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -94.60243,
               minLat: 39.454682,
@@ -23663,7 +23663,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -93.759219,
               minLat: 39.206262,
@@ -23672,7 +23672,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vernon: {
-            COUNTYFP: "217",
+            sub_num: "217",
             bbox: {
               minLon: -94.617966,
               minLat: 37.639722,
@@ -23681,7 +23681,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benton: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -93.523484,
               minLat: 38.062479,
@@ -23690,7 +23690,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dent: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -91.809105,
               minLat: 37.415277,
@@ -23699,7 +23699,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Clair": {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -94.065675,
               minLat: 37.827935,
@@ -23708,7 +23708,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mercer: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -93.774821,
               minLat: 40.263695,
@@ -23717,7 +23717,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pettis: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -93.51276,
               minLat: 38.506321,
@@ -23726,7 +23726,7 @@ const US_States_Counties_4326 = {
             },
           },
           DeKalb: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -94.605377,
               minLat: 39.745841,
@@ -23735,7 +23735,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dunklin: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -90.3779,
               minLat: 35.995685,
@@ -23744,7 +23744,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -92.310028,
               minLat: 39.337709,
@@ -23753,7 +23753,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pemiscot: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -89.961698,
               minLat: 35.999241,
@@ -23762,7 +23762,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bates: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -94.614114,
               minLat: 38.025952,
@@ -23771,7 +23771,7 @@ const US_States_Counties_4326 = {
             },
           },
           "New Madrid": {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -89.972478,
               minLat: 36.336809,
@@ -23780,7 +23780,7 @@ const US_States_Counties_4326 = {
             },
           },
           Camden: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -93.082164,
               minLat: 37.80047,
@@ -23791,8 +23791,8 @@ const US_States_Counties_4326 = {
         },
       },
       Montana: {
-        STUSPS: "MT",
-        STATEFP: "30",
+        sub_id: "MT",
+        sub_num: "30",
         bbox: {
           minLon: -116.049153,
           minLat: 44.357915,
@@ -23801,7 +23801,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Musselshell: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -109.010089,
               minLat: 46.132445,
@@ -23810,7 +23810,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chouteau: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -111.409101,
               minLat: 47.415312,
@@ -23819,7 +23819,7 @@ const US_States_Counties_4326 = {
             },
           },
           Meagher: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -111.658143,
               minLat: 46.184368,
@@ -23828,7 +23828,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rosebud: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -107.897646,
               minLat: 45.177259,
@@ -23837,7 +23837,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Sweet Grass": {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -110.292882,
               minLat: 45.172083,
@@ -23846,7 +23846,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Lewis and Clark": {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -113.16589,
               minLat: 46.414911,
@@ -23855,7 +23855,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pondera: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -113.35,
               minLat: 47.98416,
@@ -23864,7 +23864,7 @@ const US_States_Counties_4326 = {
             },
           },
           Garfield: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -107.968626,
               minLat: 46.845176,
@@ -23873,7 +23873,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carter: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -105.038325,
               minLat: 44.997605,
@@ -23882,7 +23882,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gallatin: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -111.80538,
               minLat: 44.476798,
@@ -23891,7 +23891,7 @@ const US_States_Counties_4326 = {
             },
           },
           Liberty: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -111.409097,
               minLat: 48.132205,
@@ -23900,7 +23900,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Silver Bow": {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -113.085517,
               minLat: 45.624854,
@@ -23909,7 +23909,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cascade: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -112.047781,
               minLat: 46.818026,
@@ -23918,7 +23918,7 @@ const US_States_Counties_4326 = {
             },
           },
           Flathead: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -115.020131,
               minLat: 47.595505,
@@ -23927,7 +23927,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fergus: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -110.213596,
               minLat: 46.693468,
@@ -23936,7 +23936,7 @@ const US_States_Counties_4326 = {
             },
           },
           Broadwater: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -111.78795,
               minLat: 45.8335,
@@ -23945,7 +23945,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Big Horn": {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -108.69962,
               minLat: 44.993816,
@@ -23954,7 +23954,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sanders: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -116.049153,
               minLat: 47.120717,
@@ -23963,7 +23963,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -116.049132,
               minLat: 47.890199,
@@ -23972,7 +23972,7 @@ const US_States_Counties_4326 = {
             },
           },
           Granite: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -113.878358,
               minLat: 45.938634,
@@ -23981,7 +23981,7 @@ const US_States_Counties_4326 = {
             },
           },
           Custer: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -106.191753,
               minLat: 45.786963,
@@ -23990,7 +23990,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richland: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -105.235016,
               minLat: 47.35346,
@@ -23999,7 +23999,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wibaux: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -104.607307,
               minLat: 46.641395,
@@ -24008,7 +24008,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Golden Valley": {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -109.653916,
               minLat: 46.044759,
@@ -24017,7 +24017,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carbon: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -109.798673,
               minLat: 44.99944,
@@ -24026,7 +24026,7 @@ const US_States_Counties_4326 = {
             },
           },
           Toole: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -112.193409,
               minLat: 48.219334,
@@ -24035,7 +24035,7 @@ const US_States_Counties_4326 = {
             },
           },
           Blaine: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -109.551758,
               minLat: 47.7199,
@@ -24044,7 +24044,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Judith Basin": {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -110.788305,
               minLat: 46.672056,
@@ -24053,7 +24053,7 @@ const US_States_Counties_4326 = {
             },
           },
           Powell: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -113.466719,
               minLat: 46.265629,
@@ -24062,7 +24062,7 @@ const US_States_Counties_4326 = {
             },
           },
           Park: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -111.046725,
               minLat: 44.992174,
@@ -24071,7 +24071,7 @@ const US_States_Counties_4326 = {
             },
           },
           Roosevelt: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -105.844125,
               minLat: 47.996082,
@@ -24080,7 +24080,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fallon: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -104.905988,
               minLat: 45.881928,
@@ -24089,7 +24089,7 @@ const US_States_Counties_4326 = {
             },
           },
           McCone: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -106.430477,
               minLat: 47.092838,
@@ -24098,7 +24098,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stillwater: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -110.064583,
               minLat: 45.167338,
@@ -24107,7 +24107,7 @@ const US_States_Counties_4326 = {
             },
           },
           Teton: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -113.014811,
               minLat: 47.500146,
@@ -24116,7 +24116,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dawson: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -105.406581,
               minLat: 46.860813,
@@ -24125,7 +24125,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Powder River": {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -106.27971,
               minLat: 44.993268,
@@ -24134,7 +24134,7 @@ const US_States_Counties_4326 = {
             },
           },
           Glacier: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -114.068179,
               minLat: 48.309649,
@@ -24143,7 +24143,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -114.604857,
               minLat: 47.13807,
@@ -24152,7 +24152,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hill: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -110.756219,
               minLat: 48.132495,
@@ -24161,7 +24161,7 @@ const US_States_Counties_4326 = {
             },
           },
           Treasure: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -107.738548,
               minLat: 45.870041,
@@ -24170,7 +24170,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mineral: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -115.759347,
               minLat: 46.696563,
@@ -24179,7 +24179,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yellowstone: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -108.925637,
               minLat: 45.460405,
@@ -24188,7 +24188,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -112.598092,
               minLat: 45.747368,
@@ -24197,7 +24197,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Deer Lodge": {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -113.517534,
               minLat: 45.757907,
@@ -24206,7 +24206,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wheatland: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -110.282108,
               minLat: 46.218965,
@@ -24215,7 +24215,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ravalli: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -114.566465,
               minLat: 45.459057,
@@ -24224,7 +24224,7 @@ const US_States_Counties_4326 = {
             },
           },
           Valley: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -107.414886,
               minLat: 47.660437,
@@ -24233,7 +24233,7 @@ const US_States_Counties_4326 = {
             },
           },
           Petroleum: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -108.736838,
               minLat: 46.749217,
@@ -24242,7 +24242,7 @@ const US_States_Counties_4326 = {
             },
           },
           Phillips: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -108.891154,
               minLat: 47.449376,
@@ -24251,7 +24251,7 @@ const US_States_Counties_4326 = {
             },
           },
           Missoula: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -114.797204,
               minLat: 46.631578,
@@ -24260,7 +24260,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sheridan: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -105.057761,
               minLat: 48.389288,
@@ -24269,7 +24269,7 @@ const US_States_Counties_4326 = {
             },
           },
           Daniels: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -106.152064,
               minLat: 48.563114,
@@ -24278,7 +24278,7 @@ const US_States_Counties_4326 = {
             },
           },
           Prairie: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -106.0868,
               minLat: 46.540389,
@@ -24287,7 +24287,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -112.704848,
               minLat: 44.708023,
@@ -24296,7 +24296,7 @@ const US_States_Counties_4326 = {
             },
           },
           Beaverhead: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -113.938095,
               minLat: 44.357915,
@@ -24307,8 +24307,8 @@ const US_States_Counties_4326 = {
         },
       },
       Kansas: {
-        STUSPS: "KS",
-        STATEFP: "20",
+        sub_id: "KS",
+        sub_num: "20",
         bbox: {
           minLon: -102.051769,
           minLat: 36.993016,
@@ -24317,7 +24317,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Greenwood: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -96.525979,
               minLat: 37.603761,
@@ -24326,7 +24326,7 @@ const US_States_Counties_4326 = {
             },
           },
           Doniphan: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -95.339959,
               minLat: 39.615063,
@@ -24335,7 +24335,7 @@ const US_States_Counties_4326 = {
             },
           },
           Republic: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -97.933418,
               minLat: 39.65336,
@@ -24344,7 +24344,7 @@ const US_States_Counties_4326 = {
             },
           },
           Decatur: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -100.741115,
               minLat: 39.566886,
@@ -24353,7 +24353,7 @@ const US_States_Counties_4326 = {
             },
           },
           Phillips: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -99.62824,
               minLat: 39.567222,
@@ -24362,7 +24362,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lyon: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -96.357277,
               minLat: 38.170939,
@@ -24371,7 +24371,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamilton: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -102.044833,
               minLat: 37.736235,
@@ -24380,7 +24380,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wallace: {
-            COUNTYFP: "199",
+            sub_num: "199",
             bbox: {
               minLon: -102.047161,
               minLat: 38.697567,
@@ -24389,7 +24389,7 @@ const US_States_Counties_4326 = {
             },
           },
           Riley: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -96.961693,
               minLat: 39.043232,
@@ -24398,7 +24398,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ellis: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -99.598323,
               minLat: 38.696514,
@@ -24407,7 +24407,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pratt: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -99.015359,
               minLat: 37.470037,
@@ -24416,7 +24416,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lane: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -100.688006,
               minLat: 38.262134,
@@ -24425,7 +24425,7 @@ const US_States_Counties_4326 = {
             },
           },
           Trego: {
-            COUNTYFP: "195",
+            sub_num: "195",
             bbox: {
               minLon: -100.153823,
               minLat: 38.696264,
@@ -24434,7 +24434,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greeley: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -102.045253,
               minLat: 38.262322,
@@ -24443,7 +24443,7 @@ const US_States_Counties_4326 = {
             },
           },
           McPherson: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -97.925256,
               minLat: 38.17336,
@@ -24452,7 +24452,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cowley: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -97.153331,
               minLat: 36.99871,
@@ -24461,7 +24461,7 @@ const US_States_Counties_4326 = {
             },
           },
           Osage: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -95.950282,
               minLat: 38.433544,
@@ -24470,7 +24470,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -97.37209,
               minLat: 38.08561,
@@ -24479,7 +24479,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rush: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -99.586604,
               minLat: 38.34833,
@@ -24488,7 +24488,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stanton: {
-            COUNTYFP: "187",
+            sub_num: "187",
             bbox: {
               minLon: -102.042155,
               minLat: 37.388384,
@@ -24497,7 +24497,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -95.509014,
               minLat: 38.389456,
@@ -24506,7 +24506,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pottawatomie: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -96.727743,
               minLat: 39.126527,
@@ -24515,7 +24515,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sherman: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -102.049769,
               minLat: 39.133147,
@@ -24524,7 +24524,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allen: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -95.525501,
               minLat: 37.732356,
@@ -24533,7 +24533,7 @@ const US_States_Counties_4326 = {
             },
           },
           Labette: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -95.522935,
               minLat: 36.999232,
@@ -24542,7 +24542,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -95.056497,
               minLat: 38.738078,
@@ -24551,7 +24551,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cherokee: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -95.075324,
               minLat: 36.99859,
@@ -24560,7 +24560,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cheyenne: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -102.051769,
               minLat: 39.568178,
@@ -24569,7 +24569,7 @@ const US_States_Counties_4326 = {
             },
           },
           Atchison: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -95.570351,
               minLat: 39.418786,
@@ -24578,7 +24578,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cloud: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -97.931964,
               minLat: 39.306011,
@@ -24587,7 +24587,7 @@ const US_States_Counties_4326 = {
             },
           },
           Geary: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -96.963688,
               minLat: 38.869704,
@@ -24596,7 +24596,7 @@ const US_States_Counties_4326 = {
             },
           },
           Russell: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -99.042626,
               minLat: 38.696699,
@@ -24605,7 +24605,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barton: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -99.03343,
               minLat: 38.26079,
@@ -24614,7 +24614,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shawnee: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -96.03906,
               minLat: 38.868867,
@@ -24623,7 +24623,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butler: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -97.15345,
               minLat: 37.475375,
@@ -24632,7 +24632,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jewell: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -98.505295,
               minLat: 39.566903,
@@ -24641,7 +24641,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mitchell: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -98.49015,
               minLat: 39.218757,
@@ -24650,7 +24650,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -101.128393,
               minLat: 38.264137,
@@ -24659,7 +24659,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stevens: {
-            COUNTYFP: "189",
+            sub_num: "189",
             bbox: {
               minLon: -101.556776,
               minLat: 36.995324,
@@ -24668,7 +24668,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -95.5019,
               minLat: 38.738265,
@@ -24677,7 +24677,7 @@ const US_States_Counties_4326 = {
             },
           },
           Comanche: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -99.544792,
               minLat: 36.999221,
@@ -24686,7 +24686,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pawnee: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -99.584803,
               minLat: 37.999813,
@@ -24695,7 +24695,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wyandotte: {
-            COUNTYFP: "209",
+            sub_num: "209",
             bbox: {
               minLon: -94.908867,
               minLat: 38.991401,
@@ -24704,7 +24704,7 @@ const US_States_Counties_4326 = {
             },
           },
           Graham: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -100.164347,
               minLat: 39.131676,
@@ -24713,7 +24713,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morton: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -102.04218,
               minLat: 36.993016,
@@ -24722,7 +24722,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sumner: {
-            COUNTYFP: "191",
+            sub_num: "191",
             bbox: {
               minLon: -97.8076,
               minLat: 36.998546,
@@ -24731,7 +24731,7 @@ const US_States_Counties_4326 = {
             },
           },
           Miami: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -95.066041,
               minLat: 38.388718,
@@ -24740,7 +24740,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gove: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -100.818795,
               minLat: 38.697341,
@@ -24749,7 +24749,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ford: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -100.227491,
               minLat: 37.467041,
@@ -24758,7 +24758,7 @@ const US_States_Counties_4326 = {
             },
           },
           Neosho: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -95.526136,
               minLat: 37.38372,
@@ -24767,7 +24767,7 @@ const US_States_Counties_4326 = {
             },
           },
           Linn: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -95.077887,
               minLat: 38.036786,
@@ -24776,7 +24776,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brown: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -95.789051,
               minLat: 39.652746,
@@ -24785,7 +24785,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bourbon: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -95.088111,
               minLat: 37.673105,
@@ -24794,7 +24794,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -97.371225,
               minLat: 39.131961,
@@ -24803,7 +24803,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -98.490265,
               minLat: 38.870407,
@@ -24812,7 +24812,7 @@ const US_States_Counties_4326 = {
             },
           },
           Smith: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -99.067128,
               minLat: 39.567379,
@@ -24821,7 +24821,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morris: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -96.933924,
               minLat: 38.521538,
@@ -24830,7 +24830,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barber: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -99.012598,
               minLat: 36.997969,
@@ -24839,7 +24839,7 @@ const US_States_Counties_4326 = {
             },
           },
           Logan: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -101.484383,
               minLat: 38.698922,
@@ -24848,7 +24848,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chase: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -96.841274,
               minLat: 38.085554,
@@ -24857,7 +24857,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -95.088518,
               minLat: 37.338254,
@@ -24866,7 +24866,7 @@ const US_States_Counties_4326 = {
             },
           },
           Woodson: {
-            COUNTYFP: "207",
+            sub_num: "207",
             bbox: {
               minLon: -95.961598,
               minLat: 37.732727,
@@ -24875,7 +24875,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -95.598348,
               minLat: 39.031552,
@@ -24884,7 +24884,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rawlins: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -101.413913,
               minLat: 39.567726,
@@ -24893,7 +24893,7 @@ const US_States_Counties_4326 = {
             },
           },
           Thomas: {
-            COUNTYFP: "193",
+            sub_num: "193",
             bbox: {
               minLon: -101.391762,
               minLat: 39.133012,
@@ -24902,7 +24902,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ottawa: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -97.931614,
               minLat: 38.957852,
@@ -24911,7 +24911,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rice: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -98.480649,
               minLat: 38.15875,
@@ -24920,7 +24920,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ness: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -100.248657,
               minLat: 38.261455,
@@ -24929,7 +24929,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wilson: {
-            COUNTYFP: "205",
+            sub_num: "205",
             bbox: {
               minLon: -95.962662,
               minLat: 37.383933,
@@ -24938,7 +24938,7 @@ const US_States_Counties_4326 = {
             },
           },
           Osborne: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -99.04864,
               minLat: 39.132695,
@@ -24947,7 +24947,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -100.107437,
               minLat: 36.999529,
@@ -24956,7 +24956,7 @@ const US_States_Counties_4326 = {
             },
           },
           Haskell: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -101.090526,
               minLat: 37.387149,
@@ -24965,7 +24965,7 @@ const US_States_Counties_4326 = {
             },
           },
           Saline: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -97.928713,
               minLat: 38.608923,
@@ -24974,7 +24974,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kingman: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -98.465038,
               minLat: 37.383953,
@@ -24983,7 +24983,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stafford: {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -99.022627,
               minLat: 37.824223,
@@ -24992,7 +24992,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dickinson: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -97.381215,
               minLat: 38.608974,
@@ -25001,7 +25001,7 @@ const US_States_Counties_4326 = {
             },
           },
           Finney: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -101.103778,
               minLat: 37.736275,
@@ -25010,7 +25010,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -95.964748,
               minLat: 36.999074,
@@ -25019,7 +25019,7 @@ const US_States_Counties_4326 = {
             },
           },
           Edwards: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -99.570576,
               minLat: 37.73297,
@@ -25028,7 +25028,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harvey: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -97.702213,
               minLat: 37.911325,
@@ -25037,7 +25037,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sheridan: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -100.72157,
               minLat: 39.131992,
@@ -25046,7 +25046,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kiowa: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -99.559656,
               minLat: 37.381022,
@@ -25055,7 +25055,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harper: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -98.349804,
               minLat: 36.997684,
@@ -25064,7 +25064,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "201",
+            sub_num: "201",
             bbox: {
               minLon: -97.369244,
               minLat: 39.566345,
@@ -25073,7 +25073,7 @@ const US_States_Counties_4326 = {
             },
           },
           Elk: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -96.526327,
               minLat: 37.299232,
@@ -25082,7 +25082,7 @@ const US_States_Counties_4326 = {
             },
           },
           Seward: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -101.068112,
               minLat: 36.997922,
@@ -25091,7 +25091,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nemaha: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -96.239772,
               minLat: 39.565883,
@@ -25100,7 +25100,7 @@ const US_States_Counties_4326 = {
             },
           },
           Norton: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -100.180456,
               minLat: 39.566798,
@@ -25109,7 +25109,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coffey: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -95.959308,
               minLat: 38.037938,
@@ -25118,7 +25118,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kearny: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -101.542757,
               minLat: 37.7361,
@@ -25127,7 +25127,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ellsworth: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -98.48614,
               minLat: 38.521625,
@@ -25136,7 +25136,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hodgeman: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -100.227137,
               minLat: 37.91269,
@@ -25145,7 +25145,7 @@ const US_States_Counties_4326 = {
             },
           },
           Meade: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -100.652728,
               minLat: 37.000022,
@@ -25154,7 +25154,7 @@ const US_States_Counties_4326 = {
             },
           },
           Anderson: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -95.51897,
               minLat: 38.037692,
@@ -25163,7 +25163,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -96.806742,
               minLat: 39.565925,
@@ -25172,7 +25172,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wichita: {
-            COUNTYFP: "203",
+            sub_num: "203",
             bbox: {
               minLon: -101.567489,
               minLat: 38.263122,
@@ -25181,7 +25181,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -101.52707,
               minLat: 37.387719,
@@ -25190,7 +25190,7 @@ const US_States_Counties_4326 = {
             },
           },
           Leavenworth: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -95.187963,
               minLat: 38.953836,
@@ -25199,7 +25199,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chautauqua: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -96.525771,
               minLat: 36.998643,
@@ -25208,7 +25208,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rooks: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -99.605491,
               minLat: 39.132357,
@@ -25217,7 +25217,7 @@ const US_States_Counties_4326 = {
             },
           },
           Reno: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -98.473104,
               minLat: 37.732456,
@@ -25226,7 +25226,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gray: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -100.665172,
               minLat: 37.474608,
@@ -25235,7 +25235,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wabaunsee: {
-            COUNTYFP: "197",
+            sub_num: "197",
             bbox: {
               minLon: -96.501722,
               minLat: 38.738773,
@@ -25244,7 +25244,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sedgwick: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -97.808358,
               minLat: 37.474184,
@@ -25253,7 +25253,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -96.036181,
               minLat: 39.216081,
@@ -25264,8 +25264,8 @@ const US_States_Counties_4326 = {
         },
       },
       Indiana: {
-        STUSPS: "IN",
-        STATEFP: "18",
+        sub_id: "IN",
+        sub_num: "18",
         bbox: {
           minLon: -88.097892,
           minLat: 37.771672,
@@ -25274,7 +25274,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Jasper: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -87.276554,
               minLat: 40.736541,
@@ -25283,7 +25283,7 @@ const US_States_Counties_4326 = {
             },
           },
           Steuben: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -85.196774,
               minLat: 41.526437,
@@ -25292,7 +25292,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ohio: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -85.140312,
               minLat: 38.900838,
@@ -25301,7 +25301,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perry: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -86.814652,
               minLat: 37.841424,
@@ -25310,7 +25310,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benton: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -87.526589,
               minLat: 40.475615,
@@ -25319,7 +25319,7 @@ const US_States_Counties_4326 = {
             },
           },
           Huntington: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -85.643841,
               minLat: 40.653129,
@@ -25328,7 +25328,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wabash: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -85.946436,
               minLat: 40.650991,
@@ -25337,7 +25337,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allen: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -85.338276,
               minLat: 40.916431,
@@ -25346,7 +25346,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -86.467108,
               minLat: 41.171426,
@@ -25355,7 +25355,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orange: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -86.683117,
               minLat: 38.394069,
@@ -25364,7 +25364,7 @@ const US_States_Counties_4326 = {
             },
           },
           Newton: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -87.526696,
               minLat: 40.73651,
@@ -25373,7 +25373,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warrick: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -87.473217,
               minLat: 37.878026,
@@ -25382,7 +25382,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wells: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -85.448993,
               minLat: 40.566832,
@@ -25391,7 +25391,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -87.531449,
               minLat: 40.127322,
@@ -25400,7 +25400,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -87.526757,
               minLat: 41.162186,
@@ -25409,7 +25409,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tippecanoe: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -87.095357,
               minLat: 40.214365,
@@ -25418,7 +25418,7 @@ const US_States_Counties_4326 = {
             },
           },
           LaPorte: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -86.933368,
               minLat: 41.236798,
@@ -25427,7 +25427,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamilton: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -86.242743,
               minLat: 39.926046,
@@ -25436,7 +25436,7 @@ const US_States_Counties_4326 = {
             },
           },
           Posey: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -88.097892,
               minLat: 37.771672,
@@ -25445,7 +25445,7 @@ const US_States_Counties_4326 = {
             },
           },
           Decatur: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -85.687296,
               minLat: 39.130844,
@@ -25454,7 +25454,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dubois: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -87.073276,
               minLat: 38.202919,
@@ -25463,7 +25463,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -85.888399,
               minLat: 38.561269,
@@ -25472,7 +25472,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ripley: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -85.444897,
               minLat: 38.912992,
@@ -25481,7 +25481,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -85.036328,
               minLat: 39.52195,
@@ -25490,7 +25490,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -85.298623,
               minLat: 39.268291,
@@ -25499,7 +25499,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bartholomew: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -86.085601,
               minLat: 39.035896,
@@ -25508,7 +25508,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cass: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -86.581739,
               minLat: 40.561331,
@@ -25517,7 +25517,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -86.77423,
               minLat: 40.430965,
@@ -25526,7 +25526,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -87.092563,
               minLat: 39.864832,
@@ -25535,7 +25535,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gibson: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -87.988164,
               minLat: 38.16538,
@@ -25544,7 +25544,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vermillion: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -87.53327,
               minLat: 39.60729,
@@ -25553,7 +25553,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henry: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -85.596945,
               minLat: 39.786519,
@@ -25562,7 +25562,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fulton: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -86.468509,
               minLat: 40.909064,
@@ -25571,7 +25571,7 @@ const US_States_Counties_4326 = {
             },
           },
           Porter: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -87.222932,
               minLat: 41.219643,
@@ -25580,7 +25580,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -87.24109,
               minLat: 38.902434,
@@ -25589,7 +25589,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rush: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -85.633491,
               minLat: 39.452316,
@@ -25598,7 +25598,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vanderburgh: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -87.700786,
               minLat: 37.826038,
@@ -25607,7 +25607,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -86.251684,
               minLat: 39.341672,
@@ -25616,7 +25616,7 @@ const US_States_Counties_4326 = {
             },
           },
           Owen: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -87.054921,
               minLat: 39.165708,
@@ -25625,7 +25625,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clinton: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -86.695804,
               minLat: 40.176942,
@@ -25634,7 +25634,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hancock: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -85.954013,
               minLat: 39.697136,
@@ -25643,7 +25643,7 @@ const US_States_Counties_4326 = {
             },
           },
           Randolph: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -85.218758,
               minLat: 40.004142,
@@ -25652,7 +25652,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -85.684078,
               minLat: 38.586011,
@@ -25661,7 +25661,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vigo: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -87.621176,
               minLat: 39.258969,
@@ -25670,7 +25670,7 @@ const US_States_Counties_4326 = {
             },
           },
           Elkhart: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -86.062575,
               minLat: 41.434909,
@@ -25679,7 +25679,7 @@ const US_States_Counties_4326 = {
             },
           },
           Floyd: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -86.033204,
               minLat: 38.180416,
@@ -25688,7 +25688,7 @@ const US_States_Counties_4326 = {
             },
           },
           LaGrange: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -85.659809,
               minLat: 41.523347,
@@ -25697,7 +25697,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harrison: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -86.3296,
               minLat: 37.958123,
@@ -25706,7 +25706,7 @@ const US_States_Counties_4326 = {
             },
           },
           Knox: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -87.756825,
               minLat: 38.414387,
@@ -25715,7 +25715,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pulaski: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -86.931018,
               minLat: 40.909712,
@@ -25724,7 +25724,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brown: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -86.381395,
               minLat: 39.048357,
@@ -25733,7 +25733,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -85.994681,
               minLat: 38.26717,
@@ -25742,7 +25742,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morgan: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -86.687589,
               minLat: 39.338291,
@@ -25751,7 +25751,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -85.864813,
               minLat: 40.378367,
@@ -25760,7 +25760,7 @@ const US_States_Counties_4326 = {
             },
           },
           "St. Joseph": {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -86.526682,
               minLat: 41.432792,
@@ -25769,7 +25769,7 @@ const US_States_Counties_4326 = {
             },
           },
           Starke: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -86.93017,
               minLat: 41.171331,
@@ -25778,7 +25778,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fountain: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -87.440263,
               minLat: 39.952452,
@@ -25787,7 +25787,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tipton: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -86.243034,
               minLat: 40.215834,
@@ -25796,7 +25796,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -86.681424,
               minLat: 38.104329,
@@ -25805,7 +25805,7 @@ const US_States_Counties_4326 = {
             },
           },
           Switzerland: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -85.203606,
               minLat: 38.687547,
@@ -25814,7 +25814,7 @@ const US_States_Counties_4326 = {
             },
           },
           Delaware: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -85.578919,
               minLat: 40.076362,
@@ -25823,7 +25823,7 @@ const US_States_Counties_4326 = {
             },
           },
           Spencer: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -87.268995,
               minLat: 37.782309,
@@ -25832,7 +25832,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kosciusko: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -86.077551,
               minLat: 41.041878,
@@ -25841,7 +25841,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boone: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -86.69586,
               minLat: 39.922629,
@@ -25850,7 +25850,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jay: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -85.220028,
               minLat: 40.306706,
@@ -25859,7 +25859,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sullivan: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -87.658745,
               minLat: 38.901591,
@@ -25868,7 +25868,7 @@ const US_States_Counties_4326 = {
             },
           },
           White: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -87.099883,
               minLat: 40.561327,
@@ -25877,7 +25877,7 @@ const US_States_Counties_4326 = {
             },
           },
           Noble: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -85.654747,
               minLat: 41.26381,
@@ -25886,7 +25886,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -87.240745,
               minLat: 39.167965,
@@ -25895,7 +25895,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jennings: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -85.799834,
               minLat: 38.806986,
@@ -25904,7 +25904,7 @@ const US_States_Counties_4326 = {
             },
           },
           Daviess: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -87.279415,
               minLat: 38.49037,
@@ -25913,7 +25913,7 @@ const US_States_Counties_4326 = {
             },
           },
           DeKalb: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -85.194084,
               minLat: 41.264209,
@@ -25922,7 +25922,7 @@ const US_States_Counties_4326 = {
             },
           },
           Howard: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -86.375762,
               minLat: 40.373635,
@@ -25931,7 +25931,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pike: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -87.463008,
               minLat: 38.23094,
@@ -25940,7 +25940,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dearborn: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -85.132508,
               minLat: 38.935351,
@@ -25949,7 +25949,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -86.318133,
               minLat: 38.725026,
@@ -25958,7 +25958,7 @@ const US_States_Counties_4326 = {
             },
           },
           Martin: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -86.92436,
               minLat: 38.494785,
@@ -25967,7 +25967,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -85.221136,
               minLat: 39.714764,
@@ -25976,7 +25976,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shelby: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -85.95322,
               minLat: 39.347373,
@@ -25985,7 +25985,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -86.685758,
               minLat: 38.990699,
@@ -25994,7 +25994,7 @@ const US_States_Counties_4326 = {
             },
           },
           Miami: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -86.169144,
               minLat: 40.562649,
@@ -26003,7 +26003,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -85.863578,
               minLat: 39.943618,
@@ -26012,7 +26012,7 @@ const US_States_Counties_4326 = {
             },
           },
           Putnam: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -87.014727,
               minLat: 39.470061,
@@ -26021,7 +26021,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -86.328121,
               minLat: 39.632177,
@@ -26030,7 +26030,7 @@ const US_States_Counties_4326 = {
             },
           },
           Parke: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -87.434162,
               minLat: 39.604787,
@@ -26039,7 +26039,7 @@ const US_States_Counties_4326 = {
             },
           },
           Whitley: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -85.686574,
               minLat: 41.001909,
@@ -26048,7 +26048,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -85.301584,
               minLat: 39.525451,
@@ -26057,7 +26057,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -85.073861,
               minLat: 40.56824,
@@ -26066,7 +26066,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -86.310076,
               minLat: 38.417897,
@@ -26075,7 +26075,7 @@ const US_States_Counties_4326 = {
             },
           },
           Blackford: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -85.447014,
               minLat: 40.378222,
@@ -26084,7 +26084,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hendricks: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -86.695334,
               minLat: 39.60075,
@@ -26093,7 +26093,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -86.684058,
               minLat: 38.686561,
@@ -26104,8 +26104,8 @@ const US_States_Counties_4326 = {
         },
       },
       "Puerto Rico": {
-        STUSPS: "PR",
-        STATEFP: "72",
+        sub_id: "PR",
+        sub_num: "72",
         bbox: {
           minLon: -67.998751,
           minLat: 17.831509,
@@ -26114,7 +26114,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           "Las Piedras": {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -65.928341,
               minLat: 18.117735,
@@ -26123,7 +26123,7 @@ const US_States_Counties_4326 = {
             },
           },
           Quebradillas: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -66.968564,
               minLat: 18.36561,
@@ -26132,7 +26132,7 @@ const US_States_Counties_4326 = {
             },
           },
           Naranjito: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -66.314074,
               minLat: 18.240967,
@@ -26141,7 +26141,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fajardo: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -65.753591,
               minLat: 18.267574,
@@ -26150,7 +26150,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yabucoa: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -66.010887,
               minLat: 17.965504,
@@ -26159,7 +26159,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hormigueros: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -67.159733,
               minLat: 18.103953,
@@ -26168,7 +26168,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Juan": {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -66.129403,
               minLat: 18.296521,
@@ -26177,7 +26177,7 @@ const US_States_Counties_4326 = {
             },
           },
           Culebra: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -65.424431,
               minLat: 18.22599,
@@ -26186,7 +26186,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dorado: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -66.317421,
               minLat: 18.383069,
@@ -26195,7 +26195,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Sabana Grande": {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -66.985147,
               minLat: 18.023327,
@@ -26204,7 +26204,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ciales: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -66.611124,
               minLat: 18.155662,
@@ -26213,7 +26213,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Santa Isabel": {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -66.455471,
               minLat: 17.869217,
@@ -26222,7 +26222,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Trujillo Alto": {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -66.041535,
               minLat: 18.293326,
@@ -26231,7 +26231,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jayuya: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -66.65455,
               minLat: 18.149659,
@@ -26240,7 +26240,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Mayag\u00c3\u00bcez": {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -67.998751,
               minLat: 17.999432,
@@ -26249,7 +26249,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Can\u00c3\u00b3vanas": {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -65.93134,
               minLat: 18.25273,
@@ -26258,7 +26258,7 @@ const US_States_Counties_4326 = {
             },
           },
           Salinas: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -66.342607,
               minLat: 17.862241,
@@ -26267,7 +26267,7 @@ const US_States_Counties_4326 = {
             },
           },
           Naguabo: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -65.831388,
               minLat: 18.116113,
@@ -26276,7 +26276,7 @@ const US_States_Counties_4326 = {
             },
           },
           Aguada: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -67.249384,
               minLat: 18.312691,
@@ -26285,7 +26285,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coamo: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -66.44456,
               minLat: 18.015455,
@@ -26294,7 +26294,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Gu\u00c3\u00a1nica": {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -66.999621,
               minLat: 17.875176,
@@ -26303,7 +26303,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barranquitas: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -66.373896,
               minLat: 18.152088,
@@ -26312,7 +26312,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lares: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -66.912859,
               minLat: 18.170344,
@@ -26321,7 +26321,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yauco: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -66.926517,
               minLat: 17.950825,
@@ -26330,7 +26330,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adjuntas: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -66.837235,
               minLat: 18.111929,
@@ -26339,7 +26339,7 @@ const US_States_Counties_4326 = {
             },
           },
           Maricao: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -67.051461,
               minLat: 18.137981,
@@ -26348,7 +26348,7 @@ const US_States_Counties_4326 = {
             },
           },
           Aguadilla: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -67.22272,
               minLat: 18.385925,
@@ -26357,7 +26357,7 @@ const US_States_Counties_4326 = {
             },
           },
           Aibonito: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -66.320913,
               minLat: 18.075884,
@@ -26366,7 +26366,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Pe\u00c3\u00b1uelas": {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -66.775486,
               minLat: 17.912068,
@@ -26375,7 +26375,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ponce: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -66.715244,
               minLat: 17.831509,
@@ -26384,7 +26384,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Bayam\u00c3\u00b3n": {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -66.213537,
               minLat: 18.25884,
@@ -26393,7 +26393,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Rinc\u00c3\u00b3n": {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -67.323412,
               minLat: 18.252638,
@@ -26402,7 +26402,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Vega Baja": {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -66.448994,
               minLat: 18.342481,
@@ -26411,7 +26411,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Cabo Rojo": {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -67.267494,
               minLat: 17.881441,
@@ -26420,7 +26420,7 @@ const US_States_Counties_4326 = {
             },
           },
           Humacao: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -65.877615,
               minLat: 18.069306,
@@ -26429,7 +26429,7 @@ const US_States_Counties_4326 = {
             },
           },
           Juncos: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -65.951741,
               minLat: 18.142845,
@@ -26438,7 +26438,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ceiba: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -65.766831,
               minLat: 18.133335,
@@ -26447,7 +26447,7 @@ const US_States_Counties_4326 = {
             },
           },
           Corozal: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -66.383236,
               minLat: 18.238689,
@@ -26456,7 +26456,7 @@ const US_States_Counties_4326 = {
             },
           },
           Moca: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -67.134515,
               minLat: 18.306655,
@@ -26465,7 +26465,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orocovis: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -66.54716,
               minLat: 18.147365,
@@ -26474,7 +26474,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Lorenzo": {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -66.052736,
               minLat: 18.075565,
@@ -26483,7 +26483,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Toa Alta": {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -66.319144,
               minLat: 18.315908,
@@ -26492,7 +26492,7 @@ const US_States_Counties_4326 = {
             },
           },
           Maunabo: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -65.98912,
               minLat: 17.937895,
@@ -26501,7 +26501,7 @@ const US_States_Counties_4326 = {
             },
           },
           Patillas: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -66.089399,
               minLat: 17.908923,
@@ -26510,7 +26510,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Manat\u00c3\u00ad": {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -66.543785,
               minLat: 18.350255,
@@ -26519,7 +26519,7 @@ const US_States_Counties_4326 = {
             },
           },
           Vieques: {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -65.631111,
               minLat: 18.027641,
@@ -26528,7 +26528,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Lo\u00c3\u00adza": {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -65.993401,
               minLat: 18.378198,
@@ -26537,7 +26537,7 @@ const US_States_Counties_4326 = {
             },
           },
           "A\u00c3\u00b1asco": {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -67.243559,
               minLat: 18.242814,
@@ -26546,7 +26546,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cidra: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -66.243315,
               minLat: 18.132577,
@@ -26555,7 +26555,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gurabo: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -66.030747,
               minLat: 18.206992,
@@ -26564,7 +26564,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hatillo: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -66.838659,
               minLat: 18.320738,
@@ -26573,7 +26573,7 @@ const US_States_Counties_4326 = {
             },
           },
           Guayama: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -66.225359,
               minLat: 17.877036,
@@ -26582,7 +26582,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Vega Alta": {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -66.378134,
               minLat: 18.330622,
@@ -26591,7 +26591,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Toa Baja": {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -66.264379,
               minLat: 18.389289,
@@ -26600,7 +26600,7 @@ const US_States_Counties_4326 = {
             },
           },
           Utuado: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -66.831243,
               minLat: 18.150682,
@@ -26609,7 +26609,7 @@ const US_States_Counties_4326 = {
             },
           },
           Arecibo: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -66.770658,
               minLat: 18.315227,
@@ -26618,7 +26618,7 @@ const US_States_Counties_4326 = {
             },
           },
           Villalba: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -66.530138,
               minLat: 18.080967,
@@ -26627,7 +26627,7 @@ const US_States_Counties_4326 = {
             },
           },
           Guaynabo: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -66.144119,
               minLat: 18.2777,
@@ -26636,7 +26636,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barceloneta: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -66.593281,
               minLat: 18.389574,
@@ -26645,7 +26645,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cayey: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -66.227059,
               minLat: 18.036917,
@@ -26654,7 +26654,7 @@ const US_States_Counties_4326 = {
             },
           },
           Arroyo: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -66.095209,
               minLat: 17.894131,
@@ -26663,7 +26663,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Germ\u00c3\u00a1n": {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -67.109044,
               minLat: 18.052409,
@@ -26672,7 +26672,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carolina: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -66.043086,
               minLat: 18.270105,
@@ -26681,7 +26681,7 @@ const US_States_Counties_4326 = {
             },
           },
           Isabela: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -67.104965,
               minLat: 18.37523,
@@ -26690,7 +26690,7 @@ const US_States_Counties_4326 = {
             },
           },
           Florida: {
-            COUNTYFP: "054",
+            sub_num: "054",
             bbox: {
               minLon: -66.591656,
               minLat: 18.337308,
@@ -26699,7 +26699,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lajas: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -67.115871,
               minLat: 17.883762,
@@ -26708,7 +26708,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caguas: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -66.117916,
               minLat: 18.113069,
@@ -26717,7 +26717,7 @@ const US_States_Counties_4326 = {
             },
           },
           Camuy: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -66.902107,
               minLat: 18.34328,
@@ -26726,7 +26726,7 @@ const US_States_Counties_4326 = {
             },
           },
           "R\u00c3\u00ado Grande": {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -65.876845,
               minLat: 18.27168,
@@ -26735,7 +26735,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Juana D\u00c3\u00adaz": {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -66.565409,
               minLat: 17.841558,
@@ -26744,7 +26744,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Comer\u00c3\u00ado": {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -66.270994,
               minLat: 18.172858,
@@ -26753,7 +26753,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Aguas Buenas": {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -66.190676,
               minLat: 18.19763,
@@ -26762,7 +26762,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Cata\u00c3\u00b1o": {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -66.170306,
               minLat: 18.421561,
@@ -26771,7 +26771,7 @@ const US_States_Counties_4326 = {
             },
           },
           Morovis: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -66.465142,
               minLat: 18.255846,
@@ -26780,7 +26780,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Las Mar\u00c3\u00adas": {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -67.082002,
               minLat: 18.187744,
@@ -26789,7 +26789,7 @@ const US_States_Counties_4326 = {
             },
           },
           Guayanilla: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -66.858233,
               minLat: 17.898993,
@@ -26798,7 +26798,7 @@ const US_States_Counties_4326 = {
             },
           },
           "San Sebasti\u00c3\u00a1n": {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -67.052583,
               minLat: 18.252072,
@@ -26807,7 +26807,7 @@ const US_States_Counties_4326 = {
             },
           },
           Luquillo: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -65.770556,
               minLat: 18.288031,
@@ -26818,8 +26818,8 @@ const US_States_Counties_4326 = {
         },
       },
       "South Dakota": {
-        STUSPS: "SD",
-        STATEFP: "46",
+        sub_id: "SD",
+        sub_num: "46",
         bbox: {
           minLon: -104.057879,
           minLat: 42.479686,
@@ -26828,7 +26828,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Minnehaha: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -97.129509,
               minLat: 43.499674,
@@ -26837,7 +26837,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hutchinson: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -98.114758,
               minLat: 43.168282,
@@ -26846,7 +26846,7 @@ const US_States_Counties_4326 = {
             },
           },
           Moody: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -96.889237,
               minLat: 43.847485,
@@ -26855,7 +26855,7 @@ const US_States_Counties_4326 = {
             },
           },
           Douglas: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -98.707242,
               minLat: 43.196838,
@@ -26864,7 +26864,7 @@ const US_States_Counties_4326 = {
             },
           },
           Deuel: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -96.885531,
               minLat: 44.54363,
@@ -26873,7 +26873,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clark: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -97.982964,
               minLat: 44.543864,
@@ -26882,7 +26882,7 @@ const US_States_Counties_4326 = {
             },
           },
           Miner: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -97.851412,
               minLat: 43.848526,
@@ -26891,7 +26891,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jerauld: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -98.927172,
               minLat: 43.934919,
@@ -26900,7 +26900,7 @@ const US_States_Counties_4326 = {
             },
           },
           McCook: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -97.609096,
               minLat: 43.499659,
@@ -26909,7 +26909,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lawrence: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -104.055971,
               minLat: 44.140575,
@@ -26918,7 +26918,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ziebach: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -102.000462,
               minLat: 44.511136,
@@ -26927,7 +26927,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brule: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -99.469222,
               minLat: 43.499187,
@@ -26936,7 +26936,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sully: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -100.729319,
               minLat: 44.547422,
@@ -26945,7 +26945,7 @@ const US_States_Counties_4326 = {
             },
           },
           Walworth: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -100.486583,
               minLat: 45.245865,
@@ -26954,7 +26954,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kingsbury: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -97.853665,
               minLat: 44.19471,
@@ -26963,7 +26963,7 @@ const US_States_Counties_4326 = {
             },
           },
           Haakon: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -102.007739,
               minLat: 43.994381,
@@ -26972,7 +26972,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hanson: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -97.968428,
               minLat: 43.499041,
@@ -26981,7 +26981,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dewey: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -101.501073,
               minLat: 44.724153,
@@ -26990,7 +26990,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -97.160752,
               minLat: 42.704154,
@@ -26999,7 +26999,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yankton: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -97.637496,
               minLat: 42.799701,
@@ -27008,7 +27008,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brown: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -98.725377,
               minLat: 45.240355,
@@ -27017,7 +27017,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lake: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -97.370351,
               minLat: 43.847973,
@@ -27026,7 +27026,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lyman: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -100.367247,
               minLat: 43.499635,
@@ -27035,7 +27035,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -102.139232,
               minLat: 43.388783,
@@ -27044,7 +27044,7 @@ const US_States_Counties_4326 = {
             },
           },
           Custer: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -104.055487,
               minLat: 43.476844,
@@ -27053,7 +27053,7 @@ const US_States_Counties_4326 = {
             },
           },
           Beadle: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -98.705762,
               minLat: 44.194607,
@@ -27062,7 +27062,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jones: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -101.064385,
               minLat: 43.707461,
@@ -27071,7 +27071,7 @@ const US_States_Counties_4326 = {
             },
           },
           Campbell: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -100.499371,
               minLat: 45.593121,
@@ -27080,7 +27080,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harding: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -104.045547,
               minLat: 45.212524,
@@ -27089,7 +27089,7 @@ const US_States_Counties_4326 = {
             },
           },
           Codington: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -97.494663,
               minLat: 44.803342,
@@ -27098,7 +27098,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Bon Homme": {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -98.162954,
               minLat: 42.762219,
@@ -27107,7 +27107,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bennett: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -102.110819,
               minLat: 42.996255,
@@ -27116,7 +27116,7 @@ const US_States_Counties_4326 = {
             },
           },
           Roberts: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -97.228314,
               minLat: 45.296854,
@@ -27125,7 +27125,7 @@ const US_States_Counties_4326 = {
             },
           },
           Todd: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -101.228267,
               minLat: 42.997559,
@@ -27134,7 +27134,7 @@ const US_States_Counties_4326 = {
             },
           },
           Turner: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -97.40145,
               minLat: 43.083124,
@@ -27143,7 +27143,7 @@ const US_States_Counties_4326 = {
             },
           },
           Davison: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -98.326089,
               minLat: 43.497873,
@@ -27152,7 +27152,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stanley: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -101.167048,
               minLat: 44.167965,
@@ -27161,7 +27161,7 @@ const US_States_Counties_4326 = {
             },
           },
           Aurora: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -98.807771,
               minLat: 43.498471,
@@ -27170,7 +27170,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pennington: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -104.055487,
               minLat: 43.685119,
@@ -27179,7 +27179,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lincoln: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -96.924905,
               minLat: 43.083333,
@@ -27188,7 +27188,7 @@ const US_States_Counties_4326 = {
             },
           },
           Perkins: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -102.957542,
               minLat: 45.038207,
@@ -27197,7 +27197,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brookings: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -97.129671,
               minLat: 44.195426,
@@ -27206,7 +27206,7 @@ const US_States_Counties_4326 = {
             },
           },
           Buffalo: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -99.576571,
               minLat: 43.933124,
@@ -27215,7 +27215,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mellette: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -101.228426,
               minLat: 43.389066,
@@ -27224,7 +27224,7 @@ const US_States_Counties_4326 = {
             },
           },
           Potter: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -100.424166,
               minLat: 44.897263,
@@ -27233,7 +27233,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Fall River": {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -104.054822,
               minLat: 43.000178,
@@ -27242,7 +27242,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hughes: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -100.580871,
               minLat: 44.097895,
@@ -27251,7 +27251,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hyde: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -99.676419,
               minLat: 44.192421,
@@ -27260,7 +27260,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamlin: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -97.492311,
               minLat: 44.542925,
@@ -27269,7 +27269,7 @@ const US_States_Counties_4326 = {
             },
           },
           Edmunds: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -99.709044,
               minLat: 45.243764,
@@ -27278,7 +27278,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hand: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -99.312582,
               minLat: 44.194603,
@@ -27287,7 +27287,7 @@ const US_States_Counties_4326 = {
             },
           },
           Spink: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -98.717767,
               minLat: 44.631602,
@@ -27296,7 +27296,7 @@ const US_States_Counties_4326 = {
             },
           },
           Faulk: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -99.573761,
               minLat: 44.89688,
@@ -27305,7 +27305,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butte: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -104.057879,
               minLat: 44.570955,
@@ -27314,7 +27314,7 @@ const US_States_Counties_4326 = {
             },
           },
           Meade: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -103.574396,
               minLat: 44.140086,
@@ -27323,7 +27323,7 @@ const US_States_Counties_4326 = {
             },
           },
           McPherson: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -99.718071,
               minLat: 45.591252,
@@ -27332,7 +27332,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Oglala Lakota": {
-            COUNTYFP: "102",
+            sub_num: "102",
             bbox: {
               minLon: -103.001027,
               minLat: 42.999196,
@@ -27341,7 +27341,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Charles Mix": {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -99.310729,
               minLat: 42.836925,
@@ -27350,7 +27350,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -96.806543,
               minLat: 42.479686,
@@ -27359,7 +27359,7 @@ const US_States_Counties_4326 = {
             },
           },
           Day: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -97.981792,
               minLat: 45.151162,
@@ -27368,7 +27368,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tripp: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -100.230991,
               minLat: 42.997661,
@@ -27377,7 +27377,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sanborn: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -98.332176,
               minLat: 43.849857,
@@ -27386,7 +27386,7 @@ const US_States_Counties_4326 = {
             },
           },
           Corson: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -102.000983,
               minLat: 45.472212,
@@ -27395,7 +27395,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gregory: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -99.534482,
               minLat: 42.997886,
@@ -27404,7 +27404,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grant: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -97.226418,
               minLat: 44.976036,
@@ -27413,7 +27413,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -97.97964,
               minLat: 45.558158,
@@ -27424,8 +27424,8 @@ const US_States_Counties_4326 = {
         },
       },
       Massachusetts: {
-        STUSPS: "MA",
-        STATEFP: "25",
+        sub_id: "MA",
+        sub_num: "25",
         bbox: {
           minLon: -73.50821,
           minLat: 41.187053,
@@ -27434,7 +27434,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Hampshire: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -73.068508,
               minLat: 42.18339,
@@ -27443,7 +27443,7 @@ const US_States_Counties_4326 = {
             },
           },
           Suffolk: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -71.191247,
               minLat: 42.227911,
@@ -27452,7 +27452,7 @@ const US_States_Counties_4326 = {
             },
           },
           Barnstable: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -70.758464,
               minLat: 41.46411,
@@ -27461,7 +27461,7 @@ const US_States_Counties_4326 = {
             },
           },
           Worcester: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -72.315879,
               minLat: 42.008053,
@@ -27470,7 +27470,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nantucket: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -70.493308,
               minLat: 41.187053,
@@ -27479,7 +27479,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dukes: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -71.051854,
               minLat: 41.198742,
@@ -27488,7 +27488,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hampden: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -73.075086,
               minLat: 41.997685,
@@ -27497,7 +27497,7 @@ const US_States_Counties_4326 = {
             },
           },
           Berkshire: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -73.50821,
               minLat: 42.039865,
@@ -27506,7 +27506,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bristol: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -71.381463,
               minLat: 41.416729,
@@ -27515,7 +27515,7 @@ const US_States_Counties_4326 = {
             },
           },
           Middlesex: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -71.898773,
               minLat: 42.156782,
@@ -27524,7 +27524,7 @@ const US_States_Counties_4326 = {
             },
           },
           Essex: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -71.256188,
               minLat: 42.384098,
@@ -27533,7 +27533,7 @@ const US_States_Counties_4326 = {
             },
           },
           Norfolk: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -71.503078,
               minLat: 41.985084,
@@ -27542,7 +27542,7 @@ const US_States_Counties_4326 = {
             },
           },
           Plymouth: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -71.080483,
               minLat: 41.565851,
@@ -27551,7 +27551,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -73.023709,
               minLat: 42.303283,
@@ -27562,8 +27562,8 @@ const US_States_Counties_4326 = {
         },
       },
       Virginia: {
-        STUSPS: "VA",
-        STATEFP: "51",
+        sub_id: "VA",
+        sub_num: "51",
         bbox: {
           minLon: -83.675395,
           minLat: 36.540852,
@@ -27572,7 +27572,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Salem: {
-            COUNTYFP: "775",
+            sub_num: "775",
             bbox: {
               minLon: -80.12049,
               minLat: 37.2522,
@@ -27581,7 +27581,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -80.615848,
               minLat: 36.981474,
@@ -27590,7 +27590,7 @@ const US_States_Counties_4326 = {
             },
           },
           Poquoson: {
-            COUNTYFP: "735",
+            sub_num: "735",
             bbox: {
               minLon: -76.413557,
               minLat: 37.096844,
@@ -27599,7 +27599,7 @@ const US_States_Counties_4326 = {
             },
           },
           "James City": {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -76.915863,
               minLat: 37.153827,
@@ -27608,7 +27608,7 @@ const US_States_Counties_4326 = {
             },
           },
           Stafford: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -77.635231,
               minLat: 38.242225,
@@ -27617,7 +27617,7 @@ const US_States_Counties_4326 = {
             },
           },
           Surry: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -77.15609,
               minLat: 36.94445,
@@ -27626,7 +27626,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hanover: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -77.797306,
               minLat: 37.538073,
@@ -27635,7 +27635,7 @@ const US_States_Counties_4326 = {
             },
           },
           Russell: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -82.406633,
               minLat: 36.708969,
@@ -27644,7 +27644,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henry: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -80.095141,
               minLat: 36.541964,
@@ -27653,7 +27653,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alexandria: {
-            COUNTYFP: "510",
+            sub_num: "510",
             bbox: {
               minLon: -77.144359,
               minLat: 38.785216,
@@ -27662,7 +27662,7 @@ const US_States_Counties_4326 = {
             },
           },
           Charlottesville: {
-            COUNTYFP: "540",
+            sub_num: "540",
             bbox: {
               minLon: -78.523708,
               minLat: 38.009588,
@@ -27671,7 +27671,7 @@ const US_States_Counties_4326 = {
             },
           },
           "King and Queen": {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -77.186961,
               minLat: 37.431309,
@@ -27680,7 +27680,7 @@ const US_States_Counties_4326 = {
             },
           },
           Waynesboro: {
-            COUNTYFP: "820",
+            sub_num: "820",
             bbox: {
               minLon: -78.9507,
               minLat: 38.031403,
@@ -27689,7 +27689,7 @@ const US_States_Counties_4326 = {
             },
           },
           Floyd: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -80.633987,
               minLat: 36.708718,
@@ -27698,7 +27698,7 @@ const US_States_Counties_4326 = {
             },
           },
           Middlesex: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -76.751193,
               minLat: 37.510214,
@@ -27707,7 +27707,7 @@ const US_States_Counties_4326 = {
             },
           },
           Emporia: {
-            COUNTYFP: "595",
+            sub_num: "595",
             bbox: {
               minLon: -77.564083,
               minLat: 36.671794,
@@ -27716,7 +27716,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rappahannock: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -78.338176,
               minLat: 38.520792,
@@ -27725,7 +27725,7 @@ const US_States_Counties_4326 = {
             },
           },
           Amherst: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -79.436947,
               minLat: 37.385811,
@@ -27734,7 +27734,7 @@ const US_States_Counties_4326 = {
             },
           },
           Covington: {
-            COUNTYFP: "580",
+            sub_num: "580",
             bbox: {
               minLon: -80.008994,
               minLat: 37.748244,
@@ -27743,7 +27743,7 @@ const US_States_Counties_4326 = {
             },
           },
           Essex: {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -77.1701,
               minLat: 37.728605,
@@ -27752,7 +27752,7 @@ const US_States_Counties_4326 = {
             },
           },
           Buchanan: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -82.314195,
               minLat: 37.038187,
@@ -27761,7 +27761,7 @@ const US_States_Counties_4326 = {
             },
           },
           Alleghany: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -80.296143,
               minLat: 37.596428,
@@ -27770,7 +27770,7 @@ const US_States_Counties_4326 = {
             },
           },
           Northumberland: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -76.634547,
               minLat: 37.669658,
@@ -27779,7 +27779,7 @@ const US_States_Counties_4326 = {
             },
           },
           Craig: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -80.472782,
               minLat: 37.316378,
@@ -27788,7 +27788,7 @@ const US_States_Counties_4326 = {
             },
           },
           Buckingham: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -78.833365,
               minLat: 37.329553,
@@ -27797,7 +27797,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gloucester: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -76.712305,
               minLat: 37.233316,
@@ -27806,7 +27806,7 @@ const US_States_Counties_4326 = {
             },
           },
           Richmond: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -76.939407,
               minLat: 37.778386,
@@ -27815,7 +27815,7 @@ const US_States_Counties_4326 = {
             },
           },
           Powhatan: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -78.132048,
               minLat: 37.414835,
@@ -27824,7 +27824,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Falls Church": {
-            COUNTYFP: "610",
+            sub_num: "610",
             bbox: {
               minLon: -77.194996,
               minLat: 38.872468,
@@ -27833,7 +27833,7 @@ const US_States_Counties_4326 = {
             },
           },
           Goochland: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -78.159326,
               minLat: 37.563986,
@@ -27842,7 +27842,7 @@ const US_States_Counties_4326 = {
             },
           },
           Orange: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -78.368984,
               minLat: 38.117622,
@@ -27851,7 +27851,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -78.663145,
               minLat: 38.184146,
@@ -27860,7 +27860,7 @@ const US_States_Counties_4326 = {
             },
           },
           Patrick: {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -80.625744,
               minLat: 36.542519,
@@ -27869,7 +27869,7 @@ const US_States_Counties_4326 = {
             },
           },
           "King William": {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -77.345575,
               minLat: 37.517594,
@@ -27878,7 +27878,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -78.452801,
               minLat: 38.230068,
@@ -27887,7 +27887,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lunenburg: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -78.493028,
               minLat: 36.776169,
@@ -27896,7 +27896,7 @@ const US_States_Counties_4326 = {
             },
           },
           Roanoke: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -80.262184,
               minLat: 37.109081,
@@ -27905,7 +27905,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chesapeake: {
-            COUNTYFP: "550",
+            sub_num: "550",
             bbox: {
               minLon: -76.491496,
               minLat: 36.550418,
@@ -27914,7 +27914,7 @@ const US_States_Counties_4326 = {
             },
           },
           Charlotte: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -78.904587,
               minLat: 36.697909,
@@ -27923,7 +27923,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Isle of Wight": {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -76.930272,
               minLat: 36.64405,
@@ -27932,7 +27932,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fauquier: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -78.131267,
               minLat: 38.409554,
@@ -27941,7 +27941,7 @@ const US_States_Counties_4326 = {
             },
           },
           Radford: {
-            COUNTYFP: "750",
+            sub_num: "750",
             bbox: {
               minLon: -80.596409,
               minLat: 37.089662,
@@ -27950,7 +27950,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fairfax: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -77.537026,
               minLat: 38.60457,
@@ -27959,7 +27959,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henrico: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -77.655399,
               minLat: 37.351954,
@@ -27968,7 +27968,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -80.235455,
               minLat: 36.780752,
@@ -27977,7 +27977,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harrisonburg: {
-            COUNTYFP: "660",
+            sub_num: "660",
             bbox: {
               minLon: -78.917871,
               minLat: 38.389766,
@@ -27986,7 +27986,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Buena Vista": {
-            COUNTYFP: "530",
+            sub_num: "530",
             bbox: {
               minLon: -79.381509,
               minLat: 37.695747,
@@ -27995,7 +27995,7 @@ const US_States_Counties_4326 = {
             },
           },
           "New Kent": {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -77.241023,
               minLat: 37.377665,
@@ -28004,7 +28004,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bedford: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -79.858405,
               minLat: 37.005839,
@@ -28013,7 +28013,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grayson: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -81.67749,
               minLat: 36.559143,
@@ -28022,7 +28022,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pittsylvania: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -79.714849,
               minLat: 36.540852,
@@ -28031,7 +28031,7 @@ const US_States_Counties_4326 = {
             },
           },
           Giles: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -81.014489,
               minLat: 37.147482,
@@ -28040,7 +28040,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wythe: {
-            COUNTYFP: "197",
+            sub_num: "197",
             bbox: {
               minLon: -81.379402,
               minLat: 36.757621,
@@ -28049,7 +28049,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Prince William": {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -77.715936,
               minLat: 38.500787,
@@ -28058,7 +28058,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -82.985124,
               minLat: 36.593461,
@@ -28067,7 +28067,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Charles City": {
-            COUNTYFP: "036",
+            sub_num: "036",
             bbox: {
               minLon: -77.271575,
               minLat: 37.222939,
@@ -28076,7 +28076,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Manassas Park": {
-            COUNTYFP: "685",
+            sub_num: "685",
             bbox: {
               minLon: -77.479113,
               minLat: 38.749627,
@@ -28085,7 +28085,7 @@ const US_States_Counties_4326 = {
             },
           },
           Arlington: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -77.172276,
               minLat: 38.827357,
@@ -28094,7 +28094,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -81.042428,
               minLat: 36.557898,
@@ -28103,7 +28103,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Newport News": {
-            COUNTYFP: "700",
+            sub_num: "700",
             bbox: {
               minLon: -76.646093,
               minLat: 36.930691,
@@ -28112,7 +28112,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bath: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -80.056056,
               minLat: 37.844458,
@@ -28121,7 +28121,7 @@ const US_States_Counties_4326 = {
             },
           },
           Winchester: {
-            COUNTYFP: "840",
+            sub_num: "840",
             bbox: {
               minLon: -78.200513,
               minLat: 39.131027,
@@ -28130,7 +28130,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sussex: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -77.619029,
               minLat: 36.707218,
@@ -28139,7 +28139,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cumberland: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -78.465089,
               minLat: 37.301606,
@@ -28148,7 +28148,7 @@ const US_States_Counties_4326 = {
             },
           },
           Smyth: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -81.837096,
               minLat: 36.633997,
@@ -28157,7 +28157,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "191",
+            sub_num: "191",
             bbox: {
               minLon: -82.332078,
               minLat: 36.59418,
@@ -28166,7 +28166,7 @@ const US_States_Counties_4326 = {
             },
           },
           Augusta: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -79.533311,
               minLat: 37.881587,
@@ -28175,7 +28175,7 @@ const US_States_Counties_4326 = {
             },
           },
           Danville: {
-            COUNTYFP: "590",
+            sub_num: "590",
             bbox: {
               minLon: -79.519273,
               minLat: 36.540971,
@@ -28184,7 +28184,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hopewell: {
-            COUNTYFP: "670",
+            sub_num: "670",
             bbox: {
               minLon: -77.337774,
               minLat: 37.257644,
@@ -28193,7 +28193,7 @@ const US_States_Counties_4326 = {
             },
           },
           Halifax: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -79.21846,
               minLat: 36.541653,
@@ -28202,7 +28202,7 @@ const US_States_Counties_4326 = {
             },
           },
           Portsmouth: {
-            COUNTYFP: "740",
+            sub_num: "740",
             bbox: {
               minLon: -76.420368,
               minLat: 36.786062,
@@ -28211,7 +28211,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shenandoah: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -78.869615,
               minLat: 38.604719,
@@ -28220,7 +28220,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lexington: {
-            COUNTYFP: "678",
+            sub_num: "678",
             bbox: {
               minLon: -79.461582,
               minLat: 37.765219,
@@ -28229,7 +28229,7 @@ const US_States_Counties_4326 = {
             },
           },
           Accomack: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -76.236458,
               minLat: 37.448562,
@@ -28238,7 +28238,7 @@ const US_States_Counties_4326 = {
             },
           },
           Albemarle: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -78.838874,
               minLat: 37.722642,
@@ -28247,7 +28247,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clarke: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -78.151696,
               minLat: 38.979438,
@@ -28256,7 +28256,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greensville: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -77.76715,
               minLat: 36.544754,
@@ -28265,7 +28265,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dinwiddie: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -77.900338,
               minLat: 36.873965,
@@ -28274,7 +28274,7 @@ const US_States_Counties_4326 = {
             },
           },
           Norfolk: {
-            COUNTYFP: "710",
+            sub_num: "710",
             bbox: {
               minLon: -76.345569,
               minLat: 36.820757,
@@ -28283,7 +28283,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pulaski: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -80.930627,
               minLat: 36.879001,
@@ -28292,7 +28292,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dickenson: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -82.553912,
               minLat: 36.955715,
@@ -28301,7 +28301,7 @@ const US_States_Counties_4326 = {
             },
           },
           Amelia: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -78.240748,
               minLat: 37.192197,
@@ -28310,7 +28310,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bristol: {
-            COUNTYFP: "520",
+            sub_num: "520",
             bbox: {
               minLon: -82.243382,
               minLat: 36.594585,
@@ -28319,7 +28319,7 @@ const US_States_Counties_4326 = {
             },
           },
           Botetourt: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -80.074119,
               minLat: 37.309352,
@@ -28328,7 +28328,7 @@ const US_States_Counties_4326 = {
             },
           },
           Norton: {
-            COUNTYFP: "720",
+            sub_num: "720",
             bbox: {
               minLon: -82.663539,
               minLat: 36.900116,
@@ -28337,7 +28337,7 @@ const US_States_Counties_4326 = {
             },
           },
           Staunton: {
-            COUNTYFP: "790",
+            sub_num: "790",
             bbox: {
               minLon: -79.11384,
               minLat: 38.121176,
@@ -28346,7 +28346,7 @@ const US_States_Counties_4326 = {
             },
           },
           Williamsburg: {
-            COUNTYFP: "830",
+            sub_num: "830",
             bbox: {
               minLon: -76.742984,
               minLat: 37.247224,
@@ -28355,7 +28355,7 @@ const US_States_Counties_4326 = {
             },
           },
           Page: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -78.691362,
               minLat: 38.421579,
@@ -28364,7 +28364,7 @@ const US_States_Counties_4326 = {
             },
           },
           Westmoreland: {
-            COUNTYFP: "193",
+            sub_num: "193",
             bbox: {
               minLon: -77.06472,
               minLat: 37.965559,
@@ -28373,7 +28373,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rockbridge: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -79.68877,
               minLat: 37.532797,
@@ -28382,7 +28382,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nelson: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -79.172135,
               minLat: 37.535642,
@@ -28391,7 +28391,7 @@ const US_States_Counties_4326 = {
             },
           },
           Nottoway: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -78.239354,
               minLat: 36.982667,
@@ -28400,7 +28400,7 @@ const US_States_Counties_4326 = {
             },
           },
           Martinsville: {
-            COUNTYFP: "690",
+            sub_num: "690",
             bbox: {
               minLon: -79.904077,
               minLat: 36.643805,
@@ -28409,7 +28409,7 @@ const US_States_Counties_4326 = {
             },
           },
           Appomattox: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -79.021687,
               minLat: 37.201852,
@@ -28418,7 +28418,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fluvanna: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -78.491345,
               minLat: 37.690308,
@@ -28427,7 +28427,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wise: {
-            COUNTYFP: "195",
+            sub_num: "195",
             bbox: {
               minLon: -82.878554,
               minLat: 36.798959,
@@ -28436,7 +28436,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fredericksburg: {
-            COUNTYFP: "630",
+            sub_num: "630",
             bbox: {
               minLon: -77.532686,
               minLat: 38.270151,
@@ -28445,7 +28445,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mathews: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -76.451904,
               minLat: 37.278361,
@@ -28454,7 +28454,7 @@ const US_States_Counties_4326 = {
             },
           },
           "King George": {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -77.34744,
               minLat: 38.141131,
@@ -28463,7 +28463,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Prince Edward": {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -78.692549,
               minLat: 37.078171,
@@ -28472,7 +28472,7 @@ const US_States_Counties_4326 = {
             },
           },
           Galax: {
-            COUNTYFP: "640",
+            sub_num: "640",
             bbox: {
               minLon: -80.950021,
               minLat: 36.62509,
@@ -28481,7 +28481,7 @@ const US_States_Counties_4326 = {
             },
           },
           Campbell: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -79.442859,
               minLat: 37.022288,
@@ -28490,7 +28490,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lynchburg: {
-            COUNTYFP: "680",
+            sub_num: "680",
             bbox: {
               minLon: -79.271389,
               minLat: 37.332637,
@@ -28499,7 +28499,7 @@ const US_States_Counties_4326 = {
             },
           },
           Louisa: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -78.306763,
               minLat: 37.730608,
@@ -28508,7 +28508,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bland: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -81.462279,
               minLat: 36.952442,
@@ -28517,7 +28517,7 @@ const US_States_Counties_4326 = {
             },
           },
           Petersburg: {
-            COUNTYFP: "730",
+            sub_num: "730",
             bbox: {
               minLon: -77.454916,
               minLat: 37.165095,
@@ -28526,7 +28526,7 @@ const US_States_Counties_4326 = {
             },
           },
           Southampton: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -77.501917,
               minLat: 36.543881,
@@ -28535,7 +28535,7 @@ const US_States_Counties_4326 = {
             },
           },
           Suffolk: {
-            COUNTYFP: "800",
+            sub_num: "800",
             bbox: {
               minLon: -76.930936,
               minLat: 36.550648,
@@ -28544,7 +28544,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -83.675395,
               minLat: 36.593714,
@@ -28553,7 +28553,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tazewell: {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -81.901868,
               minLat: 36.932934,
@@ -28562,7 +28562,7 @@ const US_States_Counties_4326 = {
             },
           },
           Loudoun: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -77.962203,
               minLat: 38.846213,
@@ -28571,7 +28571,7 @@ const US_States_Counties_4326 = {
             },
           },
           York: {
-            COUNTYFP: "199",
+            sub_num: "199",
             bbox: {
               minLon: -76.755511,
               minLat: 37.091745,
@@ -28580,7 +28580,7 @@ const US_States_Counties_4326 = {
             },
           },
           Culpeper: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -78.231803,
               minLat: 38.308376,
@@ -28589,7 +28589,7 @@ const US_States_Counties_4326 = {
             },
           },
           Rockingham: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -79.224583,
               minLat: 38.206648,
@@ -28598,7 +28598,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "187",
+            sub_num: "187",
             bbox: {
               minLon: -78.394704,
               minLat: 38.757042,
@@ -28607,7 +28607,7 @@ const US_States_Counties_4326 = {
             },
           },
           Manassas: {
-            COUNTYFP: "683",
+            sub_num: "683",
             bbox: {
               minLon: -77.526661,
               minLat: 38.706106,
@@ -28616,7 +28616,7 @@ const US_States_Counties_4326 = {
             },
           },
           Northampton: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -76.140835,
               minLat: 36.990708,
@@ -28625,7 +28625,7 @@ const US_States_Counties_4326 = {
             },
           },
           Highland: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -79.810154,
               minLat: 38.180419,
@@ -28634,7 +28634,7 @@ const US_States_Counties_4326 = {
             },
           },
           Spotsylvania: {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -77.947054,
               minLat: 37.990688,
@@ -28643,7 +28643,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chesterfield: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -77.878422,
               minLat: 37.216994,
@@ -28652,7 +28652,7 @@ const US_States_Counties_4326 = {
             },
           },
           Brunswick: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -78.046271,
               minLat: 36.543549,
@@ -28661,7 +28661,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Prince George": {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -77.399203,
               minLat: 36.992985,
@@ -28670,7 +28670,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hampton: {
-            COUNTYFP: "650",
+            sub_num: "650",
             bbox: {
               minLon: -76.451307,
               minLat: 36.924772,
@@ -28679,7 +28679,7 @@ const US_States_Counties_4326 = {
             },
           },
           Frederick: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -78.544182,
               minLat: 39.007994,
@@ -28688,7 +28688,7 @@ const US_States_Counties_4326 = {
             },
           },
           Caroline: {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -77.643605,
               minLat: 37.776152,
@@ -28697,7 +28697,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Colonial Heights": {
-            COUNTYFP: "570",
+            sub_num: "570",
             bbox: {
               minLon: -77.431805,
               minLat: 37.233157,
@@ -28706,7 +28706,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Virginia Beach": {
-            COUNTYFP: "810",
+            sub_num: "810",
             bbox: {
               minLon: -76.22806,
               minLat: 36.550283,
@@ -28715,7 +28715,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lancaster: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -76.668182,
               minLat: 37.585078,
@@ -28724,7 +28724,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mecklenburg: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -78.740275,
               minLat: 36.541049,
@@ -28735,8 +28735,8 @@ const US_States_Counties_4326 = {
         },
       },
       "District of Columbia": {
-        STUSPS: "DC",
-        STATEFP: "11",
+        sub_id: "DC",
+        sub_num: "11",
         bbox: {
           minLon: -77.119759,
           minLat: 38.791645,
@@ -28745,7 +28745,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           "District of Columbia": {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -77.119759,
               minLat: 38.791645,
@@ -28756,8 +28756,8 @@ const US_States_Counties_4326 = {
         },
       },
       Iowa: {
-        STUSPS: "IA",
-        STATEFP: "19",
+        sub_id: "IA",
+        sub_num: "19",
         bbox: {
           minLon: -96.639485,
           minLat: 40.37544,
@@ -28766,7 +28766,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Decatur: {
-            COUNTYFP: "053",
+            sub_num: "053",
             bbox: {
               minLon: -94.015492,
               minLat: 40.573914,
@@ -28775,7 +28775,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cedar: {
-            COUNTYFP: "031",
+            sub_num: "031",
             bbox: {
               minLon: -91.366542,
               minLat: 41.597133,
@@ -28784,7 +28784,7 @@ const US_States_Counties_4326 = {
             },
           },
           Carroll: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -95.093084,
               minLat: 41.862309,
@@ -28793,7 +28793,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pocahontas: {
-            COUNTYFP: "151",
+            sub_num: "151",
             bbox: {
               minLon: -94.915573,
               minLat: 42.558757,
@@ -28802,7 +28802,7 @@ const US_States_Counties_4326 = {
             },
           },
           Kossuth: {
-            COUNTYFP: "109",
+            sub_num: "109",
             bbox: {
               minLon: -94.443289,
               minLat: 42.907762,
@@ -28811,7 +28811,7 @@ const US_States_Counties_4326 = {
             },
           },
           Harrison: {
-            COUNTYFP: "085",
+            sub_num: "085",
             bbox: {
               minLon: -96.139012,
               minLat: 41.505968,
@@ -28820,7 +28820,7 @@ const US_States_Counties_4326 = {
             },
           },
           Webster: {
-            COUNTYFP: "187",
+            sub_num: "187",
             bbox: {
               minLon: -94.443583,
               minLat: 42.209048,
@@ -28829,7 +28829,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jefferson: {
-            COUNTYFP: "101",
+            sub_num: "101",
             bbox: {
               minLon: -92.179992,
               minLat: 40.89972,
@@ -28838,7 +28838,7 @@ const US_States_Counties_4326 = {
             },
           },
           Madison: {
-            COUNTYFP: "121",
+            sub_num: "121",
             bbox: {
               minLon: -94.241718,
               minLat: 41.156535,
@@ -28847,7 +28847,7 @@ const US_States_Counties_4326 = {
             },
           },
           Howard: {
-            COUNTYFP: "089",
+            sub_num: "089",
             bbox: {
               minLon: -92.554553,
               minLat: 43.212688,
@@ -28856,7 +28856,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Palo Alto": {
-            COUNTYFP: "147",
+            sub_num: "147",
             bbox: {
               minLon: -94.913923,
               minLat: 42.908007,
@@ -28865,7 +28865,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ringgold: {
-            COUNTYFP: "159",
+            sub_num: "159",
             bbox: {
               minLon: -94.471696,
               minLat: 40.570825,
@@ -28874,7 +28874,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clinton: {
-            COUNTYFP: "045",
+            sub_num: "045",
             bbox: {
               minLon: -90.898941,
               minLat: 41.727691,
@@ -28883,7 +28883,7 @@ const US_States_Counties_4326 = {
             },
           },
           Calhoun: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -94.91467,
               minLat: 42.209016,
@@ -28892,7 +28892,7 @@ const US_States_Counties_4326 = {
             },
           },
           Worth: {
-            COUNTYFP: "195",
+            sub_num: "195",
             bbox: {
               minLon: -93.497821,
               minLat: 43.255024,
@@ -28901,7 +28901,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Black Hawk": {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -92.554655,
               minLat: 42.297001,
@@ -28910,7 +28910,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clarke: {
-            COUNTYFP: "039",
+            sub_num: "039",
             bbox: {
               minLon: -94.014891,
               minLat: 40.89667,
@@ -28919,7 +28919,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fayette: {
-            COUNTYFP: "065",
+            sub_num: "065",
             bbox: {
               minLon: -92.081884,
               minLat: 42.641827,
@@ -28928,7 +28928,7 @@ const US_States_Counties_4326 = {
             },
           },
           Warren: {
-            COUNTYFP: "181",
+            sub_num: "181",
             bbox: {
               minLon: -93.790828,
               minLat: 41.160501,
@@ -28937,7 +28937,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adair: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -94.700723,
               minLat: 41.157134,
@@ -28946,7 +28946,7 @@ const US_States_Counties_4326 = {
             },
           },
           Chickasaw: {
-            COUNTYFP: "037",
+            sub_num: "037",
             bbox: {
               minLon: -92.554464,
               minLat: 42.906732,
@@ -28955,7 +28955,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hancock: {
-            COUNTYFP: "081",
+            sub_num: "081",
             bbox: {
               minLon: -93.971481,
               minLat: 42.907762,
@@ -28964,7 +28964,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dubuque: {
-            COUNTYFP: "061",
+            sub_num: "061",
             bbox: {
               minLon: -91.134439,
               minLat: 42.294634,
@@ -28973,7 +28973,7 @@ const US_States_Counties_4326 = {
             },
           },
           Poweshiek: {
-            COUNTYFP: "157",
+            sub_num: "157",
             bbox: {
               minLon: -92.766769,
               minLat: 41.50871,
@@ -28982,7 +28982,7 @@ const US_States_Counties_4326 = {
             },
           },
           Shelby: {
-            COUNTYFP: "165",
+            sub_num: "165",
             bbox: {
               minLon: -95.558143,
               minLat: 41.50469,
@@ -28991,7 +28991,7 @@ const US_States_Counties_4326 = {
             },
           },
           Benton: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -92.299329,
               minLat: 41.861562,
@@ -29000,7 +29000,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wayne: {
-            COUNTYFP: "185",
+            sub_num: "185",
             bbox: {
               minLon: -93.556964,
               minLat: 40.57994,
@@ -29009,7 +29009,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jackson: {
-            COUNTYFP: "097",
+            sub_num: "097",
             bbox: {
               minLon: -90.898654,
               minLat: 42.032709,
@@ -29018,7 +29018,7 @@ const US_States_Counties_4326 = {
             },
           },
           Linn: {
-            COUNTYFP: "113",
+            sub_num: "113",
             bbox: {
               minLon: -91.835262,
               minLat: 41.859594,
@@ -29027,7 +29027,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dickinson: {
-            COUNTYFP: "059",
+            sub_num: "059",
             bbox: {
               minLon: -95.38809,
               minLat: 43.255054,
@@ -29036,7 +29036,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clayton: {
-            COUNTYFP: "043",
+            sub_num: "043",
             bbox: {
               minLon: -91.608423,
               minLat: 42.643973,
@@ -29045,7 +29045,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Buena Vista": {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -95.388253,
               minLat: 42.560309,
@@ -29054,7 +29054,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mills: {
-            COUNTYFP: "129",
+            sub_num: "129",
             bbox: {
               minLon: -95.883316,
               minLat: 40.901045,
@@ -29063,7 +29063,7 @@ const US_States_Counties_4326 = {
             },
           },
           Dallas: {
-            COUNTYFP: "049",
+            sub_num: "049",
             bbox: {
               minLon: -94.280792,
               minLat: 41.503093,
@@ -29072,7 +29072,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marion: {
-            COUNTYFP: "125",
+            sub_num: "125",
             bbox: {
               minLon: -93.328614,
               minLat: 41.160659,
@@ -29081,7 +29081,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mahaska: {
-            COUNTYFP: "123",
+            sub_num: "123",
             bbox: {
               minLon: -92.871473,
               minLat: 41.161048,
@@ -29090,7 +29090,7 @@ const US_States_Counties_4326 = {
             },
           },
           Appanoose: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -93.097944,
               minLat: 40.584014,
@@ -29099,7 +29099,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Van Buren": {
-            COUNTYFP: "177",
+            sub_num: "177",
             bbox: {
               minLon: -92.179782,
               minLat: 40.59853,
@@ -29108,7 +29108,7 @@ const US_States_Counties_4326 = {
             },
           },
           Johnson: {
-            COUNTYFP: "103",
+            sub_num: "103",
             bbox: {
               minLon: -91.834185,
               minLat: 41.423178,
@@ -29117,7 +29117,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wright: {
-            COUNTYFP: "197",
+            sub_num: "197",
             bbox: {
               minLon: -93.971771,
               minLat: 42.557314,
@@ -29126,7 +29126,7 @@ const US_States_Counties_4326 = {
             },
           },
           Montgomery: {
-            COUNTYFP: "137",
+            sub_num: "137",
             bbox: {
               minLon: -95.384964,
               minLat: 40.900624,
@@ -29135,7 +29135,7 @@ const US_States_Counties_4326 = {
             },
           },
           Union: {
-            COUNTYFP: "175",
+            sub_num: "175",
             bbox: {
               minLon: -94.471252,
               minLat: 40.897031,
@@ -29144,7 +29144,7 @@ const US_States_Counties_4326 = {
             },
           },
           Keokuk: {
-            COUNTYFP: "107",
+            sub_num: "107",
             bbox: {
               minLon: -92.412096,
               minLat: 41.16192,
@@ -29153,7 +29153,7 @@ const US_States_Counties_4326 = {
             },
           },
           Story: {
-            COUNTYFP: "169",
+            sub_num: "169",
             bbox: {
               minLon: -93.698767,
               minLat: 41.862572,
@@ -29162,7 +29162,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mitchell: {
-            COUNTYFP: "131",
+            sub_num: "131",
             bbox: {
               minLon: -93.024509,
               minLat: 43.212473,
@@ -29171,7 +29171,7 @@ const US_States_Counties_4326 = {
             },
           },
           Grundy: {
-            COUNTYFP: "075",
+            sub_num: "075",
             bbox: {
               minLon: -93.027115,
               minLat: 42.209267,
@@ -29180,7 +29180,7 @@ const US_States_Counties_4326 = {
             },
           },
           Winneshiek: {
-            COUNTYFP: "191",
+            sub_num: "191",
             bbox: {
               minLon: -92.081272,
               minLat: 43.081653,
@@ -29189,7 +29189,7 @@ const US_States_Counties_4326 = {
             },
           },
           Polk: {
-            COUNTYFP: "153",
+            sub_num: "153",
             bbox: {
               minLon: -93.815784,
               minLat: 41.48177,
@@ -29198,7 +29198,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sac: {
-            COUNTYFP: "161",
+            sub_num: "161",
             bbox: {
               minLon: -95.388181,
               minLat: 42.209692,
@@ -29207,7 +29207,7 @@ const US_States_Counties_4326 = {
             },
           },
           Marshall: {
-            COUNTYFP: "127",
+            sub_num: "127",
             bbox: {
               minLon: -93.231972,
               minLat: 41.862267,
@@ -29216,7 +29216,7 @@ const US_States_Counties_4326 = {
             },
           },
           Delaware: {
-            COUNTYFP: "055",
+            sub_num: "055",
             bbox: {
               minLon: -91.609051,
               minLat: 42.295744,
@@ -29225,7 +29225,7 @@ const US_States_Counties_4326 = {
             },
           },
           Davis: {
-            COUNTYFP: "051",
+            sub_num: "051",
             bbox: {
               minLon: -92.639156,
               minLat: 40.590853,
@@ -29234,7 +29234,7 @@ const US_States_Counties_4326 = {
             },
           },
           Floyd: {
-            COUNTYFP: "067",
+            sub_num: "067",
             bbox: {
               minLon: -93.025149,
               minLat: 42.907059,
@@ -29243,7 +29243,7 @@ const US_States_Counties_4326 = {
             },
           },
           Audubon: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -95.093354,
               minLat: 41.504124,
@@ -29252,7 +29252,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jones: {
-            COUNTYFP: "105",
+            sub_num: "105",
             bbox: {
               minLon: -91.365877,
               minLat: 41.946217,
@@ -29261,7 +29261,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hardin: {
-            COUNTYFP: "083",
+            sub_num: "083",
             bbox: {
               minLon: -93.499579,
               minLat: 42.208697,
@@ -29270,7 +29270,7 @@ const US_States_Counties_4326 = {
             },
           },
           Boone: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -94.164911,
               minLat: 41.863083,
@@ -29279,7 +29279,7 @@ const US_States_Counties_4326 = {
             },
           },
           Jasper: {
-            COUNTYFP: "099",
+            sub_num: "099",
             bbox: {
               minLon: -93.348681,
               minLat: 41.507824,
@@ -29288,7 +29288,7 @@ const US_States_Counties_4326 = {
             },
           },
           Plymouth: {
-            COUNTYFP: "149",
+            sub_num: "149",
             bbox: {
               minLon: -96.639485,
               minLat: 42.56062,
@@ -29297,7 +29297,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pottawattamie: {
-            COUNTYFP: "155",
+            sub_num: "155",
             bbox: {
               minLon: -96.019543,
               minLat: 41.159236,
@@ -29306,7 +29306,7 @@ const US_States_Counties_4326 = {
             },
           },
           Taylor: {
-            COUNTYFP: "173",
+            sub_num: "173",
             bbox: {
               minLon: -94.928938,
               minLat: 40.570706,
@@ -29315,7 +29315,7 @@ const US_States_Counties_4326 = {
             },
           },
           Page: {
-            COUNTYFP: "145",
+            sub_num: "145",
             bbox: {
               minLon: -95.385483,
               minLat: 40.575068,
@@ -29324,7 +29324,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cherokee: {
-            COUNTYFP: "035",
+            sub_num: "035",
             bbox: {
               minLon: -95.86081,
               minLat: 42.560583,
@@ -29333,7 +29333,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Des Moines": {
-            COUNTYFP: "057",
+            sub_num: "057",
             bbox: {
               minLon: -91.409453,
               minLat: 40.696301,
@@ -29342,7 +29342,7 @@ const US_States_Counties_4326 = {
             },
           },
           Scott: {
-            COUNTYFP: "163",
+            sub_num: "163",
             bbox: {
               minLon: -90.899853,
               minLat: 41.449632,
@@ -29351,7 +29351,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lee: {
-            COUNTYFP: "111",
+            sub_num: "111",
             bbox: {
               minLon: -91.718795,
               minLat: 40.37544,
@@ -29360,7 +29360,7 @@ const US_States_Counties_4326 = {
             },
           },
           Fremont: {
-            COUNTYFP: "071",
+            sub_num: "071",
             bbox: {
               minLon: -95.888907,
               minLat: 40.580503,
@@ -29369,7 +29369,7 @@ const US_States_Counties_4326 = {
             },
           },
           Iowa: {
-            COUNTYFP: "095",
+            sub_num: "095",
             bbox: {
               minLon: -92.300125,
               minLat: 41.509786,
@@ -29378,7 +29378,7 @@ const US_States_Counties_4326 = {
             },
           },
           Butler: {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -93.027,
               minLat: 42.555782,
@@ -29387,7 +29387,7 @@ const US_States_Counties_4326 = {
             },
           },
           Emmet: {
-            COUNTYFP: "063",
+            sub_num: "063",
             bbox: {
               minLon: -94.914843,
               minLat: 43.255005,
@@ -29396,7 +29396,7 @@ const US_States_Counties_4326 = {
             },
           },
           Woodbury: {
-            COUNTYFP: "193",
+            sub_num: "193",
             bbox: {
               minLon: -96.498997,
               minLat: 42.211261,
@@ -29405,7 +29405,7 @@ const US_States_Counties_4326 = {
             },
           },
           Clay: {
-            COUNTYFP: "041",
+            sub_num: "041",
             bbox: {
               minLon: -95.388757,
               minLat: 42.909676,
@@ -29414,7 +29414,7 @@ const US_States_Counties_4326 = {
             },
           },
           Crawford: {
-            COUNTYFP: "047",
+            sub_num: "047",
             bbox: {
               minLon: -95.672771,
               minLat: 41.863146,
@@ -29423,7 +29423,7 @@ const US_States_Counties_4326 = {
             },
           },
           Buchanan: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -92.08243,
               minLat: 42.296408,
@@ -29432,7 +29432,7 @@ const US_States_Counties_4326 = {
             },
           },
           Osceola: {
-            COUNTYFP: "143",
+            sub_num: "143",
             bbox: {
               minLon: -95.861914,
               minLat: 43.255221,
@@ -29441,7 +29441,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Cerro Gordo": {
-            COUNTYFP: "033",
+            sub_num: "033",
             bbox: {
               minLon: -93.498617,
               minLat: 42.907495,
@@ -29450,7 +29450,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greene: {
-            COUNTYFP: "073",
+            sub_num: "073",
             bbox: {
               minLon: -94.629636,
               minLat: 41.862763,
@@ -29459,7 +29459,7 @@ const US_States_Counties_4326 = {
             },
           },
           Wapello: {
-            COUNTYFP: "179",
+            sub_num: "179",
             bbox: {
               minLon: -92.640376,
               minLat: 40.898867,
@@ -29468,7 +29468,7 @@ const US_States_Counties_4326 = {
             },
           },
           Henry: {
-            COUNTYFP: "087",
+            sub_num: "087",
             bbox: {
               minLon: -91.718791,
               minLat: 40.812586,
@@ -29477,7 +29477,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lyon: {
-            COUNTYFP: "119",
+            sub_num: "119",
             bbox: {
               minLon: -96.603056,
               minLat: 43.257264,
@@ -29486,7 +29486,7 @@ const US_States_Counties_4326 = {
             },
           },
           Adams: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -94.928604,
               minLat: 40.899331,
@@ -29495,7 +29495,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monona: {
-            COUNTYFP: "133",
+            sub_num: "133",
             bbox: {
               minLon: -96.35987,
               minLat: 41.863147,
@@ -29504,7 +29504,7 @@ const US_States_Counties_4326 = {
             },
           },
           Humboldt: {
-            COUNTYFP: "091",
+            sub_num: "091",
             bbox: {
               minLon: -94.443166,
               minLat: 42.644327,
@@ -29513,7 +29513,7 @@ const US_States_Counties_4326 = {
             },
           },
           Louisa: {
-            COUNTYFP: "115",
+            sub_num: "115",
             bbox: {
               minLon: -91.486004,
               minLat: 41.07271,
@@ -29522,7 +29522,7 @@ const US_States_Counties_4326 = {
             },
           },
           Tama: {
-            COUNTYFP: "171",
+            sub_num: "171",
             bbox: {
               minLon: -92.76809,
               minLat: 41.862187,
@@ -29531,7 +29531,7 @@ const US_States_Counties_4326 = {
             },
           },
           Monroe: {
-            COUNTYFP: "135",
+            sub_num: "135",
             bbox: {
               minLon: -93.099217,
               minLat: 40.898222,
@@ -29540,7 +29540,7 @@ const US_States_Counties_4326 = {
             },
           },
           Muscatine: {
-            COUNTYFP: "139",
+            sub_num: "139",
             bbox: {
               minLon: -91.369332,
               minLat: 41.333599,
@@ -29549,7 +29549,7 @@ const US_States_Counties_4326 = {
             },
           },
           Lucas: {
-            COUNTYFP: "117",
+            sub_num: "117",
             bbox: {
               minLon: -93.557586,
               minLat: 40.897581,
@@ -29558,7 +29558,7 @@ const US_States_Counties_4326 = {
             },
           },
           Hamilton: {
-            COUNTYFP: "079",
+            sub_num: "079",
             bbox: {
               minLon: -93.971617,
               minLat: 42.209143,
@@ -29567,7 +29567,7 @@ const US_States_Counties_4326 = {
             },
           },
           Franklin: {
-            COUNTYFP: "069",
+            sub_num: "069",
             bbox: {
               minLon: -93.499593,
               minLat: 42.556702,
@@ -29576,7 +29576,7 @@ const US_States_Counties_4326 = {
             },
           },
           Bremer: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -92.554799,
               minLat: 42.641952,
@@ -29585,7 +29585,7 @@ const US_States_Counties_4326 = {
             },
           },
           "O'Brien": {
-            COUNTYFP: "141",
+            sub_num: "141",
             bbox: {
               minLon: -95.862431,
               minLat: 42.909097,
@@ -29594,7 +29594,7 @@ const US_States_Counties_4326 = {
             },
           },
           Guthrie: {
-            COUNTYFP: "077",
+            sub_num: "077",
             bbox: {
               minLon: -94.744876,
               minLat: 41.50357,
@@ -29603,7 +29603,7 @@ const US_States_Counties_4326 = {
             },
           },
           Washington: {
-            COUNTYFP: "183",
+            sub_num: "183",
             bbox: {
               minLon: -91.946939,
               minLat: 41.161514,
@@ -29612,7 +29612,7 @@ const US_States_Counties_4326 = {
             },
           },
           Sioux: {
-            COUNTYFP: "167",
+            sub_num: "167",
             bbox: {
               minLon: -96.571509,
               minLat: 42.908771,
@@ -29621,7 +29621,7 @@ const US_States_Counties_4326 = {
             },
           },
           Allamakee: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -91.611046,
               minLat: 43.080247,
@@ -29630,7 +29630,7 @@ const US_States_Counties_4326 = {
             },
           },
           Winnebago: {
-            COUNTYFP: "189",
+            sub_num: "189",
             bbox: {
               minLon: -93.97078,
               minLat: 43.255021,
@@ -29639,7 +29639,7 @@ const US_States_Counties_4326 = {
             },
           },
           Ida: {
-            COUNTYFP: "093",
+            sub_num: "093",
             bbox: {
               minLon: -95.741843,
               minLat: 42.210701,
@@ -29648,7 +29648,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cass: {
-            COUNTYFP: "029",
+            sub_num: "029",
             bbox: {
               minLon: -95.155851,
               minLat: 41.157903,
@@ -29659,8 +29659,8 @@ const US_States_Counties_4326 = {
         },
       },
       Arizona: {
-        STUSPS: "AZ",
-        STATEFP: "04",
+        sub_id: "AZ",
+        sub_num: "04",
         bbox: {
           minLon: -114.8163,
           minLat: 31.332342,
@@ -29669,7 +29669,7 @@ const US_States_Counties_4326 = {
         },
         counties: {
           Yuma: {
-            COUNTYFP: "027",
+            sub_num: "027",
             bbox: {
               minLon: -114.8163,
               minLat: 32.038927,
@@ -29678,7 +29678,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pinal: {
-            COUNTYFP: "021",
+            sub_num: "021",
             bbox: {
               minLon: -112.203624,
               minLat: 32.501332,
@@ -29687,7 +29687,7 @@ const US_States_Counties_4326 = {
             },
           },
           Navajo: {
-            COUNTYFP: "017",
+            sub_num: "017",
             bbox: {
               minLon: -110.75071,
               minLat: 33.567175,
@@ -29696,7 +29696,7 @@ const US_States_Counties_4326 = {
             },
           },
           Greenlee: {
-            COUNTYFP: "011",
+            sub_num: "011",
             bbox: {
               minLon: -109.495829,
               minLat: 32.42635,
@@ -29705,7 +29705,7 @@ const US_States_Counties_4326 = {
             },
           },
           Maricopa: {
-            COUNTYFP: "013",
+            sub_num: "013",
             bbox: {
               minLon: -113.335075,
               minLat: 32.505059,
@@ -29714,7 +29714,7 @@ const US_States_Counties_4326 = {
             },
           },
           Pima: {
-            COUNTYFP: "019",
+            sub_num: "019",
             bbox: {
               minLon: -113.334105,
               minLat: 31.426061,
@@ -29723,7 +29723,7 @@ const US_States_Counties_4326 = {
             },
           },
           Cochise: {
-            COUNTYFP: "003",
+            sub_num: "003",
             bbox: {
               minLon: -110.460916,
               minLat: 31.332348,
@@ -29732,7 +29732,7 @@ const US_States_Counties_4326 = {
             },
           },
           Coconino: {
-            COUNTYFP: "005",
+            sub_num: "005",
             bbox: {
               minLon: -113.354176,
               minLat: 34.258411,
@@ -29741,7 +29741,7 @@ const US_States_Counties_4326 = {
             },
           },
           Gila: {
-            COUNTYFP: "007",
+            sub_num: "007",
             bbox: {
               minLon: -111.720728,
               minLat: 32.983673,
@@ -29750,7 +29750,7 @@ const US_States_Counties_4326 = {
             },
           },
           Graham: {
-            COUNTYFP: "009",
+            sub_num: "009",
             bbox: {
               minLon: -110.458136,
               minLat: 32.424755,
@@ -29759,7 +29759,7 @@ const US_States_Counties_4326 = {
             },
           },
           Mohave: {
-            COUNTYFP: "015",
+            sub_num: "015",
             bbox: {
               minLon: -114.754681,
               minLat: 34.209626,
@@ -29768,7 +29768,7 @@ const US_States_Counties_4326 = {
             },
           },
           Yavapai: {
-            COUNTYFP: "025",
+            sub_num: "025",
             bbox: {
               minLon: -113.334359,
               minLat: 33.882469,
@@ -29777,7 +29777,7 @@ const US_States_Counties_4326 = {
             },
           },
           "La Paz": {
-            COUNTYFP: "012",
+            sub_num: "012",
             bbox: {
               minLon: -114.731223,
               minLat: 33.025384,
@@ -29786,7 +29786,7 @@ const US_States_Counties_4326 = {
             },
           },
           "Santa Cruz": {
-            COUNTYFP: "023",
+            sub_num: "023",
             bbox: {
               minLon: -111.366922,
               minLat: 31.332342,
@@ -29795,7 +29795,7 @@ const US_States_Counties_4326 = {
             },
           },
           Apache: {
-            COUNTYFP: "001",
+            sub_num: "001",
             bbox: {
               minLon: -110.000705,
               minLat: 33.475417,

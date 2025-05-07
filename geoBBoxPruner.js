@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name                geoBBoxPruner
 // @namespace           https://github.com/JS55CT
-// @description         Determines which geographical divisions intersect with the given BBOX.
-// @version             1.1.1
+// @description         Determines which geographical divisions view a Viewport intersect with the given BBOX.
+// @version             2.0.0
 // @license             MIT
 // @grant               GM_xmlhttpRequest
 // @connect             github.io
@@ -190,18 +190,19 @@ var geoBBoxPruner = (function () {
    * @param {string} subCode - Subdivision code.
    * @param {string} subSubCode - Sub-subdivision code.
    * @param {Object} viewportBbox - The bounding box of the viewport.
-   * @returns {Promise<boolean>} - True if intersection exists; false otherwise.
+   * @param {boolean} [returnGeoJson=false] - Flag to indicate if GeoJSON data should be returned.
+   * @returns {Promise<boolean|Object>} - Returns GeoJSON data if `returnGeoJson` is true and an intersection exists; otherwise, returns true if intersection exists, or false if no intersection.
    *
-   * * viewportBbox: {
+   * viewportBbox: {
    *   minLon: number,
    *   minLat: number,
    *   maxLon: number,
    *   maxLat: number
    * }
    */
-  geoBBoxPruner.prototype.fetchAndCheckGeoJsonIntersection = async function (countyCode, subCode, subSubNum, viewportBbox) {
+  geoBBoxPruner.prototype.fetchAndCheckGeoJsonIntersection = async function (countyCode, subCode, subSubCode, viewportBbox, returnGeoJson = false) {
     const BASE_URL_GEOJSON = `https://js55ct.github.io/geoBBoxPruner/GEOJSON/`;
-    const url = `${BASE_URL_GEOJSON}${countyCode}/${subCode}/${countyCode}-${subCode}-${subSubNum}_EPSG4326.geojson`;
+    const url = `${BASE_URL_GEOJSON}${countyCode}/${subCode}/${countyCode}-${subCode}-${subSubCode}_EPSG4326.geojson`;
 
     try {
       const geoJsonData = await this.fetchJsonWithCache(url);
@@ -223,14 +224,14 @@ var geoBBoxPruner = (function () {
         if (featureGeometry.type === "Polygon") {
           for (const polygon of featureGeometry.coordinates) {
             if (hasIntersection(polygon, viewportPolygon)) {
-              return true; // An intersection is found
+              return returnGeoJson ? geoJsonData : true; // Return the GeoJSON data or intersection boolean
             }
           }
         } else if (featureGeometry.type === "MultiPolygon") {
           for (const multiPolygon of featureGeometry.coordinates) {
             for (const polygon of multiPolygon) {
               if (hasIntersection(polygon, viewportPolygon)) {
-                return true; // An intersection is found
+                return returnGeoJson ? geoJsonData : true; // Return the GeoJSON data or intersection boolean
               }
             }
           }
@@ -247,11 +248,11 @@ var geoBBoxPruner = (function () {
     }
   };
 
-
   /**
    * Finds intersecting states and counties with the viewport, considering high-precision GeoJSON data if needed.
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @param {boolean} [highPrecision=false] - Flag to indicate if high precision is required.
+   * @param {boolean} [returnGeoJson=false] - Flag to indicate if GeoJON used for high precision should be returned.
    * @returns {Object} - An object containing intersecting regions.
    *
    * viewportBbox: {
@@ -261,9 +262,9 @@ var geoBBoxPruner = (function () {
    *   maxLat: number
    * }
    */
-  geoBBoxPruner.prototype.getIntersectingStatesAndCounties = async function (viewportBbox, highPrecision = false) {
-    const BASE_URL_BBOX = `https://js55ct.github.io/geoBBoxPruner/BBOX%20JSON/US/`;
-    const STATES_URL = `${BASE_URL_BBOX}US_BBOX_ESPG4326.json`;
+  geoBBoxPruner.prototype.getIntersectingStatesAndCounties = async function (viewportBbox, highPrecision = false, returnGeoJson = false) {
+    const BASE_URL_BBOX = `https://js55ct.github.io/geoBBoxPruner/BBOX%20JSON/USA/`;
+    const STATES_URL = `${BASE_URL_BBOX}USA_BBOX_ESPG4326.json`;
     const intersectingRegions = {};
 
     try {
@@ -274,7 +275,7 @@ var geoBBoxPruner = (function () {
 
         if (checkIntersection(stateData.bbox, viewportBbox)) {
           const intersectingCounties = {};
-          const countiesUrl = `${BASE_URL_BBOX}USA-${stateCode}_BBOX_ESPG4326.json`; //JS55CT
+          const countiesUrl = `${BASE_URL_BBOX}/USA-${stateCode}_BBOX_ESPG4326.json`; //JS55CT
           const countiesData = await this.fetchJsonWithCache(countiesUrl);
 
           for (const countyEntry of countiesData) {
@@ -286,7 +287,7 @@ var geoBBoxPruner = (function () {
                 .filter((sub) => sub.bbox && checkIntersection(sub.bbox, viewportBbox))
                 .reduce((acc, sub) => {
                   acc[sub.name] = {
-                    sub_num: sub.sub_num,
+                    subL3_num: sub.sub_num,
                     source: "BBOX",
                   };
                   return acc;
@@ -294,11 +295,15 @@ var geoBBoxPruner = (function () {
 
               if (Object.keys(intersectingSubCounties).length > 0) {
                 let source = "BBOX";
+                let geoJsonData = null;
 
                 if (highPrecision) {
-                  const intersectsGeoJson = await this.fetchAndCheckGeoJsonIntersection("USA", stateCode, countyData.sub_num, viewportBbox);
+                  const intersectsGeoJson = await this.fetchAndCheckGeoJsonIntersection("USA", stateCode, countyData.sub_num, viewportBbox, returnGeoJson);
 
-                  if (intersectsGeoJson) {
+                  if (returnGeoJson && intersectsGeoJson) {
+                    geoJsonData = intersectsGeoJson;
+                    source = "GEOJSON";
+                  } else if (intersectsGeoJson) {
                     source = "GEOJSON";
                   } else {
                     continue;
@@ -306,10 +311,14 @@ var geoBBoxPruner = (function () {
                 }
 
                 intersectingCounties[countyName] = {
-                  sub_num: countyData.sub_num,
+                  subL2_num: countyData.sub_num,
                   subL3: intersectingSubCounties,
                   source: source,
                 };
+
+                if (geoJsonData) {
+                  intersectingCounties[countyName].geoJsonData = geoJsonData;
+                }
               }
             }
           }
@@ -323,8 +332,8 @@ var geoBBoxPruner = (function () {
               }
             }
             intersectingRegions[stateData.name] = {
-              sub_id: stateData.sub_id,
-              sub_num: stateData.sub_num,
+              subL1_id: stateData.sub_id,
+              subL1_num: stateData.sub_num,
               subL2: intersectingCounties,
               source: stateSource,
             };
@@ -332,7 +341,7 @@ var geoBBoxPruner = (function () {
         }
       }
     } catch (error) {
-      console.error(`${funcName}: Failed to fetch or process state data:`, error);
+      console.error(`${funcName}: Failed to fetch or process data:`, error);
     }
 
     return intersectingRegions;
@@ -371,7 +380,7 @@ var geoBBoxPruner = (function () {
 
             // Initialize results for this subdivision, using the name as the key
             subdivisionsResult[subdivisionName] = {
-              subL1_code: subdivision["sub_code"],
+              subL1_num: subdivision["sub_num"],
               subL1_id: subdivisionID,
               source: "BBOX",
               subL2: {}, // To store second-level subdivisions
@@ -395,7 +404,7 @@ var geoBBoxPruner = (function () {
 
                   // Add intersecting subdivisions to the result, using the name as the key
                   subdivisionsResult[subdivisionName].subL2[subsubName] = {
-                    subL2_id: subsub.subsub_id,
+                    subL2_num: subsub["sub_num"],
                     source: "BBOX",
                   };
                 }
@@ -411,7 +420,6 @@ var geoBBoxPruner = (function () {
     } catch (error) {
       console.error(`${funcName}: Error fetching or processing subdivisions for country code: ${countryCode}`, error);
     }
-
     return subdivisionsResult;
   };
 
@@ -419,6 +427,7 @@ var geoBBoxPruner = (function () {
    * Finds and returns regions intersecting with the viewport, optionally using high-precision methods.
    * @param {Object} viewportBbox - The bounding box of the viewport.
    * @param {boolean} [highPrecision=false] - Flag to indicate if high precision is required.
+   * @param {boolean} [returnGeoJson=false] - Flag to indicate if GeoJON used for high precision should be returned.
    * @returns {Object} - Results of intersecting regions structured by country, state, and county.
    *
    *  viewportBbox: {
@@ -428,21 +437,21 @@ var geoBBoxPruner = (function () {
    *   maxLat: number
    * }
    */
-  geoBBoxPruner.prototype.whatsInView = async function (viewportBbox, highPrecision = false) {
+  geoBBoxPruner.prototype.whatsInView = async function (viewportBbox, highPrecision = false, returnGeoJson = false) {
     const results = {};
 
     try {
       const countries = await this.getIntersectingCountries(viewportBbox);
 
       if (!countries.length) {
-        console.log(`${funcName}: Viewport does not intersect with any known countries.`);
+        console.warn(`${funcName}: Viewport does not intersect with any known countries.`);
         return results;
       }
 
       for (const country of countries) {
         if (country.ISO_ALPHA3 === "USA") {
           // Fetch intersecting states and counties for the US
-          const statesAndCounties = await this.getIntersectingStatesAndCounties(viewportBbox, highPrecision);
+          const statesAndCounties = await this.getIntersectingStatesAndCounties(viewportBbox, highPrecision, returnGeoJson);
 
           if (statesAndCounties && Object.keys(statesAndCounties).length > 0) {
             results[country.name] = {
@@ -469,7 +478,6 @@ var geoBBoxPruner = (function () {
     } catch (error) {
       console.error(`${funcName}: Error during finding intersecting regions:`, error);
     }
-
     return results;
   };
 
