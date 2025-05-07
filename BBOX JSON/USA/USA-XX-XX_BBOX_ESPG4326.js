@@ -1,4 +1,4 @@
-const US_States_Counties_4326 = {
+const USA_XX_XX_BBOX_ESPG4326 = {
     states: {
       "West Virginia": {
         sub_id: "WV",
