@@ -136,6 +136,39 @@ var geoBBoxPruner = (function () {
       });
   };
 
+
+  geoBBoxPruner.prototype.getCountriesAndSubsJson = async function () {
+    const url = "https://js55ct.github.io/geoBBoxPruner/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
+    const BASE_URL_BBOX = `https://js55ct.github.io/geoBBoxPruner/BBOX%20JSON/`;
+  
+    try {
+      // Fetch the country data
+      const COUNTRY_DATA = await this.fetchJsonWithCache(url);
+  
+      // Iterate over each country to fetch and add subdivision data
+      for (const countryCode in COUNTRY_DATA) {
+        if (COUNTRY_DATA.hasOwnProperty(countryCode)) {
+          // Fetch the first-level subdivision data for the country
+          const isoAlpha3 = COUNTRY_DATA[countryCode].ISO_ALPHA3;
+          const subL1Url = `${BASE_URL_BBOX}${isoAlpha3}/${isoAlpha3}_BBOX_ESPG4326.json`;
+  
+          try {
+            const subL1Data = await this.fetchJsonWithCache(subL1Url);
+            // Add subdivisions to the country data
+            COUNTRY_DATA[countryCode].subL1 = subL1Data;
+          } catch (subError) {
+            console.error(`Error fetching subdivisions for ${countryCode}:`, subError);
+          }
+        }
+      }
+  
+      return COUNTRY_DATA;
+    } catch (error) {
+      console.error(`Error fetching country data:`, error);
+      return {};
+    }
+  };
+
   /**
    * Cleans intersecting regions data by removing empty or non-intersecting regions, including countries without intersecting states.
    * @param {Object} intersectingCountries - The countries data to clean.
