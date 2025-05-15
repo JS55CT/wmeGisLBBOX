@@ -9,7 +9,7 @@
 // @match               https://beta.waze.com/*
 // @exclude             https://www.waze.com/*user/*editor/*
 // @require             https://greasyfork.org/scripts/24851-wazewrap/code/WazeWrap.js
-// @require             https://js55ct.github.io/geoBBoxPruner/geoBBoxPruner.js
+// @require             https://js55ct.github.io/wmeGisLBBOX/wmeGisLBBOX.js
 // @connect             github.io
 // @grant               unsafeWindow
 // @grant               GM_xmlhttpRequest
@@ -21,7 +21,7 @@ External Variables and Objects:
 GM_info
 unsafeWindow
 WazeWrap
-geoBBoxPruner
+wmeGisLBBOX
 */
 
 var whatsInView = function () {
@@ -32,7 +32,7 @@ var whatsInView = function () {
   let highPrecision = true;
 
   // Get the map extent from the SDK
-  const geoPruner = new geoBBoxPruner(); // Create and reuse this instance
+  const geoPruner = new wmeGisLBBOX(); // Create and reuse this instance
   let wmeSDK;
 
   // Ensure SDK_INITIALIZED is available
