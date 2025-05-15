@@ -106,7 +106,7 @@ var whatsInView = function () {
     console.log(`${scriptName}: Loading User Interface ...`);
 
     wmeSDK.Sidebar.registerScriptTab().then(({ tabLabel, tabPane }) => {
-      tabLabel.textContent = "wAMi";
+      tabLabel.textContent = "WIV";
       tabLabel.title = `${scriptName}`;
 
       let geobox = document.createElement("div");
