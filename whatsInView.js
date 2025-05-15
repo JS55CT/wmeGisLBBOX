@@ -14,6 +14,8 @@
 // @grant               unsafeWindow
 // @grant               GM_xmlhttpRequest
 // @license             MIT
+// @downloadURL  https://js55ct.github.io/wmeGisLBBOX/whatsInView.js
+// @updateURL    https://js55ct.github.io/wmeGisLBBOX/whatsInView.js
 // ==/UserScript==
 
 /*
