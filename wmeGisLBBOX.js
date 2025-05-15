@@ -2,7 +2,7 @@
 // @name                wmeGisLBBOX
 // @namespace           https://github.com/JS55CT
 // @description         Determines which geographical divisions view a Viewport intersect with the given BBOX.
-// @version             2.0.0
+// @version             2.1.0
 // @license             MIT
 // @grant               GM_xmlhttpRequest
 // @connect             github.io
@@ -10,7 +10,6 @@
 
 var wmeGisLBBOX = (function () {
   // Constructor for the wmeGisLBBOX class
-
   const funcName = "wmeGisLBBOX";
   function wmeGisLBBOX() {
     // Ensure class instantiation with 'new'
@@ -21,10 +20,22 @@ var wmeGisLBBOX = (function () {
   }
 
   /**
-   * Fetches JSON data from a URL, using a cache to store and reuse previously fetched data.
-   * @param {string} url - URL to fetch JSON data from.
-   * @returns {Promise<Object>} - A promise that resolves to the JSON data.
-   */
+   * Fetches JSON data from a specified URL, utilizing caching to store and reuse fetched data.
+   *
+   * This function makes an HTTP GET request to retrieve data from a given URL and employs caching
+   * to improve efficiency by storing previously fetched results. It uses `GM_xmlhttpRequest` for
+   * cross-domain requests when running in a userscript environment.
+   *
+   * Process Overview:
+   * 1. Checks the cache for existing data associated with the URL.
+   * 2. If cached data is available, returns it immediately.
+   * 3. If no cache is found, performs an HTTP request to fetch the data.
+   * 4. On successful fetch, parses the JSON, stores it in cache, and resolves with the data.
+   * 5. Handles errors, rejecting the Promise with an appropriate error message if the fetch fails.
+   *
+   * @param {string} url - The URL from which to fetch JSON data.
+   * @returns {Promise<Object>} - A Promise resolving to the parsed JSON data.
+   **/
   wmeGisLBBOX.prototype.fetchJsonWithCache = function (url) {
     if (this.cache[url]) {
       return Promise.resolve(this.cache[url]);
@@ -52,15 +63,25 @@ var wmeGisLBBOX = (function () {
   };
 
   /**
-   * Checks if two geographical bounding boxes intersect, accounting for antemeridian crossing.
+   * Determines whether two bounding boxes intersect.
    *
-   * Assumes bounding box objects have properties: minLat, maxLat, minLon, maxLon.
-   * Longitude ranges from -180 to 180 degrees. Latitude ranges from -90 to 90 degrees.
+   * This function checks for intersection between two bounding boxes `bbox1` and `bbox2`
+   * by evaluating both latitude and longitude overlapping scenarios. Special handling is included
+   * to manage cases where bounding boxes wrap the antimeridian (180 degrees longitude).
    *
-   * @param {object} bbox1 - The first bounding box { minLat, maxLat, minLon, maxLon }.
-   * @param {object} bbox2 - The second bounding box { minLat, maxLat, minLon, maxLon }.
-   * @returns {boolean} True if the bounding boxes intersect, false otherwise.
-   */
+   * Process Overview:
+   * 1. Checks latitude intersection by evaluating if latitude ranges overlap.
+   * 2. Checks longitude intersection, considering whether a bounding box wraps the antimeridian.
+   * 3. Returns true if both latitude and longitude intersections occur; false otherwise.
+   *
+   * Longitude Intersection Scenarios:
+   * - Standard check if neither bounding box wraps the antimeridian.
+   * - Special checks for when one or both bounding boxes wrap the antimeridian.
+   *
+   * @param {Object} bbox1 - The first bounding box with properties minLat, maxLat, minLon, maxLon.
+   * @param {Object} bbox2 - The second bounding box with properties minLat, maxLat, minLon, maxLon.
+   * @returns {boolean} - True if the bounding boxes intersect, false otherwise.
+   **/
   function checkIntersection(bbox1, bbox2) {
     // Check for Latitude Intersection
     const latIntersects = !(bbox1.maxLat < bbox2.minLat || bbox1.minLat > bbox2.maxLat);
@@ -95,16 +116,24 @@ var wmeGisLBBOX = (function () {
   }
 
   /**
-   * Identifies countries intersecting with the given viewport bounding box.
-   * @param {Object} viewportBbox - The bounding box of the viewport.
-   * @returns {Array} - List of country info objects that intersect with the viewport.
+   * Identifies countries intersecting with the specified viewport bounding box.
    *
-   * viewportBbox: {
-   *   minLon: number,
-   *   minLat: number,
-   *   maxLon: number,
-   *   maxLat: number
-   * }
+   * This function fetches a list of countries defined by their bounding boxes,
+   * checks for intersection with the current viewport, and returns details for
+   * countries that intersect.
+   *
+   * Process Overview:
+   * 1. Fetches country bounding box data from a specified JSON URL.
+   * 2. Iterates over country data, checking each one's bounding boxes against the viewport.
+   * 3. Collects information on countries that intersect, including ISO codes and names.
+   *
+   * viewportBbox: {minLon: number, minLat: number, maxLon: number, maxLat: number}
+   *
+   * Error Handling:
+   * - Logs errors during the fetch process and returns an empty array if issues occur.
+   *
+   * @param {Object} viewportBbox - The bounding box defining the current viewport.
+   * @returns {Array} - An array of objects representing countries intersecting with the viewport.
    **/
   wmeGisLBBOX.prototype.getIntersectingCountries = function (viewportBbox) {
     const url = "https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
@@ -136,22 +165,44 @@ var wmeGisLBBOX = (function () {
       });
   };
 
-
+  /**
+   * Fetches and augments country data with subdivision information.
+   *
+   * This asynchronous function retrieves base country information and then
+   * iteratively fetches additional subdivision data for each country, augmenting
+   * the country data with its respective subdivisions.
+   *
+   * @returns {Object} - A comprehensive data object containing country details and
+   *                     corresponding first-level subdivisions.
+   *
+   * Process Overview:
+   * 1. Fetches country data from a static JSON file.
+   * 2. Iterates through each country and retrieves its subdivision JSON data.
+   * 3. Adds the fetched subdivisions data to the country information structure.
+   *
+   * Error Handling:
+   * - Logs an error if fetching either the country or subdivision data fails.
+   * - Returns an empty object if the initial fetch fails.
+   *
+   * URLs:
+   * - Country Data: "https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json"
+   * - Subdivision Data: Dynamic URL based on country ISO_ALPHA3 code from the base URL.
+   **/
   wmeGisLBBOX.prototype.getCountriesAndSubsJson = async function () {
     const url = "https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
     const BASE_URL_BBOX = `https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/`;
-  
+
     try {
       // Fetch the country data
       const COUNTRY_DATA = await this.fetchJsonWithCache(url);
-  
+
       // Iterate over each country to fetch and add subdivision data
       for (const countryCode in COUNTRY_DATA) {
         if (COUNTRY_DATA.hasOwnProperty(countryCode)) {
           // Fetch the first-level subdivision data for the country
           const isoAlpha3 = COUNTRY_DATA[countryCode].ISO_ALPHA3;
           const subL1Url = `${BASE_URL_BBOX}${isoAlpha3}/${isoAlpha3}_BBOX_ESPG4326.json`;
-  
+
           try {
             const subL1Data = await this.fetchJsonWithCache(subL1Url);
             // Add subdivisions to the country data
@@ -161,7 +212,7 @@ var wmeGisLBBOX = (function () {
           }
         }
       }
-  
+
       return COUNTRY_DATA;
     } catch (error) {
       console.error(`Error fetching country data:`, error);
@@ -170,9 +221,29 @@ var wmeGisLBBOX = (function () {
   };
 
   /**
-   * Cleans intersecting regions data by removing empty or non-intersecting regions, including countries without intersecting states.
-   * @param {Object} intersectingCountries - The countries data to clean.
-   */
+   * Cleans intersecting country data by removing empty subdivisions.
+   *
+   * This function processes country data that intersects with a given area,
+   * specifically handling the hierarchical subdivision structures and
+   * removing any empty or null subdivisions.
+   *
+   * Process Overview:
+   * 1. Iterates through country data identified as intersecting.
+   * 2. Applies specific cleaning logic for USA subdivisions.
+   * 3. Applies general cleaning logic for non-USA subdivisions.
+   * 4. Recursively removes subdivisions that are empty to ensure only
+   *    relevant and populated data remains.
+   *
+   * Cleaning Logic:
+   * - For the USA, removes third-level subdivisions if they are empty.
+   * - For other countries, only removes subdivisions if they have no content.
+   * - Additionally, removes any country entry if it results in having no subdivisions.
+   *
+   * @param {Object} intersectingCountries - Object containing intersecting country data.
+   *
+   * Modifies:
+   * - Directly alters the `intersectingCountries` object by pruning empty subdivisions.
+   **/
   wmeGisLBBOX.prototype.cleanIntersectingData = function (intersectingCountries) {
     for (const countryName in intersectingCountries) {
       const country = intersectingCountries[countryName];
@@ -218,21 +289,36 @@ var wmeGisLBBOX = (function () {
   };
 
   /**
-   * Fetches a GeoJSON file for a specific region and checks if it intersects with the viewport.
-   * @param {string} countyCode - The county code.
-   * @param {string} subCode - Subdivision code.
-   * @param {string} subSubCode - Sub-subdivision code.
-   * @param {Object} viewportBbox - The bounding box of the viewport.
-   * @param {boolean} [returnGeoJson=false] - Flag to indicate if GeoJSON data should be returned.
-   * @returns {Promise<boolean|Object>} - Returns GeoJSON data if `returnGeoJson` is true and an intersection exists; otherwise, returns true if intersection exists, or false if no intersection.
+   * Fetches GeoJSON data for a specified region and checks for intersection with a given viewport.
    *
-   * viewportBbox: {
-   *   minLon: number,
-   *   minLat: number,
-   *   maxLon: number,
-   *   maxLat: number
-   * }
-   */
+   * This asynchronous function retrieves GeoJSON data based on the specified country, subdivision,
+   * and sub-subdivision codes. It then checks whether the geometries in the GeoJSON intersect
+   * with the provided viewport bounding box, returning intersection results or the full GeoJSON data.
+   *
+   * Process Overview:
+   * 1. Constructs the URL for the GeoJSON file based on provided codes.
+   * 2. Fetches the GeoJSON data using the constructed URL.
+   * 3. Defines the viewport area as a polygon using the specified bounding box coordinates.
+   * 4. Iterates through GeoJSON features, checking if their geometries intersect with the viewport.
+   * 5. Returns either the full GeoJSON data or a boolean indicating intersection presence based on a flag.
+   *
+   * Supported Geometry Types:
+   * - Polygon: Directly checks for intersection with the viewport polygon.
+   * - MultiPolygon: Iterates through component polygons to check for intersection.
+   * - Logs a warning if any unsupported geometry types are encountered.
+   *
+   * Error Handling:
+   * - Logs an error message if fetching or processing the GeoJSON fails, returns `false`.
+   *
+   * viewportBbox: {minLon: number, minLat: number, maxLon: number, maxLat: number}
+   *
+   * @param {string} countyCode - The country code corresponding to the GeoJSON data.
+   * @param {string} subCode - The subdivision code for the GeoJSON data.
+   * @param {string} subSubCode - The sub-subdivision code for the GeoJSON data.
+   * @param {Object} viewportBbox - The bounding box of the viewport.
+   * @param {boolean} [returnGeoJson=false] - Flag to determine if the full GeoJSON data should be returned.
+   * @returns {boolean|Object} - Returns true or false for intersection presence, or the full GeoJSON data.
+   **/
   wmeGisLBBOX.prototype.fetchAndCheckGeoJsonIntersection = async function (countyCode, subCode, subSubCode, viewportBbox, returnGeoJson = false) {
     const BASE_URL_GEOJSON = `https://js55ct.github.io/wmeGisLBBOX/GEOJSON/`;
     const url = `${BASE_URL_GEOJSON}${countyCode}/${subCode}/${countyCode}-${subCode}-${subSubCode}_EPSG4326.geojson`;
@@ -282,19 +368,33 @@ var wmeGisLBBOX = (function () {
   };
 
   /**
-   * Finds intersecting states and counties with the viewport, considering high-precision GeoJSON data if needed.
-   * @param {Object} viewportBbox - The bounding box of the viewport.
-   * @param {boolean} [highPrecision=false] - Flag to indicate if high precision is required.
-   * @param {boolean} [returnGeoJson=false] - Flag to indicate if GeoJON used for high precision should be returned.
-   * @returns {Object} - An object containing intersecting regions.
+   * Identifies US states and counties that intersect with the given viewport bounding box.
    *
-   * viewportBbox: {
-   *   minLon: number,
-   *   minLat: number,
-   *   maxLon: number,
-   *   maxLat: number
-   * }
-   */
+   * This asynchronous function fetches state and county bounding box data, identifies which states
+   * and counties intersect with a specified viewport, and optionally checks for more precise
+   * intersections using GeoJSON data.
+   *
+   * Process Overview:
+   * 1. Retrieves bounding box data for US states.
+   * 2. Checks each state's bounding box against the viewport for intersections.
+   * 3. For intersecting states, fetches county bounding box data and identifies intersecting counties.
+   * 4. If `highPrecision` is true, uses GeoJSON data to refine intersection checks.
+   * 5. Constructs an object that maps intersecting states to their respective intersecting counties and subdivisions.
+   *
+   * Optional Features:
+   * - High precision mode uses GeoJSON data to confirm intersections and update data sources.
+   * - Supports returning GeoJSON data if intersections occur and `returnGeoJson` is true.
+   *
+   * viewportBbox: {minLon: number, minLat: number, maxLon: number, maxLat: number}
+   *
+   * Error Handling:
+   * - Logs a message if fetching or processing bounding box or GeoJSON data fails.
+   *
+   * @param {Object} viewportBbox - The bounding box of the viewport.
+   * @param {boolean} [highPrecision=false] - Flag to activate high precision intersection checks using GeoJSON.
+   * @param {boolean} [returnGeoJson=false] - Flag to indicate if GeoJSON data should be returned when intersecting.
+   * @returns {Object} - A structured object detailing intersecting states, counties, and subdivisions.
+   **/
   wmeGisLBBOX.prototype.getIntersectingStatesAndCounties = async function (viewportBbox, highPrecision = false, returnGeoJson = false) {
     const BASE_URL_BBOX = `https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/USA/`;
     const STATES_URL = `${BASE_URL_BBOX}USA_BBOX_ESPG4326.json`;
@@ -381,18 +481,29 @@ var wmeGisLBBOX = (function () {
   };
 
   /**
-   * Fetches major subdivisions data and checks for intersections with the viewport bounding box for countries other than the US.
-   * @param {string} countryCode - The 3-letter ISO code of the country.
-   * @param {Object} viewportBbox - The bounding box of the viewport.
-   * @returns {Object} - Major subdivisions that intersect with the viewport.
+   * Retrieves and identifies subdivisions that intersect with a given viewport bounding box.
    *
-   *  viewportBbox: {
-   *   minLon: number,
-   *   minLat: number,
-   *   maxLon: number,
-   *   maxLat: number
-   * }
-   */
+   * This asynchronous function fetches hierarchical subdivision data for a specified country,
+   * checks for intersections at both first and second subdivision levels, and returns structured
+   * data regarding the intersecting areas.
+   *
+   * Process Overview:
+   * 1. Constructs the URL for the country's first-level subdivision data.
+   * 2. Fetches and checks first-level subdivisions for intersection with the viewport.
+   * 3. For intersecting first-level subdivisions, constructs URLs for second-level data.
+   * 4. Checks second-level subdivisions for intersection and augments the results.
+   * 5. Builds and returns a comprehensive object of intersecting subdivisions.
+   *
+   * viewportBbox: {minLon: number, minLat: number, maxLon: number, maxLat: number}
+   *
+   * Error Handling:
+   * - Logs warnings if no first-level or second-level data are found.
+   * - Logs errors for issues with fetching or processing subdivisions.
+   *
+   * @param {string} countryCode - The ISO code of the country for subdivision data.
+   * @param {Object} viewportBbox - The bounding box of the viewport.
+   * @returns {Object} - An object containing intersecting subdivisions details.
+   **/
   wmeGisLBBOX.prototype.getIntersectingSubdivisions = async function (countryCode, viewportBbox) {
     const subdivisionsResult = {};
     const BASE_URL_BBOX = `https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/`;
@@ -457,19 +568,33 @@ var wmeGisLBBOX = (function () {
   };
 
   /**
-   * Finds and returns regions intersecting with the viewport, optionally using high-precision methods.
-   * @param {Object} viewportBbox - The bounding box of the viewport.
-   * @param {boolean} [highPrecision=false] - Flag to indicate if high precision is required.
-   * @param {boolean} [returnGeoJson=false] - Flag to indicate if GeoJON used for high precision should be returned.
-   * @returns {Object} - Results of intersecting regions structured by country, state, and county.
+   * Determines regions within the viewport by identifying intersecting countries and their subdivisions.
    *
-   *  viewportBbox: {
-   *   minLon: number,
-   *   minLat: number,
-   *   maxLon: number,
-   *   maxLat: number
-   * }
-   */
+   * This asynchronous function analyzes a given viewport bounding box to determine which countries
+   * and internal subdivisions, such as states and counties, are visible. It accommodates the USA
+   * specifically and uses different handling for other countries.
+   *
+   * Process Overview:
+   * 1. Fetches countries that intersect with the viewport.
+   * 2. If no intersecting countries are found, logs a warning.
+   * 3. For the USA, retrieves intersecting states and counties; for other countries, retrieves subdivisions.
+   * 4. Cleans up intersecting data to ensure only relevant information is retained.
+   * 5. Constructs a results object that maps visible countries to their intersecting subdivisions.
+   *
+   * Features:
+   * - Supports high precision checks using GeoJSON data if specified.
+   * - Integration of subdivision logic for both the USA and other countries.
+   *
+   * viewportBbox: {minLon: number, minLat: number, maxLon: number, maxLat: number}
+   *
+   * Error Handling:
+   * - Logs errors encountered during the fetching and processing of intersecting regions.
+   *
+   * @param {Object} viewportBbox - The bounding box defining the current viewport.
+   * @param {boolean} [highPrecision=false] - Flag to use high precision intersection checks.
+   * @param {boolean} [returnGeoJson=false] - Flag to determine if GeoJSON data should be returned.
+   * @returns {Object} - Structured results identifying regions within the viewport.
+   **/
   wmeGisLBBOX.prototype.whatsInView = async function (viewportBbox, highPrecision = false, returnGeoJson = false) {
     const results = {};
 
@@ -515,11 +640,23 @@ var wmeGisLBBOX = (function () {
   };
 
   /**
-   * Utility function to check if a point is inside a polygon using the ray-casting algorithm.
-   * @param {[number, number]} point - Point to check, given as [longitude, latitude].
-   * @param {Array} vs - Array of vertices that make up the polygon.
-   * @returns {boolean} - True if the point is inside the polygon; false otherwise.
-   */
+   * Determines if a given point is inside a polygon using the ray-casting algorithm.
+   *
+   * This function checks whether a point, defined by its coordinates, is inside a polygon.
+   * The polygon is represented by an array of vertices (points), and the function uses the
+   * ray-casting technique to toggle the state whenever the ray crosses a polygon edge.
+   *
+   * Process Overview:
+   * 1. Iterates over each edge of the polygon using vertex pairs (xi, yi) and (xj, yj).
+   * 2. Uses logical conditions to check if a horizontal ray extending from the point intersects
+   *    with the polygon's edge.
+   * 3. Toggles 'inside' state whenever an intersection is detected, flipping between true and false.
+   * 4. Returns the final 'inside' state, indicating whether the point lies within the polygon.
+   *
+   * @param {Array} point - An array [x, y] representing the coordinates of the point to test.
+   * @param {Array} vs - An array of vertices, where each vertex is represented as [x, y].
+   * @returns {boolean} - True if the point is inside the polygon, false otherwise.
+   **/
   function isPointInPolygon(point, vs) {
     const [x, y] = point;
     let inside = false;
@@ -533,13 +670,25 @@ var wmeGisLBBOX = (function () {
   }
 
   /**
-   * Utility function to detect and return the intersection point of two line segments, if they intersect.
-   * @param {[number, number]} p1 - Start of the first line segment.
-   * @param {[number, number]} p2 - End of the first line segment.
-   * @param {[number, number]} q1 - Start of the second line segment.
-   * @param {[number, number]} q2 - End of the second line segment.
-   * @returns {[number, number] | null} - Intersection point or null if no intersection exists.
-   */
+   * Calculates the intersection point, if any, between two line segments defined by endpoints.
+   *
+   * This function checks whether two line segments, one defined by (p1, p2) and the other by (q1, q2),
+   * intersect. The method utilizes linear algebra to derive intersection coordinates and subsequently
+   * verifies that the intersection falls within the bounds of both segments.
+   *
+   * Process Overview:
+   * 1. Computes coefficients for the line equations using segment endpoints.
+   * 2. Determines if the lines are parallel (denominator = 0), in which case no intersection exists.
+   * 3. Calculates potential intersection coordinates using determinant-based formulae.
+   * 4. Verifies if the intersection coordinates lie within the bounds of both line segments.
+   * 5. Returns the intersection point if valid, or null if no intersection exists within segment limits.
+   *
+   * @param {Array} p1 - [x, y] coordinates of the first endpoint of the first segment.
+   * @param {Array} p2 - [x, y] coordinates of the second endpoint of the first segment.
+   * @param {Array} q1 - [x, y] coordinates of the first endpoint of the second segment.
+   * @param {Array} q2 - [x, y] coordinates of the second endpoint of the second segment.
+   * @returns {Array|null} - [x, y] coordinates of the intersection point, or null if no intersection.
+   **/
   function segmentIntersection(p1, p2, q1, q2) {
     // Calculate coefficients
     const a1 = p2[1] - p1[1];
@@ -570,11 +719,25 @@ var wmeGisLBBOX = (function () {
   }
 
   /**
-   * Function to check if there is any intersection between two polygons.
-   * @param {Array} polygon1 - The first polygon as an array of vertices.
-   * @param {Array} polygon2 - The second polygon as an array of vertices.
-   * @returns {boolean} - True if an intersection exists; false otherwise.
-   */
+   * Checks for intersection between two polygons.
+   *
+   * This function determines if two polygons intersect by examining:
+   * 1. If any edges from `polygon1` intersect with any edges from `polygon2`.
+   * 2. If any point from `polygon1` is contained within `polygon2`.
+   * 3. If any point from `polygon2` is contained within `polygon1`.
+   *
+   * The function uses helper methods `segmentIntersection` to check edge intersections
+   * and `isPointInPolygon` to evaluate point containment.
+   *
+   * Process Overview:
+   * - Iterates over edges of both polygons, checking for intersection using the `segmentIntersection` function.
+   * - Verifies point containment using the `isPointInPolygon` function to see if any point from one polygon is inside the other.
+   * - Returns true if any intersection or containment is found; otherwise, returns false.
+   *
+   * @param {Array} polygon1 - An array of points defining the first polygon, where each point is an {x, y} object.
+   * @param {Array} polygon2 - An array of points defining the second polygon, where each point is an {x, y} object.
+   * @returns {boolean} - True if an intersection or containment is found between the polygons, false otherwise.
+   **/
   function hasIntersection(polygon1, polygon2) {
     // Check each edge of polygon1 against each edge of polygon2
     for (let i = 0; i < polygon1.length - 1; i++) {
