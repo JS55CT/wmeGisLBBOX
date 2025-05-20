@@ -1,5 +1,12 @@
-{
-  "USA": {
+{ 
+  "CAN": {
+    "name": "Canada",
+    "id": "CAN",
+    "ISO_ALPHA2": "CA",
+    "ISO_ALPHA3": "CAN",
+    "bbox": [{ "minLon": -141.018073157628, "minLat": 41.6814354249861, "maxLon": -52.6194085038461, "maxLat": 83.1355025243594 }]
+  },
+    "USA": {
     "name": "United States",
     "id": "USA",
     "ISO_ALPHA2": "US",
@@ -15,11 +22,11 @@
       { "minLon": -65.154118, "minLat": 17.623468, "maxLon": -64.512674, "maxLat": 18.464984 }
     ]
   },
-  "CAN": {
-    "name": "Canada",
-    "id": "CAN",
-    "ISO_ALPHA2": "CA",
-    "ISO_ALPHA3": "CAN",
-    "bbox": [{ "minLon": -141.018073157628, "minLat": 41.6814354249861, "maxLon": -52.6194085038461, "maxLat": 83.1355025243594 }]
+    "KEN": {
+      "name": "Kenya",
+      "id": "KEN",
+      "ISO_ALPHA2": "KE",
+      "ISO_ALPHA3": "KEN",
+      "bbox": [{ "minLon": 33.9102886550, "minLat": -4.6768798830, "maxLon": 41.9060214590, "maxLat": 5.4141235350 }]
   }
 }
