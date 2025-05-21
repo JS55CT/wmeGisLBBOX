@@ -1,0 +1,90 @@
+{
+  "QAT001": {
+    "name": "Al Daayen",
+    "sub_id": "QAT001",
+    "sub_num": "01",
+    "bbox": {
+      "minLon": 51.402547977,
+      "minLat": 25.364151229,
+      "maxLon": 51.594085014,
+      "maxLat": 25.654403259
+    }
+  },
+  "QAT002": {
+    "name": "Al Khor and Al Thakhira",
+    "sub_id": "QAT002",
+    "sub_num": "02",
+    "bbox": {
+      "minLon": 50.956187915,
+      "minLat": 25.557670174,
+      "maxLon": 51.661901723,
+      "maxLat": 25.967445947
+    }
+  },
+  "QAT003": {
+    "name": "Al Rayyan",
+    "sub_id": "QAT003",
+    "sub_num": "03",
+    "bbox": {
+      "minLon": 50.796333661,
+      "minLat": 24.470436239,
+      "maxLon": 51.541850202,
+      "maxLat": 25.389524008
+    }
+  },
+  "QAT004": {
+    "name": "Al Shamal",
+    "sub_id": "QAT004",
+    "sub_num": "04",
+    "bbox": {
+      "minLon": 50.959378206,
+      "minLat": 25.844445328,
+      "maxLon": 51.640997501,
+      "maxLat": 26.584266595
+    }
+  },
+  "QAT005": {
+    "name": "Al Wakra",
+    "sub_id": "QAT005",
+    "sub_num": "05",
+    "bbox": {
+      "minLon": 51.088015605,
+      "minLat": 24.474631788,
+      "maxLon": 51.662167423,
+      "maxLat": 25.218316152
+    }
+  },
+  "QAT006": {
+    "name": "Doha",
+    "sub_id": "QAT006",
+    "sub_num": "06",
+    "bbox": {
+      "minLon": 51.39656928,
+      "minLat": 25.149894835,
+      "maxLon": 51.648081936,
+      "maxLat": 25.392262264
+    }
+  },
+  "QAT007": {
+    "name": "Umm Slal",
+    "sub_id": "QAT007",
+    "sub_num": "07",
+    "bbox": {
+      "minLon": 51.255500937,
+      "minLat": 25.341092197,
+      "maxLon": 51.451649642,
+      "maxLat": 25.588976337
+    }
+  },
+    "QAT008": {
+    "name": "Al Sheehaniya",
+    "sub_id": "QAT008",
+    "sub_num": "08",
+    "bbox": {
+      "minLon": 50.733405486,
+      "minLat": 25.080924948,
+      "maxLon": 51.328151236,
+      "maxLat": 25.80779803
+    }
+  }
+}
