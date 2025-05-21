@@ -28,5 +28,12 @@
       "ISO_ALPHA2": "KE",
       "ISO_ALPHA3": "KEN",
       "bbox": [{ "minLon": 33.9102886550, "minLat": -4.6768798830, "maxLon": 41.9060214590, "maxLat": 5.4141235350 }]
+  },
+    "QAR": {
+      "name": "Qatar",
+      "id": "QAR",
+      "ISO_ALPHA2": "QA",
+      "ISO_ALPHA3": "QAR",
+      "bbox": [{ "minLon": 50.7334054860, "minLat": 24.4704362390, "maxLon": 51.6621674230, "maxLat": 26.5842665950 }]
   }
 }
