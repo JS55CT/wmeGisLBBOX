@@ -2,7 +2,7 @@
 // @name                wmeGisLBBOX
 // @namespace           https://github.com/JS55CT
 // @description         Determines which geographical divisions view a Viewport intersect with the given BBOX.
-// @version             2.1.0
+// @version             2.5.0
 // @license             MIT
 // @grant               GM_xmlhttpRequest
 // @connect             github.io
@@ -88,13 +88,10 @@ var wmeGisLBBOX = (function () {
     if (!latIntersects) {
       return false;
     }
-
     // Check for Longitude Intersection
     const bbox1Wraps = bbox1.minLon > bbox1.maxLon;
     const bbox2Wraps = bbox2.minLon > bbox2.maxLon;
-
     let lonIntersects = false;
-
     if (!bbox1Wraps && !bbox2Wraps) {
       // Neither box wraps the antimeridian - standard overlap check
       lonIntersects = !(bbox1.maxLon < bbox2.minLon || bbox1.minLon > bbox2.maxLon);
@@ -107,12 +104,9 @@ var wmeGisLBBOX = (function () {
       const separated = bbox2.maxLon < bbox1.minLon && bbox2.minLon > bbox1.maxLon;
       lonIntersects = !separated;
     } else {
-      // Both boxes wrap the antimeridian
-      lonIntersects = true;
+      lonIntersects = true; // Both boxes wrap the antimeridian
     }
-
-    // Return true if both latitude and longitude intersect
-    return lonIntersects;
+    return lonIntersects; // Return true if both latitude and longitude intersect
   }
 
   /**
@@ -135,9 +129,8 @@ var wmeGisLBBOX = (function () {
    * @param {Object} viewportBbox - The bounding box defining the current viewport.
    * @returns {Array} - An array of objects representing countries intersecting with the viewport.
    **/
-  wmeGisLBBOX.prototype.getIntersectingCountries = function (viewportBbox) {
+  wmeGisLBBOX.prototype.getIntersectingCountries = async function (viewportBbox) {
     const url = "https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
-
     return this.fetchJsonWithCache(url)
       .then((COUNTRY_DATA) => {
         const intersectingCountries = Object.keys(COUNTRY_DATA).flatMap((code) => {
@@ -149,6 +142,7 @@ var wmeGisLBBOX = (function () {
                   ISO_ALPHA2: countryData["ISO_ALPHA2"],
                   ISO_ALPHA3: countryData["ISO_ALPHA3"],
                   name: countryData["name"],
+                  Sub_level: countryData["Sub_level"],
                   source: "BBOX",
                 },
               ];
@@ -191,99 +185,99 @@ var wmeGisLBBOX = (function () {
   wmeGisLBBOX.prototype.getCountriesAndSubsJson = async function () {
     const url = "https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
     const BASE_URL_BBOX = `https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/`;
+    const funcName = "getCountriesAndSubsJson";
 
     try {
       // Fetch the country data
       const COUNTRY_DATA = await this.fetchJsonWithCache(url);
 
+      if (!COUNTRY_DATA) {
+        console.warn(`${funcName}: No country data found.`);
+        return {};
+      }
       // Iterate over each country to fetch and add subdivision data
       for (const countryCode in COUNTRY_DATA) {
         if (COUNTRY_DATA.hasOwnProperty(countryCode)) {
           // Fetch the first-level subdivision data for the country
           const isoAlpha3 = COUNTRY_DATA[countryCode].ISO_ALPHA3;
           const subL1Url = `${BASE_URL_BBOX}${isoAlpha3}/${isoAlpha3}_BBOX_ESPG4326.json`;
-
           try {
             const subL1Data = await this.fetchJsonWithCache(subL1Url);
-            // Add subdivisions to the country data
-            COUNTRY_DATA[countryCode].subL1 = subL1Data;
+            if (!subL1Data) {
+              COUNTRY_DATA[countryCode].subL1 = {}; // Initialize as empty object if no data is found
+            } else {
+              // Add subdivisions to the country data
+              COUNTRY_DATA[countryCode].subL1 = subL1Data;
+            }
           } catch (subError) {
-            console.error(`Error fetching subdivisions for ${countryCode}:`, subError);
+            COUNTRY_DATA[countryCode].subL1 = {}; // Safely initialize as empty object in case of error
           }
         }
       }
-
       return COUNTRY_DATA;
     } catch (error) {
-      console.error(`Error fetching country data:`, error);
+      console.warn(`${funcName}: Error fetching country data:`, error);
       return {};
     }
   };
 
   /**
-   * Cleans intersecting country data by removing empty subdivisions.
+   * Cleans intersecting country data by pruning empty subdivisions across different levels.
    *
-   * This function processes country data that intersects with a given area,
-   * specifically handling the hierarchical subdivision structures and
-   * removing any empty or null subdivisions.
+   * This function processes country data that intersects with a given geographic area,
+   * handling hierarchical subdivision structures and removing any empty or null subdivisions.
+   * It dynamically adapts to the subdivision level identified for each country.
    *
    * Process Overview:
-   * 1. Iterates through country data identified as intersecting.
-   * 2. Applies specific cleaning logic for USA subdivisions.
-   * 3. Applies general cleaning logic for non-USA subdivisions.
-   * 4. Recursively removes subdivisions that are empty to ensure only
-   *    relevant and populated data remains.
+   * 1. Iterates through intersecting country data.
+   * 2. Applies cleaning logic based on subdivision levels (subLevel) present.
+   * 3. Specifically handles multi-level subdivisions, including special logic for deep levels.
+   * 4. Recursively prunes subdivisions that lack content, ensuring only relevant data remains.
    *
-   * Cleaning Logic:
-   * - For the USA, removes third-level subdivisions if they are empty.
-   * - For other countries, only removes subdivisions if they have no content.
-   * - Additionally, removes any country entry if it results in having no subdivisions.
+   * Cleaning Logic by Subdivision Level:
+   * - Sub_Level = 1: Retains countries and sub-level 1 if they contain valid subdivisions.
+   * - Sub_Level = 2: Further inspects sub-level 2; if empty, removes it and reveals sub-level 1 if needed.
+   * - Sub_Level = 3: Examines sub-level 3 within applicable countries, removing them if empty and ensuring sub-level 2 remains relevant.
+   * - Undetected or Sub_Level = 0: Completely removes countries with unidentified subdivisions.
    *
    * @param {Object} intersectingCountries - Object containing intersecting country data.
    *
-   * Modifies:
-   * - Directly alters the `intersectingCountries` object by pruning empty subdivisions.
-   **/
+   * Modifications:
+   * - Directly alters the `intersectingCountries` object by removing empty subdivisions.
+   * - Ensures structural integrity by retaining populated subdivisions and appropriate country entries.
+   */
   wmeGisLBBOX.prototype.cleanIntersectingData = function (intersectingCountries) {
     for (const countryName in intersectingCountries) {
       const country = intersectingCountries[countryName];
-
-      if (country.ISO_ALPHA3 === "USA") {
-        // US specific logic
+      const subLevel = country.Sub_level || 0; // Default to 0 if Sub_level is not provided
+      // Handle Sub_level = 0: Return the country directly
+      if (subLevel === 0) {
+        continue; // This means we should retain the country as is without further checks
+      }
+      // Proceed with cleanup based on sub-level hierarchy
+      if (subLevel >= 3) {
         for (const sub1Name in country.subL1) {
           const subL1 = country.subL1[sub1Name];
-
-          for (const subL2Name in subL1.subL2) {
-            const subL2 = subL1.subL2[subL2Name];
-
+          for (const sub2Name in subL1.subL2) {
+            const subL2 = subL1.subL2[sub2Name];
             if (!subL2.subL3 || Object.keys(subL2.subL3).length === 0) {
-              delete subL1.subL2[subL2Name];
+              delete subL1.subL2[sub2Name];
             }
-          }
-
-          if (!subL1.subL2 || Object.keys(subL1.subL2).length === 0) {
-            delete country.subL1[sub1Name];
           }
         }
-      } else {
-        // Non-US specific logic
+      }
+      if (subLevel >= 2) {
         for (const sub1Name in country.subL1) {
           const subL1 = country.subL1[sub1Name];
-
-          for (const subL2Name in subL1.subL2) {
-            if (!subL1.subL2[subL2Name] || Object.keys(subL1.subL2[subL2Name]).length === 0) {
-              delete subL1.subL2[subL2Name];
-            }
-          }
-
           if (!subL1.subL2 || Object.keys(subL1.subL2).length === 0) {
             delete country.subL1[sub1Name];
           }
         }
       }
-
-      if (!country.subL1 || Object.keys(country.subL1).length === 0) {
-        delete intersectingCountries[countryName];
+      if (subLevel >= 1) {
+        if (!country.subL1 || Object.keys(country.subL1).length === 0) {
+          delete intersectingCountries[countryName];
+        }
       }
     }
   };
@@ -325,20 +319,18 @@ var wmeGisLBBOX = (function () {
 
     try {
       const geoJsonData = await this.fetchJsonWithCache(url);
-
       // Define the viewport as a polygon.
       const viewportPolygon = [
         [viewportBbox.minLon, viewportBbox.minLat],
         [viewportBbox.minLon, viewportBbox.maxLat],
         [viewportBbox.maxLon, viewportBbox.maxLat],
         [viewportBbox.maxLon, viewportBbox.minLat],
-        [viewportBbox.minLon, viewportBbox.minLat], // Close the polygon
+        [viewportBbox.minLon, viewportBbox.minLat],
       ];
 
       // Iterate through each feature in the GeoJSON data
       for (const feature of geoJsonData.features) {
         const featureGeometry = feature.geometry;
-
         // Check if the geometry type is Polygon or MultiPolygon
         if (featureGeometry.type === "Polygon") {
           for (const polygon of featureGeometry.coordinates) {
@@ -359,7 +351,6 @@ var wmeGisLBBOX = (function () {
           continue; // Skip unsupported geometry types
         }
       }
-
       return false; // No intersection found
     } catch (error) {
       console.error(`${funcName}: Error fetching or processing GeoJSON from ${url}:`, error);
@@ -402,19 +393,15 @@ var wmeGisLBBOX = (function () {
 
     try {
       const US_States = await this.fetchJsonWithCache(STATES_URL);
-
       for (const stateCode in US_States) {
         const stateData = US_States[stateCode];
-
         if (checkIntersection(stateData.bbox, viewportBbox)) {
           const intersectingCounties = {};
           const countiesUrl = `${BASE_URL_BBOX}/USA-${stateCode}_BBOX_ESPG4326.json`; //JS55CT
           const countiesData = await this.fetchJsonWithCache(countiesUrl);
-
           for (const countyEntry of countiesData) {
             const countyName = Object.keys(countyEntry)[0];
             const countyData = countyEntry[countyName];
-
             if (checkIntersection(countyData.bbox, viewportBbox)) {
               const intersectingSubCounties = countyData.subdivisions
                 .filter((sub) => sub.bbox && checkIntersection(sub.bbox, viewportBbox))
@@ -425,14 +412,11 @@ var wmeGisLBBOX = (function () {
                   };
                   return acc;
                 }, {});
-
               if (Object.keys(intersectingSubCounties).length > 0) {
                 let source = "BBOX";
                 let geoJsonData = null;
-
                 if (highPrecision) {
                   const intersectsGeoJson = await this.fetchAndCheckGeoJsonIntersection("USA", stateCode, countyData.sub_num, viewportBbox, returnGeoJson);
-
                   if (returnGeoJson && intersectsGeoJson) {
                     geoJsonData = intersectsGeoJson;
                     source = "GEOJSON";
@@ -442,20 +426,17 @@ var wmeGisLBBOX = (function () {
                     continue;
                   }
                 }
-
                 intersectingCounties[countyName] = {
                   subL2_num: countyData.sub_num,
                   subL3: intersectingSubCounties,
                   source: source,
                 };
-
                 if (geoJsonData) {
                   intersectingCounties[countyName].geoJsonData = geoJsonData;
                 }
               }
             }
           }
-
           if (Object.keys(intersectingCounties).length > 0) {
             let stateSource = "BBOX";
             if (highPrecision) {
@@ -476,93 +457,97 @@ var wmeGisLBBOX = (function () {
     } catch (error) {
       console.error(`${funcName}: Failed to fetch or process data:`, error);
     }
-
     return intersectingRegions;
   };
 
   /**
    * Retrieves and identifies subdivisions that intersect with a given viewport bounding box.
    *
-   * This asynchronous function fetches hierarchical subdivision data for a specified country,
-   * checks for intersections at both first and second subdivision levels, and returns structured
-   * data regarding the intersecting areas.
+   * This asynchronous function fetches hierarchical subdivision data for a specified country based
+   * on the subdivisions level (`Sub_level`). It checks for intersections at both first and second subdivision levels
+   * (if applicable) and returns structured data detailing the intersecting areas.
    *
    * Process Overview:
    * 1. Constructs the URL for the country's first-level subdivision data.
    * 2. Fetches and checks first-level subdivisions for intersection with the viewport.
-   * 3. For intersecting first-level subdivisions, constructs URLs for second-level data.
-   * 4. Checks second-level subdivisions for intersection and augments the results.
+   * 3. For intersecting first-level subdivisions and if `Sub_level` is 2, constructs URLs for second-level data.
+   * 4. Checks second-level subdivisions for intersection and integrate results into the output.
    * 5. Builds and returns a comprehensive object of intersecting subdivisions.
    *
-   * viewportBbox: {minLon: number, minLat: number, maxLon: number, maxLat: number}
+   * Parameters:
+   * - `viewportBbox`: {minLon: number, minLat: number, maxLon: number, maxLat: number}
+   * Represents the geographic viewport for intersection checks.
    *
    * Error Handling:
    * - Logs warnings if no first-level or second-level data are found.
    * - Logs errors for issues with fetching or processing subdivisions.
    *
-   * @param {string} countryCode - The ISO code of the country for subdivision data.
-   * @param {Object} viewportBbox - The bounding box of the viewport.
-   * @returns {Object} - An object containing intersecting subdivisions details.
-   **/
-  wmeGisLBBOX.prototype.getIntersectingSubdivisions = async function (countryCode, viewportBbox) {
+   * @param {Object} countryObj - An object containing details about the country, including ISO code and Sub_level.
+   * @param {Object} viewportBbox - The bounding box of the viewport to check against.
+   * @returns {Object} - An object containing details of intersecting subdivisions, organized by hierarchy.
+   */
+  wmeGisLBBOX.prototype.getIntersectingSubdivisions = async function (countryObj, viewportBbox) {
     const subdivisionsResult = {};
     const BASE_URL_BBOX = `https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/`;
+    const countryCode = countryObj.ISO_ALPHA3;
     const subL1Url = `${BASE_URL_BBOX}${countryCode}/${countryCode}_BBOX_ESPG4326.json`;
-
+    const funcName = "getIntersectingSubdivisions";
     try {
-      // Fetch the country's first-level subdivision data
-      const subL1Data = await this.fetchJsonWithCache(subL1Url);
-
-      // Verify there's valid country data
-      if (subL1Data) {
+      // Check Sub_Level to decide how to handle subdivisions
+      if (!countryObj.Sub_level) {
+        return subdivisionsResult; // Return {} if Sub_Level is 0 or undefined
+      }
+      if (countryObj.Sub_level >= 1) {
+        // Fetch first-level subdivision data
+        const subL1Data = await this.fetchJsonWithCache(subL1Url);
+        if (!subL1Data) {
+          console.warn(`${funcName}: No first-level subdivision data found for country code: ${countryCode}`);
+          return subdivisionsResult;
+        }
         for (const subdivisionID in subL1Data) {
           const subdivision = subL1Data[subdivisionID];
-
-          // Only proceed to the second-level check if first-level intersects
+          // Check intersection for first-level subdivisions
           if (checkIntersection(subdivision.bbox, viewportBbox)) {
             const subdivisionName = subdivision["name"];
-
-            // Initialize results for this subdivision, using the name as the key
+            // Initialize data for this subdivision
             subdivisionsResult[subdivisionName] = {
               subL1_num: subdivision["sub_num"],
               subL1_id: subdivisionID,
               source: "BBOX",
-              subL2: {}, // To store second-level subdivisions
+              subL2: {}, // Placeholder for second-level subdivisions
             };
-
-            // Construct sub-division level 2 URL
-            const subL2Url = `${BASE_URL_BBOX}${countryCode}/${countryCode}-${subdivisionID}_BBOX_ESPG4326.json`;
-
-            // Fetch sub-division level 2 data
-            const subL2Data = await this.fetchJsonWithCache(subL2Url);
-
-            if (subL2Data) {
-              // Iterate over the second-level subdivisions
-              for (const subsubDivision of subL2Data) {
-                const subsubID = Object.keys(subsubDivision)[0];
-                const subsub = subsubDivision[subsubID];
-
-                // Check intersection with second-level subdivisions
-                if (checkIntersection(subsub.bbox, viewportBbox)) {
-                  const subsubName = subsub["name"];
-
-                  // Add intersecting subdivisions to the result, using the name as the key
-                  subdivisionsResult[subdivisionName].subL2[subsubName] = {
-                    subL2_num: subsub["sub_num"],
-                    source: "BBOX",
-                  };
+            // If Sub_Level is 2, fetch second-level subdivision data
+            if (countryObj.Sub_level === 2) {
+              const subL2Url = `${BASE_URL_BBOX}${countryCode}/${countryCode}-${subdivisionID}_BBOX_ESPG4326.json`;
+              try {
+                const subL2Data = await this.fetchJsonWithCache(subL2Url);
+                if (!subL2Data) {
+                  console.warn(`${funcName}: No second-level subdivision data found for ${subdivisionName} (${subdivisionID}) in country: ${countryCode}`);
+                } else {
+                  // Process second-level subdivisions
+                  for (const subsubDivision of subL2Data) {
+                    const subsubID = Object.keys(subsubDivision)[0];
+                    const subsub = subsubDivision[subsubID];
+                    // Check intersection for second-level subdivisions
+                    if (checkIntersection(subsub.bbox, viewportBbox)) {
+                      const subsubName = subsub["name"];
+                      // Add intersecting second-level subdivisions
+                      subdivisionsResult[subdivisionName].subL2[subsubName] = {
+                        subL2_num: subsub["sub_num"],
+                        source: "BBOX",
+                      };
+                    }
+                  }
                 }
+              } catch (subError) {
+                console.warn(`${funcName}: Error fetching second-level data for ${subdivisionName} (${subdivisionID}) in country: ${countryCode} - ${subError.message}`);
               }
-            } else {
-              console.warn(`${funcName}: No sub-division L2 data found for ${subdivisionID} in country: ${countryCode}`);
-            }
+            } // End of Sub_Level 2 check
           }
         }
-      } else {
-        console.warn(`${funcName}: No first-level subdivision data found for country code: ${countryCode}`);
       }
     } catch (error) {
-      console.error(`${funcName}: Error fetching or processing subdivisions for country code: ${countryCode}`, error);
+      console.error(`${funcName}: Error fetching or processing subdivisions for country code ${countryCode} - ${error.message}`);
     }
     return subdivisionsResult;
   };
@@ -597,47 +582,56 @@ var wmeGisLBBOX = (function () {
    **/
   wmeGisLBBOX.prototype.whatsInView = async function (viewportBbox, highPrecision = false, returnGeoJson = false) {
     const results = {};
-
+    const funcName = "whatsInView";
     try {
-      const countries = await this.getIntersectingCountries(viewportBbox);
-
-      if (!countries.length) {
-        console.warn(`${funcName}: Viewport does not intersect with any known countries.`);
-        return results;
-      }
-
-      for (const country of countries) {
-        if (country.ISO_ALPHA3 === "USA") {
-          // Fetch intersecting states and counties for the US
-          const statesAndCounties = await this.getIntersectingStatesAndCounties(viewportBbox, highPrecision, returnGeoJson);
-
-          if (statesAndCounties && Object.keys(statesAndCounties).length > 0) {
-            results[country.name] = {
-              ISO_ALPHA2: country.ISO_ALPHA2,
-              ISO_ALPHA3: country.ISO_ALPHA3,
-              subL1: statesAndCounties,
-            };
-            this.cleanIntersectingData(results);
-          }
-        } else {
-          // Handle subdivisions for other countries
-          const subdivisions = await this.getIntersectingSubdivisions(country.ISO_ALPHA3, viewportBbox);
-
-          if (subdivisions && Object.keys(subdivisions).length > 0) {
-            results[country.name] = {
-              ISO_ALPHA2: country.ISO_ALPHA2,
-              ISO_ALPHA3: country.ISO_ALPHA3,
-              subL1: subdivisions, // Attach subdivisions if they exist
-            };
-            this.cleanIntersectingData(results);
-          }
+        const countries = await this.getIntersectingCountries(viewportBbox);
+        if (!countries || Object.keys(countries).length === 0) {
+            console.warn(`${funcName}: Viewport does not intersect with any known countries.`);
+            return results;
         }
-      }
+        for (const countryCode in countries) {
+            const country = countries[countryCode];
+            // Handle the case when Sub_level is 0
+            if (country.Sub_level === 0) {
+                results[country.name] = {
+                    ISO_ALPHA2: country.ISO_ALPHA2,
+                    ISO_ALPHA3: country.ISO_ALPHA3,
+                    Sub_level: country.Sub_level,
+                    source: country.source,
+                    subL1: {}, // Leave subL1 empty when Sub_level is 0
+                };
+                continue;
+            }
+            if (country.ISO_ALPHA3 === "USA") {
+                const statesAndCounties = await this.getIntersectingStatesAndCounties(viewportBbox, highPrecision, returnGeoJson);
+                if (statesAndCounties && Object.keys(statesAndCounties).length > 0) {
+                    results[country.name] = {
+                        ISO_ALPHA2: country.ISO_ALPHA2,
+                        ISO_ALPHA3: country.ISO_ALPHA3,
+                        Sub_level: country.Sub_level,
+                        subL1: statesAndCounties,
+                    };
+                    this.cleanIntersectingData(results);
+                }
+            } else {
+                const subdivisions = await this.getIntersectingSubdivisions(country, viewportBbox);
+                if (subdivisions && Object.keys(subdivisions).length > 0) {
+                    results[country.name] = {
+                        ISO_ALPHA2: country.ISO_ALPHA2,
+                        ISO_ALPHA3: country.ISO_ALPHA3,
+                        Sub_level: country.Sub_level,
+                        subL1: subdivisions,
+                    };
+                    this.cleanIntersectingData(results);
+                }
+            }
+        }
     } catch (error) {
-      console.error(`${funcName}: Error during finding intersecting regions:`, error);
+        console.error(`${funcName}: Error during finding intersecting regions:`, error);
     }
     return results;
-  };
+};
+
 
   /**
    * Determines if a given point is inside a polygon using the ray-casting algorithm.
