@@ -4,10 +4,9 @@
 // @description         Displays a popup with geographic information for the visible map region in Waze Map Editor.
 // @version             2.1.0
 // @author              JS55CT
-// @match               https://www.waze.com/*/editor*
-// @match               https://www.waze.com/editor*
-// @match               https://beta.waze.com/*
-// @exclude             https://www.waze.com/*user/*editor/*
+// @match               *://*.waze.com/*editor*
+// @exclude             *://*.waze.com/user/editor*
+// @exclude             *://*.waze.com/editor/sdk/*
 // @require             https://greasyfork.org/scripts/24851-wazewrap/code/WazeWrap.js
 // @require             https://js55ct.github.io/wmeGisLBBOX/wmeGisLBBOX.js
 // @connect             github.io

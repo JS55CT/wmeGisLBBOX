@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                wmeGisLBBOX
 // @namespace           https://github.com/JS55CT
-// @description         Determines which geographical divisions view a Viewport intersect with the given BBOX.
+// @description         Determines which geographical divisions are in a Viewport intersect with the given BBOX.
 // @version             2.5.1
 // @license             MIT
 // @grant               GM_xmlhttpRequest
