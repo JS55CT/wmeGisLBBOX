@@ -22,7 +22,7 @@
         },
         {
           "sub_num": "00000",
-          "name": "Municipality subdivision not defined",
+          "name": "Subdivision not defined",
           "bbox": {
             "minLon": 145.058053,
             "minLat": 14.036565,
@@ -56,7 +56,7 @@
         },
         {
           "sub_num": "00000",
-          "name": "Municipality subdivision not defined",
+          "name": "Subdivision not defined",
           "bbox": {
             "minLon": 145.467848,
             "minLat": 14.772689,
@@ -80,7 +80,7 @@
       "subdivisions": [
         {
           "sub_num": "00000",
-          "name": "Municipality subdivision not defined",
+          "name": "Subdivision not defined",
           "bbox": {
             "minLon": 144.813338,
             "minLat": 15.947893,
@@ -154,7 +154,7 @@
         },
         {
           "sub_num": "00000",
-          "name": "Municipality subdivision not defined",
+          "name": "Subdivision not defined",
           "bbox": {
             "minLon": 145.572603,
             "minLat": 15.022906,

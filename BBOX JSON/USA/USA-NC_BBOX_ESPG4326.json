@@ -156,7 +156,7 @@
       "subdivisions": [
         {
           "sub_num": "93704",
-          "name": "11, Pleasant Grove",
+          "name": "Pleasant Grove",
           "bbox": {
             "minLon": -79.367073,
             "minLat": 36.137279,
@@ -166,7 +166,7 @@
         },
         {
           "sub_num": "93732",
-          "name": "13, Haw River",
+          "name": "Haw River",
           "bbox": {
             "minLon": -79.385749,
             "minLat": 36.043622,
@@ -176,7 +176,7 @@
         },
         {
           "sub_num": "93368",
-          "name": "3, Boone Station",
+          "name": "Boone Station",
           "bbox": {
             "minLon": -79.539412,
             "minLat": 36.034446,
@@ -186,7 +186,7 @@
         },
         {
           "sub_num": "93328",
-          "name": "2, Coble",
+          "name": "Coble",
           "bbox": {
             "minLon": -79.54039,
             "minLat": 35.960426,
@@ -196,7 +196,7 @@
         },
         {
           "sub_num": "93476",
-          "name": "5, Faucette",
+          "name": "Faucette",
           "bbox": {
             "minLon": -79.44268,
             "minLat": 36.104823,
@@ -206,7 +206,7 @@
         },
         {
           "sub_num": "93608",
-          "name": "8, Newlin",
+          "name": "Newlin",
           "bbox": {
             "minLon": -79.432778,
             "minLat": 35.843684,
@@ -216,7 +216,7 @@
         },
         {
           "sub_num": "93292",
-          "name": "1, Patterson",
+          "name": "Patterson",
           "bbox": {
             "minLon": -79.542428,
             "minLat": 35.843303,
@@ -226,7 +226,7 @@
         },
         {
           "sub_num": "93656",
-          "name": "9, Thompson",
+          "name": "Thompson",
           "bbox": {
             "minLon": -79.369171,
             "minLat": 35.909067,
@@ -246,7 +246,7 @@
         },
         {
           "sub_num": "93520",
-          "name": "6, Graham",
+          "name": "Graham",
           "bbox": {
             "minLon": -79.440702,
             "minLat": 36.016314,
@@ -256,7 +256,7 @@
         },
         {
           "sub_num": "93556",
-          "name": "7, Albright",
+          "name": "Albright",
           "bbox": {
             "minLon": -79.432659,
             "minLat": 35.949405,
@@ -266,7 +266,7 @@
         },
         {
           "sub_num": "93684",
-          "name": "10, Melville",
+          "name": "Melville",
           "bbox": {
             "minLon": -79.368033,
             "minLat": 36.034706,
@@ -276,7 +276,7 @@
         },
         {
           "sub_num": "93712",
-          "name": "12, Burlington",
+          "name": "Burlington",
           "bbox": {
             "minLon": -79.488381,
             "minLat": 36.028255,
@@ -1288,7 +1288,7 @@
       "subdivisions": [
         {
           "sub_num": "93500",
-          "name": "5, Walnut",
+          "name": "Walnut",
           "bbox": {
             "minLon": -82.84047,
             "minLat": 35.746066,
@@ -1298,7 +1298,7 @@
         },
         {
           "sub_num": "93624",
-          "name": "8, Spring Creek",
+          "name": "Spring Creek",
           "bbox": {
             "minLon": -82.9629,
             "minLat": 35.678128,
@@ -1308,7 +1308,7 @@
         },
         {
           "sub_num": "93706",
-          "name": "11, Revere-Rice Cove",
+          "name": "Revere-Rice Cove",
           "bbox": {
             "minLon": -82.76137,
             "minLat": 35.879058,
@@ -1318,7 +1318,7 @@
         },
         {
           "sub_num": "93298",
-          "name": "1, South Marshall",
+          "name": "South Marshall",
           "bbox": {
             "minLon": -82.825022,
             "minLat": 35.725754,
@@ -1328,7 +1328,7 @@
         },
         {
           "sub_num": "93528",
-          "name": "6, Hot Springs",
+          "name": "Hot Springs",
           "bbox": {
             "minLon": -82.921452,
             "minLat": 35.832766,
@@ -1338,7 +1338,7 @@
         },
         {
           "sub_num": "93654",
-          "name": "9, Sandy Mush",
+          "name": "Sandy Mush",
           "bbox": {
             "minLon": -82.846884,
             "minLat": 35.685781,
@@ -1348,7 +1348,7 @@
         },
         {
           "sub_num": "93340",
-          "name": "2, Laurel",
+          "name": "Laurel",
           "bbox": {
             "minLon": -82.788542,
             "minLat": 35.893718,
@@ -1358,7 +1358,7 @@
         },
         {
           "sub_num": "93376",
-          "name": "3, Mars Hill",
+          "name": "Mars Hill",
           "bbox": {
             "minLon": -82.637819,
             "minLat": 35.763165,
@@ -1368,7 +1368,7 @@
         },
         {
           "sub_num": "93290",
-          "name": "1, North Marshall",
+          "name": "North Marshall",
           "bbox": {
             "minLon": -82.719894,
             "minLat": 35.73778,
@@ -1378,7 +1378,7 @@
         },
         {
           "sub_num": "93416",
-          "name": "4, Beech Glenn",
+          "name": "Beech Glenn",
           "bbox": {
             "minLon": -82.555307,
             "minLat": 35.798303,
@@ -1388,7 +1388,7 @@
         },
         {
           "sub_num": "93568",
-          "name": "7, Ebbs Chapel",
+          "name": "Ebbs Chapel",
           "bbox": {
             "minLon": -82.643151,
             "minLat": 35.88515,
@@ -1398,7 +1398,7 @@
         },
         {
           "sub_num": "93660",
-          "name": "10, Grapevine",
+          "name": "Grapevine",
           "bbox": {
             "minLon": -82.651118,
             "minLat": 35.81126,
@@ -2270,7 +2270,7 @@
       "subdivisions": [
         {
           "sub_num": "93488",
-          "name": "5, New Gilead",
+          "name": "New Gilead",
           "bbox": {
             "minLon": -80.586368,
             "minLat": 35.414524,
@@ -2280,7 +2280,7 @@
         },
         {
           "sub_num": "93532",
-          "name": "6, Rimertown",
+          "name": "Rimertown",
           "bbox": {
             "minLon": -80.512285,
             "minLat": 35.428317,
@@ -2290,7 +2290,7 @@
         },
         {
           "sub_num": "93572",
-          "name": "7, Gold Hill",
+          "name": "Gold Hill",
           "bbox": {
             "minLon": -80.418706,
             "minLat": 35.419523,
@@ -2300,7 +2300,7 @@
         },
         {
           "sub_num": "93644",
-          "name": "9, Georgeville",
+          "name": "Georgeville",
           "bbox": {
             "minLon": -80.514102,
             "minLat": 35.275719,
@@ -2310,7 +2310,7 @@
         },
         {
           "sub_num": "93356",
-          "name": "2, Poplar Tent",
+          "name": "Poplar Tent",
           "bbox": {
             "minLon": -80.764295,
             "minLat": 35.330702,
@@ -2330,7 +2330,7 @@
         },
         {
           "sub_num": "93604",
-          "name": "8, Mount Pleasant",
+          "name": "Mount Pleasant",
           "bbox": {
             "minLon": -80.513387,
             "minLat": 35.349689,
@@ -2340,7 +2340,7 @@
         },
         {
           "sub_num": "93688",
-          "name": "10, Midland",
+          "name": "Midland",
           "bbox": {
             "minLon": -80.577007,
             "minLat": 35.184998,
@@ -2350,7 +2350,7 @@
         },
         {
           "sub_num": "93696",
-          "name": "11, Central Cabarrus",
+          "name": "Central Cabarrus",
           "bbox": {
             "minLon": -80.631207,
             "minLat": 35.318471,
@@ -2360,7 +2360,7 @@
         },
         {
           "sub_num": "93716",
-          "name": "12, Concord",
+          "name": "Concord",
           "bbox": {
             "minLon": -80.613692,
             "minLat": 35.381229,
@@ -2370,7 +2370,7 @@
         },
         {
           "sub_num": "93284",
-          "name": "1, Harrisburg",
+          "name": "Harrisburg",
           "bbox": {
             "minLon": -80.689562,
             "minLat": 35.221814,
@@ -2380,7 +2380,7 @@
         },
         {
           "sub_num": "93436",
-          "name": "4, Kannapolis",
+          "name": "Kannapolis",
           "bbox": {
             "minLon": -80.703213,
             "minLat": 35.415408,
@@ -3976,7 +3976,7 @@
       "subdivisions": [
         {
           "sub_num": "93264",
-          "name": "1, Carthage",
+          "name": "Carthage",
           "bbox": {
             "minLon": -79.544742,
             "minLat": 35.289039,
@@ -3986,7 +3986,7 @@
         },
         {
           "sub_num": "93388",
-          "name": "3, Sheffield",
+          "name": "Sheffield",
           "bbox": {
             "minLon": -79.767957,
             "minLat": 35.409045,
@@ -3996,7 +3996,7 @@
         },
         {
           "sub_num": "93468",
-          "name": "5, Deep River",
+          "name": "Deep River",
           "bbox": {
             "minLon": -79.46228,
             "minLat": 35.407737,
@@ -4006,7 +4006,7 @@
         },
         {
           "sub_num": "93616",
-          "name": "8, Sandhills",
+          "name": "Sandhills",
           "bbox": {
             "minLon": -79.61243,
             "minLat": 35.043028,
@@ -4016,7 +4016,7 @@
         },
         {
           "sub_num": "93672",
-          "name": "10, Little River",
+          "name": "Little River",
           "bbox": {
             "minLon": -79.335437,
             "minLat": 35.161312,
@@ -4026,7 +4026,7 @@
         },
         {
           "sub_num": "93448",
-          "name": "4, Ritter",
+          "name": "Ritter",
           "bbox": {
             "minLon": -79.57519,
             "minLat": 35.408502,
@@ -4036,7 +4036,7 @@
         },
         {
           "sub_num": "93524",
-          "name": "6, Greenwood",
+          "name": "Greenwood",
           "bbox": {
             "minLon": -79.34085,
             "minLat": 35.254438,
@@ -4046,7 +4046,7 @@
         },
         {
           "sub_num": "93578",
-          "name": "7, McNeill",
+          "name": "McNeill",
           "bbox": {
             "minLon": -79.439484,
             "minLat": 35.152669,
@@ -4056,7 +4056,7 @@
         },
         {
           "sub_num": "93648",
-          "name": "9, Mineral Springs",
+          "name": "Mineral Springs",
           "bbox": {
             "minLon": -79.664791,
             "minLat": 35.150483,
@@ -4066,7 +4066,7 @@
         },
         {
           "sub_num": "93316",
-          "name": "2, Bensalem",
+          "name": "Bensalem",
           "bbox": {
             "minLon": -79.741405,
             "minLat": 35.220772,
@@ -6682,7 +6682,7 @@
       "subdivisions": [
         {
           "sub_num": "93580",
-          "name": "7, Pocket",
+          "name": "Pocket",
           "bbox": {
             "minLon": -79.359912,
             "minLat": 35.402926,
@@ -6692,7 +6692,7 @@
         },
         {
           "sub_num": "93336",
-          "name": "2, Jonesboro",
+          "name": "Jonesboro",
           "bbox": {
             "minLon": -79.206063,
             "minLat": 35.398949,
@@ -6702,7 +6702,7 @@
         },
         {
           "sub_num": "93472",
-          "name": "5, East Sanford",
+          "name": "East Sanford",
           "bbox": {
             "minLon": -79.17802,
             "minLat": 35.459799,
@@ -6712,7 +6712,7 @@
         },
         {
           "sub_num": "93372",
-          "name": "3, Cape Fear",
+          "name": "Cape Fear",
           "bbox": {
             "minLon": -79.11033,
             "minLat": 35.414787,
@@ -6722,7 +6722,7 @@
         },
         {
           "sub_num": "93548",
-          "name": "6, West Sanford",
+          "name": "West Sanford",
           "bbox": {
             "minLon": -79.284451,
             "minLat": 35.440811,
@@ -6732,7 +6732,7 @@
         },
         {
           "sub_num": "93280",
-          "name": "1, Greenwood",
+          "name": "Greenwood",
           "bbox": {
             "minLon": -79.299632,
             "minLat": 35.307161,
@@ -6742,7 +6742,7 @@
         },
         {
           "sub_num": "93428",
-          "name": "4, Deep River",
+          "name": "Deep River",
           "bbox": {
             "minLon": -79.194195,
             "minLat": 35.533003,
@@ -8638,7 +8638,7 @@
       "subdivisions": [
         {
           "sub_num": "93620",
-          "name": "8, Sparta",
+          "name": "Sparta",
           "bbox": {
             "minLon": -77.640886,
             "minLat": 35.722895,
@@ -8648,7 +8648,7 @@
         },
         {
           "sub_num": "93724",
-          "name": "12, Rocky Mount",
+          "name": "Rocky Mount",
           "bbox": {
             "minLon": -77.81657,
             "minLat": 35.879253,
@@ -8658,7 +8658,7 @@
         },
         {
           "sub_num": "93300",
-          "name": "1, Tarboro",
+          "name": "Tarboro",
           "bbox": {
             "minLon": -77.623859,
             "minLat": 35.844031,
@@ -8668,7 +8668,7 @@
         },
         {
           "sub_num": "93404",
-          "name": "3, Upper Conetoe",
+          "name": "Upper Conetoe",
           "bbox": {
             "minLon": -77.491849,
             "minLat": 35.819228,
@@ -8678,7 +8678,7 @@
         },
         {
           "sub_num": "93424",
-          "name": "4, Deep Creek",
+          "name": "Deep Creek",
           "bbox": {
             "minLon": -77.546853,
             "minLat": 35.906924,
@@ -8688,7 +8688,7 @@
         },
         {
           "sub_num": "93680",
-          "name": "10, Lower Town Creek",
+          "name": "Lower Town Creek",
           "bbox": {
             "minLon": -77.73823,
             "minLat": 35.749693,
@@ -8698,7 +8698,7 @@
         },
         {
           "sub_num": "93708",
-          "name": "11, Walnut Creek",
+          "name": "Walnut Creek",
           "bbox": {
             "minLon": -77.688418,
             "minLat": 35.818674,
@@ -8708,7 +8708,7 @@
         },
         {
           "sub_num": "93728",
-          "name": "13, Cokey",
+          "name": "Cokey",
           "bbox": {
             "minLon": -77.768006,
             "minLat": 35.78168,
@@ -8718,7 +8718,7 @@
         },
         {
           "sub_num": "93344",
-          "name": "2, Lower Conetoe",
+          "name": "Lower Conetoe",
           "bbox": {
             "minLon": -77.550933,
             "minLat": 35.761089,
@@ -8728,7 +8728,7 @@
         },
         {
           "sub_num": "93588",
-          "name": "7, Swift Creek",
+          "name": "Swift Creek",
           "bbox": {
             "minLon": -77.789654,
             "minLat": 35.938262,
@@ -8738,7 +8738,7 @@
         },
         {
           "sub_num": "93652",
-          "name": "9, Otter Creek",
+          "name": "Otter Creek",
           "bbox": {
             "minLon": -77.726329,
             "minLat": 35.674935,
@@ -8748,7 +8748,7 @@
         },
         {
           "sub_num": "93744",
-          "name": "14, Upper Town Creek",
+          "name": "Upper Town Creek",
           "bbox": {
             "minLon": -77.828444,
             "minLat": 35.836753,
@@ -8758,7 +8758,7 @@
         },
         {
           "sub_num": "93484",
-          "name": "5, Lower Fishing Creek",
+          "name": "Lower Fishing Creek",
           "bbox": {
             "minLon": -77.631077,
             "minLat": 35.925834,
@@ -8768,7 +8768,7 @@
         },
         {
           "sub_num": "93544",
-          "name": "6, Upper Fishing Creek",
+          "name": "Upper Fishing Creek",
           "bbox": {
             "minLon": -77.732998,
             "minLat": 35.991189,
@@ -8792,7 +8792,7 @@
       "subdivisions": [
         {
           "sub_num": "93668",
-          "name": "10, Lemley",
+          "name": "Lemley",
           "bbox": {
             "minLon": -80.958753,
             "minLat": 35.38956,
@@ -8802,7 +8802,7 @@
         },
         {
           "sub_num": "93268",
-          "name": "1, Charlotte",
+          "name": "Charlotte",
           "bbox": {
             "minLon": -81.009554,
             "minLat": 35.010464,
@@ -8812,7 +8812,7 @@
         },
         {
           "sub_num": "93492",
-          "name": "5, Providence",
+          "name": "Providence",
           "bbox": {
             "minLon": -80.884896,
             "minLat": 35.001692,
@@ -8822,7 +8822,7 @@
         },
         {
           "sub_num": "93636",
-          "name": "9, Deweese",
+          "name": "Deweese",
           "bbox": {
             "minLon": -80.879427,
             "minLat": 35.4407,
@@ -8832,7 +8832,7 @@
         },
         {
           "sub_num": "93736",
-          "name": "13, Morning Star",
+          "name": "Morning Star",
           "bbox": {
             "minLon": -80.737309,
             "minLat": 35.080975,
@@ -8842,7 +8842,7 @@
         },
         {
           "sub_num": "93392",
-          "name": "3, Steele Creek",
+          "name": "Steele Creek",
           "bbox": {
             "minLon": -81.058207,
             "minLat": 35.044713,
@@ -8852,7 +8852,7 @@
         },
         {
           "sub_num": "93600",
-          "name": "8, Mallard Creek",
+          "name": "Mallard Creek",
           "bbox": {
             "minLon": -80.834853,
             "minLat": 35.331592,
@@ -8862,7 +8862,7 @@
         },
         {
           "sub_num": "93720",
-          "name": "12, Paw Creek",
+          "name": "Paw Creek",
           "bbox": {
             "minLon": -81.01505,
             "minLat": 35.244045,
@@ -8872,7 +8872,7 @@
         },
         {
           "sub_num": "93564",
-          "name": "7, Crab Orchard",
+          "name": "Crab Orchard",
           "bbox": {
             "minLon": -80.722967,
             "minLat": 35.232779,
@@ -8882,7 +8882,7 @@
         },
         {
           "sub_num": "93740",
-          "name": "14, Pineville",
+          "name": "Pineville",
           "bbox": {
             "minLon": -80.919818,
             "minLat": 35.05348,
@@ -8892,7 +8892,7 @@
         },
         {
           "sub_num": "93320",
-          "name": "2, Berryhill",
+          "name": "Berryhill",
           "bbox": {
             "minLon": -81.014286,
             "minLat": 35.175191,
@@ -8902,7 +8902,7 @@
         },
         {
           "sub_num": "93516",
-          "name": "6, Clear Creek",
+          "name": "Clear Creek",
           "bbox": {
             "minLon": -80.705177,
             "minLat": 35.145725,
@@ -8912,7 +8912,7 @@
         },
         {
           "sub_num": "93700",
-          "name": "11, Long Creek",
+          "name": "Long Creek",
           "bbox": {
             "minLon": -80.986891,
             "minLat": 35.292966,
@@ -8922,7 +8922,7 @@
         },
         {
           "sub_num": "93748",
-          "name": "15, Huntersville",
+          "name": "Huntersville",
           "bbox": {
             "minLon": -80.893494,
             "minLat": 35.387303,
