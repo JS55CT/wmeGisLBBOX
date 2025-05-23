@@ -2,7 +2,7 @@
 // @name                wmeGisLBBOX
 // @namespace           https://github.com/JS55CT
 // @description         Determines which geographical divisions view a Viewport intersect with the given BBOX.
-// @version             2.5.0
+// @version             2.5.1
 // @license             MIT
 // @grant               GM_xmlhttpRequest
 // @connect             github.io
@@ -11,6 +11,11 @@
 var wmeGisLBBOX = (function () {
   // Constructor for the wmeGisLBBOX class
   const funcName = "wmeGisLBBOX";
+
+  const BASE_URL = `https://js55ct.github.io/wmeGisLBBOX/`;
+  const BASE_URL_BBOX = `${BASE_URL}BBOX%20JSON/`;
+  const BASE_URL_GEOJSON = `${BASE_URL}GEOJSON/`;
+
   function wmeGisLBBOX() {
     // Ensure class instantiation with 'new'
     if (!(this instanceof wmeGisLBBOX)) {
@@ -130,7 +135,7 @@ var wmeGisLBBOX = (function () {
    * @returns {Array} - An array of objects representing countries intersecting with the viewport.
    **/
   wmeGisLBBOX.prototype.getIntersectingCountries = async function (viewportBbox) {
-    const url = "https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
+    const url = `${BASE_URL_BBOX}COUNTRIES_BBOX_ESPG4326.json`;
     return this.fetchJsonWithCache(url)
       .then((COUNTRY_DATA) => {
         const intersectingCountries = Object.keys(COUNTRY_DATA).flatMap((code) => {
@@ -179,12 +184,10 @@ var wmeGisLBBOX = (function () {
    * - Returns an empty object if the initial fetch fails.
    *
    * URLs:
-   * - Country Data: "https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json"
    * - Subdivision Data: Dynamic URL based on country ISO_ALPHA3 code from the base URL.
    **/
   wmeGisLBBOX.prototype.getCountriesAndSubsJson = async function () {
-    const url = "https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/COUNTRIES_BBOX_ESPG4326.json";
-    const BASE_URL_BBOX = `https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/`;
+    const url = `${BASE_URL_BBOX}COUNTRIES_BBOX_ESPG4326.json`;
     const funcName = "getCountriesAndSubsJson";
 
     try {
@@ -314,7 +317,6 @@ var wmeGisLBBOX = (function () {
    * @returns {boolean|Object} - Returns true or false for intersection presence, or the full GeoJSON data.
    **/
   wmeGisLBBOX.prototype.fetchAndCheckGeoJsonIntersection = async function (countyCode, subCode, subSubCode, viewportBbox, returnGeoJson = false) {
-    const BASE_URL_GEOJSON = `https://js55ct.github.io/wmeGisLBBOX/GEOJSON/`;
     const url = `${BASE_URL_GEOJSON}${countyCode}/${subCode}/${countyCode}-${subCode}-${subSubCode}_EPSG4326.geojson`;
 
     try {
@@ -387,8 +389,7 @@ var wmeGisLBBOX = (function () {
    * @returns {Object} - A structured object detailing intersecting states, counties, and subdivisions.
    **/
   wmeGisLBBOX.prototype.getIntersectingStatesAndCounties = async function (viewportBbox, highPrecision = false, returnGeoJson = false) {
-    const BASE_URL_BBOX = `https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/USA/`;
-    const STATES_URL = `${BASE_URL_BBOX}USA_BBOX_ESPG4326.json`;
+    const STATES_URL = `${BASE_URL_BBOX}USA/USA_BBOX_ESPG4326.json`;
     const intersectingRegions = {};
 
     try {
@@ -397,7 +398,7 @@ var wmeGisLBBOX = (function () {
         const stateData = US_States[stateCode];
         if (checkIntersection(stateData.bbox, viewportBbox)) {
           const intersectingCounties = {};
-          const countiesUrl = `${BASE_URL_BBOX}/USA-${stateCode}_BBOX_ESPG4326.json`; //JS55CT
+          const countiesUrl = `${BASE_URL_BBOX}USA/USA-${stateCode}_BBOX_ESPG4326.json`; //JS55CT
           const countiesData = await this.fetchJsonWithCache(countiesUrl);
           for (const countyEntry of countiesData) {
             const countyName = Object.keys(countyEntry)[0];
@@ -488,7 +489,6 @@ var wmeGisLBBOX = (function () {
    */
   wmeGisLBBOX.prototype.getIntersectingSubdivisions = async function (countryObj, viewportBbox) {
     const subdivisionsResult = {};
-    const BASE_URL_BBOX = `https://js55ct.github.io/wmeGisLBBOX/BBOX%20JSON/`;
     const countryCode = countryObj.ISO_ALPHA3;
     const subL1Url = `${BASE_URL_BBOX}${countryCode}/${countryCode}_BBOX_ESPG4326.json`;
     const funcName = "getIntersectingSubdivisions";
@@ -584,54 +584,53 @@ var wmeGisLBBOX = (function () {
     const results = {};
     const funcName = "whatsInView";
     try {
-        const countries = await this.getIntersectingCountries(viewportBbox);
-        if (!countries || Object.keys(countries).length === 0) {
-            console.warn(`${funcName}: Viewport does not intersect with any known countries.`);
-            return results;
+      const countries = await this.getIntersectingCountries(viewportBbox);
+      if (!countries || Object.keys(countries).length === 0) {
+        console.warn(`${funcName}: Viewport does not intersect with any known countries.`);
+        return results;
+      }
+      for (const countryCode in countries) {
+        const country = countries[countryCode];
+        // Handle the case when Sub_level is 0
+        if (country.Sub_level === 0) {
+          results[country.name] = {
+            ISO_ALPHA2: country.ISO_ALPHA2,
+            ISO_ALPHA3: country.ISO_ALPHA3,
+            Sub_level: country.Sub_level,
+            source: country.source,
+            subL1: {}, // Leave subL1 empty when Sub_level is 0
+          };
+          continue;
         }
-        for (const countryCode in countries) {
-            const country = countries[countryCode];
-            // Handle the case when Sub_level is 0
-            if (country.Sub_level === 0) {
-                results[country.name] = {
-                    ISO_ALPHA2: country.ISO_ALPHA2,
-                    ISO_ALPHA3: country.ISO_ALPHA3,
-                    Sub_level: country.Sub_level,
-                    source: country.source,
-                    subL1: {}, // Leave subL1 empty when Sub_level is 0
-                };
-                continue;
-            }
-            if (country.ISO_ALPHA3 === "USA") {
-                const statesAndCounties = await this.getIntersectingStatesAndCounties(viewportBbox, highPrecision, returnGeoJson);
-                if (statesAndCounties && Object.keys(statesAndCounties).length > 0) {
-                    results[country.name] = {
-                        ISO_ALPHA2: country.ISO_ALPHA2,
-                        ISO_ALPHA3: country.ISO_ALPHA3,
-                        Sub_level: country.Sub_level,
-                        subL1: statesAndCounties,
-                    };
-                    this.cleanIntersectingData(results);
-                }
-            } else {
-                const subdivisions = await this.getIntersectingSubdivisions(country, viewportBbox);
-                if (subdivisions && Object.keys(subdivisions).length > 0) {
-                    results[country.name] = {
-                        ISO_ALPHA2: country.ISO_ALPHA2,
-                        ISO_ALPHA3: country.ISO_ALPHA3,
-                        Sub_level: country.Sub_level,
-                        subL1: subdivisions,
-                    };
-                    this.cleanIntersectingData(results);
-                }
-            }
+        if (country.ISO_ALPHA3 === "USA") {
+          const statesAndCounties = await this.getIntersectingStatesAndCounties(viewportBbox, highPrecision, returnGeoJson);
+          if (statesAndCounties && Object.keys(statesAndCounties).length > 0) {
+            results[country.name] = {
+              ISO_ALPHA2: country.ISO_ALPHA2,
+              ISO_ALPHA3: country.ISO_ALPHA3,
+              Sub_level: country.Sub_level,
+              subL1: statesAndCounties,
+            };
+            this.cleanIntersectingData(results);
+          }
+        } else {
+          const subdivisions = await this.getIntersectingSubdivisions(country, viewportBbox);
+          if (subdivisions && Object.keys(subdivisions).length > 0) {
+            results[country.name] = {
+              ISO_ALPHA2: country.ISO_ALPHA2,
+              ISO_ALPHA3: country.ISO_ALPHA3,
+              Sub_level: country.Sub_level,
+              subL1: subdivisions,
+            };
+            this.cleanIntersectingData(results);
+          }
         }
+      }
     } catch (error) {
-        console.error(`${funcName}: Error during finding intersecting regions:`, error);
+      console.error(`${funcName}: Error during finding intersecting regions:`, error);
     }
     return results;
-};
-
+  };
 
   /**
    * Determines if a given point is inside a polygon using the ray-casting algorithm.
