@@ -2,7 +2,7 @@
 // @name                WME Whats in View
 // @namespace           https://github.com/JS55CT
 // @description         Displays a popup with geographic information for the visible map region in Waze Map Editor.
-// @version             2.1.0
+// @version             2.2.0
 // @author              JS55CT
 // @match               *://*.waze.com/*editor*
 // @exclude             *://*.waze.com/user/editor*
@@ -111,17 +111,14 @@ var whatsInView = function () {
       tabLabel.title = `${scriptName}`;
 
       let geobox = document.createElement("div");
-      geobox.style.cssText = "padding: 5px; background-color: #fff; border: 2px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);";
       tabPane.appendChild(geobox);
 
       let geotitle = document.createElement("div");
       geotitle.innerHTML = GM_info.script.name;
-      geotitle.style.cssText = "text-align: center; font-size: 1.1em; font-weight: bold; color: #222;";
       geobox.appendChild(geotitle);
 
       let geoversion = document.createElement("div");
       geoversion.innerHTML = "v " + GM_info.script.version;
-      geoversion.style.cssText = "text-align: center; font-size: 0.9em; color: #222;";
       geobox.appendChild(geoversion);
 
       let geoform = document.createElement("form");
@@ -133,18 +130,57 @@ var whatsInView = function () {
       fileContainer.style.cssText = "position: relative; display: inline-block;";
 
       let hrElement0 = document.createElement("hr");
-      hrElement0.style.cssText = "margin: 5px 0; border: 0; border-top: 1px solid #ddd;";
       geoform.appendChild(hrElement0);
+
+      function applyColors(theme) {
+        const colors =
+          theme === "dark"
+            ? {
+                textColor: "var(--content_default)",
+                headerColor: "var(--content_p1)",
+                backgroundColor: "var(--background_default)",
+                borderColor: "var(--always_dark_surface_default)",
+                buttonColor: "#FFFFFF",
+                buttonBackground: "#BA68C8",
+                buttonHover: "#9C27B0",
+              }
+            : {
+                textColor: "#222",
+                headerColor: "#222",
+                backgroundColor: "#FFF",
+                borderColor: "#ddd",
+                buttonColor: "#FFFFFF",
+                buttonBackground: "#BA68C8",
+                buttonHover: "#9C27B0",
+              };
+
+        geotitle.style.cssText = `text-align: center; font-size: 1.1em; font-weight: bold; color: ${colors.headerColor};`;
+        geoversion.style.cssText = `text-align: center; font-size: 0.9em; color: ${colors.textColor};`;
+        hrElement0.style.cssText = `margin: 5px 0; border: 0; border-top: 1px solid ${colors.borderColor};`;
+      }
+
+      function detectThemeAndApplyStyles() {
+        const htmlElement = document.querySelector("html");
+        const theme = htmlElement.getAttribute("wz-theme") || "light";
+        applyColors(theme);
+      }
+
+      // Initialize styles based on current theme
+      detectThemeAndApplyStyles();
+
+      // Setup a MutationObserver to detect attribute changes
+      const observer = new MutationObserver(() => {
+        detectThemeAndApplyStyles();
+      });
+
+      // Observe changes on the `wz-theme` attribute
+      observer.observe(document.querySelector("html"), { attributes: true, attributeFilter: ["wz-theme"] });
 
       const whereInViewIButtonContainer = createButton("Whats in Veiw?", "#BA68C8", "#9C27B0", "#FFFFFF", "input");
       whereInViewIButtonContainer.onclick = () => {
         whatsInViewPopUp();
       };
       geoform.appendChild(whereInViewIButtonContainer);
-
-      let hrElement1 = document.createElement("hr");
-      hrElement1.style.cssText = "margin: 5px 0; border: 0; border-top: 1px solid #ddd;";
-      geoform.appendChild(hrElement1);
 
       wmeSDK.Events.on({
         eventName: "wme-map-move-end",
