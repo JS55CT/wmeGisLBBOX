@@ -1,20 +1,20 @@
 // ==UserScript==
 // @name                WME Whats in View
-// @namespace           https://github.com/JS55CT
+// @namespace           https://github.com/WazeDev
 // @description         Displays a popup with geographic information for the visible map region in Waze Map Editor.
-// @version             2.2.0
+// @version             2026.06.11.00
 // @author              JS55CT
 // @match               *://*.waze.com/*editor*
 // @exclude             *://*.waze.com/user/editor*
 // @exclude             *://*.waze.com/editor/sdk/*
-// @require             https://greasyfork.org/scripts/24851-wazewrap/code/WazeWrap.js
-// @require             https://js55ct.github.io/wmeGisLBBOX/wmeGisLBBOX.js
+// @require             https://WazeDev.github.io/wmeGisLBBOX/wmeGisLBBOX.js
 // @connect             github.io
 // @grant               unsafeWindow
 // @grant               GM_xmlhttpRequest
 // @license             MIT
-// @downloadURL  https://js55ct.github.io/wmeGisLBBOX/whatsInView.js
-// @updateURL    https://js55ct.github.io/wmeGisLBBOX/whatsInView.js
+// @contributionURL     https://github.com/WazeDev/Thank-The-Authors
+// @downloadURL         https://WazeDev.github.io/wmeGisLBBOX/whatsInView.js
+// @updateURL           https://WazeDev.github.io/wmeGisLBBOX/whatsInView.js
 // ==/UserScript==
 
 /*
@@ -26,7 +26,7 @@ wmeGisLBBOX
 */
 
 var whatsInView = function () {
-  "use strict";
+  'use strict';
   const scriptMetadata = GM_info.script;
   const scriptName = scriptMetadata.name;
   let debug = false;
@@ -47,12 +47,12 @@ var whatsInView = function () {
 
   function bootstrap() {
     wmeSDK = unsafeWindow.getWmeSdk({
-      scriptId: scriptName.replaceAll(" ", ""),
+      scriptId: scriptName.replaceAll(' ', ''),
       scriptName: scriptName,
     });
 
-    // Wait for both WME and WazeWrap to be ready
-    Promise.all([isWmeReady(), isWazeWrapReady()])
+    // Wait for both WME to be ready
+    Promise.all([isWmeReady()])
       .then(() => {
         console.log(`${scriptName}: All dependencies are ready.`);
         init();
@@ -67,7 +67,7 @@ var whatsInView = function () {
       if (wmeSDK && wmeSDK.State.isReady() && wmeSDK.Sidebar && wmeSDK.LayerSwitcher && wmeSDK.Shortcuts && wmeSDK.Events) {
         resolve();
       } else {
-        wmeSDK.Events.once({ eventName: "wme-ready" })
+        wmeSDK.Events.once({ eventName: 'wme-ready' })
           .then(() => {
             if (wmeSDK.Sidebar && wmeSDK.LayerSwitcher && wmeSDK.Shortcuts && wmeSDK.Events) {
               console.log(`${scriptName}: WME is fully ready now.`);
@@ -83,23 +83,7 @@ var whatsInView = function () {
       }
     });
   }
-
-  function isWazeWrapReady() {
-    return new Promise((resolve, reject) => {
-      (function check(tries = 0) {
-        if (unsafeWindow.WazeWrap && unsafeWindow.WazeWrap.Ready) {
-          resolve();
-        } else if (tries < 1000) {
-          setTimeout(() => {
-            check(++tries);
-          }, 500);
-        } else {
-          reject(`${scriptName}: WazeWrap took too long to load.`);
-        }
-      })();
-    });
-  }
-
+  
   /*********************************************************************
    * init
    *************************************************************************/
@@ -107,51 +91,51 @@ var whatsInView = function () {
     console.log(`${scriptName}: Loading User Interface ...`);
 
     wmeSDK.Sidebar.registerScriptTab().then(({ tabLabel, tabPane }) => {
-      tabLabel.textContent = "WIV";
+      tabLabel.textContent = 'WIV';
       tabLabel.title = `${scriptName}`;
 
-      let geobox = document.createElement("div");
+      let geobox = document.createElement('div');
       tabPane.appendChild(geobox);
 
-      let geotitle = document.createElement("div");
+      let geotitle = document.createElement('div');
       geotitle.innerHTML = GM_info.script.name;
       geobox.appendChild(geotitle);
 
-      let geoversion = document.createElement("div");
-      geoversion.innerHTML = "v " + GM_info.script.version;
+      let geoversion = document.createElement('div');
+      geoversion.innerHTML = 'v ' + GM_info.script.version;
       geobox.appendChild(geoversion);
 
-      let geoform = document.createElement("form");
-      geoform.style.cssText = "display: flex; flex-direction: column; gap: 0px;";
-      geoform.id = "whatsInView";
+      let geoform = document.createElement('form');
+      geoform.style.cssText = 'display: flex; flex-direction: column; gap: 0px;';
+      geoform.id = 'whatsInView';
       geobox.appendChild(geoform);
 
-      let fileContainer = document.createElement("div");
-      fileContainer.style.cssText = "position: relative; display: inline-block;";
+      let fileContainer = document.createElement('div');
+      fileContainer.style.cssText = 'position: relative; display: inline-block;';
 
-      let hrElement0 = document.createElement("hr");
+      let hrElement0 = document.createElement('hr');
       geoform.appendChild(hrElement0);
 
       function applyColors(theme) {
         const colors =
-          theme === "dark"
+          theme === 'dark'
             ? {
-                textColor: "var(--content_default)",
-                headerColor: "var(--content_p1)",
-                backgroundColor: "var(--background_default)",
-                borderColor: "var(--always_dark_surface_default)",
-                buttonColor: "#FFFFFF",
-                buttonBackground: "#BA68C8",
-                buttonHover: "#9C27B0",
+                textColor: 'var(--content_default)',
+                headerColor: 'var(--content_p1)',
+                backgroundColor: 'var(--background_default)',
+                borderColor: 'var(--always_dark_surface_default)',
+                buttonColor: '#FFFFFF',
+                buttonBackground: '#BA68C8',
+                buttonHover: '#9C27B0',
               }
             : {
-                textColor: "#222",
-                headerColor: "#222",
-                backgroundColor: "#FFF",
-                borderColor: "#ddd",
-                buttonColor: "#FFFFFF",
-                buttonBackground: "#BA68C8",
-                buttonHover: "#9C27B0",
+                textColor: '#222',
+                headerColor: '#222',
+                backgroundColor: '#FFF',
+                borderColor: '#ddd',
+                buttonColor: '#FFFFFF',
+                buttonBackground: '#BA68C8',
+                buttonHover: '#9C27B0',
               };
 
         geotitle.style.cssText = `text-align: center; font-size: 1.1em; font-weight: bold; color: ${colors.headerColor};`;
@@ -160,8 +144,8 @@ var whatsInView = function () {
       }
 
       function detectThemeAndApplyStyles() {
-        const htmlElement = document.querySelector("html");
-        const theme = htmlElement.getAttribute("wz-theme") || "light";
+        const htmlElement = document.querySelector('html');
+        const theme = htmlElement.getAttribute('wz-theme') || 'light';
         applyColors(theme);
       }
 
@@ -174,16 +158,16 @@ var whatsInView = function () {
       });
 
       // Observe changes on the `wz-theme` attribute
-      observer.observe(document.querySelector("html"), { attributes: true, attributeFilter: ["wz-theme"] });
+      observer.observe(document.querySelector('html'), { attributes: true, attributeFilter: ['wz-theme'] });
 
-      const whereInViewIButtonContainer = createButton("Whats in Veiw?", "#BA68C8", "#9C27B0", "#FFFFFF", "input");
+      const whereInViewIButtonContainer = createButton('Whats in Veiw?', '#BA68C8', '#9C27B0', '#FFFFFF', 'input');
       whereInViewIButtonContainer.onclick = () => {
         whatsInViewPopUp();
       };
       geoform.appendChild(whereInViewIButtonContainer);
 
       wmeSDK.Events.on({
-        eventName: "wme-map-move-end",
+        eventName: 'wme-map-move-end',
         eventHandler: () => {
           if (isPopupCreated) {
             whatsInViewPopUp(); // Call the update function to refresh the contents of the existing popup
@@ -192,34 +176,34 @@ var whatsInView = function () {
       });
 
       // Add Toggle Button for Debug
-      let debugToggleContainer = document.createElement("div");
+      let debugToggleContainer = document.createElement('div');
       debugToggleContainer.style.cssText = `display: flex; align-items: center; margin-top: 15px;`;
 
-      let debugToggleLabel = document.createElement("label");
+      let debugToggleLabel = document.createElement('label');
       debugToggleLabel.style.cssText = `margin-left: 10px;`;
 
       const updateDebugLabel = () => {
-        debugToggleLabel.innerText = `Debug mode ${debug ? "ON" : "OFF"}`;
+        debugToggleLabel.innerText = `Debug mode ${debug ? 'ON' : 'OFF'}`;
       };
 
-      let debugSwitchWrapper = document.createElement("label");
+      let debugSwitchWrapper = document.createElement('label');
       debugSwitchWrapper.style.cssText = `position: relative; display: inline-block; width: 40px; height: 20px; border: 1px solid #ccc; border-radius: 20px;`;
 
-      let debugToggleSwitch = document.createElement("input");
-      debugToggleSwitch.type = "checkbox";
+      let debugToggleSwitch = document.createElement('input');
+      debugToggleSwitch.type = 'checkbox';
       debugToggleSwitch.style.cssText = `opacity: 0; width: 0; height: 0;`;
 
-      let debugSwitchSlider = document.createElement("span");
+      let debugSwitchSlider = document.createElement('span');
       debugSwitchSlider.style.cssText = `position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 20px;`;
 
-      let debugInnerSpan = document.createElement("span");
+      let debugInnerSpan = document.createElement('span');
       debugInnerSpan.style.cssText = `position: absolute; height: 14px; width: 14px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%;`;
 
       debugSwitchSlider.appendChild(debugInnerSpan);
 
       const updateDebugSwitchState = () => {
-        debugSwitchSlider.style.backgroundColor = debug ? "#8BC34A" : "#ccc";
-        debugInnerSpan.style.transform = debug ? "translateX(20px)" : "translateX(0)";
+        debugSwitchSlider.style.backgroundColor = debug ? '#8BC34A' : '#ccc';
+        debugInnerSpan.style.transform = debug ? 'translateX(20px)' : 'translateX(0)';
       };
 
       // Initialize Debug Toggle State
@@ -227,11 +211,11 @@ var whatsInView = function () {
       updateDebugLabel();
       updateDebugSwitchState();
 
-      debugToggleSwitch.addEventListener("change", () => {
+      debugToggleSwitch.addEventListener('change', () => {
         debug = debugToggleSwitch.checked;
         updateDebugLabel();
         updateDebugSwitchState();
-        console.log(`${scriptName}: Debug mode is now ${debug ? "enabled" : "disabled"}`);
+        console.log(`${scriptName}: Debug mode is now ${debug ? 'enabled' : 'disabled'}`);
       });
 
       debugSwitchWrapper.appendChild(debugToggleSwitch);
@@ -241,34 +225,34 @@ var whatsInView = function () {
       geoform.appendChild(debugToggleContainer);
 
       // Add Toggle Button for High Precision
-      let highPrecisionToggleContainer = document.createElement("div");
+      let highPrecisionToggleContainer = document.createElement('div');
       highPrecisionToggleContainer.style.cssText = `display: flex; align-items: center; margin-top: 15px;`;
 
-      let highPrecisionToggleLabel = document.createElement("label");
+      let highPrecisionToggleLabel = document.createElement('label');
       highPrecisionToggleLabel.style.cssText = `margin-left: 10px;`;
 
       const updateHighPrecisionLabel = () => {
-        highPrecisionToggleLabel.innerText = `High Precision ${highPrecision ? "ON" : "OFF"}`;
+        highPrecisionToggleLabel.innerText = `High Precision ${highPrecision ? 'ON' : 'OFF'}`;
       };
 
-      let highPrecisionSwitchWrapper = document.createElement("label");
+      let highPrecisionSwitchWrapper = document.createElement('label');
       highPrecisionSwitchWrapper.style.cssText = `position: relative; display: inline-block; width: 40px; height: 20px; border: 1px solid #ccc; border-radius: 20px;`;
 
-      let highPrecisionToggleSwitch = document.createElement("input");
-      highPrecisionToggleSwitch.type = "checkbox";
+      let highPrecisionToggleSwitch = document.createElement('input');
+      highPrecisionToggleSwitch.type = 'checkbox';
       highPrecisionToggleSwitch.style.cssText = `opacity: 0; width: 0; height: 0;`;
 
-      let highPrecisionSwitchSlider = document.createElement("span");
+      let highPrecisionSwitchSlider = document.createElement('span');
       highPrecisionSwitchSlider.style.cssText = `position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; transition: .4s; border-radius: 20px;`;
 
-      let highPrecisionInnerSpan = document.createElement("span");
+      let highPrecisionInnerSpan = document.createElement('span');
       highPrecisionInnerSpan.style.cssText = `position: absolute; height: 14px; width: 14px; left: 3px; bottom: 3px; background-color: white; transition: .4s; border-radius: 50%;`;
 
       highPrecisionSwitchSlider.appendChild(highPrecisionInnerSpan);
 
       const updateHighPrecisionSwitchState = () => {
-        highPrecisionSwitchSlider.style.backgroundColor = highPrecision ? "#8BC34A" : "#ccc";
-        highPrecisionInnerSpan.style.transform = highPrecision ? "translateX(20px)" : "translateX(0)";
+        highPrecisionSwitchSlider.style.backgroundColor = highPrecision ? '#8BC34A' : '#ccc';
+        highPrecisionInnerSpan.style.transform = highPrecision ? 'translateX(20px)' : 'translateX(0)';
       };
 
       // Initialize High Precision Toggle State
@@ -276,11 +260,11 @@ var whatsInView = function () {
       updateHighPrecisionLabel();
       updateHighPrecisionSwitchState();
 
-      highPrecisionToggleSwitch.addEventListener("change", () => {
+      highPrecisionToggleSwitch.addEventListener('change', () => {
         highPrecision = highPrecisionToggleSwitch.checked;
         updateHighPrecisionLabel();
         updateHighPrecisionSwitchState();
-        console.log(`${scriptName}: High Precision is now ${highPrecision ? "enabled" : "disabled"}`);
+        console.log(`${scriptName}: High Precision is now ${highPrecision ? 'enabled' : 'disabled'}`);
       });
 
       highPrecisionSwitchWrapper.appendChild(highPrecisionToggleSwitch);
@@ -294,18 +278,18 @@ var whatsInView = function () {
   }
 
   let messagePosition = {
-    x: "50%",
-    y: "50%",
-    width: "375px",
-    height: "375px",
+    x: '50%',
+    y: '50%',
+    width: '375px',
+    height: '375px',
   };
 
   let isPopupCreated = false; // Flag to track if the popup has been created
 
   async function whatsInViewPopUp() {
     if (!isPopupCreated) {
-      const messageElement = document.createElement("div");
-      messageElement.id = "WMEwhatsInViewPopUpMessage";
+      const messageElement = document.createElement('div');
+      messageElement.id = 'WMEwhatsInViewPopUpMessage';
       messageElement.style = `
         position: absolute;
         padding: 0;
@@ -326,7 +310,7 @@ var whatsInView = function () {
         overflow: hidden;
       `;
 
-      const header = document.createElement("div");
+      const header = document.createElement('div');
       header.style = `
         background: #33ff57;
         font-weight: 300;
@@ -342,14 +326,14 @@ var whatsInView = function () {
         cursor: move;
       `;
 
-      const title = document.createElement("span");
-      title.innerText = "Whats in View?";
+      const title = document.createElement('span');
+      title.innerText = 'Whats in View?';
       header.appendChild(title);
 
-      const closeButton = document.createElement("span");
-      closeButton.textContent = "X";
+      const closeButton = document.createElement('span');
+      closeButton.textContent = 'X';
       closeButton.style = `cursor: pointer; font-size: 20px; margin-left: 10px;`;
-      closeButton.addEventListener("click", () => {
+      closeButton.addEventListener('click', () => {
         messageElement.remove();
         isPopupCreated = false;
       });
@@ -377,8 +361,8 @@ var whatsInView = function () {
       messageElement.appendChild(header);
       document.body.appendChild(messageElement);
 
-      const contentContainer = document.createElement("div");
-      contentContainer.id = "WMEwhatsInViewPopUpContent";
+      const contentContainer = document.createElement('div');
+      contentContainer.id = 'WMEwhatsInViewPopUpContent';
       contentContainer.style = `
         padding: 5px;
         height: calc(100% - 30px);
@@ -392,7 +376,7 @@ var whatsInView = function () {
 
       messageElement.appendChild(contentContainer);
 
-      const styleElement = document.createElement("style");
+      const styleElement = document.createElement('style');
       styleElement.innerHTML = `
         #WMEwhatsInViewPopUpMessage div::-webkit-scrollbar { width: 12px; }
         #WMEwhatsInViewPopUpMessage div::-webkit-scrollbar-track { background: #333333; border-radius: 10px; }
@@ -402,7 +386,7 @@ var whatsInView = function () {
       document.head.appendChild(styleElement);
 
       // Track resizing actions and update size accordingly
-      messageElement.addEventListener("mousemove", (event) => {
+      messageElement.addEventListener('mousemove', (event) => {
         if (event.buttons !== 1) return; // Only track when mouse button is held
 
         const rect = messageElement.getBoundingClientRect();
@@ -430,15 +414,15 @@ var whatsInView = function () {
     const visibleRegions = await geoPruner.whatsInView(viewportBbox, highPrecision, highPrecision);
     if (debug) console.log(`${scriptName}: WhatsInView JSON:`, visibleRegions);
 
-    const contentContainer = document.getElementById("WMEwhatsInViewPopUpContent");
-    let messageContent = "<br>";
+    const contentContainer = document.getElementById('WMEwhatsInViewPopUpContent');
+    let messageContent = '<br>';
 
     // Sort and iterate over countries
     const sortedCountries = Object.entries(visibleRegions).sort(([a], [b]) => a.localeCompare(b));
     for (let [countryName, country] of sortedCountries) {
       messageContent += `<div style="margin-left: 0;"><strong>* ${countryName} (${country.ISO_ALPHA3})</strong></div>`;
 
-      if (country.ISO_ALPHA3 === "USA" && country.subL1) {
+      if (country.ISO_ALPHA3 === 'USA' && country.subL1) {
         // Sort and iterate over states
         const sortedStates = Object.entries(country.subL1).sort(([a], [b]) => a.localeCompare(b));
         for (let [stateName, state] of sortedStates) {
@@ -474,41 +458,41 @@ var whatsInView = function () {
             }
           }
         }
-        messageContent += "<br>";
+        messageContent += '<br>';
       }
     }
 
     contentContainer.innerHTML = messageContent;
   }
 
-  function createButton(text, bgColor, mouseoverColor, textColor, type = "button", labelFor = "") {
+  function createButton(text, bgColor, mouseoverColor, textColor, type = 'button', labelFor = '') {
     let element;
 
-    if (type === "label") {
-      element = document.createElement("label");
+    if (type === 'label') {
+      element = document.createElement('label');
       element.textContent = text;
 
       if (labelFor) {
         element.htmlFor = labelFor;
       }
-    } else if (type === "input") {
-      element = document.createElement("input");
-      element.type = "button";
+    } else if (type === 'input') {
+      element = document.createElement('input');
+      element.type = 'button';
       element.value = text;
     } else {
-      element = document.createElement("button");
+      element = document.createElement('button');
       element.textContent = text;
     }
 
     element.style.cssText = `padding: 8px 0; font-size: 1rem; border: 2px solid ${bgColor}; border-radius: 20px; cursor: pointer; background-color: ${bgColor}; color: ${textColor}; 
         box-sizing: border-box; transition: background-color 0.3s, border-color 0.3s; font-weight: bold; text-align: center; width: 95%; margin: 3px;`;
 
-    element.addEventListener("mouseover", function () {
+    element.addEventListener('mouseover', function () {
       element.style.backgroundColor = mouseoverColor;
       element.style.borderColor = mouseoverColor;
     });
 
-    element.addEventListener("mouseout", function () {
+    element.addEventListener('mouseout', function () {
       element.style.backgroundColor = bgColor;
       element.style.borderColor = bgColor;
     });

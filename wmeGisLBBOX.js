@@ -1,18 +1,20 @@
 // ==UserScript==
 // @name                wmeGisLBBOX
-// @namespace           https://github.com/JS55CT
+// @namespace           https://github.com/WazeDev/
+// @author              JS55CT
 // @description         Determines which geographical divisions are in a Viewport intersect with the given BBOX.
-// @version             2.5.1
+// @version             2026.06.11.00
 // @license             MIT
 // @grant               GM_xmlhttpRequest
 // @connect             github.io
+// @contributionURL     https://github.com/WazeDev/Thank-The-Authors
 // ==/UserScript==
 
 var wmeGisLBBOX = (function () {
   // Constructor for the wmeGisLBBOX class
   const funcName = "wmeGisLBBOX";
 
-  const BASE_URL = `https://js55ct.github.io/wmeGisLBBOX/`;
+  const BASE_URL = `https://WazeDev.github.io/wmeGisLBBOX/`;
   const BASE_URL_BBOX = `${BASE_URL}BBOX%20JSON/`;
   const BASE_URL_GEOJSON = `${BASE_URL}GEOJSON/`;
 
@@ -398,7 +400,7 @@ var wmeGisLBBOX = (function () {
         const stateData = US_States[stateCode];
         if (checkIntersection(stateData.bbox, viewportBbox)) {
           const intersectingCounties = {};
-          const countiesUrl = `${BASE_URL_BBOX}USA/USA-${stateCode}_BBOX_ESPG4326.json`; //JS55CT
+          const countiesUrl = `${BASE_URL_BBOX}USA/USA-${stateCode}_BBOX_ESPG4326.json`;
           const countiesData = await this.fetchJsonWithCache(countiesUrl);
           for (const countyEntry of countiesData) {
             const countyName = Object.keys(countyEntry)[0];
